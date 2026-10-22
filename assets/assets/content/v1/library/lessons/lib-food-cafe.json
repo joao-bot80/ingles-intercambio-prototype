@@ -6,7 +6,7 @@
   "exercises": [
     {
       "type": "dialogue",
-      "title": "Episódio: For here or to go?",
+      "title": "Episódio 5: For here or to go?",
       "lines": [
         {
           "speaker": "Barista",
@@ -155,7 +155,7 @@
           "en": "cafeteria",
           "kind": "armadilha",
           "meaning": "refeitório",
-          "tip": "Cafeteria é o refeitório de escola ou empresa. Cafeteria no sentido brasileiro = coffee shop ou café."
+          "tip": "Cafeteria é um refeitório self-service, como o de uma empresa ou hospital. Cafeteria no sentido brasileiro = coffee shop ou café."
         },
         {
           "en": "chocolate",

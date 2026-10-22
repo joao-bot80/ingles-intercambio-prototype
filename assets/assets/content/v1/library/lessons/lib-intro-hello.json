@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "lib-intro-hello",
   "title": "Oi! Eu sou a Bia",
-  "scenario": "Aula online com a tutora Sam, ainda no Brasil",
+  "scenario": "Primeira conversa online com a Sam, a sua guia de inglês",
   "exercises": [
     {
       "type": "dialogue",
@@ -190,7 +190,7 @@
             "Até amanhã."
           ],
           "correct": 0,
-          "joke": "Frase de ouro para qualquer primeiro encontro: no trabalho, na viagem ou na escola."
+          "joke": "Frase de ouro para qualquer primeiro encontro: no trabalho, numa viagem ou num curso."
         }
       ]
     },

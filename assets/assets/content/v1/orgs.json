@@ -8,8 +8,8 @@
       "kind": "agency",
       "turmas": [
         {
-          "id": "griffe-ca-2027a",
-          "name": "Canadá 2027 · Turma A",
+          "id": "griffe-canada-2026-a",
+          "name": "Canadá 2026 · Turma A",
           "program": "Programa estadual de intercâmbio (exemplo)",
           "destination": "Canadá",
           "departureDate": "2027-01-24",
@@ -31,11 +31,11 @@
               "pin": "3333"
             }
           ],
-          "course": "griffe_intercambio_ca"
+          "course": "griffe_canada_2026"
         },
         {
-          "id": "griffe-ie-2027b",
-          "name": "Irlanda 2027 · Turma B",
+          "id": "griffe-irlanda-2026-b",
+          "name": "Irlanda 2026 · Turma B",
           "program": "Programa estadual de intercâmbio (exemplo)",
           "destination": "Irlanda",
           "departureDate": "2027-08-22",
@@ -52,7 +52,7 @@
               "pin": "5555"
             }
           ],
-          "course": "griffe_intercambio_ie"
+          "course": "griffe_irlanda_2026"
         }
       ]
     }

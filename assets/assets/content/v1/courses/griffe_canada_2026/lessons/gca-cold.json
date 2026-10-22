@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "id": "gca-cold",
+  "title": "Frio de verdade",
+  "scenario": "Primeira neve, na porta de casa",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 17: It's snowing!",
+      "lines": [
+        {
+          "speaker": "Emma",
+          "en": "Wow, it's snowing! Look outside!",
+          "pt": "Uau, está nevando! Olha lá fora!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "It's my first time in the snow!",
+          "pt": "É a minha primeira vez na neve!"
+        },
+        {
+          "speaker": "Emma",
+          "en": "It's minus twenty today. Wear your boots and mittens.",
+          "pt": "Está vinte graus negativos hoje. Use as suas botas e luvas."
+        },
+        {
+          "speaker": "Bia",
+          "en": "What's a toque?",
+          "pt": "O que é uma 'toque'?"
+        },
+        {
+          "speaker": "Emma",
+          "en": "A toque is a winter hat. Here, take mine.",
+          "pt": "Toque é um gorro de inverno. Toma, pega o meu."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thanks! I'm freezing!",
+          "pt": "Valeu! Estou congelando!"
+        },
+        {
+          "speaker": "Emma",
+          "en": "Don't worry, you get used to it, eh?",
+          "pt": "Não se preocupe, você se acostuma, né?"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "snow",
+          "pt": "neve",
+          "emoji": "❄️"
+        },
+        {
+          "en": "boots",
+          "pt": "botas",
+          "emoji": "🥾"
+        },
+        {
+          "en": "mittens",
+          "pt": "luvas (sem dedos)",
+          "emoji": "🧤"
+        },
+        {
+          "en": "toque",
+          "pt": "gorro de inverno",
+          "emoji": "🧶"
+        },
+        {
+          "en": "freezing",
+          "pt": "congelando",
+          "emoji": "🥶"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que é uma \"toque\" no Canadá?",
+      "lang": "pt",
+      "options": [
+        "Um gorro de inverno",
+        "Um toque no celular",
+        "Uma luva"
+      ],
+      "correct": 0,
+      "explanation": "\"Toque\" é uma palavra bem canadense. Nos EUA dizem \"beanie\"."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "É a minha primeira vez na neve!",
+      "answer": [
+        "It's",
+        "my",
+        "first",
+        "time",
+        "in",
+        "the",
+        "snow!"
+      ],
+      "distractors": [
+        "boots",
+        "cold"
+      ],
+      "explanation": "First time = primeira vez."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Wear your boots and mittens.",
+      "lang": "pt",
+      "options": [
+        "Use as suas botas e luvas.",
+        "Tire as suas botas e luvas.",
+        "Compre botas e luvas."
+      ],
+      "correct": 0,
+      "explanation": "Wear = usar, vestir (roupa)."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 4,
+      "cards": [
+        {
+          "en": "costume",
+          "kind": "armadilha",
+          "meaning": "fantasia",
+          "tip": "Costume = fantasia (de Halloween)! Costume, no sentido de hábito, = habit."
+        },
+        {
+          "en": "fabric",
+          "kind": "armadilha",
+          "meaning": "tecido",
+          "tip": "Fabric = tecido. Fábrica = factory."
+        },
+        {
+          "en": "novel",
+          "kind": "armadilha",
+          "meaning": "romance (livro)",
+          "tip": "Novel = romance (livro). Novela = soap opera."
+        },
+        {
+          "en": "hockey",
+          "kind": "quase",
+          "meaning": "hóquei",
+          "tip": "Quase: hockey. É paixão nacional no Canadá."
+        },
+        {
+          "en": "sensible",
+          "kind": "armadilha",
+          "meaning": "sensato",
+          "tip": "Sensible = sensato. Sensível = sensitive."
+        },
+        {
+          "en": "chocolate",
+          "kind": "igual",
+          "meaning": "chocolate",
+          "tip": "Igual. E chocolate quente no frio é tradição!",
+          "pt": "chocolate"
+        }
+      ]
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Bia",
+          "en": "What's a toque?",
+          "pt": "O que é uma 'toque'?"
+        }
+      ],
+      "speaker": "Emma",
+      "pt": "Toque é um gorro de inverno.",
+      "options": [
+        "A toque is a winter hat.",
+        "It's minus twenty today.",
+        "Look outside!"
+      ],
+      "correct": 0,
+      "explanation": "Winter hat = gorro de inverno."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O inverno canadense",
+      "questions": [
+        {
+          "english": "It's snowing!",
+          "options": [
+            "Está nevando!",
+            "Está chovendo!",
+            "Está ventando!"
+          ],
+          "correct": 0,
+          "joke": "Snow = neve. Snowing = nevando."
+        },
+        {
+          "english": "I'm freezing!",
+          "options": [
+            "Estou congelando!",
+            "Estou com fome!",
+            "Estou cansada!"
+          ],
+          "correct": 0,
+          "joke": "Freezing = congelando (muito frio)."
+        },
+        {
+          "english": "Wear your boots.",
+          "options": [
+            "Use as suas botas.",
+            "Tire as suas botas.",
+            "Limpe as suas botas."
+          ],
+          "correct": 0,
+          "joke": "Dica: muitas casas pedem para tirar as botas na entrada!"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica de intercâmbio",
+      "region": "Canadá",
+      "items": [
+        {
+          "emoji": "🌡️",
+          "title": "Graus Celsius",
+          "en": "It's minus twenty today.",
+          "pt": "O Canadá usa graus Celsius, como o Brasil. \"Minus twenty\" = -20 °C. Com vento, a sensação (wind chill) é ainda mais fria."
+        },
+        {
+          "emoji": "🇨🇦",
+          "title": "O famoso \"eh\"",
+          "en": "You get used to it, eh?",
+          "pt": "Muitos canadenses terminam frases com \"eh?\", parecido com o nosso \"né?\"."
+        }
+      ]
+    }
+  ]
+}

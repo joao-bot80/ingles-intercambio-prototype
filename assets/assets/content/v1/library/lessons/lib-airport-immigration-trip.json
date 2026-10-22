@@ -6,7 +6,7 @@
   "exercises": [
     {
       "type": "dialogue",
-      "title": "Episódio: Enjoy your trip!",
+      "title": "Episódio 11: Enjoy your trip!",
       "lines": [
         {
           "speaker": "Officer",
@@ -182,7 +182,7 @@
           "options": [
             "Estou aqui de férias.",
             "Estou aqui a trabalho.",
-            "Estou aqui para estudar."
+            "Estou aqui para morar."
           ],
           "correct": 0,
           "joke": "Vacation = férias."

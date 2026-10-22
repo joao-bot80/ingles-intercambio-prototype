@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "id": "gie-school-first-day",
+  "title": "Primeiro dia de aula",
+  "scenario": "Sala da year head, secondary school na Irlanda",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 12: Transition Year",
+      "lines": [
+        {
+          "speaker": "Ms. Byrne",
+          "en": "Good morning, Leo! I'm Ms. Byrne, your year head.",
+          "pt": "Bom dia, Leo! Eu sou a Ms. Byrne, a coordenadora do seu ano."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Good morning! Nice to meet you.",
+          "pt": "Bom dia! Prazer em conhecer."
+        },
+        {
+          "speaker": "Ms. Byrne",
+          "en": "You're in Transition Year. Here is your timetable.",
+          "pt": "Você está no Transition Year. Aqui está o seu horário."
+        },
+        {
+          "speaker": "Ms. Byrne",
+          "en": "Your first class is maths.",
+          "pt": "A sua primeira aula é de matemática."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Where is the maths room?",
+          "pt": "Onde fica a sala de matemática?"
+        },
+        {
+          "speaker": "Ms. Byrne",
+          "en": "It's room twelve, on the first floor.",
+          "pt": "É a sala doze, no primeiro andar."
+        },
+        {
+          "speaker": "Ms. Byrne",
+          "en": "And this is your locker.",
+          "pt": "E este é o seu armário."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thank you! What time is lunch?",
+          "pt": "Obrigado! Que horas é o almoço?"
+        },
+        {
+          "speaker": "Ms. Byrne",
+          "en": "Lunch is at one o'clock. If you need help, come to my office.",
+          "pt": "O almoço é à uma hora. Se precisar de ajuda, venha à minha sala."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "timetable",
+          "pt": "horário das aulas",
+          "emoji": "🗓️"
+        },
+        {
+          "en": "class",
+          "pt": "aula / turma",
+          "emoji": "👩‍🏫"
+        },
+        {
+          "en": "locker",
+          "pt": "armário",
+          "emoji": "🔐"
+        },
+        {
+          "en": "lunch",
+          "pt": "almoço",
+          "emoji": "🥪"
+        },
+        {
+          "en": "year head",
+          "pt": "coordenador(a) do ano",
+          "emoji": "🧑‍🏫"
+        },
+        {
+          "en": "maths",
+          "pt": "matemática",
+          "emoji": "➗"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Quem é a \"year head\" na escola?",
+      "lang": "pt",
+      "options": [
+        "A professora que acompanha o seu ano",
+        "A diretora da escola",
+        "A melhor aluna da turma"
+      ],
+      "correct": 0,
+      "explanation": "A year head (ou year tutor) acompanha os alunos de um ano: horário, dificuldades e até saudade de casa."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Onde fica a sala de matemática?",
+      "answer": [
+        "Where",
+        "is",
+        "the",
+        "maths",
+        "room?"
+      ],
+      "distractors": [
+        "lunch",
+        "locker"
+      ],
+      "explanation": "Na Irlanda e no Reino Unido é \"maths\"; nos EUA e no Canadá, \"math\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Your first class is maths.",
+      "lang": "pt",
+      "options": [
+        "A sua primeira aula é de matemática.",
+        "A sua primeira aula é à uma hora.",
+        "A sua turma é a primeira."
+      ],
+      "correct": 0,
+      "explanation": "First class = primeira aula."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ms. Byrne",
+          "en": "Here is your timetable.",
+          "pt": "Aqui está o seu horário."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Obrigado! Que horas é o almoço?",
+      "options": [
+        "Thank you! What time is lunch?",
+        "Lunch is at one o'clock.",
+        "Good morning!"
+      ],
+      "correct": 0,
+      "explanation": "Timetable = horário das aulas (nos EUA e no Canadá, \"schedule\")."
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"It's on the first floor.\" Na Irlanda, isso é...",
+      "lang": "pt",
+      "options": [
+        "Um andar acima do térreo",
+        "O térreo",
+        "O subsolo"
+      ],
+      "correct": 0,
+      "explanation": "Na Irlanda e no Reino Unido, o térreo é \"ground floor\" e o \"first floor\" é o primeiro andar acima. Nos EUA e no Canadá, \"first floor\" é o térreo!"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O primeiro dia",
+      "questions": [
+        {
+          "english": "Here is your timetable.",
+          "options": [
+            "Aqui está o seu horário.",
+            "Aqui está o seu armário.",
+            "Aqui está a sua sala."
+          ],
+          "correct": 0,
+          "joke": "Timetable = horário."
+        },
+        {
+          "english": "This is your locker.",
+          "options": [
+            "Este é o seu armário.",
+            "Esta é a sua carteira.",
+            "Esta é a sua chave."
+          ],
+          "correct": 0,
+          "joke": "Locker = armário."
+        },
+        {
+          "english": "You're in Transition Year.",
+          "options": [
+            "Você está no Transition Year.",
+            "Você está no último ano.",
+            "Você está na sala de transição."
+          ],
+          "correct": 0,
+          "joke": "Transition Year é um ano especial da escola irlandesa."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica de intercâmbio",
+      "region": "Escola · Irlanda",
+      "items": [
+        {
+          "emoji": "🎓",
+          "title": "Transition Year",
+          "en": "You're in Transition Year.",
+          "pt": "A secondary school irlandesa tem o Junior Cycle (1º ao 3º ano), o Transition Year (um ano, em geral opcional, com projetos, estágios e atividades) e o Senior Cycle (5º e 6º anos), que termina no exame Leaving Certificate. Muitos intercambistas entram no Transition Year."
+        },
+        {
+          "emoji": "👔",
+          "title": "Uniforme",
+          "en": "This is your uniform.",
+          "pt": "Na maioria das secondary schools irlandesas o uniforme é obrigatório. Confira com a escola o que comprar antes de chegar."
+        }
+      ]
+    }
+  ]
+}

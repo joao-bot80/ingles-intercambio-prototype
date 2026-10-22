@@ -1,8 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.22-3",
-  "variant": "en-US",
-  "note": "Biblioteca compartilhada: lições e unidades reutilizáveis por qualquer curso. \"variants\" troca a lição automaticamente num curso daquela variante (ex.: en-IE). Conteúdo exclusivo de cliente fica em courses/<curso ou base>/.",
+  "contentVersion": "2026.10.22-4",
+  "note": "Biblioteca do curso público: lições gerais para qualquer adulto iniciante. Cursos de clientes não usam a biblioteca: cada um tem as próprias lições em courses/<curso>/lessons/.",
   "cast": {
     "Sam": {
       "emoji": "🧭",
@@ -12,17 +11,12 @@
     "Bia": {
       "emoji": "🙋🏽‍♀️",
       "gender": "F",
-      "role": "student"
+      "role": "protagonist"
     },
     "Leo": {
       "emoji": "🙋🏾‍♂️",
       "gender": "M",
-      "role": "student"
-    },
-    "Ms. Lee": {
-      "emoji": "👩🏻‍💼",
-      "gender": "F",
-      "role": "counsellor"
+      "role": "protagonist"
     },
     "Agent": {
       "emoji": "🧑🏼‍✈️",
@@ -33,31 +27,6 @@
       "emoji": "👮🏻‍♂️",
       "gender": "M",
       "role": "border"
-    },
-    "Linda": {
-      "emoji": "👩🏼",
-      "gender": "F",
-      "role": "host"
-    },
-    "Dave": {
-      "emoji": "👨🏻",
-      "gender": "M",
-      "role": "host"
-    },
-    "Emma": {
-      "emoji": "👧🏼",
-      "gender": "F",
-      "role": "host"
-    },
-    "Mr. Brown": {
-      "emoji": "👨🏾‍🏫",
-      "gender": "M",
-      "role": "teacher"
-    },
-    "Jake": {
-      "emoji": "🧑🏻",
-      "gender": "M",
-      "role": "classmate"
     },
     "Driver": {
       "emoji": "🚌",
@@ -76,11 +45,6 @@
     },
     "Passerby": {
       "emoji": "🙂",
-      "gender": "F",
-      "role": "other"
-    },
-    "Cashier": {
-      "emoji": "🧑🏽‍🍳",
       "gender": "F",
       "role": "other"
     },
@@ -104,61 +68,23 @@
       "gender": "M",
       "role": "other"
     },
-    "Ms. Byrne": {
-      "emoji": "👩🏻‍💼",
+    "Sarah": {
+      "emoji": "👩🏽",
       "gender": "F",
-      "role": "counsellor"
+      "role": "other"
     },
-    "Mr. Walsh": {
-      "emoji": "👨🏻‍🏫",
+    "Mike": {
+      "emoji": "🧑🏼‍💼",
       "gender": "M",
-      "role": "teacher"
-    },
-    "Conor": {
-      "emoji": "🧑🏻‍🦰",
-      "gender": "M",
-      "role": "classmate"
+      "role": "other"
     }
   },
   "lessons": [
     {
-      "id": "lib-airport-baggage",
-      "title": "Bagagem e saída",
+      "id": "lib-intro-hello",
+      "title": "Oi! Eu sou a Bia",
       "tags": [
-        "intercambio"
-      ],
-      "variants": {
-        "en-IE": "lib-airport-baggage-ie"
-      }
-    },
-    {
-      "id": "lib-airport-baggage-ie",
-      "title": "Bagagem e saída",
-      "tags": [
-        "intercambio",
-        "en-IE"
-      ],
-      "variantOf": "lib-airport-baggage"
-    },
-    {
-      "id": "lib-airport-checkin",
-      "title": "Check-in e embarque",
-      "tags": [
-        "viagem"
-      ]
-    },
-    {
-      "id": "lib-airport-immigration-study",
-      "title": "Na imigração",
-      "tags": [
-        "intercambio"
-      ]
-    },
-    {
-      "id": "lib-airport-immigration-trip",
-      "title": "Na imigração",
-      "tags": [
-        "viagem"
+        "geral"
       ]
     },
     {
@@ -169,366 +95,73 @@
       ]
     },
     {
-      "id": "lib-canada-coffee",
-      "title": "Tim Hortons e o jeito canadense",
+      "id": "lib-daily-routine",
+      "title": "Horas e rotina",
       "tags": [
-        "destino:CA"
+        "geral"
       ]
     },
     {
-      "id": "lib-canada-cold",
-      "title": "Frio de verdade",
+      "id": "lib-work-smalltalk",
+      "title": "Conversa no trabalho",
       "tags": [
-        "destino:CA"
+        "geral"
       ]
-    },
-    {
-      "id": "lib-city-bus",
-      "title": "Ônibus e direções",
-      "tags": [
-        "geral",
-        "viagem"
-      ],
-      "variants": {
-        "en-IE": "lib-city-bus-ie"
-      }
-    },
-    {
-      "id": "lib-city-bus-ie",
-      "title": "Ônibus e direções",
-      "tags": [
-        "geral",
-        "viagem",
-        "en-IE"
-      ],
-      "variantOf": "lib-city-bus"
-    },
-    {
-      "id": "lib-city-help",
-      "title": "Pedindo ajuda",
-      "tags": [
-        "geral",
-        "viagem"
-      ],
-      "variants": {
-        "en-IE": "lib-city-help-ie"
-      }
-    },
-    {
-      "id": "lib-city-help-ie",
-      "title": "Pedindo ajuda",
-      "tags": [
-        "geral",
-        "viagem",
-        "en-IE"
-      ],
-      "variantOf": "lib-city-help"
     },
     {
       "id": "lib-food-cafe",
       "title": "No café",
       "tags": [
-        "geral",
-        "viagem"
+        "geral"
       ]
     },
     {
       "id": "lib-food-restaurant",
       "title": "No restaurante",
       "tags": [
-        "geral",
-        "viagem"
+        "geral"
       ]
     },
     {
-      "id": "lib-host-arrival",
-      "title": "Chegando em casa",
+      "id": "lib-shop-store",
+      "title": "Nas compras",
       "tags": [
-        "intercambio"
-      ],
-      "variants": {
-        "en-IE": "lib-host-arrival-ie"
-      }
-    },
-    {
-      "id": "lib-host-arrival-ie",
-      "title": "Chegando em casa",
-      "tags": [
-        "intercambio",
-        "en-IE"
-      ],
-      "variantOf": "lib-host-arrival"
-    },
-    {
-      "id": "lib-host-dinner",
-      "title": "Na hora do jantar",
-      "tags": [
-        "intercambio"
+        "geral"
       ]
     },
     {
-      "id": "lib-host-rules",
-      "title": "Regras e rotina",
+      "id": "lib-city-bus",
+      "title": "Ônibus e direções",
       "tags": [
-        "intercambio"
+        "geral"
+      ]
+    },
+    {
+      "id": "lib-city-help",
+      "title": "Pedindo ajuda",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "id": "lib-airport-checkin",
+      "title": "Check-in e embarque",
+      "tags": [
+        "geral"
+      ]
+    },
+    {
+      "id": "lib-airport-immigration-trip",
+      "title": "Na imigração",
+      "tags": [
+        "geral"
       ]
     },
     {
       "id": "lib-hotel-checkin",
       "title": "No hotel",
       "tags": [
-        "viagem"
-      ]
-    },
-    {
-      "id": "lib-intro-hello",
-      "title": "Oi! Eu sou a Bia",
-      "tags": [
         "geral"
-      ]
-    },
-    {
-      "id": "lib-intro-numbers",
-      "title": "Números e idade",
-      "tags": [
-        "intercambio"
-      ],
-      "variants": {
-        "en-IE": "lib-intro-numbers-ie"
-      }
-    },
-    {
-      "id": "lib-intro-numbers-ie",
-      "title": "Números e idade",
-      "tags": [
-        "intercambio",
-        "en-IE"
-      ],
-      "variantOf": "lib-intro-numbers"
-    },
-    {
-      "id": "lib-intro-spelling",
-      "title": "Soletrando o nome",
-      "tags": [
-        "intercambio"
-      ],
-      "variants": {
-        "en-IE": "lib-intro-spelling-ie"
-      }
-    },
-    {
-      "id": "lib-intro-spelling-ie",
-      "title": "Soletrando o nome",
-      "tags": [
-        "intercambio",
-        "en-IE"
-      ],
-      "variantOf": "lib-intro-spelling"
-    },
-    {
-      "id": "lib-ireland-craic",
-      "title": "Grand, craic e boas maneiras",
-      "tags": [
-        "destino:IE",
-        "en-IE"
-      ]
-    },
-    {
-      "id": "lib-ireland-weather",
-      "title": "Chuva, sol e fila",
-      "tags": [
-        "destino:IE",
-        "en-IE"
-      ]
-    },
-    {
-      "id": "lib-school-classroom",
-      "title": "Na sala de aula",
-      "tags": [
-        "intercambio"
-      ],
-      "variants": {
-        "en-IE": "lib-school-classroom-ie"
-      }
-    },
-    {
-      "id": "lib-school-classroom-ie",
-      "title": "Na sala de aula",
-      "tags": [
-        "intercambio",
-        "en-IE"
-      ],
-      "variantOf": "lib-school-classroom"
-    },
-    {
-      "id": "lib-school-first-day",
-      "title": "Primeiro dia de aula",
-      "tags": [
-        "intercambio"
-      ],
-      "variants": {
-        "en-IE": "lib-school-first-day-ie"
-      }
-    },
-    {
-      "id": "lib-school-first-day-ie",
-      "title": "Primeiro dia de aula",
-      "tags": [
-        "intercambio",
-        "en-IE"
-      ],
-      "variantOf": "lib-school-first-day"
-    },
-    {
-      "id": "lib-school-friends",
-      "title": "Fazendo amigos",
-      "tags": [
-        "intercambio"
-      ],
-      "variants": {
-        "en-IE": "lib-school-friends-ie"
-      }
-    },
-    {
-      "id": "lib-school-friends-ie",
-      "title": "Fazendo amigos",
-      "tags": [
-        "intercambio",
-        "en-IE"
-      ],
-      "variantOf": "lib-school-friends"
-    },
-    {
-      "id": "lib-shop-store",
-      "title": "Nas compras",
-      "tags": [
-        "geral",
-        "viagem"
-      ]
-    }
-  ],
-  "units": [
-    {
-      "id": "intro-exchange",
-      "title": "Primeiros passos",
-      "subtitle": "Apresentar-se, soletrar o nome, idade e números",
-      "emoji": "👋",
-      "lessons": [
-        "lib-intro-hello",
-        "lib-intro-spelling",
-        "lib-intro-numbers"
-      ],
-      "tags": [
-        "intercambio"
-      ]
-    },
-    {
-      "id": "airport-exchange",
-      "title": "Aeroporto e imigração",
-      "subtitle": "Check-in, perguntas da imigração, bagagem",
-      "emoji": "✈️",
-      "lessons": [
-        "lib-airport-checkin",
-        "lib-airport-immigration-study",
-        "lib-airport-baggage"
-      ],
-      "tags": [
-        "intercambio"
-      ]
-    },
-    {
-      "id": "host-family",
-      "title": "Casa de família",
-      "subtitle": "Chegada, regras da casa, refeições",
-      "emoji": "🏠",
-      "lessons": [
-        "lib-host-arrival",
-        "lib-host-rules",
-        "lib-host-dinner"
-      ],
-      "tags": [
-        "intercambio"
-      ]
-    },
-    {
-      "id": "school",
-      "title": "Escola",
-      "subtitle": "Primeiro dia, sala de aula, amigos",
-      "emoji": "🏫",
-      "lessons": [
-        "lib-school-first-day",
-        "lib-school-classroom",
-        "lib-school-friends"
-      ],
-      "tags": [
-        "intercambio"
-      ]
-    },
-    {
-      "id": "city",
-      "title": "Cidade e emergência",
-      "subtitle": "Ônibus, pedir direção, farmácia e emergência",
-      "emoji": "🚌",
-      "lessons": [
-        "lib-city-bus",
-        "lib-city-help"
-      ],
-      "tags": [
-        "geral",
-        "viagem"
-      ]
-    },
-    {
-      "id": "canada",
-      "title": "Canadá: o dia a dia",
-      "subtitle": "Inverno de verdade, Tim Hortons, \"sorry\" e \"eh\"",
-      "emoji": "🍁",
-      "lessons": [
-        "lib-canada-cold",
-        "lib-canada-coffee"
-      ],
-      "tags": [
-        "destino:CA"
-      ]
-    },
-    {
-      "id": "food",
-      "title": "Café e restaurante",
-      "subtitle": "Pedir, perguntar o preço, pedir a conta",
-      "emoji": "☕",
-      "lessons": [
-        "lib-food-cafe",
-        "lib-food-restaurant"
-      ],
-      "tags": [
-        "geral",
-        "viagem"
-      ]
-    },
-    {
-      "id": "hotel-shopping",
-      "title": "Hotel e compras",
-      "subtitle": "Check-in no hotel, tamanhos, pagar",
-      "emoji": "🏨",
-      "lessons": [
-        "lib-hotel-checkin",
-        "lib-shop-store"
-      ],
-      "tags": [
-        "viagem"
-      ]
-    },
-    {
-      "id": "ireland",
-      "title": "Irlanda: o dia a dia",
-      "subtitle": "Chuva, fila, \"grand\", \"craic\" e euro",
-      "emoji": "☘️",
-      "lessons": [
-        "lib-ireland-weather",
-        "lib-ireland-craic"
-      ],
-      "tags": [
-        "destino:IE"
       ]
     }
   ]

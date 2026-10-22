@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "id": "gie-city-help",
+  "title": "Pedindo ajuda",
+  "scenario": "Farmácia e uma ligação para o 112, na Irlanda",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 16: I need help",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Excuse me, I feel sick.",
+          "pt": "Com licença, eu estou passando mal."
+        },
+        {
+          "speaker": "Pharmacist",
+          "en": "What's wrong?",
+          "pt": "O que você está sentindo?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I have a headache and a sore throat.",
+          "pt": "Estou com dor de cabeça e dor de garganta."
+        },
+        {
+          "speaker": "Pharmacist",
+          "en": "Do you have a fever?",
+          "pt": "Você está com febre?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I don't know. I'm cold.",
+          "pt": "Não sei. Estou com frio."
+        },
+        {
+          "speaker": "Pharmacist",
+          "en": "Please see a doctor today.",
+          "pt": "Por favor, vá ao médico hoje."
+        },
+        {
+          "speaker": "Operator",
+          "en": "Emergency, which service?",
+          "pt": "Emergência, qual serviço?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Ambulance, please! I need help. My friend is hurt.",
+          "pt": "Ambulância, por favor! Preciso de ajuda. Meu amigo está machucado."
+        },
+        {
+          "speaker": "Operator",
+          "en": "Where are you?",
+          "pt": "Onde você está?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I'm at the bus stop on O'Connell Street.",
+          "pt": "Estou no ponto de ônibus da O'Connell Street."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "help",
+          "pt": "ajuda / ajudar",
+          "emoji": "🆘"
+        },
+        {
+          "en": "sick",
+          "pt": "doente / passando mal",
+          "emoji": "🤒"
+        },
+        {
+          "en": "headache",
+          "pt": "dor de cabeça",
+          "emoji": "🤕"
+        },
+        {
+          "en": "doctor",
+          "pt": "médico / médica",
+          "emoji": "🩺"
+        },
+        {
+          "en": "hurt",
+          "pt": "machucado / machucada",
+          "emoji": "🩹"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Emergência! O que você diz?",
+      "lang": "en",
+      "options": [
+        "I need help!",
+        "I'm cold.",
+        "Thanks a million!"
+      ],
+      "correct": 0,
+      "explanation": "\"I need help!\" = preciso de ajuda! Fale alto e claro."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu estou passando mal.",
+      "answer": [
+        "I",
+        "feel",
+        "sick."
+      ],
+      "distractors": [
+        "hurt",
+        "help"
+      ],
+      "explanation": "I feel sick = estou passando mal / me sinto doente."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Emergency, which service?",
+      "lang": "pt",
+      "options": [
+        "Emergência, qual serviço?",
+        "Onde você está?",
+        "O que você está sentindo?"
+      ],
+      "correct": 0,
+      "explanation": "Na Irlanda, quem atende o 112/999 pergunta primeiro qual serviço: ambulance (ambulância), fire brigade (bombeiros) ou Gardaí (polícia)."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Operator",
+          "en": "Where are you?",
+          "pt": "Onde você está?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Estou no ponto de ônibus da O'Connell Street.",
+      "options": [
+        "I'm at the bus stop on O'Connell Street.",
+        "I need help!",
+        "I don't know."
+      ],
+      "correct": 0,
+      "explanation": "No 112/999, o mais importante é dizer ONDE você está."
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Na Irlanda, os números de emergência são:",
+      "lang": "pt",
+      "options": [
+        "112 ou 999",
+        "911",
+        "190"
+      ],
+      "correct": 0,
+      "explanation": "112 e 999 funcionam na Irlanda; o 112 funciona em toda a União Europeia. 911 é dos EUA e do Canadá."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Pedindo ajuda",
+      "questions": [
+        {
+          "english": "I have a headache.",
+          "options": [
+            "Estou com dor de cabeça.",
+            "Estou com dor de garganta.",
+            "Estou com febre."
+          ],
+          "correct": 0,
+          "joke": "Head = cabeça. Ache = dor."
+        },
+        {
+          "english": "Do you have a fever?",
+          "options": [
+            "Você está com febre?",
+            "Você está com frio?",
+            "Você está com fome?"
+          ],
+          "correct": 0,
+          "joke": "Fever = febre."
+        },
+        {
+          "english": "My friend is hurt.",
+          "options": [
+            "Meu amigo está machucado.",
+            "Meu amigo está cansado.",
+            "Meu amigo está doente."
+          ],
+          "correct": 0,
+          "joke": "Hurt = machucado."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Saúde e segurança · Irlanda",
+      "items": [
+        {
+          "emoji": "🚨",
+          "title": "112 / 999",
+          "en": "Emergency, which service?",
+          "pt": "Na Irlanda, ligue 112 ou 999. Diga o serviço (ambulance, fire brigade ou Gardaí, a polícia) e ONDE você está. Se não conseguir falar inglês, peça: \"Portuguese, please\"."
+        },
+        {
+          "emoji": "📱",
+          "title": "Contatos de emergência",
+          "en": "My emergency contact",
+          "pt": "Salve no celular os seus contatos de emergência: o hotel ou quem te hospeda, o seguro-viagem e alguém da sua família. Se estiver passando mal, avise alguém."
+        }
+      ]
+    }
+  ]
+}

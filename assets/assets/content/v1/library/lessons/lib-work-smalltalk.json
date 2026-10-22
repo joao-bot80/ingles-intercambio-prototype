@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "id": "lib-work-smalltalk",
+  "title": "Conversa no trabalho",
+  "scenario": "Primeiro dia num emprego novo, na copa do escritório",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 4: How was your weekend?",
+      "lines": [
+        {
+          "speaker": "Mike",
+          "en": "Hi! You're new here, right?",
+          "pt": "Oi! Você é novo aqui, né?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes, I am. I'm Leo. I'm the new designer.",
+          "pt": "Sou, sim. Eu sou o Leo. Sou o novo designer."
+        },
+        {
+          "speaker": "Mike",
+          "en": "Nice to meet you, Leo. I'm Mike. I work in sales.",
+          "pt": "Prazer, Leo. Eu sou o Mike. Trabalho em vendas."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Nice to meet you too. Is this the kitchen?",
+          "pt": "O prazer é meu. Aqui é a copa?"
+        },
+        {
+          "speaker": "Mike",
+          "en": "Yes. The coffee is over there.",
+          "pt": "É, sim. O café fica ali."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Great! How was your weekend?",
+          "pt": "Ótimo! Como foi o seu fim de semana?"
+        },
+        {
+          "speaker": "Mike",
+          "en": "It was good, thanks. I went to the beach. And yours?",
+          "pt": "Foi bom, obrigado. Fui à praia. E o seu?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "It was quiet. I stayed home.",
+          "pt": "Foi tranquilo. Fiquei em casa."
+        },
+        {
+          "speaker": "Mike",
+          "en": "The meeting is at ten. See you there!",
+          "pt": "A reunião é às dez. Te vejo lá!"
+        },
+        {
+          "speaker": "Leo",
+          "en": "See you!",
+          "pt": "Até já!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "new",
+          "pt": "novo",
+          "emoji": "🆕"
+        },
+        {
+          "en": "sales",
+          "pt": "vendas",
+          "emoji": "📈"
+        },
+        {
+          "en": "kitchen",
+          "pt": "cozinha, copa",
+          "emoji": "☕"
+        },
+        {
+          "en": "weekend",
+          "pt": "fim de semana",
+          "emoji": "🗓️"
+        },
+        {
+          "en": "beach",
+          "pt": "praia",
+          "emoji": "🏖️"
+        },
+        {
+          "en": "meeting",
+          "pt": "reunião",
+          "emoji": "👥"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"How was your weekend?\" pergunta...",
+      "lang": "pt",
+      "options": [
+        "Como foi o seu fim de semana?",
+        "Onde você trabalha?",
+        "A que horas é a reunião?"
+      ],
+      "correct": 0,
+      "explanation": "Weekend = fim de semana. É a pergunta clássica de segunda-feira."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu trabalho em vendas.",
+      "answer": [
+        "I",
+        "work",
+        "in",
+        "sales."
+      ],
+      "distractors": [
+        "meeting",
+        "beach"
+      ],
+      "explanation": "Work in = trabalhar em (uma área). Sales = vendas."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "The meeting is at ten.",
+      "lang": "pt",
+      "options": [
+        "A reunião é às dez.",
+        "A reunião é às duas.",
+        "A reunião é amanhã."
+      ],
+      "correct": 0,
+      "explanation": "Meeting = reunião. At ten = às dez."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Mike",
+          "en": "How was your weekend?",
+          "pt": "Como foi o seu fim de semana?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Foi tranquilo. Fiquei em casa.",
+      "options": [
+        "It was quiet. I stayed home.",
+        "See you there!",
+        "I'm the new designer."
+      ],
+      "correct": 0,
+      "explanation": "It was quiet = foi tranquilo. I stayed home = fiquei em casa."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 3,
+      "cards": [
+        {
+          "en": "push",
+          "kind": "armadilha",
+          "meaning": "empurrar",
+          "tip": "Na porta, PUSH = empurre e PULL = puxe. Não confunda push com \"puxar\"!"
+        },
+        {
+          "en": "parents",
+          "kind": "armadilha",
+          "meaning": "pai e mãe",
+          "tip": "\"Parentes\" em inglês é \"relatives\". Parents são só o pai e a mãe."
+        },
+        {
+          "en": "designer",
+          "kind": "igual",
+          "meaning": "designer",
+          "tip": "Mesma palavra e mesmo sentido.",
+          "pt": "designer"
+        },
+        {
+          "en": "computer",
+          "kind": "quase",
+          "meaning": "computador",
+          "tip": "Quase igual ao português: computer = computador."
+        }
+      ]
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A reunião",
+      "questions": [
+        {
+          "english": "You're new here, right?",
+          "options": [
+            "Você é novo aqui, né?",
+            "Você trabalha aqui?",
+            "Você mora aqui?"
+          ],
+          "correct": 0,
+          "joke": "New = novo."
+        },
+        {
+          "english": "I work in sales.",
+          "options": [
+            "Eu trabalho em vendas.",
+            "Eu trabalho em casa.",
+            "Eu trabalho de manhã."
+          ],
+          "correct": 0,
+          "joke": "Sales = vendas."
+        },
+        {
+          "english": "See you there!",
+          "options": [
+            "Te vejo lá!",
+            "Até amanhã!",
+            "Bom fim de semana!"
+          ],
+          "correct": 0,
+          "joke": "There = lá."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Trabalho",
+      "items": [
+        {
+          "emoji": "☕",
+          "title": "Small talk",
+          "en": "How was your weekend?",
+          "pt": "Conversa rápida sobre o fim de semana, o tempo ou o trânsito é normal no trabalho. Responda curto, com simpatia, e devolva a pergunta: \"And yours?\""
+        },
+        {
+          "emoji": "🤝",
+          "title": "Nome e função",
+          "en": "I'm Leo. I'm the new designer.",
+          "pt": "Ao se apresentar no trabalho, diga o nome e a função. Antes da profissão, use \"a\" ou \"an\": \"I'm a designer\", \"I'm an engineer\"."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "id": "lib-daily-routine",
+  "title": "Horas e rotina",
+  "scenario": "Café da manhã num dia de semana",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 3: What time is it?",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Good morning! What time is it?",
+          "pt": "Bom dia! Que horas são?"
+        },
+        {
+          "speaker": "Sarah",
+          "en": "It's seven thirty.",
+          "pt": "São sete e meia."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Oh no! I'm late!",
+          "pt": "Ah, não! Estou atrasado!"
+        },
+        {
+          "speaker": "Sarah",
+          "en": "What time do you start work?",
+          "pt": "Que horas você começa a trabalhar?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I start at eight.",
+          "pt": "Eu começo às oito."
+        },
+        {
+          "speaker": "Sarah",
+          "en": "Do you have breakfast every day?",
+          "pt": "Você toma café da manhã todo dia?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes, I do. Coffee and bread.",
+          "pt": "Tomo, sim. Café e pão."
+        },
+        {
+          "speaker": "Sarah",
+          "en": "What do you do after work?",
+          "pt": "O que você faz depois do trabalho?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I go to the gym. And you?",
+          "pt": "Eu vou para a academia. E você?"
+        },
+        {
+          "speaker": "Sarah",
+          "en": "I go home and cook dinner.",
+          "pt": "Eu vou para casa e faço o jantar."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "time",
+          "pt": "hora, horário",
+          "emoji": "⏰"
+        },
+        {
+          "en": "late",
+          "pt": "atrasado",
+          "emoji": "⏳"
+        },
+        {
+          "en": "work",
+          "pt": "trabalho",
+          "emoji": "💼"
+        },
+        {
+          "en": "breakfast",
+          "pt": "café da manhã",
+          "emoji": "🥐"
+        },
+        {
+          "en": "every day",
+          "pt": "todo dia",
+          "emoji": "📅"
+        },
+        {
+          "en": "gym",
+          "pt": "academia",
+          "emoji": "🏋️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como perguntar as horas?",
+      "lang": "en",
+      "options": [
+        "What time is it?",
+        "I'm late!",
+        "I start at eight."
+      ],
+      "correct": 0,
+      "explanation": "\"What time is it?\" = Que horas são? Serve em qualquer lugar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu começo às oito.",
+      "answer": [
+        "I",
+        "start",
+        "at",
+        "eight."
+      ],
+      "distractors": [
+        "late",
+        "gym"
+      ],
+      "explanation": "Start = começar. At eight = às oito."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "It's seven thirty.",
+      "lang": "pt",
+      "options": [
+        "São sete e meia.",
+        "São oito horas.",
+        "São sete e quinze."
+      ],
+      "correct": 0,
+      "explanation": "Thirty = trinta. Seven thirty = 7h30."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sarah",
+          "en": "What do you do after work?",
+          "pt": "O que você faz depois do trabalho?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Eu vou para a academia. E você?",
+      "options": [
+        "I go to the gym. And you?",
+        "I'm late!",
+        "Coffee and bread."
+      ],
+      "correct": 0,
+      "explanation": "Gym = academia. \"And you?\" devolve a pergunta."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 3,
+      "cards": [
+        {
+          "en": "academy",
+          "kind": "armadilha",
+          "meaning": "instituição de ensino",
+          "tip": "Academia de ginástica é \"gym\". Academy é uma instituição de ensino."
+        },
+        {
+          "en": "hotel",
+          "kind": "igual",
+          "meaning": "hotel",
+          "tip": "Mesma grafia e mesmo sentido.",
+          "pt": "hotel"
+        },
+        {
+          "en": "pretend",
+          "kind": "armadilha",
+          "meaning": "fingir",
+          "tip": "\"Pretender\" (ter a intenção) é \"plan\" ou \"intend\". Pretend é fingir."
+        },
+        {
+          "en": "minute",
+          "kind": "quase",
+          "meaning": "minuto",
+          "tip": "Quase igual ao português: minute = minuto."
+        }
+      ]
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O despertador",
+      "questions": [
+        {
+          "english": "What time is it?",
+          "options": [
+            "Que horas são?",
+            "Que dia é hoje?",
+            "Onde você está?"
+          ],
+          "correct": 0,
+          "joke": "What time = que horas."
+        },
+        {
+          "english": "I'm late!",
+          "options": [
+            "Estou atrasado!",
+            "Estou cansado!",
+            "Estou com fome!"
+          ],
+          "correct": 0,
+          "joke": "Late = atrasado."
+        },
+        {
+          "english": "I go home and cook dinner.",
+          "options": [
+            "Eu vou para casa e faço o jantar.",
+            "Eu vou para a academia.",
+            "Eu tomo café da manhã."
+          ],
+          "correct": 0,
+          "joke": "Cook dinner = fazer o jantar."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Dia a dia",
+      "items": [
+        {
+          "emoji": "🕖",
+          "title": "a.m. e p.m.",
+          "en": "Seven a.m.",
+          "pt": "Em muitos países de língua inglesa se usa o relógio de 12 horas: 7 a.m. é de manhã e 7 p.m. é de noite. \"Seven thirty\" = 7h30."
+        },
+        {
+          "emoji": "🗓️",
+          "title": "De segunda a sexta",
+          "en": "Monday to Friday",
+          "pt": "Dias úteis em inglês: Monday, Tuesday, Wednesday, Thursday, Friday. Fim de semana: Saturday e Sunday, o \"weekend\"."
+        }
+      ]
+    }
+  ]
+}

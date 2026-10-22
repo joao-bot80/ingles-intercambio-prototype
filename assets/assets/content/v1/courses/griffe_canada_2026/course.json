@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "id": "griffe_canada_2026",
+  "owner": "griffe",
+  "title": "Griffe Canadá 2026",
+  "branding": {
+    "headline": "Griffe Canadá 2026",
+    "tagline": "O inglês da sua viagem com a Griffe para o Canadá",
+    "emoji": "🍁"
+  },
+  "audience": "Turma Griffe Canadá 2026: adolescentes de escola pública, inglês bem básico (pré-A1/A1)",
+  "destination": "CA",
+  "variant": "en-CA",
+  "contentVersion": "2026.10.22-4",
+  "cast": {
+    "Ms. Lee": {
+      "emoji": "👩🏻‍💼",
+      "gender": "F",
+      "role": "counsellor"
+    },
+    "Linda": {
+      "emoji": "👩🏼",
+      "gender": "F",
+      "role": "host"
+    },
+    "Dave": {
+      "emoji": "👨🏻",
+      "gender": "M",
+      "role": "host"
+    },
+    "Emma": {
+      "emoji": "👧🏼",
+      "gender": "F",
+      "role": "host"
+    },
+    "Mr. Brown": {
+      "emoji": "👨🏾‍🏫",
+      "gender": "M",
+      "role": "teacher"
+    },
+    "Jake": {
+      "emoji": "🧑🏻",
+      "gender": "M",
+      "role": "classmate"
+    },
+    "Cashier": {
+      "emoji": "🧑🏽‍🍳",
+      "gender": "F",
+      "role": "other"
+    }
+  },
+  "lessons": [
+    {
+      "id": "gca-hello",
+      "title": "Oi! Eu vou para o Canadá"
+    },
+    {
+      "id": "gca-spelling",
+      "title": "Soletrando o nome"
+    },
+    {
+      "id": "gca-numbers",
+      "title": "Números e idade"
+    },
+    {
+      "id": "gca-videocall",
+      "title": "Videochamada com a família"
+    },
+    {
+      "id": "gca-backpack",
+      "title": "Mochila pronta, grupo junto"
+    },
+    {
+      "id": "gca-checkin",
+      "title": "Check-in e embarque"
+    },
+    {
+      "id": "gca-immigration",
+      "title": "Na imigração"
+    },
+    {
+      "id": "gca-baggage",
+      "title": "Bagagem e saída"
+    },
+    {
+      "id": "gca-host-arrival",
+      "title": "Chegando em casa"
+    },
+    {
+      "id": "gca-host-rules",
+      "title": "Regras e rotina"
+    },
+    {
+      "id": "gca-host-dinner",
+      "title": "Na hora do jantar"
+    },
+    {
+      "id": "gca-school-first-day",
+      "title": "Primeiro dia de aula"
+    },
+    {
+      "id": "gca-school-classroom",
+      "title": "Na sala de aula"
+    },
+    {
+      "id": "gca-school-friends",
+      "title": "Fazendo amigos"
+    },
+    {
+      "id": "gca-city-bus",
+      "title": "Ônibus e direções"
+    },
+    {
+      "id": "gca-city-help",
+      "title": "Pedindo ajuda"
+    },
+    {
+      "id": "gca-cold",
+      "title": "Frio de verdade"
+    },
+    {
+      "id": "gca-coffee",
+      "title": "Tim Hortons e o jeito canadense"
+    }
+  ],
+  "units": [
+    {
+      "id": "gca-intro",
+      "title": "Primeiros passos",
+      "subtitle": "Apresentar-se, soletrar o nome, idade e telefone",
+      "emoji": "👋",
+      "lessons": [
+        "gca-hello",
+        "gca-spelling",
+        "gca-numbers"
+      ]
+    },
+    {
+      "id": "gca-before",
+      "title": "Antes do embarque com a Griffe",
+      "subtitle": "Família anfitriã, documentos e grupo",
+      "emoji": "🧳",
+      "lessons": [
+        "gca-videocall",
+        "gca-backpack"
+      ],
+      "checklist": {
+        "id": "gca-checklist",
+        "title": "Checklist de embarque",
+        "subtitle": "Orientações da Griffe Viagens",
+        "emoji": "✅",
+        "note": "Protótipo: itens de exemplo. A lista oficial vem da Griffe Viagens e dos órgãos do governo do país de destino. Regras, prazos e valores mudam: confira sempre na fonte oficial.",
+        "sections": [
+          {
+            "title": "🛂 Documentos (confira com a Griffe)",
+            "items": [
+              "Passaporte válido (confira a validade com a agência)",
+              "Documento de entrada exigido para o seu caso no país de destino: siga a orientação da Griffe e o site oficial do governo do país",
+              "Carta de aceitação da escola (impressa e no celular)",
+              "Autorização de viagem do menor assinada pelos responsáveis (quando aplicável)",
+              "Comprovante do seguro-saúde",
+              "Endereço e telefone da família anfitriã anotados no papel"
+            ]
+          },
+          {
+            "title": "🗣️ Inglês antes de embarcar",
+            "items": [
+              "Concluir a unidade Primeiros passos",
+              "Concluir a unidade Aeroporto e imigração no Canadá",
+              "Saber soletrar o nome do passaporte em inglês",
+              "Treinar em voz alta as respostas da imigração"
+            ]
+          },
+          {
+            "title": "📞 Contatos",
+            "items": [
+              "Plantão da Griffe Viagens: [telefone a definir]",
+              "Monitor do grupo: [nome e telefone a definir]"
+            ]
+          },
+          {
+            "title": "🧳 Mala (Canadá)",
+            "items": [
+              "Casaco quente, gorro, luvas e botas (inverno canadense)",
+              "Adaptador de tomada padrão norte-americano (tipos A/B)",
+              "Remédios de uso contínuo com receita",
+              "Um presentinho do Brasil para a família"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "gca-airport",
+      "title": "Aeroporto e imigração no Canadá",
+      "subtitle": "Conexão, fronteira e bagagem",
+      "emoji": "✈️",
+      "lessons": [
+        "gca-checkin",
+        "gca-immigration",
+        "gca-baggage"
+      ]
+    },
+    {
+      "id": "gca-home",
+      "title": "Casa de família no Canadá",
+      "subtitle": "Chegada, regras da casa e jantar",
+      "emoji": "🏠",
+      "lessons": [
+        "gca-host-arrival",
+        "gca-host-rules",
+        "gca-host-dinner"
+      ]
+    },
+    {
+      "id": "gca-school",
+      "title": "High school no Canadá",
+      "subtitle": "Primeiro dia, sala de aula e amigos",
+      "emoji": "🏫",
+      "lessons": [
+        "gca-school-first-day",
+        "gca-school-classroom",
+        "gca-school-friends"
+      ]
+    },
+    {
+      "id": "gca-city",
+      "title": "Cidade e emergência no Canadá",
+      "subtitle": "Ônibus, direções, farmácia e 911",
+      "emoji": "🚌",
+      "lessons": [
+        "gca-city-bus",
+        "gca-city-help"
+      ]
+    },
+    {
+      "id": "gca-canada",
+      "title": "Canadá: o dia a dia",
+      "subtitle": "Frio, neve, Tim Hortons e o jeito canadense",
+      "emoji": "🍁",
+      "lessons": [
+        "gca-cold",
+        "gca-coffee"
+      ]
+    }
+  ]
+}
