@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "id": "lib-ireland-weather",
+  "title": "Chuva, sol e fila",
+  "scenario": "Café da manhã com a família, num dia de chuva",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 15: Four seasons in one day",
+      "lines": [
+        {
+          "speaker": "Linda",
+          "en": "Good morning, Bia! Did you sleep well?",
+          "pt": "Bom dia, Bia! Dormiu bem?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes, thanks. Is it raining?",
+          "pt": "Dormi, obrigada. Está chovendo?"
+        },
+        {
+          "speaker": "Linda",
+          "en": "A bit. Bring your rain jacket and an umbrella.",
+          "pt": "Um pouco. Leve a sua capa de chuva e um guarda-chuva."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Is it cold today?",
+          "pt": "Está frio hoje?"
+        },
+        {
+          "speaker": "Linda",
+          "en": "Not too cold. It might be sunny later!",
+          "pt": "Não muito. Pode fazer sol mais tarde!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Four seasons in one day!",
+          "pt": "Quatro estações num dia só!"
+        },
+        {
+          "speaker": "Linda",
+          "en": "That's Irish weather. Do you need a lift to school?",
+          "pt": "Esse é o tempo irlandês. Quer uma carona até a escola?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "No, thanks. I'll get the bus.",
+          "pt": "Não, obrigada. Vou de ônibus."
+        },
+        {
+          "speaker": "Linda",
+          "en": "Grand. There's a queue at the bus stop, so go early!",
+          "pt": "Beleza. Tem fila no ponto, então vá cedo!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "raining",
+          "pt": "chovendo",
+          "emoji": "🌧️"
+        },
+        {
+          "en": "umbrella",
+          "pt": "guarda-chuva",
+          "emoji": "☂️"
+        },
+        {
+          "en": "sunny",
+          "pt": "ensolarado",
+          "emoji": "☀️"
+        },
+        {
+          "en": "lift",
+          "pt": "carona",
+          "emoji": "🚗"
+        },
+        {
+          "en": "queue",
+          "pt": "fila",
+          "emoji": "🧍"
+        },
+        {
+          "en": "early",
+          "pt": "cedo",
+          "emoji": "⏰"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Linda oferece carona, mas você prefere ir de ônibus. O que você diz?",
+      "lang": "en",
+      "options": [
+        "No, thanks. I'll get the bus.",
+        "Four seasons in one day!",
+        "Is it raining?"
+      ],
+      "correct": 0,
+      "explanation": "\"I'll get the bus\" = vou pegar o ônibus."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Leve a sua capa de chuva.",
+      "answer": [
+        "Bring",
+        "your",
+        "rain",
+        "jacket."
+      ],
+      "distractors": [
+        "sunny",
+        "queue"
+      ],
+      "explanation": "Rain jacket = capa / casaco de chuva."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "It might be sunny later!",
+      "lang": "pt",
+      "options": [
+        "Pode fazer sol mais tarde!",
+        "Vai chover o dia todo!",
+        "Está muito frio hoje!"
+      ],
+      "correct": 0,
+      "explanation": "Might = pode ser que. Sunny = ensolarado."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 3,
+      "cards": [
+        {
+          "en": "chips",
+          "kind": "armadilha",
+          "meaning": "batata frita",
+          "tip": "Na Irlanda, chips = batata frita. Batatinha de pacote = crisps."
+        },
+        {
+          "en": "lift",
+          "kind": "armadilha",
+          "meaning": "carona / elevador",
+          "tip": "Lift = carona (\"a lift to school\") ou elevador. Nos EUA e no Canadá: ride e elevator."
+        },
+        {
+          "en": "temperature",
+          "kind": "quase",
+          "meaning": "temperatura",
+          "tip": "Quase: temperature."
+        },
+        {
+          "en": "normal",
+          "kind": "igual",
+          "meaning": "normal",
+          "tip": "Igual!",
+          "pt": "normal"
+        }
+      ]
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Bia",
+          "en": "Is it cold today?",
+          "pt": "Está frio hoje?"
+        }
+      ],
+      "speaker": "Linda",
+      "pt": "Não muito. Pode fazer sol mais tarde!",
+      "options": [
+        "Not too cold. It might be sunny later!",
+        "A bit.",
+        "That's Irish weather."
+      ],
+      "correct": 0,
+      "explanation": "Not too cold = não muito frio."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O tempo irlandês",
+      "questions": [
+        {
+          "english": "Bring your rain jacket and an umbrella.",
+          "options": [
+            "Leve a sua capa de chuva e um guarda-chuva.",
+            "Leve o seu casaco e o seu gorro.",
+            "Deixe o guarda-chuva em casa."
+          ],
+          "correct": 0,
+          "joke": "Umbrella = guarda-chuva."
+        },
+        {
+          "english": "Do you need a lift to school?",
+          "options": [
+            "Quer uma carona até a escola?",
+            "Quer ir a pé até a escola?",
+            "Você precisa de ajuda na escola?"
+          ],
+          "correct": 0,
+          "joke": "Lift = carona."
+        },
+        {
+          "english": "There's a queue at the bus stop.",
+          "options": [
+            "Tem fila no ponto de ônibus.",
+            "O ônibus está atrasado.",
+            "O ponto de ônibus mudou."
+          ],
+          "correct": 0,
+          "joke": "Queue = fila (nos EUA e no Canadá, \"line\")."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica de intercâmbio",
+      "region": "Irlanda",
+      "items": [
+        {
+          "emoji": "🌦️",
+          "title": "Quatro estações num dia",
+          "en": "Four seasons in one day!",
+          "pt": "O clima irlandês é ameno: chove com frequência e o tempo muda rápido, mas raramente faz frio extremo ou calor forte. Vista-se em camadas e tenha sempre um casaco impermeável."
+        },
+        {
+          "emoji": "🧍",
+          "title": "Queue",
+          "en": "Join the queue, please.",
+          "pt": "Fila é \"queue\". Na Irlanda, respeitar a fila (no ponto, no caixa, na cantina) é levado a sério: furar fila pega muito mal."
+        }
+      ]
+    }
+  ]
+}

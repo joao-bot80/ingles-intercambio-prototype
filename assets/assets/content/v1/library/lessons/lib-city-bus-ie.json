@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "id": "lib-city-bus-ie",
+  "title": "Ônibus e direções",
+  "scenario": "Ponto de ônibus no centro de Dublin",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 13: Which bus?",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Excuse me, does this bus go to the shopping centre?",
+          "pt": "Com licença, este ônibus vai para o shopping?"
+        },
+        {
+          "speaker": "Driver",
+          "en": "No, take the number nine.",
+          "pt": "Não, pegue o número nove."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Where is the bus stop for the nine?",
+          "pt": "Onde fica o ponto do nove?"
+        },
+        {
+          "speaker": "Driver",
+          "en": "Across the road.",
+          "pt": "Do outro lado da rua."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Excuse me, how do I get to the library?",
+          "pt": "Com licença, como eu chego à biblioteca?"
+        },
+        {
+          "speaker": "Passerby",
+          "en": "Go straight on and turn left at the lights.",
+          "pt": "Siga reto e vire à esquerda no semáforo."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Is it far?",
+          "pt": "É longe?"
+        },
+        {
+          "speaker": "Passerby",
+          "en": "No, it's a five-minute walk.",
+          "pt": "Não, são cinco minutos a pé."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thanks a million!",
+          "pt": "Muito obrigada!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "bus",
+          "pt": "ônibus",
+          "emoji": "🚌"
+        },
+        {
+          "en": "bus stop",
+          "pt": "ponto de ônibus",
+          "emoji": "🚏"
+        },
+        {
+          "en": "road",
+          "pt": "rua / estrada",
+          "emoji": "🛣️"
+        },
+        {
+          "en": "left",
+          "pt": "esquerda",
+          "emoji": "⬅️"
+        },
+        {
+          "en": "right",
+          "pt": "direita",
+          "emoji": "➡️"
+        },
+        {
+          "en": "straight",
+          "pt": "reto",
+          "emoji": "⬆️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como perguntar se o ônibus vai para o shopping?",
+      "lang": "en",
+      "options": [
+        "Does this bus go to the shopping centre?",
+        "Is it far?",
+        "Go straight on and turn left."
+      ],
+      "correct": 0,
+      "explanation": "Shopping centre = shopping (grafia britânica e irlandesa: centre). \"Does this bus go to...?\" serve para qualquer lugar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Siga reto e vire à direita.",
+      "answer": [
+        "Go",
+        "straight",
+        "on",
+        "and",
+        "turn",
+        "right."
+      ],
+      "distractors": [
+        "left",
+        "stop"
+      ],
+      "explanation": "Go straight on = siga reto. Turn right = vire à direita."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Across the road.",
+      "lang": "pt",
+      "options": [
+        "Do outro lado da rua.",
+        "No fim da rua.",
+        "Na próxima rua."
+      ],
+      "correct": 0,
+      "explanation": "Across = do outro lado."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 3,
+      "cards": [
+        {
+          "en": "assist",
+          "kind": "armadilha",
+          "meaning": "ajudar",
+          "tip": "Assist = ajudar. Assistir TV = watch TV."
+        },
+        {
+          "en": "eventually",
+          "kind": "armadilha",
+          "meaning": "com o tempo, no fim",
+          "tip": "Eventually NÃO é eventualmente! Eventualmente = occasionally."
+        },
+        {
+          "en": "pharmacy",
+          "kind": "quase",
+          "meaning": "farmácia",
+          "tip": "Quase: pharmacy, com ph. Na Irlanda também se diz \"chemist\"."
+        },
+        {
+          "en": "museum",
+          "kind": "quase",
+          "meaning": "museu",
+          "tip": "Quase: museum."
+        },
+        {
+          "en": "taxi",
+          "kind": "igual",
+          "meaning": "táxi",
+          "tip": "Igual, só sem acento.",
+          "pt": "táxi"
+        }
+      ]
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Bia",
+          "en": "Is it far?",
+          "pt": "É longe?"
+        }
+      ],
+      "speaker": "Passerby",
+      "pt": "Não, são cinco minutos a pé.",
+      "options": [
+        "No, it's a five-minute walk.",
+        "Across the road.",
+        "No, take the number nine."
+      ],
+      "correct": 0,
+      "explanation": "Walk = caminhada. Five-minute walk = cinco minutos a pé."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A cidade",
+      "questions": [
+        {
+          "english": "Take the number nine.",
+          "options": [
+            "Pegue o número nove.",
+            "Desça no ponto nove.",
+            "Espere nove minutos."
+          ],
+          "correct": 0,
+          "joke": "Take = pegar (ônibus, metrô)."
+        },
+        {
+          "english": "Turn left at the lights.",
+          "options": [
+            "Vire à esquerda no semáforo.",
+            "Vire à direita no semáforo.",
+            "Siga reto até o semáforo."
+          ],
+          "correct": 0,
+          "joke": "Left = esquerda. Lights = semáforo (traffic lights)."
+        },
+        {
+          "english": "Is it far?",
+          "options": [
+            "É longe?",
+            "É perto?",
+            "É aqui?"
+          ],
+          "correct": 0,
+          "joke": "Far = longe. Perto = near / close."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Irlanda",
+      "items": [
+        {
+          "emoji": "🚌",
+          "title": "Leap Card",
+          "en": "Does this bus go to the shopping centre?",
+          "pt": "Em Dublin e em outras cidades irlandesas, o cartão de transporte se chama Leap Card. Tarifas mudam: confira no site oficial do transporte."
+        },
+        {
+          "emoji": "🙏",
+          "title": "Agradeça ao motorista",
+          "en": "Thanks a million!",
+          "pt": "Na Irlanda é muito comum agradecer ao motorista ao descer do ônibus: \"Thanks!\" ou \"Thanks a million!\""
+        }
+      ]
+    }
+  ]
+}

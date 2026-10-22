@@ -1,101 +1,32 @@
 {
   "schemaVersion": 1,
   "id": "griffe_intercambio_ca",
-  "owner": "griffe",
+  "extends": "griffe_intercambio",
   "title": "Griffe Intercâmbio — Canadá",
   "branding": {
     "headline": "Griffe Intercâmbio — Canadá",
     "tagline": "O seu inglês para o intercâmbio no Canadá",
     "emoji": "🍁"
   },
-  "audience": "Estudantes de intercâmbio da rede pública, 14 a 17 anos, pré-A1/A1",
   "destination": "CA",
-  "variant": "en-US",
-  "contentVersion": "2026.10.22-2",
-  "cast": {},
-  "lessons": [
-    {
-      "id": "griffe-videocall",
-      "title": "Videochamada com a família"
-    },
-    {
-      "id": "griffe-backpack",
-      "title": "Mochila pronta, grupo junto"
-    }
-  ],
-  "units": [
-    {
-      "use": "intro-exchange"
-    },
-    {
-      "id": "griffe-before",
-      "title": "Antes do embarque com a Griffe",
-      "subtitle": "Família anfitriã, documentos e grupo",
-      "emoji": "🧳",
-      "lessons": [
-        "griffe-videocall",
-        "griffe-backpack"
-      ],
-      "checklist": {
-        "id": "griffe-checklist",
-        "title": "Checklist de embarque",
-        "subtitle": "Orientações da Griffe Viagens",
-        "emoji": "✅",
-        "note": "Protótipo: itens de exemplo. A lista oficial vem da Griffe Viagens e dos órgãos do governo. Regras, prazos e valores mudam: confira sempre na fonte oficial.",
-        "sections": [
-          {
-            "title": "🛂 Documentos (confira com a Griffe)",
-            "items": [
-              "Passaporte válido (confira a validade com a agência)",
-              "Documento de entrada exigido para o seu caso (visto ou eTA): siga a orientação da Griffe e o site oficial do governo do Canadá",
-              "Carta de aceitação da escola (impressa e no celular)",
-              "Autorização de viagem do menor assinada pelos responsáveis (quando aplicável)",
-              "Comprovante do seguro-saúde",
-              "Endereço e telefone da família anfitriã anotados no papel"
-            ]
-          },
-          {
-            "title": "🧳 Mala",
-            "items": [
-              "Casaco quente, gorro, luvas e botas (inverno canadense)",
-              "Adaptador de tomada (padrão norte-americano)",
-              "Remédios de uso contínuo com receita",
-              "Um presentinho do Brasil para a família"
-            ]
-          },
-          {
-            "title": "🗣️ Inglês antes de embarcar",
-            "items": [
-              "Concluir a unidade Primeiros passos",
-              "Concluir a unidade Aeroporto e imigração",
-              "Saber soletrar o nome do passaporte em inglês",
-              "Treinar em voz alta as respostas da imigração"
-            ]
-          },
-          {
-            "title": "📞 Contatos",
-            "items": [
-              "Plantão da Griffe Viagens: [telefone a definir]",
-              "Monitor do grupo: [nome e telefone a definir]"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "use": "airport-exchange"
-    },
-    {
-      "use": "host-family"
-    },
-    {
-      "use": "school"
-    },
-    {
-      "use": "city"
-    },
+  "variant": "en-CA",
+  "contentVersion": "2026.10.22-3",
+  "appendUnits": [
     {
       "use": "canada"
     }
-  ]
+  ],
+  "checklistAppend": {
+    "griffe-checklist": [
+      {
+        "title": "🧳 Mala (Canadá)",
+        "items": [
+          "Casaco quente, gorro, luvas e botas (inverno canadense)",
+          "Adaptador de tomada padrão norte-americano (tipos A/B)",
+          "Remédios de uso contínuo com receita",
+          "Um presentinho do Brasil para a família"
+        ]
+      }
+    ]
+  }
 }

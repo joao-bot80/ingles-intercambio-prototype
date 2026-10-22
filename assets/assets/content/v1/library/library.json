@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026.10.22-2",
+  "contentVersion": "2026.10.22-3",
   "variant": "en-US",
-  "note": "Biblioteca compartilhada: lições e unidades reutilizáveis por qualquer curso. Conteúdo exclusivo de cliente fica em courses/<curso>/.",
+  "note": "Biblioteca compartilhada: lições e unidades reutilizáveis por qualquer curso. \"variants\" troca a lição automaticamente num curso daquela variante (ex.: en-IE). Conteúdo exclusivo de cliente fica em courses/<curso ou base>/.",
   "cast": {
     "Sam": {
       "emoji": "🧭",
@@ -103,6 +103,21 @@
       "emoji": "🧑🏼‍💼",
       "gender": "M",
       "role": "other"
+    },
+    "Ms. Byrne": {
+      "emoji": "👩🏻‍💼",
+      "gender": "F",
+      "role": "counsellor"
+    },
+    "Mr. Walsh": {
+      "emoji": "👨🏻‍🏫",
+      "gender": "M",
+      "role": "teacher"
+    },
+    "Conor": {
+      "emoji": "🧑🏻‍🦰",
+      "gender": "M",
+      "role": "classmate"
     }
   },
   "lessons": [
@@ -111,7 +126,19 @@
       "title": "Bagagem e saída",
       "tags": [
         "intercambio"
-      ]
+      ],
+      "variants": {
+        "en-IE": "lib-airport-baggage-ie"
+      }
+    },
+    {
+      "id": "lib-airport-baggage-ie",
+      "title": "Bagagem e saída",
+      "tags": [
+        "intercambio",
+        "en-IE"
+      ],
+      "variantOf": "lib-airport-baggage"
     },
     {
       "id": "lib-airport-checkin",
@@ -161,7 +188,20 @@
       "tags": [
         "geral",
         "viagem"
-      ]
+      ],
+      "variants": {
+        "en-IE": "lib-city-bus-ie"
+      }
+    },
+    {
+      "id": "lib-city-bus-ie",
+      "title": "Ônibus e direções",
+      "tags": [
+        "geral",
+        "viagem",
+        "en-IE"
+      ],
+      "variantOf": "lib-city-bus"
     },
     {
       "id": "lib-city-help",
@@ -169,7 +209,20 @@
       "tags": [
         "geral",
         "viagem"
-      ]
+      ],
+      "variants": {
+        "en-IE": "lib-city-help-ie"
+      }
+    },
+    {
+      "id": "lib-city-help-ie",
+      "title": "Pedindo ajuda",
+      "tags": [
+        "geral",
+        "viagem",
+        "en-IE"
+      ],
+      "variantOf": "lib-city-help"
     },
     {
       "id": "lib-food-cafe",
@@ -192,7 +245,19 @@
       "title": "Chegando em casa",
       "tags": [
         "intercambio"
-      ]
+      ],
+      "variants": {
+        "en-IE": "lib-host-arrival-ie"
+      }
+    },
+    {
+      "id": "lib-host-arrival-ie",
+      "title": "Chegando em casa",
+      "tags": [
+        "intercambio",
+        "en-IE"
+      ],
+      "variantOf": "lib-host-arrival"
     },
     {
       "id": "lib-host-dinner",
@@ -227,13 +292,53 @@
       "title": "Números e idade",
       "tags": [
         "intercambio"
-      ]
+      ],
+      "variants": {
+        "en-IE": "lib-intro-numbers-ie"
+      }
+    },
+    {
+      "id": "lib-intro-numbers-ie",
+      "title": "Números e idade",
+      "tags": [
+        "intercambio",
+        "en-IE"
+      ],
+      "variantOf": "lib-intro-numbers"
     },
     {
       "id": "lib-intro-spelling",
       "title": "Soletrando o nome",
       "tags": [
         "intercambio"
+      ],
+      "variants": {
+        "en-IE": "lib-intro-spelling-ie"
+      }
+    },
+    {
+      "id": "lib-intro-spelling-ie",
+      "title": "Soletrando o nome",
+      "tags": [
+        "intercambio",
+        "en-IE"
+      ],
+      "variantOf": "lib-intro-spelling"
+    },
+    {
+      "id": "lib-ireland-craic",
+      "title": "Grand, craic e boas maneiras",
+      "tags": [
+        "destino:IE",
+        "en-IE"
+      ]
+    },
+    {
+      "id": "lib-ireland-weather",
+      "title": "Chuva, sol e fila",
+      "tags": [
+        "destino:IE",
+        "en-IE"
       ]
     },
     {
@@ -241,21 +346,57 @@
       "title": "Na sala de aula",
       "tags": [
         "intercambio"
-      ]
+      ],
+      "variants": {
+        "en-IE": "lib-school-classroom-ie"
+      }
+    },
+    {
+      "id": "lib-school-classroom-ie",
+      "title": "Na sala de aula",
+      "tags": [
+        "intercambio",
+        "en-IE"
+      ],
+      "variantOf": "lib-school-classroom"
     },
     {
       "id": "lib-school-first-day",
       "title": "Primeiro dia de aula",
       "tags": [
         "intercambio"
-      ]
+      ],
+      "variants": {
+        "en-IE": "lib-school-first-day-ie"
+      }
+    },
+    {
+      "id": "lib-school-first-day-ie",
+      "title": "Primeiro dia de aula",
+      "tags": [
+        "intercambio",
+        "en-IE"
+      ],
+      "variantOf": "lib-school-first-day"
     },
     {
       "id": "lib-school-friends",
       "title": "Fazendo amigos",
       "tags": [
         "intercambio"
-      ]
+      ],
+      "variants": {
+        "en-IE": "lib-school-friends-ie"
+      }
+    },
+    {
+      "id": "lib-school-friends-ie",
+      "title": "Fazendo amigos",
+      "tags": [
+        "intercambio",
+        "en-IE"
+      ],
+      "variantOf": "lib-school-friends"
     },
     {
       "id": "lib-shop-store",
@@ -375,6 +516,19 @@
       ],
       "tags": [
         "viagem"
+      ]
+    },
+    {
+      "id": "ireland",
+      "title": "Irlanda: o dia a dia",
+      "subtitle": "Chuva, fila, \"grand\", \"craic\" e euro",
+      "emoji": "☘️",
+      "lessons": [
+        "lib-ireland-weather",
+        "lib-ireland-craic"
+      ],
+      "tags": [
+        "destino:IE"
       ]
     }
   ]

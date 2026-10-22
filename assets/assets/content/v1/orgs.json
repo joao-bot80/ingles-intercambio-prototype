@@ -34,11 +34,11 @@
           "course": "griffe_intercambio_ca"
         },
         {
-          "id": "griffe-ca-2027b",
-          "name": "Canadá 2027 · Turma B",
+          "id": "griffe-ie-2027b",
+          "name": "Irlanda 2027 · Turma B",
           "program": "Programa estadual de intercâmbio (exemplo)",
-          "destination": "Canadá",
-          "departureDate": "2027-02-14",
+          "destination": "Irlanda",
+          "departureDate": "2027-08-22",
           "code": "GRIFFE2026B",
           "roster": [
             {
@@ -52,7 +52,7 @@
               "pin": "5555"
             }
           ],
-          "course": "griffe_intercambio_ca"
+          "course": "griffe_intercambio_ie"
         }
       ]
     }
