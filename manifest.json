@@ -1,11 +1,11 @@
 {
-    "name": "Hello! Intercâmbio",
+    "name": "Hello! Inglês",
     "short_name": "Hello!",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#1F4E9C",
     "theme_color": "#1F4E9C",
-    "description": "Inglês de sobrevivência para intercambistas (protótipo)",
+    "description": "Inglês do zero, explicado em português (protótipo)",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

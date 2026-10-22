@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "id": "lib-shop-store",
+  "title": "Nas compras",
+  "scenario": "Loja de roupas",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio: Can I help you?",
+      "lines": [
+        {
+          "speaker": "Clerk",
+          "en": "Hi! Can I help you?",
+          "pt": "Oi! Posso ajudar?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes, I'm looking for a jacket.",
+          "pt": "Sim, estou procurando uma jaqueta."
+        },
+        {
+          "speaker": "Clerk",
+          "en": "What size are you?",
+          "pt": "Qual é o seu tamanho?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Medium, I think.",
+          "pt": "Médio, eu acho."
+        },
+        {
+          "speaker": "Clerk",
+          "en": "The fitting room is over there.",
+          "pt": "O provador é ali."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Do you have this in black?",
+          "pt": "Vocês têm esta em preto?"
+        },
+        {
+          "speaker": "Clerk",
+          "en": "Yes, here you go.",
+          "pt": "Sim, aqui está."
+        },
+        {
+          "speaker": "Leo",
+          "en": "How much is it?",
+          "pt": "Quanto custa?"
+        },
+        {
+          "speaker": "Clerk",
+          "en": "It's on sale today.",
+          "pt": "Está em promoção hoje."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Great! I'll take it.",
+          "pt": "Ótimo! Vou levar."
+        },
+        {
+          "speaker": "Clerk",
+          "en": "Cash or card?",
+          "pt": "Dinheiro ou cartão?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Card, please. Can I have a bag?",
+          "pt": "Cartão, por favor. Pode me dar uma sacola?"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "jacket",
+          "pt": "jaqueta",
+          "emoji": "🧥"
+        },
+        {
+          "en": "size",
+          "pt": "tamanho",
+          "emoji": "📏"
+        },
+        {
+          "en": "fitting room",
+          "pt": "provador",
+          "emoji": "🚪"
+        },
+        {
+          "en": "black",
+          "pt": "preto",
+          "emoji": "⚫"
+        },
+        {
+          "en": "on sale",
+          "pt": "em promoção",
+          "emoji": "🏷️"
+        },
+        {
+          "en": "cash",
+          "pt": "dinheiro",
+          "emoji": "💵"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Você quer saber se tem a peça em preto. O que você diz?",
+      "lang": "en",
+      "options": [
+        "Do you have this in black?",
+        "I'll take it.",
+        "Can I have a bag?"
+      ],
+      "correct": 0,
+      "explanation": "\"Do you have this in...?\" serve para cor e tamanho."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Estou procurando uma jaqueta.",
+      "answer": [
+        "I'm",
+        "looking",
+        "for",
+        "a",
+        "jacket."
+      ],
+      "distractors": [
+        "black",
+        "size"
+      ],
+      "explanation": "I'm looking for = estou procurando."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "What size are you?",
+      "lang": "pt",
+      "options": [
+        "Qual é o seu tamanho?",
+        "Qual cor você quer?",
+        "Posso ajudar?"
+      ],
+      "correct": 0,
+      "explanation": "Size = tamanho."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Clerk",
+          "en": "Cash or card?",
+          "pt": "Dinheiro ou cartão?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Cartão, por favor. Pode me dar uma sacola?",
+      "options": [
+        "Card, please. Can I have a bag?",
+        "I'll take it.",
+        "Medium, I think."
+      ],
+      "correct": 0,
+      "explanation": "Cash = dinheiro. Card = cartão."
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"I'll take it.\" quer dizer...",
+      "lang": "pt",
+      "options": [
+        "Vou levar.",
+        "Vou experimentar.",
+        "Vou pensar."
+      ],
+      "correct": 0,
+      "explanation": "I'll take it = vou levar (vou comprar)."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A loja",
+      "questions": [
+        {
+          "english": "Can I help you?",
+          "options": [
+            "Posso ajudar?",
+            "Posso entrar?",
+            "Posso pagar?"
+          ],
+          "correct": 0,
+          "joke": "Help = ajudar."
+        },
+        {
+          "english": "The fitting room is over there.",
+          "options": [
+            "O provador é ali.",
+            "O caixa é ali.",
+            "A saída é ali."
+          ],
+          "correct": 0,
+          "joke": "Fitting room = provador."
+        },
+        {
+          "english": "It's on sale today.",
+          "options": [
+            "Está em promoção hoje.",
+            "Está esgotado hoje.",
+            "Está fechado hoje."
+          ],
+          "correct": 0,
+          "joke": "On sale = em promoção."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Compras",
+      "items": [
+        {
+          "emoji": "📏",
+          "title": "Numeração diferente",
+          "en": "Can I try it on?",
+          "pt": "Numeração de roupa e sapato é diferente do Brasil. Peça para experimentar: \"Can I try it on?\" = posso experimentar?"
+        },
+        {
+          "emoji": "🧾",
+          "title": "Recibo e troca",
+          "en": "Can I have the receipt, please?",
+          "pt": "Guarde o recibo (receipt). As regras de troca e devolução variam de loja para loja."
+        }
+      ]
+    }
+  ]
+}

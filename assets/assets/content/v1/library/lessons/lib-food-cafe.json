@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "id": "lib-food-cafe",
+  "title": "No café",
+  "scenario": "Cafeteria no centro",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio: For here or to go?",
+      "lines": [
+        {
+          "speaker": "Barista",
+          "en": "Hi! What can I get for you?",
+          "pt": "Oi! O que vai ser?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Can I have a coffee, please?",
+          "pt": "Pode me ver um café, por favor?"
+        },
+        {
+          "speaker": "Barista",
+          "en": "Sure. Small, medium or large?",
+          "pt": "Claro. Pequeno, médio ou grande?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Medium, please.",
+          "pt": "Médio, por favor."
+        },
+        {
+          "speaker": "Barista",
+          "en": "For here or to go?",
+          "pt": "Para tomar aqui ou para levar?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "To go, please.",
+          "pt": "Para levar, por favor."
+        },
+        {
+          "speaker": "Barista",
+          "en": "Anything else?",
+          "pt": "Mais alguma coisa?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes, a muffin, please. How much is it?",
+          "pt": "Sim, um muffin, por favor. Quanto custa?"
+        },
+        {
+          "speaker": "Barista",
+          "en": "That's six fifty.",
+          "pt": "Dá seis e cinquenta."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Can I pay by card?",
+          "pt": "Posso pagar com cartão?"
+        },
+        {
+          "speaker": "Barista",
+          "en": "Of course. Have a nice day!",
+          "pt": "Claro. Tenha um bom dia!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "coffee",
+          "pt": "café",
+          "emoji": "☕"
+        },
+        {
+          "en": "small",
+          "pt": "pequeno",
+          "emoji": "🤏"
+        },
+        {
+          "en": "medium",
+          "pt": "médio",
+          "emoji": "🥤"
+        },
+        {
+          "en": "large",
+          "pt": "grande",
+          "emoji": "🪣"
+        },
+        {
+          "en": "to go",
+          "pt": "para levar",
+          "emoji": "🥡"
+        },
+        {
+          "en": "card",
+          "pt": "cartão",
+          "emoji": "💳"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "A atendente pergunta \"For here or to go?\". Você quer levar. O que você diz?",
+      "lang": "en",
+      "options": [
+        "To go, please.",
+        "Medium, please.",
+        "Of course."
+      ],
+      "correct": 0,
+      "explanation": "To go = para levar. For here = para consumir no local."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Pode me ver um café, por favor?",
+      "answer": [
+        "Can",
+        "I",
+        "have",
+        "a",
+        "coffee,",
+        "please?"
+      ],
+      "distractors": [
+        "card",
+        "large"
+      ],
+      "explanation": "\"Can I have...?\" é o jeito mais simples e educado de pedir."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "How much is it?",
+      "lang": "pt",
+      "options": [
+        "Quanto custa?",
+        "Quanto tempo demora?",
+        "Quantos você quer?"
+      ],
+      "correct": 0,
+      "explanation": "How much = quanto (preço)."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 3,
+      "cards": [
+        {
+          "en": "cafeteria",
+          "kind": "armadilha",
+          "meaning": "refeitório",
+          "tip": "Cafeteria é o refeitório de escola ou empresa. Cafeteria no sentido brasileiro = coffee shop ou café."
+        },
+        {
+          "en": "chocolate",
+          "kind": "igual",
+          "meaning": "chocolate",
+          "tip": "Igual!",
+          "pt": "chocolate"
+        },
+        {
+          "en": "medium",
+          "kind": "quase",
+          "meaning": "médio",
+          "tip": "Quase: medium = tamanho médio."
+        },
+        {
+          "en": "biscuit",
+          "kind": "armadilha",
+          "meaning": "pãozinho (EUA) / bolacha (Reino Unido)",
+          "tip": "Na América do Norte, bolacha doce = cookie."
+        }
+      ]
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Barista",
+          "en": "Anything else?",
+          "pt": "Mais alguma coisa?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Sim, um muffin, por favor. Quanto custa?",
+      "options": [
+        "Yes, a muffin, please. How much is it?",
+        "To go, please.",
+        "Have a nice day!"
+      ],
+      "correct": 0,
+      "explanation": "Anything else? = mais alguma coisa?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O café",
+      "questions": [
+        {
+          "english": "For here or to go?",
+          "options": [
+            "Para tomar aqui ou para levar?",
+            "Pequeno ou grande?",
+            "Com cartão ou dinheiro?"
+          ],
+          "correct": 0,
+          "joke": "To go = para levar."
+        },
+        {
+          "english": "Can I pay by card?",
+          "options": [
+            "Posso pagar com cartão?",
+            "Posso ver o cardápio?",
+            "Posso sentar aqui?"
+          ],
+          "correct": 0,
+          "joke": "Pay by card = pagar com cartão."
+        },
+        {
+          "english": "Anything else?",
+          "options": [
+            "Mais alguma coisa?",
+            "Tudo bem?",
+            "Só isso?"
+          ],
+          "correct": 0,
+          "joke": "Anything else = mais alguma coisa."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Café",
+      "items": [
+        {
+          "emoji": "☕",
+          "title": "Tamanhos",
+          "en": "Small, medium or large?",
+          "pt": "Os tamanhos costumam ser maiores que no Brasil. Algumas redes usam nomes próprios, mas small, medium e large sempre funcionam."
+        },
+        {
+          "emoji": "🧾",
+          "title": "Imposto no caixa",
+          "en": "How much is it?",
+          "pt": "No Canadá e nos EUA, o preço da etiqueta muitas vezes não inclui o imposto: ele aparece só no caixa."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "ingles_do_zero",
+  "owner": "public",
+  "title": "Inglês do zero",
+  "branding": {
+    "headline": "Inglês do zero",
+    "tagline": "Inglês do dia a dia e de viagem, explicado em português",
+    "emoji": "🌎"
+  },
+  "audience": "Adultos e adolescentes iniciantes (pré-A1/A1), falantes de português",
+  "destination": null,
+  "variant": "en-US",
+  "contentVersion": "2026.10.22-2",
+  "cast": {},
+  "lessons": [],
+  "units": [
+    {
+      "id": "zero-intro",
+      "title": "Primeiros passos",
+      "subtitle": "Cumprimentar, soletrar o nome, números",
+      "emoji": "👋",
+      "lessons": [
+        "lib-intro-hello",
+        "lib-basics-spell-numbers"
+      ]
+    },
+    {
+      "id": "zero-airport",
+      "title": "No aeroporto",
+      "subtitle": "Check-in, embarque e imigração",
+      "emoji": "✈️",
+      "lessons": [
+        "lib-airport-checkin",
+        "lib-airport-immigration-trip"
+      ]
+    },
+    {
+      "use": "food"
+    },
+    {
+      "use": "hotel-shopping"
+    },
+    {
+      "use": "city"
+    }
+  ]
+}

@@ -12,10 +12,6 @@
           "name": "Canadá 2027 · Turma A",
           "program": "Programa estadual de intercâmbio (exemplo)",
           "destination": "Canadá",
-          "packs": [
-            "griffe",
-            "ca"
-          ],
           "departureDate": "2027-01-24",
           "code": "GRIFFE2026",
           "roster": [
@@ -34,17 +30,14 @@
               "name": "Carla",
               "pin": "3333"
             }
-          ]
+          ],
+          "course": "griffe_intercambio_ca"
         },
         {
           "id": "griffe-ca-2027b",
           "name": "Canadá 2027 · Turma B",
           "program": "Programa estadual de intercâmbio (exemplo)",
           "destination": "Canadá",
-          "packs": [
-            "griffe",
-            "ca"
-          ],
           "departureDate": "2027-02-14",
           "code": "GRIFFE2026B",
           "roster": [
@@ -58,7 +51,8 @@
               "name": "Eduarda",
               "pin": "5555"
             }
-          ]
+          ],
+          "course": "griffe_intercambio_ca"
         }
       ]
     }

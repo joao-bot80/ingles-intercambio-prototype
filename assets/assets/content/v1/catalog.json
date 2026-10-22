@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "defaultCourse": "ingles_do_zero",
+  "courses": [
+    "ingles_do_zero",
+    "griffe_intercambio_ca"
+  ]
+}

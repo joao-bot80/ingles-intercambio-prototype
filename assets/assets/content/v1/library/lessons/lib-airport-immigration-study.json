@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "id": "lib-airport-immigration-study",
+  "title": "Na imigração",
+  "scenario": "Controle de imigração na chegada",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 5: Purpose of your visit",
+      "lines": [
+        {
+          "speaker": "Officer",
+          "en": "Hello. Passport, please.",
+          "pt": "Olá. Passaporte, por favor."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Here you go.",
+          "pt": "Aqui está."
+        },
+        {
+          "speaker": "Officer",
+          "en": "What is the purpose of your visit?",
+          "pt": "Qual é o motivo da sua visita?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm a student. I'm here to study.",
+          "pt": "Eu sou estudante. Estou aqui para estudar."
+        },
+        {
+          "speaker": "Officer",
+          "en": "How long will you stay?",
+          "pt": "Quanto tempo você vai ficar?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Six months.",
+          "pt": "Seis meses."
+        },
+        {
+          "speaker": "Officer",
+          "en": "Where will you stay?",
+          "pt": "Onde você vai ficar?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "With a host family.",
+          "pt": "Com uma família anfitriã."
+        },
+        {
+          "speaker": "Officer",
+          "en": "Do you have your school letter?",
+          "pt": "Você está com a carta da escola?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes. Here it is.",
+          "pt": "Sim. Aqui está."
+        },
+        {
+          "speaker": "Officer",
+          "en": "Okay. Welcome!",
+          "pt": "Certo. Bem-vinda!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "student",
+          "pt": "estudante",
+          "emoji": "🎒"
+        },
+        {
+          "en": "study",
+          "pt": "estudar",
+          "emoji": "📚"
+        },
+        {
+          "en": "host family",
+          "pt": "família anfitriã",
+          "emoji": "👨‍👩‍👧"
+        },
+        {
+          "en": "month",
+          "pt": "mês",
+          "emoji": "🗓️"
+        },
+        {
+          "en": "letter",
+          "pt": "carta",
+          "emoji": "✉️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"What is the purpose of your visit?\" pergunta...",
+      "lang": "pt",
+      "options": [
+        "O motivo da viagem",
+        "O seu endereço",
+        "A sua idade"
+      ],
+      "correct": 0,
+      "explanation": "Purpose = motivo, objetivo. Responda: \"I'm a student. I'm here to study.\""
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu sou estudante.",
+      "answer": [
+        "I'm",
+        "a",
+        "student."
+      ],
+      "distractors": [
+        "study",
+        "host"
+      ],
+      "explanation": "Profissão ou ocupação em inglês leva \"a\": I'm A student."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "How long will you stay?",
+      "lang": "pt",
+      "options": [
+        "Quanto tempo você vai ficar?",
+        "Onde você vai ficar?",
+        "Quantos anos você tem?"
+      ],
+      "correct": 0,
+      "explanation": "How long = quanto tempo. Resposta curta: \"Six months.\""
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Officer",
+          "en": "Where will you stay?",
+          "pt": "Onde você vai ficar?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Com uma família anfitriã.",
+      "options": [
+        "With a host family.",
+        "Six months.",
+        "I'm a student."
+      ],
+      "correct": 0,
+      "explanation": "Where = onde. A resposta é o lugar: \"With a host family.\""
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O oficial pergunta \"How long will you stay?\". Qual é a resposta?",
+      "lang": "en",
+      "options": [
+        "Six months.",
+        "With a host family.",
+        "I'm from Brazil."
+      ],
+      "correct": 0,
+      "explanation": "How long pede um tempo: six months, one year..."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O oficial da imigração",
+      "questions": [
+        {
+          "english": "I'm here to study.",
+          "options": [
+            "Estou aqui para estudar.",
+            "Estou aqui para trabalhar.",
+            "Estou aqui com a minha família."
+          ],
+          "correct": 0,
+          "joke": "Study = estudar."
+        },
+        {
+          "english": "Where will you stay?",
+          "options": [
+            "Onde você vai ficar?",
+            "Quanto tempo você vai ficar?",
+            "Onde você estuda?"
+          ],
+          "correct": 0,
+          "joke": "Where = onde."
+        },
+        {
+          "english": "Do you have your school letter?",
+          "options": [
+            "Você está com a carta da escola?",
+            "Você tem uma carta para a escola?",
+            "Você vai para a escola?"
+          ],
+          "correct": 0,
+          "joke": "Letter = carta. Deixe a carta da escola na mochila, à mão."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica de intercâmbio",
+      "region": "Imigração",
+      "items": [
+        {
+          "emoji": "🛂",
+          "title": "Respostas curtas e verdadeiras",
+          "en": "I'm a student. Six months.",
+          "pt": "Na imigração, responda curto, com calma e só a verdade. Tenha em mãos a carta da escola e os documentos que a agência indicar. Regras de entrada mudam: confira sempre no site oficial do governo."
+        },
+        {
+          "emoji": "🙋",
+          "title": "Não entendeu?",
+          "en": "Sorry, can you repeat that, please?",
+          "pt": "Pedir para repetir é normal e educado. É melhor perguntar do que responder errado."
+        }
+      ]
+    }
+  ]
+}

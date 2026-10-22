@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "id": "lib-food-restaurant",
+  "title": "No restaurante",
+  "scenario": "Jantar num restaurante",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio: The check, please",
+      "lines": [
+        {
+          "speaker": "Waiter",
+          "en": "Hi, welcome! How many people?",
+          "pt": "Oi, bem-vindos! Quantas pessoas?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "A table for two, please.",
+          "pt": "Uma mesa para dois, por favor."
+        },
+        {
+          "speaker": "Waiter",
+          "en": "Here is the menu. Can I get you something to drink?",
+          "pt": "Aqui está o cardápio. Querem algo para beber?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Water, please.",
+          "pt": "Água, por favor."
+        },
+        {
+          "speaker": "Waiter",
+          "en": "Are you ready to order?",
+          "pt": "Estão prontos para pedir?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes. I'd like the chicken salad, please.",
+          "pt": "Sim. Eu queria a salada de frango, por favor."
+        },
+        {
+          "speaker": "Leo",
+          "en": "The burger with fries, please.",
+          "pt": "O hambúrguer com batata frita, por favor."
+        },
+        {
+          "speaker": "Waiter",
+          "en": "How is everything?",
+          "pt": "Está tudo bem com a comida?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "It's delicious, thank you!",
+          "pt": "Está delicioso, obrigada!"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Can we have the check, please?",
+          "pt": "Pode trazer a conta, por favor?"
+        },
+        {
+          "speaker": "Waiter",
+          "en": "Sure, here you go.",
+          "pt": "Claro, aqui está."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "table",
+          "pt": "mesa",
+          "emoji": "🍽️"
+        },
+        {
+          "en": "menu",
+          "pt": "cardápio",
+          "emoji": "📖"
+        },
+        {
+          "en": "water",
+          "pt": "água",
+          "emoji": "💧"
+        },
+        {
+          "en": "chicken",
+          "pt": "frango",
+          "emoji": "🍗"
+        },
+        {
+          "en": "fries",
+          "pt": "batata frita",
+          "emoji": "🍟"
+        },
+        {
+          "en": "check",
+          "pt": "conta",
+          "emoji": "🧾"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Você quer pedir a conta. O que você diz?",
+      "lang": "en",
+      "options": [
+        "Can we have the check, please?",
+        "A table for two, please.",
+        "Water, please."
+      ],
+      "correct": 0,
+      "explanation": "Check = conta (no Canadá e nos EUA). No Reino Unido se diz \"bill\"."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu queria a salada de frango, por favor.",
+      "answer": [
+        "I'd",
+        "like",
+        "the",
+        "chicken",
+        "salad,",
+        "please."
+      ],
+      "distractors": [
+        "menu",
+        "water"
+      ],
+      "explanation": "I'd like = eu gostaria / eu queria. Mais educado que \"I want\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Are you ready to order?",
+      "lang": "pt",
+      "options": [
+        "Estão prontos para pedir?",
+        "Querem algo para beber?",
+        "Está tudo bem?"
+      ],
+      "correct": 0,
+      "explanation": "Order = pedir (comida)."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Waiter",
+          "en": "How is everything?",
+          "pt": "Está tudo bem com a comida?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Está delicioso, obrigada!",
+      "options": [
+        "It's delicious, thank you!",
+        "Water, please.",
+        "A table for two, please."
+      ],
+      "correct": 0,
+      "explanation": "Delicious = delicioso."
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Check\", no restaurante, significa...",
+      "lang": "pt",
+      "options": [
+        "A conta",
+        "O cardápio",
+        "A mesa"
+      ],
+      "correct": 0,
+      "explanation": "Check = conta. Menu = cardápio."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O restaurante",
+      "questions": [
+        {
+          "english": "Can I get you something to drink?",
+          "options": [
+            "Querem algo para beber?",
+            "Querem a sobremesa?",
+            "Querem a conta?"
+          ],
+          "correct": 0,
+          "joke": "Drink = beber, bebida."
+        },
+        {
+          "english": "Are you ready to order?",
+          "options": [
+            "Estão prontos para pedir?",
+            "Já terminaram?",
+            "Querem mais tempo?"
+          ],
+          "correct": 0,
+          "joke": "Ready = pronto."
+        },
+        {
+          "english": "Here is the menu.",
+          "options": [
+            "Aqui está o cardápio.",
+            "Aqui está a conta.",
+            "Aqui está a mesa."
+          ],
+          "correct": 0,
+          "joke": "Menu = cardápio."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Restaurante",
+      "items": [
+        {
+          "emoji": "💵",
+          "title": "Gorjeta (tip)",
+          "en": "Can we have the check, please?",
+          "pt": "No Canadá e nos EUA, deixar gorjeta (tip) no restaurante é costume e o valor esperado varia de lugar para lugar. Pergunte a quem mora lá."
+        },
+        {
+          "emoji": "💧",
+          "title": "Água da torneira",
+          "en": "Water, please.",
+          "pt": "Em muitos restaurantes a água da torneira é servida de graça: é só pedir \"Water, please\"."
+        }
+      ]
+    }
+  ]
+}

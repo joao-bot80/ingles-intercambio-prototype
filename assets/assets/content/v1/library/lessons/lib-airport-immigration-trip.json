@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "id": "lib-airport-immigration-trip",
+  "title": "Na imigração",
+  "scenario": "Controle de imigração, chegando de férias",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio: Enjoy your trip!",
+      "lines": [
+        {
+          "speaker": "Officer",
+          "en": "Hello. Passport, please.",
+          "pt": "Olá. Passaporte, por favor."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Here you go.",
+          "pt": "Aqui está."
+        },
+        {
+          "speaker": "Officer",
+          "en": "What is the purpose of your visit?",
+          "pt": "Qual é o motivo da sua visita?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm here on vacation.",
+          "pt": "Estou aqui de férias."
+        },
+        {
+          "speaker": "Officer",
+          "en": "How long will you stay?",
+          "pt": "Quanto tempo você vai ficar?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Two weeks.",
+          "pt": "Duas semanas."
+        },
+        {
+          "speaker": "Officer",
+          "en": "Where will you stay?",
+          "pt": "Onde você vai ficar?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "At a hotel downtown.",
+          "pt": "Num hotel no centro."
+        },
+        {
+          "speaker": "Officer",
+          "en": "Is this your first time here?",
+          "pt": "É a sua primeira vez aqui?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes, it is.",
+          "pt": "Sim, é."
+        },
+        {
+          "speaker": "Officer",
+          "en": "Okay. Enjoy your trip!",
+          "pt": "Certo. Aproveite a viagem!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "vacation",
+          "pt": "férias",
+          "emoji": "🏖️"
+        },
+        {
+          "en": "week",
+          "pt": "semana",
+          "emoji": "📅"
+        },
+        {
+          "en": "hotel",
+          "pt": "hotel",
+          "emoji": "🏨"
+        },
+        {
+          "en": "downtown",
+          "pt": "centro da cidade",
+          "emoji": "🏙️"
+        },
+        {
+          "en": "trip",
+          "pt": "viagem",
+          "emoji": "🧳"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"What is the purpose of your visit?\" pergunta...",
+      "lang": "pt",
+      "options": [
+        "O motivo da viagem",
+        "O seu endereço",
+        "A sua idade"
+      ],
+      "correct": 0,
+      "explanation": "Purpose = propósito, motivo."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Estou aqui de férias.",
+      "answer": [
+        "I'm",
+        "here",
+        "on",
+        "vacation."
+      ],
+      "distractors": [
+        "week",
+        "trip"
+      ],
+      "explanation": "On vacation = de férias."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "How long will you stay?",
+      "lang": "pt",
+      "options": [
+        "Quanto tempo você vai ficar?",
+        "Onde você vai ficar?",
+        "É a sua primeira vez?"
+      ],
+      "correct": 0,
+      "explanation": "How long = quanto tempo."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Officer",
+          "en": "Where will you stay?",
+          "pt": "Onde você vai ficar?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Num hotel no centro.",
+      "options": [
+        "At a hotel downtown.",
+        "Two weeks.",
+        "I'm here on vacation."
+      ],
+      "correct": 0,
+      "explanation": "Downtown = centro da cidade."
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O oficial pergunta \"How long will you stay?\". Qual é a resposta?",
+      "lang": "en",
+      "options": [
+        "Two weeks.",
+        "At a hotel downtown.",
+        "Yes, it is."
+      ],
+      "correct": 0,
+      "explanation": "Responda só o tempo: \"Two weeks.\""
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A imigração",
+      "questions": [
+        {
+          "english": "I'm here on vacation.",
+          "options": [
+            "Estou aqui de férias.",
+            "Estou aqui a trabalho.",
+            "Estou aqui para estudar."
+          ],
+          "correct": 0,
+          "joke": "Vacation = férias."
+        },
+        {
+          "english": "Where will you stay?",
+          "options": [
+            "Onde você vai ficar?",
+            "Quanto tempo você vai ficar?",
+            "De onde você é?"
+          ],
+          "correct": 0,
+          "joke": "Where = onde."
+        },
+        {
+          "english": "Is this your first time here?",
+          "options": [
+            "É a sua primeira vez aqui?",
+            "Você mora aqui?",
+            "Você está sozinha?"
+          ],
+          "correct": 0,
+          "joke": "First time = primeira vez."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Aeroporto",
+      "items": [
+        {
+          "emoji": "🛂",
+          "title": "Respostas curtas e verdadeiras",
+          "en": "I'm here on vacation. Two weeks.",
+          "pt": "Na imigração, responda curto, com calma e só a verdade. Tenha à mão a reserva do hotel e a passagem de volta. Regras de entrada mudam: confira sempre no site oficial do governo do país."
+        },
+        {
+          "emoji": "🔁",
+          "title": "Não entendeu?",
+          "en": "Sorry, can you repeat that, please?",
+          "pt": "Pedir para repetir é normal e educado. É melhor perguntar do que responder errado."
+        }
+      ]
+    }
+  ]
+}

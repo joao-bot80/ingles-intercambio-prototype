@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "id": "lib-basics-spell-numbers",
+  "title": "Soletrando e números",
+  "scenario": "Reserva por telefone",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio: Can you spell that?",
+      "lines": [
+        {
+          "speaker": "Receptionist",
+          "en": "Good afternoon. Can I have your name, please?",
+          "pt": "Boa tarde. Pode me dizer o seu nome, por favor?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Leo Souza.",
+          "pt": "Leo Souza."
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "Can you spell your last name, please?",
+          "pt": "Pode soletrar o seu sobrenome, por favor?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Sure. S, O, U, Z, A.",
+          "pt": "Claro. S, O, U, Z, A."
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "Sorry, can you repeat that?",
+          "pt": "Desculpe, pode repetir?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "S, O, U, Z, A. Souza.",
+          "pt": "S, O, U, Z, A. Souza."
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "Thank you. And your phone number?",
+          "pt": "Obrigada. E o seu número de telefone?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Five, five, one, two, three, four, six.",
+          "pt": "Cinco, cinco, um, dois, três, quatro, seis."
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "How many people?",
+          "pt": "Para quantas pessoas?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Two people, please.",
+          "pt": "Duas pessoas, por favor."
+        },
+        {
+          "speaker": "Receptionist",
+          "en": "Great. See you on Friday!",
+          "pt": "Ótimo. Até sexta!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "last name",
+          "pt": "sobrenome",
+          "emoji": "🪪"
+        },
+        {
+          "en": "spell",
+          "pt": "soletrar",
+          "emoji": "🔤"
+        },
+        {
+          "en": "repeat",
+          "pt": "repetir",
+          "emoji": "🔁"
+        },
+        {
+          "en": "phone number",
+          "pt": "número de telefone",
+          "emoji": "📱"
+        },
+        {
+          "en": "people",
+          "pt": "pessoas",
+          "emoji": "👥"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Números",
+      "words": [
+        {
+          "en": "one",
+          "pt": "um",
+          "emoji": "1️⃣"
+        },
+        {
+          "en": "two",
+          "pt": "dois",
+          "emoji": "2️⃣"
+        },
+        {
+          "en": "three",
+          "pt": "três",
+          "emoji": "3️⃣"
+        },
+        {
+          "en": "four",
+          "pt": "quatro",
+          "emoji": "4️⃣"
+        },
+        {
+          "en": "five",
+          "pt": "cinco",
+          "emoji": "5️⃣"
+        },
+        {
+          "en": "six",
+          "pt": "seis",
+          "emoji": "6️⃣"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Você não entendeu. Como pedir para a pessoa repetir?",
+      "lang": "en",
+      "options": [
+        "Sorry, can you repeat that?",
+        "How many people?",
+        "See you on Friday!"
+      ],
+      "correct": 0,
+      "explanation": "\"Sorry, can you repeat that?\" é educado e funciona em qualquer situação."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Pode soletrar o seu sobrenome, por favor?",
+      "answer": [
+        "Can",
+        "you",
+        "spell",
+        "your",
+        "last",
+        "name,",
+        "please?"
+      ],
+      "distractors": [
+        "people",
+        "number"
+      ],
+      "explanation": "Spell = soletrar. Last name = sobrenome."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "How many people?",
+      "lang": "pt",
+      "options": [
+        "Para quantas pessoas?",
+        "Qual é o seu nome?",
+        "Pode repetir?"
+      ],
+      "correct": 0,
+      "explanation": "How many = quantos / quantas. People = pessoas."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "Que número você ouviu?",
+      "english": "Four",
+      "lang": "pt",
+      "options": [
+        "4",
+        "14",
+        "40"
+      ],
+      "correct": 0,
+      "explanation": "Four = 4. Fourteen = 14. Forty = 40."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Receptionist",
+          "en": "How many people?",
+          "pt": "Para quantas pessoas?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Duas pessoas, por favor.",
+      "options": [
+        "Two people, please.",
+        "Leo Souza.",
+        "Sure."
+      ],
+      "correct": 0,
+      "explanation": "Two people = duas pessoas."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O telefone",
+      "questions": [
+        {
+          "english": "Can you spell your last name, please?",
+          "options": [
+            "Pode soletrar o seu sobrenome, por favor?",
+            "Qual é o seu primeiro nome?",
+            "Pode falar mais devagar?"
+          ],
+          "correct": 0,
+          "joke": "Spell = soletrar."
+        },
+        {
+          "english": "How many people?",
+          "options": [
+            "Para quantas pessoas?",
+            "Quantos anos você tem?",
+            "Que horas são?"
+          ],
+          "correct": 0,
+          "joke": "People = pessoas."
+        },
+        {
+          "english": "See you on Friday!",
+          "options": [
+            "Até sexta!",
+            "Até amanhã!",
+            "Bom fim de semana!"
+          ],
+          "correct": 0,
+          "joke": "Friday = sexta-feira."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Básico",
+      "items": [
+        {
+          "emoji": "🔤",
+          "title": "Letras que confundem",
+          "en": "A, E, I",
+          "pt": "Em inglês, a letra A soa como \"ei\", a E como \"i\" e a I como \"ai\". Treine soletrar o seu nome e o seu e-mail."
+        },
+        {
+          "emoji": "📞",
+          "title": "Zero vira \"oh\"",
+          "en": "Five, oh, two...",
+          "pt": "Ao ditar números de telefone, muita gente fala \"oh\" no lugar de \"zero\". Fale um número de cada vez."
+        }
+      ]
+    }
+  ]
+}
