@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "core-u3l2",
+  "title": "Regras e rotina",
+  "scenario": "Cozinha da família, primeira manhã",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 8: As regras da casa",
+      "lines": [
+        {
+          "speaker": "Linda",
+          "en": "Dinner is at six o'clock every day.",
+          "pt": "O jantar é às seis horas todo dia."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Okay. What time do you wake up?",
+          "pt": "Ok. Que horas vocês acordam?"
+        },
+        {
+          "speaker": "Linda",
+          "en": "We wake up at seven. School starts at eight thirty.",
+          "pt": "A gente acorda às sete. A escola começa às oito e meia."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Can I use the wifi?",
+          "pt": "Posso usar o wi-fi?"
+        },
+        {
+          "speaker": "Linda",
+          "en": "Of course. The password is on the fridge.",
+          "pt": "Claro. A senha está na geladeira."
+        },
+        {
+          "speaker": "Linda",
+          "en": "Please be home by nine on school nights.",
+          "pt": "Por favor, esteja em casa até as nove nos dias de aula."
+        },
+        {
+          "speaker": "Bia",
+          "en": "No problem. Can I take a shower now?",
+          "pt": "Sem problema. Posso tomar banho agora?"
+        },
+        {
+          "speaker": "Linda",
+          "en": "Sure! Ten minutes, okay?",
+          "pt": "Claro! Dez minutos, tá?"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "dinner",
+          "pt": "jantar",
+          "emoji": "🍽️"
+        },
+        {
+          "en": "wake up",
+          "pt": "acordar",
+          "emoji": "⏰"
+        },
+        {
+          "en": "shower",
+          "pt": "banho (de chuveiro)",
+          "emoji": "🚿"
+        },
+        {
+          "en": "password",
+          "pt": "senha",
+          "emoji": "🔑"
+        },
+        {
+          "en": "fridge",
+          "pt": "geladeira",
+          "emoji": "🧊"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Você quer usar a internet. O que você pergunta?",
+      "lang": "en",
+      "options": [
+        "Can I use the wifi?",
+        "Can I take a shower now?",
+        "What time do you wake up?"
+      ],
+      "correct": 0,
+      "explanation": "Can I...? = Posso...? É o jeito mais simples de pedir permissão."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Posso tomar banho agora?",
+      "answer": [
+        "Can",
+        "I",
+        "take",
+        "a",
+        "shower",
+        "now?"
+      ],
+      "distractors": [
+        "use",
+        "dinner"
+      ],
+      "explanation": "Tomar banho = take a shower. Can I...? pede permissão."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Dinner is at six o'clock.",
+      "lang": "pt",
+      "options": [
+        "O jantar é às seis horas.",
+        "O jantar é às sete horas.",
+        "O almoço é ao meio-dia."
+      ],
+      "correct": 0,
+      "explanation": "O'clock = hora cheia. Six o'clock = 6h (ou 18h)."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Linda",
+          "en": "Please be home by nine on school nights.",
+          "pt": "Por favor, esteja em casa até as nove nos dias de aula."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Sem problema.",
+      "options": [
+        "No problem.",
+        "Are you hungry?",
+        "Ten minutes, okay?"
+      ],
+      "correct": 0,
+      "explanation": "\"No problem\" = sem problema. Combinou, cumpra!"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "As regras da casa",
+      "questions": [
+        {
+          "english": "School starts at eight thirty.",
+          "options": [
+            "A escola começa às oito e meia.",
+            "A escola termina às oito e meia.",
+            "A escola começa às oito."
+          ],
+          "correct": 0,
+          "joke": "Start = começar."
+        },
+        {
+          "english": "The password is on the fridge.",
+          "options": [
+            "A senha está na geladeira.",
+            "A senha está no quarto.",
+            "O wi-fi não funciona."
+          ],
+          "correct": 0,
+          "joke": "Password = senha. Fridge = geladeira."
+        },
+        {
+          "english": "Please be home by nine.",
+          "options": [
+            "Por favor, esteja em casa até as nove.",
+            "Por favor, acorde às nove.",
+            "Por favor, jante às nove."
+          ],
+          "correct": 0,
+          "joke": "By nine = até as nove (no máximo)."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica de intercâmbio",
+      "region": "Casa de família",
+      "items": [
+        {
+          "emoji": "⏱️",
+          "title": "Banho rápido",
+          "en": "Ten minutes, okay?",
+          "pt": "Em muitas casas a água quente é limitada. Banho de 10 minutos é o combinado comum: pergunte as regras."
+        },
+        {
+          "emoji": "🕘",
+          "title": "Regras da casa",
+          "en": "What time should I be home?",
+          "pt": "Horário de voltar, tarefas e uso do celular na mesa variam de família para família. Pergunte no primeiro dia!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "ca",
+  "kind": "destination",
+  "title": "Destino: Canadá",
+  "variant": "en-US",
+  "contentVersion": "2026.10.22-1",
+  "insertAfter": null,
+  "cast": {
+    "Cashier": {
+      "emoji": "🧑🏽‍🍳",
+      "gender": "F",
+      "role": "other"
+    }
+  },
+  "units": [
+    {
+      "id": "ca-u1",
+      "title": "Canadá: o dia a dia",
+      "subtitle": "Inverno de verdade, Tim Hortons, \"sorry\" e \"eh\"",
+      "emoji": "🍁",
+      "lessons": [
+        {
+          "id": "ca-u1l1",
+          "title": "Frio de verdade"
+        },
+        {
+          "id": "ca-u1l2",
+          "title": "Tim Hortons e o jeito canadense"
+        }
+      ]
+    }
+  ]
+}

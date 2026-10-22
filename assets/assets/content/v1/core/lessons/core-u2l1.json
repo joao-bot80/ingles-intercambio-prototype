@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "id": "core-u2l1",
+  "title": "Check-in e embarque",
+  "scenario": "Portão de embarque da conexão",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 4: Boarding pass",
+      "lines": [
+        {
+          "speaker": "Agent",
+          "en": "Good morning. Passport and boarding pass, please.",
+          "pt": "Bom dia. Passaporte e cartão de embarque, por favor."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Here you go.",
+          "pt": "Aqui está."
+        },
+        {
+          "speaker": "Agent",
+          "en": "Thank you. Your seat is twelve A, by the window.",
+          "pt": "Obrigada. O seu assento é o doze A, na janela."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Excuse me, where is gate twenty?",
+          "pt": "Com licença, onde fica o portão vinte?"
+        },
+        {
+          "speaker": "Agent",
+          "en": "Gate twenty is on the left.",
+          "pt": "O portão vinte fica à esquerda."
+        },
+        {
+          "speaker": "Leo",
+          "en": "What time is boarding?",
+          "pt": "Que horas é o embarque?"
+        },
+        {
+          "speaker": "Agent",
+          "en": "Boarding is at ten thirty. Have a good flight!",
+          "pt": "O embarque é às dez e meia. Boa viagem!"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thank you!",
+          "pt": "Obrigado!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "passport",
+          "pt": "passaporte",
+          "emoji": "🛂"
+        },
+        {
+          "en": "boarding pass",
+          "pt": "cartão de embarque",
+          "emoji": "🎫"
+        },
+        {
+          "en": "gate",
+          "pt": "portão",
+          "emoji": "🚪"
+        },
+        {
+          "en": "seat",
+          "pt": "assento",
+          "emoji": "💺"
+        },
+        {
+          "en": "flight",
+          "pt": "voo",
+          "emoji": "✈️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Você quer saber onde fica o portão. O que você diz?",
+      "lang": "en",
+      "options": [
+        "Excuse me, where is gate twenty?",
+        "Here you go.",
+        "Have a good flight!"
+      ],
+      "correct": 0,
+      "explanation": "\"Excuse me\" = com licença. Use antes de fazer uma pergunta a um desconhecido."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Com licença, onde fica o portão?",
+      "answer": [
+        "Excuse",
+        "me,",
+        "where",
+        "is",
+        "the",
+        "gate?"
+      ],
+      "distractors": [
+        "seat",
+        "what"
+      ],
+      "explanation": "Where is...? = Onde fica...? Serve para tudo: gate, washroom, bus stop..."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Boarding is at ten thirty.",
+      "lang": "pt",
+      "options": [
+        "O embarque é às dez e meia.",
+        "O embarque é no portão dez.",
+        "O voo atrasou trinta minutos."
+      ],
+      "correct": 0,
+      "explanation": "Ten thirty = 10h30. Em inglês, é comum dizer as horas assim: ten thirty, eleven fifteen..."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 4,
+      "cards": [
+        {
+          "en": "pretend",
+          "kind": "armadilha",
+          "meaning": "fingir",
+          "tip": "Pretend NÃO é pretender! Pretender = to intend / to plan."
+        },
+        {
+          "en": "passport",
+          "kind": "quase",
+          "meaning": "passaporte",
+          "tip": "Quase igual: passport."
+        },
+        {
+          "en": "hotel",
+          "kind": "igual",
+          "meaning": "hotel",
+          "tip": "Mesma palavra, mesmo sentido.",
+          "pt": "hotel"
+        },
+        {
+          "en": "push",
+          "kind": "armadilha",
+          "meaning": "empurrar",
+          "tip": "Push NÃO é puxar! Push = empurrar; puxar = pull. Repare nas portas do aeroporto.",
+          "context": "Push the door."
+        },
+        {
+          "en": "taxi",
+          "kind": "igual",
+          "meaning": "táxi",
+          "tip": "Igual, só sem acento.",
+          "pt": "táxi"
+        },
+        {
+          "en": "terminal",
+          "kind": "igual",
+          "meaning": "terminal",
+          "tip": "Igual: o terminal do aeroporto.",
+          "pt": "terminal"
+        }
+      ]
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Agent",
+          "en": "Passport and boarding pass, please.",
+          "pt": "Passaporte e cartão de embarque, por favor."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Aqui está.",
+      "options": [
+        "Here you go.",
+        "Have a good flight!",
+        "Gate twenty is on the left."
+      ],
+      "correct": 0,
+      "explanation": "\"Here you go\" = aqui está, ao entregar alguma coisa."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Desafio do embarque",
+      "questions": [
+        {
+          "english": "Where is gate twenty?",
+          "options": [
+            "Onde fica o portão vinte?",
+            "Onde fica o assento vinte?",
+            "Que horas é o voo vinte?"
+          ],
+          "correct": 0,
+          "joke": "Gate = portão."
+        },
+        {
+          "english": "Your seat is by the window.",
+          "options": [
+            "O seu assento é na janela.",
+            "O seu assento é no corredor.",
+            "O seu portão é perto da janela."
+          ],
+          "correct": 0,
+          "joke": "Window = janela. Corredor = aisle."
+        },
+        {
+          "english": "Have a good flight!",
+          "options": [
+            "Boa viagem!",
+            "Bom dia!",
+            "Bom embarque no portão!"
+          ],
+          "correct": 0,
+          "joke": "Flight = voo. \"Have a good flight\" = tenha um bom voo."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica de intercâmbio",
+      "region": "Aeroporto",
+      "items": [
+        {
+          "emoji": "🎫",
+          "title": "Boarding pass",
+          "en": "Boarding pass, please.",
+          "pt": "Guarde o cartão de embarque (no papel ou no celular) até sair do avião. Na conexão, confira o portão nos painéis: ele pode mudar!"
+        },
+        {
+          "emoji": "⏰",
+          "title": "Horário de embarque",
+          "en": "Boarding is at ten thirty.",
+          "pt": "Boarding time é a hora em que o embarque começa, não a hora da decolagem. Chegue antes ao portão."
+        }
+      ]
+    }
+  ]
+}

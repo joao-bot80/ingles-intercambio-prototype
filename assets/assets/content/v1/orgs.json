@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "_comment": "DEMO ONLY. Fake roster for the prototype; in production the roster lives in the app's own Supabase project and is never shipped in the app bundle.",
+  "orgs": [
+    {
+      "id": "griffe",
+      "name": "Griffe Viagens",
+      "kind": "agency",
+      "turmas": [
+        {
+          "id": "griffe-ca-2027a",
+          "name": "Canadá 2027 · Turma A",
+          "program": "Programa estadual de intercâmbio (exemplo)",
+          "destination": "Canadá",
+          "packs": [
+            "griffe",
+            "ca"
+          ],
+          "departureDate": "2027-01-24",
+          "code": "GRIFFE2026",
+          "roster": [
+            {
+              "email": "aluno1@exemplo.com",
+              "name": "Ana",
+              "pin": "1111"
+            },
+            {
+              "email": "aluno2@exemplo.com",
+              "name": "Bruno",
+              "pin": "2222"
+            },
+            {
+              "email": "aluno3@exemplo.com",
+              "name": "Carla",
+              "pin": "3333"
+            }
+          ]
+        },
+        {
+          "id": "griffe-ca-2027b",
+          "name": "Canadá 2027 · Turma B",
+          "program": "Programa estadual de intercâmbio (exemplo)",
+          "destination": "Canadá",
+          "packs": [
+            "griffe",
+            "ca"
+          ],
+          "departureDate": "2027-02-14",
+          "code": "GRIFFE2026B",
+          "roster": [
+            {
+              "email": "aluno4@exemplo.com",
+              "name": "Diego",
+              "pin": "4444"
+            },
+            {
+              "email": "aluno5@exemplo.com",
+              "name": "Eduarda",
+              "pin": "5555"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
