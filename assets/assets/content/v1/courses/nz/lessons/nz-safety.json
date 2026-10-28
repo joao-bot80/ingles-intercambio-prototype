@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-safety",
+  "title": "Terremoto e segurança",
+  "scenario": "Simulado de terremoto na escola",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 18: Drop, cover, hold",
+      "lines": [
+        {
+          "speaker": "Mr. Evans",
+          "en": "Class, today we practise an earthquake drill.",
+          "pt": "Turma, hoje vamos praticar um simulado de terremoto."
+        },
+        {
+          "speaker": "Bia",
+          "en": "What do I do in an earthquake?",
+          "pt": "O que eu faço num terremoto?"
+        },
+        {
+          "speaker": "Mr. Evans",
+          "en": "Drop, cover and hold.",
+          "pt": "Abaixe-se, proteja-se e segure firme."
+        },
+        {
+          "speaker": "Mr. Evans",
+          "en": "Get under a desk and hold on.",
+          "pt": "Fique debaixo de uma mesa e segure firme."
+        },
+        {
+          "speaker": "Bia",
+          "en": "What if I am near the sea?",
+          "pt": "E se eu estiver perto do mar?"
+        },
+        {
+          "speaker": "Mr. Evans",
+          "en": "If the shaking is long or strong, get gone.",
+          "pt": "Se o tremor for longo ou forte, saia de lá."
+        },
+        {
+          "speaker": "Mr. Evans",
+          "en": "Go to high ground. Do not wait for a warning.",
+          "pt": "Vá para um lugar alto. Não espere por um alerta."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thank you. I understand.",
+          "pt": "Obrigada. Eu entendi."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "earthquake",
+          "pt": "terremoto",
+          "emoji": "🌋"
+        },
+        {
+          "en": "drill",
+          "pt": "simulado",
+          "emoji": "🚨"
+        },
+        {
+          "en": "shaking",
+          "pt": "tremor",
+          "emoji": "📳"
+        },
+        {
+          "en": "high ground",
+          "pt": "terreno alto",
+          "emoji": "⛰️"
+        },
+        {
+          "en": "warning",
+          "pt": "alerta / aviso",
+          "emoji": "⚠️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que a regra \"Drop, cover and hold\" manda fazer num terremoto?",
+      "lang": "pt",
+      "options": [
+        "Abaixar, se proteger e segurar firme",
+        "Subir na mesa e esperar",
+        "Correr para a rua e gritar"
+      ],
+      "correct": 0,
+      "explanation": "Drop = abaixar. Cover = proteger. Hold = segurar firme."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Vá para um lugar alto.",
+      "answer": [
+        "Go",
+        "to",
+        "high",
+        "ground."
+      ],
+      "distractors": [
+        "drill",
+        "warning"
+      ],
+      "explanation": "\"Go to...\" = vá para... \"High ground\" = terreno alto."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "If the shaking is long or strong, get gone.",
+      "lang": "pt",
+      "options": [
+        "Se o tremor for longo ou forte, saia de lá.",
+        "Se o tremor for curto, volte para casa.",
+        "Se o tremor for forte, fique perto do mar."
+      ],
+      "correct": 0,
+      "explanation": "Long = longo. Strong = forte. Get gone = saia de lá, vá embora."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Bia",
+          "en": "What do I do in an earthquake?",
+          "pt": "O que eu faço num terremoto?"
+        }
+      ],
+      "speaker": "Mr. Evans",
+      "pt": "Abaixe-se, proteja-se e segure firme.",
+      "options": [
+        "Drop, cover and hold.",
+        "What if I am near the sea?",
+        "Thank you."
+      ],
+      "correct": 0,
+      "explanation": "Em terremoto: abaixar, proteger e segurar firme."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 4,
+      "cards": [
+        {
+          "en": "sensible",
+          "kind": "armadilha",
+          "meaning": "sensato, razoável",
+          "tip": "Sensible NÃO é sensível! Sensível = sensitive."
+        },
+        {
+          "en": "exit",
+          "kind": "armadilha",
+          "meaning": "saída",
+          "tip": "Exit NÃO é êxito! Exit = saída."
+        },
+        {
+          "en": "tsunami",
+          "kind": "igual",
+          "meaning": "tsunami",
+          "tip": "Igual!",
+          "pt": "tsunami"
+        },
+        {
+          "en": "evacuate",
+          "kind": "quase",
+          "meaning": "evacuar",
+          "tip": "Quase: evacuate."
+        },
+        {
+          "en": "alarm",
+          "kind": "quase",
+          "meaning": "alarme",
+          "tip": "Quase: alarm."
+        }
+      ]
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O simulado",
+      "questions": [
+        {
+          "english": "Drop, cover and hold.",
+          "options": [
+            "Abaixe-se, proteja-se e segure firme.",
+            "Corra, pule e grite.",
+            "Fique em pé e espere."
+          ],
+          "correct": 0,
+          "joke": "Drop, cover, hold: a regra do terremoto."
+        },
+        {
+          "english": "Go to high ground.",
+          "options": [
+            "Vá para um lugar alto.",
+            "Vá para a praia.",
+            "Vá para o porão."
+          ],
+          "correct": 0,
+          "joke": "High = alto."
+        },
+        {
+          "english": "Do not wait for a warning.",
+          "options": [
+            "Não espere por um alerta.",
+            "Espere por um alerta.",
+            "Não ouça o alerta."
+          ],
+          "correct": 0,
+          "joke": "Warning = alerta."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🌋",
+          "title": "Terremoto",
+          "en": "Drop, cover and hold.",
+          "pt": "A Nova Zelândia tem muitos terremotos. Se sentir um tremor: abaixe-se, proteja a cabeça e o pescoço (debaixo de uma mesa, se houver) e segure firme até parar. Escolas e prédios fazem simulados. Informação oficial: civildefence.govt.nz."
+        },
+        {
+          "emoji": "🌊",
+          "title": "Tsunami",
+          "en": "Long or strong, get gone.",
+          "pt": "Se estiver perto da costa e o tremor for LONGO (mais de um minuto) ou FORTE (difícil ficar de pé), não espere por um alerta oficial: vá imediatamente para um terreno alto ou o mais longe do mar possível."
+        },
+        {
+          "emoji": "🥾",
+          "title": "Natureza e sol forte",
+          "en": "Tell someone where you are going.",
+          "pt": "O tempo muda rápido e o sol (raios UV) é forte, mesmo com nuvens. Em trilhas (\"tramping\"), avise alguém sobre o seu roteiro, leve agasalho e água e confira os alertas locais."
+        }
+      ]
+    }
+  ]
+}

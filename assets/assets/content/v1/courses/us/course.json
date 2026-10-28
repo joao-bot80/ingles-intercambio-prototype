@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "id": "us",
+  "title": "Inglês para os Estados Unidos",
+  "destination": {
+    "code": "us",
+    "name": "Estados Unidos",
+    "flag": "🇺🇸"
+  },
+  "branding": {
+    "headline": "Inglês para os Estados Unidos",
+    "tagline": "O inglês da sua viagem para os Estados Unidos, explicado em português",
+    "emoji": "🇺🇸"
+  },
+  "variant": "en-US",
+  "accent": "us",
+  "contentVersion": "2026.10.28-1",
+  "cast": {
+    "Ms. Johnson": {
+      "emoji": "👩🏾‍💼",
+      "gender": "F",
+      "role": "counsellor"
+    },
+    "Jennifer": {
+      "emoji": "👩🏼",
+      "gender": "F",
+      "role": "host"
+    },
+    "Mike": {
+      "emoji": "👨🏼",
+      "gender": "M",
+      "role": "host"
+    },
+    "Emily": {
+      "emoji": "👧🏼",
+      "gender": "F",
+      "role": "host"
+    },
+    "Mr. Davis": {
+      "emoji": "👨🏿‍🏫",
+      "gender": "M",
+      "role": "teacher"
+    },
+    "Tyler": {
+      "emoji": "🧑🏼",
+      "gender": "M",
+      "role": "classmate"
+    }
+  },
+  "lessons": [
+    {
+      "id": "us-hello",
+      "title": "Oi! Eu vou para os Estados Unidos"
+    },
+    {
+      "id": "us-spelling",
+      "title": "Soletrando o nome"
+    },
+    {
+      "id": "us-numbers",
+      "title": "Números e idade"
+    },
+    {
+      "id": "us-videocall",
+      "title": "Videochamada com a família"
+    },
+    {
+      "id": "us-backpack",
+      "title": "Mochila pronta, grupo junto"
+    },
+    {
+      "id": "us-checkin",
+      "title": "Check-in e embarque"
+    },
+    {
+      "id": "us-immigration",
+      "title": "Na imigração"
+    },
+    {
+      "id": "us-baggage",
+      "title": "Bagagem e saída"
+    },
+    {
+      "id": "us-host-arrival",
+      "title": "Chegando em casa"
+    },
+    {
+      "id": "us-host-rules",
+      "title": "Regras e rotina"
+    },
+    {
+      "id": "us-host-dinner",
+      "title": "Na hora do jantar"
+    },
+    {
+      "id": "us-school-first-day",
+      "title": "Primeiro dia de aula"
+    },
+    {
+      "id": "us-school-classroom",
+      "title": "Na sala de aula"
+    },
+    {
+      "id": "us-school-friends",
+      "title": "Fazendo amigos"
+    },
+    {
+      "id": "us-city-bus",
+      "title": "Ônibus e direções"
+    },
+    {
+      "id": "us-city-help",
+      "title": "Pedindo ajuda"
+    },
+    {
+      "id": "us-smalltalk",
+      "title": "Papo rápido"
+    },
+    {
+      "id": "us-daily",
+      "title": "Medidas e vida cotidiana"
+    }
+  ],
+  "units": [
+    {
+      "id": "us-intro",
+      "title": "Primeiros passos",
+      "subtitle": "Apresentar-se, soletrar o nome, idade e telefone",
+      "emoji": "👋",
+      "lessons": [
+        "us-hello",
+        "us-spelling",
+        "us-numbers"
+      ]
+    },
+    {
+      "id": "us-before",
+      "title": "Antes do embarque",
+      "subtitle": "Família anfitriã, documentos e grupo",
+      "emoji": "🧳",
+      "lessons": [
+        "us-videocall",
+        "us-backpack"
+      ],
+      "checklist": {
+        "id": "us-checklist",
+        "title": "Checklist de embarque",
+        "subtitle": "Documentos, inglês, contatos e mala",
+        "emoji": "✅",
+        "note": "Lista de apoio do protótipo. A lista oficial vem da sua agência e dos órgãos do governo do país de destino. Regras e prazos mudam: confira sempre na fonte oficial.",
+        "sections": [
+          {
+            "title": "🛂 Documentos (confira com a sua agência)",
+            "items": [
+              "Passaporte válido (confira a validade com a agência)",
+              "Visto ou autorização de entrada exigidos para o seu caso: siga a orientação da sua agência e o site oficial do governo (travel.state.gov)",
+              "Carta de aceitação da escola (impressa e no celular)",
+              "Autorização de viagem do menor assinada pelos responsáveis (quando aplicável)",
+              "Comprovante do seguro-saúde",
+              "Endereço e telefone da família anfitriã anotados no papel"
+            ]
+          },
+          {
+            "title": "🗣️ Inglês antes de embarcar",
+            "items": [
+              "Concluir a unidade Primeiros passos",
+              "Concluir a unidade Aeroporto e imigração nos Estados Unidos",
+              "Saber soletrar o nome do passaporte em inglês (Z se diz \"zee\")",
+              "Treinar em voz alta as respostas da imigração"
+            ]
+          },
+          {
+            "title": "📞 Contatos",
+            "items": [
+              "Contato de emergência da sua agência (Griffe ou outra): salvo no celular e anotado no papel",
+              "Monitor ou líder do grupo, se a sua viagem tiver um: nome e telefone",
+              "Família anfitriã e escola: endereço e telefone",
+              "Número de emergência nos Estados Unidos: 911"
+            ]
+          },
+          {
+            "title": "🧳 Mala (Estados Unidos)",
+            "items": [
+              "Roupas para o clima da sua região (confira a previsão) e um casaco",
+              "Adaptador de tomada americano (tipos A/B); a voltagem é de 120 V, confira se os seus aparelhos são bivolt",
+              "Remédios de uso contínuo com receita",
+              "Um presentinho do Brasil para a família"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "us-airport",
+      "title": "Aeroporto e imigração nos Estados Unidos",
+      "subtitle": "Conexão, fronteira e bagagem",
+      "emoji": "✈️",
+      "lessons": [
+        "us-checkin",
+        "us-immigration",
+        "us-baggage"
+      ]
+    },
+    {
+      "id": "us-home",
+      "title": "Casa de família nos Estados Unidos",
+      "subtitle": "Chegada, regras da casa e jantar",
+      "emoji": "🏠",
+      "lessons": [
+        "us-host-arrival",
+        "us-host-rules",
+        "us-host-dinner"
+      ]
+    },
+    {
+      "id": "us-school",
+      "title": "High school nos Estados Unidos",
+      "subtitle": "Counselor, homeroom, sala de aula e amigos",
+      "emoji": "🏫",
+      "lessons": [
+        "us-school-first-day",
+        "us-school-classroom",
+        "us-school-friends"
+      ]
+    },
+    {
+      "id": "us-city",
+      "title": "Cidade e emergência nos Estados Unidos",
+      "subtitle": "Ônibus, direções, farmácia e 911",
+      "emoji": "🚌",
+      "lessons": [
+        "us-city-bus",
+        "us-city-help"
+      ]
+    },
+    {
+      "id": "us-country",
+      "title": "Estados Unidos: o dia a dia",
+      "subtitle": "Papo rápido, medidas e vida cotidiana",
+      "emoji": "🗽",
+      "lessons": [
+        "us-smalltalk",
+        "us-daily"
+      ]
+    }
+  ]
+}

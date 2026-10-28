@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "id": "gb-words",
+  "title": "Palavras britânicas",
+  "scenario": "Intervalo na escola, conversa com os colegas",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 18: Lovely, cheers!",
+      "lines": [
+        {
+          "speaker": "Tom",
+          "en": "You alright, Bia?",
+          "pt": "Tudo bem, Bia?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes, I'm fine, thanks. You?",
+          "pt": "Sim, estou bem, obrigada. E você?"
+        },
+        {
+          "speaker": "Tom",
+          "en": "Yeah, good. Fancy some crisps?",
+          "pt": "Tudo bem. Quer batatinhas?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Lovely, cheers!",
+          "pt": "Ótimo, valeu!"
+        },
+        {
+          "speaker": "Tom",
+          "en": "Do you take the Tube home?",
+          "pt": "Você volta de metrô para casa?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes! I always hear \"mind the gap\".",
+          "pt": "Sim! Eu sempre ouço \"mind the gap\"."
+        },
+        {
+          "speaker": "Tom",
+          "en": "It means be careful. Mind the gap!",
+          "pt": "Quer dizer \"cuidado\". Cuidado com o vão!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "See you later, mate!",
+          "pt": "Até mais, amigo!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "alright",
+          "pt": "tudo bem? / bem",
+          "emoji": "👋"
+        },
+        {
+          "en": "cheers",
+          "pt": "valeu / obrigado",
+          "emoji": "🥂"
+        },
+        {
+          "en": "lovely",
+          "pt": "ótimo / lindo",
+          "emoji": "😍"
+        },
+        {
+          "en": "crisps",
+          "pt": "batatinhas de pacote",
+          "emoji": "🥔"
+        },
+        {
+          "en": "mind the gap",
+          "pt": "cuidado com o vão",
+          "emoji": "🚇"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Na Inglaterra, \"You alright?\" quase sempre significa:",
+      "lang": "pt",
+      "options": [
+        "Tudo bem? (um simples oi)",
+        "Você está machucado?",
+        "Você quer ajuda?"
+      ],
+      "correct": 0,
+      "explanation": "É um cumprimento. Responda \"Yeah, good, you?\"."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Ótimo, valeu!",
+      "answer": [
+        "Lovely,",
+        "cheers!"
+      ],
+      "distractors": [
+        "crisps",
+        "gap"
+      ],
+      "explanation": "\"Cheers\" é um \"valeu\" informal; \"lovely\" é o elogio preferido dos britânicos."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Mind the gap.",
+      "lang": "pt",
+      "options": [
+        "Cuidado com o vão.",
+        "Cuidado com a porta.",
+        "Cuidado com o degrau."
+      ],
+      "correct": 0,
+      "explanation": "Mind = tomar cuidado com. Gap = vão. Aviso do metrô de Londres."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 4,
+      "cards": [
+        {
+          "en": "crisps",
+          "kind": "armadilha",
+          "meaning": "batatinhas de pacote",
+          "tip": "Na Inglaterra, \"crisps\" são batatinhas de pacote e \"chips\" são batatas fritas quentes. Nos EUA, \"chips\" são as de pacote."
+        },
+        {
+          "en": "lecture",
+          "kind": "armadilha",
+          "meaning": "palestra, aula expositiva",
+          "tip": "Lecture NÃO é leitura! Leitura = reading."
+        },
+        {
+          "en": "tube",
+          "kind": "quase",
+          "meaning": "tubo; metrô de Londres",
+          "tip": "Quase: tube. Em Londres, \"the Tube\" é o metrô."
+        },
+        {
+          "en": "taxi",
+          "kind": "igual",
+          "meaning": "taxi",
+          "tip": "Igual, só sem acento.",
+          "pt": "taxi"
+        },
+        {
+          "en": "chocolate",
+          "kind": "igual",
+          "meaning": "chocolate",
+          "tip": "Igual!",
+          "pt": "chocolate"
+        }
+      ]
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Tom",
+          "en": "Yeah, good. Fancy some crisps?",
+          "pt": "Tudo bem. Quer batatinhas?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Ótimo, valeu!",
+      "options": [
+        "Lovely, cheers!",
+        "Mind the gap!",
+        "You alright, Bia?"
+      ],
+      "correct": 0,
+      "explanation": "\"Lovely, cheers!\" é uma resposta muito britânica."
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como dizer \"valeu\" de um jeito britânico e informal?",
+      "lang": "en",
+      "options": [
+        "Cheers!",
+        "Mind the gap!",
+        "Crisps!"
+      ],
+      "correct": 0,
+      "explanation": "\"Cheers\" serve para agradecer e também para brindar."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Papo com o Tom",
+      "questions": [
+        {
+          "english": "You alright, Bia?",
+          "options": [
+            "Tudo bem, Bia?",
+            "Você está perdida, Bia?",
+            "Você está atrasada, Bia?"
+          ],
+          "correct": 0,
+          "joke": "É um oi."
+        },
+        {
+          "english": "Lovely, cheers!",
+          "options": [
+            "Ótimo, valeu!",
+            "Que pena, tchau!",
+            "Muito longe, cuidado!"
+          ],
+          "correct": 0,
+          "joke": "Lovely = ótimo. Cheers = valeu."
+        },
+        {
+          "english": "Mind the gap!",
+          "options": [
+            "Cuidado com o vão!",
+            "Chegue cedo!",
+            "Fique na fila!"
+          ],
+          "correct": 0,
+          "joke": "Mind = tomar cuidado."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Inglaterra",
+      "items": [
+        {
+          "emoji": "🗣️",
+          "title": "\"You alright?\" e \"cheers\"",
+          "en": "You alright? Cheers!",
+          "pt": "\"You alright?\" é um oi, não uma pergunta de preocupação. \"Cheers\" serve para \"valeu\" e também para brindar. \"Lovely\" é o elogio favorito dos britânicos."
+        },
+        {
+          "emoji": "🚇",
+          "title": "The Tube",
+          "en": "Mind the gap.",
+          "pt": "\"The Tube\" é o metrô de Londres. \"Mind the gap\" avisa do vão entre o trem e a plataforma. Em outras cidades o transporte tem outros nomes e cartões."
+        },
+        {
+          "emoji": "🍟",
+          "title": "Chips, crisps e biscuits",
+          "en": "Fish and chips, please.",
+          "pt": "Chips = batata frita quente (como em \"fish and chips\"). Crisps = batatinha de pacote. Biscuit = biscoito ou bolacha. O inglês americano usa palavras diferentes para as mesmas coisas."
+        }
+      ]
+    }
+  ]
+}

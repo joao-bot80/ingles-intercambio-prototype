@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "au-videocall",
+  "title": "Videochamada com a família",
+  "scenario": "Primeira videochamada com a família anfitriã australiana, ainda no Brasil",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 4: Can you hear me?",
+      "lines": [
+        {
+          "speaker": "Kerry",
+          "en": "Hi, Bia! Can you hear me?",
+          "pt": "Oi, Bia! Você está me ouvindo?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes! Hi, Kerry! Nice to meet you.",
+          "pt": "Sim! Oi, Kerry! Prazer em te conhecer."
+        },
+        {
+          "speaker": "Kerry",
+          "en": "Nice to meet you too! We are very happy.",
+          "pt": "Prazer! Nós estamos muito felizes."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Me too! I'm so excited.",
+          "pt": "Eu também! Estou muito animada."
+        },
+        {
+          "speaker": "Kerry",
+          "en": "Do you have any questions?",
+          "pt": "Você tem alguma pergunta?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes. Is it very hot there?",
+          "pt": "Sim. Faz muito calor aí?"
+        },
+        {
+          "speaker": "Kerry",
+          "en": "Yes! Bring a hat and sunscreen.",
+          "pt": "Sim! Traga um chapéu e protetor solar."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Okay! See you soon!",
+          "pt": "Ok! Até breve!"
+        },
+        {
+          "speaker": "Kerry",
+          "en": "See you soon, Bia!",
+          "pt": "Até breve, Bia!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "happy",
+          "pt": "feliz",
+          "emoji": "😊"
+        },
+        {
+          "en": "excited",
+          "pt": "animado / animada",
+          "emoji": "🤩"
+        },
+        {
+          "en": "question",
+          "pt": "pergunta",
+          "emoji": "❓"
+        },
+        {
+          "en": "hot",
+          "pt": "quente (calor)",
+          "emoji": "🥵"
+        },
+        {
+          "en": "sunscreen",
+          "pt": "protetor solar",
+          "emoji": "🧴"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como dizer \"Até breve!\"?",
+      "lang": "en",
+      "options": [
+        "See you soon!",
+        "Nice to meet you too!",
+        "Can you hear me?"
+      ],
+      "correct": 0,
+      "explanation": "Soon = em breve. \"See you soon!\" é perfeito para fechar a chamada."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu estou muito animada.",
+      "answer": [
+        "I'm",
+        "so",
+        "excited."
+      ],
+      "distractors": [
+        "happy",
+        "hot"
+      ],
+      "explanation": "Excited = animado(a), empolgado(a). Não confunda com \"excitado\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Bring a hat and sunscreen.",
+      "lang": "pt",
+      "options": [
+        "Traga um chapéu e protetor solar.",
+        "Compre um chapéu novo.",
+        "Está muito quente aqui."
+      ],
+      "correct": 0,
+      "explanation": "Bring = trazer. Hat = chapéu. Sunscreen = protetor solar. O que você ouviu?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Kerry",
+          "en": "Do you have any questions?",
+          "pt": "Você tem alguma pergunta?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Sim. Faz muito calor aí?",
+      "options": [
+        "Yes. Is it very hot there?",
+        "See you soon!",
+        "Me too!"
+      ],
+      "correct": 0,
+      "explanation": "Prepare perguntas antes da chamada: clima, escola, rotina."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A primeira chamada",
+      "questions": [
+        {
+          "english": "Can you hear me?",
+          "options": [
+            "Você está me ouvindo?",
+            "Você está me vendo?",
+            "Você pode me ligar?"
+          ],
+          "correct": 0,
+          "joke": "Hear = ouvir."
+        },
+        {
+          "english": "We are very happy.",
+          "options": [
+            "Nós estamos muito felizes.",
+            "Nós estamos muito cansados.",
+            "Nós somos muito altos."
+          ],
+          "correct": 0,
+          "joke": "Happy = feliz."
+        },
+        {
+          "english": "Do you have any questions?",
+          "options": [
+            "Você tem alguma pergunta?",
+            "Você tem algum problema?",
+            "Você tem alguma alergia?"
+          ],
+          "correct": 0,
+          "joke": "Question = pergunta."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Antes do embarque · Austrália",
+      "items": [
+        {
+          "emoji": "💻",
+          "title": "Primeira chamada",
+          "en": "Hi! Can you hear me?",
+          "pt": "A agência passa o contato da família quando a hospedagem é confirmada. Combine o horário (cuidado com o fuso) e teste câmera e microfone antes."
+        },
+        {
+          "emoji": "🎁",
+          "title": "Apresente-se",
+          "en": "Hi! I'm Bia. I'm fifteen years old. I'm from Brazil.",
+          "pt": "Prepare 3 frases sobre você: nome, idade e de onde você é. Você já aprendeu todas na unidade Primeiros passos!"
+        },
+        {
+          "emoji": "🕐",
+          "title": "Fuso horário",
+          "en": "Is it a good time?",
+          "pt": "A Austrália tem mais de um fuso horário e alguns estados mudam o relógio no verão. Confira o fuso da cidade da sua família antes de marcar a chamada."
+        }
+      ]
+    }
+  ]
+}

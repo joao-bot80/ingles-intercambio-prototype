@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "id": "gb-city-help",
+  "title": "Pedindo ajuda",
+  "scenario": "Farmácia e uma ligação para o número de emergência, na Inglaterra",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 16: I need help",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Excuse me, I feel sick.",
+          "pt": "Com licença, eu estou passando mal."
+        },
+        {
+          "speaker": "Pharmacist",
+          "en": "What's wrong?",
+          "pt": "O que você está sentindo?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I have a headache and a sore throat.",
+          "pt": "Estou com dor de cabeça e dor de garganta."
+        },
+        {
+          "speaker": "Pharmacist",
+          "en": "Do you have a fever?",
+          "pt": "Você está com febre?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I don't know. I'm cold.",
+          "pt": "Não sei. Estou com frio."
+        },
+        {
+          "speaker": "Pharmacist",
+          "en": "Please see a doctor today.",
+          "pt": "Por favor, vá ao médico hoje."
+        },
+        {
+          "speaker": "Operator",
+          "en": "Emergency. Which service do you need?",
+          "pt": "Emergência. De qual serviço você precisa?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Ambulance, please. I need help! My friend is hurt.",
+          "pt": "Ambulância, por favor. Preciso de ajuda! Meu amigo está machucado."
+        },
+        {
+          "speaker": "Operator",
+          "en": "Where are you?",
+          "pt": "Onde você está?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I'm at the bus stop on High Street.",
+          "pt": "Estou no ponto de ônibus da High Street."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "help",
+          "pt": "ajuda / ajudar",
+          "emoji": "🆘"
+        },
+        {
+          "en": "sick",
+          "pt": "doente / passando mal",
+          "emoji": "🤒"
+        },
+        {
+          "en": "headache",
+          "pt": "dor de cabeça",
+          "emoji": "🤕"
+        },
+        {
+          "en": "doctor",
+          "pt": "médico / médica",
+          "emoji": "🩺"
+        },
+        {
+          "en": "hurt",
+          "pt": "machucado / machucada",
+          "emoji": "🩹"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Emergência! O que você diz?",
+      "lang": "en",
+      "options": [
+        "I need help!",
+        "I'm cold.",
+        "Thank you so much!"
+      ],
+      "correct": 0,
+      "explanation": "\"I need help!\" = preciso de ajuda! Fale alto e claro."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu estou passando mal.",
+      "answer": [
+        "I",
+        "feel",
+        "sick."
+      ],
+      "distractors": [
+        "hurt",
+        "help"
+      ],
+      "explanation": "I feel sick = estou passando mal / me sinto doente."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Emergency. Which service do you need?",
+      "lang": "pt",
+      "options": [
+        "Emergência. De qual serviço você precisa?",
+        "Emergência. Você está bem?",
+        "Emergência. Onde você está?"
+      ],
+      "correct": 0,
+      "explanation": "É a primeira pergunta da central. Responda com o serviço de que precisa: polícia, bombeiros ou ambulância."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Operator",
+          "en": "Where are you?",
+          "pt": "Onde você está?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Estou no ponto de ônibus da High Street.",
+      "options": [
+        "I'm at the bus stop on High Street.",
+        "I need help!",
+        "I don't know."
+      ],
+      "correct": 0,
+      "explanation": "No telefone de emergência, o mais importante é dizer ONDE você está."
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Na Inglaterra, o número de emergência é:",
+      "lang": "pt",
+      "options": [
+        "999",
+        "911",
+        "000"
+      ],
+      "correct": 0,
+      "explanation": "999 atende polícia, bombeiros e ambulância. O 112 também funciona."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Pedindo ajuda",
+      "questions": [
+        {
+          "english": "I have a headache.",
+          "options": [
+            "Estou com dor de cabeça.",
+            "Estou com dor de garganta.",
+            "Estou com febre."
+          ],
+          "correct": 0,
+          "joke": "Head = cabeça. Ache = dor."
+        },
+        {
+          "english": "Do you have a fever?",
+          "options": [
+            "Você está com febre?",
+            "Você está com frio?",
+            "Você está com fome?"
+          ],
+          "correct": 0,
+          "joke": "Fever = febre."
+        },
+        {
+          "english": "My friend is hurt.",
+          "options": [
+            "Meu amigo está machucado.",
+            "Meu amigo está cansado.",
+            "Meu amigo está doente."
+          ],
+          "correct": 0,
+          "joke": "Hurt = machucado."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Saúde e segurança · Inglaterra",
+      "items": [
+        {
+          "emoji": "🚨",
+          "title": "Número 999",
+          "en": "Emergency. Which service do you need?",
+          "pt": "O número de emergência é 999 (polícia, bombeiros e ambulância); o 112 também funciona. Diga qual serviço precisa e ONDE você está. Para um problema de saúde que não é emergência, existe o serviço \"NHS 111\"."
+        },
+        {
+          "emoji": "💊",
+          "title": "Chemist e GP",
+          "en": "Please see a doctor today.",
+          "pt": "Farmácia também se diz \"chemist\". O médico de família é o \"GP\" e em geral é preciso marcar hora. Ligue para o seguro-saúde do intercâmbio e avise a família anfitriã."
+        },
+        {
+          "emoji": "📞",
+          "title": "Contatos de emergência",
+          "en": "My emergency contact",
+          "pt": "Salve no celular: a família anfitriã, a escola, o seguro-saúde e o contato de emergência da sua agência."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "id": "nz",
+  "title": "Inglês para a Nova Zelândia",
+  "destination": {
+    "code": "nz",
+    "name": "Nova Zelândia",
+    "flag": "🇳🇿"
+  },
+  "branding": {
+    "headline": "Inglês para a Nova Zelândia",
+    "tagline": "O inglês da sua viagem para a Nova Zelândia, explicado em português",
+    "emoji": "🇳🇿"
+  },
+  "variant": "en-NZ",
+  "accent": "nz",
+  "contentVersion": "2026.10.28-1",
+  "cast": {
+    "Ms. Clarke": {
+      "emoji": "👩🏽‍💼",
+      "gender": "F",
+      "role": "office"
+    },
+    "Jo": {
+      "emoji": "👩🏻",
+      "gender": "F",
+      "role": "host"
+    },
+    "Mark": {
+      "emoji": "👨🏻",
+      "gender": "M",
+      "role": "host"
+    },
+    "Ruby": {
+      "emoji": "👧🏻",
+      "gender": "F",
+      "role": "host"
+    },
+    "Mr. Evans": {
+      "emoji": "👨🏼‍🏫",
+      "gender": "M",
+      "role": "teacher"
+    },
+    "Ben": {
+      "emoji": "🧑🏻",
+      "gender": "M",
+      "role": "classmate"
+    }
+  },
+  "lessons": [
+    {
+      "id": "nz-hello",
+      "title": "Oi! Eu vou para a Nova Zelândia"
+    },
+    {
+      "id": "nz-spelling",
+      "title": "Soletrando o nome"
+    },
+    {
+      "id": "nz-numbers",
+      "title": "Números e idade"
+    },
+    {
+      "id": "nz-videocall",
+      "title": "Videochamada com a família"
+    },
+    {
+      "id": "nz-backpack",
+      "title": "Mochila pronta, grupo junto"
+    },
+    {
+      "id": "nz-checkin",
+      "title": "Check-in e embarque"
+    },
+    {
+      "id": "nz-immigration",
+      "title": "Na imigração"
+    },
+    {
+      "id": "nz-baggage",
+      "title": "Bagagem e saída"
+    },
+    {
+      "id": "nz-host-arrival",
+      "title": "Chegando em casa"
+    },
+    {
+      "id": "nz-host-rules",
+      "title": "Regras e rotina"
+    },
+    {
+      "id": "nz-host-dinner",
+      "title": "Na hora do jantar"
+    },
+    {
+      "id": "nz-school-first-day",
+      "title": "Primeiro dia de aula"
+    },
+    {
+      "id": "nz-school-classroom",
+      "title": "Na sala de aula"
+    },
+    {
+      "id": "nz-school-friends",
+      "title": "Fazendo amigos"
+    },
+    {
+      "id": "nz-city-bus",
+      "title": "Ônibus e direções"
+    },
+    {
+      "id": "nz-city-help",
+      "title": "Pedindo ajuda"
+    },
+    {
+      "id": "nz-kiwi",
+      "title": "O jeito kiwi"
+    },
+    {
+      "id": "nz-safety",
+      "title": "Terremoto e segurança"
+    }
+  ],
+  "units": [
+    {
+      "id": "nz-intro",
+      "title": "Primeiros passos",
+      "subtitle": "Apresentar-se, soletrar o nome, idade e telefone",
+      "emoji": "👋",
+      "lessons": [
+        "nz-hello",
+        "nz-spelling",
+        "nz-numbers"
+      ]
+    },
+    {
+      "id": "nz-before",
+      "title": "Antes do embarque",
+      "subtitle": "Família anfitriã, documentos e grupo",
+      "emoji": "🧳",
+      "lessons": [
+        "nz-videocall",
+        "nz-backpack"
+      ],
+      "checklist": {
+        "id": "nz-checklist",
+        "title": "Checklist de embarque",
+        "subtitle": "Documentos, inglês, contatos e mala",
+        "emoji": "✅",
+        "note": "Lista de apoio do protótipo. A lista oficial vem da sua agência e dos órgãos do governo do país de destino. Regras e prazos mudam: confira sempre na fonte oficial.",
+        "sections": [
+          {
+            "title": "🛂 Documentos (confira com a sua agência)",
+            "items": [
+              "Passaporte válido (confira a validade com a agência)",
+              "Visto ou autorização de entrada exigidos para o seu caso: siga a orientação da sua agência e o site oficial do governo (immigration.govt.nz)",
+              "Carta de aceitação da escola (impressa e no celular)",
+              "Autorização de viagem do menor assinada pelos responsáveis (quando aplicável)",
+              "Comprovante do seguro-saúde",
+              "Endereço e telefone da família anfitriã anotados no papel"
+            ]
+          },
+          {
+            "title": "🗣️ Inglês antes de embarcar",
+            "items": [
+              "Concluir a unidade Primeiros passos",
+              "Concluir a unidade Aeroporto e imigração na Nova Zelândia",
+              "Saber soletrar o nome do passaporte em inglês (Z se diz \"zed\")",
+              "Treinar em voz alta as respostas da imigração"
+            ]
+          },
+          {
+            "title": "📞 Contatos",
+            "items": [
+              "Contato de emergência da sua agência (Griffe ou outra): salvo no celular e anotado no papel",
+              "Monitor ou líder do grupo, se a sua viagem tiver um: nome e telefone",
+              "Família anfitriã e escola: endereço e telefone",
+              "Número de emergência na Nova Zelândia: 111"
+            ]
+          },
+          {
+            "title": "🧳 Mala (Nova Zelândia)",
+            "items": [
+              "Roupas em camadas, casaco impermeável e agasalho (o tempo muda rápido)",
+              "Chapéu, óculos de sol e protetor solar (o sol é forte)",
+              "Adaptador de tomada neozelandês (tipo I)",
+              "Remédios de uso contínuo com receita",
+              "Nada de comida, plantas ou botas sujas de terra na mala sem checar as regras de biossegurança",
+              "Um presentinho do Brasil para a família (sem comida, se possível)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "nz-airport",
+      "title": "Aeroporto e imigração na Nova Zelândia",
+      "subtitle": "Conexão, fronteira e bagagem",
+      "emoji": "✈️",
+      "lessons": [
+        "nz-checkin",
+        "nz-immigration",
+        "nz-baggage"
+      ]
+    },
+    {
+      "id": "nz-home",
+      "title": "Casa de família na Nova Zelândia",
+      "subtitle": "Chegada, regras da casa e jantar",
+      "emoji": "🏠",
+      "lessons": [
+        "nz-host-arrival",
+        "nz-host-rules",
+        "nz-host-dinner"
+      ]
+    },
+    {
+      "id": "nz-school",
+      "title": "High school na Nova Zelândia",
+      "subtitle": "Uniforme, turma-base, sala de aula e amigos",
+      "emoji": "🏫",
+      "lessons": [
+        "nz-school-first-day",
+        "nz-school-classroom",
+        "nz-school-friends"
+      ]
+    },
+    {
+      "id": "nz-city",
+      "title": "Cidade e emergência na Nova Zelândia",
+      "subtitle": "Ônibus, direções, farmácia e 111",
+      "emoji": "🚌",
+      "lessons": [
+        "nz-city-bus",
+        "nz-city-help"
+      ]
+    },
+    {
+      "id": "nz-country",
+      "title": "Nova Zelândia: o dia a dia",
+      "subtitle": "Jeito kiwi, terremotos e natureza",
+      "emoji": "🥝",
+      "lessons": [
+        "nz-kiwi",
+        "nz-safety"
+      ]
+    }
+  ]
+}

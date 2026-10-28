@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "id": "gb-weather",
+  "title": "Chuva e fila",
+  "scenario": "Manhã de chuva: em casa e no ponto de ônibus",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 17: Not the best weather",
+      "lines": [
+        {
+          "speaker": "Sue",
+          "en": "Morning, Bia! It's raining again.",
+          "pt": "Bom dia, Bia! Está chovendo de novo."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes! Do I need an umbrella?",
+          "pt": "Sim! Eu preciso de guarda-chuva?"
+        },
+        {
+          "speaker": "Sue",
+          "en": "Yes, and a coat. It's cold and windy.",
+          "pt": "Sim, e de um casaco. Está frio e ventando."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Excuse me, is this the queue for the bus?",
+          "pt": "Com licença, esta é a fila do ônibus?"
+        },
+        {
+          "speaker": "Passerby",
+          "en": "Yes, the queue starts here.",
+          "pt": "Sim, a fila começa aqui."
+        },
+        {
+          "speaker": "Passerby",
+          "en": "Not the best weather, is it?",
+          "pt": "Não é o melhor tempo, né?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "No, it's cold!",
+          "pt": "Não, está frio!"
+        },
+        {
+          "speaker": "Passerby",
+          "en": "It'll be sunny tomorrow.",
+          "pt": "Amanhã vai estar ensolarado."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Lovely! Thank you.",
+          "pt": "Que bom! Obrigada."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "umbrella",
+          "pt": "guarda-chuva",
+          "emoji": "☂️"
+        },
+        {
+          "en": "coat",
+          "pt": "casaco",
+          "emoji": "🧥"
+        },
+        {
+          "en": "queue",
+          "pt": "fila",
+          "emoji": "🧍"
+        },
+        {
+          "en": "windy",
+          "pt": "ventando / com vento",
+          "emoji": "💨"
+        },
+        {
+          "en": "sunny",
+          "pt": "ensolarado",
+          "emoji": "☀️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Num ponto de ônibus britânico, o que você faz?",
+      "lang": "pt",
+      "options": [
+        "Entra no fim da fila (queue)",
+        "Corre para a frente",
+        "Espera no meio da rua"
+      ],
+      "correct": 0,
+      "explanation": "Queue = fila. Os britânicos respeitam muito a ordem da fila."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu preciso de guarda-chuva?",
+      "answer": [
+        "Do",
+        "I",
+        "need",
+        "an",
+        "umbrella?"
+      ],
+      "distractors": [
+        "coat",
+        "queue"
+      ],
+      "explanation": "Do I need...? = Eu preciso de...?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "It's raining again.",
+      "lang": "pt",
+      "options": [
+        "Está chovendo de novo.",
+        "Amanhã vai chover.",
+        "Hoje está ensolarado."
+      ],
+      "correct": 0,
+      "explanation": "Raining = chovendo. Again = de novo."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Passerby",
+          "en": "Not the best weather, is it?",
+          "pt": "Não é o melhor tempo, né?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Não, está frio!",
+      "options": [
+        "No, it's cold!",
+        "Yes, the queue starts here.",
+        "Do I need an umbrella?"
+      ],
+      "correct": 0,
+      "explanation": "Concordar e comentar o tempo é o jeito britânico de puxar assunto."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 4,
+      "cards": [
+        {
+          "en": "chips",
+          "kind": "armadilha",
+          "meaning": "batata frita quente",
+          "tip": "Na Inglaterra, \"chips\" são batatas fritas grossas, quentes. As batatinhas de pacote se chamam \"crisps\". Nos EUA é o contrário."
+        },
+        {
+          "en": "pants",
+          "kind": "armadilha",
+          "meaning": "cueca / calcinha (no Reino Unido)",
+          "tip": "Na Inglaterra, \"pants\" é roupa de baixo. Calça é \"trousers\". Nos EUA, \"pants\" é calça."
+        },
+        {
+          "en": "biscuit",
+          "kind": "quase",
+          "meaning": "biscoito / bolacha",
+          "tip": "Quase: biscuit. Na Inglaterra é o nome do biscoito doce ou salgado."
+        },
+        {
+          "en": "taxi",
+          "kind": "igual",
+          "meaning": "taxi",
+          "tip": "Igual, só sem acento.",
+          "pt": "taxi"
+        },
+        {
+          "en": "chocolate",
+          "kind": "igual",
+          "meaning": "chocolate",
+          "tip": "Igual!",
+          "pt": "chocolate"
+        }
+      ]
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O tempo inglês",
+      "questions": [
+        {
+          "english": "It's raining again.",
+          "options": [
+            "Está chovendo de novo.",
+            "Está ensolarado de novo.",
+            "Está ventando de novo."
+          ],
+          "correct": 0,
+          "joke": "Raining = chovendo."
+        },
+        {
+          "english": "Do I need an umbrella?",
+          "options": [
+            "Eu preciso de guarda-chuva?",
+            "Eu preciso de um casaco?",
+            "Eu preciso de ajuda?"
+          ],
+          "correct": 0,
+          "joke": "Umbrella = guarda-chuva."
+        },
+        {
+          "english": "The queue starts here.",
+          "options": [
+            "A fila começa aqui.",
+            "A fila termina aqui.",
+            "O ônibus para aqui."
+          ],
+          "correct": 0,
+          "joke": "Queue = fila."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Inglaterra",
+      "items": [
+        {
+          "emoji": "☔",
+          "title": "Falar do tempo",
+          "en": "Not the best weather, is it?",
+          "pt": "Puxar assunto sobre o tempo (\"Lovely day, isn't it?\") é o quebra-gelo número 1 na Inglaterra. É educação, não uma pergunta de verdade: concorde e comente."
+        },
+        {
+          "emoji": "🧍",
+          "title": "A fila (queue)",
+          "en": "Excuse me, is this the queue?",
+          "pt": "Furar fila é muito mal visto. Entre no fim da fila e espere a sua vez; vale para ônibus, lojas e até para pedir comida."
+        },
+        {
+          "emoji": "🌧️",
+          "title": "Tempo imprevisível",
+          "en": "Bring a coat.",
+          "pt": "O tempo pode mudar várias vezes no mesmo dia: leve sempre um casaco impermeável. Roupa em camadas é a melhor amiga."
+        }
+      ]
+    }
+  ]
+}

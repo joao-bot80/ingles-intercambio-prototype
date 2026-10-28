@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "id": "ca",
+  "title": "Inglês para o Canadá",
+  "branding": {
+    "headline": "Inglês para o Canadá",
+    "tagline": "O inglês da sua viagem para o Canadá, explicado em português",
+    "emoji": "🍁"
+  },
+  "variant": "en-CA",
+  "contentVersion": "2026.10.28-1",
+  "cast": {
+    "Ms. Lee": {
+      "emoji": "👩🏻‍💼",
+      "gender": "F",
+      "role": "counsellor"
+    },
+    "Linda": {
+      "emoji": "👩🏼",
+      "gender": "F",
+      "role": "host"
+    },
+    "Dave": {
+      "emoji": "👨🏻",
+      "gender": "M",
+      "role": "host"
+    },
+    "Emma": {
+      "emoji": "👧🏼",
+      "gender": "F",
+      "role": "host"
+    },
+    "Mr. Brown": {
+      "emoji": "👨🏾‍🏫",
+      "gender": "M",
+      "role": "teacher"
+    },
+    "Jake": {
+      "emoji": "🧑🏻",
+      "gender": "M",
+      "role": "classmate"
+    },
+    "Cashier": {
+      "emoji": "🧑🏽‍🍳",
+      "gender": "F",
+      "role": "other"
+    }
+  },
+  "lessons": [
+    {
+      "id": "ca-hello",
+      "title": "Oi! Eu vou para o Canadá"
+    },
+    {
+      "id": "ca-spelling",
+      "title": "Soletrando o nome"
+    },
+    {
+      "id": "ca-numbers",
+      "title": "Números e idade"
+    },
+    {
+      "id": "ca-videocall",
+      "title": "Videochamada com a família"
+    },
+    {
+      "id": "ca-backpack",
+      "title": "Mochila pronta, grupo junto"
+    },
+    {
+      "id": "ca-checkin",
+      "title": "Check-in e embarque"
+    },
+    {
+      "id": "ca-immigration",
+      "title": "Na imigração"
+    },
+    {
+      "id": "ca-baggage",
+      "title": "Bagagem e saída"
+    },
+    {
+      "id": "ca-host-arrival",
+      "title": "Chegando em casa"
+    },
+    {
+      "id": "ca-host-rules",
+      "title": "Regras e rotina"
+    },
+    {
+      "id": "ca-host-dinner",
+      "title": "Na hora do jantar"
+    },
+    {
+      "id": "ca-school-first-day",
+      "title": "Primeiro dia de aula"
+    },
+    {
+      "id": "ca-school-classroom",
+      "title": "Na sala de aula"
+    },
+    {
+      "id": "ca-school-friends",
+      "title": "Fazendo amigos"
+    },
+    {
+      "id": "ca-city-bus",
+      "title": "Ônibus e direções"
+    },
+    {
+      "id": "ca-city-help",
+      "title": "Pedindo ajuda"
+    },
+    {
+      "id": "ca-cold",
+      "title": "Frio de verdade"
+    },
+    {
+      "id": "ca-coffee",
+      "title": "Tim Hortons e o jeito canadense"
+    }
+  ],
+  "units": [
+    {
+      "id": "ca-intro",
+      "title": "Primeiros passos",
+      "subtitle": "Apresentar-se, soletrar o nome, idade e telefone",
+      "emoji": "👋",
+      "lessons": [
+        "ca-hello",
+        "ca-spelling",
+        "ca-numbers"
+      ]
+    },
+    {
+      "id": "ca-before",
+      "title": "Antes do embarque",
+      "subtitle": "Família anfitriã, documentos e grupo",
+      "emoji": "🧳",
+      "lessons": [
+        "ca-videocall",
+        "ca-backpack"
+      ],
+      "checklist": {
+        "id": "ca-checklist",
+        "title": "Checklist de embarque",
+        "subtitle": "Documentos, inglês, contatos e mala",
+        "emoji": "✅",
+        "note": "Lista de apoio do protótipo. A lista oficial vem da sua agência e dos órgãos do governo do país de destino. Regras e prazos mudam: confira sempre na fonte oficial.",
+        "sections": [
+          {
+            "title": "🛂 Documentos (confira com a sua agência)",
+            "items": [
+              "Passaporte válido (confira a validade com a agência)",
+              "Documento de entrada exigido para o seu caso no país de destino: siga a orientação da sua agência e o site oficial do governo do país",
+              "Carta de aceitação da escola (impressa e no celular)",
+              "Autorização de viagem do menor assinada pelos responsáveis (quando aplicável)",
+              "Comprovante do seguro-saúde",
+              "Endereço e telefone da família anfitriã anotados no papel"
+            ]
+          },
+          {
+            "title": "🗣️ Inglês antes de embarcar",
+            "items": [
+              "Concluir a unidade Primeiros passos",
+              "Concluir a unidade Aeroporto e imigração no Canadá",
+              "Saber soletrar o nome do passaporte em inglês",
+              "Treinar em voz alta as respostas da imigração"
+            ]
+          },
+          {
+            "title": "📞 Contatos",
+            "items": [
+              "Contato de emergência da sua agência (Griffe ou outra): salvo no celular e anotado no papel",
+              "Monitor ou líder do grupo, se a sua viagem tiver um: nome e telefone",
+              "Família anfitriã e escola: endereço e telefone",
+              "Número de emergência no Canadá: 911"
+            ]
+          },
+          {
+            "title": "🧳 Mala (Canadá)",
+            "items": [
+              "Casaco quente, gorro, luvas e botas (inverno canadense)",
+              "Adaptador de tomada padrão norte-americano (tipos A/B)",
+              "Remédios de uso contínuo com receita",
+              "Um presentinho do Brasil para a família"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ca-airport",
+      "title": "Aeroporto e imigração no Canadá",
+      "subtitle": "Conexão, fronteira e bagagem",
+      "emoji": "✈️",
+      "lessons": [
+        "ca-checkin",
+        "ca-immigration",
+        "ca-baggage"
+      ]
+    },
+    {
+      "id": "ca-home",
+      "title": "Casa de família no Canadá",
+      "subtitle": "Chegada, regras da casa e jantar",
+      "emoji": "🏠",
+      "lessons": [
+        "ca-host-arrival",
+        "ca-host-rules",
+        "ca-host-dinner"
+      ]
+    },
+    {
+      "id": "ca-school",
+      "title": "High school no Canadá",
+      "subtitle": "Primeiro dia, sala de aula e amigos",
+      "emoji": "🏫",
+      "lessons": [
+        "ca-school-first-day",
+        "ca-school-classroom",
+        "ca-school-friends"
+      ]
+    },
+    {
+      "id": "ca-city",
+      "title": "Cidade e emergência no Canadá",
+      "subtitle": "Ônibus, direções, farmácia e 911",
+      "emoji": "🚌",
+      "lessons": [
+        "ca-city-bus",
+        "ca-city-help"
+      ]
+    },
+    {
+      "id": "ca-country",
+      "title": "Canadá: o dia a dia",
+      "subtitle": "Frio, neve, Tim Hortons e o jeito canadense",
+      "emoji": "🍁",
+      "lessons": [
+        "ca-cold",
+        "ca-coffee"
+      ]
+    }
+  ],
+  "destination": {
+    "code": "ca",
+    "name": "Canadá",
+    "flag": "🇨🇦"
+  },
+  "accent": "ca"
+}

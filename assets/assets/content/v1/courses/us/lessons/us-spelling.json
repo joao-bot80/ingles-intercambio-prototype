@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "id": "us-spelling",
+  "title": "Soletrando o nome",
+  "scenario": "Ligação com a secretaria da escola, antes da viagem",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 2: Como se escreve?",
+      "lines": [
+        {
+          "speaker": "Ms. Johnson",
+          "en": "Hello! Can you spell your last name, please?",
+          "pt": "Olá! Você pode soletrar o seu sobrenome, por favor?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Sure. S, O, U, Z, A.",
+          "pt": "Claro. S, O, U, Z, A."
+        },
+        {
+          "speaker": "Ms. Johnson",
+          "en": "Sorry, can you repeat that?",
+          "pt": "Desculpe, você pode repetir?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "S, O, U, Z, A. Souza.",
+          "pt": "S, O, U, Z, A. Souza."
+        },
+        {
+          "speaker": "Ms. Johnson",
+          "en": "Thank you. And your first name?",
+          "pt": "Obrigada. E o seu primeiro nome?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Leonardo. My friends call me Leo.",
+          "pt": "Leonardo. Meus amigos me chamam de Leo."
+        },
+        {
+          "speaker": "Ms. Johnson",
+          "en": "Great. Welcome, Leo!",
+          "pt": "Ótimo. Bem-vindo, Leo!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "last name",
+          "pt": "sobrenome",
+          "emoji": "🪪"
+        },
+        {
+          "en": "first name",
+          "pt": "primeiro nome",
+          "emoji": "🙋"
+        },
+        {
+          "en": "spell",
+          "pt": "soletrar",
+          "emoji": "🔤"
+        },
+        {
+          "en": "repeat",
+          "pt": "repetir",
+          "emoji": "🔁"
+        },
+        {
+          "en": "please",
+          "pt": "por favor",
+          "emoji": "🥺"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Você não entendeu. Como pedir para a pessoa repetir?",
+      "lang": "en",
+      "options": [
+        "Can you repeat that, please?",
+        "Can you spell your last name?",
+        "Nice to meet you."
+      ],
+      "correct": 0,
+      "explanation": "\"Can you repeat that, please?\" salva qualquer conversa. Use sem medo!"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Você pode repetir, por favor?",
+      "answer": [
+        "Can",
+        "you",
+        "repeat",
+        "that,",
+        "please?"
+      ],
+      "distractors": [
+        "spell",
+        "name"
+      ],
+      "explanation": "Can you...? = Você pode...? É o jeito educado de pedir algo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Can you spell your last name, please?",
+      "lang": "pt",
+      "options": [
+        "Você pode soletrar o seu sobrenome, por favor?",
+        "Qual é o seu primeiro nome?",
+        "Você pode repetir, por favor?"
+      ],
+      "correct": 0,
+      "explanation": "Spell = soletrar. Last name = sobrenome."
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "A secretária disse \"Sorry?\". O que ela quer?",
+      "lang": "pt",
+      "options": [
+        "Que você repita",
+        "Que você peça desculpas",
+        "Que você soletre o nome"
+      ],
+      "correct": 0,
+      "explanation": "\"Sorry?\" com entonação de pergunta quer dizer \"Como? Pode repetir?\"."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ms. Johnson",
+          "en": "And your first name?",
+          "pt": "E o seu primeiro nome?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Leonardo. Meus amigos me chamam de Leo.",
+      "options": [
+        "Leonardo. My friends call me Leo.",
+        "S, O, U, Z, A. Souza.",
+        "Sure."
+      ],
+      "correct": 0,
+      "explanation": "First name é o primeiro nome. O sobrenome é \"last name\"."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Desafio do soletrar",
+      "questions": [
+        {
+          "english": "Can you spell your first name?",
+          "options": [
+            "Você pode soletrar o seu primeiro nome?",
+            "Você pode repetir o seu nome?",
+            "Qual é o seu sobrenome?"
+          ],
+          "correct": 0,
+          "joke": "Spell = soletrar. Treine o seu nome letra por letra!"
+        },
+        {
+          "english": "Sorry, can you repeat that?",
+          "options": [
+            "Desculpe, você pode repetir?",
+            "Desculpe, eu não sei.",
+            "Desculpe, você pode soletrar?"
+          ],
+          "correct": 0,
+          "joke": "Repeat = repetir."
+        },
+        {
+          "english": "Welcome!",
+          "options": [
+            "Bem-vindo!",
+            "Obrigado!",
+            "Até logo!"
+          ],
+          "correct": 0,
+          "joke": "Welcome = bem-vindo. Você vai ouvir muito na chegada."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Estados Unidos",
+      "items": [
+        {
+          "emoji": "🔤",
+          "title": "Letras que confundem",
+          "en": "A, E, I",
+          "pt": "Em inglês, a letra A soa como \"ei\", a E como \"i\" e a I como \"ai\". Treine soletrar o seu nome antes da viagem."
+        },
+        {
+          "emoji": "🪪",
+          "title": "First name e last name",
+          "en": "First name: Leonardo. Last name: Souza.",
+          "pt": "First name é o primeiro nome e last name é o sobrenome (o último do passaporte). Muitos formulários pedem o last name primeiro."
+        },
+        {
+          "emoji": "🔤",
+          "title": "Z = \"zee\"",
+          "en": "S, O, U, Z, A.",
+          "pt": "Nos Estados Unidos, a letra Z se diz \"zee\". No Reino Unido, na Austrália e no Canadá é \"zed\". Soletre o nome EXATAMENTE como está no passaporte."
+        }
+      ]
+    }
+  ]
+}

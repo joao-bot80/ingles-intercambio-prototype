@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "gb-baggage",
+  "title": "Bagagem e saída",
+  "scenario": "Área de bagagem e alfândega na Inglaterra",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 8: Cadê a minha mala?",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Excuse me, where is the baggage reclaim?",
+          "pt": "Com licença, onde fica a esteira de bagagem?"
+        },
+        {
+          "speaker": "Agent",
+          "en": "It's downstairs, on the right.",
+          "pt": "Fica no andar de baixo, à direita."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Hi. My bag is not here.",
+          "pt": "Oi. A minha mala não está aqui."
+        },
+        {
+          "speaker": "Agent",
+          "en": "I'm sorry. What colour is your bag?",
+          "pt": "Sinto muito. De que cor é a sua mala?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "It's big and blue.",
+          "pt": "É grande e azul."
+        },
+        {
+          "speaker": "Agent",
+          "en": "Okay. Can you write your address here?",
+          "pt": "Certo. Você pode escrever o seu endereço aqui?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Sure. This is my host family's address.",
+          "pt": "Claro. Este é o endereço da minha família anfitriã."
+        },
+        {
+          "speaker": "Officer",
+          "en": "Anything to declare?",
+          "pt": "Algo a declarar?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "No, nothing.",
+          "pt": "Não, nada."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "bag",
+          "pt": "mala / bolsa",
+          "emoji": "🧳"
+        },
+        {
+          "en": "baggage reclaim",
+          "pt": "esteira de bagagem",
+          "emoji": "🛄"
+        },
+        {
+          "en": "blue",
+          "pt": "azul",
+          "emoji": "🔵"
+        },
+        {
+          "en": "big",
+          "pt": "grande",
+          "emoji": "🐘"
+        },
+        {
+          "en": "address",
+          "pt": "endereço",
+          "emoji": "📍"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "A sua mala não chegou. O que você diz no balcão?",
+      "lang": "en",
+      "options": [
+        "My bag is not here.",
+        "Anything to declare?",
+        "It's downstairs, on the right."
+      ],
+      "correct": 0,
+      "explanation": "\"My bag is not here\" = minha mala não está aqui. Simples e direto."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "A minha mala é azul.",
+      "answer": [
+        "My",
+        "bag",
+        "is",
+        "blue."
+      ],
+      "distractors": [
+        "big",
+        "here"
+      ],
+      "explanation": "Em inglês, a cor vem depois de \"is\": My bag is blue. Antes do nome: a blue bag."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "It's downstairs, on the right.",
+      "lang": "pt",
+      "options": [
+        "Fica no andar de baixo, à direita.",
+        "Fica no andar de cima, à esquerda.",
+        "Fica lá fora, à direita."
+      ],
+      "correct": 0,
+      "explanation": "Downstairs = no andar de baixo. Right = direita. Left = esquerda."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Officer",
+          "en": "Anything to declare?",
+          "pt": "Algo a declarar?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Não, nada.",
+      "options": [
+        "No, nothing.",
+        "Yes, I do.",
+        "Here you go."
+      ],
+      "correct": 0,
+      "explanation": "Declare = declarar. Na dúvida sobre algum item, declare."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O balcão de bagagem",
+      "questions": [
+        {
+          "english": "What colour is your bag?",
+          "options": [
+            "De que cor é a sua mala?",
+            "Qual é o tamanho da sua mala?",
+            "Onde está a sua mala?"
+          ],
+          "correct": 0,
+          "joke": "Colour = cor."
+        },
+        {
+          "english": "Can you write your address here?",
+          "options": [
+            "Você pode escrever o seu endereço aqui?",
+            "Você pode soletrar o seu nome aqui?",
+            "Você pode esperar aqui?"
+          ],
+          "correct": 0,
+          "joke": "Address = endereço. Tenha o endereço da família anotado!"
+        },
+        {
+          "english": "Anything to declare?",
+          "options": [
+            "Algo a declarar?",
+            "Mais alguma coisa?",
+            "Alguma pergunta?"
+          ],
+          "correct": 0,
+          "joke": "É a pergunta da alfândega."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Aeroporto · Inglaterra",
+      "items": [
+        {
+          "emoji": "🧳",
+          "title": "Mala perdida",
+          "en": "My bag is not here.",
+          "pt": "Se a mala não aparecer, vá ao balcão da companhia aérea ANTES de sair da área de bagagem. Tenha o endereço da família no celular e no papel."
+        },
+        {
+          "emoji": "🚦",
+          "title": "Corredor verde e vermelho",
+          "en": "Anything to declare?",
+          "pt": "Depois de pegar a mala, a alfândega tem dois corredores: o verde (nada a declarar) e o vermelho (algo a declarar). Na dúvida, vá ao vermelho e pergunte. Confira as regras no site oficial (gov.uk)."
+        }
+      ]
+    }
+  ]
+}

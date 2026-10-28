@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "id": "ie-school-friends",
+  "title": "Fazendo amigos",
+  "scenario": "Cantina da secondary school irlandesa, hora do almoço",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 14: Do you like sport?",
+      "lines": [
+        {
+          "speaker": "Conor",
+          "en": "Hey! You're the new student, right?",
+          "pt": "Oi! Você é o aluno novo, né?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes! I'm Leo. I'm from Brazil.",
+          "pt": "Sim! Eu sou o Leo. Sou do Brasil."
+        },
+        {
+          "speaker": "Conor",
+          "en": "Cool! I'm Conor. Do you want to sit with us?",
+          "pt": "Legal! Eu sou o Conor. Quer sentar com a gente?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Sure, thanks!",
+          "pt": "Claro, obrigado!"
+        },
+        {
+          "speaker": "Conor",
+          "en": "Do you like sport?",
+          "pt": "Você gosta de esporte?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes, I love football. And you?",
+          "pt": "Sim, eu amo futebol. E você?"
+        },
+        {
+          "speaker": "Conor",
+          "en": "I play Gaelic football and hurling.",
+          "pt": "Eu jogo futebol gaélico e hurling."
+        },
+        {
+          "speaker": "Leo",
+          "en": "What's hurling?",
+          "pt": "O que é hurling?"
+        },
+        {
+          "speaker": "Conor",
+          "en": "It's an Irish sport. Come and watch on Saturday!",
+          "pt": "É um esporte irlandês. Vem assistir no sábado!"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Brilliant! See you later!",
+          "pt": "Demais! Até mais!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "football",
+          "pt": "futebol",
+          "emoji": "⚽"
+        },
+        {
+          "en": "sport",
+          "pt": "esporte",
+          "emoji": "🏅"
+        },
+        {
+          "en": "play",
+          "pt": "jogar",
+          "emoji": "▶️"
+        },
+        {
+          "en": "cool",
+          "pt": "legal",
+          "emoji": "😎"
+        },
+        {
+          "en": "later",
+          "pt": "mais tarde",
+          "emoji": "⏰"
+        },
+        {
+          "en": "brilliant",
+          "pt": "ótimo, demais",
+          "emoji": "🌟"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como convidar alguém para sentar com você?",
+      "lang": "en",
+      "options": [
+        "Do you want to sit with us?",
+        "Do you like sport?",
+        "See you later!"
+      ],
+      "correct": 0,
+      "explanation": "Sit with us = sentar com a gente."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu amo futebol.",
+      "answer": [
+        "I",
+        "love",
+        "football."
+      ],
+      "distractors": [
+        "play",
+        "sport"
+      ],
+      "explanation": "Na Irlanda, \"football\" pode ser o futebol que você conhece ou o Gaelic football."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Do you want to sit with us?",
+      "lang": "pt",
+      "options": [
+        "Quer sentar com a gente?",
+        "Quer jogar com a gente?",
+        "Você gosta de esporte?"
+      ],
+      "correct": 0,
+      "explanation": "Want to = querer."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Conor",
+          "en": "Do you like sport?",
+          "pt": "Você gosta de esporte?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Sim, eu amo futebol. E você?",
+      "options": [
+        "Yes, I love football. And you?",
+        "See you later!",
+        "Sure, thanks!"
+      ],
+      "correct": 0,
+      "explanation": "Devolver a pergunta (\"And you?\") mantém a conversa."
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Na Irlanda, \"Brilliant!\" quase sempre significa:",
+      "lang": "pt",
+      "options": [
+        "Ótimo! Que legal!",
+        "Brilhante, que brilha",
+        "Inteligente"
+      ],
+      "correct": 0,
+      "explanation": "Brilliant! = demais, ótimo. Você vai ouvir o tempo todo."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A cantina",
+      "questions": [
+        {
+          "english": "You're the new student, right?",
+          "options": [
+            "Você é o aluno novo, né?",
+            "Você é o professor novo?",
+            "Você está na turma certa?"
+          ],
+          "correct": 0,
+          "joke": "New student = aluno novo."
+        },
+        {
+          "english": "I play Gaelic football and hurling.",
+          "options": [
+            "Eu jogo futebol gaélico e hurling.",
+            "Eu assisto futebol e hurling.",
+            "Eu não gosto de esporte."
+          ],
+          "correct": 0,
+          "joke": "Play = jogar."
+        },
+        {
+          "english": "See you later!",
+          "options": [
+            "Até mais!",
+            "Até amanhã!",
+            "Tchau para sempre!"
+          ],
+          "correct": 0,
+          "joke": "Later = mais tarde."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica de intercâmbio",
+      "region": "Escola · Irlanda",
+      "items": [
+        {
+          "emoji": "⚽",
+          "title": "Football e jogos gaélicos",
+          "en": "I love football.",
+          "pt": "Na Irlanda, \"football\" pode ser o futebol (também chamado de soccer) ou o Gaelic football. Gaelic football e hurling são esportes tradicionais irlandeses, organizados pela GAA. Entrar num time da escola é o jeito mais rápido de fazer amigos."
+        },
+        {
+          "emoji": "🎉",
+          "title": "Craic",
+          "en": "What's the craic?",
+          "pt": "\"Craic\" (pronuncia-se \"crack\") é diversão, conversa boa. \"What's the craic?\" = \"E aí, quais as novidades?\". \"The craic was great!\" = \"Foi muito divertido!\""
+        }
+      ]
+    }
+  ]
+}

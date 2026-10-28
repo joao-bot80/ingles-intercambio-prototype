@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "id": "gb-host-arrival",
+  "title": "Chegando em casa",
+  "scenario": "Casa da família anfitriã na Inglaterra, primeira noite",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 9: Welcome home!",
+      "lines": [
+        {
+          "speaker": "Sue",
+          "en": "Hi, Bia! Welcome to our home!",
+          "pt": "Oi, Bia! Bem-vinda à nossa casa!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thank you so much! Nice to meet you.",
+          "pt": "Muito obrigada! Prazer em te conhecer."
+        },
+        {
+          "speaker": "Sue",
+          "en": "This is Paul, and this is Ellie.",
+          "pt": "Este é o Paul, e esta é a Ellie."
+        },
+        {
+          "speaker": "Ellie",
+          "en": "Hi, Bia! I'm fifteen too!",
+          "pt": "Oi, Bia! Eu também tenho quinze anos!"
+        },
+        {
+          "speaker": "Sue",
+          "en": "Come in. This is your room.",
+          "pt": "Entre. Este é o seu quarto."
+        },
+        {
+          "speaker": "Bia",
+          "en": "It's beautiful! Where is the toilet?",
+          "pt": "É lindo! Onde fica o banheiro?"
+        },
+        {
+          "speaker": "Paul",
+          "en": "The toilet is next to your room.",
+          "pt": "O banheiro fica ao lado do seu quarto."
+        },
+        {
+          "speaker": "Sue",
+          "en": "Are you hungry?",
+          "pt": "Você está com fome?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes, a little. And very tired!",
+          "pt": "Sim, um pouco. E muito cansada!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "room",
+          "pt": "quarto",
+          "emoji": "🛏️"
+        },
+        {
+          "en": "toilet",
+          "pt": "banheiro / vaso sanitário",
+          "emoji": "🚽"
+        },
+        {
+          "en": "home",
+          "pt": "casa / lar",
+          "emoji": "🏡"
+        },
+        {
+          "en": "hungry",
+          "pt": "com fome",
+          "emoji": "😋"
+        },
+        {
+          "en": "tired",
+          "pt": "cansado / cansada",
+          "emoji": "😴"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Are you hungry?\" significa:",
+      "lang": "pt",
+      "options": [
+        "Você está com fome?",
+        "Você está cansada?",
+        "Você está com frio?"
+      ],
+      "correct": 0,
+      "explanation": "Hungry = com fome. Em inglês, fome é um estado: I AM hungry (e não \"I have hunger\")."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Onde fica o banheiro?",
+      "answer": [
+        "Where",
+        "is",
+        "the",
+        "toilet?"
+      ],
+      "distractors": [
+        "room",
+        "are"
+      ],
+      "explanation": "Where is the...? Você já usou para gate e baggage claim!"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "This is your room.",
+      "lang": "pt",
+      "options": [
+        "Este é o seu quarto.",
+        "Esta é a sua casa.",
+        "Este é o banheiro."
+      ],
+      "correct": 0,
+      "explanation": "Room = quarto. Home = casa, lar."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 4,
+      "cards": [
+        {
+          "en": "parents",
+          "kind": "armadilha",
+          "meaning": "pais (pai e mãe)",
+          "tip": "Parents = pai e mãe. Parentes (tios, primos) = relatives."
+        },
+        {
+          "en": "family",
+          "kind": "quase",
+          "meaning": "família",
+          "tip": "Quase igual: family."
+        },
+        {
+          "en": "actually",
+          "kind": "armadilha",
+          "meaning": "na verdade",
+          "tip": "Actually NÃO é atualmente! Atualmente = currently / nowadays."
+        },
+        {
+          "en": "chocolate",
+          "kind": "igual",
+          "meaning": "chocolate",
+          "tip": "Igual!",
+          "pt": "chocolate"
+        },
+        {
+          "en": "sofa",
+          "kind": "igual",
+          "meaning": "sofá",
+          "tip": "Igual, só sem acento.",
+          "pt": "sofá"
+        },
+        {
+          "en": "realize",
+          "kind": "armadilha",
+          "meaning": "perceber, se dar conta",
+          "tip": "Realize NÃO é realizar! Realizar um sonho = make a dream come true."
+        }
+      ]
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sue",
+          "en": "Are you hungry?",
+          "pt": "Você está com fome?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Sim, um pouco. E muito cansada!",
+      "options": [
+        "Yes, a little. And very tired!",
+        "The toilet is next to your room.",
+        "Welcome to our home!"
+      ],
+      "correct": 0,
+      "explanation": "Tired = cansada. A little = um pouco."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A primeira noite",
+      "questions": [
+        {
+          "english": "Welcome to our home!",
+          "options": [
+            "Bem-vinda à nossa casa!",
+            "Bem-vinda à nossa escola!",
+            "Esta é a nossa família!"
+          ],
+          "correct": 0,
+          "joke": "Home = casa, lar."
+        },
+        {
+          "english": "The toilet is next to your room.",
+          "options": [
+            "O banheiro fica ao lado do seu quarto.",
+            "O banheiro fica no seu quarto.",
+            "O seu quarto fica lá em cima."
+          ],
+          "correct": 0,
+          "joke": "Next to = ao lado de."
+        },
+        {
+          "english": "I'm very tired.",
+          "options": [
+            "Estou muito cansada.",
+            "Estou com muita fome.",
+            "Estou muito feliz."
+          ],
+          "correct": 0,
+          "joke": "Tired = cansado. Depois de um voo longo, é normal!"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Casa de família · Inglaterra",
+      "items": [
+        {
+          "emoji": "🏡",
+          "title": "Agradeça bastante",
+          "en": "Thank you so much!",
+          "pt": "Agradeça muito: \"Thank you so much!\". Uma lembrancinha do Brasil (um chaveiro, um cartão postal) costuma ser bem recebida."
+        },
+        {
+          "emoji": "🙏",
+          "title": "Please, thank you e sorry",
+          "en": "Sorry! Thank you!",
+          "pt": "Os britânicos dizem \"please\", \"thank you\" e \"sorry\" o tempo todo, até quando a culpa nem é deles. Faça o mesmo: é educação."
+        },
+        {
+          "emoji": "🚽",
+          "title": "Toilet e loo",
+          "en": "Where is the toilet?",
+          "pt": "Na Inglaterra, \"toilet\" é a palavra normal para o banheiro com vaso. Entre amigos você vai ouvir \"loo\" (informal). Em lugares públicos, procure \"toilets\". \"Restroom\" é americano."
+        },
+        {
+          "emoji": "👟",
+          "title": "Sapatos na porta",
+          "en": "Can I take off my shoes?",
+          "pt": "Em muitas casas as pessoas tiram o sapato na entrada, mas varia de família para família. Na dúvida, pergunte: \"Can I take off my shoes?\""
+        }
+      ]
+    }
+  ]
+}

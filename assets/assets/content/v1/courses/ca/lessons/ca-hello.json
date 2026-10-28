@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-hello",
+  "title": "Oi! Eu vou para o Canadá",
+  "scenario": "Primeira aula online, ainda no Brasil, antes de viajar para o Canadá",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 1: Hello, Canada!",
+      "lines": [
+        {
+          "speaker": "Sam",
+          "en": "Hi! I'm Sam. What's your name?",
+          "pt": "Oi! Eu sou a Sam. Qual é o seu nome?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Hi! My name is Bia.",
+          "pt": "Oi! Meu nome é Bia."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Nice to meet you, Bia.",
+          "pt": "Prazer em te conhecer, Bia."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Nice to meet you too.",
+          "pt": "Prazer em te conhecer também."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Where are you from?",
+          "pt": "De onde você é?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm from Brazil.",
+          "pt": "Eu sou do Brasil."
+        },
+        {
+          "speaker": "Sam",
+          "en": "How are you today?",
+          "pt": "Como você está hoje?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm good, thanks. And you?",
+          "pt": "Estou bem, obrigada. E você?"
+        },
+        {
+          "speaker": "Sam",
+          "en": "Where are you going?",
+          "pt": "Para onde você vai?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm going to Canada!",
+          "pt": "Eu vou para o Canadá!"
+        },
+        {
+          "speaker": "Sam",
+          "en": "Great! Welcome to the group!",
+          "pt": "Que ótimo! Bem-vinda ao grupo!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "hello",
+          "pt": "olá / oi",
+          "emoji": "👋"
+        },
+        {
+          "en": "name",
+          "pt": "nome",
+          "emoji": "📛"
+        },
+        {
+          "en": "friend",
+          "pt": "amigo / amiga",
+          "emoji": "🤝"
+        },
+        {
+          "en": "good",
+          "pt": "bom / bem",
+          "emoji": "👍"
+        },
+        {
+          "en": "thanks",
+          "pt": "obrigado / obrigada",
+          "emoji": "🙏"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Nice to meet you\"?",
+      "lang": "pt",
+      "options": [
+        "Prazer em te conhecer",
+        "Bom dia",
+        "Até logo"
+      ],
+      "correct": 0,
+      "explanation": "\"Nice to meet you\" é o que se diz ao conhecer alguém. A resposta é \"Nice to meet you too\"."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Meu nome é Bia.",
+      "answer": [
+        "My",
+        "name",
+        "is",
+        "Bia."
+      ],
+      "distractors": [
+        "I'm",
+        "you"
+      ],
+      "explanation": "My name is... = Meu nome é... Também dá para dizer \"I'm Bia\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Where are you from?",
+      "lang": "pt",
+      "options": [
+        "De onde você é?",
+        "Como você está?",
+        "Qual é o seu nome?"
+      ],
+      "correct": 0,
+      "explanation": "\"Where\" = onde. \"Where are you from?\" pergunta de onde você é. Resposta: \"I'm from Brazil.\""
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sam",
+          "en": "How are you today?",
+          "pt": "Como você está hoje?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Estou bem, obrigada. E você?",
+      "options": [
+        "I'm good, thanks. And you?",
+        "I'm from Brazil.",
+        "Nice to meet you too."
+      ],
+      "correct": 0,
+      "explanation": "Para \"How are you?\", responda como você está: \"I'm good, thanks. And you?\""
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Sam pergunta: \"What's your name?\" Qual é a resposta certa?",
+      "lang": "en",
+      "options": [
+        "My name is Bia.",
+        "I'm good, thanks.",
+        "I'm from Brazil."
+      ],
+      "correct": 0,
+      "explanation": "\"What's your name?\" = Qual é o seu nome? Responda com \"My name is...\" ou \"I'm...\"."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Desafio da apresentação",
+      "questions": [
+        {
+          "english": "Hi! What's your name?",
+          "options": [
+            "Oi! Qual é o seu nome?",
+            "Oi! Como vai?",
+            "Oi! De onde você é?"
+          ],
+          "correct": 0,
+          "joke": "\"What's\" = \"What is\". Name = nome."
+        },
+        {
+          "english": "I'm from Brazil.",
+          "options": [
+            "Eu sou do Brasil.",
+            "Eu vou para o Brasil.",
+            "Eu moro longe do Brasil."
+          ],
+          "correct": 0,
+          "joke": "\"From\" indica origem: de onde você vem."
+        },
+        {
+          "english": "Nice to meet you.",
+          "options": [
+            "Prazer em te conhecer.",
+            "Muito obrigado.",
+            "Até amanhã."
+          ],
+          "correct": 0,
+          "joke": "Frase de ouro para qualquer primeiro encontro: no trabalho, na viagem ou na escola."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Canadá",
+      "items": [
+        {
+          "emoji": "🤝",
+          "title": "Cumprimento no Canadá",
+          "en": "Hi! Nice to meet you.",
+          "pt": "No Canadá, o normal é um \"Hi!\" com sorriso ou um aperto de mão. Beijo no rosto não é costume, nem entre amigas. Abraço só quando a pessoa já é próxima."
+        },
+        {
+          "emoji": "👋",
+          "title": "\"How are you?\" é quase um \"oi\"",
+          "en": "Good, thanks! And you?",
+          "pt": "Canadenses perguntam \"How are you?\" o tempo todo, até no caixa. Responda curto e devolva a pergunta."
+        },
+        {
+          "emoji": "🎒",
+          "title": "Bem-vindo ao curso",
+          "en": "I'm going to Canada!",
+          "pt": "Este curso é só para quem vai para o Canadá: tudo o que você aprende aqui é para a sua viagem. Faça uma lição por dia e treine as frases em voz alta."
+        }
+      ]
+    }
+  ]
+}

@@ -1,9 +1,59 @@
 {
   "schemaVersion": 1,
-  "defaultCourse": "ingles_do_zero",
+  "contentVersion": "2026.10.28-1",
   "courses": [
-    "ingles_do_zero",
-    "griffe_canada_2026",
-    "griffe_irlanda_2026"
-  ]
+    "nz",
+    "au",
+    "ca",
+    "ie",
+    "gb",
+    "us"
+  ],
+  "cast": {
+    "Sam": {
+      "emoji": "🧭",
+      "gender": "F",
+      "role": "guide"
+    },
+    "Bia": {
+      "emoji": "🙋🏽‍♀️",
+      "gender": "F",
+      "role": "protagonist"
+    },
+    "Leo": {
+      "emoji": "🙋🏾‍♂️",
+      "gender": "M",
+      "role": "protagonist"
+    },
+    "Agent": {
+      "emoji": "🧑🏼‍✈️",
+      "gender": "F",
+      "role": "airline"
+    },
+    "Officer": {
+      "emoji": "👮🏻‍♂️",
+      "gender": "M",
+      "role": "border"
+    },
+    "Driver": {
+      "emoji": "🚌",
+      "gender": "M",
+      "role": "other"
+    },
+    "Pharmacist": {
+      "emoji": "👩🏽‍⚕️",
+      "gender": "F",
+      "role": "other"
+    },
+    "Operator": {
+      "emoji": "🚑",
+      "gender": "F",
+      "role": "other"
+    },
+    "Passerby": {
+      "emoji": "🙂",
+      "gender": "F",
+      "role": "other"
+    }
+  }
 }

@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "id": "au-school-friends",
+  "title": "Fazendo amigos",
+  "scenario": "Pátio e refeitório da escola na Austrália, hora do almoço",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 14: New friends",
+      "lines": [
+        {
+          "speaker": "Jack",
+          "en": "Hey! You're the new student, right?",
+          "pt": "E aí! Você é o aluno novo, né?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes! I'm Leo. I'm from Brazil.",
+          "pt": "Sim! Eu sou o Leo. Eu sou do Brasil."
+        },
+        {
+          "speaker": "Jack",
+          "en": "Cool! I'm Jack. Do you want to sit with us?",
+          "pt": "Legal! Eu sou o Jack. Quer sentar com a gente?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Sure, thanks!",
+          "pt": "Claro, valeu!"
+        },
+        {
+          "speaker": "Jack",
+          "en": "Do you like sports?",
+          "pt": "Você gosta de esportes?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes, I love soccer. And you?",
+          "pt": "Sim, eu amo futebol. E você?"
+        },
+        {
+          "speaker": "Jack",
+          "en": "I play footy and cricket.",
+          "pt": "Eu jogo footy (futebol australiano) e críquete."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Cool! Can you show me the gym later?",
+          "pt": "Legal! Você pode me mostrar o ginásio depois?"
+        },
+        {
+          "speaker": "Jack",
+          "en": "Sure! See you later!",
+          "pt": "Claro! Até mais!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "soccer",
+          "pt": "futebol",
+          "emoji": "⚽"
+        },
+        {
+          "en": "sports",
+          "pt": "esportes",
+          "emoji": "🏅"
+        },
+        {
+          "en": "play",
+          "pt": "jogar / brincar",
+          "emoji": "🎮"
+        },
+        {
+          "en": "cool",
+          "pt": "legal",
+          "emoji": "😎"
+        },
+        {
+          "en": "later",
+          "pt": "depois / mais tarde",
+          "emoji": "⏳"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como convidar alguém para sentar com você?",
+      "lang": "en",
+      "options": [
+        "Do you want to sit with us?",
+        "Do you like sports?",
+        "See you later!"
+      ],
+      "correct": 0,
+      "explanation": "Do you want to...? = Você quer...? Ótimo para convidar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu amo futebol.",
+      "answer": [
+        "I",
+        "love",
+        "soccer."
+      ],
+      "distractors": [
+        "play",
+        "sports"
+      ],
+      "explanation": "Na Austrália, o futebol que a gente conhece se chama \"soccer\". \"Footy\" é o futebol australiano ou o rugby, conforme o estado."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Do you want to sit with us?",
+      "lang": "pt",
+      "options": [
+        "Quer sentar com a gente?",
+        "Quer jogar com a gente?",
+        "Você gosta de esportes?"
+      ],
+      "correct": 0,
+      "explanation": "Sit = sentar. With us = com a gente."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Jack",
+          "en": "Do you like sports?",
+          "pt": "Você gosta de esportes?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Sim, eu amo futebol. E você?",
+      "options": [
+        "Yes, I love soccer. And you?",
+        "See you later!",
+        "Sure, thanks!"
+      ],
+      "correct": 0,
+      "explanation": "\"And you?\" devolve a pergunta e mantém a conversa."
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Na conversa, \"Cool!\" quase sempre significa:",
+      "lang": "pt",
+      "options": [
+        "Legal!",
+        "Frio!",
+        "Calma!"
+      ],
+      "correct": 0,
+      "explanation": "Cool também pode ser \"fresco\", mas na conversa entre amigos é \"legal!\"."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O pátio da escola",
+      "questions": [
+        {
+          "english": "You're the new student, right?",
+          "options": [
+            "Você é o aluno novo, né?",
+            "Você é o professor novo?",
+            "Você está na turma nova?"
+          ],
+          "correct": 0,
+          "joke": "New = novo. Right? no fim = né?"
+        },
+        {
+          "english": "I play footy and cricket.",
+          "options": [
+            "Eu jogo footy (futebol australiano) e críquete.",
+            "Eu assisto footy (futebol australiano) e críquete.",
+            "Eu gosto de futebol."
+          ],
+          "correct": 0,
+          "joke": "Play = jogar."
+        },
+        {
+          "english": "See you later!",
+          "options": [
+            "Até mais!",
+            "Até amanhã!",
+            "Bom dia!"
+          ],
+          "correct": 0,
+          "joke": "Later = depois."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Austrália",
+      "items": [
+        {
+          "emoji": "🏉",
+          "title": "Footy",
+          "en": "I play footy.",
+          "pt": "\"Footy\" é o esporte favorito da região: o futebol australiano (AFL) em Victoria, Austrália do Sul, Austrália Ocidental e Tasmânia, e o rugby league em Nova Gales do Sul e Queensland. Pergunte qual é o time da sua cidade!"
+        },
+        {
+          "emoji": "🏏",
+          "title": "Cricket e netball",
+          "en": "I play cricket.",
+          "pt": "O críquete é muito popular no verão e o netball (parecido com o basquete) é muito jogado nas escolas. Entrar em um time é o jeito mais rápido de fazer amigos."
+        },
+        {
+          "emoji": "⚽",
+          "title": "Soccer",
+          "en": "I love soccer.",
+          "pt": "Na Austrália, o futebol que a gente conhece se chama \"soccer\"."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "id": "ie",
+  "title": "Inglês para a Irlanda",
+  "branding": {
+    "headline": "Inglês para a Irlanda",
+    "tagline": "O inglês da sua viagem para a Irlanda, explicado em português",
+    "emoji": "☘️"
+  },
+  "variant": "en-IE",
+  "contentVersion": "2026.10.28-1",
+  "cast": {
+    "Linda": {
+      "emoji": "👩🏼",
+      "gender": "F",
+      "role": "host"
+    },
+    "Dave": {
+      "emoji": "👨🏻",
+      "gender": "M",
+      "role": "host"
+    },
+    "Emma": {
+      "emoji": "👧🏼",
+      "gender": "F",
+      "role": "host"
+    },
+    "Ms. Byrne": {
+      "emoji": "👩🏻‍💼",
+      "gender": "F",
+      "role": "counsellor"
+    },
+    "Mr. Walsh": {
+      "emoji": "👨🏻‍🏫",
+      "gender": "M",
+      "role": "teacher"
+    },
+    "Conor": {
+      "emoji": "🧑🏻‍🦰",
+      "gender": "M",
+      "role": "classmate"
+    }
+  },
+  "lessons": [
+    {
+      "id": "ie-hello",
+      "title": "Oi! Eu vou para a Irlanda"
+    },
+    {
+      "id": "ie-spelling",
+      "title": "Soletrando o nome"
+    },
+    {
+      "id": "ie-numbers",
+      "title": "Números e idade"
+    },
+    {
+      "id": "ie-videocall",
+      "title": "Videochamada com a família"
+    },
+    {
+      "id": "ie-backpack",
+      "title": "Mochila pronta, grupo junto"
+    },
+    {
+      "id": "ie-checkin",
+      "title": "Check-in e embarque"
+    },
+    {
+      "id": "ie-immigration",
+      "title": "Na imigração"
+    },
+    {
+      "id": "ie-baggage",
+      "title": "Bagagem e saída"
+    },
+    {
+      "id": "ie-host-arrival",
+      "title": "Chegando em casa"
+    },
+    {
+      "id": "ie-host-rules",
+      "title": "Regras e rotina"
+    },
+    {
+      "id": "ie-host-dinner",
+      "title": "Na hora do jantar"
+    },
+    {
+      "id": "ie-school-first-day",
+      "title": "Primeiro dia de aula"
+    },
+    {
+      "id": "ie-school-classroom",
+      "title": "Na sala de aula"
+    },
+    {
+      "id": "ie-school-friends",
+      "title": "Fazendo amigos"
+    },
+    {
+      "id": "ie-city-bus",
+      "title": "Ônibus e direções"
+    },
+    {
+      "id": "ie-city-help",
+      "title": "Pedindo ajuda"
+    },
+    {
+      "id": "ie-weather",
+      "title": "Chuva, sol e fila"
+    },
+    {
+      "id": "ie-craic",
+      "title": "Grand, craic e boas maneiras"
+    }
+  ],
+  "units": [
+    {
+      "id": "ie-intro",
+      "title": "Primeiros passos",
+      "subtitle": "Apresentar-se, soletrar o nome, idade e celular",
+      "emoji": "👋",
+      "lessons": [
+        "ie-hello",
+        "ie-spelling",
+        "ie-numbers"
+      ]
+    },
+    {
+      "id": "ie-before",
+      "title": "Antes do embarque",
+      "subtitle": "Família anfitriã, documentos e grupo",
+      "emoji": "🧳",
+      "lessons": [
+        "ie-videocall",
+        "ie-backpack"
+      ],
+      "checklist": {
+        "id": "ie-checklist",
+        "title": "Checklist de embarque",
+        "subtitle": "Documentos, inglês, contatos e mala",
+        "emoji": "✅",
+        "note": "Lista de apoio do protótipo. A lista oficial vem da sua agência e dos órgãos do governo do país de destino. Regras e prazos mudam: confira sempre na fonte oficial.",
+        "sections": [
+          {
+            "title": "🛂 Documentos (confira com a sua agência)",
+            "items": [
+              "Passaporte válido (confira a validade com a agência)",
+              "Documento de entrada exigido para o seu caso no país de destino: siga a orientação da sua agência e o site oficial do governo do país",
+              "Carta de aceitação da escola (impressa e no celular)",
+              "Autorização de viagem do menor assinada pelos responsáveis (quando aplicável)",
+              "Comprovante do seguro-saúde",
+              "Endereço e telefone da família anfitriã anotados no papel"
+            ]
+          },
+          {
+            "title": "🗣️ Inglês antes de embarcar",
+            "items": [
+              "Concluir a unidade Primeiros passos",
+              "Concluir a unidade Aeroporto e imigração na Irlanda",
+              "Saber soletrar o nome do passaporte em inglês",
+              "Treinar em voz alta as respostas da imigração"
+            ]
+          },
+          {
+            "title": "📞 Contatos",
+            "items": [
+              "Contato de emergência da sua agência (Griffe ou outra): salvo no celular e anotado no papel",
+              "Monitor ou líder do grupo, se a sua viagem tiver um: nome e telefone",
+              "Família anfitriã e escola: endereço e telefone",
+              "Número de emergência na Irlanda: 112 ou 999"
+            ]
+          },
+          {
+            "title": "🧳 Mala (Irlanda)",
+            "items": [
+              "Casaco impermeável com capuz e um guarda-chuva pequeno (chove em qualquer estação)",
+              "Roupas para usar em camadas: o tempo muda várias vezes no mesmo dia",
+              "Adaptador de tomada padrão irlandês/britânico (tipo G, três pinos)",
+              "Uniforme escolar: confirme com a sua agência o que a escola pede e onde comprar",
+              "Remédios de uso contínuo com receita",
+              "Um presentinho do Brasil para a família"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "ie-airport",
+      "title": "Aeroporto e imigração na Irlanda",
+      "subtitle": "Conexão, passaporte e bagagem",
+      "emoji": "✈️",
+      "lessons": [
+        "ie-checkin",
+        "ie-immigration",
+        "ie-baggage"
+      ]
+    },
+    {
+      "id": "ie-home",
+      "title": "Casa de família na Irlanda",
+      "subtitle": "Chegada, regras da casa e jantar",
+      "emoji": "🏠",
+      "lessons": [
+        "ie-host-arrival",
+        "ie-host-rules",
+        "ie-host-dinner"
+      ]
+    },
+    {
+      "id": "ie-school",
+      "title": "Secondary school na Irlanda",
+      "subtitle": "Transition Year, sala de aula e amigos",
+      "emoji": "🏫",
+      "lessons": [
+        "ie-school-first-day",
+        "ie-school-classroom",
+        "ie-school-friends"
+      ]
+    },
+    {
+      "id": "ie-city",
+      "title": "Cidade e emergência na Irlanda",
+      "subtitle": "Ônibus, Leap Card, farmácia e 112/999",
+      "emoji": "🚌",
+      "lessons": [
+        "ie-city-bus",
+        "ie-city-help"
+      ]
+    },
+    {
+      "id": "ie-country",
+      "title": "Irlanda: o dia a dia",
+      "subtitle": "Chuva, fila, \"grand\", \"craic\" e euro",
+      "emoji": "☘️",
+      "lessons": [
+        "ie-weather",
+        "ie-craic"
+      ]
+    }
+  ],
+  "destination": {
+    "code": "ie",
+    "name": "Irlanda",
+    "flag": "🇮🇪"
+  },
+  "accent": "ie"
+}

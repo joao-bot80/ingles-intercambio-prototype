@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "id": "us-smalltalk",
+  "title": "Papo rápido",
+  "scenario": "Corredor da escola, depois da aula",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 17: What's up?",
+      "lines": [
+        {
+          "speaker": "Tyler",
+          "en": "Hey, Bia! What's up?",
+          "pt": "E aí, Bia! Tudo bem?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Not much. How's it going?",
+          "pt": "Nada de mais. Como vai?"
+        },
+        {
+          "speaker": "Tyler",
+          "en": "Pretty good. Do you want to hang out after school?",
+          "pt": "Bem. Você quer sair depois da aula?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Sure! Where?",
+          "pt": "Claro! Onde?"
+        },
+        {
+          "speaker": "Tyler",
+          "en": "Let's go to the mall. My mom can give us a ride.",
+          "pt": "Vamos ao shopping. Minha mãe pode nos dar uma carona."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Awesome! Thanks!",
+          "pt": "Demais! Valeu!"
+        },
+        {
+          "speaker": "Tyler",
+          "en": "No problem. See you later!",
+          "pt": "Sem problema. Até mais!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "what's up",
+          "pt": "e aí? / tudo bem?",
+          "emoji": "👋"
+        },
+        {
+          "en": "hang out",
+          "pt": "sair / passar um tempo juntos",
+          "emoji": "🛹"
+        },
+        {
+          "en": "awesome",
+          "pt": "demais / incrível",
+          "emoji": "🤩"
+        },
+        {
+          "en": "ride",
+          "pt": "carona",
+          "emoji": "🚗"
+        },
+        {
+          "en": "pretty good",
+          "pt": "bem / bem legal",
+          "emoji": "👍"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"What's up?\" no dia a dia americano?",
+      "lang": "pt",
+      "options": [
+        "E aí? (um simples oi)",
+        "O que está lá em cima?",
+        "Qual é o problema?"
+      ],
+      "correct": 0,
+      "explanation": "Quase sempre é só um oi. Resposta comum: \"Not much. You?\""
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Você quer sair depois da aula?",
+      "answer": [
+        "Do",
+        "you",
+        "want",
+        "to",
+        "hang",
+        "out",
+        "after",
+        "school?"
+      ],
+      "distractors": [
+        "ride",
+        "awesome"
+      ],
+      "explanation": "\"Hang out\" é passar um tempo com amigos."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "My mom can give us a ride.",
+      "lang": "pt",
+      "options": [
+        "Minha mãe pode nos dar uma carona.",
+        "Minha mãe quer sair com a gente.",
+        "Minha mãe trabalha no shopping."
+      ],
+      "correct": 0,
+      "explanation": "Give us a ride = dar uma carona. Mom = mãe."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Tyler",
+          "en": "Hey, Bia! What's up?",
+          "pt": "E aí, Bia! Tudo bem?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Nada de mais. Como vai?",
+      "options": [
+        "Not much. How's it going?",
+        "Let's go to the mall.",
+        "Awesome! Thanks!"
+      ],
+      "correct": 0,
+      "explanation": "\"Not much\" quer dizer \"nada de mais\". É a resposta mais comum."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 4,
+      "cards": [
+        {
+          "en": "actually",
+          "kind": "armadilha",
+          "meaning": "na verdade",
+          "tip": "Actually NÃO é atualmente! Atualmente = currently."
+        },
+        {
+          "en": "push",
+          "kind": "armadilha",
+          "meaning": "empurrar",
+          "tip": "Push NÃO é puxar! Puxar = pull."
+        },
+        {
+          "en": "pizza",
+          "kind": "igual",
+          "meaning": "pizza",
+          "tip": "Igual!",
+          "pt": "pizza"
+        },
+        {
+          "en": "hotel",
+          "kind": "igual",
+          "meaning": "hotel",
+          "tip": "Igual!",
+          "pt": "hotel"
+        },
+        {
+          "en": "cafeteria",
+          "kind": "quase",
+          "meaning": "refeitório / lanchonete",
+          "tip": "Quase: cafeteria. Nas escolas americanas é o refeitório."
+        }
+      ]
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Papo com o Tyler",
+      "questions": [
+        {
+          "english": "What's up?",
+          "options": [
+            "E aí?",
+            "Quem é você?",
+            "Onde é?"
+          ],
+          "correct": 0,
+          "joke": "É só um oi."
+        },
+        {
+          "english": "Do you want to hang out after school?",
+          "options": [
+            "Você quer sair depois da aula?",
+            "Você quer estudar depois da aula?",
+            "Você quer dormir depois da aula?"
+          ],
+          "correct": 0,
+          "joke": "Hang out = sair, passar um tempo."
+        },
+        {
+          "english": "My mom can give us a ride.",
+          "options": [
+            "Minha mãe pode nos dar uma carona.",
+            "Minha mãe pode nos dar um presente.",
+            "Minha mãe pode nos dar uma aula."
+          ],
+          "correct": 0,
+          "joke": "Ride = carona."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Estados Unidos",
+      "items": [
+        {
+          "emoji": "💬",
+          "title": "\"What's up?\" e \"How's it going?\"",
+          "en": "What's up?",
+          "pt": "São cumprimentos. A resposta normal é curta: \"Not much\" (nada de mais), \"Good\" ou \"Pretty good\", seguida de \"You?\"."
+        },
+        {
+          "emoji": "🚗",
+          "title": "Carona e carro",
+          "en": "Can you give me a ride?",
+          "pt": "Em muitos lugares dos EUA o carro é o principal meio de transporte e pedir ou oferecer carona é comum. Combine sempre com a família anfitriã antes de aceitar uma carona de colegas."
+        },
+        {
+          "emoji": "👍",
+          "title": "\"Awesome!\"",
+          "en": "Awesome!",
+          "pt": "\"Awesome\", \"cool\" e \"great\" são elogios que os americanos usam o tempo todo. Falar com entusiasmo é considerado simpático."
+        }
+      ]
+    }
+  ]
+}

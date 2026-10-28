@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "id": "au-slang",
+  "title": "Falando como um aussie",
+  "scenario": "Churrasco com a família e os amigos num fim de semana",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 18: No worries!",
+      "lines": [
+        {
+          "speaker": "Craig",
+          "en": "G'day, Bia! Welcome to the barbie.",
+          "pt": "Oi, Bia! Bem-vinda ao churrasco."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thanks! Can I help?",
+          "pt": "Valeu! Posso ajudar?"
+        },
+        {
+          "speaker": "Craig",
+          "en": "No worries, mate. Just relax.",
+          "pt": "Sem problemas, amiga. Fique à vontade."
+        },
+        {
+          "speaker": "Chloe",
+          "en": "Do you want a snag?",
+          "pt": "Você quer uma salsicha?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "What's a snag?",
+          "pt": "O que é 'snag'?"
+        },
+        {
+          "speaker": "Chloe",
+          "en": "A snag is a sausage.",
+          "pt": "Snag é salsicha."
+        },
+        {
+          "speaker": "Craig",
+          "en": "It's a hot arvo, hey?",
+          "pt": "Que tarde quente, né?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes! I'm so hungry. Heaps hungry!",
+          "pt": "Sim! Estou com muita fome. Muuuita fome!"
+        },
+        {
+          "speaker": "Chloe",
+          "en": "No worries! Dinner is almost ready.",
+          "pt": "Tranquilo! O jantar está quase pronto."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "mate",
+          "pt": "amigo / amiga",
+          "emoji": "🤝"
+        },
+        {
+          "en": "arvo",
+          "pt": "tarde (informal)",
+          "emoji": "🌇"
+        },
+        {
+          "en": "snag",
+          "pt": "salsicha",
+          "emoji": "🌭"
+        },
+        {
+          "en": "heaps",
+          "pt": "muito / muitos (informal)",
+          "emoji": "➕"
+        },
+        {
+          "en": "no worries",
+          "pt": "sem problemas / de nada",
+          "emoji": "😎"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que é \"a snag\" num churrasco australiano?",
+      "lang": "pt",
+      "options": [
+        "Uma salsicha",
+        "Um tipo de pão",
+        "Um refrigerante"
+      ],
+      "correct": 0,
+      "explanation": "\"Snag\" é a salsicha do churrasco. Gíria australiana comum."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Sem problemas.",
+      "answer": [
+        "No",
+        "worries."
+      ],
+      "distractors": [
+        "mate",
+        "snag"
+      ],
+      "explanation": "\"No worries\" é a frase mais australiana: serve para \"de nada\" e \"tranquilo\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "It's a hot arvo.",
+      "lang": "pt",
+      "options": [
+        "Que tarde quente.",
+        "Que manhã fria.",
+        "Hoje é feriado."
+      ],
+      "correct": 0,
+      "explanation": "Arvo = afternoon (tarde). Hot = quente."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 4,
+      "cards": [
+        {
+          "en": "thongs",
+          "kind": "armadilha",
+          "meaning": "chinelos (na Austrália)",
+          "tip": "Na Austrália, \"thongs\" são chinelos de dedo. Em outros países a palavra tem outro sentido (peça de roupa íntima): fora de lá, diga \"flip-flops\"."
+        },
+        {
+          "en": "lecture",
+          "kind": "armadilha",
+          "meaning": "palestra, aula expositiva",
+          "tip": "Lecture NÃO é leitura! Leitura = reading."
+        },
+        {
+          "en": "kangaroo",
+          "kind": "quase",
+          "meaning": "canguru",
+          "tip": "Quase: kangaroo."
+        },
+        {
+          "en": "barbecue",
+          "kind": "quase",
+          "meaning": "churrasco",
+          "tip": "Quase: barbecue. Os australianos dizem \"barbie\"."
+        },
+        {
+          "en": "animal",
+          "kind": "igual",
+          "meaning": "animal",
+          "tip": "Igual!",
+          "pt": "animal"
+        }
+      ]
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Craig",
+          "en": "G'day, Bia! Welcome to the barbie.",
+          "pt": "Oi, Bia! Bem-vinda ao churrasco."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Valeu! Posso ajudar?",
+      "options": [
+        "Thanks! Can I help?",
+        "It's a hot arvo, hey?",
+        "A snag is a sausage."
+      ],
+      "correct": 0,
+      "explanation": "Oferecer ajuda é sempre bem-visto."
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como dizer \"sem problemas, amigo\" do jeito australiano?",
+      "lang": "en",
+      "options": [
+        "No worries, mate.",
+        "G'day, mate.",
+        "Heaps hungry."
+      ],
+      "correct": 0,
+      "explanation": "\"No worries, mate\" é um clássico."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O churrasco",
+      "questions": [
+        {
+          "english": "No worries, mate.",
+          "options": [
+            "Sem problemas, amigo.",
+            "Até logo, amigo.",
+            "Bom dia, amigo."
+          ],
+          "correct": 0,
+          "joke": "Mate = amigo."
+        },
+        {
+          "english": "It's a hot arvo.",
+          "options": [
+            "Que tarde quente.",
+            "Que manhã quente.",
+            "Que noite fria."
+          ],
+          "correct": 0,
+          "joke": "Arvo = tarde."
+        },
+        {
+          "english": "A snag is a sausage.",
+          "options": [
+            "Snag é salsicha.",
+            "Snag é um refrigerante.",
+            "Snag é um tipo de pão."
+          ],
+          "correct": 0,
+          "joke": "Snag = salsicha."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Austrália",
+      "items": [
+        {
+          "emoji": "🗣️",
+          "title": "Abreviar é a regra",
+          "en": "Barbie, arvo, brekkie",
+          "pt": "Australianos adoram encurtar palavras: \"barbie\" (barbecue), \"arvo\" (afternoon), \"brekkie\" (breakfast), \"servo\" (posto de gasolina). Na dúvida, pergunte: \"What does that mean?\""
+        },
+        {
+          "emoji": "🤙",
+          "title": "\"No worries\"",
+          "en": "No worries!",
+          "pt": "Serve para \"de nada\", \"sem problema\" e \"tranquilo\". É a frase mais australiana que existe e pode ser usada o tempo todo."
+        },
+        {
+          "emoji": "⚠️",
+          "title": "Gírias com cuidado",
+          "en": "What does that mean?",
+          "pt": "Gíria muda de lugar para lugar e algumas palavras soam estranhas fora da Austrália. Use as básicas (mate, no worries) e peça explicação para o resto."
+        }
+      ]
+    }
+  ]
+}

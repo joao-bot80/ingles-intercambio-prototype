@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "id": "gb",
+  "title": "Inglês para a Inglaterra",
+  "destination": {
+    "code": "gb",
+    "name": "Inglaterra",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+  },
+  "branding": {
+    "headline": "Inglês para a Inglaterra",
+    "tagline": "O inglês da sua viagem para a Inglaterra, explicado em português",
+    "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+  },
+  "variant": "en-GB",
+  "accent": "gb",
+  "contentVersion": "2026.10.28-1",
+  "cast": {
+    "Mrs Hughes": {
+      "emoji": "👩🏼‍💼",
+      "gender": "F",
+      "role": "office"
+    },
+    "Sue": {
+      "emoji": "👩🏼",
+      "gender": "F",
+      "role": "host"
+    },
+    "Paul": {
+      "emoji": "👨🏼",
+      "gender": "M",
+      "role": "host"
+    },
+    "Ellie": {
+      "emoji": "👧🏼",
+      "gender": "F",
+      "role": "host"
+    },
+    "Mr Davies": {
+      "emoji": "👨🏽‍🏫",
+      "gender": "M",
+      "role": "teacher"
+    },
+    "Tom": {
+      "emoji": "🧑🏼",
+      "gender": "M",
+      "role": "classmate"
+    }
+  },
+  "lessons": [
+    {
+      "id": "gb-hello",
+      "title": "Oi! Eu vou para a Inglaterra"
+    },
+    {
+      "id": "gb-spelling",
+      "title": "Soletrando o nome"
+    },
+    {
+      "id": "gb-numbers",
+      "title": "Números e idade"
+    },
+    {
+      "id": "gb-videocall",
+      "title": "Videochamada com a família"
+    },
+    {
+      "id": "gb-backpack",
+      "title": "Mochila pronta, grupo junto"
+    },
+    {
+      "id": "gb-checkin",
+      "title": "Check-in e embarque"
+    },
+    {
+      "id": "gb-immigration",
+      "title": "Na imigração"
+    },
+    {
+      "id": "gb-baggage",
+      "title": "Bagagem e saída"
+    },
+    {
+      "id": "gb-host-arrival",
+      "title": "Chegando em casa"
+    },
+    {
+      "id": "gb-host-rules",
+      "title": "Regras e rotina"
+    },
+    {
+      "id": "gb-host-dinner",
+      "title": "Na hora do jantar"
+    },
+    {
+      "id": "gb-school-first-day",
+      "title": "Primeiro dia de aula"
+    },
+    {
+      "id": "gb-school-classroom",
+      "title": "Na sala de aula"
+    },
+    {
+      "id": "gb-school-friends",
+      "title": "Fazendo amigos"
+    },
+    {
+      "id": "gb-city-bus",
+      "title": "Ônibus e direções"
+    },
+    {
+      "id": "gb-city-help",
+      "title": "Pedindo ajuda"
+    },
+    {
+      "id": "gb-weather",
+      "title": "Chuva e fila"
+    },
+    {
+      "id": "gb-words",
+      "title": "Palavras britânicas"
+    }
+  ],
+  "units": [
+    {
+      "id": "gb-intro",
+      "title": "Primeiros passos",
+      "subtitle": "Apresentar-se, soletrar o nome, idade e telefone",
+      "emoji": "👋",
+      "lessons": [
+        "gb-hello",
+        "gb-spelling",
+        "gb-numbers"
+      ]
+    },
+    {
+      "id": "gb-before",
+      "title": "Antes do embarque",
+      "subtitle": "Família anfitriã, documentos e grupo",
+      "emoji": "🧳",
+      "lessons": [
+        "gb-videocall",
+        "gb-backpack"
+      ],
+      "checklist": {
+        "id": "gb-checklist",
+        "title": "Checklist de embarque",
+        "subtitle": "Documentos, inglês, contatos e mala",
+        "emoji": "✅",
+        "note": "Lista de apoio do protótipo. A lista oficial vem da sua agência e dos órgãos do governo do país de destino. Regras e prazos mudam: confira sempre na fonte oficial.",
+        "sections": [
+          {
+            "title": "🛂 Documentos (confira com a sua agência)",
+            "items": [
+              "Passaporte válido (confira a validade com a agência)",
+              "Visto ou autorização de entrada exigidos para o seu caso: siga a orientação da sua agência e o site oficial do governo (gov.uk)",
+              "Carta de aceitação da escola (impressa e no celular)",
+              "Autorização de viagem do menor assinada pelos responsáveis (quando aplicável)",
+              "Comprovante do seguro-saúde",
+              "Endereço e telefone da família anfitriã anotados no papel"
+            ]
+          },
+          {
+            "title": "🗣️ Inglês antes de embarcar",
+            "items": [
+              "Concluir a unidade Primeiros passos",
+              "Concluir a unidade Aeroporto e imigração na Inglaterra",
+              "Saber soletrar o nome do passaporte em inglês (Z se diz \"zed\")",
+              "Treinar em voz alta as respostas da imigração"
+            ]
+          },
+          {
+            "title": "📞 Contatos",
+            "items": [
+              "Contato de emergência da sua agência (Griffe ou outra): salvo no celular e anotado no papel",
+              "Monitor ou líder do grupo, se a sua viagem tiver um: nome e telefone",
+              "Família anfitriã e escola: endereço e telefone",
+              "Número de emergência na Inglaterra: 999"
+            ]
+          },
+          {
+            "title": "🧳 Mala (Inglaterra)",
+            "items": [
+              "Casaco impermeável, guarda-chuva pequeno e roupas em camadas (o tempo muda várias vezes no dia)",
+              "Adaptador de tomada britânico (tipo G, três pinos)",
+              "Remédios de uso contínuo com receita",
+              "Um presentinho do Brasil para a família"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "gb-airport",
+      "title": "Aeroporto e imigração na Inglaterra",
+      "subtitle": "Conexão, fronteira e bagagem",
+      "emoji": "✈️",
+      "lessons": [
+        "gb-checkin",
+        "gb-immigration",
+        "gb-baggage"
+      ]
+    },
+    {
+      "id": "gb-home",
+      "title": "Casa de família na Inglaterra",
+      "subtitle": "Chegada, regras da casa e jantar",
+      "emoji": "🏠",
+      "lessons": [
+        "gb-host-arrival",
+        "gb-host-rules",
+        "gb-host-dinner"
+      ]
+    },
+    {
+      "id": "gb-school",
+      "title": "Secondary school na Inglaterra",
+      "subtitle": "Uniforme, form tutor, sala de aula e amigos",
+      "emoji": "🏫",
+      "lessons": [
+        "gb-school-first-day",
+        "gb-school-classroom",
+        "gb-school-friends"
+      ]
+    },
+    {
+      "id": "gb-city",
+      "title": "Cidade e emergência na Inglaterra",
+      "subtitle": "Ônibus, direções, farmácia e 999",
+      "emoji": "🚌",
+      "lessons": [
+        "gb-city-bus",
+        "gb-city-help"
+      ]
+    },
+    {
+      "id": "gb-country",
+      "title": "Inglaterra: o dia a dia",
+      "subtitle": "Chuva, fila e palavras britânicas",
+      "emoji": "☔",
+      "lessons": [
+        "gb-weather",
+        "gb-words"
+      ]
+    }
+  ]
+}

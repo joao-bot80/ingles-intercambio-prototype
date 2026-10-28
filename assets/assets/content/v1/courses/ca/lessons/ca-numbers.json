@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-numbers",
+  "title": "Números e idade",
+  "scenario": "Ficha de boas-vindas da escola no Canadá, por telefone",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 3: Quantos anos você tem?",
+      "lines": [
+        {
+          "speaker": "Ms. Lee",
+          "en": "How old are you, Bia?",
+          "pt": "Quantos anos você tem, Bia?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm fifteen years old.",
+          "pt": "Eu tenho quinze anos."
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "And when is your birthday?",
+          "pt": "E quando é o seu aniversário?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "My birthday is in May.",
+          "pt": "Meu aniversário é em maio."
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "Do you have a phone number here?",
+          "pt": "Você tem um número de telefone aqui?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes, I do. Four, one, six, five, five, five, two, three, eight, nine.",
+          "pt": "Tenho, sim. Quatro, um, seis, cinco, cinco, cinco, dois, três, oito, nove."
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "Thank you, Bia!",
+          "pt": "Obrigada, Bia!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Números de 1 a 5",
+      "words": [
+        {
+          "en": "one",
+          "pt": "um",
+          "emoji": "1"
+        },
+        {
+          "en": "two",
+          "pt": "dois",
+          "emoji": "2"
+        },
+        {
+          "en": "three",
+          "pt": "três",
+          "emoji": "3"
+        },
+        {
+          "en": "four",
+          "pt": "quatro",
+          "emoji": "4"
+        },
+        {
+          "en": "five",
+          "pt": "cinco",
+          "emoji": "5"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Idades: 13 a 17",
+      "words": [
+        {
+          "en": "thirteen",
+          "pt": "treze",
+          "emoji": "13"
+        },
+        {
+          "en": "fourteen",
+          "pt": "catorze",
+          "emoji": "14"
+        },
+        {
+          "en": "fifteen",
+          "pt": "quinze",
+          "emoji": "15"
+        },
+        {
+          "en": "sixteen",
+          "pt": "dezesseis",
+          "emoji": "16"
+        },
+        {
+          "en": "seventeen",
+          "pt": "dezessete",
+          "emoji": "17"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como dizer \"Eu tenho quinze anos\"?",
+      "lang": "en",
+      "options": [
+        "I'm fifteen years old.",
+        "I have fifteen years.",
+        "I'm five years old."
+      ],
+      "correct": 0,
+      "explanation": "Em inglês a idade usa o verbo \"to be\": I AM fifteen. \"I have fifteen years\" é tradução ao pé da letra e soa errado."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu tenho dezesseis anos.",
+      "answer": [
+        "I'm",
+        "sixteen",
+        "years",
+        "old."
+      ],
+      "distractors": [
+        "have",
+        "fifteen"
+      ],
+      "explanation": "Idade: I'm + número + years old. Pode encurtar: \"I'm sixteen.\""
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "When is your birthday?",
+      "lang": "pt",
+      "options": [
+        "Quando é o seu aniversário?",
+        "Quantos anos você tem?",
+        "Qual é o seu número de telefone?"
+      ],
+      "correct": 0,
+      "explanation": "When = quando. Birthday = aniversário."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ms. Lee",
+          "en": "How old are you, Bia?",
+          "pt": "Quantos anos você tem, Bia?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Eu tenho quinze anos.",
+      "options": [
+        "I'm fifteen years old.",
+        "My birthday is in May.",
+        "Yes, I do."
+      ],
+      "correct": 0,
+      "explanation": "\"How old are you?\" pergunta a idade."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "Que número você ouviu?",
+      "english": "Seventeen",
+      "lang": "pt",
+      "options": [
+        "17",
+        "70",
+        "7"
+      ],
+      "correct": 0,
+      "explanation": "Os números de 13 a 19 terminam em -TEEN: thirteen, fourteen... seventeen."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Desafio dos números",
+      "questions": [
+        {
+          "english": "I'm sixteen years old.",
+          "options": [
+            "Eu tenho dezesseis anos.",
+            "Eu tenho seis anos.",
+            "Eu tenho dezessete anos."
+          ],
+          "correct": 0,
+          "joke": "Sixteen = 16. Six = 6."
+        },
+        {
+          "english": "Do you have a phone number here?",
+          "options": [
+            "Você tem um número de telefone aqui?",
+            "Qual é o seu nome aqui?",
+            "Você tem um amigo aqui?"
+          ],
+          "correct": 0,
+          "joke": "Phone number = número de telefone."
+        },
+        {
+          "english": "My birthday is in May.",
+          "options": [
+            "Meu aniversário é em maio.",
+            "Minha festa é amanhã.",
+            "Meu aniversário é hoje."
+          ],
+          "correct": 0,
+          "joke": "Os meses em inglês começam com letra maiúscula: May, June..."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica de intercâmbio",
+      "region": "Canadá",
+      "items": [
+        {
+          "emoji": "🎂",
+          "title": "Idade com \"to be\"",
+          "en": "I'm fifteen years old.",
+          "pt": "Brasileiro costuma dizer \"I have fifteen years\". O certo é \"I'm fifteen\" (eu SOU quinze, ao pé da letra)."
+        },
+        {
+          "emoji": "📱",
+          "title": "Telefone canadense",
+          "en": "Four, one, six...",
+          "pt": "No Canadá, o número de telefone tem 10 dígitos: os três primeiros são o código da região. Ao ditar, muita gente fala \"oh\" no lugar de zero. Celular é \"cell phone\" ou só \"cell\"."
+        }
+      ]
+    }
+  ]
+}

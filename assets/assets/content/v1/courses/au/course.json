@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "id": "au",
+  "title": "Inglês para a Austrália",
+  "destination": {
+    "code": "au",
+    "name": "Austrália",
+    "flag": "🇦🇺"
+  },
+  "branding": {
+    "headline": "Inglês para a Austrália",
+    "tagline": "O inglês da sua viagem para a Austrália, explicado em português",
+    "emoji": "🇦🇺"
+  },
+  "variant": "en-AU",
+  "accent": "au",
+  "contentVersion": "2026.10.28-1",
+  "cast": {
+    "Ms. Taylor": {
+      "emoji": "👩🏼‍💼",
+      "gender": "F",
+      "role": "office"
+    },
+    "Kerry": {
+      "emoji": "👩🏼",
+      "gender": "F",
+      "role": "host"
+    },
+    "Craig": {
+      "emoji": "👨🏼",
+      "gender": "M",
+      "role": "host"
+    },
+    "Chloe": {
+      "emoji": "👧🏼",
+      "gender": "F",
+      "role": "host"
+    },
+    "Mr. Wilson": {
+      "emoji": "👨🏻‍🏫",
+      "gender": "M",
+      "role": "teacher"
+    },
+    "Jack": {
+      "emoji": "🧑🏼",
+      "gender": "M",
+      "role": "classmate"
+    }
+  },
+  "lessons": [
+    {
+      "id": "au-hello",
+      "title": "Oi! Eu vou para a Austrália"
+    },
+    {
+      "id": "au-spelling",
+      "title": "Soletrando o nome"
+    },
+    {
+      "id": "au-numbers",
+      "title": "Números e idade"
+    },
+    {
+      "id": "au-videocall",
+      "title": "Videochamada com a família"
+    },
+    {
+      "id": "au-backpack",
+      "title": "Mochila pronta, grupo junto"
+    },
+    {
+      "id": "au-checkin",
+      "title": "Check-in e embarque"
+    },
+    {
+      "id": "au-immigration",
+      "title": "Na imigração"
+    },
+    {
+      "id": "au-baggage",
+      "title": "Bagagem e saída"
+    },
+    {
+      "id": "au-host-arrival",
+      "title": "Chegando em casa"
+    },
+    {
+      "id": "au-host-rules",
+      "title": "Regras e rotina"
+    },
+    {
+      "id": "au-host-dinner",
+      "title": "Na hora do jantar"
+    },
+    {
+      "id": "au-school-first-day",
+      "title": "Primeiro dia de aula"
+    },
+    {
+      "id": "au-school-classroom",
+      "title": "Na sala de aula"
+    },
+    {
+      "id": "au-school-friends",
+      "title": "Fazendo amigos"
+    },
+    {
+      "id": "au-city-bus",
+      "title": "Ônibus e direções"
+    },
+    {
+      "id": "au-city-help",
+      "title": "Pedindo ajuda"
+    },
+    {
+      "id": "au-sun",
+      "title": "Sol e praia"
+    },
+    {
+      "id": "au-slang",
+      "title": "Falando como um aussie"
+    }
+  ],
+  "units": [
+    {
+      "id": "au-intro",
+      "title": "Primeiros passos",
+      "subtitle": "Apresentar-se, soletrar o nome, idade e telefone",
+      "emoji": "👋",
+      "lessons": [
+        "au-hello",
+        "au-spelling",
+        "au-numbers"
+      ]
+    },
+    {
+      "id": "au-before",
+      "title": "Antes do embarque",
+      "subtitle": "Família anfitriã, documentos e grupo",
+      "emoji": "🧳",
+      "lessons": [
+        "au-videocall",
+        "au-backpack"
+      ],
+      "checklist": {
+        "id": "au-checklist",
+        "title": "Checklist de embarque",
+        "subtitle": "Documentos, inglês, contatos e mala",
+        "emoji": "✅",
+        "note": "Lista de apoio do protótipo. A lista oficial vem da sua agência e dos órgãos do governo do país de destino. Regras e prazos mudam: confira sempre na fonte oficial.",
+        "sections": [
+          {
+            "title": "🛂 Documentos (confira com a sua agência)",
+            "items": [
+              "Passaporte válido (confira a validade com a agência)",
+              "Visto ou autorização de entrada exigidos para o seu caso: siga a orientação da sua agência e o site oficial do governo (immi.homeaffairs.gov.au)",
+              "Carta de aceitação da escola (impressa e no celular)",
+              "Autorização de viagem do menor assinada pelos responsáveis (quando aplicável)",
+              "Comprovante do seguro-saúde",
+              "Endereço e telefone da família anfitriã anotados no papel"
+            ]
+          },
+          {
+            "title": "🗣️ Inglês antes de embarcar",
+            "items": [
+              "Concluir a unidade Primeiros passos",
+              "Concluir a unidade Aeroporto e imigração na Austrália",
+              "Saber soletrar o nome do passaporte em inglês (Z se diz \"zed\")",
+              "Treinar em voz alta as respostas da imigração"
+            ]
+          },
+          {
+            "title": "📞 Contatos",
+            "items": [
+              "Contato de emergência da sua agência (Griffe ou outra): salvo no celular e anotado no papel",
+              "Monitor ou líder do grupo, se a sua viagem tiver um: nome e telefone",
+              "Família anfitriã e escola: endereço e telefone",
+              "Número de emergência na Austrália: 000"
+            ]
+          },
+          {
+            "title": "🧳 Mala (Austrália)",
+            "items": [
+              "Roupas leves, chapéu, óculos de sol e protetor solar (e um agasalho para as noites e o inverno)",
+              "Adaptador de tomada australiano (tipo I)",
+              "Remédios de uso contínuo com receita",
+              "Nada de comida, frutas ou sementes na mala sem checar as regras de biossegurança",
+              "Um presentinho do Brasil para a família (sem comida, se possível)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "au-airport",
+      "title": "Aeroporto e imigração na Austrália",
+      "subtitle": "Conexão, fronteira e bagagem",
+      "emoji": "✈️",
+      "lessons": [
+        "au-checkin",
+        "au-immigration",
+        "au-baggage"
+      ]
+    },
+    {
+      "id": "au-home",
+      "title": "Casa de família na Austrália",
+      "subtitle": "Chegada, regras da casa e jantar",
+      "emoji": "🏠",
+      "lessons": [
+        "au-host-arrival",
+        "au-host-rules",
+        "au-host-dinner"
+      ]
+    },
+    {
+      "id": "au-school",
+      "title": "High school na Austrália",
+      "subtitle": "Uniforme, home group, sala de aula e amigos",
+      "emoji": "🏫",
+      "lessons": [
+        "au-school-first-day",
+        "au-school-classroom",
+        "au-school-friends"
+      ]
+    },
+    {
+      "id": "au-city",
+      "title": "Cidade e emergência na Austrália",
+      "subtitle": "Ônibus, direções, farmácia e 000",
+      "emoji": "🚌",
+      "lessons": [
+        "au-city-bus",
+        "au-city-help"
+      ]
+    },
+    {
+      "id": "au-country",
+      "title": "Austrália: o dia a dia",
+      "subtitle": "Sol, praia e o jeito australiano",
+      "emoji": "🦘",
+      "lessons": [
+        "au-sun",
+        "au-slang"
+      ]
+    }
+  ]
+}

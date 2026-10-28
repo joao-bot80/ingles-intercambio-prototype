@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "id": "ie-school-classroom",
+  "title": "Na sala de aula",
+  "scenario": "Aula de inglês, secondary school na Irlanda",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 13: Sir, I don't understand",
+      "lines": [
+        {
+          "speaker": "Mr. Walsh",
+          "en": "Good morning, everyone! Please open your books at page ten.",
+          "pt": "Bom dia, pessoal! Por favor, abram os livros na página dez."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Excuse me, sir. I don't understand.",
+          "pt": "Com licença, professor. Eu não entendi."
+        },
+        {
+          "speaker": "Mr. Walsh",
+          "en": "No problem. Open your book at page ten.",
+          "pt": "Sem problema. Abra o seu livro na página dez."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thank you. What does 'homework' mean?",
+          "pt": "Obrigada. O que quer dizer \"homework\"?"
+        },
+        {
+          "speaker": "Mr. Walsh",
+          "en": "Homework is work you do at home.",
+          "pt": "Homework é o trabalho que você faz em casa."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Can you speak more slowly, please?",
+          "pt": "Você pode falar mais devagar, por favor?"
+        },
+        {
+          "speaker": "Mr. Walsh",
+          "en": "Of course. Your homework is page eleven.",
+          "pt": "Claro. A sua lição de casa é a página onze."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Sir, can I go to the toilet?",
+          "pt": "Professor, posso ir ao banheiro?"
+        },
+        {
+          "speaker": "Mr. Walsh",
+          "en": "Yes, go ahead.",
+          "pt": "Pode, sim."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "book",
+          "pt": "livro",
+          "emoji": "📕"
+        },
+        {
+          "en": "page",
+          "pt": "página",
+          "emoji": "📄"
+        },
+        {
+          "en": "homework",
+          "pt": "lição de casa",
+          "emoji": "📝"
+        },
+        {
+          "en": "understand",
+          "pt": "entender",
+          "emoji": "💡"
+        },
+        {
+          "en": "slowly",
+          "pt": "devagar",
+          "emoji": "🐢"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Você não entendeu a explicação. O que você diz?",
+      "lang": "en",
+      "options": [
+        "I don't understand.",
+        "Yes, go ahead.",
+        "Good morning, everyone!"
+      ],
+      "correct": 0,
+      "explanation": "\"I don't understand\" = eu não entendi. Professores gostam quando você avisa."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Você pode falar mais devagar, por favor?",
+      "answer": [
+        "Can",
+        "you",
+        "speak",
+        "more",
+        "slowly,",
+        "please?"
+      ],
+      "distractors": [
+        "repeat",
+        "book"
+      ],
+      "explanation": "Slowly = devagar. More slowly = mais devagar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Open your book at page ten.",
+      "lang": "pt",
+      "options": [
+        "Abra o seu livro na página dez.",
+        "Feche o seu livro.",
+        "Faça a lição da página dez."
+      ],
+      "correct": 0,
+      "explanation": "Na Irlanda e no Reino Unido: \"open your book AT page ten\". Nos EUA e no Canadá: \"TO page ten\"."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 4,
+      "cards": [
+        {
+          "en": "college",
+          "kind": "armadilha",
+          "meaning": "faculdade / ensino superior",
+          "tip": "College NÃO é colégio! Colégio = high school."
+        },
+        {
+          "en": "library",
+          "kind": "armadilha",
+          "meaning": "biblioteca",
+          "tip": "Library NÃO é livraria! Livraria = bookstore."
+        },
+        {
+          "en": "attend",
+          "kind": "armadilha",
+          "meaning": "frequentar (aula, evento)",
+          "tip": "Attend class = frequentar a aula. Atender o telefone = answer the phone."
+        },
+        {
+          "en": "professor",
+          "kind": "quase",
+          "meaning": "professor universitário",
+          "tip": "Na escola, professor é \"teacher\". \"Professor\" é de universidade."
+        },
+        {
+          "en": "idea",
+          "kind": "quase",
+          "meaning": "ideia",
+          "tip": "Quase: idea, com um i só e sem acento."
+        },
+        {
+          "en": "hospital",
+          "kind": "igual",
+          "meaning": "hospital",
+          "tip": "Igual!",
+          "pt": "hospital"
+        }
+      ]
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Bia",
+          "en": "What does 'homework' mean?",
+          "pt": "O que quer dizer \"homework\"?"
+        }
+      ],
+      "speaker": "Mr. Walsh",
+      "pt": "Homework é o trabalho que você faz em casa.",
+      "options": [
+        "Homework is work you do at home.",
+        "Yes, go ahead.",
+        "Of course."
+      ],
+      "correct": 0,
+      "explanation": "\"What does ___ mean?\" = o que quer dizer ___?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A sala de aula",
+      "questions": [
+        {
+          "english": "I don't understand.",
+          "options": [
+            "Eu não entendi.",
+            "Eu não sei.",
+            "Eu não quero."
+          ],
+          "correct": 0,
+          "joke": "Understand = entender."
+        },
+        {
+          "english": "Sir, can I go to the toilet?",
+          "options": [
+            "Professor, posso ir ao banheiro?",
+            "Professor, posso ir embora?",
+            "Professor, posso beber água?"
+          ],
+          "correct": 0,
+          "joke": "Toilet = banheiro."
+        },
+        {
+          "english": "What does this mean?",
+          "options": [
+            "O que isto quer dizer?",
+            "O que é isto?",
+            "Quem fez isto?"
+          ],
+          "correct": 0,
+          "joke": "Mean = significar, querer dizer."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica de intercâmbio",
+      "region": "Escola · Irlanda",
+      "items": [
+        {
+          "emoji": "🙋",
+          "title": "Sir e Miss",
+          "en": "Excuse me, sir.",
+          "pt": "Na Irlanda é comum chamar o professor de \"Sir\" e a professora de \"Miss\", sem o nome. Perguntar é visto como interesse: \"What does ___ mean?\""
+        },
+        {
+          "emoji": "🚻",
+          "title": "Toilet",
+          "en": "Sir, can I go to the toilet?",
+          "pt": "Peça licença para sair da sala. Na Irlanda se diz \"toilet\"; no Canadá, \"washroom\"; nos EUA, \"bathroom\" ou \"restroom\"."
+        }
+      ]
+    }
+  ]
+}

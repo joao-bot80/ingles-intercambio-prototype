@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-backpack",
+  "title": "Mochila pronta, grupo junto",
+  "scenario": "Simulado: documentos e grupo no aeroporto",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 5: Are you ready?",
+      "lines": [
+        {
+          "speaker": "Sam",
+          "en": "Let's practice. Do you have your passport?",
+          "pt": "Vamos praticar. Você está com o seu passaporte?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes, I have my passport.",
+          "pt": "Sim, estou com o meu passaporte."
+        },
+        {
+          "speaker": "Sam",
+          "en": "And your school letter?",
+          "pt": "E a carta da escola?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes, it's in my backpack.",
+          "pt": "Sim, está na minha mochila."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Good! Where is your group leader?",
+          "pt": "Ótimo! Onde está o monitor do seu grupo?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Over there, with the group.",
+          "pt": "Ali, com o grupo."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Remember: stay with your group.",
+          "pt": "Lembre-se: fique com o seu grupo."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Okay. I'm ready!",
+          "pt": "Ok. Estou pronto!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "passport",
+          "pt": "passaporte",
+          "emoji": "🛂"
+        },
+        {
+          "en": "backpack",
+          "pt": "mochila",
+          "emoji": "🎒"
+        },
+        {
+          "en": "group",
+          "pt": "grupo",
+          "emoji": "👥"
+        },
+        {
+          "en": "ready",
+          "pt": "pronto / pronta",
+          "emoji": "✅"
+        },
+        {
+          "en": "letter",
+          "pt": "carta",
+          "emoji": "✉️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Stay with your group\" significa:",
+      "lang": "pt",
+      "options": [
+        "Fique com o seu grupo",
+        "Espere o seu grupo",
+        "Procure o seu grupo"
+      ],
+      "correct": 0,
+      "explanation": "Stay = ficar, permanecer."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Sim, estou com o meu passaporte.",
+      "answer": [
+        "Yes,",
+        "I",
+        "have",
+        "my",
+        "passport."
+      ],
+      "distractors": [
+        "ready",
+        "group"
+      ],
+      "explanation": "I have = eu tenho / estou com."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Where is your group leader?",
+      "lang": "pt",
+      "options": [
+        "Onde está o monitor do seu grupo?",
+        "Onde está a sua mochila?",
+        "Onde está o seu passaporte?"
+      ],
+      "correct": 0,
+      "explanation": "Group leader = monitor(a) ou líder do grupo."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sam",
+          "en": "And your school letter?",
+          "pt": "E a carta da escola?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Sim, está na minha mochila.",
+      "options": [
+        "Yes, it's in my backpack.",
+        "Okay. I'm ready!",
+        "Over there, with the group."
+      ],
+      "correct": 0,
+      "explanation": "Backpack = mochila. Documentos vão na mochila, nunca na mala despachada."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O simulado de embarque",
+      "questions": [
+        {
+          "english": "Stay with your group.",
+          "options": [
+            "Fique com o seu grupo.",
+            "Procure o seu grupo.",
+            "Espere o seu grupo."
+          ],
+          "correct": 0,
+          "joke": "Stay = ficar."
+        },
+        {
+          "english": "It's in my backpack.",
+          "options": [
+            "Está na minha mochila.",
+            "Está na minha mala.",
+            "Está no meu bolso."
+          ],
+          "correct": 0,
+          "joke": "Backpack = mochila."
+        },
+        {
+          "english": "I'm ready!",
+          "options": [
+            "Estou pronto!",
+            "Estou cansado!",
+            "Estou com fome!"
+          ],
+          "correct": 0,
+          "joke": "Ready = pronto."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Antes do embarque · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🧑‍🏫",
+          "title": "Líder do grupo",
+          "en": "Where is my group leader?",
+          "pt": "Se a sua viagem tem monitor ou líder de grupo, procure essa pessoa primeiro em caso de dúvida no aeroporto. Anote o contato antes de embarcar."
+        },
+        {
+          "emoji": "🛂",
+          "title": "Documentos para a Nova Zelândia",
+          "en": "Passport, school letter",
+          "pt": "Passaporte, carta da escola e os documentos de entrada SEMPRE na mochila, nunca na mala despachada. O que levar depende do seu visto: siga a orientação da sua agência e o site oficial do governo (immigration.govt.nz)."
+        }
+      ]
+    }
+  ]
+}

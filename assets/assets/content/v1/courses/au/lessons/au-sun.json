@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "id": "au-sun",
+  "title": "Sol e praia",
+  "scenario": "Praia com a família anfitriã, num dia de calor",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 17: Slip, slop, slap",
+      "lines": [
+        {
+          "speaker": "Chloe",
+          "en": "It's a hot day! Let's go to the beach.",
+          "pt": "Que dia quente! Vamos à praia."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Great idea! Do I need sunscreen?",
+          "pt": "Ótima ideia! Eu preciso de protetor solar?"
+        },
+        {
+          "speaker": "Chloe",
+          "en": "Yes! Slip on a shirt, slop on sunscreen and slap on a hat.",
+          "pt": "Sim! Vista uma camiseta, passe protetor solar e coloque um chapéu."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Okay. Can I swim here?",
+          "pt": "Ok. Posso nadar aqui?"
+        },
+        {
+          "speaker": "Craig",
+          "en": "Swim between the red and yellow flags.",
+          "pt": "Nade entre as bandeiras vermelha e amarela."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Why?",
+          "pt": "Por quê?"
+        },
+        {
+          "speaker": "Craig",
+          "en": "The lifeguards are watching there.",
+          "pt": "Os salva-vidas ficam de olho ali."
+        },
+        {
+          "speaker": "Craig",
+          "en": "And drink lots of water.",
+          "pt": "E beba bastante água."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thanks! The water is beautiful!",
+          "pt": "Valeu! A água está linda!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "beach",
+          "pt": "praia",
+          "emoji": "🏖️"
+        },
+        {
+          "en": "swim",
+          "pt": "nadar",
+          "emoji": "🏊"
+        },
+        {
+          "en": "flag",
+          "pt": "bandeira",
+          "emoji": "🚩"
+        },
+        {
+          "en": "lifeguard",
+          "pt": "salva-vidas",
+          "emoji": "🛟"
+        },
+        {
+          "en": "shade",
+          "pt": "sombra",
+          "emoji": "⛱️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Slip, slop, slap\" é uma campanha australiana. O que ela manda fazer?",
+      "lang": "pt",
+      "options": [
+        "Vestir camiseta, passar protetor solar e usar chapéu",
+        "Escorregar, pular e bater palmas",
+        "Ficar na água, no sol e na areia"
+      ],
+      "correct": 0,
+      "explanation": "Slip on a shirt, slop on sunscreen, slap on a hat: proteção contra o sol forte."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Posso nadar aqui?",
+      "answer": [
+        "Can",
+        "I",
+        "swim",
+        "here?"
+      ],
+      "distractors": [
+        "beach",
+        "flag"
+      ],
+      "explanation": "Can I...? = Posso...? Use para pedir permissão."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Swim between the red and yellow flags.",
+      "lang": "pt",
+      "options": [
+        "Nade entre as bandeiras vermelha e amarela.",
+        "Não nade perto das bandeiras.",
+        "Compre uma bandeira vermelha e amarela."
+      ],
+      "correct": 0,
+      "explanation": "Between = entre. Flags = bandeiras. Red = vermelho, yellow = amarelo."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Bia",
+          "en": "Can I swim here?",
+          "pt": "Posso nadar aqui?"
+        }
+      ],
+      "speaker": "Craig",
+      "pt": "Nade entre as bandeiras vermelha e amarela.",
+      "options": [
+        "Swim between the red and yellow flags.",
+        "It's a hot day!",
+        "And drink lots of water."
+      ],
+      "correct": 0,
+      "explanation": "Na praia australiana, a área segura é entre as duas bandeiras."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 4,
+      "cards": [
+        {
+          "en": "exit",
+          "kind": "armadilha",
+          "meaning": "saída",
+          "tip": "Exit NÃO é êxito! Exit = saída. Êxito = success."
+        },
+        {
+          "en": "lecture",
+          "kind": "armadilha",
+          "meaning": "palestra, aula expositiva",
+          "tip": "Lecture NÃO é leitura! Leitura = reading."
+        },
+        {
+          "en": "ingenious",
+          "kind": "armadilha",
+          "meaning": "engenhoso, muito criativo",
+          "tip": "Ingenious NÃO é ingênuo! Ingênuo = naive."
+        },
+        {
+          "en": "tropical",
+          "kind": "igual",
+          "meaning": "tropical",
+          "tip": "Igual!",
+          "pt": "tropical"
+        },
+        {
+          "en": "coral",
+          "kind": "igual",
+          "meaning": "coral",
+          "tip": "Igual! Há recifes de coral famosos na Austrália.",
+          "pt": "coral"
+        }
+      ]
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A praia australiana",
+      "questions": [
+        {
+          "english": "Swim between the flags.",
+          "options": [
+            "Nade entre as bandeiras.",
+            "Compre uma bandeira.",
+            "Não nade hoje."
+          ],
+          "correct": 0,
+          "joke": "Between = entre."
+        },
+        {
+          "english": "And drink lots of water.",
+          "options": [
+            "E beba bastante água.",
+            "E tome sol o dia todo.",
+            "E nade bastante."
+          ],
+          "correct": 0,
+          "joke": "Lots of = muito(s). Em dia de calor, água o tempo todo."
+        },
+        {
+          "english": "It's a hot day!",
+          "options": [
+            "Que dia quente!",
+            "Que dia frio!",
+            "Que dia chuvoso!"
+          ],
+          "correct": 0,
+          "joke": "Hot = quente (calor)."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Austrália",
+      "items": [
+        {
+          "emoji": "🌞",
+          "title": "Sol forte",
+          "en": "Slip, slop, slap!",
+          "pt": "A radiação UV na Austrália é muito alta, mesmo em dia nublado. A campanha \"Slip, Slop, Slap\" (camiseta, protetor, chapéu) é conhecida por todos. Passe o protetor de novo ao longo do dia."
+        },
+        {
+          "emoji": "🚩",
+          "title": "Bandeiras vermelha e amarela",
+          "en": "Swim between the flags.",
+          "pt": "Nade SEMPRE entre as bandeiras vermelha e amarela: ali os salva-vidas ficam de olho. Uma bandeira vermelha sozinha quer dizer praia fechada. Se estiver em apuros, levante o braço e peça ajuda."
+        },
+        {
+          "emoji": "🌊",
+          "title": "Natureza forte",
+          "en": "Be careful in the water.",
+          "pt": "Há correntes fortes, águas-vivas e, no norte do país, crocodilos. Leia as placas, siga os avisos e pergunte à família antes de nadar fora de praias com salva-vidas."
+        }
+      ]
+    }
+  ]
+}

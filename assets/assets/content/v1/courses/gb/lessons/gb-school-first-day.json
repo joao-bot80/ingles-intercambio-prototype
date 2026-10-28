@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "id": "gb-school-first-day",
+  "title": "Primeiro dia de aula",
+  "scenario": "Secretaria da escola, primeiro dia na Inglaterra",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 12: First day",
+      "lines": [
+        {
+          "speaker": "Mrs Hughes",
+          "en": "Good morning, Leo! I'm Mrs Hughes, from the school office.",
+          "pt": "Bom dia, Leo! Eu sou a Mrs Hughes, da secretaria da escola."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Good morning! Nice to meet you.",
+          "pt": "Bom dia! Prazer em te conhecer."
+        },
+        {
+          "speaker": "Mrs Hughes",
+          "en": "Here is your timetable. Your first class is maths.",
+          "pt": "Aqui está o seu horário. A sua primeira aula é de matemática."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Where is the maths class?",
+          "pt": "Onde é a aula de matemática?"
+        },
+        {
+          "speaker": "Mrs Hughes",
+          "en": "It's in room twelve, upstairs.",
+          "pt": "É na sala doze, no andar de cima."
+        },
+        {
+          "speaker": "Mrs Hughes",
+          "en": "And this is your locker.",
+          "pt": "E este é o seu armário."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thank you! What time is lunch?",
+          "pt": "Obrigado! Que horas é o almoço?"
+        },
+        {
+          "speaker": "Mrs Hughes",
+          "en": "Lunch is at twelve thirty.",
+          "pt": "O almoço é às doze e meia."
+        },
+        {
+          "speaker": "Mrs Hughes",
+          "en": "Please wear your uniform tomorrow.",
+          "pt": "Por favor, venha de uniforme amanhã."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "timetable",
+          "pt": "horário (de aulas)",
+          "emoji": "🗓️"
+        },
+        {
+          "en": "class",
+          "pt": "aula / turma",
+          "emoji": "📖"
+        },
+        {
+          "en": "locker",
+          "pt": "armário da escola",
+          "emoji": "🔐"
+        },
+        {
+          "en": "lunch",
+          "pt": "almoço",
+          "emoji": "🥪"
+        },
+        {
+          "en": "maths",
+          "pt": "matemática",
+          "emoji": "➗"
+        },
+        {
+          "en": "uniform",
+          "pt": "uniforme",
+          "emoji": "👔"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "\"Please wear your uniform tomorrow.\" O que a funcionária pede?",
+      "lang": "pt",
+      "options": [
+        "Que você venha de uniforme",
+        "Que você traga o almoço",
+        "Que você chegue mais cedo"
+      ],
+      "correct": 0,
+      "explanation": "Wear = usar, vestir. Escolas australianas costumam exigir uniforme; confirme com a sua escola."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Onde é a aula de matemática?",
+      "answer": [
+        "Where",
+        "is",
+        "the",
+        "maths",
+        "class?"
+      ],
+      "distractors": [
+        "lunch",
+        "locker"
+      ],
+      "explanation": "Where is...? de novo! Agora para achar a sala."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Your first class is maths.",
+      "lang": "pt",
+      "options": [
+        "A sua primeira aula é de matemática.",
+        "A sua primeira aula é na hora do almoço.",
+        "A sua turma é a primeira."
+      ],
+      "correct": 0,
+      "explanation": "First = primeiro(a). Class = aula."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Mrs Hughes",
+          "en": "Here is your timetable.",
+          "pt": "Aqui está o seu horário."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Obrigado! Que horas é o almoço?",
+      "options": [
+        "Thank you! What time is lunch?",
+        "Lunch is at twelve thirty.",
+        "Good morning!"
+      ],
+      "correct": 0,
+      "explanation": "What time is...? = Que horas é...?"
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "A funcionária disse: \"Here is your timetable.\" O que ela entregou?",
+      "lang": "pt",
+      "options": [
+        "O horário das aulas",
+        "O almoço",
+        "A chave do armário"
+      ],
+      "correct": 0,
+      "explanation": "Timetable = horário das aulas."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O primeiro dia",
+      "questions": [
+        {
+          "english": "Here is your timetable.",
+          "options": [
+            "Aqui está o seu horário.",
+            "Aqui está a sua sala.",
+            "Aqui está o seu almoço."
+          ],
+          "correct": 0,
+          "joke": "Timetable = horário das aulas."
+        },
+        {
+          "english": "This is your locker.",
+          "options": [
+            "Este é o seu armário.",
+            "Esta é a sua sala.",
+            "Este é o seu lanche."
+          ],
+          "correct": 0,
+          "joke": "Locker = armário da escola."
+        },
+        {
+          "english": "Lunch is at twelve thirty.",
+          "options": [
+            "O almoço é às doze e meia.",
+            "O almoço é à noite.",
+            "A aula é às doze e meia."
+          ],
+          "correct": 0,
+          "joke": "Twelve thirty = 12h30."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Inglaterra",
+      "items": [
+        {
+          "emoji": "👔",
+          "title": "Uniforme",
+          "en": "Please wear your uniform tomorrow.",
+          "pt": "A maioria das escolas inglesas exige uniforme. A escola informa onde comprar e o que usar."
+        },
+        {
+          "emoji": "🏫",
+          "title": "Secondary school inglesa",
+          "en": "Your first class is maths.",
+          "pt": "O ensino médio se chama \"secondary school\" e usa \"Year\" no lugar de série (de Year 7 a Year 11, dos 11 aos 16 anos; depois vem o \"sixth form\", Year 12 e 13). Aos 16 anos os alunos fazem os exames \"GCSE\". O ano letivo começa em setembro e tem três \"terms\"."
+        },
+        {
+          "emoji": "🗓️",
+          "title": "Form tutor e registration",
+          "en": "Where is my form room?",
+          "pt": "O dia costuma começar com a chamada (\"registration\") com o seu \"form tutor\", o professor responsável pela turma."
+        }
+      ]
+    }
+  ]
+}

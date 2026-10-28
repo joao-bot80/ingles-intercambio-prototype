@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "note": "Source of truth for the audio accents. tool/gen_audio.py reads the models/speakers from here; the app shows the labels and credits. 'real' = a speaker of the destination accent (documented in the corpus metadata); real=false = stand-in (closest licensed voice), to be replaced by Azure Neural (en-AU/NZ/IE/CA/GB/US) later. Details and licences: docs/VOICES.md",
+  "accents": {
+    "us": {
+      "label": "Inglês americano",
+      "locale": "en-US",
+      "voices": {
+        "F": {
+          "engine": "piper",
+          "model": "en_US-kristin-medium",
+          "speaker": null,
+          "locale": "en-US",
+          "real": true,
+          "license": "public domain (LibriVox recordings); model trained from scratch",
+          "source": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/kristin/medium",
+          "note": "US English female (LibriVox)"
+        },
+        "M": {
+          "engine": "piper",
+          "model": "en_US-norman-medium",
+          "speaker": null,
+          "locale": "en-US",
+          "real": true,
+          "license": "public domain (LibriVox recordings); model trained from scratch",
+          "source": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/norman/medium",
+          "note": "US English male (LibriVox)"
+        }
+      }
+    },
+    "ca": {
+      "label": "Inglês canadense",
+      "locale": "en-CA",
+      "note": "Falantes canadenses do corpus VCTK (Toronto).",
+      "voices": {
+        "F": {
+          "engine": "piper",
+          "model": "en_GB-vctk-medium",
+          "speakerId": "p303",
+          "speaker": 99,
+          "locale": "en-CA",
+          "real": true,
+          "license": "CC BY 4.0 (corpus VCTK, Univ. of Edinburgh). Piper model fine-tuned from the lessac checkpoint (Blizzard 2013 research-only data): see docs/VOICES.md",
+          "source": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_GB/vctk/medium",
+          "note": "VCTK p303: female, 24, Canadian (Toronto)"
+        },
+        "M": {
+          "engine": "piper",
+          "model": "en_GB-vctk-medium",
+          "speakerId": "p363",
+          "speaker": 50,
+          "locale": "en-CA",
+          "real": true,
+          "license": "CC BY 4.0 (corpus VCTK, Univ. of Edinburgh). Piper model fine-tuned from the lessac checkpoint (Blizzard 2013 research-only data): see docs/VOICES.md",
+          "source": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_GB/vctk/medium",
+          "note": "VCTK p363: male, 22, Canadian (Toronto)"
+        }
+      }
+    },
+    "gb": {
+      "label": "Inglês da Inglaterra",
+      "locale": "en-GB",
+      "note": "Voz feminina de domínio público; masculina de Londres (VCTK).",
+      "voices": {
+        "F": {
+          "engine": "piper",
+          "model": "en_GB-cori-medium",
+          "speaker": null,
+          "locale": "en-GB",
+          "real": true,
+          "license": "public domain (LibriVox recordings); model trained from scratch",
+          "source": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_GB/cori/medium",
+          "note": "UK English female (LibriVox); regional accent not documented"
+        },
+        "M": {
+          "engine": "piper",
+          "model": "en_GB-vctk-medium",
+          "speakerId": "p243",
+          "speaker": 81,
+          "locale": "en-GB",
+          "real": true,
+          "license": "CC BY 4.0 (corpus VCTK, Univ. of Edinburgh). Piper model fine-tuned from the lessac checkpoint (Blizzard 2013 research-only data): see docs/VOICES.md",
+          "source": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_GB/vctk/medium",
+          "note": "VCTK p243: male, 22, English (London)"
+        }
+      }
+    },
+    "ie": {
+      "label": "Inglês irlandês",
+      "locale": "en-IE",
+      "note": "Falantes irlandeses de Dublin do corpus VCTK.",
+      "voices": {
+        "F": {
+          "engine": "piper",
+          "model": "en_GB-vctk-medium",
+          "speakerId": "p288",
+          "speaker": 58,
+          "locale": "en-IE",
+          "real": true,
+          "license": "CC BY 4.0 (corpus VCTK, Univ. of Edinburgh). Piper model fine-tuned from the lessac checkpoint (Blizzard 2013 research-only data): see docs/VOICES.md",
+          "source": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_GB/vctk/medium",
+          "note": "VCTK p288: female, 22, Irish (Dublin)"
+        },
+        "M": {
+          "engine": "piper",
+          "model": "en_GB-vctk-medium",
+          "speakerId": "p245",
+          "speaker": 97,
+          "locale": "en-IE",
+          "real": true,
+          "license": "CC BY 4.0 (corpus VCTK, Univ. of Edinburgh). Piper model fine-tuned from the lessac checkpoint (Blizzard 2013 research-only data): see docs/VOICES.md",
+          "source": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_GB/vctk/medium",
+          "note": "VCTK p245: male, 25, Irish (Dublin)"
+        }
+      }
+    },
+    "au": {
+      "label": "Inglês australiano",
+      "locale": "en-AU",
+      "note": "Voz feminina: modelo comunitário en_AU-librivox (narradora 'magdalena'); masculina: falante de Sydney (VCTK).",
+      "voices": {
+        "F": {
+          "engine": "piper",
+          "model": "en_AU-librivox-medium",
+          "speaker": 3,
+          "speakerId": "magdalena",
+          "locale": "en-AU",
+          "real": true,
+          "license": "CC BY 4.0 (Data Craftsman); fine-tuned from en_GB-jenny_dioco (credit: Jenny (Dioco)); training audio LibriVox public domain",
+          "source": "https://huggingface.co/DataCraftsmanAustralia/piper-en_AU-librivox-medium",
+          "note": "Australian accent verified by ear by the model author (not by corpus metadata); formal, literary reading style"
+        },
+        "M": {
+          "engine": "piper",
+          "model": "en_GB-vctk-medium",
+          "speakerId": "p326",
+          "speaker": 71,
+          "locale": "en-AU",
+          "real": true,
+          "license": "CC BY 4.0 (corpus VCTK, Univ. of Edinburgh). Piper model fine-tuned from the lessac checkpoint (Blizzard 2013 research-only data): see docs/VOICES.md",
+          "source": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_GB/vctk/medium",
+          "note": "VCTK p326: male, 26, Australian English (Sydney)"
+        }
+      }
+    },
+    "nz": {
+      "label": "Inglês da Nova Zelândia",
+      "locale": "en-NZ",
+      "note": "Só há uma falante neozelandesa (VCTK p335, feminina). A voz masculina é o australiano de Sydney, o mais próximo disponível.",
+      "voices": {
+        "F": {
+          "engine": "piper",
+          "model": "en_GB-vctk-medium",
+          "speakerId": "p335",
+          "speaker": 42,
+          "locale": "en-NZ",
+          "real": true,
+          "license": "CC BY 4.0 (corpus VCTK, Univ. of Edinburgh). Piper model fine-tuned from the lessac checkpoint (Blizzard 2013 research-only data): see docs/VOICES.md",
+          "source": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_GB/vctk/medium",
+          "note": "VCTK p335: female, 25, New Zealand English"
+        },
+        "M": {
+          "engine": "piper",
+          "model": "en_GB-vctk-medium",
+          "speakerId": "p326",
+          "speaker": 71,
+          "locale": "en-AU",
+          "real": false,
+          "license": "CC BY 4.0 (corpus VCTK, Univ. of Edinburgh). Piper model fine-tuned from the lessac checkpoint (Blizzard 2013 research-only data): see docs/VOICES.md",
+          "source": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_GB/vctk/medium",
+          "note": "STAND-IN: no male New Zealand speaker is available under a free licence; uses VCTK p326 (Australian, Sydney)"
+        }
+      }
+    }
+  },
+  "credits": [
+    "Vozes geradas com Piper (OHF-Voice/piper1-gpl) e modelos da rhasspy/piper-voices.",
+    "VCTK Corpus, Univ. of Edinburgh (CC BY 4.0): Yamagishi, Veaux, MacDonald.",
+    "en_AU-librivox-medium: Data Craftsman (CC BY 4.0), a partir de gravações LibriVox de domínio público. Base: Jenny (Dioco).",
+    "en_US-kristin, en_US-norman e en_GB-cori: modelos da comunidade em rhasspy/piper-voices, treinados com gravações LibriVox de domínio público."
+  ]
+}

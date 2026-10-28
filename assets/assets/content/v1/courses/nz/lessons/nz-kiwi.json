@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-kiwi",
+  "title": "O jeito kiwi",
+  "scenario": "Sábado com a família anfitriã",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 17: Sweet as!",
+      "lines": [
+        {
+          "speaker": "Ruby",
+          "en": "Kia ora, Bia! Do you want to go to the dairy?",
+          "pt": "Kia ora, Bia! Quer ir ao \"dairy\"?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "What's a dairy?",
+          "pt": "O que é um 'dairy'?"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "It's a small shop. We can get ice cream.",
+          "pt": "É uma lojinha de esquina. Dá para comprar sorvete."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Sounds good! Do I need shoes?",
+          "pt": "Parece ótimo! Eu preciso de sapatos?"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "Nah, just wear your jandals.",
+          "pt": "Não, é só usar os seus \"jandals\"."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Jandals?",
+          "pt": "Jandals?"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "Jandals are flip-flops.",
+          "pt": "Jandals são chinelos de dedo."
+        },
+        {
+          "speaker": "Mark",
+          "en": "Don't forget the chilly bin!",
+          "pt": "Não esqueçam a caixa térmica!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "What's a chilly bin?",
+          "pt": "O que é 'chilly bin'?"
+        },
+        {
+          "speaker": "Mark",
+          "en": "It keeps the drinks cold.",
+          "pt": "Ela mantém as bebidas geladas."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Sweet as!",
+          "pt": "Beleza!"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "You sound like a kiwi!",
+          "pt": "Você já fala como uma kiwi!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "dairy",
+          "pt": "lojinha de esquina",
+          "emoji": "🏪"
+        },
+        {
+          "en": "jandals",
+          "pt": "chinelos de dedo",
+          "emoji": "🩴"
+        },
+        {
+          "en": "chilly bin",
+          "pt": "caixa térmica",
+          "emoji": "🧊"
+        },
+        {
+          "en": "sweet as",
+          "pt": "beleza / ótimo",
+          "emoji": "😎"
+        },
+        {
+          "en": "kia ora",
+          "pt": "oi (māori)",
+          "emoji": "👋"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que é um \"dairy\" na Nova Zelândia?",
+      "lang": "pt",
+      "options": [
+        "Uma lojinha de esquina",
+        "Um tipo de queijo",
+        "Uma loja de roupas"
+      ],
+      "correct": 0,
+      "explanation": "Na Nova Zelândia, \"dairy\" é a lojinha de esquina. Em outros lugares, a palavra só quer dizer \"laticínio\"."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Jandals são chinelos de dedo.",
+      "answer": [
+        "Jandals",
+        "are",
+        "flip-flops."
+      ],
+      "distractors": [
+        "chilly",
+        "dairy"
+      ],
+      "explanation": "\"Jandals\" é a palavra neozelandesa para chinelos de dedo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "It keeps the drinks cold.",
+      "lang": "pt",
+      "options": [
+        "Ela mantém as bebidas geladas.",
+        "Ela aquece a comida.",
+        "Ela guarda os sapatos."
+      ],
+      "correct": 0,
+      "explanation": "Keeps = mantém. Drinks = bebidas. Cold = frio, gelado."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ruby",
+          "en": "Kia ora, Bia! Do you want to go to the dairy?",
+          "pt": "Kia ora, Bia! Quer ir ao \"dairy\"?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "O que é um 'dairy'?",
+      "options": [
+        "What's a dairy?",
+        "It's a small shop.",
+        "Sweet as!"
+      ],
+      "correct": 0,
+      "explanation": "Quando não entender uma palavra, pergunte: \"What's a ...?\""
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 4,
+      "cards": [
+        {
+          "en": "pretend",
+          "kind": "armadilha",
+          "meaning": "fingir",
+          "tip": "Pretend NÃO é pretender! Pretender = intend, plan."
+        },
+        {
+          "en": "lecture",
+          "kind": "armadilha",
+          "meaning": "palestra, aula expositiva",
+          "tip": "Lecture NÃO é leitura! Leitura = reading."
+        },
+        {
+          "en": "kiwi",
+          "kind": "igual",
+          "meaning": "kiwi",
+          "tip": "Igual! Kiwi é a ave símbolo do país, a fruta e o apelido dos neozelandeses.",
+          "pt": "kiwi"
+        },
+        {
+          "en": "rugby",
+          "kind": "igual",
+          "meaning": "rugby",
+          "tip": "Igual!",
+          "pt": "rugby"
+        },
+        {
+          "en": "adventure",
+          "kind": "quase",
+          "meaning": "aventura",
+          "tip": "Quase: adventure."
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como dizer \"beleza!\" do jeito kiwi?",
+      "lang": "en",
+      "options": [
+        "Sweet as!",
+        "Kia ora!",
+        "Chilly bin!"
+      ],
+      "correct": 0,
+      "explanation": "\"Sweet as\" é uma forma muito neozelandesa de dizer \"ótimo\", \"beleza\"."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O sábado kiwi",
+      "questions": [
+        {
+          "english": "Jandals are flip-flops.",
+          "options": [
+            "Jandals são chinelos de dedo.",
+            "Jandals são sapatos de couro.",
+            "Jandals são meias."
+          ],
+          "correct": 0,
+          "joke": "Flip-flops = chinelos de dedo."
+        },
+        {
+          "english": "It keeps the drinks cold.",
+          "options": [
+            "Ela mantém as bebidas geladas.",
+            "Ela mantém a comida quente.",
+            "Ela guarda os sorvetes."
+          ],
+          "correct": 0,
+          "joke": "Cold = frio."
+        },
+        {
+          "english": "It's a small shop.",
+          "options": [
+            "É uma lojinha.",
+            "É uma loja enorme.",
+            "É um mercado de peixe."
+          ],
+          "correct": 0,
+          "joke": "Small = pequeno."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🗣️",
+          "title": "Kia ora e te reo",
+          "en": "Kia ora!",
+          "pt": "Palavras māori fazem parte do dia a dia: \"kia ora\" (oi), \"whānau\" (família), \"kai\" (comida). Se quiser pronunciar, pergunte como se fala: as pessoas costumam gostar de ensinar."
+        },
+        {
+          "emoji": "😎",
+          "title": "Sweet as e yeah nah",
+          "en": "Yeah nah.",
+          "pt": "\"Sweet as\" quer dizer \"beleza\" ou \"ótimo\". \"Yeah, nah\" costuma ser um \"não\" educado e \"nah, yeah\" costuma ser \"sim\". Pode confundir no começo: se tiver dúvida, pergunte \"Do you mean yes or no?\"."
+        },
+        {
+          "emoji": "🩴",
+          "title": "Palavras da vida kiwi",
+          "en": "Jandals, dairy, chilly bin",
+          "pt": "Jandals (chinelos), dairy (lojinha de esquina), chilly bin (caixa térmica). Gíria muda de região para região: peça explicação sempre."
+        }
+      ]
+    }
+  ]
+}

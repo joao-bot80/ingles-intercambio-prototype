@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-coffee",
+  "title": "Tim Hortons e o jeito canadense",
+  "scenario": "Cafeteria Tim Hortons, depois da aula",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 18: Double-double",
+      "lines": [
+        {
+          "speaker": "Cashier",
+          "en": "Hi there! What can I get for you?",
+          "pt": "Oi! O que vai ser?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Can I have a hot chocolate, please?",
+          "pt": "Pode me ver um chocolate quente, por favor?"
+        },
+        {
+          "speaker": "Cashier",
+          "en": "Sure. What size?",
+          "pt": "Claro. De que tamanho?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Medium, please.",
+          "pt": "Médio, por favor."
+        },
+        {
+          "speaker": "Jake",
+          "en": "And a double-double for me.",
+          "pt": "E um double-double pra mim."
+        },
+        {
+          "speaker": "Cashier",
+          "en": "Anything else?",
+          "pt": "Mais alguma coisa?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "No, that's it. Thanks!",
+          "pt": "Não, só isso. Obrigado!"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Oh, sorry!",
+          "pt": "Ops, desculpa!"
+        },
+        {
+          "speaker": "Jake",
+          "en": "Ha! In Canada, everyone says sorry.",
+          "pt": "Haha! No Canadá, todo mundo pede desculpa."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "hot chocolate",
+          "pt": "chocolate quente",
+          "emoji": "🍫"
+        },
+        {
+          "en": "coffee",
+          "pt": "café",
+          "emoji": "☕"
+        },
+        {
+          "en": "size",
+          "pt": "tamanho",
+          "emoji": "📏"
+        },
+        {
+          "en": "medium",
+          "pt": "médio",
+          "emoji": "🥤"
+        },
+        {
+          "en": "donut",
+          "pt": "rosquinha (donut)",
+          "emoji": "🍩"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Como pedir algo com educação?",
+      "lang": "en",
+      "options": [
+        "Can I have a hot chocolate, please?",
+        "What size?",
+        "Anything else?"
+      ],
+      "correct": 0,
+      "explanation": "Can I have...? = Pode me ver...? Funciona em qualquer café ou lanchonete."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Não, só isso. Obrigado!",
+      "answer": [
+        "No,",
+        "that's",
+        "it.",
+        "Thanks!"
+      ],
+      "distractors": [
+        "else",
+        "size"
+      ],
+      "explanation": "\"That's it\" = só isso, é isso."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "What can I get for you?",
+      "lang": "pt",
+      "options": [
+        "O que vai ser? (O que posso te servir?)",
+        "Quanto custa?",
+        "Você quer mais alguma coisa?"
+      ],
+      "correct": 0,
+      "explanation": "É a pergunta clássica do caixa."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Cashier",
+          "en": "Anything else?",
+          "pt": "Mais alguma coisa?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Não, só isso. Obrigado!",
+      "options": [
+        "No, that's it. Thanks!",
+        "Medium, please.",
+        "Sure. What size?"
+      ],
+      "correct": 0,
+      "explanation": "Anything else? = mais alguma coisa?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O caixa do Tim Hortons",
+      "questions": [
+        {
+          "english": "What size?",
+          "options": [
+            "De que tamanho?",
+            "De que sabor?",
+            "Para viagem?"
+          ],
+          "correct": 0,
+          "joke": "Size = tamanho: small, medium, large."
+        },
+        {
+          "english": "Anything else?",
+          "options": [
+            "Mais alguma coisa?",
+            "Só isso?",
+            "Algo a declarar?"
+          ],
+          "correct": 0,
+          "joke": "Lembra do \"Anything to declare?\" do aeroporto? Mesma ideia."
+        },
+        {
+          "english": "Everyone says sorry.",
+          "options": [
+            "Todo mundo pede desculpa.",
+            "Ninguém pede desculpa.",
+            "Todo mundo diz obrigado."
+          ],
+          "correct": 0,
+          "joke": "Sorry = desculpa."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica de intercâmbio",
+      "region": "Canadá",
+      "items": [
+        {
+          "emoji": "☕",
+          "title": "Double-double",
+          "en": "A double-double, please.",
+          "pt": "Double-double é café com duas doses de creme e duas de açúcar. Um clássico do Tim Hortons."
+        },
+        {
+          "emoji": "🧾",
+          "title": "Imposto fora da etiqueta",
+          "en": "The price doesn't include tax.",
+          "pt": "No Canadá, o preço da etiqueta geralmente NÃO inclui o imposto: o total no caixa sai maior. O percentual muda de província para província."
+        },
+        {
+          "emoji": "🙏",
+          "title": "Sorry!",
+          "en": "Oh, sorry!",
+          "pt": "Canadenses pedem desculpa por tudo, até quando alguém esbarra neles. Use \"sorry\" e \"thank you\" à vontade."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "id": "us-daily",
+  "title": "Medidas e vida cotidiana",
+  "scenario": "Compras com a família anfitriã",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Episódio 18: Seventy degrees",
+      "lines": [
+        {
+          "speaker": "Jennifer",
+          "en": "It's seventy degrees today!",
+          "pt": "Hoje faz setenta graus!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Seventy? Is that hot?",
+          "pt": "Setenta? Isso é calor?"
+        },
+        {
+          "speaker": "Jennifer",
+          "en": "No, it's nice. We use Fahrenheit here.",
+          "pt": "Não, está agradável. Aqui usamos Fahrenheit."
+        },
+        {
+          "speaker": "Mike",
+          "en": "The store is two miles away.",
+          "pt": "A loja fica a duas milhas daqui."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Miles? How far is that?",
+          "pt": "Milhas? Que distância é essa?"
+        },
+        {
+          "speaker": "Mike",
+          "en": "About ten minutes by car.",
+          "pt": "Uns dez minutos de carro."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Do prices include tax?",
+          "pt": "Os preços já incluem imposto?"
+        },
+        {
+          "speaker": "Mike",
+          "en": "No, tax is added at the register.",
+          "pt": "Não, o imposto é somado no caixa."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Got it. Thanks!",
+          "pt": "Entendi. Valeu!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "degrees",
+          "pt": "graus",
+          "emoji": "🌡️"
+        },
+        {
+          "en": "Fahrenheit",
+          "pt": "Fahrenheit (escala de temperatura)",
+          "emoji": "🌡️"
+        },
+        {
+          "en": "mile",
+          "pt": "milha",
+          "emoji": "📏"
+        },
+        {
+          "en": "tax",
+          "pt": "imposto",
+          "emoji": "🧾"
+        },
+        {
+          "en": "register",
+          "pt": "caixa (da loja)",
+          "emoji": "🛒"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "Nos EUA, \"seventy degrees\" no tempo quer dizer:",
+      "lang": "pt",
+      "options": [
+        "Um dia agradável, cerca de 21 °C",
+        "Um calor extremo, 70 °C",
+        "Um dia de neve"
+      ],
+      "correct": 0,
+      "explanation": "70 °F equivalem a cerca de 21 °C. Nos EUA a temperatura é em Fahrenheit."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Os preços já incluem imposto?",
+      "answer": [
+        "Do",
+        "prices",
+        "include",
+        "tax?"
+      ],
+      "distractors": [
+        "mile",
+        "register"
+      ],
+      "explanation": "Em muitas lojas americanas o imposto é somado só no caixa."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "The store is two miles away.",
+      "lang": "pt",
+      "options": [
+        "A loja fica a duas milhas daqui.",
+        "A loja fica a dois quarteirões.",
+        "A loja fecha às duas."
+      ],
+      "correct": 0,
+      "explanation": "Mile = milha. Uma milha tem cerca de 1,6 km."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Bia",
+          "en": "Do prices include tax?",
+          "pt": "Os preços já incluem imposto?"
+        }
+      ],
+      "speaker": "Mike",
+      "pt": "Não, o imposto é somado no caixa.",
+      "options": [
+        "No, tax is added at the register.",
+        "About ten minutes by car.",
+        "We use Fahrenheit here."
+      ],
+      "correct": 0,
+      "explanation": "O imposto de venda é somado no caixa e varia de estado para estado."
+    },
+    {
+      "type": "swipe",
+      "title": "Igual, Quase ou Armadilha?",
+      "passMark": 4,
+      "cards": [
+        {
+          "en": "actually",
+          "kind": "armadilha",
+          "meaning": "na verdade",
+          "tip": "Actually NÃO é atualmente! Atualmente = currently."
+        },
+        {
+          "en": "push",
+          "kind": "armadilha",
+          "meaning": "empurrar",
+          "tip": "Push NÃO é puxar! Puxar = pull."
+        },
+        {
+          "en": "gallon",
+          "kind": "quase",
+          "meaning": "galão",
+          "tip": "Quase: gallon. Nos EUA, a gasolina é vendida por galão (cerca de 3,8 litros)."
+        },
+        {
+          "en": "supermarket",
+          "kind": "quase",
+          "meaning": "supermercado",
+          "tip": "Quase: supermarket."
+        },
+        {
+          "en": "hotel",
+          "kind": "igual",
+          "meaning": "hotel",
+          "tip": "Igual!",
+          "pt": "hotel"
+        }
+      ]
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Compras nos EUA",
+      "questions": [
+        {
+          "english": "We use Fahrenheit here.",
+          "options": [
+            "Aqui usamos Fahrenheit.",
+            "Aqui usamos celsius.",
+            "Aqui não usamos termômetro."
+          ],
+          "correct": 0,
+          "joke": "Fahrenheit é a escala americana de temperatura."
+        },
+        {
+          "english": "The store is two miles away.",
+          "options": [
+            "A loja fica a duas milhas daqui.",
+            "A loja fica a dois minutos daqui.",
+            "A loja fica a duas horas daqui."
+          ],
+          "correct": 0,
+          "joke": "Mile = milha."
+        },
+        {
+          "english": "Tax is added at the register.",
+          "options": [
+            "O imposto é somado no caixa.",
+            "O imposto está incluído no preço.",
+            "Não há imposto."
+          ],
+          "correct": 0,
+          "joke": "Register = caixa."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Estados Unidos",
+      "items": [
+        {
+          "emoji": "🌡️",
+          "title": "Fahrenheit",
+          "en": "Seventy degrees.",
+          "pt": "Nos EUA a temperatura é em Fahrenheit (°F): 32 °F é a temperatura de congelamento da água, 70 °F é um dia agradável (uns 21 °C) e 90 °F é calor forte (uns 32 °C)."
+        },
+        {
+          "emoji": "📏",
+          "title": "Milhas, libras e galões",
+          "en": "Two miles away.",
+          "pt": "Distâncias são em milhas (1 milha é cerca de 1,6 km), peso em libras (1 libra é cerca de 450 g) e combustível em galões (1 galão é cerca de 3,8 litros). O relógio é de 12 horas, com a.m. (manhã) e p.m. (tarde e noite)."
+        },
+        {
+          "emoji": "🧾",
+          "title": "Imposto e gorjeta",
+          "en": "Tax is added at the register.",
+          "pt": "Em muitas lojas o preço da etiqueta NÃO inclui o imposto de venda (\"sales tax\"), somado no caixa e diferente de estado para estado. Em restaurantes com atendimento à mesa, deixar gorjeta (\"tip\") é costume. Pergunte à família anfitriã como funciona na sua região."
+        }
+      ]
+    }
+  ]
+}
