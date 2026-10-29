@@ -53,6 +53,18 @@
           "en": "Ha! In Canada, everyone says sorry.",
           "pt": "Haha! No Canadá, todo mundo pede desculpa."
         }
+      ],
+      "scenes": [
+        {
+          "at": 0,
+          "image": "assets/images/ca/ca-coffee/scene-counter.webp",
+          "alt": "Leo e Jake no balcão do Tim Hortons, falando com a atendente"
+        },
+        {
+          "at": 7,
+          "image": "assets/images/ca/ca-coffee/scene-sorry.webp",
+          "alt": "Leo esbarra em alguém na calçada com neve e diz \"Oh, sorry!\""
+        }
       ]
     },
     {
@@ -62,29 +74,84 @@
         {
           "en": "hot chocolate",
           "pt": "chocolate quente",
-          "emoji": "🍫"
+          "emoji": "🍫",
+          "image": "assets/images/ca/ca-coffee/vocab-hot-chocolate.webp"
         },
         {
           "en": "coffee",
           "pt": "café",
-          "emoji": "☕"
+          "emoji": "☕",
+          "image": "assets/images/ca/ca-coffee/vocab-coffee.webp"
         },
         {
           "en": "size",
           "pt": "tamanho",
-          "emoji": "📏"
+          "emoji": "📏",
+          "image": "assets/images/ca/ca-coffee/vocab-size.webp"
         },
         {
-          "en": "medium",
-          "pt": "médio",
-          "emoji": "🥤"
+          "en": "muffin",
+          "pt": "muffin (bolinho)",
+          "emoji": "🧁",
+          "image": "assets/images/ca/ca-coffee/vocab-muffin.webp"
         },
         {
           "en": "donut",
           "pt": "rosquinha (donut)",
-          "emoji": "🍩"
+          "emoji": "🍩",
+          "image": "assets/images/ca/ca-coffee/vocab-donut.webp"
         }
       ]
+    },
+    {
+      "type": "picture",
+      "title": "Toque na figura",
+      "mode": "listen",
+      "prompt": "Ouça a palavra e toque na figura certa.",
+      "english": "muffin",
+      "options": [
+        {
+          "image": "assets/images/ca/ca-coffee/vocab-coffee.webp",
+          "alt": "café"
+        },
+        {
+          "image": "assets/images/ca/ca-coffee/vocab-muffin.webp",
+          "alt": "muffin (bolinho)"
+        },
+        {
+          "image": "assets/images/ca/ca-coffee/vocab-hot-chocolate.webp",
+          "alt": "chocolate quente"
+        },
+        {
+          "image": "assets/images/ca/ca-coffee/vocab-donut.webp",
+          "alt": "rosquinha (donut)"
+        }
+      ],
+      "correct": 1,
+      "explanation": "Muffin = bolinho individual, ótimo com café. Você vai ver nos cafés do Canadá."
+    },
+    {
+      "type": "picture",
+      "title": "Toque na figura",
+      "mode": "read",
+      "prompt": "Leia a palavra e toque na figura certa.",
+      "english": "hot chocolate",
+      "options": [
+        {
+          "image": "assets/images/ca/ca-coffee/vocab-donut.webp",
+          "alt": "rosquinha (donut)"
+        },
+        {
+          "image": "assets/images/ca/ca-coffee/vocab-hot-chocolate.webp",
+          "alt": "chocolate quente"
+        },
+        {
+          "image": "assets/images/ca/ca-coffee/vocab-size.webp",
+          "alt": "tamanhos (pequeno, médio, grande)"
+        }
+      ],
+      "correct": 1,
+      "explanation": "Hot chocolate = chocolate quente. Perfeito para o frio canadense!"
     },
     {
       "type": "choice",
@@ -193,15 +260,94 @@
       "items": [
         {
           "emoji": "☕",
-          "title": "Double-double",
+          "title": "Tim Hortons",
           "en": "A double-double, please.",
-          "pt": "Double-double é café com duas doses de creme e duas de açúcar. Um clássico do Tim Hortons."
+          "pt": "O Tim Hortons é a rede de cafés mais famosa do Canadá. Double-double é café com duas doses de creme e duas de açúcar.",
+          "image": "assets/images/ca/ca-coffee/photo-tim-hortons.jpg",
+          "alt": "Fachada de uma loja Tim Hortons em Ontário",
+          "credit": {
+            "author": "Chris Woodrich",
+            "license": "CC BY-SA 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Tim_Hortons,_Kingsville,_Ontario,_2025-06-29.jpg"
+          }
         },
         {
-          "emoji": "🧾",
-          "title": "Imposto fora da etiqueta",
-          "en": "The price doesn't include tax.",
-          "pt": "No Canadá, o preço da etiqueta geralmente NÃO inclui o imposto: o total no caixa sai maior. O percentual muda de província para província."
+          "emoji": "🍟",
+          "title": "Poutine",
+          "en": "I'd like some poutine, please.",
+          "pt": "Poutine é batata frita com queijo coalhado e molho quente (gravy). Nasceu em Quebec e hoje é comida típica do país inteiro.",
+          "image": "assets/images/ca/ca-coffee/photo-poutine.jpg",
+          "alt": "Um prato de poutine: batata frita com queijo e molho",
+          "credit": {
+            "author": "Antonydstevens",
+            "license": "CC0",
+            "url": "https://commons.wikimedia.org/wiki/File:Poutine_from_Windsor,_ON.jpg"
+          }
+        },
+        {
+          "emoji": "❄️",
+          "title": "Neve de verdade",
+          "en": "It's snowing!",
+          "pt": "Em boa parte do Canadá o inverno é longo, com neve e muito frio. Casaco, gorro, luvas e bota fazem parte do uniforme.",
+          "image": "assets/images/ca/ca-coffee/photo-snow-street.jpg",
+          "alt": "Rua de Toronto coberta de neve",
+          "credit": {
+            "author": "Enoch Leung",
+            "license": "CC BY-SA 2.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Snow_on_Bond_Street_(31976705937).jpg"
+          }
+        },
+        {
+          "emoji": "🏒",
+          "title": "Hóquei no gelo",
+          "en": "Do you play hockey?",
+          "pt": "O hóquei é a paixão nacional. No inverno muita gente joga em lagos congelados. Perguntar \"Do you play hockey?\" é um ótimo jeito de puxar assunto.",
+          "image": "assets/images/ca/ca-coffee/photo-hockey.jpg",
+          "alt": "Crianças jogando hóquei em um lago congelado",
+          "credit": {
+            "author": "Laslovarga",
+            "license": "CC BY-SA 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:2021_Pond_Hockey_Waterdown_Laslovarga_(5).jpg"
+          }
+        },
+        {
+          "emoji": "🚌",
+          "title": "O ônibus escolar amarelo",
+          "en": "I take the school bus.",
+          "pt": "Em muitas cidades os alunos vão para a escola no school bus amarelo. Pergunte à sua família anfitriã a que horas ele passa.",
+          "image": "assets/images/ca/ca-coffee/photo-school-bus.jpg",
+          "alt": "Ônibus escolar amarelo parado na rua",
+          "credit": {
+            "author": "0x010C",
+            "license": "CC BY-SA 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:2016-10_Yellow_school_bus_Quebec.jpg"
+          }
+        },
+        {
+          "emoji": "🍁",
+          "title": "A folha de bordo",
+          "en": "This is the Canadian flag.",
+          "pt": "A bandeira do Canadá tem uma folha de bordo (maple leaf) vermelha. A folha é o símbolo do país e aparece em todo lugar.",
+          "image": "assets/images/ca/ca-coffee/photo-flag.jpg",
+          "alt": "Bandeira do Canadá tremulando",
+          "credit": {
+            "author": "Robert Ashworth",
+            "license": "CC BY 2.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Canada%27s_maple_leaf_flag_flying_from_Tsawwassen_Ferry_(29093000523).jpg"
+          }
+        },
+        {
+          "emoji": "🌈",
+          "title": "Cataratas do Niágara",
+          "en": "Wow, look at the waterfall!",
+          "pt": "As cataratas do Niágara ficam na fronteira entre Ontário e os Estados Unidos. É um dos passeios mais famosos do Canadá.",
+          "image": "assets/images/ca/ca-coffee/photo-niagara.jpg",
+          "alt": "Cataratas do Niágara com um arco-íris",
+          "credit": {
+            "author": "Maksim Sokolov (maxergon.com)",
+            "license": "CC BY-SA 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Rainbow_Above_Horseshoe_Falls_(Niagara_Falls).jpg"
+          }
         },
         {
           "emoji": "🙏",
