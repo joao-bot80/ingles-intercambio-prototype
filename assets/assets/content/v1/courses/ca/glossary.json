@@ -1,0 +1,3671 @@
+{
+ "schemaVersion": 1,
+ "course": "ca",
+ "curation": "curated",
+ "themes": [
+  {
+   "id": "sobrevivencia",
+   "title": "Frases de sobrevivência",
+   "emoji": "🆘"
+  },
+  {
+   "id": "cumprimentos",
+   "title": "Cumprimentos",
+   "emoji": "👋"
+  },
+  {
+   "id": "numeros",
+   "title": "Números",
+   "emoji": "🔢"
+  },
+  {
+   "id": "aeroporto",
+   "title": "Aeroporto",
+   "emoji": "✈️"
+  },
+  {
+   "id": "escola",
+   "title": "Escola",
+   "emoji": "🏫"
+  },
+  {
+   "id": "casa",
+   "title": "Casa da família",
+   "emoji": "🏠"
+  },
+  {
+   "id": "comida",
+   "title": "Comida",
+   "emoji": "🍽️"
+  },
+  {
+   "id": "transporte",
+   "title": "Transporte",
+   "emoji": "🚌"
+  },
+  {
+   "id": "saude",
+   "title": "Saúde e emergência",
+   "emoji": "🩺"
+  },
+  {
+   "id": "dinheiro",
+   "title": "Dinheiro e compras",
+   "emoji": "🛍️"
+  },
+  {
+   "id": "clima",
+   "title": "Clima e roupas",
+   "emoji": "🧥"
+  },
+  {
+   "id": "local",
+   "title": "Do jeito canadense",
+   "emoji": "🍁"
+  }
+ ],
+ "entries": [
+  {
+   "id": "can-you-repeat-that-please",
+   "theme": "sobrevivencia",
+   "en": "Can you repeat that, please?",
+   "pt": "Pode repetir, por favor?",
+   "emoji": "🔁",
+   "note": "Quando você não entendeu ou a pessoa falou rápido demais.",
+   "lessons": [
+    "ca-spelling",
+    "ca-immigration"
+   ]
+  },
+  {
+   "id": "can-you-speak-slowly-please",
+   "theme": "sobrevivencia",
+   "en": "Can you speak slowly, please?",
+   "pt": "Pode falar devagar, por favor?",
+   "emoji": "🐢",
+   "note": "Pedir para a pessoa falar mais devagar.",
+   "lessons": []
+  },
+  {
+   "id": "i-dont-understand",
+   "theme": "sobrevivencia",
+   "en": "I don't understand.",
+   "pt": "Eu não entendi.",
+   "emoji": "🤷",
+   "note": "Simples e educado. Depois peça: \"Can you repeat that, please?\"",
+   "lessons": [
+    "ca-school-classroom"
+   ]
+  },
+  {
+   "id": "i-need-help",
+   "theme": "sobrevivencia",
+   "en": "I need help.",
+   "pt": "Eu preciso de ajuda.",
+   "emoji": "🆘",
+   "note": "Para qualquer situação em que você precisa de alguém. Se for urgente, diga \"Help!\" bem alto.",
+   "lessons": [
+    "ca-city-help"
+   ]
+  },
+  {
+   "id": "can-you-help-me-please",
+   "theme": "sobrevivencia",
+   "en": "Can you help me, please?",
+   "pt": "Pode me ajudar, por favor?",
+   "emoji": "🙋",
+   "note": "A forma educada de pedir ajuda a um funcionário, professor ou desconhecido.",
+   "lessons": []
+  },
+  {
+   "id": "im-lost",
+   "theme": "sobrevivencia",
+   "en": "I'm lost.",
+   "pt": "Eu estou perdido / perdida.",
+   "emoji": "🧭",
+   "note": "Quando você não sabe onde está. Continue com \"Where is the bus stop?\"",
+   "lessons": []
+  },
+  {
+   "id": "what-does-that-mean",
+   "theme": "sobrevivencia",
+   "en": "What does that mean?",
+   "pt": "O que isso significa?",
+   "emoji": "❓",
+   "note": "Quando você ouve uma palavra nova.",
+   "lessons": []
+  },
+  {
+   "id": "how-do-you-say-that-in-english",
+   "theme": "sobrevivencia",
+   "en": "How do you say that in English?",
+   "pt": "Como se diz isso em inglês?",
+   "emoji": "💬",
+   "note": "Você sabe a palavra em português, mas não em inglês.",
+   "lessons": []
+  },
+  {
+   "id": "how-do-you-spell-that",
+   "theme": "sobrevivencia",
+   "en": "How do you spell that?",
+   "pt": "Como se soletra isso?",
+   "emoji": "🔤",
+   "note": "Pedir para soletrar um nome ou uma palavra.",
+   "lessons": []
+  },
+  {
+   "id": "can-you-write-it-down-please",
+   "theme": "sobrevivencia",
+   "en": "Can you write it down, please?",
+   "pt": "Pode escrever, por favor?",
+   "emoji": "✍️",
+   "note": "Ótimo para endereços, nomes e horários.",
+   "lessons": []
+  },
+  {
+   "id": "im-sorry-i-didnt-catch-that",
+   "theme": "sobrevivencia",
+   "en": "I'm sorry, I didn't catch that.",
+   "pt": "Desculpe, eu não captei o que você disse.",
+   "emoji": "👂",
+   "note": "Quando você não ouviu direito.",
+   "lessons": []
+  },
+  {
+   "id": "my-english-is-not-very-good",
+   "theme": "sobrevivencia",
+   "en": "My English is not very good.",
+   "pt": "Meu inglês não é muito bom.",
+   "emoji": "🇧🇷",
+   "note": "Avisar com simpatia. A maioria das pessoas fala mais devagar depois disso.",
+   "lessons": []
+  },
+  {
+   "id": "excuse-me-can-i-ask-a-question",
+   "theme": "sobrevivencia",
+   "en": "Excuse me, can I ask a question?",
+   "pt": "Com licença, posso fazer uma pergunta?",
+   "emoji": "🙋‍♀️",
+   "note": "Para chamar a atenção de alguém antes de perguntar.",
+   "lessons": []
+  },
+  {
+   "id": "where-is-the-washroom",
+   "theme": "sobrevivencia",
+   "en": "Where is the washroom?",
+   "pt": "Onde fica o banheiro?",
+   "emoji": "🚻",
+   "note": "No Canadá, \"washroom\" é a palavra mais comum para banheiro.",
+   "variant": true,
+   "lessons": [
+    "ca-host-arrival"
+   ]
+  },
+  {
+   "id": "i-feel-sick",
+   "theme": "sobrevivencia",
+   "en": "I feel sick.",
+   "pt": "Eu estou me sentindo mal.",
+   "emoji": "🤒",
+   "note": "Para avisar um professor ou a família anfitriã.",
+   "lessons": [
+    "ca-city-help"
+   ]
+  },
+  {
+   "id": "can-i-call-my-host-family",
+   "theme": "sobrevivencia",
+   "en": "Can I call my host family?",
+   "pt": "Posso ligar para a minha família anfitriã?",
+   "emoji": "📞",
+   "note": "Quando você precisa falar com a sua família anfitriã.",
+   "lessons": []
+  },
+  {
+   "id": "thank-you-so-much",
+   "theme": "sobrevivencia",
+   "en": "Thank you so much!",
+   "pt": "Muito obrigado / obrigada!",
+   "emoji": "🙏",
+   "note": "Sempre cai bem.",
+   "lessons": [
+    "ca-host-arrival",
+    "ca-city-bus",
+    "ca-city-help"
+   ]
+  },
+  {
+   "id": "wi-fi",
+   "theme": "sobrevivencia",
+   "en": "Wi-Fi",
+   "pt": "Wi-Fi (internet sem fio)",
+   "emoji": "📶",
+   "example": {
+    "en": "What is the Wi-Fi password?",
+    "pt": "Qual é a senha do Wi-Fi?"
+   },
+   "lessons": [
+    "ca-host-rules"
+   ]
+  },
+  {
+   "id": "phone",
+   "theme": "sobrevivencia",
+   "en": "phone",
+   "pt": "telefone / celular",
+   "emoji": "📱",
+   "example": {
+    "en": "My phone is dead.",
+    "pt": "Meu celular está sem bateria."
+   },
+   "lessons": [
+    "ca-numbers"
+   ]
+  },
+  {
+   "id": "hello",
+   "theme": "cumprimentos",
+   "en": "hello",
+   "pt": "olá / oi",
+   "emoji": "👋",
+   "example": {
+    "en": "Hello! Nice to meet you.",
+    "pt": "Olá! Prazer em te conhecer."
+   },
+   "lessons": [
+    "ca-hello",
+    "ca-spelling",
+    "ca-immigration"
+   ]
+  },
+  {
+   "id": "good-morning",
+   "theme": "cumprimentos",
+   "en": "good morning",
+   "pt": "bom dia",
+   "emoji": "🌅",
+   "example": {
+    "en": "Good morning, Mr. Brown.",
+    "pt": "Bom dia, Mr. Brown."
+   },
+   "lessons": [
+    "ca-checkin",
+    "ca-school-first-day",
+    "ca-school-classroom"
+   ]
+  },
+  {
+   "id": "good-afternoon",
+   "theme": "cumprimentos",
+   "en": "good afternoon",
+   "pt": "boa tarde",
+   "emoji": "🌤️",
+   "example": {
+    "en": "Good afternoon, everyone.",
+    "pt": "Boa tarde, pessoal."
+   },
+   "lessons": []
+  },
+  {
+   "id": "good-night",
+   "theme": "cumprimentos",
+   "en": "good night",
+   "pt": "boa noite (ao dormir)",
+   "emoji": "🌙",
+   "example": {
+    "en": "Good night, see you tomorrow.",
+    "pt": "Boa noite, até amanhã."
+   },
+   "note": "Usado para se despedir antes de dormir.",
+   "lessons": []
+  },
+  {
+   "id": "goodbye",
+   "theme": "cumprimentos",
+   "en": "goodbye",
+   "pt": "tchau",
+   "emoji": "👋",
+   "example": {
+    "en": "Goodbye, Emma!",
+    "pt": "Tchau, Emma!"
+   },
+   "lessons": []
+  },
+  {
+   "id": "see-you-later",
+   "theme": "cumprimentos",
+   "en": "see you later",
+   "pt": "até mais tarde",
+   "emoji": "🕐",
+   "example": {
+    "en": "See you later, Jake!",
+    "pt": "Até mais tarde, Jake!"
+   },
+   "lessons": [
+    "ca-school-friends"
+   ]
+  },
+  {
+   "id": "nice-to-meet-you",
+   "theme": "cumprimentos",
+   "en": "Nice to meet you.",
+   "pt": "Prazer em te conhecer.",
+   "emoji": "🤝",
+   "note": "Ao conhecer alguém. A resposta é \"Nice to meet you too.\"",
+   "lessons": [
+    "ca-hello",
+    "ca-spelling",
+    "ca-videocall",
+    "ca-host-arrival",
+    "ca-school-first-day"
+   ]
+  },
+  {
+   "id": "how-are-you",
+   "theme": "cumprimentos",
+   "en": "How are you?",
+   "pt": "Como você está?",
+   "emoji": "😊",
+   "example": {
+    "en": "Hi, Bia! How are you?",
+    "pt": "Oi, Bia! Como você está?"
+   },
+   "note": "No dia a dia é só uma saudação. A resposta rápida é \"Good, thanks. And you?\"",
+   "lessons": [
+    "ca-hello"
+   ]
+  },
+  {
+   "id": "im-good-thanks",
+   "theme": "cumprimentos",
+   "en": "I'm good, thanks.",
+   "pt": "Estou bem, obrigado / obrigada.",
+   "emoji": "👍",
+   "note": "Resposta padrão para \"How are you?\"",
+   "lessons": [
+    "ca-hello"
+   ]
+  },
+  {
+   "id": "please",
+   "theme": "cumprimentos",
+   "en": "please",
+   "pt": "por favor",
+   "emoji": "🙏",
+   "example": {
+    "en": "Water, please.",
+    "pt": "Água, por favor."
+   },
+   "lessons": [
+    "ca-spelling",
+    "ca-checkin",
+    "ca-immigration",
+    "ca-host-rules",
+    "ca-host-dinner",
+    "ca-school-classroom",
+    "ca-city-help",
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "thanks",
+   "theme": "cumprimentos",
+   "en": "thanks",
+   "pt": "obrigado / obrigada",
+   "emoji": "🙏",
+   "example": {
+    "en": "Thanks for the ride.",
+    "pt": "Obrigado pela carona."
+   },
+   "lessons": [
+    "ca-hello",
+    "ca-school-friends",
+    "ca-cold",
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "youre-welcome",
+   "theme": "cumprimentos",
+   "en": "You're welcome.",
+   "pt": "De nada.",
+   "emoji": "😌",
+   "note": "Resposta a \"thank you\".",
+   "lessons": []
+  },
+  {
+   "id": "excuse-me",
+   "theme": "cumprimentos",
+   "en": "excuse me",
+   "pt": "com licença",
+   "emoji": "🙋",
+   "example": {
+    "en": "Excuse me, where is the library?",
+    "pt": "Com licença, onde fica a biblioteca?"
+   },
+   "lessons": [
+    "ca-checkin",
+    "ca-baggage",
+    "ca-school-classroom",
+    "ca-city-bus",
+    "ca-city-help"
+   ]
+  },
+  {
+   "id": "friend",
+   "theme": "cumprimentos",
+   "en": "friend",
+   "pt": "amigo / amiga",
+   "emoji": "🤝",
+   "example": {
+    "en": "This is my friend Jake.",
+    "pt": "Este é meu amigo Jake."
+   },
+   "lessons": [
+    "ca-hello",
+    "ca-city-help"
+   ]
+  },
+  {
+   "id": "welcome",
+   "theme": "cumprimentos",
+   "en": "Welcome!",
+   "pt": "Bem-vindo(a)!",
+   "emoji": "🎉",
+   "example": {
+    "en": "Welcome to Canada!",
+    "pt": "Bem-vindo ao Canadá!"
+   },
+   "lessons": [
+    "ca-hello",
+    "ca-spelling",
+    "ca-immigration",
+    "ca-host-arrival"
+   ]
+  },
+  {
+   "id": "my-name-is",
+   "theme": "cumprimentos",
+   "en": "My name is …",
+   "pt": "Meu nome é …",
+   "emoji": "📛",
+   "say": "My name is Bia.",
+   "example": {
+    "en": "My name is Bia.",
+    "pt": "Meu nome é Bia."
+   },
+   "lessons": [
+    "ca-hello"
+   ]
+  },
+  {
+   "id": "im-from-brazil",
+   "theme": "cumprimentos",
+   "en": "I'm from Brazil.",
+   "pt": "Eu sou do Brasil.",
+   "emoji": "🇧🇷",
+   "note": "Para dizer de onde você é.",
+   "lessons": [
+    "ca-hello",
+    "ca-videocall",
+    "ca-immigration",
+    "ca-school-friends"
+   ]
+  },
+  {
+   "id": "where-are-you-from",
+   "theme": "cumprimentos",
+   "en": "Where are you from?",
+   "pt": "De onde você é?",
+   "emoji": "🌎",
+   "example": {
+    "en": "Hi! Where are you from?",
+    "pt": "Oi! De onde você é?"
+   },
+   "lessons": [
+    "ca-hello"
+   ]
+  },
+  {
+   "id": "have-a-nice-day",
+   "theme": "cumprimentos",
+   "en": "Have a nice day!",
+   "pt": "Tenha um bom dia!",
+   "emoji": "☀️",
+   "example": {
+    "en": "Thanks! You too!",
+    "pt": "Obrigado! Você também!"
+   },
+   "note": "Frase de despedida muito usada em lojas.",
+   "lessons": []
+  },
+  {
+   "id": "first-name",
+   "theme": "cumprimentos",
+   "en": "first name",
+   "pt": "primeiro nome",
+   "emoji": "📛",
+   "example": {
+    "en": "My first name is Leo.",
+    "pt": "Meu primeiro nome é Leo."
+   },
+   "lessons": [
+    "ca-spelling"
+   ]
+  },
+  {
+   "id": "last-name",
+   "theme": "cumprimentos",
+   "en": "last name",
+   "pt": "sobrenome",
+   "emoji": "📛",
+   "example": {
+    "en": "What is your last name?",
+    "pt": "Qual é o seu sobrenome?"
+   },
+   "lessons": [
+    "ca-spelling"
+   ]
+  },
+  {
+   "id": "sorry",
+   "theme": "cumprimentos",
+   "en": "sorry",
+   "pt": "desculpe",
+   "emoji": "😅",
+   "example": {
+    "en": "Oh, sorry!",
+    "pt": "Ah, desculpe!"
+   },
+   "note": "Os canadenses dizem \"sorry\" o tempo todo, até quando o erro nem foi seu.",
+   "lessons": [
+    "ca-spelling",
+    "ca-immigration",
+    "ca-baggage",
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "yes",
+   "theme": "cumprimentos",
+   "en": "yes",
+   "pt": "sim",
+   "emoji": "✅",
+   "example": {
+    "en": "Yes, please.",
+    "pt": "Sim, por favor."
+   },
+   "lessons": [
+    "ca-numbers",
+    "ca-videocall",
+    "ca-backpack",
+    "ca-checkin",
+    "ca-immigration",
+    "ca-baggage",
+    "ca-host-arrival",
+    "ca-host-dinner",
+    "ca-school-classroom",
+    "ca-school-friends"
+   ]
+  },
+  {
+   "id": "no",
+   "theme": "cumprimentos",
+   "en": "no",
+   "pt": "não",
+   "emoji": "❌",
+   "example": {
+    "en": "No, thank you.",
+    "pt": "Não, obrigado."
+   },
+   "lessons": [
+    "ca-backpack",
+    "ca-checkin",
+    "ca-baggage",
+    "ca-host-arrival",
+    "ca-host-rules",
+    "ca-host-dinner",
+    "ca-school-classroom",
+    "ca-city-bus",
+    "ca-cold",
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "thank-you",
+   "theme": "cumprimentos",
+   "en": "thank you",
+   "pt": "obrigado / obrigada",
+   "emoji": "🙏",
+   "example": {
+    "en": "Thank you for your help.",
+    "pt": "Obrigado pela sua ajuda."
+   },
+   "lessons": [
+    "ca-spelling",
+    "ca-numbers",
+    "ca-checkin",
+    "ca-host-arrival",
+    "ca-host-dinner",
+    "ca-school-first-day",
+    "ca-school-classroom",
+    "ca-city-bus",
+    "ca-city-help"
+   ]
+  },
+  {
+   "id": "name",
+   "theme": "cumprimentos",
+   "en": "name",
+   "pt": "nome",
+   "emoji": "📛",
+   "example": {
+    "en": "Hi! I'm Sam. What's your name?",
+    "pt": "Oi! Eu sou a Sam. Qual é o seu nome?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-hello",
+    "ca-spelling"
+   ]
+  },
+  {
+   "id": "good",
+   "theme": "cumprimentos",
+   "en": "good",
+   "pt": "bom / bem",
+   "emoji": "👍",
+   "example": {
+    "en": "I'm good, thanks. And you?",
+    "pt": "Estou bem, obrigada. E você?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-hello",
+    "ca-videocall",
+    "ca-backpack",
+    "ca-checkin",
+    "ca-school-first-day",
+    "ca-school-classroom"
+   ]
+  },
+  {
+   "id": "spell",
+   "theme": "cumprimentos",
+   "en": "spell",
+   "pt": "soletrar",
+   "emoji": "🔤",
+   "example": {
+    "en": "Hello! Can you spell your last name, please?",
+    "pt": "Olá! Você pode soletrar o seu sobrenome, por favor?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-spelling"
+   ]
+  },
+  {
+   "id": "repeat",
+   "theme": "cumprimentos",
+   "en": "repeat",
+   "pt": "repetir",
+   "emoji": "🔁",
+   "example": {
+    "en": "Sorry, can you repeat that?",
+    "pt": "Desculpe, você pode repetir?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-spelling",
+    "ca-immigration",
+    "ca-school-classroom"
+   ]
+  },
+  {
+   "id": "zero",
+   "theme": "numeros",
+   "en": "zero",
+   "pt": "zero",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number zero.",
+    "pt": "É o número zero."
+   },
+   "note": "O número 0.",
+   "lessons": []
+  },
+  {
+   "id": "one",
+   "theme": "numeros",
+   "en": "one",
+   "pt": "um",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number one.",
+    "pt": "É o número um."
+   },
+   "note": "O número 1.",
+   "lessons": [
+    "ca-numbers",
+    "ca-city-help"
+   ]
+  },
+  {
+   "id": "two",
+   "theme": "numeros",
+   "en": "two",
+   "pt": "dois",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number two.",
+    "pt": "É o número dois."
+   },
+   "note": "O número 2.",
+   "lessons": [
+    "ca-numbers"
+   ]
+  },
+  {
+   "id": "three",
+   "theme": "numeros",
+   "en": "three",
+   "pt": "três",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number three.",
+    "pt": "É o número três."
+   },
+   "note": "O número 3.",
+   "lessons": [
+    "ca-numbers"
+   ]
+  },
+  {
+   "id": "four",
+   "theme": "numeros",
+   "en": "four",
+   "pt": "quatro",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number four.",
+    "pt": "É o número quatro."
+   },
+   "note": "O número 4.",
+   "lessons": [
+    "ca-numbers"
+   ]
+  },
+  {
+   "id": "five",
+   "theme": "numeros",
+   "en": "five",
+   "pt": "cinco",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number five.",
+    "pt": "É o número cinco."
+   },
+   "note": "O número 5.",
+   "lessons": [
+    "ca-numbers",
+    "ca-city-bus"
+   ]
+  },
+  {
+   "id": "six",
+   "theme": "numeros",
+   "en": "six",
+   "pt": "seis",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number six.",
+    "pt": "É o número seis."
+   },
+   "note": "O número 6.",
+   "lessons": [
+    "ca-numbers",
+    "ca-immigration",
+    "ca-host-rules"
+   ]
+  },
+  {
+   "id": "seven",
+   "theme": "numeros",
+   "en": "seven",
+   "pt": "sete",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number seven.",
+    "pt": "É o número sete."
+   },
+   "note": "O número 7.",
+   "lessons": [
+    "ca-host-rules"
+   ]
+  },
+  {
+   "id": "eight",
+   "theme": "numeros",
+   "en": "eight",
+   "pt": "oito",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number eight.",
+    "pt": "É o número oito."
+   },
+   "note": "O número 8.",
+   "lessons": [
+    "ca-numbers",
+    "ca-host-rules"
+   ]
+  },
+  {
+   "id": "nine",
+   "theme": "numeros",
+   "en": "nine",
+   "pt": "nove",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number nine.",
+    "pt": "É o número nove."
+   },
+   "note": "O número 9.",
+   "lessons": [
+    "ca-numbers",
+    "ca-host-rules",
+    "ca-city-bus",
+    "ca-city-help"
+   ]
+  },
+  {
+   "id": "ten",
+   "theme": "numeros",
+   "en": "ten",
+   "pt": "dez",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number ten.",
+    "pt": "É o número dez."
+   },
+   "note": "O número 10.",
+   "lessons": [
+    "ca-checkin",
+    "ca-host-rules",
+    "ca-school-classroom"
+   ]
+  },
+  {
+   "id": "eleven",
+   "theme": "numeros",
+   "en": "eleven",
+   "pt": "onze",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number eleven.",
+    "pt": "É o número onze."
+   },
+   "note": "O número 11.",
+   "lessons": [
+    "ca-school-classroom"
+   ]
+  },
+  {
+   "id": "twelve",
+   "theme": "numeros",
+   "en": "twelve",
+   "pt": "doze",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number twelve.",
+    "pt": "É o número doze."
+   },
+   "note": "O número 12.",
+   "lessons": [
+    "ca-checkin",
+    "ca-school-first-day"
+   ]
+  },
+  {
+   "id": "thirteen",
+   "theme": "numeros",
+   "en": "thirteen",
+   "pt": "treze",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number thirteen.",
+    "pt": "É o número treze."
+   },
+   "note": "O número 13.",
+   "lessons": [
+    "ca-numbers"
+   ]
+  },
+  {
+   "id": "fourteen",
+   "theme": "numeros",
+   "en": "fourteen",
+   "pt": "catorze",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number fourteen.",
+    "pt": "É o número catorze."
+   },
+   "note": "O número 14.",
+   "lessons": [
+    "ca-numbers"
+   ]
+  },
+  {
+   "id": "fifteen",
+   "theme": "numeros",
+   "en": "fifteen",
+   "pt": "quinze",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number fifteen.",
+    "pt": "É o número quinze."
+   },
+   "note": "O número 15.",
+   "lessons": [
+    "ca-numbers",
+    "ca-videocall",
+    "ca-host-arrival"
+   ]
+  },
+  {
+   "id": "sixteen",
+   "theme": "numeros",
+   "en": "sixteen",
+   "pt": "dezesseis",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number sixteen.",
+    "pt": "É o número dezesseis."
+   },
+   "note": "O número 16.",
+   "lessons": [
+    "ca-numbers"
+   ]
+  },
+  {
+   "id": "seventeen",
+   "theme": "numeros",
+   "en": "seventeen",
+   "pt": "dezessete",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number seventeen.",
+    "pt": "É o número dezessete."
+   },
+   "note": "O número 17.",
+   "lessons": [
+    "ca-numbers"
+   ]
+  },
+  {
+   "id": "eighteen",
+   "theme": "numeros",
+   "en": "eighteen",
+   "pt": "dezoito",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number eighteen.",
+    "pt": "É o número dezoito."
+   },
+   "note": "O número 18.",
+   "lessons": []
+  },
+  {
+   "id": "nineteen",
+   "theme": "numeros",
+   "en": "nineteen",
+   "pt": "dezenove",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number nineteen.",
+    "pt": "É o número dezenove."
+   },
+   "note": "O número 19.",
+   "lessons": []
+  },
+  {
+   "id": "twenty",
+   "theme": "numeros",
+   "en": "twenty",
+   "pt": "vinte",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number twenty.",
+    "pt": "É o número vinte."
+   },
+   "note": "O número 20.",
+   "lessons": [
+    "ca-checkin",
+    "ca-cold"
+   ]
+  },
+  {
+   "id": "thirty",
+   "theme": "numeros",
+   "en": "thirty",
+   "pt": "trinta",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number thirty.",
+    "pt": "É o número trinta."
+   },
+   "note": "O número 30.",
+   "lessons": [
+    "ca-checkin",
+    "ca-host-rules"
+   ]
+  },
+  {
+   "id": "fifty",
+   "theme": "numeros",
+   "en": "fifty",
+   "pt": "cinquenta",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number fifty.",
+    "pt": "É o número cinquenta."
+   },
+   "note": "O número 50.",
+   "lessons": []
+  },
+  {
+   "id": "one-hundred",
+   "theme": "numeros",
+   "en": "one hundred",
+   "pt": "cem",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number one hundred.",
+    "pt": "É o número cem."
+   },
+   "note": "O número 100.",
+   "lessons": []
+  },
+  {
+   "id": "how-old-are-you",
+   "theme": "numeros",
+   "en": "How old are you?",
+   "pt": "Quantos anos você tem?",
+   "emoji": "🎂",
+   "note": "A resposta é \"I'm fifteen years old.\" (troque o número).",
+   "lessons": [
+    "ca-numbers"
+   ]
+  },
+  {
+   "id": "whats-your-phone-number",
+   "theme": "numeros",
+   "en": "What's your phone number?",
+   "pt": "Qual é o seu número de telefone?",
+   "emoji": "📱",
+   "note": "Diga os números um por um: \"five, five, five…\"",
+   "lessons": []
+  },
+  {
+   "id": "month",
+   "theme": "numeros",
+   "en": "month",
+   "pt": "mês",
+   "emoji": "🗓️",
+   "example": {
+    "en": "My birthday is next month.",
+    "pt": "Meu aniversário é no mês que vem."
+   },
+   "lessons": [
+    "ca-immigration"
+   ]
+  },
+  {
+   "id": "passport",
+   "theme": "aeroporto",
+   "en": "passport",
+   "pt": "passaporte",
+   "emoji": "🛂",
+   "example": {
+    "en": "Here is my passport.",
+    "pt": "Aqui está o meu passaporte."
+   },
+   "lessons": [
+    "ca-backpack",
+    "ca-checkin",
+    "ca-immigration"
+   ]
+  },
+  {
+   "id": "boarding-pass",
+   "theme": "aeroporto",
+   "en": "boarding pass",
+   "pt": "cartão de embarque",
+   "emoji": "🎫",
+   "example": {
+    "en": "Here is my boarding pass.",
+    "pt": "Aqui está o meu cartão de embarque."
+   },
+   "lessons": [
+    "ca-checkin"
+   ]
+  },
+  {
+   "id": "flight",
+   "theme": "aeroporto",
+   "en": "flight",
+   "pt": "voo",
+   "emoji": "✈️",
+   "example": {
+    "en": "My flight is at noon.",
+    "pt": "Meu voo é ao meio-dia."
+   },
+   "lessons": [
+    "ca-checkin"
+   ]
+  },
+  {
+   "id": "gate",
+   "theme": "aeroporto",
+   "en": "gate",
+   "pt": "portão de embarque",
+   "emoji": "🚪",
+   "example": {
+    "en": "Where is gate twelve?",
+    "pt": "Onde fica o portão doze?"
+   },
+   "lessons": [
+    "ca-checkin"
+   ]
+  },
+  {
+   "id": "seat",
+   "theme": "aeroporto",
+   "en": "seat",
+   "pt": "assento",
+   "emoji": "💺",
+   "example": {
+    "en": "My seat is by the window.",
+    "pt": "Meu assento é na janela."
+   },
+   "lessons": [
+    "ca-checkin"
+   ]
+  },
+  {
+   "id": "window-seat",
+   "theme": "aeroporto",
+   "en": "window seat",
+   "pt": "assento na janela",
+   "emoji": "🪟",
+   "example": {
+    "en": "Can I have a window seat?",
+    "pt": "Posso ficar na janela?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "suitcase",
+   "theme": "aeroporto",
+   "en": "suitcase",
+   "pt": "mala grande",
+   "emoji": "🧳",
+   "example": {
+    "en": "My suitcase is blue.",
+    "pt": "Minha mala é azul."
+   },
+   "lessons": []
+  },
+  {
+   "id": "carry-on",
+   "theme": "aeroporto",
+   "en": "carry-on",
+   "pt": "bagagem de mão",
+   "emoji": "🎒",
+   "example": {
+    "en": "This is my carry-on.",
+    "pt": "Esta é a minha bagagem de mão."
+   },
+   "lessons": []
+  },
+  {
+   "id": "baggage-claim",
+   "theme": "aeroporto",
+   "en": "baggage claim",
+   "pt": "esteira de bagagem",
+   "emoji": "🛄",
+   "example": {
+    "en": "The baggage claim is downstairs.",
+    "pt": "A esteira de bagagem fica no andar de baixo."
+   },
+   "lessons": [
+    "ca-baggage"
+   ]
+  },
+  {
+   "id": "check-in",
+   "theme": "aeroporto",
+   "en": "check-in",
+   "pt": "check-in / registro",
+   "emoji": "🧾",
+   "example": {
+    "en": "Where is the check-in desk?",
+    "pt": "Onde fica o balcão de check-in?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "security",
+   "theme": "aeroporto",
+   "en": "security",
+   "pt": "segurança (revista)",
+   "emoji": "🛃",
+   "example": {
+    "en": "Security is this way.",
+    "pt": "A segurança é por aqui."
+   },
+   "lessons": []
+  },
+  {
+   "id": "customs",
+   "theme": "aeroporto",
+   "en": "customs",
+   "pt": "alfândega",
+   "emoji": "📦",
+   "example": {
+    "en": "I have nothing to declare.",
+    "pt": "Não tenho nada a declarar."
+   },
+   "lessons": []
+  },
+  {
+   "id": "immigration",
+   "theme": "aeroporto",
+   "en": "immigration",
+   "pt": "imigração",
+   "emoji": "🛬",
+   "example": {
+    "en": "Immigration is on the left.",
+    "pt": "A imigração é à esquerda."
+   },
+   "lessons": []
+  },
+  {
+   "id": "officer",
+   "theme": "aeroporto",
+   "en": "officer",
+   "pt": "oficial / agente",
+   "emoji": "👮",
+   "example": {
+    "en": "The officer asks a few questions.",
+    "pt": "O oficial faz algumas perguntas."
+   },
+   "lessons": []
+  },
+  {
+   "id": "study-permit",
+   "theme": "aeroporto",
+   "en": "study permit",
+   "pt": "permissão de estudo",
+   "emoji": "📄",
+   "example": {
+    "en": "I have a study permit.",
+    "pt": "Eu tenho permissão de estudo."
+   },
+   "note": "Documento canadense para estudar no país. Confira as regras no site oficial.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "where-is-gate",
+   "theme": "aeroporto",
+   "en": "Where is gate …?",
+   "pt": "Onde fica o portão …?",
+   "emoji": "🗺️",
+   "say": "Where is gate twelve?",
+   "note": "Troque os pontinhos pelo número do portão.",
+   "lessons": [
+    "ca-checkin"
+   ]
+  },
+  {
+   "id": "im-here-to-study",
+   "theme": "aeroporto",
+   "en": "I'm here to study.",
+   "pt": "Eu vim estudar.",
+   "emoji": "🎓",
+   "note": "Resposta comum na imigração.",
+   "lessons": [
+    "ca-immigration"
+   ]
+  },
+  {
+   "id": "im-staying-with-a-host-family",
+   "theme": "aeroporto",
+   "en": "I'm staying with a host family.",
+   "pt": "Eu vou ficar com uma família anfitriã.",
+   "emoji": "🏠",
+   "note": "Resposta comum na imigração.",
+   "lessons": []
+  },
+  {
+   "id": "airport",
+   "theme": "aeroporto",
+   "en": "airport",
+   "pt": "aeroporto",
+   "emoji": "🛫",
+   "example": {
+    "en": "The airport is very big.",
+    "pt": "O aeroporto é muito grande."
+   },
+   "lessons": []
+  },
+  {
+   "id": "plane",
+   "theme": "aeroporto",
+   "en": "plane",
+   "pt": "avião",
+   "emoji": "✈️",
+   "example": {
+    "en": "The plane is on time.",
+    "pt": "O avião está no horário."
+   },
+   "lessons": []
+  },
+  {
+   "id": "ticket",
+   "theme": "aeroporto",
+   "en": "ticket",
+   "pt": "passagem / bilhete",
+   "emoji": "🎟️",
+   "example": {
+    "en": "I have my ticket.",
+    "pt": "Eu estou com a minha passagem."
+   },
+   "lessons": []
+  },
+  {
+   "id": "school",
+   "theme": "escola",
+   "en": "school",
+   "pt": "escola",
+   "emoji": "🏫",
+   "example": {
+    "en": "My school is near my house.",
+    "pt": "Minha escola é perto de casa."
+   },
+   "lessons": [
+    "ca-backpack",
+    "ca-immigration",
+    "ca-host-rules",
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "classroom",
+   "theme": "escola",
+   "en": "classroom",
+   "pt": "sala de aula",
+   "emoji": "🏫",
+   "example": {
+    "en": "The classroom is on the second floor.",
+    "pt": "A sala de aula fica no segundo andar."
+   },
+   "lessons": []
+  },
+  {
+   "id": "class",
+   "theme": "escola",
+   "en": "class",
+   "pt": "aula / turma",
+   "emoji": "📚",
+   "example": {
+    "en": "My first class is math.",
+    "pt": "Minha primeira aula é matemática."
+   },
+   "lessons": [
+    "ca-school-first-day",
+    "ca-school-classroom"
+   ]
+  },
+  {
+   "id": "teacher",
+   "theme": "escola",
+   "en": "teacher",
+   "pt": "professor / professora",
+   "emoji": "🧑‍🏫",
+   "example": {
+    "en": "My teacher is very nice.",
+    "pt": "Meu professor é muito simpático."
+   },
+   "lessons": []
+  },
+  {
+   "id": "student",
+   "theme": "escola",
+   "en": "student",
+   "pt": "estudante",
+   "emoji": "🧑‍🎓",
+   "example": {
+    "en": "I'm a new student.",
+    "pt": "Sou um aluno novo."
+   },
+   "lessons": [
+    "ca-immigration",
+    "ca-school-friends"
+   ]
+  },
+  {
+   "id": "classmate",
+   "theme": "escola",
+   "en": "classmate",
+   "pt": "colega de classe",
+   "emoji": "🧑‍🤝‍🧑",
+   "example": {
+    "en": "Jake is my classmate.",
+    "pt": "O Jake é meu colega de classe."
+   },
+   "lessons": []
+  },
+  {
+   "id": "principal",
+   "theme": "escola",
+   "en": "principal",
+   "pt": "diretor(a) da escola",
+   "emoji": "🏛️",
+   "example": {
+    "en": "The principal is in the office.",
+    "pt": "O diretor está na secretaria."
+   },
+   "lessons": []
+  },
+  {
+   "id": "counsellor",
+   "theme": "escola",
+   "en": "counsellor",
+   "pt": "orientador(a) escolar",
+   "emoji": "💬",
+   "example": {
+    "en": "I have a meeting with my counsellor.",
+    "pt": "Tenho uma reunião com a minha orientadora."
+   },
+   "note": "No Canadá escreve-se \"counsellor\" (com dois L).",
+   "variant": true,
+   "lessons": [
+    "ca-school-first-day"
+   ]
+  },
+  {
+   "id": "locker",
+   "theme": "escola",
+   "en": "locker",
+   "pt": "armário da escola",
+   "emoji": "🔐",
+   "example": {
+    "en": "My locker is number ten.",
+    "pt": "Meu armário é o número dez."
+   },
+   "lessons": [
+    "ca-school-first-day"
+   ]
+  },
+  {
+   "id": "homework",
+   "theme": "escola",
+   "en": "homework",
+   "pt": "lição de casa",
+   "emoji": "📝",
+   "example": {
+    "en": "I have a lot of homework.",
+    "pt": "Tenho muita lição de casa."
+   },
+   "lessons": [
+    "ca-school-classroom"
+   ]
+  },
+  {
+   "id": "schedule",
+   "theme": "escola",
+   "en": "schedule",
+   "pt": "horário de aulas",
+   "emoji": "🗓️",
+   "example": {
+    "en": "This is my schedule.",
+    "pt": "Este é o meu horário de aulas."
+   },
+   "lessons": [
+    "ca-school-first-day"
+   ]
+  },
+  {
+   "id": "subject",
+   "theme": "escola",
+   "en": "subject",
+   "pt": "matéria",
+   "emoji": "📖",
+   "example": {
+    "en": "My favourite subject is art.",
+    "pt": "Minha matéria favorita é artes."
+   },
+   "lessons": []
+  },
+  {
+   "id": "math",
+   "theme": "escola",
+   "en": "math",
+   "pt": "matemática",
+   "emoji": "➗",
+   "example": {
+    "en": "I have math today.",
+    "pt": "Tenho matemática hoje."
+   },
+   "lessons": [
+    "ca-school-first-day"
+   ]
+  },
+  {
+   "id": "test",
+   "theme": "escola",
+   "en": "test",
+   "pt": "prova",
+   "emoji": "📝",
+   "example": {
+    "en": "We have a test on Friday.",
+    "pt": "Temos uma prova na sexta."
+   },
+   "lessons": []
+  },
+  {
+   "id": "grade",
+   "theme": "escola",
+   "en": "grade",
+   "pt": "série / nota",
+   "emoji": "🔟",
+   "example": {
+    "en": "I'm in Grade ten.",
+    "pt": "Estou no décimo ano (Grade 10)."
+   },
+   "note": "No Canadá, as séries se chamam \"Grade 1, 2, 3…\". \"Grade\" também pode ser a nota.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "notebook",
+   "theme": "escola",
+   "en": "notebook",
+   "pt": "caderno",
+   "emoji": "📓",
+   "example": {
+    "en": "I need a new notebook.",
+    "pt": "Preciso de um caderno novo."
+   },
+   "lessons": []
+  },
+  {
+   "id": "pencil",
+   "theme": "escola",
+   "en": "pencil",
+   "pt": "lápis",
+   "emoji": "✏️",
+   "example": {
+    "en": "Can I borrow a pencil?",
+    "pt": "Posso pegar um lápis emprestado?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "eraser",
+   "theme": "escola",
+   "en": "eraser",
+   "pt": "borracha",
+   "emoji": "🧽",
+   "example": {
+    "en": "Do you have an eraser?",
+    "pt": "Você tem uma borracha?"
+   },
+   "note": "No Canadá é \"eraser\". No Reino Unido se diz \"rubber\".",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "book",
+   "theme": "escola",
+   "en": "book",
+   "pt": "livro",
+   "emoji": "📕",
+   "example": {
+    "en": "Open your book to page ten.",
+    "pt": "Abra o livro na página dez."
+   },
+   "lessons": [
+    "ca-school-classroom"
+   ]
+  },
+  {
+   "id": "page",
+   "theme": "escola",
+   "en": "page",
+   "pt": "página",
+   "emoji": "📄",
+   "example": {
+    "en": "Turn to page five.",
+    "pt": "Vá para a página cinco."
+   },
+   "lessons": [
+    "ca-school-classroom"
+   ]
+  },
+  {
+   "id": "cafeteria",
+   "theme": "escola",
+   "en": "cafeteria",
+   "pt": "refeitório",
+   "emoji": "🍽️",
+   "example": {
+    "en": "Let's eat in the cafeteria.",
+    "pt": "Vamos comer no refeitório."
+   },
+   "lessons": []
+  },
+  {
+   "id": "study",
+   "theme": "escola",
+   "en": "study",
+   "pt": "estudar",
+   "emoji": "📖",
+   "example": {
+    "en": "I study after dinner.",
+    "pt": "Eu estudo depois do jantar."
+   },
+   "lessons": [
+    "ca-immigration"
+   ]
+  },
+  {
+   "id": "question",
+   "theme": "escola",
+   "en": "question",
+   "pt": "pergunta",
+   "emoji": "❓",
+   "example": {
+    "en": "I have a question.",
+    "pt": "Tenho uma pergunta."
+   },
+   "lessons": [
+    "ca-videocall"
+   ]
+  },
+  {
+   "id": "may-i-go-to-the-washroom",
+   "theme": "escola",
+   "en": "May I go to the washroom?",
+   "pt": "Posso ir ao banheiro?",
+   "emoji": "🚻",
+   "note": "Frase que se diz ao professor. No Canadá, \"washroom\" é o mais comum.",
+   "variant": true,
+   "lessons": [
+    "ca-school-classroom"
+   ]
+  },
+  {
+   "id": "what-page-are-we-on",
+   "theme": "escola",
+   "en": "What page are we on?",
+   "pt": "Em que página estamos?",
+   "emoji": "🔖",
+   "note": "Quando você se perdeu na aula.",
+   "lessons": []
+  },
+  {
+   "id": "can-you-explain-that-again",
+   "theme": "escola",
+   "en": "Can you explain that again?",
+   "pt": "Pode explicar de novo?",
+   "emoji": "🔁",
+   "note": "Quando você não entendeu a explicação.",
+   "lessons": []
+  },
+  {
+   "id": "backpack",
+   "theme": "escola",
+   "en": "backpack",
+   "pt": "mochila",
+   "emoji": "🎒",
+   "example": {
+    "en": "My backpack is heavy.",
+    "pt": "Minha mochila está pesada."
+   },
+   "lessons": [
+    "ca-backpack"
+   ]
+  },
+  {
+   "id": "understand",
+   "theme": "escola",
+   "en": "understand",
+   "pt": "entender",
+   "emoji": "💡",
+   "example": {
+    "en": "Excuse me, Mr. Brown. I don't understand.",
+    "pt": "Com licença, professor. Eu não entendi."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-school-classroom"
+   ]
+  },
+  {
+   "id": "slowly",
+   "theme": "escola",
+   "en": "slowly",
+   "pt": "devagar",
+   "emoji": "🐢",
+   "example": {
+    "en": "Can you speak more slowly, please?",
+    "pt": "Você pode falar mais devagar, por favor?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-school-classroom"
+   ]
+  },
+  {
+   "id": "soccer",
+   "theme": "escola",
+   "en": "soccer",
+   "pt": "futebol",
+   "emoji": "⚽",
+   "example": {
+    "en": "Yes, I love soccer. And you?",
+    "pt": "Sim, eu amo futebol. E você?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-school-friends"
+   ]
+  },
+  {
+   "id": "sports",
+   "theme": "escola",
+   "en": "sports",
+   "pt": "esportes",
+   "emoji": "🏅",
+   "example": {
+    "en": "Do you like sports?",
+    "pt": "Você gosta de esportes?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-school-friends"
+   ]
+  },
+  {
+   "id": "play",
+   "theme": "escola",
+   "en": "play",
+   "pt": "jogar / brincar",
+   "emoji": "🎮",
+   "example": {
+    "en": "I play hockey and basketball.",
+    "pt": "Eu jogo hóquei e basquete."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-school-friends",
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "host-family",
+   "theme": "casa",
+   "en": "host family",
+   "pt": "família anfitriã",
+   "emoji": "👨‍👩‍👧",
+   "example": {
+    "en": "My host family is very kind.",
+    "pt": "Minha família anfitriã é muito gentil."
+   },
+   "lessons": [
+    "ca-immigration"
+   ]
+  },
+  {
+   "id": "host-mom",
+   "theme": "casa",
+   "en": "host mom",
+   "pt": "mãe anfitriã",
+   "emoji": "👩",
+   "example": {
+    "en": "My host mom makes dinner.",
+    "pt": "Minha mãe anfitriã faz o jantar."
+   },
+   "lessons": []
+  },
+  {
+   "id": "host-dad",
+   "theme": "casa",
+   "en": "host dad",
+   "pt": "pai anfitrião",
+   "emoji": "👨",
+   "example": {
+    "en": "My host dad drives me to school.",
+    "pt": "Meu pai anfitrião me leva à escola."
+   },
+   "lessons": []
+  },
+  {
+   "id": "home",
+   "theme": "casa",
+   "en": "home",
+   "pt": "casa / lar",
+   "emoji": "🏡",
+   "example": {
+    "en": "I'm going home.",
+    "pt": "Estou indo para casa."
+   },
+   "lessons": [
+    "ca-host-arrival",
+    "ca-host-rules",
+    "ca-school-classroom"
+   ]
+  },
+  {
+   "id": "apartment",
+   "theme": "casa",
+   "en": "apartment",
+   "pt": "apartamento",
+   "emoji": "🏢",
+   "example": {
+    "en": "We live in an apartment.",
+    "pt": "Nós moramos em um apartamento."
+   },
+   "note": "No Reino Unido e na Irlanda se diz \"flat\".",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "room",
+   "theme": "casa",
+   "en": "room",
+   "pt": "quarto / cômodo",
+   "emoji": "🛏️",
+   "example": {
+    "en": "This is your room.",
+    "pt": "Este é o seu quarto."
+   },
+   "lessons": [
+    "ca-host-arrival",
+    "ca-school-first-day"
+   ]
+  },
+  {
+   "id": "bedroom",
+   "theme": "casa",
+   "en": "bedroom",
+   "pt": "quarto de dormir",
+   "emoji": "🛌",
+   "example": {
+    "en": "My bedroom is upstairs.",
+    "pt": "Meu quarto fica lá em cima."
+   },
+   "lessons": []
+  },
+  {
+   "id": "bathroom",
+   "theme": "casa",
+   "en": "bathroom",
+   "pt": "banheiro",
+   "emoji": "🛁",
+   "example": {
+    "en": "The bathroom is on the left.",
+    "pt": "O banheiro fica à esquerda."
+   },
+   "note": "No Canadá, em lugares públicos, também se diz \"washroom\".",
+   "lessons": [
+    "ca-host-arrival"
+   ]
+  },
+  {
+   "id": "kitchen",
+   "theme": "casa",
+   "en": "kitchen",
+   "pt": "cozinha",
+   "emoji": "🍳",
+   "example": {
+    "en": "Dinner is in the kitchen.",
+    "pt": "O jantar é na cozinha."
+   },
+   "lessons": []
+  },
+  {
+   "id": "living-room",
+   "theme": "casa",
+   "en": "living room",
+   "pt": "sala de estar",
+   "emoji": "🛋️",
+   "example": {
+    "en": "We watch TV in the living room.",
+    "pt": "Assistimos TV na sala de estar."
+   },
+   "lessons": []
+  },
+  {
+   "id": "basement",
+   "theme": "casa",
+   "en": "basement",
+   "pt": "porão",
+   "emoji": "🪜",
+   "example": {
+    "en": "The laundry is in the basement.",
+    "pt": "A lavanderia fica no porão."
+   },
+   "note": "Muitas casas canadenses têm porão; às vezes é um quarto ou sala.",
+   "lessons": []
+  },
+  {
+   "id": "shower",
+   "theme": "casa",
+   "en": "shower",
+   "pt": "banho (de chuveiro)",
+   "emoji": "🚿",
+   "example": {
+    "en": "I take a shower in the morning.",
+    "pt": "Eu tomo banho de manhã."
+   },
+   "lessons": [
+    "ca-host-rules"
+   ]
+  },
+  {
+   "id": "towel",
+   "theme": "casa",
+   "en": "towel",
+   "pt": "toalha",
+   "emoji": "🧺",
+   "example": {
+    "en": "Can I have a towel, please?",
+    "pt": "Posso pegar uma toalha, por favor?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "key",
+   "theme": "casa",
+   "en": "key",
+   "pt": "chave",
+   "emoji": "🔑",
+   "example": {
+    "en": "Here's your key.",
+    "pt": "Aqui está a sua chave."
+   },
+   "lessons": []
+  },
+  {
+   "id": "fridge",
+   "theme": "casa",
+   "en": "fridge",
+   "pt": "geladeira",
+   "emoji": "🧊",
+   "example": {
+    "en": "The milk is in the fridge.",
+    "pt": "O leite está na geladeira."
+   },
+   "lessons": [
+    "ca-host-rules"
+   ]
+  },
+  {
+   "id": "dishes",
+   "theme": "casa",
+   "en": "dishes",
+   "pt": "louça",
+   "emoji": "🍽️",
+   "example": {
+    "en": "I'll do the dishes.",
+    "pt": "Eu lavo a louça."
+   },
+   "lessons": []
+  },
+  {
+   "id": "garbage",
+   "theme": "casa",
+   "en": "garbage",
+   "pt": "lixo",
+   "emoji": "🗑️",
+   "example": {
+    "en": "I'll take out the garbage.",
+    "pt": "Eu levo o lixo para fora."
+   },
+   "note": "No Canadá se diz \"garbage\". Nos EUA, \"trash\".",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "elevator",
+   "theme": "casa",
+   "en": "elevator",
+   "pt": "elevador",
+   "emoji": "🛗",
+   "example": {
+    "en": "The elevator is broken.",
+    "pt": "O elevador está quebrado."
+   },
+   "note": "No Reino Unido se diz \"lift\".",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "password",
+   "theme": "casa",
+   "en": "password",
+   "pt": "senha",
+   "emoji": "🔑",
+   "example": {
+    "en": "What's the Wi-Fi password?",
+    "pt": "Qual é a senha do Wi-Fi?"
+   },
+   "lessons": [
+    "ca-host-rules"
+   ]
+  },
+  {
+   "id": "wake-up",
+   "theme": "casa",
+   "en": "wake up",
+   "pt": "acordar",
+   "emoji": "⏰",
+   "example": {
+    "en": "I wake up at seven.",
+    "pt": "Eu acordo às sete."
+   },
+   "lessons": [
+    "ca-host-rules"
+   ]
+  },
+  {
+   "id": "house-rules",
+   "theme": "casa",
+   "en": "house rules",
+   "pt": "regras da casa",
+   "emoji": "📋",
+   "example": {
+    "en": "What are the house rules?",
+    "pt": "Quais são as regras da casa?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "curfew",
+   "theme": "casa",
+   "en": "curfew",
+   "pt": "horário para chegar em casa",
+   "emoji": "🌃",
+   "example": {
+    "en": "My curfew is ten o'clock.",
+    "pt": "Meu horário para chegar em casa é dez horas."
+   },
+   "lessons": []
+  },
+  {
+   "id": "what-time-is-dinner",
+   "theme": "casa",
+   "en": "What time is dinner?",
+   "pt": "A que horas é o jantar?",
+   "emoji": "🕕",
+   "note": "Para saber o horário das refeições.",
+   "lessons": []
+  },
+  {
+   "id": "ill-be-home-at-six",
+   "theme": "casa",
+   "en": "I'll be home at six.",
+   "pt": "Eu volto para casa às seis.",
+   "emoji": "🕕",
+   "note": "Avise sempre a que horas você chega.",
+   "lessons": []
+  },
+  {
+   "id": "is-it-ok-if-i",
+   "theme": "casa",
+   "en": "Is it OK if I …?",
+   "pt": "Tudo bem se eu …?",
+   "emoji": "🙏",
+   "say": "Is it OK if I use the kitchen?",
+   "note": "A forma educada de pedir permissão. Exemplo: \"Is it OK if I use the kitchen?\"",
+   "lessons": []
+  },
+  {
+   "id": "happy",
+   "theme": "casa",
+   "en": "happy",
+   "pt": "feliz",
+   "emoji": "😊",
+   "example": {
+    "en": "Nice to meet you too! We are very happy.",
+    "pt": "Prazer! Nós estamos muito felizes."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-videocall"
+   ]
+  },
+  {
+   "id": "breakfast",
+   "theme": "comida",
+   "en": "breakfast",
+   "pt": "café da manhã",
+   "emoji": "🥞",
+   "example": {
+    "en": "Breakfast is at seven.",
+    "pt": "O café da manhã é às sete."
+   },
+   "lessons": []
+  },
+  {
+   "id": "lunch",
+   "theme": "comida",
+   "en": "lunch",
+   "pt": "almoço",
+   "emoji": "🥪",
+   "example": {
+    "en": "I eat lunch at school.",
+    "pt": "Eu almoço na escola."
+   },
+   "lessons": [
+    "ca-host-dinner",
+    "ca-school-first-day"
+   ]
+  },
+  {
+   "id": "dinner",
+   "theme": "comida",
+   "en": "dinner",
+   "pt": "jantar",
+   "emoji": "🍝",
+   "example": {
+    "en": "Dinner is ready.",
+    "pt": "O jantar está pronto."
+   },
+   "lessons": [
+    "ca-host-rules",
+    "ca-host-dinner"
+   ]
+  },
+  {
+   "id": "hungry",
+   "theme": "comida",
+   "en": "hungry",
+   "pt": "com fome",
+   "emoji": "🤤",
+   "example": {
+    "en": "I'm hungry.",
+    "pt": "Estou com fome."
+   },
+   "lessons": [
+    "ca-host-arrival",
+    "ca-host-rules"
+   ]
+  },
+  {
+   "id": "full",
+   "theme": "comida",
+   "en": "full",
+   "pt": "satisfeito / satisfeita",
+   "emoji": "😌",
+   "example": {
+    "en": "No, thanks. I'm full.",
+    "pt": "Não, obrigado. Estou satisfeito."
+   },
+   "lessons": [
+    "ca-host-dinner"
+   ]
+  },
+  {
+   "id": "water",
+   "theme": "comida",
+   "en": "water",
+   "pt": "água",
+   "emoji": "💧",
+   "example": {
+    "en": "Can I have some water?",
+    "pt": "Posso tomar um pouco de água?"
+   },
+   "lessons": [
+    "ca-host-dinner"
+   ]
+  },
+  {
+   "id": "milk",
+   "theme": "comida",
+   "en": "milk",
+   "pt": "leite",
+   "emoji": "🥛",
+   "example": {
+    "en": "Milk, please.",
+    "pt": "Leite, por favor."
+   },
+   "lessons": []
+  },
+  {
+   "id": "coffee",
+   "theme": "comida",
+   "en": "coffee",
+   "pt": "café",
+   "emoji": "☕",
+   "image": "assets/images/ca/ca-coffee/vocab-coffee.webp",
+   "example": {
+    "en": "A coffee, please.",
+    "pt": "Um café, por favor."
+   },
+   "lessons": [
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "hot-chocolate",
+   "theme": "comida",
+   "en": "hot chocolate",
+   "pt": "chocolate quente",
+   "emoji": "🍫",
+   "image": "assets/images/ca/ca-coffee/vocab-hot-chocolate.webp",
+   "example": {
+    "en": "A hot chocolate, please.",
+    "pt": "Um chocolate quente, por favor."
+   },
+   "lessons": [
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "muffin",
+   "theme": "comida",
+   "en": "muffin",
+   "pt": "muffin (bolinho)",
+   "emoji": "🧁",
+   "image": "assets/images/ca/ca-coffee/vocab-muffin.webp",
+   "example": {
+    "en": "I want a blueberry muffin.",
+    "pt": "Quero um muffin de mirtilo."
+   },
+   "lessons": [
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "donut",
+   "theme": "comida",
+   "en": "donut",
+   "pt": "rosquinha (donut)",
+   "emoji": "🍩",
+   "image": "assets/images/ca/ca-coffee/vocab-donut.webp",
+   "example": {
+    "en": "One donut, please.",
+    "pt": "Uma rosquinha, por favor."
+   },
+   "lessons": [
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "bread",
+   "theme": "comida",
+   "en": "bread",
+   "pt": "pão",
+   "emoji": "🍞",
+   "example": {
+    "en": "More bread, please.",
+    "pt": "Mais pão, por favor."
+   },
+   "lessons": []
+  },
+  {
+   "id": "rice",
+   "theme": "comida",
+   "en": "rice",
+   "pt": "arroz",
+   "emoji": "🍚",
+   "example": {
+    "en": "I like rice and beans.",
+    "pt": "Eu gosto de arroz e feijão."
+   },
+   "lessons": []
+  },
+  {
+   "id": "chicken",
+   "theme": "comida",
+   "en": "chicken",
+   "pt": "frango",
+   "emoji": "🍗",
+   "example": {
+    "en": "We have chicken for dinner.",
+    "pt": "Temos frango no jantar."
+   },
+   "lessons": [
+    "ca-host-dinner"
+   ]
+  },
+  {
+   "id": "fish",
+   "theme": "comida",
+   "en": "fish",
+   "pt": "peixe",
+   "emoji": "🐟",
+   "example": {
+    "en": "I don't like fish.",
+    "pt": "Eu não gosto de peixe."
+   },
+   "lessons": [
+    "ca-host-dinner"
+   ]
+  },
+  {
+   "id": "salt",
+   "theme": "comida",
+   "en": "salt",
+   "pt": "sal",
+   "emoji": "🧂",
+   "example": {
+    "en": "Can you pass the salt?",
+    "pt": "Pode passar o sal?"
+   },
+   "lessons": [
+    "ca-host-dinner"
+   ]
+  },
+  {
+   "id": "poutine",
+   "theme": "comida",
+   "en": "poutine",
+   "pt": "poutine (batata com queijo e molho)",
+   "emoji": "🍟",
+   "example": {
+    "en": "I'd like some poutine, please.",
+    "pt": "Eu queria uma poutine, por favor."
+   },
+   "note": "Prato típico do Canadá: batata frita, queijo em pedaços e molho.",
+   "variant": true,
+   "lessons": [
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "maple-syrup",
+   "theme": "comida",
+   "en": "maple syrup",
+   "pt": "xarope de bordo",
+   "emoji": "🍁",
+   "example": {
+    "en": "I like maple syrup on pancakes.",
+    "pt": "Gosto de xarope de bordo nas panquecas."
+   },
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "candy",
+   "theme": "comida",
+   "en": "candy",
+   "pt": "doce / bala",
+   "emoji": "🍬",
+   "example": {
+    "en": "Do you want some candy?",
+    "pt": "Você quer uma bala?"
+   },
+   "note": "No Canadá e nos EUA é \"candy\". Na Austrália e na Nova Zelândia se diz \"lollies\".",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "vegetarian",
+   "theme": "comida",
+   "en": "vegetarian",
+   "pt": "vegetariano / vegetariana",
+   "emoji": "🥦",
+   "example": {
+    "en": "I'm vegetarian.",
+    "pt": "Eu sou vegetariano."
+   },
+   "lessons": []
+  },
+  {
+   "id": "allergic",
+   "theme": "comida",
+   "en": "allergic",
+   "pt": "alérgico / alérgica",
+   "emoji": "🤧",
+   "example": {
+    "en": "I'm allergic to peanuts.",
+    "pt": "Sou alérgico a amendoim."
+   },
+   "lessons": []
+  },
+  {
+   "id": "im-hungry",
+   "theme": "comida",
+   "en": "I'm hungry.",
+   "pt": "Estou com fome.",
+   "emoji": "🍽️",
+   "note": "Sem vergonha: a família prefere que você peça.",
+   "lessons": []
+  },
+  {
+   "id": "can-i-have-some-more",
+   "theme": "comida",
+   "en": "Can I have some more?",
+   "pt": "Posso repetir?",
+   "emoji": "🍽️",
+   "note": "Para pedir mais comida na mesa, com educação.",
+   "lessons": []
+  },
+  {
+   "id": "its-delicious",
+   "theme": "comida",
+   "en": "It's delicious!",
+   "pt": "Está delicioso!",
+   "emoji": "😋",
+   "note": "Elogiar a comida deixa a família anfitriã feliz.",
+   "lessons": []
+  },
+  {
+   "id": "can-you-pass-the-please",
+   "theme": "comida",
+   "en": "Can you pass the …, please?",
+   "pt": "Pode passar o … , por favor?",
+   "emoji": "🥄",
+   "say": "Can you pass the salt, please?",
+   "note": "Na mesa. Exemplo: \"Can you pass the salt, please?\"",
+   "lessons": [
+    "ca-host-dinner"
+   ]
+  },
+  {
+   "id": "i-dont-eat",
+   "theme": "comida",
+   "en": "I don't eat …",
+   "pt": "Eu não como …",
+   "emoji": "🚫",
+   "say": "I don't eat pork.",
+   "note": "Para avisar uma restrição. Exemplo: \"I don't eat pork.\"",
+   "lessons": [
+    "ca-host-dinner"
+   ]
+  },
+  {
+   "id": "size",
+   "theme": "comida",
+   "en": "size",
+   "pt": "tamanho",
+   "emoji": "📏",
+   "image": "assets/images/ca/ca-coffee/vocab-size.webp",
+   "example": {
+    "en": "A medium coffee, please.",
+    "pt": "Um café médio, por favor."
+   },
+   "lessons": [
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "menu",
+   "theme": "comida",
+   "en": "menu",
+   "pt": "cardápio",
+   "emoji": "📋",
+   "example": {
+    "en": "Can I see the menu, please?",
+    "pt": "Posso ver o cardápio, por favor?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "bill",
+   "theme": "comida",
+   "en": "bill",
+   "pt": "conta (do restaurante)",
+   "emoji": "🧾",
+   "example": {
+    "en": "Can we have the bill, please?",
+    "pt": "Pode trazer a conta, por favor?"
+   },
+   "note": "Na América do Norte também se diz \"check\".",
+   "lessons": []
+  },
+  {
+   "id": "bus",
+   "theme": "transporte",
+   "en": "bus",
+   "pt": "ônibus",
+   "emoji": "🚌",
+   "example": {
+    "en": "I take the bus to school.",
+    "pt": "Eu pego o ônibus para a escola."
+   },
+   "lessons": [
+    "ca-city-bus",
+    "ca-city-help",
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "school-bus",
+   "theme": "transporte",
+   "en": "school bus",
+   "pt": "ônibus escolar",
+   "emoji": "🚍",
+   "example": {
+    "en": "The school bus is yellow.",
+    "pt": "O ônibus escolar é amarelo."
+   },
+   "note": "No Canadá, o ônibus escolar amarelo é um símbolo.",
+   "variant": true,
+   "lessons": [
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "bus-stop",
+   "theme": "transporte",
+   "en": "bus stop",
+   "pt": "ponto de ônibus",
+   "emoji": "🚏",
+   "example": {
+    "en": "The bus stop is on the corner.",
+    "pt": "O ponto de ônibus fica na esquina."
+   },
+   "lessons": [
+    "ca-city-bus",
+    "ca-city-help"
+   ]
+  },
+  {
+   "id": "subway",
+   "theme": "transporte",
+   "en": "subway",
+   "pt": "metrô",
+   "emoji": "🚇",
+   "example": {
+    "en": "I take the subway downtown.",
+    "pt": "Eu pego o metrô para o centro."
+   },
+   "note": "No Canadá e nos EUA é \"subway\". No Reino Unido, \"the Tube\" ou \"underground\".",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "bus-pass",
+   "theme": "transporte",
+   "en": "bus pass",
+   "pt": "passe de ônibus",
+   "emoji": "🎟️",
+   "example": {
+    "en": "I need a bus pass.",
+    "pt": "Preciso de um passe de ônibus."
+   },
+   "lessons": []
+  },
+  {
+   "id": "transfer",
+   "theme": "transporte",
+   "en": "transfer",
+   "pt": "baldeação / bilhete de integração",
+   "emoji": "🔄",
+   "example": {
+    "en": "I need a transfer, please.",
+    "pt": "Preciso de um bilhete de integração, por favor."
+   },
+   "lessons": []
+  },
+  {
+   "id": "next-stop",
+   "theme": "transporte",
+   "en": "next stop",
+   "pt": "próxima parada",
+   "emoji": "➡️",
+   "example": {
+    "en": "The next stop is mine.",
+    "pt": "A próxima parada é a minha."
+   },
+   "lessons": []
+  },
+  {
+   "id": "get-off",
+   "theme": "transporte",
+   "en": "get off",
+   "pt": "descer (do ônibus)",
+   "emoji": "⬇️",
+   "example": {
+    "en": "I get off at the next stop.",
+    "pt": "Eu desço na próxima parada."
+   },
+   "lessons": []
+  },
+  {
+   "id": "street",
+   "theme": "transporte",
+   "en": "street",
+   "pt": "rua",
+   "emoji": "🛣️",
+   "example": {
+    "en": "My street is quiet.",
+    "pt": "Minha rua é tranquila."
+   },
+   "lessons": [
+    "ca-city-bus",
+    "ca-city-help"
+   ]
+  },
+  {
+   "id": "address",
+   "theme": "transporte",
+   "en": "address",
+   "pt": "endereço",
+   "emoji": "📍",
+   "example": {
+    "en": "This is my address.",
+    "pt": "Este é o meu endereço."
+   },
+   "lessons": [
+    "ca-baggage"
+   ]
+  },
+  {
+   "id": "left",
+   "theme": "transporte",
+   "en": "left",
+   "pt": "esquerda",
+   "emoji": "⬅️",
+   "example": {
+    "en": "Turn left.",
+    "pt": "Vire à esquerda."
+   },
+   "lessons": [
+    "ca-checkin",
+    "ca-city-bus"
+   ]
+  },
+  {
+   "id": "right",
+   "theme": "transporte",
+   "en": "right",
+   "pt": "direita",
+   "emoji": "➡️",
+   "example": {
+    "en": "Turn right.",
+    "pt": "Vire à direita."
+   },
+   "lessons": [
+    "ca-baggage",
+    "ca-school-friends",
+    "ca-city-bus"
+   ]
+  },
+  {
+   "id": "straight",
+   "theme": "transporte",
+   "en": "straight",
+   "pt": "reto",
+   "emoji": "⬆️",
+   "example": {
+    "en": "Go straight.",
+    "pt": "Siga em frente."
+   },
+   "lessons": [
+    "ca-city-bus"
+   ]
+  },
+  {
+   "id": "later",
+   "theme": "transporte",
+   "en": "later",
+   "pt": "depois / mais tarde",
+   "emoji": "🕒",
+   "example": {
+    "en": "The next bus is later.",
+    "pt": "O próximo ônibus é mais tarde."
+   },
+   "lessons": [
+    "ca-school-friends"
+   ]
+  },
+  {
+   "id": "where-is-the-bus-stop",
+   "theme": "transporte",
+   "en": "Where is the bus stop?",
+   "pt": "Onde fica o ponto de ônibus?",
+   "emoji": "🚏",
+   "note": "Uma das perguntas mais úteis na cidade.",
+   "lessons": [
+    "ca-city-bus"
+   ]
+  },
+  {
+   "id": "does-this-bus-go-to",
+   "theme": "transporte",
+   "en": "Does this bus go to …?",
+   "pt": "Este ônibus vai para …?",
+   "emoji": "🚌",
+   "say": "Does this bus go to the airport?",
+   "note": "Pergunte ao motorista antes de subir.",
+   "lessons": [
+    "ca-city-bus"
+   ]
+  },
+  {
+   "id": "how-do-i-get-to",
+   "theme": "transporte",
+   "en": "How do I get to …?",
+   "pt": "Como eu chego em …?",
+   "emoji": "🧭",
+   "say": "How do I get to the library?",
+   "note": "Para pedir um caminho. Exemplo: \"How do I get to the library?\"",
+   "lessons": [
+    "ca-city-bus"
+   ]
+  },
+  {
+   "id": "is-it-far-from-here",
+   "theme": "transporte",
+   "en": "Is it far from here?",
+   "pt": "Fica longe daqui?",
+   "emoji": "📏",
+   "note": "Para saber se dá para ir a pé.",
+   "lessons": []
+  },
+  {
+   "id": "train",
+   "theme": "transporte",
+   "en": "train",
+   "pt": "trem",
+   "emoji": "🚆",
+   "example": {
+    "en": "The train is late.",
+    "pt": "O trem está atrasado."
+   },
+   "lessons": []
+  },
+  {
+   "id": "taxi",
+   "theme": "transporte",
+   "en": "taxi",
+   "pt": "táxi",
+   "emoji": "🚕",
+   "example": {
+    "en": "Can I get a taxi here?",
+    "pt": "Dá para pegar um táxi aqui?"
+   },
+   "lessons": [
+    "ca-checkin",
+    "ca-city-bus"
+   ]
+  },
+  {
+   "id": "map",
+   "theme": "transporte",
+   "en": "map",
+   "pt": "mapa",
+   "emoji": "🗺️",
+   "example": {
+    "en": "Do you have a map?",
+    "pt": "Você tem um mapa?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "help",
+   "theme": "transporte",
+   "en": "help",
+   "pt": "ajuda / ajudar",
+   "emoji": "🆘",
+   "example": {
+    "en": "Lunch is at noon. If you need help, come to my office.",
+    "pt": "O almoço é ao meio-dia. Se precisar de ajuda, venha à minha sala."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-host-dinner",
+    "ca-school-first-day",
+    "ca-city-help"
+   ]
+  },
+  {
+   "id": "doctor",
+   "theme": "saude",
+   "en": "doctor",
+   "pt": "médico / médica",
+   "emoji": "🧑‍⚕️",
+   "example": {
+    "en": "I need to see a doctor.",
+    "pt": "Eu preciso ver um médico."
+   },
+   "lessons": [
+    "ca-city-help"
+   ]
+  },
+  {
+   "id": "nurse",
+   "theme": "saude",
+   "en": "nurse",
+   "pt": "enfermeiro / enfermeira",
+   "emoji": "🧑‍⚕️",
+   "example": {
+    "en": "Go to the school nurse.",
+    "pt": "Vá à enfermeira da escola."
+   },
+   "lessons": []
+  },
+  {
+   "id": "hospital",
+   "theme": "saude",
+   "en": "hospital",
+   "pt": "hospital",
+   "emoji": "🏥",
+   "example": {
+    "en": "The hospital is near here.",
+    "pt": "O hospital é perto daqui."
+   },
+   "lessons": [
+    "ca-school-classroom"
+   ]
+  },
+  {
+   "id": "pharmacy",
+   "theme": "saude",
+   "en": "pharmacy",
+   "pt": "farmácia",
+   "emoji": "💊",
+   "example": {
+    "en": "Is there a pharmacy nearby?",
+    "pt": "Tem uma farmácia por perto?"
+   },
+   "note": "Também se diz \"drugstore\".",
+   "lessons": [
+    "ca-city-bus"
+   ]
+  },
+  {
+   "id": "medicine",
+   "theme": "saude",
+   "en": "medicine",
+   "pt": "remédio",
+   "emoji": "💊",
+   "example": {
+    "en": "I need my medicine.",
+    "pt": "Preciso do meu remédio."
+   },
+   "lessons": []
+  },
+  {
+   "id": "ambulance",
+   "theme": "saude",
+   "en": "ambulance",
+   "pt": "ambulância",
+   "emoji": "🚑",
+   "example": {
+    "en": "Call an ambulance!",
+    "pt": "Chame uma ambulância!"
+   },
+   "lessons": []
+  },
+  {
+   "id": "emergency",
+   "theme": "saude",
+   "en": "emergency",
+   "pt": "emergência",
+   "emoji": "🚨",
+   "example": {
+    "en": "It's an emergency!",
+    "pt": "É uma emergência!"
+   },
+   "lessons": [
+    "ca-city-help"
+   ]
+  },
+  {
+   "id": "sick",
+   "theme": "saude",
+   "en": "sick",
+   "pt": "doente / passando mal",
+   "emoji": "🤒",
+   "example": {
+    "en": "I'm sick today.",
+    "pt": "Estou doente hoje."
+   },
+   "lessons": [
+    "ca-city-help"
+   ]
+  },
+  {
+   "id": "hurt",
+   "theme": "saude",
+   "en": "hurt",
+   "pt": "machucado / machucada",
+   "emoji": "🤕",
+   "example": {
+    "en": "I'm hurt.",
+    "pt": "Eu estou machucado."
+   },
+   "lessons": [
+    "ca-city-help"
+   ]
+  },
+  {
+   "id": "headache",
+   "theme": "saude",
+   "en": "headache",
+   "pt": "dor de cabeça",
+   "emoji": "🤕",
+   "example": {
+    "en": "I have a headache.",
+    "pt": "Estou com dor de cabeça."
+   },
+   "lessons": [
+    "ca-city-help"
+   ]
+  },
+  {
+   "id": "fever",
+   "theme": "saude",
+   "en": "fever",
+   "pt": "febre",
+   "emoji": "🌡️",
+   "example": {
+    "en": "I have a fever.",
+    "pt": "Estou com febre."
+   },
+   "lessons": [
+    "ca-city-help"
+   ]
+  },
+  {
+   "id": "allergy",
+   "theme": "saude",
+   "en": "allergy",
+   "pt": "alergia",
+   "emoji": "🤧",
+   "example": {
+    "en": "I have an allergy.",
+    "pt": "Eu tenho uma alergia."
+   },
+   "lessons": []
+  },
+  {
+   "id": "tired",
+   "theme": "saude",
+   "en": "tired",
+   "pt": "cansado / cansada",
+   "emoji": "😴",
+   "example": {
+    "en": "I'm very tired.",
+    "pt": "Estou muito cansado."
+   },
+   "lessons": [
+    "ca-host-arrival"
+   ]
+  },
+  {
+   "id": "it-hurts-here",
+   "theme": "saude",
+   "en": "It hurts here.",
+   "pt": "Dói aqui.",
+   "emoji": "👆",
+   "note": "Aponte para o lugar que dói.",
+   "lessons": []
+  },
+  {
+   "id": "i-need-a-doctor",
+   "theme": "saude",
+   "en": "I need a doctor.",
+   "pt": "Eu preciso de um médico.",
+   "emoji": "🧑‍⚕️",
+   "note": "Diga isso à família anfitriã ou na escola.",
+   "lessons": []
+  },
+  {
+   "id": "call-911",
+   "theme": "saude",
+   "en": "Call 911!",
+   "pt": "Ligue para o 911!",
+   "emoji": "📞",
+   "note": "No Canadá, 911 é o número de emergência (polícia, bombeiros e ambulância). Para quando é urgente de verdade.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "can-you-call-my-host-family",
+   "theme": "saude",
+   "en": "Can you call my host family?",
+   "pt": "Pode ligar para a minha família anfitriã?",
+   "emoji": "📱",
+   "note": "Em uma emergência, peça para avisarem a família.",
+   "lessons": []
+  },
+  {
+   "id": "im-allergic-to",
+   "theme": "saude",
+   "en": "I'm allergic to …",
+   "pt": "Eu sou alérgico a …",
+   "emoji": "⚠️",
+   "say": "I'm allergic to peanuts.",
+   "note": "Exemplo: \"I'm allergic to peanuts.\" Avise sempre sobre alergias.",
+   "lessons": []
+  },
+  {
+   "id": "please-help",
+   "theme": "saude",
+   "en": "Please help!",
+   "pt": "Por favor, ajudem!",
+   "emoji": "🆘",
+   "note": "Em perigo, grite bem alto.",
+   "lessons": []
+  },
+  {
+   "id": "pain",
+   "theme": "saude",
+   "en": "pain",
+   "pt": "dor",
+   "emoji": "😖",
+   "example": {
+    "en": "I have a pain here.",
+    "pt": "Estou com uma dor aqui."
+   },
+   "lessons": []
+  },
+  {
+   "id": "police",
+   "theme": "saude",
+   "en": "police",
+   "pt": "polícia",
+   "emoji": "👮",
+   "example": {
+    "en": "Call the police!",
+    "pt": "Chame a polícia!"
+   },
+   "note": "Número de emergência no Canadá e nos EUA: 911.",
+   "lessons": []
+  },
+  {
+   "id": "cash",
+   "theme": "dinheiro",
+   "en": "cash",
+   "pt": "dinheiro em espécie",
+   "emoji": "💵",
+   "example": {
+    "en": "Do you take cash?",
+    "pt": "Vocês aceitam dinheiro?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "credit-card",
+   "theme": "dinheiro",
+   "en": "credit card",
+   "pt": "cartão de crédito",
+   "emoji": "💳",
+   "example": {
+    "en": "Can I pay by credit card?",
+    "pt": "Posso pagar com cartão de crédito?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "receipt",
+   "theme": "dinheiro",
+   "en": "receipt",
+   "pt": "recibo",
+   "emoji": "🧾",
+   "example": {
+    "en": "Can I have a receipt, please?",
+    "pt": "Posso pegar o recibo, por favor?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "change",
+   "theme": "dinheiro",
+   "en": "change",
+   "pt": "troco",
+   "emoji": "🪙",
+   "example": {
+    "en": "Here is your change.",
+    "pt": "Aqui está o seu troco."
+   },
+   "lessons": []
+  },
+  {
+   "id": "tax",
+   "theme": "dinheiro",
+   "en": "tax",
+   "pt": "imposto",
+   "emoji": "🧮",
+   "example": {
+    "en": "The tax is added at the cash register.",
+    "pt": "O imposto é somado no caixa."
+   },
+   "note": "No Canadá, o imposto costuma ser somado no caixa, depois do preço da etiqueta.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "tip",
+   "theme": "dinheiro",
+   "en": "tip",
+   "pt": "gorjeta",
+   "emoji": "🙂",
+   "example": {
+    "en": "Do I leave a tip?",
+    "pt": "Eu devo deixar gorjeta?"
+   },
+   "note": "Em restaurantes do Canadá, a gorjeta é esperada.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "store",
+   "theme": "dinheiro",
+   "en": "store",
+   "pt": "loja",
+   "emoji": "🏬",
+   "example": {
+    "en": "The store opens at nine.",
+    "pt": "A loja abre às nove."
+   },
+   "lessons": []
+  },
+  {
+   "id": "bag",
+   "theme": "dinheiro",
+   "en": "bag",
+   "pt": "sacola / bolsa",
+   "emoji": "👜",
+   "example": {
+    "en": "Do you need a bag?",
+    "pt": "Você precisa de uma sacola?"
+   },
+   "lessons": [
+    "ca-baggage"
+   ]
+  },
+  {
+   "id": "loonie",
+   "theme": "dinheiro",
+   "en": "loonie",
+   "pt": "loonie (moeda canadense)",
+   "emoji": "🪙",
+   "example": {
+    "en": "I have a loonie.",
+    "pt": "Eu tenho um loonie."
+   },
+   "note": "Apelido da moeda canadense de um dólar, que tem um pássaro (loon).",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "how-much-is-this",
+   "theme": "dinheiro",
+   "en": "How much is this?",
+   "pt": "Quanto custa isto?",
+   "emoji": "🏷️",
+   "note": "A pergunta número um nas compras.",
+   "lessons": []
+  },
+  {
+   "id": "can-i-pay-by-card",
+   "theme": "dinheiro",
+   "en": "Can I pay by card?",
+   "pt": "Posso pagar com cartão?",
+   "emoji": "💳",
+   "note": "Pergunte antes de pedir, se tiver dúvida.",
+   "lessons": []
+  },
+  {
+   "id": "im-just-looking-thanks",
+   "theme": "dinheiro",
+   "en": "I'm just looking, thanks.",
+   "pt": "Estou só olhando, obrigado.",
+   "emoji": "👀",
+   "note": "Resposta para o vendedor que pergunta se você precisa de ajuda.",
+   "lessons": []
+  },
+  {
+   "id": "do-you-have-this-in-a-smaller-size",
+   "theme": "dinheiro",
+   "en": "Do you have this in a smaller size?",
+   "pt": "Tem este em um tamanho menor?",
+   "emoji": "👕",
+   "note": "Na loja de roupas.",
+   "lessons": []
+  },
+  {
+   "id": "where-is-the-cash-register",
+   "theme": "dinheiro",
+   "en": "Where is the cash register?",
+   "pt": "Onde fica o caixa?",
+   "emoji": "🗺️",
+   "note": "Para achar o lugar de pagar.",
+   "lessons": []
+  },
+  {
+   "id": "price",
+   "theme": "dinheiro",
+   "en": "price",
+   "pt": "preço",
+   "emoji": "🏷️",
+   "example": {
+    "en": "What is the price?",
+    "pt": "Qual é o preço?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "cheap",
+   "theme": "dinheiro",
+   "en": "cheap",
+   "pt": "barato",
+   "emoji": "👍",
+   "example": {
+    "en": "This is cheap.",
+    "pt": "Isto é barato."
+   },
+   "lessons": []
+  },
+  {
+   "id": "expensive",
+   "theme": "dinheiro",
+   "en": "expensive",
+   "pt": "caro",
+   "emoji": "💎",
+   "example": {
+    "en": "It is too expensive.",
+    "pt": "É caro demais."
+   },
+   "lessons": []
+  },
+  {
+   "id": "sale",
+   "theme": "dinheiro",
+   "en": "sale",
+   "pt": "promoção",
+   "emoji": "🏷️",
+   "example": {
+    "en": "These shoes are on sale.",
+    "pt": "Estes sapatos estão em promoção."
+   },
+   "lessons": []
+  },
+  {
+   "id": "card",
+   "theme": "dinheiro",
+   "en": "card",
+   "pt": "cartão",
+   "emoji": "💳",
+   "example": {
+    "en": "Do you take card?",
+    "pt": "Vocês aceitam cartão?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "bank",
+   "theme": "dinheiro",
+   "en": "bank",
+   "pt": "banco",
+   "emoji": "🏦",
+   "example": {
+    "en": "The bank is on Main Street.",
+    "pt": "O banco fica na Main Street."
+   },
+   "lessons": []
+  },
+  {
+   "id": "jacket",
+   "theme": "clima",
+   "en": "jacket",
+   "pt": "casaco / jaqueta",
+   "emoji": "🧥",
+   "example": {
+    "en": "I need a warm jacket.",
+    "pt": "Preciso de uma jaqueta quente."
+   },
+   "lessons": [
+    "ca-videocall"
+   ]
+  },
+  {
+   "id": "cold",
+   "theme": "clima",
+   "en": "cold",
+   "pt": "frio",
+   "emoji": "🥶",
+   "example": {
+    "en": "It's cold today.",
+    "pt": "Está frio hoje."
+   },
+   "lessons": [
+    "ca-videocall",
+    "ca-city-help",
+    "ca-cold"
+   ]
+  },
+  {
+   "id": "freezing",
+   "theme": "clima",
+   "en": "freezing",
+   "pt": "congelando",
+   "emoji": "🧊",
+   "example": {
+    "en": "It's freezing outside!",
+    "pt": "Está congelando lá fora!"
+   },
+   "lessons": [
+    "ca-cold"
+   ]
+  },
+  {
+   "id": "hot",
+   "theme": "clima",
+   "en": "hot",
+   "pt": "quente",
+   "emoji": "🥵",
+   "example": {
+    "en": "It's hot in summer.",
+    "pt": "Faz calor no verão."
+   },
+   "lessons": [
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "snow",
+   "theme": "clima",
+   "en": "snow",
+   "pt": "neve",
+   "emoji": "❄️",
+   "example": {
+    "en": "I love the snow.",
+    "pt": "Eu adoro a neve."
+   },
+   "lessons": [
+    "ca-cold"
+   ]
+  },
+  {
+   "id": "rain",
+   "theme": "clima",
+   "en": "rain",
+   "pt": "chuva",
+   "emoji": "🌧️",
+   "example": {
+    "en": "I hate the rain.",
+    "pt": "Eu não gosto de chuva."
+   },
+   "lessons": []
+  },
+  {
+   "id": "sunny",
+   "theme": "clima",
+   "en": "sunny",
+   "pt": "ensolarado",
+   "emoji": "☀️",
+   "example": {
+    "en": "It's sunny today.",
+    "pt": "Hoje está ensolarado."
+   },
+   "lessons": []
+  },
+  {
+   "id": "toque",
+   "theme": "clima",
+   "en": "toque",
+   "pt": "gorro de lã",
+   "emoji": "🧶",
+   "example": {
+    "en": "Put on your toque.",
+    "pt": "Coloque o seu gorro."
+   },
+   "note": "Palavra canadense: \"toque\" se pronuncia \"tuque\". Nos EUA se diz \"beanie\".",
+   "variant": true,
+   "lessons": [
+    "ca-cold"
+   ]
+  },
+  {
+   "id": "mittens",
+   "theme": "clima",
+   "en": "mittens",
+   "pt": "luvas (sem dedos)",
+   "emoji": "🧤",
+   "example": {
+    "en": "I need new mittens.",
+    "pt": "Preciso de luvas novas."
+   },
+   "lessons": [
+    "ca-cold"
+   ]
+  },
+  {
+   "id": "parka",
+   "theme": "clima",
+   "en": "parka",
+   "pt": "casaco de inverno",
+   "emoji": "🧥",
+   "example": {
+    "en": "My parka is very warm.",
+    "pt": "Meu casaco de inverno é bem quente."
+   },
+   "lessons": []
+  },
+  {
+   "id": "sneakers",
+   "theme": "clima",
+   "en": "sneakers",
+   "pt": "tênis",
+   "emoji": "👟",
+   "example": {
+    "en": "I wear sneakers to class.",
+    "pt": "Eu uso tênis na aula."
+   },
+   "note": "No Canadá, também se diz \"runners\". No Reino Unido, \"trainers\".",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "umbrella",
+   "theme": "clima",
+   "en": "umbrella",
+   "pt": "guarda-chuva",
+   "emoji": "☂️",
+   "example": {
+    "en": "Take an umbrella.",
+    "pt": "Leve um guarda-chuva."
+   },
+   "lessons": []
+  },
+  {
+   "id": "weather",
+   "theme": "clima",
+   "en": "weather",
+   "pt": "clima / tempo",
+   "emoji": "🌦️",
+   "example": {
+    "en": "How is the weather today?",
+    "pt": "Como está o tempo hoje?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "hat",
+   "theme": "clima",
+   "en": "hat",
+   "pt": "chapéu / gorro",
+   "emoji": "🧢",
+   "example": {
+    "en": "Wear a hat. It is cold.",
+    "pt": "Use um gorro. Está frio."
+   },
+   "lessons": [
+    "ca-cold"
+   ]
+  },
+  {
+   "id": "gloves",
+   "theme": "clima",
+   "en": "gloves",
+   "pt": "luvas",
+   "emoji": "🧤",
+   "example": {
+    "en": "I need warm gloves.",
+    "pt": "Eu preciso de luvas quentes."
+   },
+   "lessons": []
+  },
+  {
+   "id": "boots",
+   "theme": "clima",
+   "en": "boots",
+   "pt": "botas",
+   "emoji": "🥾",
+   "example": {
+    "en": "It's minus twenty today. Wear your boots and mittens.",
+    "pt": "Está vinte graus negativos hoje. Use as suas botas e luvas."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-cold"
+   ]
+  },
+  {
+   "id": "double-double",
+   "theme": "local",
+   "en": "double-double",
+   "pt": "café com duas doses de creme e duas de açúcar",
+   "emoji": "☕",
+   "example": {
+    "en": "A double-double, please.",
+    "pt": "Um double-double, por favor."
+   },
+   "note": "Pedido típico do Tim Hortons.",
+   "variant": true,
+   "lessons": [
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "eh",
+   "theme": "local",
+   "en": "eh",
+   "pt": "né? (final de frase)",
+   "emoji": "🍁",
+   "example": {
+    "en": "It's cold, eh?",
+    "pt": "Está frio, né?"
+   },
+   "note": "Muito comum no Canadá para pedir concordância. Você pode ouvir, mas não precisa usar.",
+   "variant": true,
+   "lessons": [
+    "ca-cold"
+   ]
+  },
+  {
+   "id": "hockey",
+   "theme": "local",
+   "en": "hockey",
+   "pt": "hóquei no gelo",
+   "emoji": "🏒",
+   "example": {
+    "en": "Do you play hockey?",
+    "pt": "Você joga hóquei?"
+   },
+   "note": "O esporte nacional de inverno do Canadá.",
+   "variant": true,
+   "lessons": [
+    "ca-school-friends",
+    "ca-cold",
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "maple-leaf",
+   "theme": "local",
+   "en": "maple leaf",
+   "pt": "folha de bordo",
+   "emoji": "🍁",
+   "example": {
+    "en": "The maple leaf is on the flag.",
+    "pt": "A folha de bordo está na bandeira."
+   },
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "canadian-flag",
+   "theme": "local",
+   "en": "Canadian flag",
+   "pt": "bandeira do Canadá",
+   "emoji": "🇨🇦",
+   "example": {
+    "en": "This is the Canadian flag.",
+    "pt": "Esta é a bandeira canadense."
+   },
+   "variant": true,
+   "lessons": [
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "washroom",
+   "theme": "local",
+   "en": "washroom",
+   "pt": "banheiro (público)",
+   "emoji": "🚻",
+   "example": {
+    "en": "Excuse me, where is the washroom?",
+    "pt": "Com licença, onde fica o banheiro?"
+   },
+   "note": "É a palavra mais comum no Canadá. Nos EUA se diz \"restroom\".",
+   "variant": true,
+   "lessons": [
+    "ca-host-arrival",
+    "ca-school-classroom"
+   ]
+  },
+  {
+   "id": "pop",
+   "theme": "local",
+   "en": "pop",
+   "pt": "refrigerante",
+   "emoji": "🥤",
+   "example": {
+    "en": "Do you want a pop?",
+    "pt": "Quer um refrigerante?"
+   },
+   "note": "No Canadá se diz \"pop\" (nos EUA, \"soda\").",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "oh-sorry",
+   "theme": "local",
+   "en": "Oh, sorry!",
+   "pt": "Ah, desculpe!",
+   "emoji": "😅",
+   "note": "Os canadenses pedem desculpa o tempo todo, até quando alguém esbarra neles.",
+   "variant": true,
+   "lessons": [
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "its-snowing",
+   "theme": "local",
+   "en": "It's snowing!",
+   "pt": "Está nevando!",
+   "emoji": "🌨️",
+   "note": "Você vai dizer isso muitas vezes no inverno.",
+   "variant": true,
+   "lessons": [
+    "ca-cold",
+    "ca-coffee"
+   ]
+  }
+ ]
+}

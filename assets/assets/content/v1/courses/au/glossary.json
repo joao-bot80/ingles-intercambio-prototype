@@ -1,0 +1,1708 @@
+{
+ "schemaVersion": 1,
+ "course": "au",
+ "curation": "auto",
+ "themes": [
+  {
+   "id": "sobrevivencia",
+   "title": "Frases de sobrevivência",
+   "emoji": "🆘"
+  },
+  {
+   "id": "cumprimentos",
+   "title": "Cumprimentos",
+   "emoji": "👋"
+  },
+  {
+   "id": "numeros",
+   "title": "Números",
+   "emoji": "🔢"
+  },
+  {
+   "id": "aeroporto",
+   "title": "Aeroporto",
+   "emoji": "✈️"
+  },
+  {
+   "id": "escola",
+   "title": "Escola",
+   "emoji": "🏫"
+  },
+  {
+   "id": "casa",
+   "title": "Casa da família",
+   "emoji": "🏠"
+  },
+  {
+   "id": "comida",
+   "title": "Comida",
+   "emoji": "🍽️"
+  },
+  {
+   "id": "transporte",
+   "title": "Transporte",
+   "emoji": "🚌"
+  },
+  {
+   "id": "clima",
+   "title": "Clima e roupas",
+   "emoji": "🧥"
+  },
+  {
+   "id": "local",
+   "title": "Do jeito australiano",
+   "emoji": "🦘"
+  }
+ ],
+ "entries": [
+  {
+   "id": "can-you-repeat-that-please",
+   "theme": "sobrevivencia",
+   "en": "Can you repeat that, please?",
+   "pt": "Pode repetir, por favor?",
+   "emoji": "🔁",
+   "note": "Quando você não entendeu ou a pessoa falou rápido demais.",
+   "lessons": [
+    "au-spelling",
+    "au-immigration"
+   ]
+  },
+  {
+   "id": "can-you-speak-slowly-please",
+   "theme": "sobrevivencia",
+   "en": "Can you speak slowly, please?",
+   "pt": "Pode falar devagar, por favor?",
+   "emoji": "🐢",
+   "note": "Pedir para a pessoa falar mais devagar.",
+   "lessons": []
+  },
+  {
+   "id": "i-dont-understand",
+   "theme": "sobrevivencia",
+   "en": "I don't understand.",
+   "pt": "Eu não entendi.",
+   "emoji": "🤷",
+   "note": "Simples e educado. Depois peça: \"Can you repeat that, please?\"",
+   "lessons": [
+    "au-school-classroom"
+   ]
+  },
+  {
+   "id": "i-need-help",
+   "theme": "sobrevivencia",
+   "en": "I need help.",
+   "pt": "Eu preciso de ajuda.",
+   "emoji": "🆘",
+   "note": "Para qualquer situação em que você precisa de alguém. Se for urgente, diga \"Help!\" bem alto.",
+   "lessons": [
+    "au-city-help"
+   ]
+  },
+  {
+   "id": "can-you-help-me-please",
+   "theme": "sobrevivencia",
+   "en": "Can you help me, please?",
+   "pt": "Pode me ajudar, por favor?",
+   "emoji": "🙋",
+   "note": "A forma educada de pedir ajuda a um funcionário, professor ou desconhecido.",
+   "lessons": []
+  },
+  {
+   "id": "im-lost",
+   "theme": "sobrevivencia",
+   "en": "I'm lost.",
+   "pt": "Eu estou perdido / perdida.",
+   "emoji": "🧭",
+   "note": "Quando você não sabe onde está. Continue com \"Where is the bus stop?\"",
+   "lessons": []
+  },
+  {
+   "id": "what-does-that-mean",
+   "theme": "sobrevivencia",
+   "en": "What does that mean?",
+   "pt": "O que isso significa?",
+   "emoji": "❓",
+   "note": "Quando você ouve uma palavra nova.",
+   "lessons": [
+    "au-slang"
+   ]
+  },
+  {
+   "id": "how-do-you-say-that-in-english",
+   "theme": "sobrevivencia",
+   "en": "How do you say that in English?",
+   "pt": "Como se diz isso em inglês?",
+   "emoji": "💬",
+   "note": "Você sabe a palavra em português, mas não em inglês.",
+   "lessons": []
+  },
+  {
+   "id": "how-do-you-spell-that",
+   "theme": "sobrevivencia",
+   "en": "How do you spell that?",
+   "pt": "Como se soletra isso?",
+   "emoji": "🔤",
+   "note": "Pedir para soletrar um nome ou uma palavra.",
+   "lessons": []
+  },
+  {
+   "id": "can-you-write-it-down-please",
+   "theme": "sobrevivencia",
+   "en": "Can you write it down, please?",
+   "pt": "Pode escrever, por favor?",
+   "emoji": "✍️",
+   "note": "Ótimo para endereços, nomes e horários.",
+   "lessons": []
+  },
+  {
+   "id": "im-sorry-i-didnt-catch-that",
+   "theme": "sobrevivencia",
+   "en": "I'm sorry, I didn't catch that.",
+   "pt": "Desculpe, eu não captei o que você disse.",
+   "emoji": "👂",
+   "note": "Quando você não ouviu direito.",
+   "lessons": []
+  },
+  {
+   "id": "my-english-is-not-very-good",
+   "theme": "sobrevivencia",
+   "en": "My English is not very good.",
+   "pt": "Meu inglês não é muito bom.",
+   "emoji": "🇧🇷",
+   "note": "Avisar com simpatia. A maioria das pessoas fala mais devagar depois disso.",
+   "lessons": []
+  },
+  {
+   "id": "excuse-me-can-i-ask-a-question",
+   "theme": "sobrevivencia",
+   "en": "Excuse me, can I ask a question?",
+   "pt": "Com licença, posso fazer uma pergunta?",
+   "emoji": "🙋‍♀️",
+   "note": "Para chamar a atenção de alguém antes de perguntar.",
+   "lessons": []
+  },
+  {
+   "id": "where-is-the-toilet",
+   "theme": "sobrevivencia",
+   "en": "Where is the toilet?",
+   "pt": "Onde fica o banheiro?",
+   "emoji": "🚻",
+   "note": "Na Austrália se diz \"toilet\". Em casa também se ouve \"bathroom\".",
+   "lessons": [
+    "au-host-arrival"
+   ]
+  },
+  {
+   "id": "i-feel-sick",
+   "theme": "sobrevivencia",
+   "en": "I feel sick.",
+   "pt": "Eu estou me sentindo mal.",
+   "emoji": "🤒",
+   "note": "Para avisar um professor ou a família anfitriã.",
+   "lessons": [
+    "au-city-help"
+   ]
+  },
+  {
+   "id": "can-i-call-my-host-family",
+   "theme": "sobrevivencia",
+   "en": "Can I call my host family?",
+   "pt": "Posso ligar para a minha família anfitriã?",
+   "emoji": "📞",
+   "note": "Quando você precisa falar com a sua família anfitriã.",
+   "lessons": []
+  },
+  {
+   "id": "thank-you-so-much",
+   "theme": "sobrevivencia",
+   "en": "Thank you so much!",
+   "pt": "Muito obrigado / obrigada!",
+   "emoji": "🙏",
+   "note": "Sempre cai bem.",
+   "lessons": [
+    "au-host-arrival",
+    "au-city-bus",
+    "au-city-help"
+   ]
+  },
+  {
+   "id": "wi-fi",
+   "theme": "sobrevivencia",
+   "en": "Wi-Fi",
+   "pt": "Wi-Fi (internet sem fio)",
+   "emoji": "📶",
+   "lessons": [
+    "au-host-rules"
+   ]
+  },
+  {
+   "id": "phone",
+   "theme": "sobrevivencia",
+   "en": "phone",
+   "pt": "telefone / celular",
+   "emoji": "📱",
+   "lessons": [
+    "au-numbers"
+   ]
+  },
+  {
+   "id": "hello",
+   "theme": "cumprimentos",
+   "en": "hello",
+   "pt": "olá / oi",
+   "emoji": "👋",
+   "example": {
+    "en": "Hello! Can you spell your last name, please?",
+    "pt": "Olá! Você pode soletrar o seu sobrenome, por favor?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-hello",
+    "au-spelling",
+    "au-immigration"
+   ]
+  },
+  {
+   "id": "name",
+   "theme": "cumprimentos",
+   "en": "name",
+   "pt": "nome",
+   "emoji": "📛",
+   "example": {
+    "en": "Hi! I'm Sam. What's your name?",
+    "pt": "Oi! Eu sou a Sam. Qual é o seu nome?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-hello",
+    "au-spelling"
+   ]
+  },
+  {
+   "id": "friend",
+   "theme": "cumprimentos",
+   "en": "friend",
+   "pt": "amigo / amiga",
+   "emoji": "🤝",
+   "example": {
+    "en": "Ambulance, please. I need help! My friend is hurt.",
+    "pt": "Ambulância, por favor. Preciso de ajuda! Meu amigo está machucado."
+   },
+   "auto": true,
+   "lessons": [
+    "au-hello",
+    "au-city-help"
+   ]
+  },
+  {
+   "id": "good",
+   "theme": "cumprimentos",
+   "en": "good",
+   "pt": "bom / bem",
+   "emoji": "👍",
+   "example": {
+    "en": "I'm good, thanks. And you?",
+    "pt": "Estou bem, obrigada. E você?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-hello",
+    "au-videocall",
+    "au-backpack",
+    "au-checkin",
+    "au-school-first-day",
+    "au-school-classroom"
+   ]
+  },
+  {
+   "id": "thanks",
+   "theme": "cumprimentos",
+   "en": "thanks",
+   "pt": "obrigado / obrigada",
+   "emoji": "🙏",
+   "example": {
+    "en": "I'm good, thanks. And you?",
+    "pt": "Estou bem, obrigada. E você?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-hello",
+    "au-school-friends",
+    "au-sun",
+    "au-slang"
+   ]
+  },
+  {
+   "id": "last-name",
+   "theme": "cumprimentos",
+   "en": "last name",
+   "pt": "sobrenome",
+   "emoji": "🪪",
+   "example": {
+    "en": "Hello! Can you spell your last name, please?",
+    "pt": "Olá! Você pode soletrar o seu sobrenome, por favor?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-spelling"
+   ]
+  },
+  {
+   "id": "first-name",
+   "theme": "cumprimentos",
+   "en": "first name",
+   "pt": "primeiro nome",
+   "emoji": "🙋",
+   "example": {
+    "en": "Thank you. And your first name?",
+    "pt": "Obrigada. E o seu primeiro nome?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-spelling"
+   ]
+  },
+  {
+   "id": "spell",
+   "theme": "cumprimentos",
+   "en": "spell",
+   "pt": "soletrar",
+   "emoji": "🔤",
+   "example": {
+    "en": "Hello! Can you spell your last name, please?",
+    "pt": "Olá! Você pode soletrar o seu sobrenome, por favor?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-spelling"
+   ]
+  },
+  {
+   "id": "repeat",
+   "theme": "cumprimentos",
+   "en": "repeat",
+   "pt": "repetir",
+   "emoji": "🔁",
+   "example": {
+    "en": "Sorry, can you repeat that?",
+    "pt": "Desculpe, você pode repetir?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-spelling",
+    "au-immigration",
+    "au-school-classroom"
+   ]
+  },
+  {
+   "id": "please",
+   "theme": "cumprimentos",
+   "en": "please",
+   "pt": "por favor",
+   "emoji": "🥺",
+   "example": {
+    "en": "Hello! Can you spell your last name, please?",
+    "pt": "Olá! Você pode soletrar o seu sobrenome, por favor?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-spelling",
+    "au-checkin",
+    "au-immigration",
+    "au-host-rules",
+    "au-host-dinner",
+    "au-school-first-day",
+    "au-school-classroom",
+    "au-city-help"
+   ]
+  },
+  {
+   "id": "one",
+   "theme": "numeros",
+   "en": "one",
+   "pt": "um",
+   "emoji": "1",
+   "example": {
+    "en": "Yes, I do. Zero, four, nine, one, five, seven, zero, zero, zero, six.",
+    "pt": "Tenho, sim. Zero, quatro, nove, um, cinco, sete, zero, zero, zero, seis."
+   },
+   "auto": true,
+   "lessons": [
+    "au-numbers"
+   ]
+  },
+  {
+   "id": "two",
+   "theme": "numeros",
+   "en": "two",
+   "pt": "dois",
+   "emoji": "2",
+   "auto": true,
+   "lessons": [
+    "au-numbers"
+   ]
+  },
+  {
+   "id": "three",
+   "theme": "numeros",
+   "en": "three",
+   "pt": "três",
+   "emoji": "3",
+   "auto": true,
+   "lessons": [
+    "au-numbers"
+   ]
+  },
+  {
+   "id": "four",
+   "theme": "numeros",
+   "en": "four",
+   "pt": "quatro",
+   "emoji": "4",
+   "example": {
+    "en": "Yes, I do. Zero, four, nine, one, five, seven, zero, zero, zero, six.",
+    "pt": "Tenho, sim. Zero, quatro, nove, um, cinco, sete, zero, zero, zero, seis."
+   },
+   "auto": true,
+   "lessons": [
+    "au-numbers"
+   ]
+  },
+  {
+   "id": "five",
+   "theme": "numeros",
+   "en": "five",
+   "pt": "cinco",
+   "emoji": "5",
+   "example": {
+    "en": "Yes, I do. Zero, four, nine, one, five, seven, zero, zero, zero, six.",
+    "pt": "Tenho, sim. Zero, quatro, nove, um, cinco, sete, zero, zero, zero, seis."
+   },
+   "auto": true,
+   "lessons": [
+    "au-numbers",
+    "au-city-bus"
+   ]
+  },
+  {
+   "id": "thirteen",
+   "theme": "numeros",
+   "en": "thirteen",
+   "pt": "treze",
+   "emoji": "13",
+   "auto": true,
+   "lessons": [
+    "au-numbers"
+   ]
+  },
+  {
+   "id": "fourteen",
+   "theme": "numeros",
+   "en": "fourteen",
+   "pt": "catorze",
+   "emoji": "14",
+   "auto": true,
+   "lessons": [
+    "au-numbers"
+   ]
+  },
+  {
+   "id": "fifteen",
+   "theme": "numeros",
+   "en": "fifteen",
+   "pt": "quinze",
+   "emoji": "15",
+   "example": {
+    "en": "I'm fifteen years old.",
+    "pt": "Eu tenho quinze anos."
+   },
+   "auto": true,
+   "lessons": [
+    "au-numbers",
+    "au-videocall",
+    "au-host-arrival"
+   ]
+  },
+  {
+   "id": "sixteen",
+   "theme": "numeros",
+   "en": "sixteen",
+   "pt": "dezesseis",
+   "emoji": "16",
+   "auto": true,
+   "lessons": [
+    "au-numbers"
+   ]
+  },
+  {
+   "id": "seventeen",
+   "theme": "numeros",
+   "en": "seventeen",
+   "pt": "dezessete",
+   "emoji": "17",
+   "auto": true,
+   "lessons": [
+    "au-numbers"
+   ]
+  },
+  {
+   "id": "passport",
+   "theme": "aeroporto",
+   "en": "passport",
+   "pt": "passaporte",
+   "emoji": "🛂",
+   "example": {
+    "en": "Let's practice. Do you have your passport?",
+    "pt": "Vamos praticar. Você está com o seu passaporte?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-backpack",
+    "au-checkin",
+    "au-immigration"
+   ]
+  },
+  {
+   "id": "backpack",
+   "theme": "aeroporto",
+   "en": "backpack",
+   "pt": "mochila",
+   "emoji": "🎒",
+   "example": {
+    "en": "Yes, it's in my backpack.",
+    "pt": "Sim, está na minha mochila."
+   },
+   "auto": true,
+   "lessons": [
+    "au-backpack"
+   ]
+  },
+  {
+   "id": "boarding-pass",
+   "theme": "aeroporto",
+   "en": "boarding pass",
+   "pt": "cartão de embarque",
+   "emoji": "🎫",
+   "example": {
+    "en": "Good morning. Passport and boarding pass, please.",
+    "pt": "Bom dia. Passaporte e cartão de embarque, por favor."
+   },
+   "auto": true,
+   "lessons": [
+    "au-checkin"
+   ]
+  },
+  {
+   "id": "gate",
+   "theme": "aeroporto",
+   "en": "gate",
+   "pt": "portão",
+   "emoji": "🚪",
+   "example": {
+    "en": "Excuse me, where is gate twenty?",
+    "pt": "Com licença, onde fica o portão vinte?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-checkin"
+   ]
+  },
+  {
+   "id": "seat",
+   "theme": "aeroporto",
+   "en": "seat",
+   "pt": "assento",
+   "emoji": "💺",
+   "example": {
+    "en": "Thank you. Your seat is twelve A, by the window.",
+    "pt": "Obrigada. O seu assento é o doze A, na janela."
+   },
+   "auto": true,
+   "lessons": [
+    "au-checkin"
+   ]
+  },
+  {
+   "id": "flight",
+   "theme": "aeroporto",
+   "en": "flight",
+   "pt": "voo",
+   "emoji": "✈️",
+   "example": {
+    "en": "Boarding is at ten thirty. Have a good flight!",
+    "pt": "O embarque é às dez e meia. Boa viagem!"
+   },
+   "auto": true,
+   "lessons": [
+    "au-checkin"
+   ]
+  },
+  {
+   "id": "student",
+   "theme": "aeroporto",
+   "en": "student",
+   "pt": "estudante",
+   "emoji": "🎒",
+   "example": {
+    "en": "I'm a student. I'm here to study.",
+    "pt": "Eu sou estudante. Estou aqui para estudar."
+   },
+   "auto": true,
+   "lessons": [
+    "au-immigration",
+    "au-school-friends"
+   ]
+  },
+  {
+   "id": "study",
+   "theme": "aeroporto",
+   "en": "study",
+   "pt": "estudar",
+   "emoji": "📚",
+   "example": {
+    "en": "I'm a student. I'm here to study.",
+    "pt": "Eu sou estudante. Estou aqui para estudar."
+   },
+   "auto": true,
+   "lessons": [
+    "au-immigration"
+   ]
+  },
+  {
+   "id": "host-family",
+   "theme": "aeroporto",
+   "en": "host family",
+   "pt": "família anfitriã",
+   "emoji": "👨‍👩‍👧",
+   "example": {
+    "en": "With a host family.",
+    "pt": "Com uma família anfitriã."
+   },
+   "auto": true,
+   "lessons": [
+    "au-immigration"
+   ]
+  },
+  {
+   "id": "month",
+   "theme": "aeroporto",
+   "en": "month",
+   "pt": "mês",
+   "emoji": "🗓️",
+   "auto": true,
+   "lessons": [
+    "au-immigration"
+   ]
+  },
+  {
+   "id": "bag",
+   "theme": "aeroporto",
+   "en": "bag",
+   "pt": "mala / bolsa",
+   "emoji": "🧳",
+   "example": {
+    "en": "Hi. My bag is not here.",
+    "pt": "Oi. A minha mala não está aqui."
+   },
+   "auto": true,
+   "lessons": [
+    "au-baggage"
+   ]
+  },
+  {
+   "id": "baggage-claim",
+   "theme": "aeroporto",
+   "en": "baggage claim",
+   "pt": "esteira de bagagem",
+   "emoji": "🛄",
+   "example": {
+    "en": "Excuse me, where is the baggage claim?",
+    "pt": "Com licença, onde fica a esteira de bagagem?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-baggage"
+   ]
+  },
+  {
+   "id": "address",
+   "theme": "aeroporto",
+   "en": "address",
+   "pt": "endereço",
+   "emoji": "📍",
+   "example": {
+    "en": "Okay. Can you write your address here?",
+    "pt": "Certo. Você pode escrever o seu endereço aqui?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-baggage"
+   ]
+  },
+  {
+   "id": "timetable",
+   "theme": "escola",
+   "en": "timetable",
+   "pt": "horário (de aulas)",
+   "emoji": "🗓️",
+   "example": {
+    "en": "Here is your timetable. Your first class is maths.",
+    "pt": "Aqui está o seu horário. A sua primeira aula é de matemática."
+   },
+   "auto": true,
+   "lessons": [
+    "au-school-first-day"
+   ]
+  },
+  {
+   "id": "class",
+   "theme": "escola",
+   "en": "class",
+   "pt": "aula / turma",
+   "emoji": "📖",
+   "example": {
+    "en": "Here is your timetable. Your first class is maths.",
+    "pt": "Aqui está o seu horário. A sua primeira aula é de matemática."
+   },
+   "auto": true,
+   "lessons": [
+    "au-school-first-day",
+    "au-school-classroom"
+   ]
+  },
+  {
+   "id": "locker",
+   "theme": "escola",
+   "en": "locker",
+   "pt": "armário da escola",
+   "emoji": "🔐",
+   "example": {
+    "en": "And this is your locker.",
+    "pt": "E este é o seu armário."
+   },
+   "auto": true,
+   "lessons": [
+    "au-school-first-day"
+   ]
+  },
+  {
+   "id": "lunch",
+   "theme": "escola",
+   "en": "lunch",
+   "pt": "almoço",
+   "emoji": "🥪",
+   "example": {
+    "en": "Thank you! What time is lunch?",
+    "pt": "Obrigado! Que horas é o almoço?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-host-dinner",
+    "au-school-first-day"
+   ]
+  },
+  {
+   "id": "maths",
+   "theme": "escola",
+   "en": "maths",
+   "pt": "matemática",
+   "emoji": "➗",
+   "example": {
+    "en": "Here is your timetable. Your first class is maths.",
+    "pt": "Aqui está o seu horário. A sua primeira aula é de matemática."
+   },
+   "auto": true,
+   "lessons": [
+    "au-school-first-day"
+   ]
+  },
+  {
+   "id": "uniform",
+   "theme": "escola",
+   "en": "uniform",
+   "pt": "uniforme",
+   "emoji": "👔",
+   "example": {
+    "en": "Please wear your uniform tomorrow.",
+    "pt": "Por favor, venha de uniforme amanhã."
+   },
+   "auto": true,
+   "lessons": [
+    "au-school-first-day"
+   ]
+  },
+  {
+   "id": "book",
+   "theme": "escola",
+   "en": "book",
+   "pt": "livro",
+   "emoji": "📘",
+   "example": {
+    "en": "No problem. Open your book to page ten.",
+    "pt": "Sem problema. Abra o seu livro na página dez."
+   },
+   "auto": true,
+   "lessons": [
+    "au-school-classroom"
+   ]
+  },
+  {
+   "id": "page",
+   "theme": "escola",
+   "en": "page",
+   "pt": "página",
+   "emoji": "📄",
+   "example": {
+    "en": "Good morning, class! Please open your books to page ten.",
+    "pt": "Bom dia, turma! Por favor, abram os livros na página dez."
+   },
+   "auto": true,
+   "lessons": [
+    "au-school-classroom"
+   ]
+  },
+  {
+   "id": "homework",
+   "theme": "escola",
+   "en": "homework",
+   "pt": "lição de casa",
+   "emoji": "📝",
+   "example": {
+    "en": "Thank you. What does 'homework' mean?",
+    "pt": "Obrigada. O que significa 'homework'?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-school-classroom"
+   ]
+  },
+  {
+   "id": "understand",
+   "theme": "escola",
+   "en": "understand",
+   "pt": "entender",
+   "emoji": "💡",
+   "example": {
+    "en": "Excuse me, Mr. Wilson. I don't understand.",
+    "pt": "Com licença, professor. Eu não entendi."
+   },
+   "auto": true,
+   "lessons": [
+    "au-school-classroom"
+   ]
+  },
+  {
+   "id": "slowly",
+   "theme": "escola",
+   "en": "slowly",
+   "pt": "devagar",
+   "emoji": "🐢",
+   "example": {
+    "en": "Can you speak more slowly, please?",
+    "pt": "Você pode falar mais devagar, por favor?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-school-classroom"
+   ]
+  },
+  {
+   "id": "soccer",
+   "theme": "escola",
+   "en": "soccer",
+   "pt": "futebol",
+   "emoji": "⚽",
+   "example": {
+    "en": "Yes, I love soccer. And you?",
+    "pt": "Sim, eu amo futebol. E você?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-school-friends"
+   ]
+  },
+  {
+   "id": "sports",
+   "theme": "escola",
+   "en": "sports",
+   "pt": "esportes",
+   "emoji": "🏅",
+   "example": {
+    "en": "Do you like sports?",
+    "pt": "Você gosta de esportes?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-school-friends"
+   ]
+  },
+  {
+   "id": "play",
+   "theme": "escola",
+   "en": "play",
+   "pt": "jogar / brincar",
+   "emoji": "🎮",
+   "example": {
+    "en": "I play footy and cricket.",
+    "pt": "Eu jogo footy (futebol australiano) e críquete."
+   },
+   "auto": true,
+   "lessons": [
+    "au-school-classroom",
+    "au-school-friends"
+   ]
+  },
+  {
+   "id": "later",
+   "theme": "escola",
+   "en": "later",
+   "pt": "depois / mais tarde",
+   "emoji": "⏳",
+   "example": {
+    "en": "Cool! Can you show me the gym later?",
+    "pt": "Legal! Você pode me mostrar o ginásio depois?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-school-friends"
+   ]
+  },
+  {
+   "id": "happy",
+   "theme": "casa",
+   "en": "happy",
+   "pt": "feliz",
+   "emoji": "😊",
+   "example": {
+    "en": "Nice to meet you too! We are very happy.",
+    "pt": "Prazer! Nós estamos muito felizes."
+   },
+   "auto": true,
+   "lessons": [
+    "au-videocall"
+   ]
+  },
+  {
+   "id": "question",
+   "theme": "casa",
+   "en": "question",
+   "pt": "pergunta",
+   "emoji": "❓",
+   "auto": true,
+   "lessons": [
+    "au-videocall"
+   ]
+  },
+  {
+   "id": "hot",
+   "theme": "casa",
+   "en": "hot",
+   "pt": "quente (calor)",
+   "emoji": "🥵",
+   "example": {
+    "en": "Yes. Is it very hot there?",
+    "pt": "Sim. Faz muito calor aí?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-videocall",
+    "au-sun",
+    "au-slang"
+   ]
+  },
+  {
+   "id": "sunscreen",
+   "theme": "casa",
+   "en": "sunscreen",
+   "pt": "protetor solar",
+   "emoji": "🧴",
+   "example": {
+    "en": "Yes! Bring a hat and sunscreen.",
+    "pt": "Sim! Traga um chapéu e protetor solar."
+   },
+   "auto": true,
+   "lessons": [
+    "au-videocall",
+    "au-sun"
+   ]
+  },
+  {
+   "id": "room",
+   "theme": "casa",
+   "en": "room",
+   "pt": "quarto",
+   "emoji": "🛏️",
+   "example": {
+    "en": "Come in. This is your room.",
+    "pt": "Entre. Este é o seu quarto."
+   },
+   "auto": true,
+   "lessons": [
+    "au-host-arrival",
+    "au-school-first-day"
+   ]
+  },
+  {
+   "id": "toilet",
+   "theme": "casa",
+   "en": "toilet",
+   "pt": "banheiro / vaso sanitário",
+   "emoji": "🚽",
+   "example": {
+    "en": "It's beautiful! Where is the toilet?",
+    "pt": "É lindo! Onde fica o banheiro?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-host-arrival",
+    "au-school-classroom"
+   ]
+  },
+  {
+   "id": "home",
+   "theme": "casa",
+   "en": "home",
+   "pt": "casa / lar",
+   "emoji": "🏡",
+   "example": {
+    "en": "Hi, Bia! Welcome to our home!",
+    "pt": "Oi, Bia! Bem-vinda à nossa casa!"
+   },
+   "auto": true,
+   "lessons": [
+    "au-host-arrival",
+    "au-host-rules",
+    "au-school-first-day",
+    "au-school-classroom"
+   ]
+  },
+  {
+   "id": "hungry",
+   "theme": "casa",
+   "en": "hungry",
+   "pt": "com fome",
+   "emoji": "😋",
+   "example": {
+    "en": "Are you hungry?",
+    "pt": "Você está com fome?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-host-arrival",
+    "au-host-rules",
+    "au-slang"
+   ]
+  },
+  {
+   "id": "tired",
+   "theme": "casa",
+   "en": "tired",
+   "pt": "cansado / cansada",
+   "emoji": "😴",
+   "example": {
+    "en": "Yes, a little. And very tired!",
+    "pt": "Sim, um pouco. E muito cansada!"
+   },
+   "auto": true,
+   "lessons": [
+    "au-host-arrival"
+   ]
+  },
+  {
+   "id": "dinner",
+   "theme": "casa",
+   "en": "dinner",
+   "pt": "jantar",
+   "emoji": "🍽️",
+   "example": {
+    "en": "Dinner is at six o'clock every day.",
+    "pt": "O jantar é às seis horas todo dia."
+   },
+   "auto": true,
+   "lessons": [
+    "au-host-rules",
+    "au-host-dinner",
+    "au-slang"
+   ]
+  },
+  {
+   "id": "wake-up",
+   "theme": "casa",
+   "en": "wake up",
+   "pt": "acordar",
+   "emoji": "⏰",
+   "example": {
+    "en": "Okay. What time do you wake up?",
+    "pt": "Ok. Que horas vocês acordam?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-host-rules"
+   ]
+  },
+  {
+   "id": "shower",
+   "theme": "casa",
+   "en": "shower",
+   "pt": "banho (de chuveiro)",
+   "emoji": "🚿",
+   "example": {
+    "en": "No problem. Can I take a shower now?",
+    "pt": "Sem problema. Posso tomar banho agora?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-host-rules"
+   ]
+  },
+  {
+   "id": "password",
+   "theme": "casa",
+   "en": "password",
+   "pt": "senha",
+   "emoji": "🔑",
+   "example": {
+    "en": "Of course. The password is on the fridge.",
+    "pt": "Claro. A senha está na geladeira."
+   },
+   "auto": true,
+   "lessons": [
+    "au-host-rules"
+   ]
+  },
+  {
+   "id": "fridge",
+   "theme": "casa",
+   "en": "fridge",
+   "pt": "geladeira",
+   "emoji": "🧊",
+   "example": {
+    "en": "Of course. The password is on the fridge.",
+    "pt": "Claro. A senha está na geladeira."
+   },
+   "auto": true,
+   "lessons": [
+    "au-host-rules"
+   ]
+  },
+  {
+   "id": "chicken",
+   "theme": "comida",
+   "en": "chicken",
+   "pt": "frango",
+   "emoji": "🍗",
+   "example": {
+    "en": "Do you like chicken, Bia?",
+    "pt": "Você gosta de frango, Bia?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-host-dinner"
+   ]
+  },
+  {
+   "id": "fish",
+   "theme": "comida",
+   "en": "fish",
+   "pt": "peixe",
+   "emoji": "🐟",
+   "example": {
+    "en": "Yes, I love chicken! But I don't eat fish.",
+    "pt": "Sim, eu amo frango! Mas eu não como peixe."
+   },
+   "auto": true,
+   "lessons": [
+    "au-host-dinner"
+   ]
+  },
+  {
+   "id": "salt",
+   "theme": "comida",
+   "en": "salt",
+   "pt": "sal",
+   "emoji": "🧂",
+   "example": {
+    "en": "Can you pass the salt, please?",
+    "pt": "Você pode me passar o sal, por favor?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-host-dinner"
+   ]
+  },
+  {
+   "id": "water",
+   "theme": "comida",
+   "en": "water",
+   "pt": "água",
+   "emoji": "💧",
+   "example": {
+    "en": "And drink lots of water.",
+    "pt": "E beba bastante água."
+   },
+   "auto": true,
+   "lessons": [
+    "au-host-dinner",
+    "au-sun"
+   ]
+  },
+  {
+   "id": "full",
+   "theme": "comida",
+   "en": "full",
+   "pt": "satisfeito / satisfeita",
+   "emoji": "😌",
+   "example": {
+    "en": "No, thank you. I'm full. It was delicious!",
+    "pt": "Não, obrigada. Estou satisfeita. Estava delicioso!"
+   },
+   "auto": true,
+   "lessons": [
+    "au-host-dinner"
+   ]
+  },
+  {
+   "id": "bus",
+   "theme": "transporte",
+   "en": "bus",
+   "pt": "ônibus",
+   "emoji": "🚌",
+   "example": {
+    "en": "Excuse me, does this bus go to the shopping centre?",
+    "pt": "Com licença, este ônibus vai para o shopping?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-city-bus",
+    "au-city-help"
+   ]
+  },
+  {
+   "id": "bus-stop",
+   "theme": "transporte",
+   "en": "bus stop",
+   "pt": "ponto de ônibus",
+   "emoji": "🚏",
+   "example": {
+    "en": "Where is the bus stop for the nine?",
+    "pt": "Onde fica o ponto do nove?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-city-bus",
+    "au-city-help"
+   ]
+  },
+  {
+   "id": "road",
+   "theme": "transporte",
+   "en": "road",
+   "pt": "rua",
+   "emoji": "🛣️",
+   "example": {
+    "en": "Across the road.",
+    "pt": "Do outro lado da rua."
+   },
+   "auto": true,
+   "lessons": [
+    "au-city-bus"
+   ]
+  },
+  {
+   "id": "left",
+   "theme": "transporte",
+   "en": "left",
+   "pt": "esquerda",
+   "emoji": "⬅️",
+   "example": {
+    "en": "Gate twenty is on the left.",
+    "pt": "O portão vinte fica à esquerda."
+   },
+   "auto": true,
+   "lessons": [
+    "au-checkin",
+    "au-city-bus"
+   ]
+  },
+  {
+   "id": "right",
+   "theme": "transporte",
+   "en": "right",
+   "pt": "direita",
+   "emoji": "➡️",
+   "example": {
+    "en": "It's downstairs, on the right.",
+    "pt": "Fica no andar de baixo, à direita."
+   },
+   "auto": true,
+   "lessons": [
+    "au-baggage",
+    "au-school-friends",
+    "au-city-bus"
+   ]
+  },
+  {
+   "id": "straight",
+   "theme": "transporte",
+   "en": "straight",
+   "pt": "reto",
+   "emoji": "⬆️",
+   "example": {
+    "en": "Go straight and turn left at the lights.",
+    "pt": "Siga reto e vire à esquerda no semáforo."
+   },
+   "auto": true,
+   "lessons": [
+    "au-city-bus"
+   ]
+  },
+  {
+   "id": "help",
+   "theme": "transporte",
+   "en": "help",
+   "pt": "ajuda / ajudar",
+   "emoji": "🆘",
+   "example": {
+    "en": "Ambulance, please. I need help! My friend is hurt.",
+    "pt": "Ambulância, por favor. Preciso de ajuda! Meu amigo está machucado."
+   },
+   "auto": true,
+   "lessons": [
+    "au-host-dinner",
+    "au-city-help",
+    "au-slang"
+   ]
+  },
+  {
+   "id": "sick",
+   "theme": "transporte",
+   "en": "sick",
+   "pt": "doente / passando mal",
+   "emoji": "🤒",
+   "example": {
+    "en": "Excuse me, I feel sick.",
+    "pt": "Com licença, eu estou passando mal."
+   },
+   "auto": true,
+   "lessons": [
+    "au-city-help"
+   ]
+  },
+  {
+   "id": "headache",
+   "theme": "transporte",
+   "en": "headache",
+   "pt": "dor de cabeça",
+   "emoji": "🤕",
+   "example": {
+    "en": "I have a headache and a sore throat.",
+    "pt": "Estou com dor de cabeça e dor de garganta."
+   },
+   "auto": true,
+   "lessons": [
+    "au-city-help"
+   ]
+  },
+  {
+   "id": "doctor",
+   "theme": "transporte",
+   "en": "doctor",
+   "pt": "médico / médica",
+   "emoji": "🩺",
+   "example": {
+    "en": "Please see a doctor today.",
+    "pt": "Por favor, vá ao médico hoje."
+   },
+   "auto": true,
+   "lessons": [
+    "au-city-help"
+   ]
+  },
+  {
+   "id": "hurt",
+   "theme": "transporte",
+   "en": "hurt",
+   "pt": "machucado / machucada",
+   "emoji": "🩹",
+   "example": {
+    "en": "Ambulance, please. I need help! My friend is hurt.",
+    "pt": "Ambulância, por favor. Preciso de ajuda! Meu amigo está machucado."
+   },
+   "auto": true,
+   "lessons": [
+    "au-city-help"
+   ]
+  },
+  {
+   "id": "beach",
+   "theme": "clima",
+   "en": "beach",
+   "pt": "praia",
+   "emoji": "🏖️",
+   "example": {
+    "en": "It's a hot day! Let's go to the beach.",
+    "pt": "Que dia quente! Vamos à praia."
+   },
+   "auto": true,
+   "lessons": [
+    "au-sun"
+   ]
+  },
+  {
+   "id": "swim",
+   "theme": "clima",
+   "en": "swim",
+   "pt": "nadar",
+   "emoji": "🏊",
+   "example": {
+    "en": "Okay. Can I swim here?",
+    "pt": "Ok. Posso nadar aqui?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-sun"
+   ]
+  },
+  {
+   "id": "flag",
+   "theme": "clima",
+   "en": "flag",
+   "pt": "bandeira",
+   "emoji": "🚩",
+   "auto": true,
+   "lessons": [
+    "au-sun"
+   ]
+  },
+  {
+   "id": "lifeguard",
+   "theme": "clima",
+   "en": "lifeguard",
+   "pt": "salva-vidas",
+   "emoji": "🛟",
+   "auto": true,
+   "lessons": [
+    "au-sun"
+   ]
+  },
+  {
+   "id": "shade",
+   "theme": "clima",
+   "en": "shade",
+   "pt": "sombra",
+   "emoji": "⛱️",
+   "auto": true,
+   "lessons": [
+    "au-sun"
+   ]
+  },
+  {
+   "id": "gday",
+   "theme": "local",
+   "en": "G'day",
+   "pt": "olá (bem australiano)",
+   "emoji": "👋",
+   "example": {
+    "en": "G'day, mate!",
+    "pt": "E aí, parceiro!"
+   },
+   "note": "Saudação informal australiana.",
+   "variant": true,
+   "lessons": [
+    "au-hello",
+    "au-slang"
+   ]
+  },
+  {
+   "id": "mate",
+   "theme": "local",
+   "en": "mate",
+   "pt": "amigo / parceiro",
+   "emoji": "🤝",
+   "example": {
+    "en": "Thanks, mate!",
+    "pt": "Valeu, parceiro!"
+   },
+   "note": "Muito usado entre amigos e até com desconhecidos.",
+   "variant": true,
+   "lessons": [
+    "au-slang"
+   ]
+  },
+  {
+   "id": "no-worries",
+   "theme": "local",
+   "en": "no worries",
+   "pt": "sem problema / de nada",
+   "emoji": "😎",
+   "example": {
+    "en": "No worries!",
+    "pt": "Sem problema!"
+   },
+   "note": "Resposta para \"thanks\" ou \"sorry\".",
+   "variant": true,
+   "lessons": [
+    "au-slang"
+   ]
+  },
+  {
+   "id": "arvo",
+   "theme": "local",
+   "en": "arvo",
+   "pt": "tarde (de \"afternoon\")",
+   "emoji": "🌤️",
+   "example": {
+    "en": "See you this arvo!",
+    "pt": "Até à tarde!"
+   },
+   "note": "Os australianos encurtam palavras: arvo, brekkie, servo.",
+   "variant": true,
+   "lessons": [
+    "au-slang"
+   ]
+  },
+  {
+   "id": "brekkie",
+   "theme": "local",
+   "en": "brekkie",
+   "pt": "café da manhã",
+   "emoji": "🥞",
+   "example": {
+    "en": "Brekkie is ready.",
+    "pt": "O café da manhã está pronto."
+   },
+   "variant": true,
+   "lessons": [
+    "au-slang"
+   ]
+  },
+  {
+   "id": "lollies",
+   "theme": "local",
+   "en": "lollies",
+   "pt": "doces / balas",
+   "emoji": "🍬",
+   "example": {
+    "en": "Do you want some lollies?",
+    "pt": "Você quer balas?"
+   },
+   "note": "No Canadá e nos EUA se diz \"candy\"; no Reino Unido, \"sweets\".",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "thongs",
+   "theme": "local",
+   "en": "thongs",
+   "pt": "chinelos de dedo",
+   "emoji": "🩴",
+   "example": {
+    "en": "I wear thongs at the beach.",
+    "pt": "Eu uso chinelos na praia."
+   },
+   "note": "Na Austrália, \"thongs\" são chinelos. Em outros países a palavra pode ter outro sentido.",
+   "variant": true,
+   "lessons": [
+    "au-slang"
+   ]
+  },
+  {
+   "id": "sunnies",
+   "theme": "local",
+   "en": "sunnies",
+   "pt": "óculos de sol",
+   "emoji": "🕶️",
+   "example": {
+    "en": "Don't forget your sunnies.",
+    "pt": "Não esqueça os óculos de sol."
+   },
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "servo",
+   "theme": "local",
+   "en": "servo",
+   "pt": "posto de gasolina",
+   "emoji": "⛽",
+   "example": {
+    "en": "I'm at the servo.",
+    "pt": "Estou no posto."
+   },
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "ute",
+   "theme": "local",
+   "en": "ute",
+   "pt": "caminhonete",
+   "emoji": "🛻",
+   "example": {
+    "en": "He drives a ute.",
+    "pt": "Ele dirige uma caminhonete."
+   },
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "heaps",
+   "theme": "local",
+   "en": "heaps",
+   "pt": "muito / muitos",
+   "emoji": "👍",
+   "example": {
+    "en": "Thanks heaps!",
+    "pt": "Muito obrigado!"
+   },
+   "variant": true,
+   "lessons": [
+    "au-slang"
+   ]
+  },
+  {
+   "id": "footy",
+   "theme": "local",
+   "en": "footy",
+   "pt": "futebol australiano",
+   "emoji": "🏉",
+   "example": {
+    "en": "Do you like footy?",
+    "pt": "Você gosta de footy?"
+   },
+   "note": "Na Austrália, \"footy\" costuma ser o futebol australiano (AFL) ou o rúgbi, não o soccer.",
+   "variant": true,
+   "lessons": [
+    "au-school-friends"
+   ]
+  },
+  {
+   "id": "aussie",
+   "theme": "local",
+   "en": "Aussie",
+   "pt": "australiano / australiana",
+   "emoji": "🇦🇺",
+   "example": {
+    "en": "My host mum is Aussie.",
+    "pt": "Minha mãe anfitriã é australiana."
+   },
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "snag",
+   "theme": "local",
+   "en": "snag",
+   "pt": "salsicha",
+   "emoji": "🌭",
+   "example": {
+    "en": "Do you want a snag?",
+    "pt": "Você quer uma salsicha?"
+   },
+   "auto": true,
+   "lessons": [
+    "au-slang"
+   ]
+  }
+ ]
+}

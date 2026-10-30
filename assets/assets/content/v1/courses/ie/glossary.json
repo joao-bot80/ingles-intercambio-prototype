@@ -1,0 +1,1761 @@
+{
+ "schemaVersion": 1,
+ "course": "ie",
+ "curation": "auto",
+ "themes": [
+  {
+   "id": "sobrevivencia",
+   "title": "Frases de sobrevivência",
+   "emoji": "🆘"
+  },
+  {
+   "id": "cumprimentos",
+   "title": "Cumprimentos",
+   "emoji": "👋"
+  },
+  {
+   "id": "numeros",
+   "title": "Números",
+   "emoji": "🔢"
+  },
+  {
+   "id": "aeroporto",
+   "title": "Aeroporto",
+   "emoji": "✈️"
+  },
+  {
+   "id": "escola",
+   "title": "Escola",
+   "emoji": "🏫"
+  },
+  {
+   "id": "casa",
+   "title": "Casa da família",
+   "emoji": "🏠"
+  },
+  {
+   "id": "comida",
+   "title": "Comida",
+   "emoji": "🍽️"
+  },
+  {
+   "id": "transporte",
+   "title": "Transporte",
+   "emoji": "🚌"
+  },
+  {
+   "id": "clima",
+   "title": "Clima e roupas",
+   "emoji": "🧥"
+  },
+  {
+   "id": "local",
+   "title": "Do jeito irlandês",
+   "emoji": "☘️"
+  },
+  {
+   "id": "outros",
+   "title": "Outras palavras",
+   "emoji": "📚"
+  }
+ ],
+ "entries": [
+  {
+   "id": "can-you-repeat-that-please",
+   "theme": "sobrevivencia",
+   "en": "Can you repeat that, please?",
+   "pt": "Pode repetir, por favor?",
+   "emoji": "🔁",
+   "note": "Quando você não entendeu ou a pessoa falou rápido demais.",
+   "lessons": [
+    "ie-spelling",
+    "ie-immigration"
+   ]
+  },
+  {
+   "id": "can-you-speak-slowly-please",
+   "theme": "sobrevivencia",
+   "en": "Can you speak slowly, please?",
+   "pt": "Pode falar devagar, por favor?",
+   "emoji": "🐢",
+   "note": "Pedir para a pessoa falar mais devagar.",
+   "lessons": []
+  },
+  {
+   "id": "i-dont-understand",
+   "theme": "sobrevivencia",
+   "en": "I don't understand.",
+   "pt": "Eu não entendi.",
+   "emoji": "🤷",
+   "note": "Simples e educado. Depois peça: \"Can you repeat that, please?\"",
+   "lessons": [
+    "ie-school-classroom"
+   ]
+  },
+  {
+   "id": "i-need-help",
+   "theme": "sobrevivencia",
+   "en": "I need help.",
+   "pt": "Eu preciso de ajuda.",
+   "emoji": "🆘",
+   "note": "Para qualquer situação em que você precisa de alguém. Se for urgente, diga \"Help!\" bem alto.",
+   "lessons": [
+    "ie-city-help"
+   ]
+  },
+  {
+   "id": "can-you-help-me-please",
+   "theme": "sobrevivencia",
+   "en": "Can you help me, please?",
+   "pt": "Pode me ajudar, por favor?",
+   "emoji": "🙋",
+   "note": "A forma educada de pedir ajuda a um funcionário, professor ou desconhecido.",
+   "lessons": []
+  },
+  {
+   "id": "im-lost",
+   "theme": "sobrevivencia",
+   "en": "I'm lost.",
+   "pt": "Eu estou perdido / perdida.",
+   "emoji": "🧭",
+   "note": "Quando você não sabe onde está. Continue com \"Where is the bus stop?\"",
+   "lessons": []
+  },
+  {
+   "id": "what-does-that-mean",
+   "theme": "sobrevivencia",
+   "en": "What does that mean?",
+   "pt": "O que isso significa?",
+   "emoji": "❓",
+   "note": "Quando você ouve uma palavra nova.",
+   "lessons": []
+  },
+  {
+   "id": "how-do-you-say-that-in-english",
+   "theme": "sobrevivencia",
+   "en": "How do you say that in English?",
+   "pt": "Como se diz isso em inglês?",
+   "emoji": "💬",
+   "note": "Você sabe a palavra em português, mas não em inglês.",
+   "lessons": []
+  },
+  {
+   "id": "how-do-you-spell-that",
+   "theme": "sobrevivencia",
+   "en": "How do you spell that?",
+   "pt": "Como se soletra isso?",
+   "emoji": "🔤",
+   "note": "Pedir para soletrar um nome ou uma palavra.",
+   "lessons": []
+  },
+  {
+   "id": "can-you-write-it-down-please",
+   "theme": "sobrevivencia",
+   "en": "Can you write it down, please?",
+   "pt": "Pode escrever, por favor?",
+   "emoji": "✍️",
+   "note": "Ótimo para endereços, nomes e horários.",
+   "lessons": []
+  },
+  {
+   "id": "im-sorry-i-didnt-catch-that",
+   "theme": "sobrevivencia",
+   "en": "I'm sorry, I didn't catch that.",
+   "pt": "Desculpe, eu não captei o que você disse.",
+   "emoji": "👂",
+   "note": "Quando você não ouviu direito.",
+   "lessons": []
+  },
+  {
+   "id": "my-english-is-not-very-good",
+   "theme": "sobrevivencia",
+   "en": "My English is not very good.",
+   "pt": "Meu inglês não é muito bom.",
+   "emoji": "🇧🇷",
+   "note": "Avisar com simpatia. A maioria das pessoas fala mais devagar depois disso.",
+   "lessons": []
+  },
+  {
+   "id": "excuse-me-can-i-ask-a-question",
+   "theme": "sobrevivencia",
+   "en": "Excuse me, can I ask a question?",
+   "pt": "Com licença, posso fazer uma pergunta?",
+   "emoji": "🙋‍♀️",
+   "note": "Para chamar a atenção de alguém antes de perguntar.",
+   "lessons": []
+  },
+  {
+   "id": "where-is-the-toilet",
+   "theme": "sobrevivencia",
+   "en": "Where is the toilet?",
+   "pt": "Onde fica o banheiro?",
+   "emoji": "🚻",
+   "note": "Na Irlanda se diz \"toilet\".",
+   "lessons": []
+  },
+  {
+   "id": "i-feel-sick",
+   "theme": "sobrevivencia",
+   "en": "I feel sick.",
+   "pt": "Eu estou me sentindo mal.",
+   "emoji": "🤒",
+   "note": "Para avisar um professor ou a família anfitriã.",
+   "lessons": [
+    "ie-city-help"
+   ]
+  },
+  {
+   "id": "can-i-call-my-host-family",
+   "theme": "sobrevivencia",
+   "en": "Can I call my host family?",
+   "pt": "Posso ligar para a minha família anfitriã?",
+   "emoji": "📞",
+   "note": "Quando você precisa falar com a sua família anfitriã.",
+   "lessons": []
+  },
+  {
+   "id": "thank-you-so-much",
+   "theme": "sobrevivencia",
+   "en": "Thank you so much!",
+   "pt": "Muito obrigado / obrigada!",
+   "emoji": "🙏",
+   "note": "Sempre cai bem.",
+   "lessons": [
+    "ie-host-arrival"
+   ]
+  },
+  {
+   "id": "wi-fi",
+   "theme": "sobrevivencia",
+   "en": "Wi-Fi",
+   "pt": "Wi-Fi (internet sem fio)",
+   "emoji": "📶",
+   "lessons": [
+    "ie-host-rules"
+   ]
+  },
+  {
+   "id": "phone",
+   "theme": "sobrevivencia",
+   "en": "phone",
+   "pt": "telefone / celular",
+   "emoji": "📱",
+   "lessons": []
+  },
+  {
+   "id": "hello",
+   "theme": "cumprimentos",
+   "en": "hello",
+   "pt": "olá / oi",
+   "emoji": "👋",
+   "example": {
+    "en": "Hello! Can you spell your last name, please?",
+    "pt": "Olá! Você pode soletrar o seu sobrenome, por favor?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-hello",
+    "ie-spelling",
+    "ie-immigration"
+   ]
+  },
+  {
+   "id": "name",
+   "theme": "cumprimentos",
+   "en": "name",
+   "pt": "nome",
+   "emoji": "📛",
+   "example": {
+    "en": "Hi! I'm Sam. What's your name?",
+    "pt": "Oi! Eu sou a Sam. Qual é o seu nome?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-hello",
+    "ie-spelling"
+   ]
+  },
+  {
+   "id": "friend",
+   "theme": "cumprimentos",
+   "en": "friend",
+   "pt": "amigo / amiga",
+   "emoji": "🤝",
+   "example": {
+    "en": "Ambulance, please! I need help. My friend is hurt.",
+    "pt": "Ambulância, por favor! Preciso de ajuda. Meu amigo está machucado."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-hello",
+    "ie-city-help"
+   ]
+  },
+  {
+   "id": "good",
+   "theme": "cumprimentos",
+   "en": "good",
+   "pt": "bom / bem",
+   "emoji": "👍",
+   "example": {
+    "en": "I'm good, thanks. And you?",
+    "pt": "Estou bem, obrigada. E você?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-hello",
+    "ie-videocall",
+    "ie-backpack",
+    "ie-checkin",
+    "ie-school-first-day",
+    "ie-school-classroom",
+    "ie-weather"
+   ]
+  },
+  {
+   "id": "thanks",
+   "theme": "cumprimentos",
+   "en": "thanks",
+   "pt": "obrigado / obrigada",
+   "emoji": "🙏",
+   "example": {
+    "en": "I'm good, thanks. And you?",
+    "pt": "Estou bem, obrigada. E você?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-hello",
+    "ie-school-friends",
+    "ie-city-bus",
+    "ie-city-help",
+    "ie-weather",
+    "ie-craic"
+   ]
+  },
+  {
+   "id": "last-name",
+   "theme": "cumprimentos",
+   "en": "last name",
+   "pt": "sobrenome",
+   "emoji": "🪪",
+   "example": {
+    "en": "Hello! Can you spell your last name, please?",
+    "pt": "Olá! Você pode soletrar o seu sobrenome, por favor?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-spelling"
+   ]
+  },
+  {
+   "id": "first-name",
+   "theme": "cumprimentos",
+   "en": "first name",
+   "pt": "primeiro nome",
+   "emoji": "🙋",
+   "example": {
+    "en": "Thank you. And your first name?",
+    "pt": "Obrigada. E o seu primeiro nome?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-spelling"
+   ]
+  },
+  {
+   "id": "spell",
+   "theme": "cumprimentos",
+   "en": "spell",
+   "pt": "soletrar",
+   "emoji": "🔤",
+   "example": {
+    "en": "Hello! Can you spell your last name, please?",
+    "pt": "Olá! Você pode soletrar o seu sobrenome, por favor?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-spelling"
+   ]
+  },
+  {
+   "id": "repeat",
+   "theme": "cumprimentos",
+   "en": "repeat",
+   "pt": "repetir",
+   "emoji": "🔁",
+   "example": {
+    "en": "Sorry, can you repeat that?",
+    "pt": "Desculpe, você pode repetir?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-spelling",
+    "ie-immigration",
+    "ie-school-classroom"
+   ]
+  },
+  {
+   "id": "please",
+   "theme": "cumprimentos",
+   "en": "please",
+   "pt": "por favor",
+   "emoji": "🥺",
+   "example": {
+    "en": "Hello! Can you spell your last name, please?",
+    "pt": "Olá! Você pode soletrar o seu sobrenome, por favor?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-spelling",
+    "ie-checkin",
+    "ie-immigration",
+    "ie-host-arrival",
+    "ie-host-rules",
+    "ie-host-dinner",
+    "ie-school-classroom",
+    "ie-city-help",
+    "ie-weather"
+   ]
+  },
+  {
+   "id": "one",
+   "theme": "numeros",
+   "en": "one",
+   "pt": "um",
+   "emoji": "1",
+   "example": {
+    "en": "Yes, I do. Oh, eight, seven, one, two, three, four, five, six, seven.",
+    "pt": "Tenho, sim. Zero, oito, sete, um, dois, três, quatro, cinco, seis, sete."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-numbers",
+    "ie-school-first-day",
+    "ie-weather"
+   ]
+  },
+  {
+   "id": "two",
+   "theme": "numeros",
+   "en": "two",
+   "pt": "dois",
+   "emoji": "2",
+   "example": {
+    "en": "Yes, I do. Oh, eight, seven, one, two, three, four, five, six, seven.",
+    "pt": "Tenho, sim. Zero, oito, sete, um, dois, três, quatro, cinco, seis, sete."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-numbers",
+    "ie-craic"
+   ]
+  },
+  {
+   "id": "three",
+   "theme": "numeros",
+   "en": "three",
+   "pt": "três",
+   "emoji": "3",
+   "example": {
+    "en": "Yes, I do. Oh, eight, seven, one, two, three, four, five, six, seven.",
+    "pt": "Tenho, sim. Zero, oito, sete, um, dois, três, quatro, cinco, seis, sete."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-numbers"
+   ]
+  },
+  {
+   "id": "four",
+   "theme": "numeros",
+   "en": "four",
+   "pt": "quatro",
+   "emoji": "4",
+   "example": {
+    "en": "Yes, I do. Oh, eight, seven, one, two, three, four, five, six, seven.",
+    "pt": "Tenho, sim. Zero, oito, sete, um, dois, três, quatro, cinco, seis, sete."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-numbers",
+    "ie-weather"
+   ]
+  },
+  {
+   "id": "five",
+   "theme": "numeros",
+   "en": "five",
+   "pt": "cinco",
+   "emoji": "5",
+   "example": {
+    "en": "Yes, I do. Oh, eight, seven, one, two, three, four, five, six, seven.",
+    "pt": "Tenho, sim. Zero, oito, sete, um, dois, três, quatro, cinco, seis, sete."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-numbers",
+    "ie-city-bus"
+   ]
+  },
+  {
+   "id": "thirteen",
+   "theme": "numeros",
+   "en": "thirteen",
+   "pt": "treze",
+   "emoji": "13",
+   "auto": true,
+   "lessons": [
+    "ie-numbers"
+   ]
+  },
+  {
+   "id": "fourteen",
+   "theme": "numeros",
+   "en": "fourteen",
+   "pt": "catorze",
+   "emoji": "14",
+   "auto": true,
+   "lessons": [
+    "ie-numbers"
+   ]
+  },
+  {
+   "id": "fifteen",
+   "theme": "numeros",
+   "en": "fifteen",
+   "pt": "quinze",
+   "emoji": "15",
+   "example": {
+    "en": "I'm fifteen years old.",
+    "pt": "Eu tenho quinze anos."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-numbers",
+    "ie-videocall",
+    "ie-host-arrival"
+   ]
+  },
+  {
+   "id": "sixteen",
+   "theme": "numeros",
+   "en": "sixteen",
+   "pt": "dezesseis",
+   "emoji": "16",
+   "auto": true,
+   "lessons": [
+    "ie-numbers"
+   ]
+  },
+  {
+   "id": "seventeen",
+   "theme": "numeros",
+   "en": "seventeen",
+   "pt": "dezessete",
+   "emoji": "17",
+   "auto": true,
+   "lessons": [
+    "ie-numbers"
+   ]
+  },
+  {
+   "id": "passport",
+   "theme": "aeroporto",
+   "en": "passport",
+   "pt": "passaporte",
+   "emoji": "🛂",
+   "example": {
+    "en": "Let's practice. Do you have your passport?",
+    "pt": "Vamos praticar. Você está com o seu passaporte?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-backpack",
+    "ie-checkin",
+    "ie-immigration"
+   ]
+  },
+  {
+   "id": "backpack",
+   "theme": "aeroporto",
+   "en": "backpack",
+   "pt": "mochila",
+   "emoji": "🎒",
+   "example": {
+    "en": "Yes, it's in my backpack.",
+    "pt": "Sim, está na minha mochila."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-backpack"
+   ]
+  },
+  {
+   "id": "boarding-pass",
+   "theme": "aeroporto",
+   "en": "boarding pass",
+   "pt": "cartão de embarque",
+   "emoji": "🎫",
+   "example": {
+    "en": "Good morning. Passport and boarding pass, please.",
+    "pt": "Bom dia. Passaporte e cartão de embarque, por favor."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-checkin"
+   ]
+  },
+  {
+   "id": "gate",
+   "theme": "aeroporto",
+   "en": "gate",
+   "pt": "portão",
+   "emoji": "🚪",
+   "example": {
+    "en": "Excuse me, where is gate twenty?",
+    "pt": "Com licença, onde fica o portão vinte?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-checkin"
+   ]
+  },
+  {
+   "id": "seat",
+   "theme": "aeroporto",
+   "en": "seat",
+   "pt": "assento",
+   "emoji": "💺",
+   "example": {
+    "en": "Thank you. Your seat is twelve A, by the window.",
+    "pt": "Obrigada. O seu assento é o doze A, na janela."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-checkin"
+   ]
+  },
+  {
+   "id": "flight",
+   "theme": "aeroporto",
+   "en": "flight",
+   "pt": "voo",
+   "emoji": "✈️",
+   "example": {
+    "en": "Boarding is at ten thirty. Have a good flight!",
+    "pt": "O embarque é às dez e meia. Boa viagem!"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-checkin"
+   ]
+  },
+  {
+   "id": "student",
+   "theme": "aeroporto",
+   "en": "student",
+   "pt": "estudante",
+   "emoji": "🎒",
+   "example": {
+    "en": "I'm a student. I'm here to study.",
+    "pt": "Eu sou estudante. Estou aqui para estudar."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-immigration",
+    "ie-school-friends"
+   ]
+  },
+  {
+   "id": "study",
+   "theme": "aeroporto",
+   "en": "study",
+   "pt": "estudar",
+   "emoji": "📚",
+   "example": {
+    "en": "I'm a student. I'm here to study.",
+    "pt": "Eu sou estudante. Estou aqui para estudar."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-immigration"
+   ]
+  },
+  {
+   "id": "host-family",
+   "theme": "aeroporto",
+   "en": "host family",
+   "pt": "família anfitriã",
+   "emoji": "👨‍👩‍👧",
+   "example": {
+    "en": "With a host family.",
+    "pt": "Com uma família anfitriã."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-immigration"
+   ]
+  },
+  {
+   "id": "month",
+   "theme": "aeroporto",
+   "en": "month",
+   "pt": "mês",
+   "emoji": "🗓️",
+   "auto": true,
+   "lessons": [
+    "ie-immigration"
+   ]
+  },
+  {
+   "id": "bag",
+   "theme": "aeroporto",
+   "en": "bag",
+   "pt": "mala / bolsa",
+   "emoji": "🧳",
+   "example": {
+    "en": "Hi. My bag is not here.",
+    "pt": "Oi. A minha mala não está aqui."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-baggage"
+   ]
+  },
+  {
+   "id": "baggage-reclaim",
+   "theme": "aeroporto",
+   "en": "baggage reclaim",
+   "pt": "esteira de bagagem",
+   "emoji": "🛄",
+   "example": {
+    "en": "Excuse me, where is the baggage reclaim?",
+    "pt": "Com licença, onde fica a esteira de bagagem?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-baggage"
+   ]
+  },
+  {
+   "id": "address",
+   "theme": "aeroporto",
+   "en": "address",
+   "pt": "endereço",
+   "emoji": "📍",
+   "example": {
+    "en": "Okay. Can you write your address here?",
+    "pt": "Certo. Você pode escrever o seu endereço aqui?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-baggage"
+   ]
+  },
+  {
+   "id": "timetable",
+   "theme": "escola",
+   "en": "timetable",
+   "pt": "horário das aulas",
+   "emoji": "🗓️",
+   "example": {
+    "en": "You're in Transition Year. Here is your timetable.",
+    "pt": "Você está no Transition Year. Aqui está o seu horário."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-school-first-day"
+   ]
+  },
+  {
+   "id": "class",
+   "theme": "escola",
+   "en": "class",
+   "pt": "aula / turma",
+   "emoji": "👩‍🏫",
+   "example": {
+    "en": "Your first class is maths.",
+    "pt": "A sua primeira aula é de matemática."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-school-first-day"
+   ]
+  },
+  {
+   "id": "locker",
+   "theme": "escola",
+   "en": "locker",
+   "pt": "armário",
+   "emoji": "🔐",
+   "example": {
+    "en": "And this is your locker.",
+    "pt": "E este é o seu armário."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-school-first-day"
+   ]
+  },
+  {
+   "id": "lunch",
+   "theme": "escola",
+   "en": "lunch",
+   "pt": "almoço",
+   "emoji": "🥪",
+   "example": {
+    "en": "Thank you! What time is lunch?",
+    "pt": "Obrigado! Que horas é o almoço?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-school-first-day"
+   ]
+  },
+  {
+   "id": "year-head",
+   "theme": "escola",
+   "en": "year head",
+   "pt": "coordenador(a) do ano",
+   "emoji": "🧑‍🏫",
+   "example": {
+    "en": "Good morning, Leo! I'm Ms. Byrne, your year head.",
+    "pt": "Bom dia, Leo! Eu sou a Ms. Byrne, a coordenadora do seu ano."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-school-first-day"
+   ]
+  },
+  {
+   "id": "maths",
+   "theme": "escola",
+   "en": "maths",
+   "pt": "matemática",
+   "emoji": "➗",
+   "example": {
+    "en": "Your first class is maths.",
+    "pt": "A sua primeira aula é de matemática."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-school-first-day"
+   ]
+  },
+  {
+   "id": "book",
+   "theme": "escola",
+   "en": "book",
+   "pt": "livro",
+   "emoji": "📕",
+   "example": {
+    "en": "No problem. Open your book at page ten.",
+    "pt": "Sem problema. Abra o seu livro na página dez."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-school-classroom"
+   ]
+  },
+  {
+   "id": "page",
+   "theme": "escola",
+   "en": "page",
+   "pt": "página",
+   "emoji": "📄",
+   "example": {
+    "en": "Good morning, everyone! Please open your books at page ten.",
+    "pt": "Bom dia, pessoal! Por favor, abram os livros na página dez."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-school-classroom"
+   ]
+  },
+  {
+   "id": "homework",
+   "theme": "escola",
+   "en": "homework",
+   "pt": "lição de casa",
+   "emoji": "📝",
+   "example": {
+    "en": "Thank you. What does 'homework' mean?",
+    "pt": "Obrigada. O que quer dizer \"homework\"?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-school-classroom"
+   ]
+  },
+  {
+   "id": "understand",
+   "theme": "escola",
+   "en": "understand",
+   "pt": "entender",
+   "emoji": "💡",
+   "example": {
+    "en": "Excuse me, sir. I don't understand.",
+    "pt": "Com licença, professor. Eu não entendi."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-school-classroom"
+   ]
+  },
+  {
+   "id": "slowly",
+   "theme": "escola",
+   "en": "slowly",
+   "pt": "devagar",
+   "emoji": "🐢",
+   "example": {
+    "en": "Can you speak more slowly, please?",
+    "pt": "Você pode falar mais devagar, por favor?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-school-classroom"
+   ]
+  },
+  {
+   "id": "football",
+   "theme": "escola",
+   "en": "football",
+   "pt": "futebol",
+   "emoji": "⚽",
+   "example": {
+    "en": "Yes, I love football. And you?",
+    "pt": "Sim, eu amo futebol. E você?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-school-friends"
+   ]
+  },
+  {
+   "id": "sport",
+   "theme": "escola",
+   "en": "sport",
+   "pt": "esporte",
+   "emoji": "🏅",
+   "example": {
+    "en": "Do you like sport?",
+    "pt": "Você gosta de esporte?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-school-friends"
+   ]
+  },
+  {
+   "id": "play",
+   "theme": "escola",
+   "en": "play",
+   "pt": "jogar",
+   "emoji": "▶️",
+   "example": {
+    "en": "I play Gaelic football and hurling.",
+    "pt": "Eu jogo futebol gaélico e hurling."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-school-friends"
+   ]
+  },
+  {
+   "id": "later",
+   "theme": "escola",
+   "en": "later",
+   "pt": "mais tarde",
+   "emoji": "⏰",
+   "example": {
+    "en": "Brilliant! See you later!",
+    "pt": "Demais! Até mais!"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-school-friends",
+    "ie-weather"
+   ]
+  },
+  {
+   "id": "brilliant",
+   "theme": "escola",
+   "en": "brilliant",
+   "pt": "ótimo, demais",
+   "emoji": "🌟",
+   "example": {
+    "en": "Brilliant! Welcome to the group!",
+    "pt": "Que ótimo! Bem-vinda ao grupo!"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-hello",
+    "ie-school-friends",
+    "ie-craic"
+   ]
+  },
+  {
+   "id": "happy",
+   "theme": "casa",
+   "en": "happy",
+   "pt": "feliz",
+   "emoji": "😊",
+   "example": {
+    "en": "Nice to meet you too! We are very happy.",
+    "pt": "Prazer! Nós estamos muito felizes."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-videocall"
+   ]
+  },
+  {
+   "id": "question",
+   "theme": "casa",
+   "en": "question",
+   "pt": "pergunta",
+   "emoji": "❓",
+   "auto": true,
+   "lessons": [
+    "ie-videocall"
+   ]
+  },
+  {
+   "id": "rain",
+   "theme": "casa",
+   "en": "rain",
+   "pt": "chuva",
+   "emoji": "🌧️",
+   "example": {
+    "en": "Yes. Does it rain a lot there?",
+    "pt": "Sim. Chove muito aí?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-videocall",
+    "ie-weather"
+   ]
+  },
+  {
+   "id": "jacket",
+   "theme": "casa",
+   "en": "jacket",
+   "pt": "casaco / jaqueta",
+   "emoji": "🧥",
+   "example": {
+    "en": "Yes! Bring a rain jacket.",
+    "pt": "Sim! Traga uma capa de chuva."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-videocall",
+    "ie-weather"
+   ]
+  },
+  {
+   "id": "room",
+   "theme": "casa",
+   "en": "room",
+   "pt": "quarto",
+   "emoji": "🛏️",
+   "example": {
+    "en": "Come in. This is your room.",
+    "pt": "Entre. Este é o seu quarto."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-host-arrival",
+    "ie-school-first-day"
+   ]
+  },
+  {
+   "id": "bathroom",
+   "theme": "casa",
+   "en": "bathroom",
+   "pt": "banheiro",
+   "emoji": "🚽",
+   "example": {
+    "en": "It's beautiful! Where is the bathroom?",
+    "pt": "É lindo! Onde fica o banheiro?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-host-arrival"
+   ]
+  },
+  {
+   "id": "home",
+   "theme": "casa",
+   "en": "home",
+   "pt": "casa / lar",
+   "emoji": "🏡",
+   "example": {
+    "en": "Hi, Bia! Welcome to our home!",
+    "pt": "Oi, Bia! Bem-vinda à nossa casa!"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-host-arrival",
+    "ie-host-rules",
+    "ie-school-classroom"
+   ]
+  },
+  {
+   "id": "hungry",
+   "theme": "casa",
+   "en": "hungry",
+   "pt": "com fome",
+   "emoji": "😋",
+   "example": {
+    "en": "Are you hungry?",
+    "pt": "Você está com fome?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-host-arrival",
+    "ie-host-rules"
+   ]
+  },
+  {
+   "id": "tired",
+   "theme": "casa",
+   "en": "tired",
+   "pt": "cansado / cansada",
+   "emoji": "😴",
+   "example": {
+    "en": "Yes, a little. And very tired!",
+    "pt": "Sim, um pouco. E muito cansada!"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-host-arrival"
+   ]
+  },
+  {
+   "id": "dinner",
+   "theme": "casa",
+   "en": "dinner",
+   "pt": "jantar",
+   "emoji": "🍽️",
+   "example": {
+    "en": "Dinner is at six o'clock every day.",
+    "pt": "O jantar é às seis horas todo dia."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-host-rules",
+    "ie-host-dinner"
+   ]
+  },
+  {
+   "id": "wake-up",
+   "theme": "casa",
+   "en": "wake up",
+   "pt": "acordar",
+   "emoji": "⏰",
+   "example": {
+    "en": "Okay. What time do you wake up?",
+    "pt": "Ok. Que horas vocês acordam?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-host-rules"
+   ]
+  },
+  {
+   "id": "shower",
+   "theme": "casa",
+   "en": "shower",
+   "pt": "banho (de chuveiro)",
+   "emoji": "🚿",
+   "example": {
+    "en": "No problem. Can I take a shower now?",
+    "pt": "Sem problema. Posso tomar banho agora?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-host-rules"
+   ]
+  },
+  {
+   "id": "password",
+   "theme": "casa",
+   "en": "password",
+   "pt": "senha",
+   "emoji": "🔑",
+   "example": {
+    "en": "Of course. The password is on the fridge.",
+    "pt": "Claro. A senha está na geladeira."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-host-rules"
+   ]
+  },
+  {
+   "id": "fridge",
+   "theme": "casa",
+   "en": "fridge",
+   "pt": "geladeira",
+   "emoji": "🧊",
+   "example": {
+    "en": "Of course. The password is on the fridge.",
+    "pt": "Claro. A senha está na geladeira."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-host-rules"
+   ]
+  },
+  {
+   "id": "chicken",
+   "theme": "comida",
+   "en": "chicken",
+   "pt": "frango",
+   "emoji": "🍗",
+   "example": {
+    "en": "Do you like chicken, Bia?",
+    "pt": "Você gosta de frango, Bia?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-host-dinner"
+   ]
+  },
+  {
+   "id": "fish",
+   "theme": "comida",
+   "en": "fish",
+   "pt": "peixe",
+   "emoji": "🐟",
+   "example": {
+    "en": "Yes, I love chicken! But I don't eat fish.",
+    "pt": "Sim, eu amo frango! Mas eu não como peixe."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-host-dinner"
+   ]
+  },
+  {
+   "id": "salt",
+   "theme": "comida",
+   "en": "salt",
+   "pt": "sal",
+   "emoji": "🧂",
+   "example": {
+    "en": "Can you pass the salt, please?",
+    "pt": "Você pode me passar o sal, por favor?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-host-dinner"
+   ]
+  },
+  {
+   "id": "water",
+   "theme": "comida",
+   "en": "water",
+   "pt": "água",
+   "emoji": "💧",
+   "auto": true,
+   "lessons": [
+    "ie-host-dinner"
+   ]
+  },
+  {
+   "id": "full",
+   "theme": "comida",
+   "en": "full",
+   "pt": "satisfeito / satisfeita",
+   "emoji": "😌",
+   "example": {
+    "en": "No, thank you. I'm full. It was lovely!",
+    "pt": "Não, obrigada. Estou satisfeita. Estava delicioso!"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-host-dinner"
+   ]
+  },
+  {
+   "id": "bus",
+   "theme": "transporte",
+   "en": "bus",
+   "pt": "ônibus",
+   "emoji": "🚌",
+   "example": {
+    "en": "Excuse me, does this bus go to the shopping centre?",
+    "pt": "Com licença, este ônibus vai para o shopping?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-city-bus",
+    "ie-city-help",
+    "ie-weather"
+   ]
+  },
+  {
+   "id": "bus-stop",
+   "theme": "transporte",
+   "en": "bus stop",
+   "pt": "ponto de ônibus",
+   "emoji": "🚏",
+   "example": {
+    "en": "Where is the bus stop for the nine?",
+    "pt": "Onde fica o ponto do nove?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-city-bus",
+    "ie-city-help",
+    "ie-weather"
+   ]
+  },
+  {
+   "id": "road",
+   "theme": "transporte",
+   "en": "road",
+   "pt": "rua / estrada",
+   "emoji": "🛣️",
+   "example": {
+    "en": "Across the road.",
+    "pt": "Do outro lado da rua."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-city-bus"
+   ]
+  },
+  {
+   "id": "left",
+   "theme": "transporte",
+   "en": "left",
+   "pt": "esquerda",
+   "emoji": "⬅️",
+   "example": {
+    "en": "Gate twenty is on the left.",
+    "pt": "O portão vinte fica à esquerda."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-checkin",
+    "ie-city-bus"
+   ]
+  },
+  {
+   "id": "right",
+   "theme": "transporte",
+   "en": "right",
+   "pt": "direita",
+   "emoji": "➡️",
+   "example": {
+    "en": "It's downstairs, on the right.",
+    "pt": "Fica no andar de baixo, à direita."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-baggage",
+    "ie-school-friends",
+    "ie-city-bus"
+   ]
+  },
+  {
+   "id": "straight",
+   "theme": "transporte",
+   "en": "straight",
+   "pt": "reto",
+   "emoji": "⬆️",
+   "example": {
+    "en": "Go straight on and turn left at the lights.",
+    "pt": "Siga reto e vire à esquerda no semáforo."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-city-bus"
+   ]
+  },
+  {
+   "id": "help",
+   "theme": "transporte",
+   "en": "help",
+   "pt": "ajuda / ajudar",
+   "emoji": "🆘",
+   "example": {
+    "en": "Lunch is at one o'clock. If you need help, come to my office.",
+    "pt": "O almoço é à uma hora. Se precisar de ajuda, venha à minha sala."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-host-dinner",
+    "ie-school-first-day",
+    "ie-city-help"
+   ]
+  },
+  {
+   "id": "sick",
+   "theme": "transporte",
+   "en": "sick",
+   "pt": "doente / passando mal",
+   "emoji": "🤒",
+   "example": {
+    "en": "Excuse me, I feel sick.",
+    "pt": "Com licença, eu estou passando mal."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-city-help"
+   ]
+  },
+  {
+   "id": "headache",
+   "theme": "transporte",
+   "en": "headache",
+   "pt": "dor de cabeça",
+   "emoji": "🤕",
+   "example": {
+    "en": "I have a headache and a sore throat.",
+    "pt": "Estou com dor de cabeça e dor de garganta."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-city-help"
+   ]
+  },
+  {
+   "id": "doctor",
+   "theme": "transporte",
+   "en": "doctor",
+   "pt": "médico / médica",
+   "emoji": "🩺",
+   "example": {
+    "en": "Please see a doctor today.",
+    "pt": "Por favor, vá ao médico hoje."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-city-help"
+   ]
+  },
+  {
+   "id": "hurt",
+   "theme": "transporte",
+   "en": "hurt",
+   "pt": "machucado / machucada",
+   "emoji": "🩹",
+   "example": {
+    "en": "Ambulance, please! I need help. My friend is hurt.",
+    "pt": "Ambulância, por favor! Preciso de ajuda. Meu amigo está machucado."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-city-help"
+   ]
+  },
+  {
+   "id": "raining",
+   "theme": "clima",
+   "en": "raining",
+   "pt": "chovendo",
+   "emoji": "🌧️",
+   "example": {
+    "en": "Yes, thanks. Is it raining?",
+    "pt": "Dormi, obrigada. Está chovendo?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-weather"
+   ]
+  },
+  {
+   "id": "umbrella",
+   "theme": "clima",
+   "en": "umbrella",
+   "pt": "guarda-chuva",
+   "emoji": "☂️",
+   "example": {
+    "en": "A bit. Bring your rain jacket and an umbrella.",
+    "pt": "Um pouco. Leve a sua capa de chuva e um guarda-chuva."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-weather"
+   ]
+  },
+  {
+   "id": "sunny",
+   "theme": "clima",
+   "en": "sunny",
+   "pt": "ensolarado",
+   "emoji": "☀️",
+   "example": {
+    "en": "Not too cold. It might be sunny later!",
+    "pt": "Não muito. Pode fazer sol mais tarde!"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-weather"
+   ]
+  },
+  {
+   "id": "lift",
+   "theme": "clima",
+   "en": "lift",
+   "pt": "carona",
+   "emoji": "🚗",
+   "example": {
+    "en": "That's Irish weather. Do you need a lift to school?",
+    "pt": "Esse é o tempo irlandês. Quer uma carona até a escola?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-weather"
+   ]
+  },
+  {
+   "id": "queue",
+   "theme": "clima",
+   "en": "queue",
+   "pt": "fila",
+   "emoji": "🧍",
+   "example": {
+    "en": "Grand. There's a queue at the bus stop, so go early!",
+    "pt": "Beleza. Tem fila no ponto, então vá cedo!"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-weather"
+   ]
+  },
+  {
+   "id": "early",
+   "theme": "clima",
+   "en": "early",
+   "pt": "cedo",
+   "emoji": "⏰",
+   "example": {
+    "en": "Grand. There's a queue at the bus stop, so go early!",
+    "pt": "Beleza. Tem fila no ponto, então vá cedo!"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-weather"
+   ]
+  },
+  {
+   "id": "craic",
+   "theme": "local",
+   "en": "craic",
+   "pt": "diversão / bom papo (pronuncia-se \"crack\")",
+   "emoji": "🎉",
+   "example": {
+    "en": "What's the craic?",
+    "pt": "E aí, como vão as coisas?"
+   },
+   "note": "Palavra irlandesa clássica. \"Great craic\" = muito divertido.",
+   "variant": true,
+   "lessons": [
+    "ie-school-friends",
+    "ie-craic"
+   ]
+  },
+  {
+   "id": "grand",
+   "theme": "local",
+   "en": "grand",
+   "pt": "tudo bem / ótimo",
+   "emoji": "👌",
+   "example": {
+    "en": "I'm grand, thanks.",
+    "pt": "Estou bem, obrigado."
+   },
+   "variant": true,
+   "lessons": [
+    "ie-host-arrival",
+    "ie-weather",
+    "ie-craic"
+   ]
+  },
+  {
+   "id": "garda",
+   "theme": "local",
+   "en": "Garda",
+   "pt": "policial (Irlanda)",
+   "emoji": "👮",
+   "example": {
+    "en": "Ask a Garda for help.",
+    "pt": "Peça ajuda a um policial."
+   },
+   "note": "A polícia irlandesa é a \"Garda\" (\"the Gardaí\").",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "runners",
+   "theme": "local",
+   "en": "runners",
+   "pt": "tênis",
+   "emoji": "👟",
+   "example": {
+    "en": "Wear your runners.",
+    "pt": "Calce os seus tênis."
+   },
+   "note": "Nos EUA, \"sneakers\"; no Reino Unido, \"trainers\".",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "press",
+   "theme": "local",
+   "en": "press",
+   "pt": "armário (de cozinha)",
+   "emoji": "🗄️",
+   "example": {
+    "en": "The cups are in the press.",
+    "pt": "Os copos estão no armário."
+   },
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "doing-the-messages",
+   "theme": "local",
+   "en": "doing the messages",
+   "pt": "fazer compras de mercado",
+   "emoji": "🛒",
+   "example": {
+    "en": "I'm doing the messages.",
+    "pt": "Estou fazendo as compras do mercado."
+   },
+   "note": "Na Irlanda, \"the messages\" são as compras de supermercado.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "sound",
+   "theme": "local",
+   "en": "sound",
+   "pt": "legal / de boa",
+   "emoji": "👍",
+   "example": {
+    "en": "He's sound.",
+    "pt": "Ele é gente boa."
+   },
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "banter",
+   "theme": "local",
+   "en": "banter",
+   "pt": "zoeira / brincadeira entre amigos",
+   "emoji": "😄",
+   "example": {
+    "en": "We have good banter.",
+    "pt": "Nós temos uma zoeira boa."
+   },
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "fierce",
+   "theme": "local",
+   "en": "fierce",
+   "pt": "muito (intensificador)",
+   "emoji": "🥶",
+   "example": {
+    "en": "It's fierce cold today.",
+    "pt": "Está muito frio hoje."
+   },
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "takeaway",
+   "theme": "local",
+   "en": "takeaway",
+   "pt": "comida para viagem",
+   "emoji": "🥡",
+   "example": {
+    "en": "Let's get a takeaway.",
+    "pt": "Vamos pedir comida para viagem."
+   },
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "eircode",
+   "theme": "local",
+   "en": "Eircode",
+   "pt": "código postal irlandês",
+   "emoji": "📮",
+   "example": {
+    "en": "What is your Eircode?",
+    "pt": "Qual é o seu código postal?"
+   },
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "match",
+   "theme": "outros",
+   "en": "match",
+   "pt": "jogo, partida",
+   "emoji": "🏟️",
+   "example": {
+    "en": "Do you want to come to the match on Saturday?",
+    "pt": "Quer vir ao jogo no sábado?"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-craic"
+   ]
+  },
+  {
+   "id": "pitch",
+   "theme": "outros",
+   "en": "pitch",
+   "pt": "campo",
+   "emoji": "🌱",
+   "example": {
+    "en": "Half two, at the pitch behind the school.",
+    "pt": "Duas e meia, no campo atrás da escola."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-craic"
+   ]
+  },
+  {
+   "id": "half-two",
+   "theme": "outros",
+   "en": "half two",
+   "pt": "duas e meia",
+   "emoji": "🕝",
+   "example": {
+    "en": "Half two, at the pitch behind the school.",
+    "pt": "Duas e meia, no campo atrás da escola."
+   },
+   "auto": true,
+   "lessons": [
+    "ie-craic"
+   ]
+  },
+  {
+   "id": "no-bother",
+   "theme": "outros",
+   "en": "no bother",
+   "pt": "imagina, de nada",
+   "emoji": "🙂",
+   "example": {
+    "en": "No bother. See you Saturday!",
+    "pt": "Imagina. Até sábado!"
+   },
+   "auto": true,
+   "lessons": [
+    "ie-craic"
+   ]
+  }
+ ]
+}
