@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l02",
+  "title": "Eu sou Leo; esta é Bia",
+  "scenario": "Sam apresenta Leo e Bia a Ruby, uma futura colega do intercâmbio, numa chamada.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Eu sou Leo; esta é Bia",
+      "lines": [
+        {
+          "speaker": "Ruby",
+          "en": "Hi! I'm Ruby. What's your name?",
+          "pt": "Oi! Eu sou a Ruby. Qual é o seu nome?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I'm Leo.",
+          "pt": "Eu sou o Leo."
+        },
+        {
+          "speaker": "Ruby",
+          "en": "And what's your name?",
+          "pt": "E qual é o seu nome?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "My name is Bia.",
+          "pt": "Meu nome é Bia."
+        },
+        {
+          "speaker": "Ruby",
+          "en": "Nice to meet you, Leo and Bia!",
+          "pt": "Prazer em conhecer vocês, Leo e Bia!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Nice to meet you too, Ruby.",
+          "pt": "Prazer em te conhecer também, Ruby."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "name",
+          "pt": "nome",
+          "emoji": "📛"
+        },
+        {
+          "en": "What's your name?",
+          "pt": "Qual é o seu nome?",
+          "emoji": "❓"
+        },
+        {
+          "en": "I'm...",
+          "pt": "eu sou...",
+          "emoji": "🙋"
+        },
+        {
+          "en": "my name is...",
+          "pt": "meu nome é...",
+          "emoji": "🗣️"
+        },
+        {
+          "en": "nice to meet you",
+          "pt": "prazer em te conhecer",
+          "emoji": "🤝"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"And what's your name?\"?",
+      "lang": "pt",
+      "options": [
+        "Prazer em conhecer vocês, Leo e Bia!",
+        "Prazer em te conhecer também, Ruby.",
+        "E qual é o seu nome?"
+      ],
+      "correct": 2,
+      "explanation": "\"What's your name?\" = Qual é o seu nome?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Prazer em te conhecer também, Ruby.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "My name is Bia.",
+        "Nice to meet you too, Ruby.",
+        "Hi! I'm Ruby. What's your name?"
+      ],
+      "correct": 1,
+      "explanation": "A resposta para \"Nice to meet you\" é \"Nice to meet you too.\""
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Meu nome é Bia.",
+      "answer": [
+        "My",
+        "name",
+        "is",
+        "Bia."
+      ],
+      "distractors": [
+        "leo",
+        "and"
+      ],
+      "explanation": "\"My name is Bia\" = Meu nome é Bia."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "My name is Bia.",
+      "lang": "pt",
+      "options": [
+        "Prazer em te conhecer também, Ruby.",
+        "Oi! Eu sou a Ruby. Qual é o seu nome?",
+        "Meu nome é Bia."
+      ],
+      "correct": 2,
+      "explanation": "\"My name is Bia\" = Meu nome é Bia."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ruby",
+          "en": "Hi! I'm Ruby. What's your name?",
+          "pt": "Oi! Eu sou a Ruby. Qual é o seu nome?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Eu sou o Leo.",
+      "options": [
+        "Nice to meet you, Leo and Bia!",
+        "Nice to meet you too, Ruby.",
+        "I'm Leo."
+      ],
+      "correct": 2,
+      "explanation": "\"I'm Leo\" = Eu sou o Leo. I'm = I am."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Quem é quem?",
+      "questions": [
+        {
+          "english": "And what's your name?",
+          "options": [
+            "E qual é o seu nome?",
+            "Meu nome é Bia.",
+            "Prazer em conhecer vocês, Leo e Bia!"
+          ],
+          "correct": 0,
+          "joke": "\"What's your name?\" = Qual é o seu nome?"
+        },
+        {
+          "english": "My name is Bia.",
+          "options": [
+            "Prazer em conhecer vocês, Leo e Bia!",
+            "Meu nome é Bia.",
+            "Prazer em te conhecer também, Ruby."
+          ],
+          "correct": 1,
+          "joke": "\"My name is Bia\" = Meu nome é Bia."
+        },
+        {
+          "english": "I'm Leo.",
+          "options": [
+            "Oi! Eu sou a Ruby. Qual é o seu nome?",
+            "E qual é o seu nome?",
+            "Eu sou o Leo."
+          ],
+          "correct": 2,
+          "joke": "\"I'm Leo\" = Eu sou o Leo. I'm = I am."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Primeiros passos · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "👋",
+          "title": "\"How are you?\"",
+          "en": "Good, thanks! How are you?",
+          "pt": "É uma pergunta de cortesia: responda curto e devolva a pergunta."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l17",
+  "title": "O portão pode mudar",
+  "scenario": "O grupo Canadá lê o painel de uma conexão fictícia e confirma o portão.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "O portão pode mudar",
+      "lines": [
+        {
+          "speaker": "Sam",
+          "en": "Look at the board. Our gate is twenty.",
+          "pt": "Olhem o painel. O nosso portão é o vinte."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Where is gate twenty?",
+          "pt": "Onde fica o portão vinte?"
+        },
+        {
+          "speaker": "Sam",
+          "en": "Gate twenty is on the left.",
+          "pt": "O portão vinte fica à esquerda."
+        },
+        {
+          "speaker": "Bia",
+          "en": "What time is boarding?",
+          "pt": "Que horas é o embarque?"
+        },
+        {
+          "speaker": "Sam",
+          "en": "Boarding is at ten thirty.",
+          "pt": "O embarque é às dez e meia."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Ten thirty. And the gate can change?",
+          "pt": "Dez e meia. E o portão pode mudar?"
+        },
+        {
+          "speaker": "Sam",
+          "en": "Yes! Always check the board.",
+          "pt": "Sim! Sempre confira o painel."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "gate",
+          "pt": "portão",
+          "emoji": "🚪"
+        },
+        {
+          "en": "boarding",
+          "pt": "embarque",
+          "emoji": "🛫"
+        },
+        {
+          "en": "board",
+          "pt": "painel (de voos)",
+          "emoji": "🖥️"
+        },
+        {
+          "en": "on the left",
+          "pt": "à esquerda",
+          "emoji": "⬅️"
+        },
+        {
+          "en": "ten thirty",
+          "pt": "dez e meia",
+          "emoji": "🕥"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Where is gate twenty?\"?",
+      "lang": "pt",
+      "options": [
+        "Onde fica o portão vinte?",
+        "Sim! Sempre confira o painel.",
+        "Olhem o painel. O nosso portão é o vinte."
+      ],
+      "correct": 0,
+      "explanation": "\"Where is gate twenty?\" = Onde fica o portão vinte?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Que horas é o embarque?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Yes! Always check the board.",
+        "Look at the board. Our gate is twenty.",
+        "What time is boarding?"
+      ],
+      "correct": 2,
+      "explanation": "\"What time is boarding?\" = Que horas é o embarque?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Onde fica o portão vinte?",
+      "answer": [
+        "Where",
+        "is",
+        "gate",
+        "twenty?"
+      ],
+      "distractors": [
+        "board",
+        "our"
+      ],
+      "explanation": "\"Where is gate twenty?\" = Onde fica o portão vinte?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Boarding is at ten thirty.",
+      "lang": "pt",
+      "options": [
+        "Olhem o painel. O nosso portão é o vinte.",
+        "O embarque é às dez e meia.",
+        "Onde fica o portão vinte?"
+      ],
+      "correct": 1,
+      "explanation": "\"Boarding is at ten thirty\" = o embarque começa às 10h30. Não é a hora da decolagem!"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sam",
+          "en": "Gate twenty is on the left.",
+          "pt": "O portão vinte fica à esquerda."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Que horas é o embarque?",
+      "options": [
+        "Look at the board. Our gate is twenty.",
+        "What time is boarding?",
+        "Where is gate twenty?"
+      ],
+      "correct": 1,
+      "explanation": "\"What time is boarding?\" = Que horas é o embarque?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O painel de voos",
+      "questions": [
+        {
+          "english": "Where is gate twenty?",
+          "options": [
+            "Olhem o painel. O nosso portão é o vinte.",
+            "Onde fica o portão vinte?",
+            "O portão vinte fica à esquerda."
+          ],
+          "correct": 1,
+          "joke": "\"Where is gate twenty?\" = Onde fica o portão vinte?"
+        },
+        {
+          "english": "Boarding is at ten thirty.",
+          "options": [
+            "Que horas é o embarque?",
+            "O embarque é às dez e meia.",
+            "Dez e meia. E o portão pode mudar?"
+          ],
+          "correct": 1,
+          "joke": "\"Boarding is at ten thirty\" = o embarque começa às 10h30. Não é a hora da decolagem!"
+        },
+        {
+          "english": "Yes! Always check the board.",
+          "options": [
+            "Sim! Sempre confira o painel.",
+            "Dez e meia. E o portão pode mudar?",
+            "Olhem o painel. O nosso portão é o vinte."
+          ],
+          "correct": 0,
+          "joke": "\"Always check the board\" = sempre confira o painel."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Aeroporto · Canadá",
+      "items": [
+        {
+          "emoji": "⏰",
+          "title": "Horário de embarque",
+          "en": "Boarding is at ten thirty.",
+          "pt": "Boarding time é a hora em que o embarque começa, não a hora da decolagem. Chegue antes ao portão."
+        }
+      ]
+    }
+  ]
+}

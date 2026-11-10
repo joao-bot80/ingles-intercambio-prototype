@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l19",
+  "title": "Na fronteira: só a verdade",
+  "scenario": "Bia conversa com o agente de fronteira canadense. Duração e hospedagem são exemplos do roteiro.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Na fronteira: só a verdade",
+      "lines": [
+        {
+          "speaker": "Officer",
+          "en": "Hello. Passport, please.",
+          "pt": "Olá. Passaporte, por favor."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Here you go.",
+          "pt": "Aqui está."
+        },
+        {
+          "speaker": "Officer",
+          "en": "Why are you in Canada?",
+          "pt": "Por que você está no Canadá?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm here to study. I'm a student.",
+          "pt": "Estou aqui para estudar. Eu sou estudante."
+        },
+        {
+          "speaker": "Officer",
+          "en": "How long will you stay?",
+          "pt": "Quanto tempo você vai ficar?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Six months.",
+          "pt": "Seis meses."
+        },
+        {
+          "speaker": "Officer",
+          "en": "Where will you stay?",
+          "pt": "Onde você vai ficar?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "With a host family.",
+          "pt": "Com uma família anfitriã."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "I'm here to study.",
+          "pt": "Estou aqui para estudar.",
+          "emoji": "📚"
+        },
+        {
+          "en": "student",
+          "pt": "estudante",
+          "emoji": "🎒"
+        },
+        {
+          "en": "months",
+          "pt": "meses",
+          "emoji": "🗓️"
+        },
+        {
+          "en": "How long?",
+          "pt": "Quanto tempo?",
+          "emoji": "⏳"
+        },
+        {
+          "en": "host family",
+          "pt": "família anfitriã",
+          "emoji": "🏡"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"I'm here to study. I'm a student.\"?",
+      "lang": "pt",
+      "options": [
+        "Estou aqui para estudar. Eu sou estudante.",
+        "Com uma família anfitriã.",
+        "Olá. Passaporte, por favor."
+      ],
+      "correct": 0,
+      "explanation": "\"I'm here to study\" = estou aqui para estudar. Responda curto e só a verdade."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Seis meses.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Six months.",
+        "Why are you in Canada?",
+        "I'm here to study. I'm a student."
+      ],
+      "correct": 0,
+      "explanation": "\"Six months\" = seis meses. Diga a duração real da SUA viagem."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Estou aqui para estudar. Eu sou estudante.",
+      "answer": [
+        "I'm",
+        "here",
+        "to",
+        "study.",
+        "I'm",
+        "a",
+        "student."
+      ],
+      "distractors": [
+        "host",
+        "family"
+      ],
+      "explanation": "\"I'm here to study\" = estou aqui para estudar. Responda curto e só a verdade."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "How long will you stay?",
+      "lang": "pt",
+      "options": [
+        "Olá. Passaporte, por favor.",
+        "Quanto tempo você vai ficar?",
+        "Aqui está."
+      ],
+      "correct": 1,
+      "explanation": "\"How long will you stay?\" = Quanto tempo você vai ficar?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Officer",
+          "en": "Where will you stay?",
+          "pt": "Onde você vai ficar?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Com uma família anfitriã.",
+      "options": [
+        "How long will you stay?",
+        "With a host family.",
+        "Six months."
+      ],
+      "correct": 1,
+      "explanation": "\"With a host family\" = com uma família anfitriã."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O agente da fronteira",
+      "questions": [
+        {
+          "english": "I'm here to study. I'm a student.",
+          "options": [
+            "Aqui está.",
+            "Estou aqui para estudar. Eu sou estudante.",
+            "Por que você está no Canadá?"
+          ],
+          "correct": 1,
+          "joke": "\"I'm here to study\" = estou aqui para estudar. Responda curto e só a verdade."
+        },
+        {
+          "english": "How long will you stay?",
+          "options": [
+            "Com uma família anfitriã.",
+            "Olá. Passaporte, por favor.",
+            "Quanto tempo você vai ficar?"
+          ],
+          "correct": 2,
+          "joke": "\"How long will you stay?\" = Quanto tempo você vai ficar?"
+        },
+        {
+          "english": "With a host family.",
+          "options": [
+            "Com uma família anfitriã.",
+            "Seis meses.",
+            "Onde você vai ficar?"
+          ],
+          "correct": 0,
+          "joke": "\"With a host family\" = com uma família anfitriã."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Aeroporto · Canadá",
+      "items": [
+        {
+          "emoji": "🛂",
+          "title": "Respostas curtas e verdadeiras",
+          "en": "I'm a student. Six months.",
+          "pt": "Na fronteira canadense, quem atende é um oficial da Canada Border Services Agency (CBSA). Responda curto, com calma e só a verdade. Tenha em mãos a carta da escola e os documentos que a sua agência indicar. Regras de entrada mudam: confira sempre no site oficial do governo do Canadá."
+        }
+      ]
+    }
+  ]
+}

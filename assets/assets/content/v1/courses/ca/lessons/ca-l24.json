@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l24",
+  "title": "À mesa com Linda e Dave",
+  "scenario": "A família pergunta o que Bia come; Dave mostra como pedir algo à mesa.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "À mesa com Linda e Dave",
+      "lines": [
+        {
+          "speaker": "Linda",
+          "en": "Do you eat fish, Bia?",
+          "pt": "Você come peixe, Bia?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "No, sorry. I don't eat fish.",
+          "pt": "Não, desculpa. Eu não como peixe."
+        },
+        {
+          "speaker": "Linda",
+          "en": "No problem. We have chicken.",
+          "pt": "Sem problema. Temos frango."
+        },
+        {
+          "speaker": "Dave",
+          "en": "Emma, can you pass the salt, please?",
+          "pt": "Emma, pode me passar o sal, por favor?"
+        },
+        {
+          "speaker": "Emma",
+          "en": "Here you go, Dad.",
+          "pt": "Aqui está, pai."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thank you. It's delicious!",
+          "pt": "Obrigada. Está delicioso!"
+        },
+        {
+          "speaker": "Linda",
+          "en": "More chicken?",
+          "pt": "Mais frango?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "No, thank you. I'm full.",
+          "pt": "Não, obrigada. Estou satisfeita."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "fish",
+          "pt": "peixe",
+          "emoji": "🐟"
+        },
+        {
+          "en": "chicken",
+          "pt": "frango",
+          "emoji": "🍗"
+        },
+        {
+          "en": "salt",
+          "pt": "sal",
+          "emoji": "🧂"
+        },
+        {
+          "en": "I'm full.",
+          "pt": "Estou satisfeito / satisfeita.",
+          "emoji": "😌"
+        },
+        {
+          "en": "delicious",
+          "pt": "delicioso",
+          "emoji": "😋"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"No, sorry. I don't eat fish.\"?",
+      "lang": "pt",
+      "options": [
+        "Não, desculpa. Eu não como peixe.",
+        "Sem problema. Temos frango.",
+        "Emma, pode me passar o sal, por favor?"
+      ],
+      "correct": 0,
+      "explanation": "\"I don't eat fish\" = eu não como peixe. Avise a família logo no começo."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Obrigada. Está delicioso!\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Do you eat fish, Bia?",
+        "No, sorry. I don't eat fish.",
+        "Thank you. It's delicious!"
+      ],
+      "correct": 2,
+      "explanation": "\"It's delicious\" = está delicioso. Elogiar a comida faz bem."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Não, desculpa. Eu não como peixe.",
+      "answer": [
+        "No,",
+        "sorry.",
+        "I",
+        "don't",
+        "eat",
+        "fish."
+      ],
+      "distractors": [
+        "more",
+        "i'm"
+      ],
+      "explanation": "\"I don't eat fish\" = eu não como peixe. Avise a família logo no começo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Emma, can you pass the salt, please?",
+      "lang": "pt",
+      "options": [
+        "Emma, pode me passar o sal, por favor?",
+        "Não, obrigada. Estou satisfeita.",
+        "Você come peixe, Bia?"
+      ],
+      "correct": 0,
+      "explanation": "\"Can you pass the salt, please?\" = Pode me passar o sal, por favor?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Linda",
+          "en": "More chicken?",
+          "pt": "Mais frango?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Não, obrigada. Estou satisfeita.",
+      "options": [
+        "No, thank you. I'm full.",
+        "Do you eat fish, Bia?",
+        "No, sorry. I don't eat fish."
+      ],
+      "correct": 0,
+      "explanation": "\"I'm full\" = estou satisfeito(a). Não é \"estou cheio\" de raiva!"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O primeiro jantar",
+      "questions": [
+        {
+          "english": "No, sorry. I don't eat fish.",
+          "options": [
+            "Sem problema. Temos frango.",
+            "Emma, pode me passar o sal, por favor?",
+            "Não, desculpa. Eu não como peixe."
+          ],
+          "correct": 2,
+          "joke": "\"I don't eat fish\" = eu não como peixe. Avise a família logo no começo."
+        },
+        {
+          "english": "Emma, can you pass the salt, please?",
+          "options": [
+            "Emma, pode me passar o sal, por favor?",
+            "Você come peixe, Bia?",
+            "Não, desculpa. Eu não como peixe."
+          ],
+          "correct": 0,
+          "joke": "\"Can you pass the salt, please?\" = Pode me passar o sal, por favor?"
+        },
+        {
+          "english": "No, thank you. I'm full.",
+          "options": [
+            "Não, desculpa. Eu não como peixe.",
+            "Sem problema. Temos frango.",
+            "Não, obrigada. Estou satisfeita."
+          ],
+          "correct": 2,
+          "joke": "\"I'm full\" = estou satisfeito(a). Não é \"estou cheio\" de raiva!"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Casa de família · Canadá",
+      "items": [
+        {
+          "emoji": "🍽️",
+          "title": "Elogie e ajude",
+          "en": "It was delicious! Can I help?",
+          "pt": "Elogiar a comida e oferecer ajuda para tirar a mesa (\"Can I help?\") conta muitos pontos com a família canadense."
+        },
+        {
+          "emoji": "🥪",
+          "title": "Lunch e dinner",
+          "en": "Lunch box",
+          "pt": "Na escola canadense o almoço costuma ser um lanche levado de casa (lunch box). O jantar (dinner) é cedo, entre 17h30 e 19h, e é a principal refeição da família."
+        }
+      ]
+    }
+  ]
+}

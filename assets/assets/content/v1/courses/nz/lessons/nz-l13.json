@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l13",
+  "title": "Qual é o nosso ponto de encontro?",
+  "scenario": "Na conexão, Leo localiza Sam e o grupo NZ e confirma com quem deve ficar.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Qual é o nosso ponto de encontro?",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Excuse me. Where is my group leader?",
+          "pt": "Com licença. Onde está a monitora do meu grupo?"
+        },
+        {
+          "speaker": "Agent",
+          "en": "Which group?",
+          "pt": "Qual grupo?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "The New Zealand group.",
+          "pt": "O grupo da Nova Zelândia."
+        },
+        {
+          "speaker": "Agent",
+          "en": "Over there, near gate five.",
+          "pt": "Ali, perto do portão cinco."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Leo! Stay with your group, okay?",
+          "pt": "Leo! Fique com o seu grupo, ok?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes. Sorry!",
+          "pt": "Sim. Desculpa!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "excuse me",
+          "pt": "com licença",
+          "emoji": "🙋"
+        },
+        {
+          "en": "group leader",
+          "pt": "monitor / líder do grupo",
+          "emoji": "🧑‍🏫"
+        },
+        {
+          "en": "over there",
+          "pt": "ali / lá",
+          "emoji": "👉"
+        },
+        {
+          "en": "Stay with your group.",
+          "pt": "Fique com o seu grupo.",
+          "emoji": "👥"
+        },
+        {
+          "en": "near",
+          "pt": "perto de",
+          "emoji": "📍"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me. Where is my group leader?\"?",
+      "lang": "pt",
+      "options": [
+        "Leo! Fique com o seu grupo, ok?",
+        "Com licença. Onde está a monitora do meu grupo?",
+        "Sim. Desculpa!"
+      ],
+      "correct": 1,
+      "explanation": "\"Where is my group leader?\" = Onde está o líder do meu grupo?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"O grupo da Nova Zelândia.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Leo! Stay with your group, okay?",
+        "The New Zealand group.",
+        "Yes. Sorry!"
+      ],
+      "correct": 1,
+      "explanation": "\"The New Zealand group\" = o grupo da Nova Zelândia."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Com licença. Onde está a monitora do meu grupo?",
+      "answer": [
+        "Excuse",
+        "me.",
+        "Where",
+        "is",
+        "my",
+        "group",
+        "leader?"
+      ],
+      "distractors": [
+        "leo",
+        "stay"
+      ],
+      "explanation": "\"Where is my group leader?\" = Onde está o líder do meu grupo?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Over there, near gate five.",
+      "lang": "pt",
+      "options": [
+        "Sim. Desculpa!",
+        "Com licença. Onde está a monitora do meu grupo?",
+        "Ali, perto do portão cinco."
+      ],
+      "correct": 2,
+      "explanation": "\"Over there\" = ali. \"Near\" = perto de."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Agent",
+          "en": "Which group?",
+          "pt": "Qual grupo?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "O grupo da Nova Zelândia.",
+      "options": [
+        "Leo! Stay with your group, okay?",
+        "The New Zealand group.",
+        "Yes. Sorry!"
+      ],
+      "correct": 1,
+      "explanation": "\"The New Zealand group\" = o grupo da Nova Zelândia."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Perdido na conexão",
+      "questions": [
+        {
+          "english": "Excuse me. Where is my group leader?",
+          "options": [
+            "Leo! Fique com o seu grupo, ok?",
+            "Sim. Desculpa!",
+            "Com licença. Onde está a monitora do meu grupo?"
+          ],
+          "correct": 2,
+          "joke": "\"Where is my group leader?\" = Onde está o líder do meu grupo?"
+        },
+        {
+          "english": "Over there, near gate five.",
+          "options": [
+            "Ali, perto do portão cinco.",
+            "Qual grupo?",
+            "O grupo da Nova Zelândia."
+          ],
+          "correct": 0,
+          "joke": "\"Over there\" = ali. \"Near\" = perto de."
+        },
+        {
+          "english": "Leo! Stay with your group, okay?",
+          "options": [
+            "Leo! Fique com o seu grupo, ok?",
+            "O grupo da Nova Zelândia.",
+            "Ali, perto do portão cinco."
+          ],
+          "correct": 0,
+          "joke": "\"Stay with your group\" = fique com o seu grupo."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Antes do embarque · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🧑‍🏫",
+          "title": "Líder do grupo",
+          "en": "Where is my group leader?",
+          "pt": "Se a sua viagem tem monitor ou líder de grupo, procure essa pessoa primeiro em caso de dúvida no aeroporto. Anote o contato antes de embarcar."
+        }
+      ]
+    }
+  ]
+}

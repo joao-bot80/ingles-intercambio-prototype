@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l20",
+  "title": "Missão: do painel à fronteira",
+  "scenario": "Leo confirma o portão e Bia responde ao agente canadense com os dados do cenário.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: do painel à fronteira",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Excuse me. Where is gate twenty?",
+          "pt": "Com licença. Onde fica o portão vinte?"
+        },
+        {
+          "speaker": "Agent",
+          "en": "On the left. Boarding is at ten thirty.",
+          "pt": "À esquerda. O embarque é às dez e meia."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thank you!",
+          "pt": "Obrigado!"
+        },
+        {
+          "speaker": "Officer",
+          "en": "Why are you in Canada?",
+          "pt": "Por que você está no Canadá?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm here to study.",
+          "pt": "Estou aqui para estudar."
+        },
+        {
+          "speaker": "Officer",
+          "en": "How long will you stay?",
+          "pt": "Quanto tempo você vai ficar?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Sorry, can you repeat, please?",
+          "pt": "Desculpa, pode repetir, por favor?"
+        },
+        {
+          "speaker": "Officer",
+          "en": "How long will you stay in Canada?",
+          "pt": "Quanto tempo você vai ficar no Canadá?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Six months. With a host family.",
+          "pt": "Seis meses. Com uma família anfitriã."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "gate",
+          "pt": "portão",
+          "emoji": "🚪"
+        },
+        {
+          "en": "I'm here to study.",
+          "pt": "Estou aqui para estudar.",
+          "emoji": "📚"
+        },
+        {
+          "en": "Can you repeat, please?",
+          "pt": "Pode repetir, por favor?",
+          "emoji": "🔁"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me. Where is gate twenty?\"?",
+      "lang": "pt",
+      "options": [
+        "Estou aqui para estudar.",
+        "Quanto tempo você vai ficar?",
+        "Com licença. Onde fica o portão vinte?"
+      ],
+      "correct": 2,
+      "explanation": "\"Where is gate twenty?\" = Onde fica o portão vinte?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Seis meses. Com uma família anfitriã.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Six months. With a host family.",
+        "How long will you stay in Canada?",
+        "Excuse me. Where is gate twenty?"
+      ],
+      "correct": 0,
+      "explanation": "Duração e hospedagem: use os dados reais da sua viagem."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Com licença. Onde fica o portão vinte?",
+      "answer": [
+        "Excuse",
+        "me.",
+        "Where",
+        "is",
+        "gate",
+        "twenty?"
+      ],
+      "distractors": [
+        "please",
+        "six"
+      ],
+      "explanation": "\"Where is gate twenty?\" = Onde fica o portão vinte?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "I'm here to study.",
+      "lang": "pt",
+      "options": [
+        "Com licença. Onde fica o portão vinte?",
+        "Estou aqui para estudar.",
+        "À esquerda. O embarque é às dez e meia."
+      ],
+      "correct": 1,
+      "explanation": "Resposta curta e verdadeira."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Officer",
+          "en": "How long will you stay?",
+          "pt": "Quanto tempo você vai ficar?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Desculpa, pode repetir, por favor?",
+      "options": [
+        "Six months. With a host family.",
+        "Excuse me. Where is gate twenty?",
+        "Sorry, can you repeat, please?"
+      ],
+      "correct": 2,
+      "explanation": "Pedir para repetir é melhor do que responder errado."
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "Do painel à fronteira",
+      "questions": [
+        {
+          "english": "Excuse me. Where is gate twenty?",
+          "options": [
+            "Quanto tempo você vai ficar no Canadá?",
+            "Seis meses. Com uma família anfitriã.",
+            "Com licença. Onde fica o portão vinte?"
+          ],
+          "correct": 2,
+          "joke": "\"Where is gate twenty?\" = Onde fica o portão vinte?"
+        },
+        {
+          "english": "I'm here to study.",
+          "options": [
+            "Estou aqui para estudar.",
+            "À esquerda. O embarque é às dez e meia.",
+            "Obrigado!"
+          ],
+          "correct": 0,
+          "joke": "Resposta curta e verdadeira."
+        },
+        {
+          "english": "Sorry, can you repeat, please?",
+          "options": [
+            "À esquerda. O embarque é às dez e meia.",
+            "Obrigado!",
+            "Desculpa, pode repetir, por favor?"
+          ],
+          "correct": 2,
+          "joke": "Pedir para repetir é melhor do que responder errado."
+        },
+        {
+          "english": "Six months. With a host family.",
+          "options": [
+            "Seis meses. Com uma família anfitriã.",
+            "Quanto tempo você vai ficar no Canadá?",
+            "Com licença. Onde fica o portão vinte?"
+          ],
+          "correct": 0,
+          "joke": "Duração e hospedagem: use os dados reais da sua viagem."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Aeroporto · Canadá",
+      "items": [
+        {
+          "emoji": "🛂",
+          "title": "Calma e verdade",
+          "en": "I'm here to study.",
+          "pt": "Na fronteira, fale devagar e só a verdade. Se não entender, peça para repetir. Regras de entrada mudam: siga a sua agência e o site oficial do governo do Canadá (canada.ca)."
+        }
+      ]
+    }
+  ]
+}

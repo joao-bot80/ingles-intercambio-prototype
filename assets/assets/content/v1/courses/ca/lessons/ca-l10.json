@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l10",
+  "title": "Missão: minha ficha de viagem",
+  "scenario": "Sam confere nome, idade e um contato fictício de Leo para a viagem ao Canadá.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: minha ficha de viagem",
+      "lines": [
+        {
+          "speaker": "Sam",
+          "en": "Let's check your form. What's your name?",
+          "pt": "Vamos conferir a sua ficha. Qual é o seu nome?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "My name is Leo. Leonardo Souza Lima.",
+          "pt": "Meu nome é Leo. Leonardo Souza Lima."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Can you spell that?",
+          "pt": "Pode soletrar?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "L, E, O, N, A, R, D, O.",
+          "pt": "L, E, O, N, A, R, D, O."
+        },
+        {
+          "speaker": "Sam",
+          "en": "How old are you?",
+          "pt": "Quantos anos você tem?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I'm fifteen.",
+          "pt": "Eu tenho quinze anos."
+        },
+        {
+          "speaker": "Sam",
+          "en": "The meeting is at seven thirty.",
+          "pt": "O encontro é às sete e meia."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Seven thirty. Thank you!",
+          "pt": "Sete e meia. Obrigado!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "form",
+          "pt": "ficha / formulário",
+          "emoji": "📝"
+        },
+        {
+          "en": "check",
+          "pt": "conferir",
+          "emoji": "✅"
+        },
+        {
+          "en": "meeting",
+          "pt": "encontro / reunião",
+          "emoji": "🗓️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"I'm fifteen.\"?",
+      "lang": "pt",
+      "options": [
+        "Vamos conferir a sua ficha. Qual é o seu nome?",
+        "Meu nome é Leo. Leonardo Souza Lima.",
+        "Eu tenho quinze anos."
+      ],
+      "correct": 2,
+      "explanation": "Idade com \"to be\": I'm fifteen."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"O encontro é às sete e meia.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Let's check your form. What's your name?",
+        "My name is Leo. Leonardo Souza Lima.",
+        "The meeting is at seven thirty."
+      ],
+      "correct": 2,
+      "explanation": "\"Seven thirty\" = sete e meia."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Meu nome é Leo. Leonardo Souza Lima.",
+      "answer": [
+        "My",
+        "name",
+        "is",
+        "Leo.",
+        "Leonardo",
+        "Souza",
+        "Lima."
+      ],
+      "distractors": [
+        "seven",
+        "thirty"
+      ],
+      "explanation": "\"My name is...\" = Meu nome é..."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Can you spell that?",
+      "lang": "pt",
+      "options": [
+        "Pode soletrar?",
+        "L, E, O, N, A, R, D, O.",
+        "Quantos anos você tem?"
+      ],
+      "correct": 0,
+      "explanation": "\"Can you spell that?\" = Pode soletrar?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sam",
+          "en": "Let's check your form. What's your name?",
+          "pt": "Vamos conferir a sua ficha. Qual é o seu nome?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Meu nome é Leo. Leonardo Souza Lima.",
+      "options": [
+        "I'm fifteen.",
+        "The meeting is at seven thirty.",
+        "My name is Leo. Leonardo Souza Lima."
+      ],
+      "correct": 2,
+      "explanation": "\"My name is...\" = Meu nome é..."
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "A ficha da viagem",
+      "questions": [
+        {
+          "english": "I'm fifteen.",
+          "options": [
+            "O encontro é às sete e meia.",
+            "Eu tenho quinze anos.",
+            "Sete e meia. Obrigado!"
+          ],
+          "correct": 1,
+          "joke": "Idade com \"to be\": I'm fifteen."
+        },
+        {
+          "english": "Can you spell that?",
+          "options": [
+            "Sete e meia. Obrigado!",
+            "Vamos conferir a sua ficha. Qual é o seu nome?",
+            "Pode soletrar?"
+          ],
+          "correct": 2,
+          "joke": "\"Can you spell that?\" = Pode soletrar?"
+        },
+        {
+          "english": "My name is Leo. Leonardo Souza Lima.",
+          "options": [
+            "Meu nome é Leo. Leonardo Souza Lima.",
+            "Vamos conferir a sua ficha. Qual é o seu nome?",
+            "Pode soletrar?"
+          ],
+          "correct": 0,
+          "joke": "\"My name is...\" = Meu nome é..."
+        },
+        {
+          "english": "The meeting is at seven thirty.",
+          "options": [
+            "L, E, O, N, A, R, D, O.",
+            "Quantos anos você tem?",
+            "O encontro é às sete e meia."
+          ],
+          "correct": 2,
+          "joke": "\"Seven thirty\" = sete e meia."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Primeiros passos · Canadá",
+      "items": [
+        {
+          "emoji": "🔒",
+          "title": "Dados de verdade só com quem precisa",
+          "en": "My name is Leo.",
+          "pt": "Na escola e na agência você dá nome, idade e contato. Para desconhecidos, na internet ou em redes sociais, não. Neste app os números são de treino."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l15",
+  "title": "Missão: pronta para viajar",
+  "scenario": "Bia faz uma chamada com Linda e depois confere a mochila com Sam.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: pronta para viajar",
+      "lines": [
+        {
+          "speaker": "Linda",
+          "en": "Hi, Bia! Can you hear me?",
+          "pt": "Oi, Bia! Você está me ouvindo?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes, I can! Is it cold there?",
+          "pt": "Sim! Está frio aí?"
+        },
+        {
+          "speaker": "Linda",
+          "en": "Yes, it's cold. Bring a jacket.",
+          "pt": "Sim, está frio. Traga um casaco."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Okay! See you soon!",
+          "pt": "Ok! Até breve!"
+        },
+        {
+          "speaker": "Sam",
+          "en": "Bia, do you have your passport?",
+          "pt": "Bia, você está com o seu passaporte?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes, I do. It's in my backpack.",
+          "pt": "Sim, estou. Está na minha mochila."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Great. Stay with your group!",
+          "pt": "Ótimo. Fique com o seu grupo!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Can you hear me?",
+          "pt": "Você está me ouvindo?",
+          "emoji": "👂"
+        },
+        {
+          "en": "jacket",
+          "pt": "casaco / jaqueta",
+          "emoji": "🧥"
+        },
+        {
+          "en": "passport",
+          "pt": "passaporte",
+          "emoji": "🛂"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Hi, Bia! Can you hear me?\"?",
+      "lang": "pt",
+      "options": [
+        "Oi, Bia! Você está me ouvindo?",
+        "Bia, você está com o seu passaporte?",
+        "Sim, estou. Está na minha mochila."
+      ],
+      "correct": 0,
+      "explanation": "Comece a chamada com \"Can you hear me?\""
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Ótimo. Fique com o seu grupo!\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Great. Stay with your group!",
+        "Yes, I can! Is it cold there?",
+        "Yes, it's cold. Bring a jacket."
+      ],
+      "correct": 0,
+      "explanation": "Fique sempre com o grupo."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Sim, estou. Está na minha mochila.",
+      "answer": [
+        "Yes,",
+        "I",
+        "do.",
+        "It's",
+        "in",
+        "my",
+        "backpack."
+      ],
+      "distractors": [
+        "passport",
+        "great"
+      ],
+      "explanation": "Documentos sempre na mochila."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Yes, it's cold. Bring a jacket.",
+      "lang": "pt",
+      "options": [
+        "Sim, está frio. Traga um casaco.",
+        "Ótimo. Fique com o seu grupo!",
+        "Oi, Bia! Você está me ouvindo?"
+      ],
+      "correct": 0,
+      "explanation": "\"Bring a jacket\" = traga um casaco."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sam",
+          "en": "Bia, do you have your passport?",
+          "pt": "Bia, você está com o seu passaporte?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Sim, estou. Está na minha mochila.",
+      "options": [
+        "Yes, I can! Is it cold there?",
+        "Yes, it's cold. Bring a jacket.",
+        "Yes, I do. It's in my backpack."
+      ],
+      "correct": 2,
+      "explanation": "Documentos sempre na mochila."
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "Pronta para embarcar",
+      "questions": [
+        {
+          "english": "Hi, Bia! Can you hear me?",
+          "options": [
+            "Oi, Bia! Você está me ouvindo?",
+            "Sim! Está frio aí?",
+            "Sim, está frio. Traga um casaco."
+          ],
+          "correct": 0,
+          "joke": "Comece a chamada com \"Can you hear me?\""
+        },
+        {
+          "english": "Yes, it's cold. Bring a jacket.",
+          "options": [
+            "Sim! Está frio aí?",
+            "Ok! Até breve!",
+            "Sim, está frio. Traga um casaco."
+          ],
+          "correct": 2,
+          "joke": "\"Bring a jacket\" = traga um casaco."
+        },
+        {
+          "english": "Yes, I do. It's in my backpack.",
+          "options": [
+            "Sim, está frio. Traga um casaco.",
+            "Sim, estou. Está na minha mochila.",
+            "Ok! Até breve!"
+          ],
+          "correct": 1,
+          "joke": "Documentos sempre na mochila."
+        },
+        {
+          "english": "Great. Stay with your group!",
+          "options": [
+            "Oi, Bia! Você está me ouvindo?",
+            "Sim! Está frio aí?",
+            "Ótimo. Fique com o seu grupo!"
+          ],
+          "correct": 2,
+          "joke": "Fique sempre com o grupo."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Antes do embarque · Canadá",
+      "items": [
+        {
+          "emoji": "🎫",
+          "title": "Boarding pass",
+          "en": "Boarding pass, please.",
+          "pt": "Guarde o cartão de embarque (no papel ou no celular) até sair do avião. Na conexão, confira o portão nos painéis: ele pode mudar!"
+        }
+      ]
+    }
+  ]
+}

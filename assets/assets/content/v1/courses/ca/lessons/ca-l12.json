@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l12",
+  "title": "Passaporte na mochila",
+  "scenario": "Leo organiza os documentos para o Canadá com Sam.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Passaporte na mochila",
+      "lines": [
+        {
+          "speaker": "Sam",
+          "en": "Do you have your passport?",
+          "pt": "Você está com o seu passaporte?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes, I do.",
+          "pt": "Sim, estou."
+        },
+        {
+          "speaker": "Sam",
+          "en": "And your school letter?",
+          "pt": "E a carta da escola?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes. It's in my backpack.",
+          "pt": "Sim. Está na minha mochila."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Good! Documents in the backpack, not in the big bag.",
+          "pt": "Ótimo! Documentos na mochila, não na mala grande."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Okay. I'm ready!",
+          "pt": "Ok. Estou pronto!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "passport",
+          "pt": "passaporte",
+          "emoji": "🛂"
+        },
+        {
+          "en": "backpack",
+          "pt": "mochila",
+          "emoji": "🎒"
+        },
+        {
+          "en": "school letter",
+          "pt": "carta da escola",
+          "emoji": "✉️"
+        },
+        {
+          "en": "documents",
+          "pt": "documentos",
+          "emoji": "📄"
+        },
+        {
+          "en": "ready",
+          "pt": "pronto / pronta",
+          "emoji": "✅"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Do you have your passport?\"?",
+      "lang": "pt",
+      "options": [
+        "Sim, estou.",
+        "E a carta da escola?",
+        "Você está com o seu passaporte?"
+      ],
+      "correct": 2,
+      "explanation": "\"Do you have...?\" = Você tem / está com...? Resposta curta: \"Yes, I do.\""
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Ok. Estou pronto!\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Yes, I do.",
+        "And your school letter?",
+        "Okay. I'm ready!"
+      ],
+      "correct": 2,
+      "explanation": "\"I'm ready\" = Estou pronto / pronta."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Sim. Está na minha mochila.",
+      "answer": [
+        "Yes.",
+        "It's",
+        "in",
+        "my",
+        "backpack."
+      ],
+      "distractors": [
+        "big",
+        "bag"
+      ],
+      "explanation": "\"It's in my backpack\" = Está na minha mochila."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Yes. It's in my backpack.",
+      "lang": "pt",
+      "options": [
+        "Ok. Estou pronto!",
+        "Você está com o seu passaporte?",
+        "Sim. Está na minha mochila."
+      ],
+      "correct": 2,
+      "explanation": "\"It's in my backpack\" = Está na minha mochila."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sam",
+          "en": "Good! Documents in the backpack, not in the big bag.",
+          "pt": "Ótimo! Documentos na mochila, não na mala grande."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Ok. Estou pronto!",
+      "options": [
+        "Yes. It's in my backpack.",
+        "Do you have your passport?",
+        "Okay. I'm ready!"
+      ],
+      "correct": 2,
+      "explanation": "\"I'm ready\" = Estou pronto / pronta."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Mochila conferida",
+      "questions": [
+        {
+          "english": "Do you have your passport?",
+          "options": [
+            "Sim. Está na minha mochila.",
+            "Você está com o seu passaporte?",
+            "Ótimo! Documentos na mochila, não na mala grande."
+          ],
+          "correct": 1,
+          "joke": "\"Do you have...?\" = Você tem / está com...? Resposta curta: \"Yes, I do.\""
+        },
+        {
+          "english": "Yes. It's in my backpack.",
+          "options": [
+            "Ok. Estou pronto!",
+            "Você está com o seu passaporte?",
+            "Sim. Está na minha mochila."
+          ],
+          "correct": 2,
+          "joke": "\"It's in my backpack\" = Está na minha mochila."
+        },
+        {
+          "english": "And your school letter?",
+          "options": [
+            "Sim, estou.",
+            "Sim. Está na minha mochila.",
+            "E a carta da escola?"
+          ],
+          "correct": 2,
+          "joke": "\"School letter\" = carta da escola."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Antes do embarque · Canadá",
+      "items": [
+        {
+          "emoji": "🛂",
+          "title": "Documentos para o Canadá",
+          "en": "Passport, school letter",
+          "pt": "Passaporte, carta da escola e os documentos de entrada no Canadá SEMPRE na mochila, nunca na mala despachada. O que levar depende do seu visto: siga a orientação da sua agência e o site oficial do governo do Canadá (canada.ca)."
+        }
+      ]
+    }
+  ]
+}

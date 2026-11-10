@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l10",
+  "title": "Missão: os dados estão certos?",
+  "scenario": "Ms. Clarke confirma nome, idade e contato fictício de Leo antes da viagem.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: os dados estão certos?",
+      "lines": [
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Hello, Leo. What's your name, please?",
+          "pt": "Olá, Leo. Qual é o seu nome, por favor?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "My name is Leo. Leonardo Souza Lima.",
+          "pt": "Meu nome é Leo. Leonardo Souza Lima."
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Can you spell that?",
+          "pt": "Pode soletrar?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "S, O, U, Z, A. Z is zed.",
+          "pt": "S, O, U, Z, A. Z se diz zed."
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "How old are you?",
+          "pt": "Quantos anos você tem?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I'm fifteen.",
+          "pt": "Eu tenho quinze anos."
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Your call with the school is at seven thirty.",
+          "pt": "A sua chamada com a escola é às sete e meia."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Seven thirty. Thank you!",
+          "pt": "Sete e meia. Obrigado!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "check",
+          "pt": "conferir",
+          "emoji": "✅"
+        },
+        {
+          "en": "form",
+          "pt": "ficha / formulário",
+          "emoji": "📝"
+        },
+        {
+          "en": "correct",
+          "pt": "certo / correto",
+          "emoji": "✔️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"I'm fifteen.\"?",
+      "lang": "pt",
+      "options": [
+        "S, O, U, Z, A. Z se diz zed.",
+        "Eu tenho quinze anos.",
+        "Quantos anos você tem?"
+      ],
+      "correct": 1,
+      "explanation": "Idade com \"to be\": I'm fifteen."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"A sua chamada com a escola é às sete e meia.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Your call with the school is at seven thirty.",
+        "Can you spell that?",
+        "S, O, U, Z, A. Z is zed."
+      ],
+      "correct": 0,
+      "explanation": "\"Seven thirty\" = sete e meia."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Meu nome é Leo. Leonardo Souza Lima.",
+      "answer": [
+        "My",
+        "name",
+        "is",
+        "Leo.",
+        "Leonardo",
+        "Souza",
+        "Lima."
+      ],
+      "distractors": [
+        "thank",
+        "hello"
+      ],
+      "explanation": "\"My name is...\" = Meu nome é..."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Can you spell that?",
+      "lang": "pt",
+      "options": [
+        "A sua chamada com a escola é às sete e meia.",
+        "Sete e meia. Obrigado!",
+        "Pode soletrar?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can you spell that?\" = Pode soletrar?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Hello, Leo. What's your name, please?",
+          "pt": "Olá, Leo. Qual é o seu nome, por favor?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Meu nome é Leo. Leonardo Souza Lima.",
+      "options": [
+        "S, O, U, Z, A. Z is zed.",
+        "How old are you?",
+        "My name is Leo. Leonardo Souza Lima."
+      ],
+      "correct": 2,
+      "explanation": "\"My name is...\" = Meu nome é..."
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "Os dados do Leo",
+      "questions": [
+        {
+          "english": "I'm fifteen.",
+          "options": [
+            "Eu tenho quinze anos.",
+            "Quantos anos você tem?",
+            "A sua chamada com a escola é às sete e meia."
+          ],
+          "correct": 0,
+          "joke": "Idade com \"to be\": I'm fifteen."
+        },
+        {
+          "english": "Can you spell that?",
+          "options": [
+            "Pode soletrar?",
+            "Eu tenho quinze anos.",
+            "A sua chamada com a escola é às sete e meia."
+          ],
+          "correct": 0,
+          "joke": "\"Can you spell that?\" = Pode soletrar?"
+        },
+        {
+          "english": "My name is Leo. Leonardo Souza Lima.",
+          "options": [
+            "A sua chamada com a escola é às sete e meia.",
+            "Sete e meia. Obrigado!",
+            "Meu nome é Leo. Leonardo Souza Lima."
+          ],
+          "correct": 2,
+          "joke": "\"My name is...\" = Meu nome é..."
+        },
+        {
+          "english": "Your call with the school is at seven thirty.",
+          "options": [
+            "A sua chamada com a escola é às sete e meia.",
+            "Quantos anos você tem?",
+            "Eu tenho quinze anos."
+          ],
+          "correct": 0,
+          "joke": "\"Seven thirty\" = sete e meia."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Primeiros passos · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🔒",
+          "title": "Seus dados, com cuidado",
+          "en": "My name is Leo.",
+          "pt": "Nome, idade e contato são para a escola, a família e a agência. Não publique esses dados em redes sociais. Neste app, todos os números são de treino."
+        }
+      ]
+    }
+  ]
+}

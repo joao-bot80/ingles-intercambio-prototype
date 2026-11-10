@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l04",
+  "title": "Inglês devagar, por favor",
+  "scenario": "Sam ensaia com Bia uma conversa com a futura família anfitriã kiwi.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Inglês devagar, por favor",
+      "lines": [
+        {
+          "speaker": "Sam",
+          "en": "Let's practise. I'm your host mum. Welcome, Bia! How are you?",
+          "pt": "Vamos praticar. Eu sou a sua mãe anfitriã. Bem-vinda, Bia! Como você está?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Sorry, I don't understand.",
+          "pt": "Desculpa, eu não entendi."
+        },
+        {
+          "speaker": "Sam",
+          "en": "That's okay.",
+          "pt": "Tudo bem."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Can you repeat, please?",
+          "pt": "Pode repetir, por favor?"
+        },
+        {
+          "speaker": "Sam",
+          "en": "Sure. How are you?",
+          "pt": "Claro. Como você está?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm good, thank you!",
+          "pt": "Estou bem, obrigada!"
+        },
+        {
+          "speaker": "Sam",
+          "en": "Great job!",
+          "pt": "Muito bem!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "please",
+          "pt": "por favor",
+          "emoji": "🙏"
+        },
+        {
+          "en": "thank you",
+          "pt": "obrigado / obrigada",
+          "emoji": "💛"
+        },
+        {
+          "en": "I don't understand.",
+          "pt": "Eu não entendi.",
+          "emoji": "🤷"
+        },
+        {
+          "en": "Can you repeat, please?",
+          "pt": "Pode repetir, por favor?",
+          "emoji": "🔁"
+        },
+        {
+          "en": "How are you?",
+          "pt": "Como você está?",
+          "emoji": "🙂"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Sorry, I don't understand.\"?",
+      "lang": "pt",
+      "options": [
+        "Desculpa, eu não entendi.",
+        "Pode repetir, por favor?",
+        "Claro. Como você está?"
+      ],
+      "correct": 0,
+      "explanation": "\"I don't understand\" = eu não entendi. Use sem medo!"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Claro. Como você está?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Great job!",
+        "Sure. How are you?",
+        "Sorry, I don't understand."
+      ],
+      "correct": 1,
+      "explanation": "\"How are you?\" = Como você está?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Desculpa, eu não entendi.",
+      "answer": [
+        "Sorry,",
+        "I",
+        "don't",
+        "understand."
+      ],
+      "distractors": [
+        "good",
+        "thank"
+      ],
+      "explanation": "\"I don't understand\" = eu não entendi. Use sem medo!"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Can you repeat, please?",
+      "lang": "pt",
+      "options": [
+        "Claro. Como você está?",
+        "Pode repetir, por favor?",
+        "Estou bem, obrigada!"
+      ],
+      "correct": 1,
+      "explanation": "\"Can you repeat, please?\" = Pode repetir, por favor?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sam",
+          "en": "Sure. How are you?",
+          "pt": "Claro. Como você está?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Estou bem, obrigada!",
+      "options": [
+        "I'm good, thank you!",
+        "That's okay.",
+        "Can you repeat, please?"
+      ],
+      "correct": 0,
+      "explanation": "\"I'm good, thank you\" = Estou bem, obrigada."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A conversa com a família",
+      "questions": [
+        {
+          "english": "Sorry, I don't understand.",
+          "options": [
+            "Desculpa, eu não entendi.",
+            "Pode repetir, por favor?",
+            "Claro. Como você está?"
+          ],
+          "correct": 0,
+          "joke": "\"I don't understand\" = eu não entendi. Use sem medo!"
+        },
+        {
+          "english": "Can you repeat, please?",
+          "options": [
+            "Pode repetir, por favor?",
+            "Vamos praticar. Eu sou a sua mãe anfitriã. Bem-vinda, Bia! Como você está?",
+            "Desculpa, eu não entendi."
+          ],
+          "correct": 0,
+          "joke": "\"Can you repeat, please?\" = Pode repetir, por favor?"
+        },
+        {
+          "english": "I'm good, thank you!",
+          "options": [
+            "Tudo bem.",
+            "Pode repetir, por favor?",
+            "Estou bem, obrigada!"
+          ],
+          "correct": 2,
+          "joke": "\"I'm good, thank you\" = Estou bem, obrigada."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Primeiros passos · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🔁",
+          "title": "Não entendeu?",
+          "en": "Sorry, can you repeat that, please?",
+          "pt": "Pedir para repetir é normal e educado. É melhor perguntar do que responder errado. Se travar, mostre a carta da escola e chame o monitor do grupo, se houver."
+        }
+      ]
+    }
+  ]
+}

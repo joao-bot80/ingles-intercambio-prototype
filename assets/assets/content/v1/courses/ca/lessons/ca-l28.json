@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l28",
+  "title": "Sala, andar e locker",
+  "scenario": "Leo procura uma sala e o seu armário na escola canadense do roteiro.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Sala, andar e locker",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Excuse me. Where is room twelve?",
+          "pt": "Com licença. Onde fica a sala doze?"
+        },
+        {
+          "speaker": "Jake",
+          "en": "Room twelve is on the second floor.",
+          "pt": "A sala doze fica no segundo andar."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thanks! And where is my locker?",
+          "pt": "Valeu! E onde fica o meu armário?"
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "Come with me, Leo. This is your locker.",
+          "pt": "Venha comigo, Leo. Este é o seu armário."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Cool! Thank you, Ms. Lee.",
+          "pt": "Legal! Obrigado, Ms. Lee."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "room",
+          "pt": "sala",
+          "emoji": "🚪"
+        },
+        {
+          "en": "second floor",
+          "pt": "segundo andar",
+          "emoji": "2️⃣"
+        },
+        {
+          "en": "floor",
+          "pt": "andar",
+          "emoji": "🏢"
+        },
+        {
+          "en": "locker",
+          "pt": "armário (da escola)",
+          "emoji": "🔐"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me. Where is room twelve?\"?",
+      "lang": "pt",
+      "options": [
+        "Venha comigo, Leo. Este é o seu armário.",
+        "Legal! Obrigado, Ms. Lee.",
+        "Com licença. Onde fica a sala doze?"
+      ],
+      "correct": 2,
+      "explanation": "\"Where is room twelve?\" = Onde fica a sala doze?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Valeu! E onde fica o meu armário?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Thanks! And where is my locker?",
+        "Room twelve is on the second floor.",
+        "Come with me, Leo. This is your locker."
+      ],
+      "correct": 0,
+      "explanation": "\"Where is my locker?\" = Onde fica o meu armário?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Com licença. Onde fica a sala doze?",
+      "answer": [
+        "Excuse",
+        "me.",
+        "Where",
+        "is",
+        "room",
+        "twelve?"
+      ],
+      "distractors": [
+        "locker",
+        "come"
+      ],
+      "explanation": "\"Where is room twelve?\" = Onde fica a sala doze?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Room twelve is on the second floor.",
+      "lang": "pt",
+      "options": [
+        "Valeu! E onde fica o meu armário?",
+        "Venha comigo, Leo. Este é o seu armário.",
+        "A sala doze fica no segundo andar."
+      ],
+      "correct": 2,
+      "explanation": "\"On the second floor\" = no segundo andar."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Jake",
+          "en": "Room twelve is on the second floor.",
+          "pt": "A sala doze fica no segundo andar."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Valeu! E onde fica o meu armário?",
+      "options": [
+        "Thanks! And where is my locker?",
+        "Cool! Thank you, Ms. Lee.",
+        "Excuse me. Where is room twelve?"
+      ],
+      "correct": 0,
+      "explanation": "\"Where is my locker?\" = Onde fica o meu armário?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Perdido no corredor",
+      "questions": [
+        {
+          "english": "Excuse me. Where is room twelve?",
+          "options": [
+            "Com licença. Onde fica a sala doze?",
+            "Legal! Obrigado, Ms. Lee.",
+            "A sala doze fica no segundo andar."
+          ],
+          "correct": 0,
+          "joke": "\"Where is room twelve?\" = Onde fica a sala doze?"
+        },
+        {
+          "english": "Room twelve is on the second floor.",
+          "options": [
+            "Com licença. Onde fica a sala doze?",
+            "A sala doze fica no segundo andar.",
+            "Valeu! E onde fica o meu armário?"
+          ],
+          "correct": 1,
+          "joke": "\"On the second floor\" = no segundo andar."
+        },
+        {
+          "english": "Come with me, Leo. This is your locker.",
+          "options": [
+            "Venha comigo, Leo. Este é o seu armário.",
+            "Com licença. Onde fica a sala doze?",
+            "A sala doze fica no segundo andar."
+          ],
+          "correct": 0,
+          "joke": "\"This is your locker\" = este é o seu armário. Anote a combinação do cadeado!"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Canadá",
+      "items": [
+        {
+          "emoji": "🔐",
+          "title": "Locker",
+          "en": "This is your locker.",
+          "pt": "Cada aluno costuma ter um armário com cadeado. Anote a combinação no celular!"
+        }
+      ]
+    }
+  ]
+}

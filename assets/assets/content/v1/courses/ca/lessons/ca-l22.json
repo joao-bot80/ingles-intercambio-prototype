@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l22",
+  "title": "Bem-vinda à casa de Linda",
+  "scenario": "Linda, Dave e Emma mostram a casa canadense a Bia.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Bem-vinda à casa de Linda",
+      "lines": [
+        {
+          "speaker": "Linda",
+          "en": "Welcome, Bia! This is our house.",
+          "pt": "Bem-vinda, Bia! Esta é a nossa casa."
+        },
+        {
+          "speaker": "Dave",
+          "en": "And this is your room.",
+          "pt": "E este é o seu quarto."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thank you so much! Where is the bathroom?",
+          "pt": "Muito obrigada! Onde fica o banheiro?"
+        },
+        {
+          "speaker": "Emma",
+          "en": "The bathroom is next to your room.",
+          "pt": "O banheiro fica ao lado do seu quarto."
+        },
+        {
+          "speaker": "Linda",
+          "en": "Are you hungry?",
+          "pt": "Você está com fome?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "A little. And I'm tired.",
+          "pt": "Um pouco. E estou cansada."
+        },
+        {
+          "speaker": "Dave",
+          "en": "No problem. Dinner is soon.",
+          "pt": "Sem problema. O jantar sai logo."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "house",
+          "pt": "casa",
+          "emoji": "🏠"
+        },
+        {
+          "en": "room",
+          "pt": "quarto",
+          "emoji": "🛏️"
+        },
+        {
+          "en": "bathroom",
+          "pt": "banheiro (em casa)",
+          "emoji": "🛁"
+        },
+        {
+          "en": "hungry",
+          "pt": "com fome",
+          "emoji": "🍽️"
+        },
+        {
+          "en": "tired",
+          "pt": "cansado / cansada",
+          "emoji": "😴"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"And this is your room.\"?",
+      "lang": "pt",
+      "options": [
+        "O banheiro fica ao lado do seu quarto.",
+        "E este é o seu quarto.",
+        "Você está com fome?"
+      ],
+      "correct": 1,
+      "explanation": "\"This is your room\" = este é o seu quarto."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Você está com fome?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "A little. And I'm tired.",
+        "No problem. Dinner is soon.",
+        "Are you hungry?"
+      ],
+      "correct": 2,
+      "explanation": "\"Are you hungry?\" = Você está com fome?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Um pouco. E estou cansada.",
+      "answer": [
+        "A",
+        "little.",
+        "And",
+        "I'm",
+        "tired."
+      ],
+      "distractors": [
+        "our",
+        "house"
+      ],
+      "explanation": "\"I'm tired\" = estou cansado(a)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Thank you so much! Where is the bathroom?",
+      "lang": "pt",
+      "options": [
+        "Um pouco. E estou cansada.",
+        "Sem problema. O jantar sai logo.",
+        "Muito obrigada! Onde fica o banheiro?"
+      ],
+      "correct": 2,
+      "explanation": "\"Where is the bathroom?\" = Onde fica o banheiro? Em casa: bathroom."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Linda",
+          "en": "Are you hungry?",
+          "pt": "Você está com fome?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Um pouco. E estou cansada.",
+      "options": [
+        "The bathroom is next to your room.",
+        "A little. And I'm tired.",
+        "No problem. Dinner is soon."
+      ],
+      "correct": 1,
+      "explanation": "\"I'm tired\" = estou cansado(a)."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A primeira noite",
+      "questions": [
+        {
+          "english": "And this is your room.",
+          "options": [
+            "Você está com fome?",
+            "Um pouco. E estou cansada.",
+            "E este é o seu quarto."
+          ],
+          "correct": 2,
+          "joke": "\"This is your room\" = este é o seu quarto."
+        },
+        {
+          "english": "Thank you so much! Where is the bathroom?",
+          "options": [
+            "Muito obrigada! Onde fica o banheiro?",
+            "Sem problema. O jantar sai logo.",
+            "Bem-vinda, Bia! Esta é a nossa casa."
+          ],
+          "correct": 0,
+          "joke": "\"Where is the bathroom?\" = Onde fica o banheiro? Em casa: bathroom."
+        },
+        {
+          "english": "A little. And I'm tired.",
+          "options": [
+            "Um pouco. E estou cansada.",
+            "Você está com fome?",
+            "Sem problema. O jantar sai logo."
+          ],
+          "correct": 0,
+          "joke": "\"I'm tired\" = estou cansado(a)."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Casa de família · Canadá",
+      "items": [
+        {
+          "emoji": "🏡",
+          "title": "Agradeça bastante",
+          "en": "Thank you so much!",
+          "pt": "Agradeça muito: \"Thank you so much!\". Levar um presentinho do Brasil (doce, chaveiro) costuma ser bem recebido."
+        },
+        {
+          "emoji": "🥾",
+          "title": "Sapato na porta",
+          "en": "Can I take off my shoes?",
+          "pt": "Em muitas casas canadenses, todo mundo tira o sapato na entrada (no inverno, por causa da neve). Na dúvida, pergunte: \"Can I take off my shoes?\""
+        }
+      ]
+    }
+  ]
+}

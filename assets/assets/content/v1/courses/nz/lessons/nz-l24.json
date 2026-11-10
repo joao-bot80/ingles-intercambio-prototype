@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l24",
+  "title": "Um pedido à mesa de Jo e Mark",
+  "scenario": "Jo pergunta o que Bia come; Mark mostra como pedir algo à mesa.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Um pedido à mesa de Jo e Mark",
+      "lines": [
+        {
+          "speaker": "Jo",
+          "en": "Bia, do you eat fish?",
+          "pt": "Bia, você come peixe?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Sorry, I don't eat fish.",
+          "pt": "Desculpa, eu não como peixe."
+        },
+        {
+          "speaker": "Jo",
+          "en": "That's fine. We have lamb and vegetables.",
+          "pt": "Tudo bem. Temos cordeiro e legumes."
+        },
+        {
+          "speaker": "Mark",
+          "en": "Ruby, can you pass the salt, please?",
+          "pt": "Ruby, pode me passar o sal, por favor?"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "Here you go.",
+          "pt": "Aqui está."
+        },
+        {
+          "speaker": "Bia",
+          "en": "This is delicious!",
+          "pt": "Isto está delicioso!"
+        },
+        {
+          "speaker": "Jo",
+          "en": "More vegetables?",
+          "pt": "Mais legumes?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "No, thanks. I'm full.",
+          "pt": "Não, obrigada. Estou satisfeita."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "fish",
+          "pt": "peixe",
+          "emoji": "🐟"
+        },
+        {
+          "en": "lamb",
+          "pt": "cordeiro",
+          "emoji": "🍖"
+        },
+        {
+          "en": "vegetables",
+          "pt": "legumes / verduras",
+          "emoji": "🥦"
+        },
+        {
+          "en": "salt",
+          "pt": "sal",
+          "emoji": "🧂"
+        },
+        {
+          "en": "I'm full.",
+          "pt": "Estou satisfeito / satisfeita.",
+          "emoji": "😌"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Sorry, I don't eat fish.\"?",
+      "lang": "pt",
+      "options": [
+        "Isto está delicioso!",
+        "Desculpa, eu não como peixe.",
+        "Mais legumes?"
+      ],
+      "correct": 1,
+      "explanation": "\"I don't eat fish\" = eu não como peixe."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Isto está delicioso!\" em inglês?",
+      "lang": "en",
+      "options": [
+        "This is delicious!",
+        "Ruby, can you pass the salt, please?",
+        "Here you go."
+      ],
+      "correct": 0,
+      "explanation": "\"This is delicious\" = isto está delicioso."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Desculpa, eu não como peixe.",
+      "answer": [
+        "Sorry,",
+        "I",
+        "don't",
+        "eat",
+        "fish."
+      ],
+      "distractors": [
+        "lamb",
+        "and"
+      ],
+      "explanation": "\"I don't eat fish\" = eu não como peixe."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Ruby, can you pass the salt, please?",
+      "lang": "pt",
+      "options": [
+        "Bia, você come peixe?",
+        "Ruby, pode me passar o sal, por favor?",
+        "Desculpa, eu não como peixe."
+      ],
+      "correct": 1,
+      "explanation": "\"Can you pass the salt, please?\" = Pode me passar o sal, por favor?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Jo",
+          "en": "More vegetables?",
+          "pt": "Mais legumes?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Não, obrigada. Estou satisfeita.",
+      "options": [
+        "No, thanks. I'm full.",
+        "Ruby, can you pass the salt, please?",
+        "Here you go."
+      ],
+      "correct": 0,
+      "explanation": "\"I'm full\" = estou satisfeito(a)."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O jantar kiwi",
+      "questions": [
+        {
+          "english": "Sorry, I don't eat fish.",
+          "options": [
+            "Desculpa, eu não como peixe.",
+            "Isto está delicioso!",
+            "Mais legumes?"
+          ],
+          "correct": 0,
+          "joke": "\"I don't eat fish\" = eu não como peixe."
+        },
+        {
+          "english": "Ruby, can you pass the salt, please?",
+          "options": [
+            "Ruby, pode me passar o sal, por favor?",
+            "Não, obrigada. Estou satisfeita.",
+            "Bia, você come peixe?"
+          ],
+          "correct": 0,
+          "joke": "\"Can you pass the salt, please?\" = Pode me passar o sal, por favor?"
+        },
+        {
+          "english": "No, thanks. I'm full.",
+          "options": [
+            "Desculpa, eu não como peixe.",
+            "Tudo bem. Temos cordeiro e legumes.",
+            "Não, obrigada. Estou satisfeita."
+          ],
+          "correct": 2,
+          "joke": "\"I'm full\" = estou satisfeito(a)."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Casa de família · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🍽️",
+          "title": "Elogie e ajude",
+          "en": "It was delicious! Can I help?",
+          "pt": "Elogiar a comida e oferecer ajuda para tirar a mesa (\"Can I help?\") conta muitos pontos com a família."
+        },
+        {
+          "emoji": "🥪",
+          "title": "Lunch box",
+          "en": "Lunch box",
+          "pt": "Muitos alunos levam o lanche de casa (lunch box) para comer no intervalo e no almoço. O jantar (\"dinner\") costuma ser a refeição principal da família."
+        }
+      ]
+    }
+  ]
+}

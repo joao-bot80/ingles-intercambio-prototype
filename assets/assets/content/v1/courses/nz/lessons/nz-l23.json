@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l23",
+  "title": "Nossa rotina, nosso combinado",
+  "scenario": "Jo combina com Bia o jantar, a hora de voltar e o uso do aquecedor. São regras desta família.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Nossa rotina, nosso combinado",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "What time is dinner?",
+          "pt": "Que horas é o jantar?"
+        },
+        {
+          "speaker": "Jo",
+          "en": "Dinner is at six.",
+          "pt": "O jantar é às seis."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Can I use the heater? I'm cold.",
+          "pt": "Posso usar o aquecedor? Estou com frio."
+        },
+        {
+          "speaker": "Jo",
+          "en": "Yes, but turn it off at night.",
+          "pt": "Sim, mas desligue à noite."
+        },
+        {
+          "speaker": "Jo",
+          "en": "On school nights, be home by nine.",
+          "pt": "Nas noites antes de aula, esteja em casa até as nove."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Okay. Home by nine.",
+          "pt": "Ok. Em casa até as nove."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "dinner",
+          "pt": "jantar",
+          "emoji": "🍽️"
+        },
+        {
+          "en": "heater",
+          "pt": "aquecedor",
+          "emoji": "🔥"
+        },
+        {
+          "en": "turn it off",
+          "pt": "desligar",
+          "emoji": "📴"
+        },
+        {
+          "en": "school nights",
+          "pt": "noites antes de dia de aula",
+          "emoji": "🌙"
+        },
+        {
+          "en": "be home by nine",
+          "pt": "estar em casa até as nove",
+          "emoji": "🕘"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"What time is dinner?\"?",
+      "lang": "pt",
+      "options": [
+        "Posso usar o aquecedor? Estou com frio.",
+        "Que horas é o jantar?",
+        "Sim, mas desligue à noite."
+      ],
+      "correct": 1,
+      "explanation": "\"What time is dinner?\" = Que horas é o jantar?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Sim, mas desligue à noite.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Can I use the heater? I'm cold.",
+        "On school nights, be home by nine.",
+        "Yes, but turn it off at night."
+      ],
+      "correct": 2,
+      "explanation": "\"Turn it off\" = desligue."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Que horas é o jantar?",
+      "answer": [
+        "What",
+        "time",
+        "is",
+        "dinner?"
+      ],
+      "distractors": [
+        "off",
+        "night"
+      ],
+      "explanation": "\"What time is dinner?\" = Que horas é o jantar?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Can I use the heater? I'm cold.",
+      "lang": "pt",
+      "options": [
+        "Sim, mas desligue à noite.",
+        "Nas noites antes de aula, esteja em casa até as nove.",
+        "Posso usar o aquecedor? Estou com frio."
+      ],
+      "correct": 2,
+      "explanation": "\"Can I use the heater?\" = Posso usar o aquecedor? Muitas casas na NZ são frias no inverno."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Jo",
+          "en": "Dinner is at six.",
+          "pt": "O jantar é às seis."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Posso usar o aquecedor? Estou com frio.",
+      "options": [
+        "Yes, but turn it off at night.",
+        "Can I use the heater? I'm cold.",
+        "On school nights, be home by nine."
+      ],
+      "correct": 1,
+      "explanation": "\"Can I use the heater?\" = Posso usar o aquecedor? Muitas casas na NZ são frias no inverno."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Os combinados da casa",
+      "questions": [
+        {
+          "english": "What time is dinner?",
+          "options": [
+            "Que horas é o jantar?",
+            "Posso usar o aquecedor? Estou com frio.",
+            "Sim, mas desligue à noite."
+          ],
+          "correct": 0,
+          "joke": "\"What time is dinner?\" = Que horas é o jantar?"
+        },
+        {
+          "english": "Can I use the heater? I'm cold.",
+          "options": [
+            "Sim, mas desligue à noite.",
+            "Posso usar o aquecedor? Estou com frio.",
+            "Nas noites antes de aula, esteja em casa até as nove."
+          ],
+          "correct": 1,
+          "joke": "\"Can I use the heater?\" = Posso usar o aquecedor? Muitas casas na NZ são frias no inverno."
+        },
+        {
+          "english": "On school nights, be home by nine.",
+          "options": [
+            "Nas noites antes de aula, esteja em casa até as nove.",
+            "Sim, mas desligue à noite.",
+            "Ok. Em casa até as nove."
+          ],
+          "correct": 0,
+          "joke": "\"School nights\" = noites antes de dia de aula."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Casa de família · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🔥",
+          "title": "Aquecimento",
+          "en": "Can I use the heater?",
+          "pt": "Muitas casas não têm aquecimento central e podem ficar frias no inverno. Pergunte como funciona o aquecedor (\"heater\") e leve roupa quente."
+        },
+        {
+          "emoji": "🕘",
+          "title": "Regras da casa",
+          "en": "What time should I be home?",
+          "pt": "Horário de voltar, tarefas e uso do celular na mesa variam de família para família. Pergunte no primeiro dia!"
+        }
+      ]
+    }
+  ]
+}

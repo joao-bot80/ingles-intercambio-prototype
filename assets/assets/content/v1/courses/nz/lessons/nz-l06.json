@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l06",
+  "title": "Contar a bagagem do grupo",
+  "scenario": "Leo conta mochilas e objetos que o grupo vai levar para a Nova Zelândia.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Contar a bagagem do grupo",
+      "lines": [
+        {
+          "speaker": "Sam",
+          "en": "How many backpacks? Let's count.",
+          "pt": "Quantas mochilas? Vamos contar."
+        },
+        {
+          "speaker": "Leo",
+          "en": "One, two, three, four, five.",
+          "pt": "Um, dois, três, quatro, cinco."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Six, seven, eight, nine, ten.",
+          "pt": "Seis, sete, oito, nove, dez."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Ten backpacks!",
+          "pt": "Dez mochilas!"
+        },
+        {
+          "speaker": "Sam",
+          "en": "And raincoats?",
+          "pt": "E capas de chuva?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Zero raincoats! We need raincoats.",
+          "pt": "Nenhuma capa de chuva! A gente precisa de capas de chuva."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "one, two, three, four, five",
+          "pt": "um, dois, três, quatro, cinco",
+          "emoji": "5️⃣"
+        },
+        {
+          "en": "six, seven, eight, nine, ten",
+          "pt": "seis, sete, oito, nove, dez",
+          "emoji": "🔟"
+        },
+        {
+          "en": "zero",
+          "pt": "zero",
+          "emoji": "0️⃣"
+        },
+        {
+          "en": "backpack",
+          "pt": "mochila",
+          "emoji": "🎒"
+        },
+        {
+          "en": "raincoat",
+          "pt": "capa de chuva",
+          "emoji": "🧥"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Ten backpacks!\"?",
+      "lang": "pt",
+      "options": [
+        "Dez mochilas!",
+        "Seis, sete, oito, nove, dez.",
+        "E capas de chuva?"
+      ],
+      "correct": 0,
+      "explanation": "\"Ten backpacks\" = dez mochilas. No plural, -s no final."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Um, dois, três, quatro, cinco.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "One, two, three, four, five.",
+        "Ten backpacks!",
+        "And raincoats?"
+      ],
+      "correct": 0,
+      "explanation": "One a five: one, two, three, four, five."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Nenhuma capa de chuva! A gente precisa de capas de chuva.",
+      "answer": [
+        "Zero",
+        "raincoats!",
+        "We",
+        "need",
+        "raincoats."
+      ],
+      "distractors": [
+        "five",
+        "six"
+      ],
+      "explanation": "\"We need...\" = a gente precisa de..."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "How many backpacks? Let's count.",
+      "lang": "pt",
+      "options": [
+        "Quantas mochilas? Vamos contar.",
+        "Seis, sete, oito, nove, dez.",
+        "Dez mochilas!"
+      ],
+      "correct": 0,
+      "explanation": "\"How many...?\" = Quantos / quantas...?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sam",
+          "en": "And raincoats?",
+          "pt": "E capas de chuva?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Nenhuma capa de chuva! A gente precisa de capas de chuva.",
+      "options": [
+        "Six, seven, eight, nine, ten.",
+        "Ten backpacks!",
+        "Zero raincoats! We need raincoats."
+      ],
+      "correct": 2,
+      "explanation": "\"We need...\" = a gente precisa de..."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A contagem da bagagem",
+      "questions": [
+        {
+          "english": "Ten backpacks!",
+          "options": [
+            "Quantas mochilas? Vamos contar.",
+            "Dez mochilas!",
+            "Um, dois, três, quatro, cinco."
+          ],
+          "correct": 1,
+          "joke": "\"Ten backpacks\" = dez mochilas. No plural, -s no final."
+        },
+        {
+          "english": "How many backpacks? Let's count.",
+          "options": [
+            "Um, dois, três, quatro, cinco.",
+            "Quantas mochilas? Vamos contar.",
+            "Seis, sete, oito, nove, dez."
+          ],
+          "correct": 1,
+          "joke": "\"How many...?\" = Quantos / quantas...?"
+        },
+        {
+          "english": "Zero raincoats! We need raincoats.",
+          "options": [
+            "Nenhuma capa de chuva! A gente precisa de capas de chuva.",
+            "Dez mochilas!",
+            "E capas de chuva?"
+          ],
+          "correct": 0,
+          "joke": "\"We need...\" = a gente precisa de..."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Primeiros passos · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "📱",
+          "title": "Telefone na Nova Zelândia",
+          "en": "Zero, two, one...",
+          "pt": "Celular pode ser \"mobile\" ou \"cellphone\": os dois são comuns. Os números de celular costumam começar com 02. Ao ditar, muita gente fala \"oh\" no lugar de \"zero\"."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l28",
+  "title": "Uniforme e turma-base",
+  "scenario": "Leo pergunta aonde ir antes da primeira aula e como funciona o uniforme. Os nomes variam por escola.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Uniforme e turma-base",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Where is my form class?",
+          "pt": "Onde fica a minha turma-base?"
+        },
+        {
+          "speaker": "Ben",
+          "en": "Your form class is upstairs, room nine.",
+          "pt": "A sua turma-base fica lá em cima, sala nove."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thanks. Do I need a uniform?",
+          "pt": "Valeu. Eu preciso de uniforme?"
+        },
+        {
+          "speaker": "Ben",
+          "en": "Yes. Please wear your uniform tomorrow.",
+          "pt": "Sim. Por favor, use o uniforme amanhã."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Okay. Uniform tomorrow!",
+          "pt": "Ok. Uniforme amanhã!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "form class",
+          "pt": "turma-base (do começo do dia)",
+          "emoji": "👥"
+        },
+        {
+          "en": "upstairs",
+          "pt": "lá em cima / no andar de cima",
+          "emoji": "⬆️"
+        },
+        {
+          "en": "uniform",
+          "pt": "uniforme",
+          "emoji": "👔"
+        },
+        {
+          "en": "tomorrow",
+          "pt": "amanhã",
+          "emoji": "📅"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Where is my form class?\"?",
+      "lang": "pt",
+      "options": [
+        "Sim. Por favor, use o uniforme amanhã.",
+        "Ok. Uniforme amanhã!",
+        "Onde fica a minha turma-base?"
+      ],
+      "correct": 2,
+      "explanation": "\"Where is my form class?\" = Onde fica a minha turma-base?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Valeu. Eu preciso de uniforme?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Okay. Uniform tomorrow!",
+        "Thanks. Do I need a uniform?",
+        "Where is my form class?"
+      ],
+      "correct": 1,
+      "explanation": "\"Do I need...?\" = Eu preciso de...?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Onde fica a minha turma-base?",
+      "answer": [
+        "Where",
+        "is",
+        "my",
+        "form",
+        "class?"
+      ],
+      "distractors": [
+        "room",
+        "nine"
+      ],
+      "explanation": "\"Where is my form class?\" = Onde fica a minha turma-base?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Yes. Please wear your uniform tomorrow.",
+      "lang": "pt",
+      "options": [
+        "Sim. Por favor, use o uniforme amanhã.",
+        "Onde fica a minha turma-base?",
+        "A sua turma-base fica lá em cima, sala nove."
+      ],
+      "correct": 0,
+      "explanation": "\"Please wear your uniform tomorrow\" = por favor, use o uniforme amanhã."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ben",
+          "en": "Your form class is upstairs, room nine.",
+          "pt": "A sua turma-base fica lá em cima, sala nove."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Valeu. Eu preciso de uniforme?",
+      "options": [
+        "Yes. Please wear your uniform tomorrow.",
+        "Okay. Uniform tomorrow!",
+        "Thanks. Do I need a uniform?"
+      ],
+      "correct": 2,
+      "explanation": "\"Do I need...?\" = Eu preciso de...?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Antes da primeira aula",
+      "questions": [
+        {
+          "english": "Where is my form class?",
+          "options": [
+            "Ok. Uniforme amanhã!",
+            "Onde fica a minha turma-base?",
+            "A sua turma-base fica lá em cima, sala nove."
+          ],
+          "correct": 1,
+          "joke": "\"Where is my form class?\" = Onde fica a minha turma-base?"
+        },
+        {
+          "english": "Yes. Please wear your uniform tomorrow.",
+          "options": [
+            "Valeu. Eu preciso de uniforme?",
+            "Ok. Uniforme amanhã!",
+            "Sim. Por favor, use o uniforme amanhã."
+          ],
+          "correct": 2,
+          "joke": "\"Please wear your uniform tomorrow\" = por favor, use o uniforme amanhã."
+        },
+        {
+          "english": "Your form class is upstairs, room nine.",
+          "options": [
+            "Ok. Uniforme amanhã!",
+            "Onde fica a minha turma-base?",
+            "A sua turma-base fica lá em cima, sala nove."
+          ],
+          "correct": 2,
+          "joke": "\"Upstairs\" = lá em cima."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "👔",
+          "title": "Uniforme",
+          "en": "Please wear your uniform tomorrow.",
+          "pt": "A maioria das escolas neozelandesas exige uniforme. A escola informa onde comprar e o que usar."
+        }
+      ]
+    }
+  ]
+}

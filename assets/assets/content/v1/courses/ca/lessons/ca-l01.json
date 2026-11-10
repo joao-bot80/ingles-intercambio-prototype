@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l01",
+  "title": "Oi, Sam!",
+  "scenario": "Ainda no Brasil, Bia e Leo conhecem Sam, a monitora do grupo que vai ao Canadá.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Oi, Sam!",
+      "lines": [
+        {
+          "speaker": "Sam",
+          "en": "Hi! I'm Sam.",
+          "pt": "Oi! Eu sou a Sam."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Hi, Sam!",
+          "pt": "Oi, Sam!"
+        },
+        {
+          "speaker": "Sam",
+          "en": "Hello, Leo!",
+          "pt": "Olá, Leo!"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Hello!",
+          "pt": "Olá!"
+        },
+        {
+          "speaker": "Sam",
+          "en": "Welcome to the group!",
+          "pt": "Bem-vindos ao grupo!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thank you!",
+          "pt": "Obrigada!"
+        },
+        {
+          "speaker": "Sam",
+          "en": "Goodbye! See you soon.",
+          "pt": "Tchau! Até breve."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Bye, Sam!",
+          "pt": "Tchau, Sam!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "hi",
+          "pt": "oi",
+          "emoji": "👋"
+        },
+        {
+          "en": "hello",
+          "pt": "olá",
+          "emoji": "🙂"
+        },
+        {
+          "en": "goodbye",
+          "pt": "tchau / adeus",
+          "emoji": "🚶"
+        },
+        {
+          "en": "see you soon",
+          "pt": "até breve",
+          "emoji": "🔜"
+        },
+        {
+          "en": "group",
+          "pt": "grupo",
+          "emoji": "👥"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Hi, Sam!\"?",
+      "lang": "pt",
+      "options": [
+        "Tchau, Sam!",
+        "Bem-vindos ao grupo!",
+        "Oi, Sam!"
+      ],
+      "correct": 2,
+      "explanation": "\"Hi\" = oi. É o cumprimento mais simples e serve para qualquer pessoa."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Obrigada!\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Thank you!",
+        "Hello, Leo!",
+        "Hello!"
+      ],
+      "correct": 0,
+      "explanation": "\"Thank you\" = obrigado / obrigada."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Tchau! Até breve.",
+      "answer": [
+        "Goodbye!",
+        "See",
+        "you",
+        "soon."
+      ],
+      "distractors": [
+        "group",
+        "thank"
+      ],
+      "explanation": "\"Goodbye\" = tchau. \"See you soon\" = até breve."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Goodbye! See you soon.",
+      "lang": "pt",
+      "options": [
+        "Tchau! Até breve.",
+        "Oi, Sam!",
+        "Olá, Leo!"
+      ],
+      "correct": 0,
+      "explanation": "\"Goodbye\" = tchau. \"See you soon\" = até breve."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sam",
+          "en": "Hello, Leo!",
+          "pt": "Olá, Leo!"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Olá!",
+      "options": [
+        "Hello!",
+        "Goodbye! See you soon.",
+        "Bye, Sam!"
+      ],
+      "correct": 0,
+      "explanation": "\"Hello\" = olá. Um pouco mais formal que \"hi\", mas serve sempre."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Primeiro oi",
+      "questions": [
+        {
+          "english": "Hi, Sam!",
+          "options": [
+            "Bem-vindos ao grupo!",
+            "Oi, Sam!",
+            "Obrigada!"
+          ],
+          "correct": 1,
+          "joke": "\"Hi\" = oi. É o cumprimento mais simples e serve para qualquer pessoa."
+        },
+        {
+          "english": "Goodbye! See you soon.",
+          "options": [
+            "Olá, Leo!",
+            "Olá!",
+            "Tchau! Até breve."
+          ],
+          "correct": 2,
+          "joke": "\"Goodbye\" = tchau. \"See you soon\" = até breve."
+        },
+        {
+          "english": "Hello!",
+          "options": [
+            "Tchau! Até breve.",
+            "Olá!",
+            "Tchau, Sam!"
+          ],
+          "correct": 1,
+          "joke": "\"Hello\" = olá. Um pouco mais formal que \"hi\", mas serve sempre."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Primeiros passos · Canadá",
+      "items": [
+        {
+          "emoji": "🤝",
+          "title": "Cumprimento no Canadá",
+          "en": "Hi! Nice to meet you.",
+          "pt": "Um \"Hi!\" com um sorriso é uma forma simples de cumprimentar. Apertos de mão, abraços e beijos variam conforme a pessoa, a região e o contexto. Não presuma contato físico: observe e respeite a preferência de cada pessoa."
+        },
+        {
+          "emoji": "🎒",
+          "title": "Bem-vindo ao curso",
+          "en": "I'm going to Canada!",
+          "pt": "Este curso é só para quem vai para o Canadá: tudo o que você aprende aqui é para a sua viagem. Faça uma lição por dia e treine as frases em voz alta."
+        }
+      ]
+    }
+  ]
+}

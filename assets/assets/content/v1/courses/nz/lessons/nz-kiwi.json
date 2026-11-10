@@ -66,7 +66,7 @@
         {
           "speaker": "Ruby",
           "en": "You sound like a kiwi!",
-          "pt": "Você já fala como uma kiwi!"
+          "pt": "Você já fala como uma neozelandesa!"
         }
       ]
     },
@@ -112,7 +112,7 @@
         "Uma loja de roupas"
       ],
       "correct": 0,
-      "explanation": "Na Nova Zelândia, \"dairy\" é a lojinha de esquina. Em outros lugares, a palavra só quer dizer \"laticínio\"."
+      "explanation": "Na Nova Zelândia, \"dairy\" também pode ser uma lojinha de esquina. Em outros contextos, a palavra se refere a leite e laticínios."
     },
     {
       "type": "build",
@@ -184,7 +184,7 @@
           "en": "kiwi",
           "kind": "igual",
           "meaning": "kiwi",
-          "tip": "Igual! Kiwi é a ave símbolo do país, a fruta e o apelido dos neozelandeses.",
+          "tip": "Kiwi pode ser a ave símbolo do país ou o apelido de uma pessoa da Nova Zelândia. A fruta normalmente é chamada de \"kiwifruit\" por lá.",
           "pt": "kiwi"
         },
         {

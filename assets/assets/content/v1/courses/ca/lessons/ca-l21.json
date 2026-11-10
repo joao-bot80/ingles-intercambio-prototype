@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l21",
+  "title": "Minha mala azul não chegou",
+  "scenario": "Leo descreve a mala no balcão de bagagem e avisa que tem comida para declarar.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Minha mala azul não chegou",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Excuse me. My bag is not here.",
+          "pt": "Com licença. A minha mala não está aqui."
+        },
+        {
+          "speaker": "Agent",
+          "en": "What colour is your bag?",
+          "pt": "De que cor é a sua mala?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "It's blue. It's big.",
+          "pt": "É azul. É grande."
+        },
+        {
+          "speaker": "Agent",
+          "en": "Okay. Please write your address here.",
+          "pt": "Certo. Por favor, escreva o seu endereço aqui."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Okay. And I have food to declare.",
+          "pt": "Ok. E eu tenho comida para declarar."
+        },
+        {
+          "speaker": "Agent",
+          "en": "Thank you. Tell the officer at customs.",
+          "pt": "Obrigada. Avise o agente na alfândega."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "My bag is not here.",
+          "pt": "A minha mala não está aqui.",
+          "emoji": "🧳"
+        },
+        {
+          "en": "blue",
+          "pt": "azul",
+          "emoji": "🔵"
+        },
+        {
+          "en": "big",
+          "pt": "grande",
+          "emoji": "🐘"
+        },
+        {
+          "en": "address",
+          "pt": "endereço",
+          "emoji": "🏠"
+        },
+        {
+          "en": "I have food to declare.",
+          "pt": "Eu tenho comida para declarar.",
+          "emoji": "🍎"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me. My bag is not here.\"?",
+      "lang": "pt",
+      "options": [
+        "Com licença. A minha mala não está aqui.",
+        "De que cor é a sua mala?",
+        "É azul. É grande."
+      ],
+      "correct": 0,
+      "explanation": "\"My bag is not here\" = a minha mala não está aqui. Vá ao balcão antes de sair da área de bagagem."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"De que cor é a sua mala?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "It's blue. It's big.",
+        "What colour is your bag?",
+        "Okay. Please write your address here."
+      ],
+      "correct": 1,
+      "explanation": "\"What colour?\" = De que cor?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Com licença. A minha mala não está aqui.",
+      "answer": [
+        "Excuse",
+        "me.",
+        "My",
+        "bag",
+        "is",
+        "not",
+        "here."
+      ],
+      "distractors": [
+        "customs",
+        "what"
+      ],
+      "explanation": "\"My bag is not here\" = a minha mala não está aqui. Vá ao balcão antes de sair da área de bagagem."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "It's blue. It's big.",
+      "lang": "pt",
+      "options": [
+        "Certo. Por favor, escreva o seu endereço aqui.",
+        "Ok. E eu tenho comida para declarar.",
+        "É azul. É grande."
+      ],
+      "correct": 2,
+      "explanation": "\"It's blue. It's big\" = é azul, é grande. Cor e tamanho ajudam a achar a mala."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Agent",
+          "en": "Okay. Please write your address here.",
+          "pt": "Certo. Por favor, escreva o seu endereço aqui."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Ok. E eu tenho comida para declarar.",
+      "options": [
+        "It's blue. It's big.",
+        "Okay. And I have food to declare.",
+        "Thank you. Tell the officer at customs."
+      ],
+      "correct": 1,
+      "explanation": "\"I have food to declare\" = tenho comida para declarar. Declare sempre, mesmo comida lacrada."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O balcão de bagagem",
+      "questions": [
+        {
+          "english": "Excuse me. My bag is not here.",
+          "options": [
+            "Ok. E eu tenho comida para declarar.",
+            "Com licença. A minha mala não está aqui.",
+            "Obrigada. Avise o agente na alfândega."
+          ],
+          "correct": 1,
+          "joke": "\"My bag is not here\" = a minha mala não está aqui. Vá ao balcão antes de sair da área de bagagem."
+        },
+        {
+          "english": "It's blue. It's big.",
+          "options": [
+            "Certo. Por favor, escreva o seu endereço aqui.",
+            "Ok. E eu tenho comida para declarar.",
+            "É azul. É grande."
+          ],
+          "correct": 2,
+          "joke": "\"It's blue. It's big\" = é azul, é grande. Cor e tamanho ajudam a achar a mala."
+        },
+        {
+          "english": "Okay. And I have food to declare.",
+          "options": [
+            "Ok. E eu tenho comida para declarar.",
+            "Obrigada. Avise o agente na alfândega.",
+            "Com licença. A minha mala não está aqui."
+          ],
+          "correct": 0,
+          "joke": "\"I have food to declare\" = tenho comida para declarar. Declare sempre, mesmo comida lacrada."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Casa de família · Canadá",
+      "items": [
+        {
+          "emoji": "🧳",
+          "title": "Mala perdida",
+          "en": "My bag is not here.",
+          "pt": "Se a mala não aparecer, vá ao balcão da companhia aérea ANTES de sair da área de bagagem, e avise o monitor do grupo, se houver. Tenha o endereço da família canadense no celular e no papel."
+        },
+        {
+          "emoji": "🍎",
+          "title": "Alfândega canadense",
+          "en": "Anything to declare?",
+          "pt": "O Canadá controla a entrada de alimentos, plantas e produtos de origem animal. Declare esses itens conforme as instruções oficiais, mesmo quando industrializados ou lacrados. Na dúvida, declare e pergunte ao agente. Consulte as regras atuais em inspection.canada.ca antes de preparar a mala."
+        }
+      ]
+    }
+  ]
+}

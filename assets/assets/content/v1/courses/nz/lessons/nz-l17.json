@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l17",
+  "title": "Conexão: painel primeiro",
+  "scenario": "Sam ensaia com o grupo NZ a leitura de portão e de embarque num aeroporto fictício.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Conexão: painel primeiro",
+      "lines": [
+        {
+          "speaker": "Sam",
+          "en": "First, look at the board.",
+          "pt": "Primeiro, olhem o painel."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Our flight is at gate twenty.",
+          "pt": "O nosso voo é no portão vinte."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Good. Where is gate twenty?",
+          "pt": "Muito bem. Onde fica o portão vinte?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Gate twenty is over there.",
+          "pt": "O portão vinte fica ali."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Boarding is at ten thirty. Departure is at eleven.",
+          "pt": "O embarque é às dez e meia. A partida é às onze."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Boarding at ten thirty. Okay!",
+          "pt": "Embarque às dez e meia. Combinado!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "gate",
+          "pt": "portão",
+          "emoji": "🚪"
+        },
+        {
+          "en": "board",
+          "pt": "painel (de voos)",
+          "emoji": "🖥️"
+        },
+        {
+          "en": "boarding",
+          "pt": "embarque",
+          "emoji": "🛫"
+        },
+        {
+          "en": "departure",
+          "pt": "partida / decolagem",
+          "emoji": "🛩️"
+        },
+        {
+          "en": "ten thirty",
+          "pt": "dez e meia",
+          "emoji": "🕥"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Good. Where is gate twenty?\"?",
+      "lang": "pt",
+      "options": [
+        "O embarque é às dez e meia. A partida é às onze.",
+        "Muito bem. Onde fica o portão vinte?",
+        "Embarque às dez e meia. Combinado!"
+      ],
+      "correct": 1,
+      "explanation": "\"Where is gate twenty?\" = Onde fica o portão vinte?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Primeiro, olhem o painel.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "First, look at the board.",
+        "Our flight is at gate twenty.",
+        "Good. Where is gate twenty?"
+      ],
+      "correct": 0,
+      "explanation": "\"Look at the board\" = olhe o painel. O portão pode mudar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Embarque às dez e meia. Combinado!",
+      "answer": [
+        "Boarding",
+        "at",
+        "ten",
+        "thirty.",
+        "Okay!"
+      ],
+      "distractors": [
+        "look",
+        "the"
+      ],
+      "explanation": "\"Boarding at ten thirty\" = embarque às 10h30."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Boarding is at ten thirty. Departure is at eleven.",
+      "lang": "pt",
+      "options": [
+        "Muito bem. Onde fica o portão vinte?",
+        "O portão vinte fica ali.",
+        "O embarque é às dez e meia. A partida é às onze."
+      ],
+      "correct": 2,
+      "explanation": "Boarding (embarque) começa antes da departure (partida)."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sam",
+          "en": "Boarding is at ten thirty. Departure is at eleven.",
+          "pt": "O embarque é às dez e meia. A partida é às onze."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Embarque às dez e meia. Combinado!",
+      "options": [
+        "Gate twenty is over there.",
+        "Boarding at ten thirty. Okay!",
+        "First, look at the board."
+      ],
+      "correct": 1,
+      "explanation": "\"Boarding at ten thirty\" = embarque às 10h30."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O painel da conexão",
+      "questions": [
+        {
+          "english": "Good. Where is gate twenty?",
+          "options": [
+            "O embarque é às dez e meia. A partida é às onze.",
+            "Muito bem. Onde fica o portão vinte?",
+            "Embarque às dez e meia. Combinado!"
+          ],
+          "correct": 1,
+          "joke": "\"Where is gate twenty?\" = Onde fica o portão vinte?"
+        },
+        {
+          "english": "Boarding is at ten thirty. Departure is at eleven.",
+          "options": [
+            "Embarque às dez e meia. Combinado!",
+            "O embarque é às dez e meia. A partida é às onze.",
+            "Primeiro, olhem o painel."
+          ],
+          "correct": 1,
+          "joke": "Boarding (embarque) começa antes da departure (partida)."
+        },
+        {
+          "english": "Boarding at ten thirty. Okay!",
+          "options": [
+            "O nosso voo é no portão vinte.",
+            "Embarque às dez e meia. Combinado!",
+            "Muito bem. Onde fica o portão vinte?"
+          ],
+          "correct": 1,
+          "joke": "\"Boarding at ten thirty\" = embarque às 10h30."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Aeroporto · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "⏰",
+          "title": "Horário de embarque",
+          "en": "Boarding is at ten thirty.",
+          "pt": "Boarding time é a hora em que o embarque começa, não a hora da decolagem. Chegue antes ao portão."
+        }
+      ]
+    }
+  ]
+}

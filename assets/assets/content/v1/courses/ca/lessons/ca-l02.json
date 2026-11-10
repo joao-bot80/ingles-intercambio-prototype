@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l02",
+  "title": "Meu nome é Bia",
+  "scenario": "Sam apresenta Bia a Leo na preparação para o Canadá.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Meu nome é Bia",
+      "lines": [
+        {
+          "speaker": "Sam",
+          "en": "Leo, this is Bia.",
+          "pt": "Leo, esta é a Bia."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Hi! What's your name?",
+          "pt": "Oi! Qual é o seu nome?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm Bia.",
+          "pt": "Eu sou a Bia."
+        },
+        {
+          "speaker": "Leo",
+          "en": "My name is Leo.",
+          "pt": "Meu nome é Leo."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Nice to meet you, Leo.",
+          "pt": "Prazer em te conhecer, Leo."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Nice to meet you too.",
+          "pt": "Prazer em te conhecer também."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Great! Now you are friends.",
+          "pt": "Ótimo! Agora vocês são amigos."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "name",
+          "pt": "nome",
+          "emoji": "📛"
+        },
+        {
+          "en": "my name is...",
+          "pt": "meu nome é...",
+          "emoji": "🗣️"
+        },
+        {
+          "en": "What's your name?",
+          "pt": "Qual é o seu nome?",
+          "emoji": "❓"
+        },
+        {
+          "en": "nice to meet you",
+          "pt": "prazer em te conhecer",
+          "emoji": "🤝"
+        },
+        {
+          "en": "friend",
+          "pt": "amigo / amiga",
+          "emoji": "🧑‍🤝‍🧑"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Hi! What's your name?\"?",
+      "lang": "pt",
+      "options": [
+        "Meu nome é Leo.",
+        "Prazer em te conhecer, Leo.",
+        "Oi! Qual é o seu nome?"
+      ],
+      "correct": 2,
+      "explanation": "\"What's your name?\" = Qual é o seu nome? What's = what is."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Prazer em te conhecer, Leo.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Hi! What's your name?",
+        "Nice to meet you, Leo.",
+        "I'm Bia."
+      ],
+      "correct": 1,
+      "explanation": "\"Nice to meet you\" = prazer em te conhecer. A resposta é \"Nice to meet you too.\""
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Oi! Qual é o seu nome?",
+      "answer": [
+        "Hi!",
+        "What's",
+        "your",
+        "name?"
+      ],
+      "distractors": [
+        "bia",
+        "i'm"
+      ],
+      "explanation": "\"What's your name?\" = Qual é o seu nome? What's = what is."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "My name is Leo.",
+      "lang": "pt",
+      "options": [
+        "Ótimo! Agora vocês são amigos.",
+        "Leo, esta é a Bia.",
+        "Meu nome é Leo."
+      ],
+      "correct": 2,
+      "explanation": "\"My name is...\" = Meu nome é... Também dá para dizer \"I'm Leo.\""
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Leo",
+          "en": "Hi! What's your name?",
+          "pt": "Oi! Qual é o seu nome?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Eu sou a Bia.",
+      "options": [
+        "Nice to meet you, Leo.",
+        "Nice to meet you too.",
+        "I'm Bia."
+      ],
+      "correct": 2,
+      "explanation": "\"I'm\" = I am = eu sou / eu estou."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "As apresentações",
+      "questions": [
+        {
+          "english": "Hi! What's your name?",
+          "options": [
+            "Prazer em te conhecer, Leo.",
+            "Oi! Qual é o seu nome?",
+            "Prazer em te conhecer também."
+          ],
+          "correct": 1,
+          "joke": "\"What's your name?\" = Qual é o seu nome? What's = what is."
+        },
+        {
+          "english": "My name is Leo.",
+          "options": [
+            "Prazer em te conhecer, Leo.",
+            "Prazer em te conhecer também.",
+            "Meu nome é Leo."
+          ],
+          "correct": 2,
+          "joke": "\"My name is...\" = Meu nome é... Também dá para dizer \"I'm Leo.\""
+        },
+        {
+          "english": "I'm Bia.",
+          "options": [
+            "Oi! Qual é o seu nome?",
+            "Eu sou a Bia.",
+            "Prazer em te conhecer, Leo."
+          ],
+          "correct": 1,
+          "joke": "\"I'm\" = I am = eu sou / eu estou."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Primeiros passos · Canadá",
+      "items": [
+        {
+          "emoji": "👋",
+          "title": "\"How are you?\" é quase um \"oi\"",
+          "en": "Good, thanks! And you?",
+          "pt": "Canadenses perguntam \"How are you?\" o tempo todo, até no caixa. Responda curto e devolva a pergunta."
+        }
+      ]
+    }
+  ]
+}

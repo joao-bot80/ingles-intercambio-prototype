@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l25",
+  "title": "Missão: jantar e primeiro combinado",
+  "scenario": "Bia janta com Linda e Dave e confirma a rotina para o primeiro dia de escola.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: jantar e primeiro combinado",
+      "lines": [
+        {
+          "speaker": "Linda",
+          "en": "Dinner is ready! Do you eat fish?",
+          "pt": "O jantar está pronto! Você come peixe?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "No, I don't eat fish. Sorry!",
+          "pt": "Não, eu não como peixe. Desculpa!"
+        },
+        {
+          "speaker": "Dave",
+          "en": "That's okay. Here is chicken.",
+          "pt": "Tudo bem. Aqui tem frango."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Can you pass the salt, please?",
+          "pt": "Pode me passar o sal, por favor?"
+        },
+        {
+          "speaker": "Dave",
+          "en": "Sure.",
+          "pt": "Claro."
+        },
+        {
+          "speaker": "Bia",
+          "en": "What time is dinner tomorrow?",
+          "pt": "Que horas é o jantar amanhã?"
+        },
+        {
+          "speaker": "Linda",
+          "en": "At six. And school starts at eight thirty.",
+          "pt": "Às seis. E a escola começa às oito e meia."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Okay! Thank you. I'm full.",
+          "pt": "Ok! Obrigada. Estou satisfeita."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "tomorrow",
+          "pt": "amanhã",
+          "emoji": "📅"
+        },
+        {
+          "en": "school starts",
+          "pt": "a escola começa",
+          "emoji": "🏫"
+        },
+        {
+          "en": "eight thirty",
+          "pt": "oito e meia",
+          "emoji": "🕣"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Can you pass the salt, please?\"?",
+      "lang": "pt",
+      "options": [
+        "Claro.",
+        "Pode me passar o sal, por favor?",
+        "Que horas é o jantar amanhã?"
+      ],
+      "correct": 1,
+      "explanation": "\"Can you pass the salt, please?\" = Pode me passar o sal, por favor?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Às seis. E a escola começa às oito e meia.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Okay! Thank you. I'm full.",
+        "Dinner is ready! Do you eat fish?",
+        "At six. And school starts at eight thirty."
+      ],
+      "correct": 2,
+      "explanation": "\"School starts at eight thirty\" = a escola começa às 8h30."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Pode me passar o sal, por favor?",
+      "answer": [
+        "Can",
+        "you",
+        "pass",
+        "the",
+        "salt,",
+        "please?"
+      ],
+      "distractors": [
+        "school",
+        "starts"
+      ],
+      "explanation": "\"Can you pass the salt, please?\" = Pode me passar o sal, por favor?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "No, I don't eat fish. Sorry!",
+      "lang": "pt",
+      "options": [
+        "Claro.",
+        "Não, eu não como peixe. Desculpa!",
+        "Que horas é o jantar amanhã?"
+      ],
+      "correct": 1,
+      "explanation": "\"I don't eat fish\" = eu não como peixe."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Dave",
+          "en": "Sure.",
+          "pt": "Claro."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Que horas é o jantar amanhã?",
+      "options": [
+        "No, I don't eat fish. Sorry!",
+        "What time is dinner tomorrow?",
+        "That's okay. Here is chicken."
+      ],
+      "correct": 1,
+      "explanation": "\"Tomorrow\" = amanhã."
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "O jantar com a família",
+      "questions": [
+        {
+          "english": "Can you pass the salt, please?",
+          "options": [
+            "Pode me passar o sal, por favor?",
+            "Ok! Obrigada. Estou satisfeita.",
+            "O jantar está pronto! Você come peixe?"
+          ],
+          "correct": 0,
+          "joke": "\"Can you pass the salt, please?\" = Pode me passar o sal, por favor?"
+        },
+        {
+          "english": "No, I don't eat fish. Sorry!",
+          "options": [
+            "Não, eu não como peixe. Desculpa!",
+            "Pode me passar o sal, por favor?",
+            "Claro."
+          ],
+          "correct": 0,
+          "joke": "\"I don't eat fish\" = eu não como peixe."
+        },
+        {
+          "english": "What time is dinner tomorrow?",
+          "options": [
+            "Que horas é o jantar amanhã?",
+            "Às seis. E a escola começa às oito e meia.",
+            "Ok! Obrigada. Estou satisfeita."
+          ],
+          "correct": 0,
+          "joke": "\"Tomorrow\" = amanhã."
+        },
+        {
+          "english": "At six. And school starts at eight thirty.",
+          "options": [
+            "O jantar está pronto! Você come peixe?",
+            "Às seis. E a escola começa às oito e meia.",
+            "Não, eu não como peixe. Desculpa!"
+          ],
+          "correct": 1,
+          "joke": "\"School starts at eight thirty\" = a escola começa às 8h30."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Casa de família · Canadá",
+      "items": [
+        {
+          "emoji": "🚌",
+          "title": "School bus",
+          "en": "School starts at eight thirty.",
+          "pt": "Em muitas cidades do Canadá, alunos vão de school bus (o ônibus amarelo) ou de ônibus da cidade. Pergunte à família qual é o seu e a que horas ele passa."
+        }
+      ]
+    }
+  ]
+}

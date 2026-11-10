@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l05",
+  "title": "Missão: minha primeira conversa",
+  "scenario": "Ensaio do encontro com a monitora canadense: cumprimentar, dizer nome e origem e pedir repetição.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: minha primeira conversa",
+      "lines": [
+        {
+          "speaker": "Sam",
+          "en": "Hi! What's your name?",
+          "pt": "Oi! Qual é o seu nome?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Hi! I'm Bia.",
+          "pt": "Oi! Eu sou a Bia."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Nice to meet you, Bia. Where are you from?",
+          "pt": "Prazer, Bia. De onde você é?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Sorry. Can you repeat, please?",
+          "pt": "Desculpa. Pode repetir, por favor?"
+        },
+        {
+          "speaker": "Sam",
+          "en": "Where are you from?",
+          "pt": "De onde você é?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm from Brazil.",
+          "pt": "Eu sou do Brasil."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Welcome to the group!",
+          "pt": "Bem-vindos ao grupo!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thank you! See you soon.",
+          "pt": "Obrigada! Até breve."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "hi",
+          "pt": "oi",
+          "emoji": "👋"
+        },
+        {
+          "en": "I'm...",
+          "pt": "eu sou...",
+          "emoji": "🙋"
+        },
+        {
+          "en": "I'm from...",
+          "pt": "eu sou de...",
+          "emoji": "📍"
+        },
+        {
+          "en": "Can you repeat, please?",
+          "pt": "Pode repetir, por favor?",
+          "emoji": "🔁"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Sorry. Can you repeat, please?\"?",
+      "lang": "pt",
+      "options": [
+        "De onde você é?",
+        "Desculpa. Pode repetir, por favor?",
+        "Eu sou do Brasil."
+      ],
+      "correct": 1,
+      "explanation": "Pedir para repetir é normal e educado."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Obrigada! Até breve.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Sorry. Can you repeat, please?",
+        "Thank you! See you soon.",
+        "Where are you from?"
+      ],
+      "correct": 1,
+      "explanation": "\"See you soon\" = até breve."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Desculpa. Pode repetir, por favor?",
+      "answer": [
+        "Sorry.",
+        "Can",
+        "you",
+        "repeat,",
+        "please?"
+      ],
+      "distractors": [
+        "what's",
+        "your"
+      ],
+      "explanation": "Pedir para repetir é normal e educado."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "I'm from Brazil.",
+      "lang": "pt",
+      "options": [
+        "Oi! Eu sou a Bia.",
+        "Prazer, Bia. De onde você é?",
+        "Eu sou do Brasil."
+      ],
+      "correct": 2,
+      "explanation": "\"I'm from Brazil\" = Eu sou do Brasil."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sam",
+          "en": "Hi! What's your name?",
+          "pt": "Oi! Qual é o seu nome?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Oi! Eu sou a Bia.",
+      "options": [
+        "Hi! I'm Bia.",
+        "Sorry. Can you repeat, please?",
+        "Where are you from?"
+      ],
+      "correct": 0,
+      "explanation": "\"I'm Bia\" = Eu sou a Bia."
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "Ensaio com a Sam",
+      "questions": [
+        {
+          "english": "Sorry. Can you repeat, please?",
+          "options": [
+            "De onde você é?",
+            "Eu sou do Brasil.",
+            "Desculpa. Pode repetir, por favor?"
+          ],
+          "correct": 2,
+          "joke": "Pedir para repetir é normal e educado."
+        },
+        {
+          "english": "I'm from Brazil.",
+          "options": [
+            "Eu sou do Brasil.",
+            "Prazer, Bia. De onde você é?",
+            "Desculpa. Pode repetir, por favor?"
+          ],
+          "correct": 0,
+          "joke": "\"I'm from Brazil\" = Eu sou do Brasil."
+        },
+        {
+          "english": "Hi! I'm Bia.",
+          "options": [
+            "Oi! Eu sou a Bia.",
+            "Desculpa. Pode repetir, por favor?",
+            "De onde você é?"
+          ],
+          "correct": 0,
+          "joke": "\"I'm Bia\" = Eu sou a Bia."
+        },
+        {
+          "english": "Thank you! See you soon.",
+          "options": [
+            "De onde você é?",
+            "Eu sou do Brasil.",
+            "Obrigada! Até breve."
+          ],
+          "correct": 2,
+          "joke": "\"See you soon\" = até breve."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Primeiros passos · Canadá",
+      "items": [
+        {
+          "emoji": "🎯",
+          "title": "Missão cumprida",
+          "en": "Hi! I'm Bia. I'm from Brazil.",
+          "pt": "Com três frases você já se apresenta: oi, o seu nome e de onde você é. Se não entender, peça para repetir. Isso é inglês de verdade!"
+        }
+      ]
+    }
+  ]
+}

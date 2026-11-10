@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l08",
+  "title": "Meu nome no passaporte",
+  "scenario": "Leo soletra os sobrenomes para Ms. Clarke. A letra Z se diz \"zed\".",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Meu nome no passaporte",
+      "lines": [
+        {
+          "speaker": "Ms. Clarke",
+          "en": "What's your first name, please?",
+          "pt": "Qual é o seu primeiro nome, por favor?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Leonardo. My first name is Leonardo.",
+          "pt": "Leonardo. O meu primeiro nome é Leonardo."
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "And your last name?",
+          "pt": "E o seu sobrenome?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Souza Lima. I have two last names.",
+          "pt": "Souza Lima. Eu tenho dois sobrenomes."
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Can you spell that?",
+          "pt": "Pode soletrar?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "S, O, U, Z, A. Z is zed. L, I, M, A.",
+          "pt": "S, O, U, Z, A. Z se diz zed. L, I, M, A."
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Thank you, Leo.",
+          "pt": "Obrigada, Leo."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "first name",
+          "pt": "primeiro nome",
+          "emoji": "🪪"
+        },
+        {
+          "en": "last name",
+          "pt": "sobrenome",
+          "emoji": "👨‍👩‍👦"
+        },
+        {
+          "en": "Can you spell that?",
+          "pt": "Pode soletrar?",
+          "emoji": "🔤"
+        },
+        {
+          "en": "zed",
+          "pt": "a letra Z (na NZ)",
+          "emoji": "🇿"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Can you spell that?\"?",
+      "lang": "pt",
+      "options": [
+        "Obrigada, Leo.",
+        "Qual é o seu primeiro nome, por favor?",
+        "Pode soletrar?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can you spell that?\" = Pode soletrar?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Qual é o seu primeiro nome, por favor?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "S, O, U, Z, A. Z is zed. L, I, M, A.",
+        "Thank you, Leo.",
+        "What's your first name, please?"
+      ],
+      "correct": 2,
+      "explanation": "\"First name\" = primeiro nome."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Souza Lima. Eu tenho dois sobrenomes.",
+      "answer": [
+        "Souza",
+        "Lima.",
+        "I",
+        "have",
+        "two",
+        "last",
+        "names."
+      ],
+      "distractors": [
+        "spell",
+        "that"
+      ],
+      "explanation": "Brasileiros muitas vezes têm mais de um sobrenome. Use todos, como no passaporte."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "And your last name?",
+      "lang": "pt",
+      "options": [
+        "E o seu sobrenome?",
+        "Souza Lima. Eu tenho dois sobrenomes.",
+        "Pode soletrar?"
+      ],
+      "correct": 0,
+      "explanation": "\"Last name\" ou \"surname\" = sobrenome."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ms. Clarke",
+          "en": "And your last name?",
+          "pt": "E o seu sobrenome?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Souza Lima. Eu tenho dois sobrenomes.",
+      "options": [
+        "What's your first name, please?",
+        "Leonardo. My first name is Leonardo.",
+        "Souza Lima. I have two last names."
+      ],
+      "correct": 2,
+      "explanation": "Brasileiros muitas vezes têm mais de um sobrenome. Use todos, como no passaporte."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O nome certinho",
+      "questions": [
+        {
+          "english": "Can you spell that?",
+          "options": [
+            "Pode soletrar?",
+            "E o seu sobrenome?",
+            "Souza Lima. Eu tenho dois sobrenomes."
+          ],
+          "correct": 0,
+          "joke": "\"Can you spell that?\" = Pode soletrar?"
+        },
+        {
+          "english": "And your last name?",
+          "options": [
+            "Obrigada, Leo.",
+            "E o seu sobrenome?",
+            "Leonardo. O meu primeiro nome é Leonardo."
+          ],
+          "correct": 1,
+          "joke": "\"Last name\" ou \"surname\" = sobrenome."
+        },
+        {
+          "english": "Souza Lima. I have two last names.",
+          "options": [
+            "S, O, U, Z, A. Z se diz zed. L, I, M, A.",
+            "Obrigada, Leo.",
+            "Souza Lima. Eu tenho dois sobrenomes."
+          ],
+          "correct": 2,
+          "joke": "Brasileiros muitas vezes têm mais de um sobrenome. Use todos, como no passaporte."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Primeiros passos · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🪪",
+          "title": "First name e last name",
+          "en": "First name: Leonardo. Last name: Souza.",
+          "pt": "First name indica o nome; last name ou surname indica o sobrenome. Em documentos e formulários de viagem, copie todos os nomes e sobrenomes exatamente como aparecem nos campos do passaporte. O sobrenome pode ter mais de uma palavra."
+        },
+        {
+          "emoji": "🔤",
+          "title": "Z = \"zed\"",
+          "en": "S, O, U, Z, A.",
+          "pt": "Na Nova Zelândia (como na Austrália e no Reino Unido), a letra Z se diz \"zed\". Nos EUA é \"zee\". Soletre o nome EXATAMENTE como está no passaporte."
+        }
+      ]
+    }
+  ]
+}

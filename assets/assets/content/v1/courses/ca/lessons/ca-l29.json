@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l29",
+  "title": "Almoço levado de casa",
+  "scenario": "Emma mostra a Bia onde comer o lunch e onde fica o washroom da escola.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Almoço levado de casa",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Emma, where can I eat my lunch?",
+          "pt": "Emma, onde eu posso comer o meu almoço?"
+        },
+        {
+          "speaker": "Emma",
+          "en": "In the cafeteria. Come with me.",
+          "pt": "No refeitório. Venha comigo."
+        },
+        {
+          "speaker": "Bia",
+          "en": "And where is the washroom?",
+          "pt": "E onde fica o banheiro?"
+        },
+        {
+          "speaker": "Emma",
+          "en": "The washroom is next to the cafeteria.",
+          "pt": "O banheiro fica ao lado do refeitório."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Can I have some water?",
+          "pt": "Posso pegar um pouco de água?"
+        },
+        {
+          "speaker": "Emma",
+          "en": "Sure. The water fountain is there.",
+          "pt": "Claro. O bebedouro fica ali."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "lunch",
+          "pt": "almoço",
+          "emoji": "🥪"
+        },
+        {
+          "en": "washroom",
+          "pt": "banheiro (em lugares públicos)",
+          "emoji": "🚻"
+        },
+        {
+          "en": "water",
+          "pt": "água",
+          "emoji": "💧"
+        },
+        {
+          "en": "cafeteria",
+          "pt": "refeitório",
+          "emoji": "🍱"
+        },
+        {
+          "en": "Where can I eat?",
+          "pt": "Onde eu posso comer?",
+          "emoji": "❓"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"And where is the washroom?\"?",
+      "lang": "pt",
+      "options": [
+        "Posso pegar um pouco de água?",
+        "Claro. O bebedouro fica ali.",
+        "E onde fica o banheiro?"
+      ],
+      "correct": 2,
+      "explanation": "\"Where is the washroom?\" = Onde fica o banheiro? No Canadá, em lugares públicos: washroom."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"O banheiro fica ao lado do refeitório.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "The washroom is next to the cafeteria.",
+        "Sure. The water fountain is there.",
+        "Emma, where can I eat my lunch?"
+      ],
+      "correct": 0,
+      "explanation": "\"Next to\" = ao lado de."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "E onde fica o banheiro?",
+      "answer": [
+        "And",
+        "where",
+        "is",
+        "the",
+        "washroom?"
+      ],
+      "distractors": [
+        "cafeteria",
+        "come"
+      ],
+      "explanation": "\"Where is the washroom?\" = Onde fica o banheiro? No Canadá, em lugares públicos: washroom."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Emma, where can I eat my lunch?",
+      "lang": "pt",
+      "options": [
+        "E onde fica o banheiro?",
+        "Emma, onde eu posso comer o meu almoço?",
+        "O banheiro fica ao lado do refeitório."
+      ],
+      "correct": 1,
+      "explanation": "\"Where can I eat my lunch?\" = Onde eu posso comer o meu almoço?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Emma",
+          "en": "The washroom is next to the cafeteria.",
+          "pt": "O banheiro fica ao lado do refeitório."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Posso pegar um pouco de água?",
+      "options": [
+        "Can I have some water?",
+        "Emma, where can I eat my lunch?",
+        "In the cafeteria. Come with me."
+      ],
+      "correct": 0,
+      "explanation": "\"Can I have some water?\" = Posso pegar um pouco de água?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O intervalo",
+      "questions": [
+        {
+          "english": "And where is the washroom?",
+          "options": [
+            "Claro. O bebedouro fica ali.",
+            "E onde fica o banheiro?",
+            "Emma, onde eu posso comer o meu almoço?"
+          ],
+          "correct": 1,
+          "joke": "\"Where is the washroom?\" = Onde fica o banheiro? No Canadá, em lugares públicos: washroom."
+        },
+        {
+          "english": "Emma, where can I eat my lunch?",
+          "options": [
+            "No refeitório. Venha comigo.",
+            "Emma, onde eu posso comer o meu almoço?",
+            "E onde fica o banheiro?"
+          ],
+          "correct": 1,
+          "joke": "\"Where can I eat my lunch?\" = Onde eu posso comer o meu almoço?"
+        },
+        {
+          "english": "Can I have some water?",
+          "options": [
+            "O banheiro fica ao lado do refeitório.",
+            "Claro. O bebedouro fica ali.",
+            "Posso pegar um pouco de água?"
+          ],
+          "correct": 2,
+          "joke": "\"Can I have some water?\" = Posso pegar um pouco de água?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Canadá",
+      "items": [
+        {
+          "emoji": "🚻",
+          "title": "Bathroom em casa, washroom na rua",
+          "en": "Where is the washroom?",
+          "pt": "No Canadá, em lugares públicos (escola, shopping) é comum dizer \"washroom\". Em casa, \"bathroom\"."
+        },
+        {
+          "emoji": "🥪",
+          "title": "Lunch e dinner",
+          "en": "Lunch box",
+          "pt": "Na escola canadense o almoço costuma ser um lanche levado de casa (lunch box). O jantar (dinner) é cedo, entre 17h30 e 19h, e é a principal refeição da família."
+        }
+      ]
+    }
+  ]
+}

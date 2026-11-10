@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l11",
+  "title": "Jo, você está me ouvindo?",
+  "scenario": "Bia conhece Jo e Ruby, da família anfitriã neozelandesa do roteiro, numa chamada com som falhando.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Jo, você está me ouvindo?",
+      "lines": [
+        {
+          "speaker": "Jo",
+          "en": "Kia ora, Bia! Can you hear me?",
+          "pt": "Kia ora, Bia! Você está me ouvindo?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Sorry, no. Can you repeat, please?",
+          "pt": "Desculpa, não. Pode repetir, por favor?"
+        },
+        {
+          "speaker": "Jo",
+          "en": "Can you hear me now?",
+          "pt": "E agora, está me ouvindo?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes, I can! Hi, Jo!",
+          "pt": "Sim, estou! Oi, Jo!"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "Hi, Bia! I'm Ruby. Nice to meet you.",
+          "pt": "Oi, Bia! Eu sou a Ruby. Prazer em te conhecer."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Nice to meet you too, Ruby! See you soon.",
+          "pt": "Prazer em te conhecer também, Ruby! Até breve."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Can you hear me?",
+          "pt": "Você está me ouvindo?",
+          "emoji": "👂"
+        },
+        {
+          "en": "Yes, I can.",
+          "pt": "Sim, estou (ouvindo).",
+          "emoji": "✅"
+        },
+        {
+          "en": "now",
+          "pt": "agora",
+          "emoji": "⏱️"
+        },
+        {
+          "en": "host mum",
+          "pt": "mãe anfitriã",
+          "emoji": "👩"
+        },
+        {
+          "en": "see you soon",
+          "pt": "até breve",
+          "emoji": "🔜"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Kia ora, Bia! Can you hear me?\"?",
+      "lang": "pt",
+      "options": [
+        "Oi, Bia! Eu sou a Ruby. Prazer em te conhecer.",
+        "Prazer em te conhecer também, Ruby! Até breve.",
+        "Kia ora, Bia! Você está me ouvindo?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can you hear me?\" = Você está me ouvindo?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Prazer em te conhecer também, Ruby! Até breve.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Sorry, no. Can you repeat, please?",
+        "Nice to meet you too, Ruby! See you soon.",
+        "Can you hear me now?"
+      ],
+      "correct": 1,
+      "explanation": "\"See you soon\" = até breve."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Sim, estou! Oi, Jo!",
+      "answer": [
+        "Yes,",
+        "I",
+        "can!",
+        "Hi,",
+        "Jo!"
+      ],
+      "distractors": [
+        "now",
+        "i'm"
+      ],
+      "explanation": "\"Yes, I can\" = Sim, estou ouvindo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Yes, I can! Hi, Jo!",
+      "lang": "pt",
+      "options": [
+        "Oi, Bia! Eu sou a Ruby. Prazer em te conhecer.",
+        "Prazer em te conhecer também, Ruby! Até breve.",
+        "Sim, estou! Oi, Jo!"
+      ],
+      "correct": 2,
+      "explanation": "\"Yes, I can\" = Sim, estou ouvindo."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Jo",
+          "en": "Kia ora, Bia! Can you hear me?",
+          "pt": "Kia ora, Bia! Você está me ouvindo?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Desculpa, não. Pode repetir, por favor?",
+      "options": [
+        "Sorry, no. Can you repeat, please?",
+        "Hi, Bia! I'm Ruby. Nice to meet you.",
+        "Nice to meet you too, Ruby! See you soon."
+      ],
+      "correct": 0,
+      "explanation": "Se o som falhar, peça: \"Can you repeat, please?\""
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A chamada com som ruim",
+      "questions": [
+        {
+          "english": "Kia ora, Bia! Can you hear me?",
+          "options": [
+            "Prazer em te conhecer também, Ruby! Até breve.",
+            "Desculpa, não. Pode repetir, por favor?",
+            "Kia ora, Bia! Você está me ouvindo?"
+          ],
+          "correct": 2,
+          "joke": "\"Can you hear me?\" = Você está me ouvindo?"
+        },
+        {
+          "english": "Yes, I can! Hi, Jo!",
+          "options": [
+            "Desculpa, não. Pode repetir, por favor?",
+            "Sim, estou! Oi, Jo!",
+            "E agora, está me ouvindo?"
+          ],
+          "correct": 1,
+          "joke": "\"Yes, I can\" = Sim, estou ouvindo."
+        },
+        {
+          "english": "Sorry, no. Can you repeat, please?",
+          "options": [
+            "Oi, Bia! Eu sou a Ruby. Prazer em te conhecer.",
+            "Desculpa, não. Pode repetir, por favor?",
+            "Prazer em te conhecer também, Ruby! Até breve."
+          ],
+          "correct": 1,
+          "joke": "Se o som falhar, peça: \"Can you repeat, please?\""
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Antes do embarque · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "💻",
+          "title": "Primeira chamada",
+          "en": "Hi! Can you hear me?",
+          "pt": "A agência passa o contato da família quando a hospedagem é confirmada. Combine o horário (cuidado com o fuso) e teste câmera e microfone antes."
+        },
+        {
+          "emoji": "🎁",
+          "title": "Apresente-se",
+          "en": "Hi! I'm Bia. I'm fifteen years old. I'm from Brazil.",
+          "pt": "Prepare 3 frases sobre você: nome, idade e de onde você é. Você já aprendeu todas na unidade Primeiros passos!"
+        }
+      ]
+    }
+  ]
+}

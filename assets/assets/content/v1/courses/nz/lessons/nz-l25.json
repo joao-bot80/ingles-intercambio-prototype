@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l25",
+  "title": "Missão: o primeiro jantar com Jo",
+  "scenario": "Bia participa do jantar e confirma o combinado para a manhã de aula.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: o primeiro jantar com Jo",
+      "lines": [
+        {
+          "speaker": "Jo",
+          "en": "Dinner! Bia, do you eat lamb?",
+          "pt": "Jantar! Bia, você come cordeiro?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes, I do. But I don't eat fish.",
+          "pt": "Sim, como. Mas não como peixe."
+        },
+        {
+          "speaker": "Mark",
+          "en": "No fish tonight.",
+          "pt": "Sem peixe hoje."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Can you pass the salt, please?",
+          "pt": "Pode me passar o sal, por favor?"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "Here you go!",
+          "pt": "Aqui está!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "What time is dinner tomorrow?",
+          "pt": "Que horas é o jantar amanhã?"
+        },
+        {
+          "speaker": "Jo",
+          "en": "At six. School starts at eight forty-five.",
+          "pt": "Às seis. A escola começa às oito e quarenta e cinco."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thank you. I'm full!",
+          "pt": "Obrigada. Estou satisfeita!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "tomorrow",
+          "pt": "amanhã",
+          "emoji": "📅"
+        },
+        {
+          "en": "tonight",
+          "pt": "hoje à noite",
+          "emoji": "🌙"
+        },
+        {
+          "en": "school starts",
+          "pt": "a escola começa",
+          "emoji": "🏫"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Can you pass the salt, please?\"?",
+      "lang": "pt",
+      "options": [
+        "Pode me passar o sal, por favor?",
+        "Sim, como. Mas não como peixe.",
+        "Sem peixe hoje."
+      ],
+      "correct": 0,
+      "explanation": "\"Can you pass the salt, please?\" = Pode me passar o sal, por favor?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Às seis. A escola começa às oito e quarenta e cinco.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Can you pass the salt, please?",
+        "At six. School starts at eight forty-five.",
+        "Here you go!"
+      ],
+      "correct": 1,
+      "explanation": "\"Eight forty-five\" = 8h45."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Pode me passar o sal, por favor?",
+      "answer": [
+        "Can",
+        "you",
+        "pass",
+        "the",
+        "salt,",
+        "please?"
+      ],
+      "distractors": [
+        "i'm",
+        "full"
+      ],
+      "explanation": "\"Can you pass the salt, please?\" = Pode me passar o sal, por favor?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Yes, I do. But I don't eat fish.",
+      "lang": "pt",
+      "options": [
+        "Sem peixe hoje.",
+        "Pode me passar o sal, por favor?",
+        "Sim, como. Mas não como peixe."
+      ],
+      "correct": 2,
+      "explanation": "\"I don't eat fish\" = eu não como peixe."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ruby",
+          "en": "Here you go!",
+          "pt": "Aqui está!"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Que horas é o jantar amanhã?",
+      "options": [
+        "No fish tonight.",
+        "Can you pass the salt, please?",
+        "What time is dinner tomorrow?"
+      ],
+      "correct": 2,
+      "explanation": "\"Tomorrow\" = amanhã."
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "O jantar com a família",
+      "questions": [
+        {
+          "english": "Can you pass the salt, please?",
+          "options": [
+            "Obrigada. Estou satisfeita!",
+            "Pode me passar o sal, por favor?",
+            "Jantar! Bia, você come cordeiro?"
+          ],
+          "correct": 1,
+          "joke": "\"Can you pass the salt, please?\" = Pode me passar o sal, por favor?"
+        },
+        {
+          "english": "Yes, I do. But I don't eat fish.",
+          "options": [
+            "Que horas é o jantar amanhã?",
+            "Sim, como. Mas não como peixe.",
+            "Às seis. A escola começa às oito e quarenta e cinco."
+          ],
+          "correct": 1,
+          "joke": "\"I don't eat fish\" = eu não como peixe."
+        },
+        {
+          "english": "What time is dinner tomorrow?",
+          "options": [
+            "Aqui está!",
+            "Às seis. A escola começa às oito e quarenta e cinco.",
+            "Que horas é o jantar amanhã?"
+          ],
+          "correct": 2,
+          "joke": "\"Tomorrow\" = amanhã."
+        },
+        {
+          "english": "At six. School starts at eight forty-five.",
+          "options": [
+            "Às seis. A escola começa às oito e quarenta e cinco.",
+            "Obrigada. Estou satisfeita!",
+            "Jantar! Bia, você come cordeiro?"
+          ],
+          "correct": 0,
+          "joke": "\"Eight forty-five\" = 8h45."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Casa de família · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🚌",
+          "title": "Como ir para a escola",
+          "en": "School starts at eight thirty.",
+          "pt": "Muitos alunos vão de ônibus, a pé ou de carro com a família. Pergunte qual é o seu ônibus e a que horas ele passa."
+        }
+      ]
+    }
+  ]
+}

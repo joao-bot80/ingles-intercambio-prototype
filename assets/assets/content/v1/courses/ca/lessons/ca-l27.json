@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l27",
+  "title": "Meu schedule e minhas matérias",
+  "scenario": "Ms. Lee entrega a Leo um horário fictício. Cada escola tem a sua grade.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Meu schedule e minhas matérias",
+      "lines": [
+        {
+          "speaker": "Ms. Lee",
+          "en": "Here is your schedule.",
+          "pt": "Aqui está o seu horário."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thank you. What is my first class?",
+          "pt": "Obrigado. Qual é a minha primeira aula?"
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "Your first class is math.",
+          "pt": "A sua primeira aula é matemática."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Math! And then?",
+          "pt": "Matemática! E depois?"
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "Then English, and after lunch, art.",
+          "pt": "Depois inglês, e depois do almoço, artes."
+        },
+        {
+          "speaker": "Leo",
+          "en": "I like art!",
+          "pt": "Eu gosto de artes!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "schedule",
+          "pt": "horário (das aulas)",
+          "emoji": "🗓️"
+        },
+        {
+          "en": "class",
+          "pt": "aula",
+          "emoji": "📘"
+        },
+        {
+          "en": "math",
+          "pt": "matemática",
+          "emoji": "➗"
+        },
+        {
+          "en": "English",
+          "pt": "inglês",
+          "emoji": "🔤"
+        },
+        {
+          "en": "art",
+          "pt": "artes",
+          "emoji": "🎨"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Here is your schedule.\"?",
+      "lang": "pt",
+      "options": [
+        "Depois inglês, e depois do almoço, artes.",
+        "Aqui está o seu horário.",
+        "Eu gosto de artes!"
+      ],
+      "correct": 1,
+      "explanation": "\"Here is your schedule\" = aqui está o seu horário. No Canadá: schedule."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Eu gosto de artes!\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Here is your schedule.",
+        "I like art!",
+        "Thank you. What is my first class?"
+      ],
+      "correct": 1,
+      "explanation": "\"I like...\" = eu gosto de..."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu gosto de artes!",
+      "answer": [
+        "I",
+        "like",
+        "art!"
+      ],
+      "distractors": [
+        "you",
+        "what"
+      ],
+      "explanation": "\"I like...\" = eu gosto de..."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Your first class is math.",
+      "lang": "pt",
+      "options": [
+        "Eu gosto de artes!",
+        "Aqui está o seu horário.",
+        "A sua primeira aula é matemática."
+      ],
+      "correct": 2,
+      "explanation": "\"Your first class is math\" = a sua primeira aula é matemática."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ms. Lee",
+          "en": "Then English, and after lunch, art.",
+          "pt": "Depois inglês, e depois do almoço, artes."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Eu gosto de artes!",
+      "options": [
+        "Here is your schedule.",
+        "I like art!",
+        "Thank you. What is my first class?"
+      ],
+      "correct": 1,
+      "explanation": "\"I like...\" = eu gosto de..."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O horário do Leo",
+      "questions": [
+        {
+          "english": "Here is your schedule.",
+          "options": [
+            "Obrigado. Qual é a minha primeira aula?",
+            "A sua primeira aula é matemática.",
+            "Aqui está o seu horário."
+          ],
+          "correct": 2,
+          "joke": "\"Here is your schedule\" = aqui está o seu horário. No Canadá: schedule."
+        },
+        {
+          "english": "Your first class is math.",
+          "options": [
+            "Aqui está o seu horário.",
+            "Obrigado. Qual é a minha primeira aula?",
+            "A sua primeira aula é matemática."
+          ],
+          "correct": 2,
+          "joke": "\"Your first class is math\" = a sua primeira aula é matemática."
+        },
+        {
+          "english": "Then English, and after lunch, art.",
+          "options": [
+            "Depois inglês, e depois do almoço, artes.",
+            "Eu gosto de artes!",
+            "Aqui está o seu horário."
+          ],
+          "correct": 0,
+          "joke": "\"Then\" = depois. \"After lunch\" = depois do almoço."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Canadá",
+      "items": [
+        {
+          "emoji": "🏫",
+          "title": "High school canadense",
+          "en": "Your first class is math.",
+          "pt": "No Canadá, a high school vai em geral do Grade 9 ao Grade 12 (em Quebec é diferente). Alunos de 15 anos costumam estar no Grade 10. A escola diz em qual turma você vai ficar."
+        }
+      ]
+    }
+  ]
+}

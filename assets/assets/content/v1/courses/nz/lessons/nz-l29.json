@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l29",
+  "title": "Interval e minha lunch box",
+  "scenario": "Ruby ajuda Bia a encontrar o intervalo e um lugar para comer na escola.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Interval e minha lunch box",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Ruby, what time is interval?",
+          "pt": "Ruby, que horas é o intervalo?"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "Interval is at ten forty.",
+          "pt": "O intervalo é às dez e quarenta."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Where can I eat my lunch box?",
+          "pt": "Onde eu posso comer a minha lancheira?"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "Outside, on the field, or in the hall.",
+          "pt": "Lá fora, no campo, ou no salão."
+        },
+        {
+          "speaker": "Bia",
+          "en": "And where is the toilet?",
+          "pt": "E onde fica o banheiro?"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "Next to the hall. And water is there too.",
+          "pt": "Ao lado do salão. E tem água lá também."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "interval",
+          "pt": "intervalo (da manhã)",
+          "emoji": "🕐"
+        },
+        {
+          "en": "lunch box",
+          "pt": "lancheira / lanche de casa",
+          "emoji": "🥪"
+        },
+        {
+          "en": "toilet",
+          "pt": "banheiro (com vaso) / vaso sanitário",
+          "emoji": "🚽"
+        },
+        {
+          "en": "water",
+          "pt": "água",
+          "emoji": "💧"
+        },
+        {
+          "en": "outside",
+          "pt": "lá fora",
+          "emoji": "🌳"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Ruby, what time is interval?\"?",
+      "lang": "pt",
+      "options": [
+        "E onde fica o banheiro?",
+        "Ruby, que horas é o intervalo?",
+        "Ao lado do salão. E tem água lá também."
+      ],
+      "correct": 1,
+      "explanation": "\"What time is interval?\" = Que horas é o intervalo?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Ao lado do salão. E tem água lá também.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Where can I eat my lunch box?",
+        "Next to the hall. And water is there too.",
+        "Outside, on the field, or in the hall."
+      ],
+      "correct": 1,
+      "explanation": "\"Next to\" = ao lado de."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Ruby, que horas é o intervalo?",
+      "answer": [
+        "Ruby,",
+        "what",
+        "time",
+        "is",
+        "interval?"
+      ],
+      "distractors": [
+        "and",
+        "toilet"
+      ],
+      "explanation": "\"What time is interval?\" = Que horas é o intervalo?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Where can I eat my lunch box?",
+      "lang": "pt",
+      "options": [
+        "Onde eu posso comer a minha lancheira?",
+        "Ao lado do salão. E tem água lá também.",
+        "Ruby, que horas é o intervalo?"
+      ],
+      "correct": 0,
+      "explanation": "\"Where can I eat?\" = Onde eu posso comer?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ruby",
+          "en": "Outside, on the field, or in the hall.",
+          "pt": "Lá fora, no campo, ou no salão."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "E onde fica o banheiro?",
+      "options": [
+        "Ruby, what time is interval?",
+        "Interval is at ten forty.",
+        "And where is the toilet?"
+      ],
+      "correct": 2,
+      "explanation": "\"Where is the toilet?\" = Onde fica o banheiro?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O intervalo",
+      "questions": [
+        {
+          "english": "Ruby, what time is interval?",
+          "options": [
+            "Ruby, que horas é o intervalo?",
+            "Onde eu posso comer a minha lancheira?",
+            "Lá fora, no campo, ou no salão."
+          ],
+          "correct": 0,
+          "joke": "\"What time is interval?\" = Que horas é o intervalo?"
+        },
+        {
+          "english": "Where can I eat my lunch box?",
+          "options": [
+            "Ruby, que horas é o intervalo?",
+            "O intervalo é às dez e quarenta.",
+            "Onde eu posso comer a minha lancheira?"
+          ],
+          "correct": 2,
+          "joke": "\"Where can I eat?\" = Onde eu posso comer?"
+        },
+        {
+          "english": "And where is the toilet?",
+          "options": [
+            "Onde eu posso comer a minha lancheira?",
+            "Lá fora, no campo, ou no salão.",
+            "E onde fica o banheiro?"
+          ],
+          "correct": 2,
+          "joke": "\"Where is the toilet?\" = Onde fica o banheiro?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🕐",
+          "title": "Intervalo",
+          "en": "What time is interval?",
+          "pt": "Em muitas escolas neozelandesas, o intervalo curto da manhã se chama \"interval\" (e o do almoço, \"lunchtime\"). Pergunte à sua escola."
+        },
+        {
+          "emoji": "🥪",
+          "title": "Lunch box",
+          "en": "Lunch box",
+          "pt": "Muitos alunos levam o lanche de casa (lunch box) para comer no intervalo e no almoço. O jantar (\"dinner\") costuma ser a refeição principal da família."
+        }
+      ]
+    }
+  ]
+}

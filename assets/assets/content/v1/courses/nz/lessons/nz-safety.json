@@ -36,7 +36,7 @@
         {
           "speaker": "Mr. Evans",
           "en": "If the shaking is long or strong, get gone.",
-          "pt": "Se o tremor for longo ou forte, saia de lá."
+          "pt": "Se o tremor for longo ou forte, afaste-se da costa assim que ele parar."
         },
         {
           "speaker": "Mr. Evans",
@@ -117,12 +117,12 @@
       "english": "If the shaking is long or strong, get gone.",
       "lang": "pt",
       "options": [
-        "Se o tremor for longo ou forte, saia de lá.",
+        "Se o tremor for longo ou forte, afaste-se da costa assim que ele parar.",
         "Se o tremor for curto, volte para casa.",
         "Se o tremor for forte, fique perto do mar."
       ],
       "correct": 0,
-      "explanation": "Long = longo. Strong = forte. Get gone = saia de lá, vá embora."
+      "explanation": "Long = longo. Strong = forte. Get gone = saia de lá. Perto da costa, proteja-se enquanto treme; assim que parar, vá para um terreno alto ou para o interior, sem esperar alerta oficial."
     },
     {
       "type": "complete",
@@ -234,7 +234,7 @@
           "emoji": "🌊",
           "title": "Tsunami",
           "en": "Long or strong, get gone.",
-          "pt": "Se estiver perto da costa e o tremor for LONGO (mais de um minuto) ou FORTE (difícil ficar de pé), não espere por um alerta oficial: vá imediatamente para um terreno alto ou o mais longe do mar possível."
+          "pt": "Se estiver perto da costa e sentir um tremor LONGO (mais de um minuto) ou FORTE (difícil ficar de pé), primeiro abaixe-se, proteja a cabeça e o pescoço e segure firme durante o tremor. Assim que ele parar, vá imediatamente para o terreno alto mais próximo ou o mais para o interior que conseguir, saindo da zona de evacuação. Não espere por um alerta oficial. Conheça antes a rota de evacuação da escola e da hospedagem. Fonte: getready.govt.nz/emergency/tsunami."
         },
         {
           "emoji": "🥾",

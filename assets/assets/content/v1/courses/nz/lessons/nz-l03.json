@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l03",
+  "title": "Do Brasil para a Nova Zelândia",
+  "scenario": "Leo grava uma apresentação curta para Ben, um colega da escola neozelandesa.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Do Brasil para a Nova Zelândia",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Hi, Ben! I'm Leo.",
+          "pt": "Oi, Ben! Eu sou o Leo."
+        },
+        {
+          "speaker": "Leo",
+          "en": "I'm from Brazil.",
+          "pt": "Eu sou do Brasil."
+        },
+        {
+          "speaker": "Ben",
+          "en": "Hi, Leo! Where are you from in Brazil?",
+          "pt": "Oi, Leo! De onde você é no Brasil?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I'm from São Paulo. And you? Where are you from?",
+          "pt": "Eu sou de São Paulo. E você? De onde você é?"
+        },
+        {
+          "speaker": "Ben",
+          "en": "I'm from Auckland, in New Zealand.",
+          "pt": "Eu sou de Auckland, na Nova Zelândia."
+        },
+        {
+          "speaker": "Leo",
+          "en": "New Zealand! See you soon!",
+          "pt": "Nova Zelândia! Até breve!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "from",
+          "pt": "de (origem)",
+          "emoji": "📍"
+        },
+        {
+          "en": "Brazil",
+          "pt": "Brasil",
+          "emoji": "🇧🇷"
+        },
+        {
+          "en": "New Zealand",
+          "pt": "Nova Zelândia",
+          "emoji": "🇳🇿"
+        },
+        {
+          "en": "Where are you from?",
+          "pt": "De onde você é?",
+          "emoji": "🌏"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"I'm from Brazil.\"?",
+      "lang": "pt",
+      "options": [
+        "Oi, Leo! De onde você é no Brasil?",
+        "Nova Zelândia! Até breve!",
+        "Eu sou do Brasil."
+      ],
+      "correct": 2,
+      "explanation": "\"I'm from Brazil\" = Eu sou do Brasil."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Nova Zelândia! Até breve!\" em inglês?",
+      "lang": "en",
+      "options": [
+        "New Zealand! See you soon!",
+        "I'm from São Paulo. And you? Where are you from?",
+        "I'm from Auckland, in New Zealand."
+      ],
+      "correct": 0,
+      "explanation": "\"See you soon\" = até breve."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu sou do Brasil.",
+      "answer": [
+        "I'm",
+        "from",
+        "Brazil."
+      ],
+      "distractors": [
+        "paulo",
+        "and"
+      ],
+      "explanation": "\"I'm from Brazil\" = Eu sou do Brasil."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "I'm from Auckland, in New Zealand.",
+      "lang": "pt",
+      "options": [
+        "Oi, Ben! Eu sou o Leo.",
+        "Oi, Leo! De onde você é no Brasil?",
+        "Eu sou de Auckland, na Nova Zelândia."
+      ],
+      "correct": 2,
+      "explanation": "Auckland é a maior cidade da Nova Zelândia."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ben",
+          "en": "Hi, Leo! Where are you from in Brazil?",
+          "pt": "Oi, Leo! De onde você é no Brasil?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Eu sou de São Paulo. E você? De onde você é?",
+      "options": [
+        "New Zealand! See you soon!",
+        "I'm from São Paulo. And you? Where are you from?",
+        "Hi, Ben! I'm Leo."
+      ],
+      "correct": 1,
+      "explanation": "\"Where are you from?\" = De onde você é?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Uma mensagem para o Ben",
+      "questions": [
+        {
+          "english": "I'm from Brazil.",
+          "options": [
+            "Eu sou do Brasil.",
+            "Nova Zelândia! Até breve!",
+            "Oi, Ben! Eu sou o Leo."
+          ],
+          "correct": 0,
+          "joke": "\"I'm from Brazil\" = Eu sou do Brasil."
+        },
+        {
+          "english": "I'm from Auckland, in New Zealand.",
+          "options": [
+            "Eu sou de Auckland, na Nova Zelândia.",
+            "Oi, Leo! De onde você é no Brasil?",
+            "Nova Zelândia! Até breve!"
+          ],
+          "correct": 0,
+          "joke": "Auckland é a maior cidade da Nova Zelândia."
+        },
+        {
+          "english": "I'm from São Paulo. And you? Where are you from?",
+          "options": [
+            "Oi, Ben! Eu sou o Leo.",
+            "Oi, Leo! De onde você é no Brasil?",
+            "Eu sou de São Paulo. E você? De onde você é?"
+          ],
+          "correct": 2,
+          "joke": "\"Where are you from?\" = De onde você é?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Primeiros passos · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🌏",
+          "title": "Voo longo",
+          "en": "Is this the flight to New Zealand?",
+          "pt": "O voo do Brasil para a Nova Zelândia é longo e quase sempre tem conexão. Beba água e ajuste o relógio do celular para o horário de lá no último trecho."
+        }
+      ]
+    }
+  ]
+}

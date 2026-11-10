@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l18",
+  "title": "Conexão sem se separar",
+  "scenario": "Leo precisa de orientação no aeroporto de conexão antes do último trecho para o Canadá.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Conexão sem se separar",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Excuse me. Can you help me?",
+          "pt": "Com licença. Pode me ajudar?"
+        },
+        {
+          "speaker": "Agent",
+          "en": "Sure. What's the problem?",
+          "pt": "Claro. Qual é o problema?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Is this the flight to Canada?",
+          "pt": "Este é o voo para o Canadá?"
+        },
+        {
+          "speaker": "Agent",
+          "en": "No. The flight to Canada is at gate twenty.",
+          "pt": "Não. O voo para o Canadá é no portão vinte."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Where is gate twenty?",
+          "pt": "Onde fica o portão vinte?"
+        },
+        {
+          "speaker": "Agent",
+          "en": "On the left. Your group is there.",
+          "pt": "À esquerda. O seu grupo está lá."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thank you very much!",
+          "pt": "Muito obrigado!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Can you help me?",
+          "pt": "Pode me ajudar?",
+          "emoji": "🙋"
+        },
+        {
+          "en": "flight",
+          "pt": "voo",
+          "emoji": "✈️"
+        },
+        {
+          "en": "problem",
+          "pt": "problema",
+          "emoji": "❗"
+        },
+        {
+          "en": "there",
+          "pt": "lá / ali",
+          "emoji": "👉"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me. Can you help me?\"?",
+      "lang": "pt",
+      "options": [
+        "Este é o voo para o Canadá?",
+        "Com licença. Pode me ajudar?",
+        "Não. O voo para o Canadá é no portão vinte."
+      ],
+      "correct": 1,
+      "explanation": "\"Can you help me?\" = Pode me ajudar? Pergunte a um funcionário ou ao monitor."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Muito obrigado!\" em inglês?",
+      "lang": "en",
+      "options": [
+        "No. The flight to Canada is at gate twenty.",
+        "Thank you very much!",
+        "Where is gate twenty?"
+      ],
+      "correct": 1,
+      "explanation": "\"Thank you very much\" = muito obrigado."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Com licença. Pode me ajudar?",
+      "answer": [
+        "Excuse",
+        "me.",
+        "Can",
+        "you",
+        "help",
+        "me?"
+      ],
+      "distractors": [
+        "canada",
+        "gate"
+      ],
+      "explanation": "\"Can you help me?\" = Pode me ajudar? Pergunte a um funcionário ou ao monitor."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Is this the flight to Canada?",
+      "lang": "pt",
+      "options": [
+        "Este é o voo para o Canadá?",
+        "Onde fica o portão vinte?",
+        "À esquerda. O seu grupo está lá."
+      ],
+      "correct": 0,
+      "explanation": "\"Is this the flight to Canada?\" = Este é o voo para o Canadá?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Agent",
+          "en": "On the left. Your group is there.",
+          "pt": "À esquerda. O seu grupo está lá."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Muito obrigado!",
+      "options": [
+        "Thank you very much!",
+        "Where is gate twenty?",
+        "Excuse me. Can you help me?"
+      ],
+      "correct": 0,
+      "explanation": "\"Thank you very much\" = muito obrigado."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A conexão",
+      "questions": [
+        {
+          "english": "Excuse me. Can you help me?",
+          "options": [
+            "Com licença. Pode me ajudar?",
+            "À esquerda. O seu grupo está lá.",
+            "Muito obrigado!"
+          ],
+          "correct": 0,
+          "joke": "\"Can you help me?\" = Pode me ajudar? Pergunte a um funcionário ou ao monitor."
+        },
+        {
+          "english": "Is this the flight to Canada?",
+          "options": [
+            "Não. O voo para o Canadá é no portão vinte.",
+            "Este é o voo para o Canadá?",
+            "Onde fica o portão vinte?"
+          ],
+          "correct": 1,
+          "joke": "\"Is this the flight to Canada?\" = Este é o voo para o Canadá?"
+        },
+        {
+          "english": "No. The flight to Canada is at gate twenty.",
+          "options": [
+            "Não. O voo para o Canadá é no portão vinte.",
+            "Este é o voo para o Canadá?",
+            "Onde fica o portão vinte?"
+          ],
+          "correct": 0,
+          "joke": "Se a resposta for \"No\", ouça o portão certo."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Aeroporto · Canadá",
+      "items": [
+        {
+          "emoji": "🧑‍🏫",
+          "title": "Monitor do grupo",
+          "en": "Where is my group leader?",
+          "pt": "Se a sua viagem tem monitor ou líder de grupo, procure essa pessoa primeiro em caso de dúvida no aeroporto. Anote o contato antes de embarcar."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l30",
+  "title": "Missão: uma manhã na escola",
+  "scenario": "Leo passa pela secretaria, lê o schedule e encontra a sala e o washroom.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: uma manhã na escola",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Hi. I'm a new student.",
+          "pt": "Oi. Eu sou um aluno novo."
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "Welcome! Here is your schedule.",
+          "pt": "Bem-vindo! Aqui está o seu horário."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thank you. Where is room twelve?",
+          "pt": "Obrigado. Onde fica a sala doze?"
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "On the second floor.",
+          "pt": "No segundo andar."
+        },
+        {
+          "speaker": "Leo",
+          "en": "And where is the washroom?",
+          "pt": "E onde fica o banheiro?"
+        },
+        {
+          "speaker": "Jake",
+          "en": "Next to the cafeteria. Come with me!",
+          "pt": "Ao lado do refeitório. Venha comigo!"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thanks, Jake!",
+          "pt": "Valeu, Jake!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "new student",
+          "pt": "aluno novo / aluna nova",
+          "emoji": "🆕"
+        },
+        {
+          "en": "schedule",
+          "pt": "horário (das aulas)",
+          "emoji": "🗓️"
+        },
+        {
+          "en": "washroom",
+          "pt": "banheiro (em lugares públicos)",
+          "emoji": "🚻"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Hi. I'm a new student.\"?",
+      "lang": "pt",
+      "options": [
+        "Obrigado. Onde fica a sala doze?",
+        "Oi. Eu sou um aluno novo.",
+        "No segundo andar."
+      ],
+      "correct": 1,
+      "explanation": "\"I'm a new student\" = sou um aluno novo."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"No segundo andar.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "And where is the washroom?",
+        "On the second floor.",
+        "Next to the cafeteria. Come with me!"
+      ],
+      "correct": 1,
+      "explanation": "\"On the second floor\" = no segundo andar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Oi. Eu sou um aluno novo.",
+      "answer": [
+        "Hi.",
+        "I'm",
+        "a",
+        "new",
+        "student."
+      ],
+      "distractors": [
+        "twelve",
+        "the"
+      ],
+      "explanation": "\"I'm a new student\" = sou um aluno novo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Thank you. Where is room twelve?",
+      "lang": "pt",
+      "options": [
+        "Ao lado do refeitório. Venha comigo!",
+        "Obrigado. Onde fica a sala doze?",
+        "Valeu, Jake!"
+      ],
+      "correct": 1,
+      "explanation": "\"Where is room twelve?\" = Onde fica a sala doze?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ms. Lee",
+          "en": "On the second floor.",
+          "pt": "No segundo andar."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "E onde fica o banheiro?",
+      "options": [
+        "Next to the cafeteria. Come with me!",
+        "Thanks, Jake!",
+        "And where is the washroom?"
+      ],
+      "correct": 2,
+      "explanation": "\"Where is the washroom?\" = Onde fica o banheiro?"
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "Uma manhã na escola",
+      "questions": [
+        {
+          "english": "Hi. I'm a new student.",
+          "options": [
+            "Oi. Eu sou um aluno novo.",
+            "No segundo andar.",
+            "E onde fica o banheiro?"
+          ],
+          "correct": 0,
+          "joke": "\"I'm a new student\" = sou um aluno novo."
+        },
+        {
+          "english": "Thank you. Where is room twelve?",
+          "options": [
+            "E onde fica o banheiro?",
+            "Obrigado. Onde fica a sala doze?",
+            "Ao lado do refeitório. Venha comigo!"
+          ],
+          "correct": 1,
+          "joke": "\"Where is room twelve?\" = Onde fica a sala doze?"
+        },
+        {
+          "english": "And where is the washroom?",
+          "options": [
+            "E onde fica o banheiro?",
+            "Oi. Eu sou um aluno novo.",
+            "Bem-vindo! Aqui está o seu horário."
+          ],
+          "correct": 0,
+          "joke": "\"Where is the washroom?\" = Onde fica o banheiro?"
+        },
+        {
+          "english": "On the second floor.",
+          "options": [
+            "Valeu, Jake!",
+            "Oi. Eu sou um aluno novo.",
+            "No segundo andar."
+          ],
+          "correct": 2,
+          "joke": "\"On the second floor\" = no segundo andar."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Canadá",
+      "items": [
+        {
+          "emoji": "🧭",
+          "title": "Primeiro dia sem pânico",
+          "en": "I need help.",
+          "pt": "No primeiro dia ninguém sabe tudo. Pergunte a sala, peça ajuda à counsellor e ande com um colega. Isso já é falar inglês!"
+        }
+      ]
+    }
+  ]
+}

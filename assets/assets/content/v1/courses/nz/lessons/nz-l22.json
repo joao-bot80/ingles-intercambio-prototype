@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l22",
+  "title": "A casa de Jo, Mark e Ruby",
+  "scenario": "Ruby mostra a Bia o quarto e o toilet da casa neozelandesa do roteiro.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "A casa de Jo, Mark e Ruby",
+      "lines": [
+        {
+          "speaker": "Jo",
+          "en": "Welcome home, Bia!",
+          "pt": "Bem-vinda à sua casa, Bia!"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "Come! This is your room.",
+          "pt": "Vem! Este é o seu quarto."
+        },
+        {
+          "speaker": "Bia",
+          "en": "It's lovely! Where is the toilet?",
+          "pt": "É lindo! Onde fica o banheiro?"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "The toilet is next to the bathroom.",
+          "pt": "O vaso fica ao lado do banheiro."
+        },
+        {
+          "speaker": "Mark",
+          "en": "Are you hungry, Bia?",
+          "pt": "Você está com fome, Bia?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes, a little. And I'm very tired.",
+          "pt": "Sim, um pouco. E estou muito cansada."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "room",
+          "pt": "quarto",
+          "emoji": "🛏️"
+        },
+        {
+          "en": "toilet",
+          "pt": "banheiro (com vaso) / vaso sanitário",
+          "emoji": "🚽"
+        },
+        {
+          "en": "bathroom",
+          "pt": "banheiro (do banho)",
+          "emoji": "🛁"
+        },
+        {
+          "en": "hungry",
+          "pt": "com fome",
+          "emoji": "🍽️"
+        },
+        {
+          "en": "tired",
+          "pt": "cansado / cansada",
+          "emoji": "😴"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Come! This is your room.\"?",
+      "lang": "pt",
+      "options": [
+        "Bem-vinda à sua casa, Bia!",
+        "É lindo! Onde fica o banheiro?",
+        "Vem! Este é o seu quarto."
+      ],
+      "correct": 2,
+      "explanation": "\"This is your room\" = este é o seu quarto."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Você está com fome, Bia?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Are you hungry, Bia?",
+        "The toilet is next to the bathroom.",
+        "Yes, a little. And I'm very tired."
+      ],
+      "correct": 0,
+      "explanation": "\"Are you hungry?\" = Você está com fome?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "É lindo! Onde fica o banheiro?",
+      "answer": [
+        "It's",
+        "lovely!",
+        "Where",
+        "is",
+        "the",
+        "toilet?"
+      ],
+      "distractors": [
+        "come",
+        "this"
+      ],
+      "explanation": "\"Where is the toilet?\" = Onde fica o banheiro? Na NZ, \"toilet\" é normal."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "It's lovely! Where is the toilet?",
+      "lang": "pt",
+      "options": [
+        "Vem! Este é o seu quarto.",
+        "É lindo! Onde fica o banheiro?",
+        "O vaso fica ao lado do banheiro."
+      ],
+      "correct": 1,
+      "explanation": "\"Where is the toilet?\" = Onde fica o banheiro? Na NZ, \"toilet\" é normal."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Mark",
+          "en": "Are you hungry, Bia?",
+          "pt": "Você está com fome, Bia?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Sim, um pouco. E estou muito cansada.",
+      "options": [
+        "Welcome home, Bia!",
+        "Yes, a little. And I'm very tired.",
+        "Come! This is your room."
+      ],
+      "correct": 1,
+      "explanation": "\"I'm very tired\" = estou muito cansada."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A primeira noite",
+      "questions": [
+        {
+          "english": "Come! This is your room.",
+          "options": [
+            "Vem! Este é o seu quarto.",
+            "Sim, um pouco. E estou muito cansada.",
+            "Bem-vinda à sua casa, Bia!"
+          ],
+          "correct": 0,
+          "joke": "\"This is your room\" = este é o seu quarto."
+        },
+        {
+          "english": "It's lovely! Where is the toilet?",
+          "options": [
+            "Sim, um pouco. E estou muito cansada.",
+            "Bem-vinda à sua casa, Bia!",
+            "É lindo! Onde fica o banheiro?"
+          ],
+          "correct": 2,
+          "joke": "\"Where is the toilet?\" = Onde fica o banheiro? Na NZ, \"toilet\" é normal."
+        },
+        {
+          "english": "Yes, a little. And I'm very tired.",
+          "options": [
+            "Bem-vinda à sua casa, Bia!",
+            "Vem! Este é o seu quarto.",
+            "Sim, um pouco. E estou muito cansada."
+          ],
+          "correct": 2,
+          "joke": "\"I'm very tired\" = estou muito cansada."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Casa de família · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🚽",
+          "title": "Toilet e bathroom",
+          "en": "Where is the toilet?",
+          "pt": "Na Nova Zelândia, \"toilet\" é a palavra normal para o banheiro com vaso. Em casa, \"bathroom\" é o cômodo do banho. Em lugares públicos, procure \"toilets\". \"Restroom\" é mais americano."
+        },
+        {
+          "emoji": "🏡",
+          "title": "Agradeça bastante",
+          "en": "Thank you so much!",
+          "pt": "Agradeça muito: \"Thank you so much!\". Uma lembrancinha do Brasil (um chaveiro, um cartão postal) costuma ser bem recebida."
+        }
+      ]
+    }
+  ]
+}

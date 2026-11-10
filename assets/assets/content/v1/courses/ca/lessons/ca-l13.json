@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l13",
+  "title": "Meu grupo está ali",
+  "scenario": "Na saída do Brasil, Leo localiza Sam e os colegas que vão para o Canadá.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Meu grupo está ali",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Excuse me, where is my group leader?",
+          "pt": "Com licença, onde está a monitora do meu grupo?"
+        },
+        {
+          "speaker": "Agent",
+          "en": "Your group? The Canada group?",
+          "pt": "O seu grupo? O grupo do Canadá?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes, please.",
+          "pt": "Sim, por favor."
+        },
+        {
+          "speaker": "Agent",
+          "en": "Over there, by the window.",
+          "pt": "Ali, perto da janela."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Leo! Here! Stay with your group, please.",
+          "pt": "Leo! Aqui! Fique com o seu grupo, por favor."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Okay. Sorry, Sam.",
+          "pt": "Ok. Desculpa, Sam."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "excuse me",
+          "pt": "com licença",
+          "emoji": "🙋"
+        },
+        {
+          "en": "group leader",
+          "pt": "monitor / líder do grupo",
+          "emoji": "🧑‍🏫"
+        },
+        {
+          "en": "over there",
+          "pt": "ali / lá",
+          "emoji": "👉"
+        },
+        {
+          "en": "Stay with your group.",
+          "pt": "Fique com o seu grupo.",
+          "emoji": "👥"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me, where is my group leader?\"?",
+      "lang": "pt",
+      "options": [
+        "Leo! Aqui! Fique com o seu grupo, por favor.",
+        "Com licença, onde está a monitora do meu grupo?",
+        "Ok. Desculpa, Sam."
+      ],
+      "correct": 1,
+      "explanation": "\"Where is...?\" = Onde está / fica...? \"Excuse me\" antes da pergunta é educado."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Ok. Desculpa, Sam.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Your group? The Canada group?",
+        "Yes, please.",
+        "Okay. Sorry, Sam."
+      ],
+      "correct": 2,
+      "explanation": "\"Sorry\" = desculpa."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Com licença, onde está a monitora do meu grupo?",
+      "answer": [
+        "Excuse",
+        "me,",
+        "where",
+        "is",
+        "my",
+        "group",
+        "leader?"
+      ],
+      "distractors": [
+        "please",
+        "over"
+      ],
+      "explanation": "\"Where is...?\" = Onde está / fica...? \"Excuse me\" antes da pergunta é educado."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Over there, by the window.",
+      "lang": "pt",
+      "options": [
+        "Sim, por favor.",
+        "Leo! Aqui! Fique com o seu grupo, por favor.",
+        "Ali, perto da janela."
+      ],
+      "correct": 2,
+      "explanation": "\"Over there\" = ali, lá."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sam",
+          "en": "Leo! Here! Stay with your group, please.",
+          "pt": "Leo! Aqui! Fique com o seu grupo, por favor."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Ok. Desculpa, Sam.",
+      "options": [
+        "Over there, by the window.",
+        "Okay. Sorry, Sam.",
+        "Excuse me, where is my group leader?"
+      ],
+      "correct": 1,
+      "explanation": "\"Sorry\" = desculpa."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Cadê o grupo?",
+      "questions": [
+        {
+          "english": "Excuse me, where is my group leader?",
+          "options": [
+            "O seu grupo? O grupo do Canadá?",
+            "Sim, por favor.",
+            "Com licença, onde está a monitora do meu grupo?"
+          ],
+          "correct": 2,
+          "joke": "\"Where is...?\" = Onde está / fica...? \"Excuse me\" antes da pergunta é educado."
+        },
+        {
+          "english": "Over there, by the window.",
+          "options": [
+            "Sim, por favor.",
+            "Ali, perto da janela.",
+            "Leo! Aqui! Fique com o seu grupo, por favor."
+          ],
+          "correct": 1,
+          "joke": "\"Over there\" = ali, lá."
+        },
+        {
+          "english": "Leo! Here! Stay with your group, please.",
+          "options": [
+            "O seu grupo? O grupo do Canadá?",
+            "Sim, por favor.",
+            "Leo! Aqui! Fique com o seu grupo, por favor."
+          ],
+          "correct": 2,
+          "joke": "\"Stay with your group\" = fique com o seu grupo. A regra número um da viagem!"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Antes do embarque · Canadá",
+      "items": [
+        {
+          "emoji": "🧑‍🏫",
+          "title": "Monitor do grupo",
+          "en": "Where is my group leader?",
+          "pt": "Se a sua viagem tem monitor ou líder de grupo, procure essa pessoa primeiro em caso de dúvida no aeroporto. Anote o contato antes de embarcar."
+        }
+      ]
+    }
+  ]
+}

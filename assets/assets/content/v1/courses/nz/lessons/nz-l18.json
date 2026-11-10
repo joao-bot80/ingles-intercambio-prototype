@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l18",
+  "title": "Este voo vai à Nova Zelândia?",
+  "scenario": "Leo pede orientação num aeroporto de conexão. A rota real depende da viagem.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Este voo vai à Nova Zelândia?",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Excuse me. Is this the flight to New Zealand?",
+          "pt": "Com licença. Este é o voo para a Nova Zelândia?"
+        },
+        {
+          "speaker": "Agent",
+          "en": "No, this flight is to Sydney.",
+          "pt": "Não, este voo é para Sydney."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Oh no! Can you help me?",
+          "pt": "Ah, não! Pode me ajudar?"
+        },
+        {
+          "speaker": "Agent",
+          "en": "Sure. The flight to Auckland is at gate thirty.",
+          "pt": "Claro. O voo para Auckland é no portão trinta."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Where is gate thirty?",
+          "pt": "Onde fica o portão trinta?"
+        },
+        {
+          "speaker": "Agent",
+          "en": "Over there, on the right.",
+          "pt": "Ali, à direita."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thank you very much!",
+          "pt": "Muito obrigado!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "flight",
+          "pt": "voo",
+          "emoji": "✈️"
+        },
+        {
+          "en": "Can you help me?",
+          "pt": "Pode me ajudar?",
+          "emoji": "🙋"
+        },
+        {
+          "en": "on the right",
+          "pt": "à direita",
+          "emoji": "➡️"
+        },
+        {
+          "en": "Oh no!",
+          "pt": "Ah, não!",
+          "emoji": "😮"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me. Is this the flight to New Zealand?\"?",
+      "lang": "pt",
+      "options": [
+        "Muito obrigado!",
+        "Com licença. Este é o voo para a Nova Zelândia?",
+        "Não, este voo é para Sydney."
+      ],
+      "correct": 1,
+      "explanation": "\"Is this the flight to New Zealand?\" = Este é o voo para a Nova Zelândia?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Ali, à direita.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Oh no! Can you help me?",
+        "Over there, on the right.",
+        "Sure. The flight to Auckland is at gate thirty."
+      ],
+      "correct": 1,
+      "explanation": "\"On the right\" = à direita."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Ah, não! Pode me ajudar?",
+      "answer": [
+        "Oh",
+        "no!",
+        "Can",
+        "you",
+        "help",
+        "me?"
+      ],
+      "distractors": [
+        "gate",
+        "thirty"
+      ],
+      "explanation": "\"Can you help me?\" = Pode me ajudar?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Sure. The flight to Auckland is at gate thirty.",
+      "lang": "pt",
+      "options": [
+        "Ali, à direita.",
+        "Muito obrigado!",
+        "Claro. O voo para Auckland é no portão trinta."
+      ],
+      "correct": 2,
+      "explanation": "Ouça o número do portão: \"gate thirty\" = portão trinta."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Agent",
+          "en": "No, this flight is to Sydney.",
+          "pt": "Não, este voo é para Sydney."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Ah, não! Pode me ajudar?",
+      "options": [
+        "Over there, on the right.",
+        "Thank you very much!",
+        "Oh no! Can you help me?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can you help me?\" = Pode me ajudar?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O voo certo",
+      "questions": [
+        {
+          "english": "Excuse me. Is this the flight to New Zealand?",
+          "options": [
+            "Onde fica o portão trinta?",
+            "Ali, à direita.",
+            "Com licença. Este é o voo para a Nova Zelândia?"
+          ],
+          "correct": 2,
+          "joke": "\"Is this the flight to New Zealand?\" = Este é o voo para a Nova Zelândia?"
+        },
+        {
+          "english": "Sure. The flight to Auckland is at gate thirty.",
+          "options": [
+            "Ali, à direita.",
+            "Claro. O voo para Auckland é no portão trinta.",
+            "Muito obrigado!"
+          ],
+          "correct": 1,
+          "joke": "Ouça o número do portão: \"gate thirty\" = portão trinta."
+        },
+        {
+          "english": "Oh no! Can you help me?",
+          "options": [
+            "Ah, não! Pode me ajudar?",
+            "Com licença. Este é o voo para a Nova Zelândia?",
+            "Não, este voo é para Sydney."
+          ],
+          "correct": 0,
+          "joke": "\"Can you help me?\" = Pode me ajudar?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Aeroporto · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🧑‍🏫",
+          "title": "Líder do grupo",
+          "en": "Where is my group leader?",
+          "pt": "Se a sua viagem tem monitor ou líder de grupo, procure essa pessoa primeiro em caso de dúvida no aeroporto. Anote o contato antes de embarcar."
+        }
+      ]
+    }
+  ]
+}

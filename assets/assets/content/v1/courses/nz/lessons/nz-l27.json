@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l27",
+  "title": "Timetable, maths e Year",
+  "scenario": "Ms. Clarke entrega o horário a Leo. A escola define o Year, não a idade.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Timetable, maths e Year",
+      "lines": [
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Here is your timetable.",
+          "pt": "Aqui está o seu horário."
+        },
+        {
+          "speaker": "Leo",
+          "en": "What Year am I in?",
+          "pt": "Em qual Year eu estou?"
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "You are in Year eleven.",
+          "pt": "Você está no Year onze."
+        },
+        {
+          "speaker": "Leo",
+          "en": "And my first class?",
+          "pt": "E a minha primeira aula?"
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Your first class is maths. Then English.",
+          "pt": "A sua primeira aula é matemática. Depois inglês."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Maths and English. Okay!",
+          "pt": "Matemática e inglês. Ok!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "timetable",
+          "pt": "horário (das aulas)",
+          "emoji": "🗓️"
+        },
+        {
+          "en": "maths",
+          "pt": "matemática",
+          "emoji": "➗"
+        },
+        {
+          "en": "Year",
+          "pt": "ano escolar (série) na NZ",
+          "emoji": "🏫"
+        },
+        {
+          "en": "English",
+          "pt": "inglês",
+          "emoji": "🔤"
+        },
+        {
+          "en": "first class",
+          "pt": "primeira aula",
+          "emoji": "1️⃣"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Here is your timetable.\"?",
+      "lang": "pt",
+      "options": [
+        "Você está no Year onze.",
+        "Aqui está o seu horário.",
+        "E a minha primeira aula?"
+      ],
+      "correct": 1,
+      "explanation": "\"Timetable\" = horário. Na NZ não se diz \"schedule\"."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Você está no Year onze.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "You are in Year eleven.",
+        "Your first class is maths. Then English.",
+        "Maths and English. Okay!"
+      ],
+      "correct": 0,
+      "explanation": "A escola define o seu Year."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Em qual Year eu estou?",
+      "answer": [
+        "What",
+        "Year",
+        "am",
+        "I",
+        "in?"
+      ],
+      "distractors": [
+        "timetable",
+        "you"
+      ],
+      "explanation": "\"What Year am I in?\" = Em qual ano escolar eu estou?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Your first class is maths. Then English.",
+      "lang": "pt",
+      "options": [
+        "A sua primeira aula é matemática. Depois inglês.",
+        "Matemática e inglês. Ok!",
+        "Aqui está o seu horário."
+      ],
+      "correct": 0,
+      "explanation": "\"Maths\" (com s) = matemática na NZ."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Here is your timetable.",
+          "pt": "Aqui está o seu horário."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Em qual Year eu estou?",
+      "options": [
+        "What Year am I in?",
+        "You are in Year eleven.",
+        "And my first class?"
+      ],
+      "correct": 0,
+      "explanation": "\"What Year am I in?\" = Em qual ano escolar eu estou?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O timetable",
+      "questions": [
+        {
+          "english": "Here is your timetable.",
+          "options": [
+            "Aqui está o seu horário.",
+            "Em qual Year eu estou?",
+            "Você está no Year onze."
+          ],
+          "correct": 0,
+          "joke": "\"Timetable\" = horário. Na NZ não se diz \"schedule\"."
+        },
+        {
+          "english": "Your first class is maths. Then English.",
+          "options": [
+            "E a minha primeira aula?",
+            "Matemática e inglês. Ok!",
+            "A sua primeira aula é matemática. Depois inglês."
+          ],
+          "correct": 2,
+          "joke": "\"Maths\" (com s) = matemática na NZ."
+        },
+        {
+          "english": "What Year am I in?",
+          "options": [
+            "E a minha primeira aula?",
+            "Em qual Year eu estou?",
+            "A sua primeira aula é matemática. Depois inglês."
+          ],
+          "correct": 1,
+          "joke": "\"What Year am I in?\" = Em qual ano escolar eu estou?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🏫",
+          "title": "High school neozelandesa",
+          "en": "Your first class is maths.",
+          "pt": "O ensino médio se chama \"secondary school\" ou \"high school\" e os alunos usam \"Year\" no lugar de série (de Year 9 a Year 13). O ano letivo tem quatro \"terms\" e começa no fim de janeiro ou em fevereiro. Muitas escolas têm \"College\" no nome (por exemplo, \"Wellington College\")."
+        }
+      ]
+    }
+  ]
+}

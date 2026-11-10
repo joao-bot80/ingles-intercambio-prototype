@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l14",
+  "title": "O que vai na mala para Auckland?",
+  "scenario": "Jo e Bia conversam sobre casaco e roupa de chuva para a cidade do roteiro. O tempo muda muito de lugar para lugar.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "O que vai na mala para Auckland?",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Jo, is it cold there?",
+          "pt": "Jo, está frio aí?"
+        },
+        {
+          "speaker": "Jo",
+          "en": "In winter, yes. And it rains a lot in Auckland.",
+          "pt": "No inverno, sim. E chove muito em Auckland."
+        },
+        {
+          "speaker": "Bia",
+          "en": "What do I bring?",
+          "pt": "O que eu levo?"
+        },
+        {
+          "speaker": "Jo",
+          "en": "Bring a jacket and a raincoat.",
+          "pt": "Traga um casaco e uma capa de chuva."
+        },
+        {
+          "speaker": "Bia",
+          "en": "And warm clothes?",
+          "pt": "E roupas quentes?"
+        },
+        {
+          "speaker": "Jo",
+          "en": "Yes, warm clothes for the night.",
+          "pt": "Sim, roupas quentes para a noite."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "cold",
+          "pt": "frio",
+          "emoji": "🥶"
+        },
+        {
+          "en": "rain",
+          "pt": "chuva / chover",
+          "emoji": "🌧️"
+        },
+        {
+          "en": "jacket",
+          "pt": "casaco / jaqueta",
+          "emoji": "🧥"
+        },
+        {
+          "en": "raincoat",
+          "pt": "capa de chuva",
+          "emoji": "🧥"
+        },
+        {
+          "en": "warm clothes",
+          "pt": "roupas quentes",
+          "emoji": "🧣"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Jo, is it cold there?\"?",
+      "lang": "pt",
+      "options": [
+        "Jo, está frio aí?",
+        "Sim, roupas quentes para a noite.",
+        "No inverno, sim. E chove muito em Auckland."
+      ],
+      "correct": 0,
+      "explanation": "\"Is it cold there?\" = Está frio aí?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"E roupas quentes?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "In winter, yes. And it rains a lot in Auckland.",
+        "What do I bring?",
+        "And warm clothes?"
+      ],
+      "correct": 2,
+      "explanation": "\"Warm clothes\" = roupas quentes."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Jo, está frio aí?",
+      "answer": [
+        "Jo,",
+        "is",
+        "it",
+        "cold",
+        "there?"
+      ],
+      "distractors": [
+        "clothes",
+        "for"
+      ],
+      "explanation": "\"Is it cold there?\" = Está frio aí?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Bring a jacket and a raincoat.",
+      "lang": "pt",
+      "options": [
+        "Sim, roupas quentes para a noite.",
+        "Traga um casaco e uma capa de chuva.",
+        "Jo, está frio aí?"
+      ],
+      "correct": 1,
+      "explanation": "\"Bring a jacket and a raincoat\" = traga um casaco e uma capa de chuva."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Jo",
+          "en": "In winter, yes. And it rains a lot in Auckland.",
+          "pt": "No inverno, sim. E chove muito em Auckland."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "O que eu levo?",
+      "options": [
+        "What do I bring?",
+        "Yes, warm clothes for the night.",
+        "Jo, is it cold there?"
+      ],
+      "correct": 0,
+      "explanation": "\"What do I bring?\" = O que eu levo?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A mala para a chuva",
+      "questions": [
+        {
+          "english": "Jo, is it cold there?",
+          "options": [
+            "Sim, roupas quentes para a noite.",
+            "No inverno, sim. E chove muito em Auckland.",
+            "Jo, está frio aí?"
+          ],
+          "correct": 2,
+          "joke": "\"Is it cold there?\" = Está frio aí?"
+        },
+        {
+          "english": "Bring a jacket and a raincoat.",
+          "options": [
+            "No inverno, sim. E chove muito em Auckland.",
+            "Traga um casaco e uma capa de chuva.",
+            "O que eu levo?"
+          ],
+          "correct": 1,
+          "joke": "\"Bring a jacket and a raincoat\" = traga um casaco e uma capa de chuva."
+        },
+        {
+          "english": "What do I bring?",
+          "options": [
+            "E roupas quentes?",
+            "O que eu levo?",
+            "Sim, roupas quentes para a noite."
+          ],
+          "correct": 1,
+          "joke": "\"What do I bring?\" = O que eu levo?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Antes do embarque · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🌏",
+          "title": "Estações como no Brasil",
+          "en": "I'm going to New Zealand!",
+          "pt": "A Nova Zelândia fica no hemisfério sul: o verão vai de dezembro a fevereiro e o inverno, de junho a agosto. O tempo muda rápido: leve sempre uma camada a mais."
+        }
+      ]
+    }
+  ]
+}

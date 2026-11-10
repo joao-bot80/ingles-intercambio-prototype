@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l20",
+  "title": "Missão: chegada e declaração",
+  "scenario": "Bia passa pelo controle e Leo pergunta como declarar um alimento. As regras exatas se conferem no site oficial.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: chegada e declaração",
+      "lines": [
+        {
+          "speaker": "Officer",
+          "en": "Why are you in New Zealand?",
+          "pt": "Por que você está na Nova Zelândia?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm here to study.",
+          "pt": "Estou aqui para estudar."
+        },
+        {
+          "speaker": "Officer",
+          "en": "Where will you stay?",
+          "pt": "Onde você vai ficar?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "With a host family.",
+          "pt": "Com uma família anfitriã."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Excuse me. I have food. I need to declare this.",
+          "pt": "Com licença. Eu tenho comida. Preciso declarar isto."
+        },
+        {
+          "speaker": "Officer",
+          "en": "Okay. Put it on the declaration and show me.",
+          "pt": "Certo. Coloque na declaração e me mostre."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Can you help me, please?",
+          "pt": "Pode me ajudar, por favor?"
+        },
+        {
+          "speaker": "Officer",
+          "en": "Sure. Come here.",
+          "pt": "Claro. Venha aqui."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "I need to declare this.",
+          "pt": "Preciso declarar isto.",
+          "emoji": "📝"
+        },
+        {
+          "en": "declaration",
+          "pt": "declaração",
+          "emoji": "📋"
+        },
+        {
+          "en": "food",
+          "pt": "comida",
+          "emoji": "🍎"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"I'm here to study.\"?",
+      "lang": "pt",
+      "options": [
+        "Pode me ajudar, por favor?",
+        "Estou aqui para estudar.",
+        "Claro. Venha aqui."
+      ],
+      "correct": 1,
+      "explanation": "Resposta curta e verdadeira."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Certo. Coloque na declaração e me mostre.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Okay. Put it on the declaration and show me.",
+        "Excuse me. I have food. I need to declare this.",
+        "Can you help me, please?"
+      ],
+      "correct": 0,
+      "explanation": "\"Show me\" = me mostre."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Estou aqui para estudar.",
+      "answer": [
+        "I'm",
+        "here",
+        "to",
+        "study."
+      ],
+      "distractors": [
+        "new",
+        "zealand"
+      ],
+      "explanation": "Resposta curta e verdadeira."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Excuse me. I have food. I need to declare this.",
+      "lang": "pt",
+      "options": [
+        "Estou aqui para estudar.",
+        "Com licença. Eu tenho comida. Preciso declarar isto.",
+        "Onde você vai ficar?"
+      ],
+      "correct": 1,
+      "explanation": "\"I need to declare this\" = preciso declarar isto. Na dúvida, declare."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Officer",
+          "en": "Okay. Put it on the declaration and show me.",
+          "pt": "Certo. Coloque na declaração e me mostre."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Pode me ajudar, por favor?",
+      "options": [
+        "Can you help me, please?",
+        "With a host family.",
+        "Excuse me. I have food. I need to declare this."
+      ],
+      "correct": 0,
+      "explanation": "\"Can you help me, please?\" = Pode me ajudar, por favor?"
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "A chegada",
+      "questions": [
+        {
+          "english": "I'm here to study.",
+          "options": [
+            "Com uma família anfitriã.",
+            "Com licença. Eu tenho comida. Preciso declarar isto.",
+            "Estou aqui para estudar."
+          ],
+          "correct": 2,
+          "joke": "Resposta curta e verdadeira."
+        },
+        {
+          "english": "Excuse me. I have food. I need to declare this.",
+          "options": [
+            "Com uma família anfitriã.",
+            "Com licença. Eu tenho comida. Preciso declarar isto.",
+            "Certo. Coloque na declaração e me mostre."
+          ],
+          "correct": 1,
+          "joke": "\"I need to declare this\" = preciso declarar isto. Na dúvida, declare."
+        },
+        {
+          "english": "Can you help me, please?",
+          "options": [
+            "Estou aqui para estudar.",
+            "Pode me ajudar, por favor?",
+            "Onde você vai ficar?"
+          ],
+          "correct": 1,
+          "joke": "\"Can you help me, please?\" = Pode me ajudar, por favor?"
+        },
+        {
+          "english": "Okay. Put it on the declaration and show me.",
+          "options": [
+            "Certo. Coloque na declaração e me mostre.",
+            "Com uma família anfitriã.",
+            "Com licença. Eu tenho comida. Preciso declarar isto."
+          ],
+          "correct": 0,
+          "joke": "\"Show me\" = me mostre."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Aeroporto · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "📝",
+          "title": "Declaração de viajante",
+          "en": "Is this your first time here?",
+          "pt": "Antes de chegar, os viajantes preenchem uma declaração digital (New Zealand Traveller Declaration). Confira como fazer no site oficial e peça ajuda à sua agência."
+        },
+        {
+          "emoji": "🍎",
+          "title": "Declare na dúvida",
+          "en": "I need to declare this.",
+          "pt": "A Nova Zelândia controla muito a entrada de comida, plantas e equipamentos de trilha. Na dúvida, declare e pergunte. As regras mudam: confira no site oficial de biossegurança e com a sua agência."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l23",
+  "title": "Horários e permissão em casa",
+  "scenario": "Bia combina jantar, volta para casa e Wi-Fi com Linda. As regras são desta família do roteiro.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Horários e permissão em casa",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "What time is dinner?",
+          "pt": "Que horas é o jantar?"
+        },
+        {
+          "speaker": "Linda",
+          "en": "At six.",
+          "pt": "Às seis."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Can I use the Wi-Fi?",
+          "pt": "Posso usar o Wi-Fi?"
+        },
+        {
+          "speaker": "Linda",
+          "en": "Sure. The password is on the fridge.",
+          "pt": "Claro. A senha está na geladeira."
+        },
+        {
+          "speaker": "Linda",
+          "en": "On school nights, be home by nine, please.",
+          "pt": "Nas noites antes de aula, esteja em casa até as nove, por favor."
+        },
+        {
+          "speaker": "Bia",
+          "en": "By nine. Okay!",
+          "pt": "Até as nove. Combinado!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "dinner",
+          "pt": "jantar",
+          "emoji": "🍽️"
+        },
+        {
+          "en": "Can I...?",
+          "pt": "Posso...?",
+          "emoji": "🙋"
+        },
+        {
+          "en": "password",
+          "pt": "senha",
+          "emoji": "🔑"
+        },
+        {
+          "en": "school nights",
+          "pt": "noites antes de dia de aula",
+          "emoji": "🌙"
+        },
+        {
+          "en": "be home by nine",
+          "pt": "estar em casa até as nove",
+          "emoji": "🕘"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"What time is dinner?\"?",
+      "lang": "pt",
+      "options": [
+        "Às seis.",
+        "Que horas é o jantar?",
+        "Posso usar o Wi-Fi?"
+      ],
+      "correct": 1,
+      "explanation": "\"What time is dinner?\" = Que horas é o jantar?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Às seis.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "At six.",
+        "Can I use the Wi-Fi?",
+        "Sure. The password is on the fridge."
+      ],
+      "correct": 0,
+      "explanation": "\"At six\" = às seis."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Que horas é o jantar?",
+      "answer": [
+        "What",
+        "time",
+        "is",
+        "dinner?"
+      ],
+      "distractors": [
+        "nights",
+        "home"
+      ],
+      "explanation": "\"What time is dinner?\" = Que horas é o jantar?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Can I use the Wi-Fi?",
+      "lang": "pt",
+      "options": [
+        "Até as nove. Combinado!",
+        "Que horas é o jantar?",
+        "Posso usar o Wi-Fi?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can I use...?\" = Posso usar...? Pedir permissão é sempre bom."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Linda",
+          "en": "At six.",
+          "pt": "Às seis."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Posso usar o Wi-Fi?",
+      "options": [
+        "What time is dinner?",
+        "Sure. The password is on the fridge.",
+        "Can I use the Wi-Fi?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can I use...?\" = Posso usar...? Pedir permissão é sempre bom."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "As regras da casa",
+      "questions": [
+        {
+          "english": "What time is dinner?",
+          "options": [
+            "Que horas é o jantar?",
+            "Às seis.",
+            "Posso usar o Wi-Fi?"
+          ],
+          "correct": 0,
+          "joke": "\"What time is dinner?\" = Que horas é o jantar?"
+        },
+        {
+          "english": "Can I use the Wi-Fi?",
+          "options": [
+            "Posso usar o Wi-Fi?",
+            "Claro. A senha está na geladeira.",
+            "Nas noites antes de aula, esteja em casa até as nove, por favor."
+          ],
+          "correct": 0,
+          "joke": "\"Can I use...?\" = Posso usar...? Pedir permissão é sempre bom."
+        },
+        {
+          "english": "On school nights, be home by nine, please.",
+          "options": [
+            "Até as nove. Combinado!",
+            "Que horas é o jantar?",
+            "Nas noites antes de aula, esteja em casa até as nove, por favor."
+          ],
+          "correct": 2,
+          "joke": "\"School nights\" = noites antes de um dia de aula. \"Be home by nine\" = esteja em casa até as nove."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Casa de família · Canadá",
+      "items": [
+        {
+          "emoji": "🕘",
+          "title": "Regras da casa",
+          "en": "What time should I be home?",
+          "pt": "Horário de voltar, tarefas e uso do celular na mesa variam de família para família. Pergunte no primeiro dia!"
+        },
+        {
+          "emoji": "⏱️",
+          "title": "Banho rápido",
+          "en": "Ten minutes, okay?",
+          "pt": "Em muitas casas a água quente é limitada. Banho de 10 minutos é o combinado comum: pergunte as regras."
+        }
+      ]
+    }
+  ]
+}

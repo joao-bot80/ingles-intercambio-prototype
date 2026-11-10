@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l21",
+  "title": "Minha mala e o balcão certo",
+  "scenario": "Leo procura a bagagem ao chegar à Nova Zelândia e descreve a mala a um funcionário.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Minha mala e o balcão certo",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Excuse me. Where is the baggage desk?",
+          "pt": "Com licença. Onde fica o balcão de bagagem?"
+        },
+        {
+          "speaker": "Agent",
+          "en": "It's here. Can I help you?",
+          "pt": "É aqui. Posso te ajudar?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "My bag is not here.",
+          "pt": "A minha mala não está aqui."
+        },
+        {
+          "speaker": "Agent",
+          "en": "What colour is it?",
+          "pt": "De que cor ela é?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "It's blue and big.",
+          "pt": "É azul e grande."
+        },
+        {
+          "speaker": "Agent",
+          "en": "Okay. We can send it to your address.",
+          "pt": "Certo. Podemos mandar para o seu endereço."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "baggage desk",
+          "pt": "balcão de bagagem",
+          "emoji": "🛄"
+        },
+        {
+          "en": "My bag is not here.",
+          "pt": "A minha mala não está aqui.",
+          "emoji": "🧳"
+        },
+        {
+          "en": "blue",
+          "pt": "azul",
+          "emoji": "🔵"
+        },
+        {
+          "en": "big",
+          "pt": "grande",
+          "emoji": "🐘"
+        },
+        {
+          "en": "address",
+          "pt": "endereço",
+          "emoji": "🏠"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me. Where is the baggage desk?\"?",
+      "lang": "pt",
+      "options": [
+        "A minha mala não está aqui.",
+        "De que cor ela é?",
+        "Com licença. Onde fica o balcão de bagagem?"
+      ],
+      "correct": 2,
+      "explanation": "\"Where is the baggage desk?\" = Onde fica o balcão de bagagem?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Certo. Podemos mandar para o seu endereço.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Okay. We can send it to your address.",
+        "What colour is it?",
+        "It's blue and big."
+      ],
+      "correct": 0,
+      "explanation": "Tenha o endereço da família no celular e no papel."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Com licença. Onde fica o balcão de bagagem?",
+      "answer": [
+        "Excuse",
+        "me.",
+        "Where",
+        "is",
+        "the",
+        "baggage",
+        "desk?"
+      ],
+      "distractors": [
+        "here",
+        "can"
+      ],
+      "explanation": "\"Where is the baggage desk?\" = Onde fica o balcão de bagagem?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "My bag is not here.",
+      "lang": "pt",
+      "options": [
+        "De que cor ela é?",
+        "A minha mala não está aqui.",
+        "É azul e grande."
+      ],
+      "correct": 1,
+      "explanation": "\"My bag is not here\" = a minha mala não está aqui."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Agent",
+          "en": "What colour is it?",
+          "pt": "De que cor ela é?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "É azul e grande.",
+      "options": [
+        "It's blue and big.",
+        "Excuse me. Where is the baggage desk?",
+        "It's here. Can I help you?"
+      ],
+      "correct": 0,
+      "explanation": "\"Blue and big\" = azul e grande."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A mala perdida",
+      "questions": [
+        {
+          "english": "Excuse me. Where is the baggage desk?",
+          "options": [
+            "De que cor ela é?",
+            "Com licença. Onde fica o balcão de bagagem?",
+            "É azul e grande."
+          ],
+          "correct": 1,
+          "joke": "\"Where is the baggage desk?\" = Onde fica o balcão de bagagem?"
+        },
+        {
+          "english": "My bag is not here.",
+          "options": [
+            "Com licença. Onde fica o balcão de bagagem?",
+            "É aqui. Posso te ajudar?",
+            "A minha mala não está aqui."
+          ],
+          "correct": 2,
+          "joke": "\"My bag is not here\" = a minha mala não está aqui."
+        },
+        {
+          "english": "It's blue and big.",
+          "options": [
+            "É azul e grande.",
+            "Certo. Podemos mandar para o seu endereço.",
+            "Com licença. Onde fica o balcão de bagagem?"
+          ],
+          "correct": 0,
+          "joke": "\"Blue and big\" = azul e grande."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Casa de família · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🧳",
+          "title": "Mala perdida",
+          "en": "My bag is not here.",
+          "pt": "Se a mala não aparecer, vá ao balcão da companhia aérea ANTES de sair da área de bagagem. Tenha o endereço da família no celular e no papel."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l07",
+  "title": "Tenho quinze anos",
+  "scenario": "Ms. Clarke, da secretaria da escola neozelandesa, pergunta a idade de Bia num ensaio. Idade não é o mesmo que Year.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Tenho quinze anos",
+      "lines": [
+        {
+          "speaker": "Ms. Clarke",
+          "en": "How old are you, Bia?",
+          "pt": "Quantos anos você tem, Bia?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm fifteen.",
+          "pt": "Eu tenho quinze anos."
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Fifteen or fifty?",
+          "pt": "Quinze ou cinquenta?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Fifteen. One, five.",
+          "pt": "Quinze. Um, cinco."
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Thank you. The school tells you your Year.",
+          "pt": "Obrigada. A escola te diz o seu Year."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Okay. How old is Leo? He's sixteen.",
+          "pt": "Ok. Quantos anos o Leo tem? Ele tem dezesseis."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "How old are you?",
+          "pt": "Quantos anos você tem?",
+          "emoji": "🎂"
+        },
+        {
+          "en": "eleven, twelve, thirteen, fourteen, fifteen",
+          "pt": "onze, doze, treze, catorze, quinze",
+          "emoji": "🔢"
+        },
+        {
+          "en": "sixteen, seventeen, eighteen, nineteen, twenty",
+          "pt": "dezesseis, dezessete, dezoito, dezenove, vinte",
+          "emoji": "🔢"
+        },
+        {
+          "en": "fifty",
+          "pt": "cinquenta",
+          "emoji": "5️⃣0️⃣"
+        },
+        {
+          "en": "Year",
+          "pt": "ano escolar (série) na NZ",
+          "emoji": "🏫"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"How old are you, Bia?\"?",
+      "lang": "pt",
+      "options": [
+        "Quinze. Um, cinco.",
+        "Obrigada. A escola te diz o seu Year.",
+        "Quantos anos você tem, Bia?"
+      ],
+      "correct": 2,
+      "explanation": "\"How old are you?\" = Quantos anos você tem?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Obrigada. A escola te diz o seu Year.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Okay. How old is Leo? He's sixteen.",
+        "Thank you. The school tells you your Year.",
+        "How old are you, Bia?"
+      ],
+      "correct": 1,
+      "explanation": "Na NZ a série se chama Year. Quem decide o seu Year é a escola."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Quantos anos você tem, Bia?",
+      "answer": [
+        "How",
+        "old",
+        "are",
+        "you,",
+        "Bia?"
+      ],
+      "distractors": [
+        "year",
+        "okay"
+      ],
+      "explanation": "\"How old are you?\" = Quantos anos você tem?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "I'm fifteen.",
+      "lang": "pt",
+      "options": [
+        "Obrigada. A escola te diz o seu Year.",
+        "Eu tenho quinze anos.",
+        "Ok. Quantos anos o Leo tem? Ele tem dezesseis."
+      ],
+      "correct": 1,
+      "explanation": "Idade usa \"to be\": I'm fifteen."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ms. Clarke",
+          "en": "How old are you, Bia?",
+          "pt": "Quantos anos você tem, Bia?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Eu tenho quinze anos.",
+      "options": [
+        "Fifteen or fifty?",
+        "I'm fifteen.",
+        "Thank you. The school tells you your Year."
+      ],
+      "correct": 1,
+      "explanation": "Idade usa \"to be\": I'm fifteen."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Teen ou ty?",
+      "questions": [
+        {
+          "english": "How old are you, Bia?",
+          "options": [
+            "Quinze ou cinquenta?",
+            "Quantos anos você tem, Bia?",
+            "Quinze. Um, cinco."
+          ],
+          "correct": 1,
+          "joke": "\"How old are you?\" = Quantos anos você tem?"
+        },
+        {
+          "english": "I'm fifteen.",
+          "options": [
+            "Obrigada. A escola te diz o seu Year.",
+            "Ok. Quantos anos o Leo tem? Ele tem dezesseis.",
+            "Eu tenho quinze anos."
+          ],
+          "correct": 2,
+          "joke": "Idade usa \"to be\": I'm fifteen."
+        },
+        {
+          "english": "Fifteen or fifty?",
+          "options": [
+            "Quinze. Um, cinco.",
+            "Obrigada. A escola te diz o seu Year.",
+            "Quinze ou cinquenta?"
+          ],
+          "correct": 2,
+          "joke": "Fifteen (15) e fifty (50) soam parecidos: a sílaba forte de fifteen é o \"teen\"."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Primeiros passos · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🎂",
+          "title": "Idade com \"to be\"",
+          "en": "I'm fifteen years old.",
+          "pt": "Para falar a idade, use \"I'm fifteen\" ou \"I'm fifteen years old\". As duas formas significam \"Eu tenho quinze anos\". Em inglês, a idade usa o verbo \"to be\", não \"have\"."
+        },
+        {
+          "emoji": "🏫",
+          "title": "High school neozelandesa",
+          "en": "Your first class is maths.",
+          "pt": "O ensino médio se chama \"secondary school\" ou \"high school\" e os alunos usam \"Year\" no lugar de série (de Year 9 a Year 13). O ano letivo tem quatro \"terms\" e começa no fim de janeiro ou em fevereiro. Muitas escolas têm \"College\" no nome (por exemplo, \"Wellington College\")."
+        }
+      ]
+    }
+  ]
+}

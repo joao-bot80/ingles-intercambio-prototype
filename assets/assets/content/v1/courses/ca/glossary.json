@@ -71,8 +71,13 @@
    "en": "Can you repeat that, please?",
    "pt": "Pode repetir, por favor?",
    "emoji": "🔁",
+   "example": {
+    "en": "Can you repeat that, please?",
+    "pt": "Pode repetir, por favor?"
+   },
    "note": "Quando você não entendeu ou a pessoa falou rápido demais.",
    "lessons": [
+    "ca-l04",
     "ca-spelling",
     "ca-immigration"
    ]
@@ -83,6 +88,10 @@
    "en": "Can you speak slowly, please?",
    "pt": "Pode falar devagar, por favor?",
    "emoji": "🐢",
+   "example": {
+    "en": "Can you speak slowly, please?",
+    "pt": "Pode falar devagar, por favor?"
+   },
    "note": "Pedir para a pessoa falar mais devagar.",
    "lessons": []
   },
@@ -92,8 +101,13 @@
    "en": "I don't understand.",
    "pt": "Eu não entendi.",
    "emoji": "🤷",
+   "example": {
+    "en": "I don't understand.",
+    "pt": "Eu não entendi."
+   },
    "note": "Simples e educado. Depois peça: \"Can you repeat that, please?\"",
    "lessons": [
+    "ca-l04",
     "ca-school-classroom"
    ]
   },
@@ -103,8 +117,14 @@
    "en": "I need help.",
    "pt": "Eu preciso de ajuda.",
    "emoji": "🆘",
+   "example": {
+    "en": "I need help.",
+    "pt": "Eu preciso de ajuda."
+   },
    "note": "Para qualquer situação em que você precisa de alguém. Se for urgente, diga \"Help!\" bem alto.",
    "lessons": [
+    "ca-l26",
+    "ca-l30",
     "ca-city-help"
    ]
   },
@@ -114,6 +134,10 @@
    "en": "Can you help me, please?",
    "pt": "Pode me ajudar, por favor?",
    "emoji": "🙋",
+   "example": {
+    "en": "Can you help me, please?",
+    "pt": "Pode me ajudar, por favor?"
+   },
    "note": "A forma educada de pedir ajuda a um funcionário, professor ou desconhecido.",
    "lessons": []
   },
@@ -123,6 +147,10 @@
    "en": "I'm lost.",
    "pt": "Eu estou perdido / perdida.",
    "emoji": "🧭",
+   "example": {
+    "en": "I'm lost.",
+    "pt": "Eu estou perdido / perdida."
+   },
    "note": "Quando você não sabe onde está. Continue com \"Where is the bus stop?\"",
    "lessons": []
   },
@@ -132,6 +160,10 @@
    "en": "What does that mean?",
    "pt": "O que isso significa?",
    "emoji": "❓",
+   "example": {
+    "en": "What does that mean?",
+    "pt": "O que isso significa?"
+   },
    "note": "Quando você ouve uma palavra nova.",
    "lessons": []
   },
@@ -141,6 +173,10 @@
    "en": "How do you say that in English?",
    "pt": "Como se diz isso em inglês?",
    "emoji": "💬",
+   "example": {
+    "en": "How do you say that in English?",
+    "pt": "Como se diz isso em inglês?"
+   },
    "note": "Você sabe a palavra em português, mas não em inglês.",
    "lessons": []
   },
@@ -150,6 +186,10 @@
    "en": "How do you spell that?",
    "pt": "Como se soletra isso?",
    "emoji": "🔤",
+   "example": {
+    "en": "How do you spell that?",
+    "pt": "Como se soletra isso?"
+   },
    "note": "Pedir para soletrar um nome ou uma palavra.",
    "lessons": []
   },
@@ -159,6 +199,10 @@
    "en": "Can you write it down, please?",
    "pt": "Pode escrever, por favor?",
    "emoji": "✍️",
+   "example": {
+    "en": "Can you write it down, please?",
+    "pt": "Pode escrever, por favor?"
+   },
    "note": "Ótimo para endereços, nomes e horários.",
    "lessons": []
   },
@@ -168,6 +212,10 @@
    "en": "I'm sorry, I didn't catch that.",
    "pt": "Desculpe, eu não captei o que você disse.",
    "emoji": "👂",
+   "example": {
+    "en": "I'm sorry, I didn't catch that.",
+    "pt": "Desculpe, eu não captei o que você disse."
+   },
    "note": "Quando você não ouviu direito.",
    "lessons": []
   },
@@ -177,6 +225,10 @@
    "en": "My English is not very good.",
    "pt": "Meu inglês não é muito bom.",
    "emoji": "🇧🇷",
+   "example": {
+    "en": "My English is not very good.",
+    "pt": "Meu inglês não é muito bom."
+   },
    "note": "Avisar com simpatia. A maioria das pessoas fala mais devagar depois disso.",
    "lessons": []
   },
@@ -186,6 +238,10 @@
    "en": "Excuse me, can I ask a question?",
    "pt": "Com licença, posso fazer uma pergunta?",
    "emoji": "🙋‍♀️",
+   "example": {
+    "en": "Excuse me, can I ask a question?",
+    "pt": "Com licença, posso fazer uma pergunta?"
+   },
    "note": "Para chamar a atenção de alguém antes de perguntar.",
    "lessons": []
   },
@@ -195,9 +251,15 @@
    "en": "Where is the washroom?",
    "pt": "Onde fica o banheiro?",
    "emoji": "🚻",
+   "example": {
+    "en": "Where is the washroom?",
+    "pt": "Onde fica o banheiro?"
+   },
    "note": "No Canadá, \"washroom\" é a palavra mais comum para banheiro.",
    "variant": true,
    "lessons": [
+    "ca-l29",
+    "ca-l30",
     "ca-host-arrival"
    ]
   },
@@ -207,6 +269,10 @@
    "en": "I feel sick.",
    "pt": "Eu estou me sentindo mal.",
    "emoji": "🤒",
+   "example": {
+    "en": "I feel sick.",
+    "pt": "Eu estou me sentindo mal."
+   },
    "note": "Para avisar um professor ou a família anfitriã.",
    "lessons": [
     "ca-city-help"
@@ -218,6 +284,10 @@
    "en": "Can I call my host family?",
    "pt": "Posso ligar para a minha família anfitriã?",
    "emoji": "📞",
+   "example": {
+    "en": "Can I call my host family?",
+    "pt": "Posso ligar para a minha família anfitriã?"
+   },
    "note": "Quando você precisa falar com a sua família anfitriã.",
    "lessons": []
   },
@@ -227,8 +297,13 @@
    "en": "Thank you so much!",
    "pt": "Muito obrigado / obrigada!",
    "emoji": "🙏",
+   "example": {
+    "en": "Thank you so much!",
+    "pt": "Muito obrigado / obrigada!"
+   },
    "note": "Sempre cai bem.",
    "lessons": [
+    "ca-l22",
     "ca-host-arrival",
     "ca-city-bus",
     "ca-city-help"
@@ -245,6 +320,7 @@
     "pt": "Qual é a senha do Wi-Fi?"
    },
    "lessons": [
+    "ca-l23",
     "ca-host-rules"
    ]
   },
@@ -259,6 +335,7 @@
     "pt": "Meu celular está sem bateria."
    },
    "lessons": [
+    "ca-l09",
     "ca-numbers"
    ]
   },
@@ -273,6 +350,9 @@
     "pt": "Olá! Prazer em te conhecer."
    },
    "lessons": [
+    "ca-l01",
+    "ca-l19",
+    "ca-l26",
     "ca-hello",
     "ca-spelling",
     "ca-immigration"
@@ -286,9 +366,10 @@
    "emoji": "🌅",
    "example": {
     "en": "Good morning, Mr. Brown.",
-    "pt": "Bom dia, Mr. Brown."
+    "pt": "Bom dia, professor Brown."
    },
    "lessons": [
+    "ca-l16",
     "ca-checkin",
     "ca-school-first-day",
     "ca-school-classroom"
@@ -329,7 +410,9 @@
     "en": "Goodbye, Emma!",
     "pt": "Tchau, Emma!"
    },
-   "lessons": []
+   "lessons": [
+    "ca-l01"
+   ]
   },
   {
    "id": "see-you-later",
@@ -351,8 +434,17 @@
    "en": "Nice to meet you.",
    "pt": "Prazer em te conhecer.",
    "emoji": "🤝",
+   "example": {
+    "en": "Nice to meet you.",
+    "pt": "Prazer em te conhecer."
+   },
    "note": "Ao conhecer alguém. A resposta é \"Nice to meet you too.\"",
    "lessons": [
+    "ca-l01",
+    "ca-l02",
+    "ca-l05",
+    "ca-l11",
+    "ca-l26",
     "ca-hello",
     "ca-spelling",
     "ca-videocall",
@@ -381,6 +473,10 @@
    "en": "I'm good, thanks.",
    "pt": "Estou bem, obrigado / obrigada.",
    "emoji": "👍",
+   "example": {
+    "en": "I'm good, thanks.",
+    "pt": "Estou bem, obrigado / obrigada."
+   },
    "note": "Resposta padrão para \"How are you?\"",
    "lessons": [
     "ca-hello"
@@ -397,6 +493,17 @@
     "pt": "Água, por favor."
    },
    "lessons": [
+    "ca-l04",
+    "ca-l05",
+    "ca-l13",
+    "ca-l15",
+    "ca-l16",
+    "ca-l19",
+    "ca-l20",
+    "ca-l21",
+    "ca-l23",
+    "ca-l24",
+    "ca-l25",
     "ca-spelling",
     "ca-checkin",
     "ca-immigration",
@@ -418,6 +525,10 @@
     "pt": "Obrigado pela carona."
    },
    "lessons": [
+    "ca-l02",
+    "ca-l09",
+    "ca-l28",
+    "ca-l30",
     "ca-hello",
     "ca-school-friends",
     "ca-cold",
@@ -430,8 +541,14 @@
    "en": "You're welcome.",
    "pt": "De nada.",
    "emoji": "😌",
+   "example": {
+    "en": "You're welcome.",
+    "pt": "De nada."
+   },
    "note": "Resposta a \"thank you\".",
-   "lessons": []
+   "lessons": [
+    "ca-l04"
+   ]
   },
   {
    "id": "excuse-me",
@@ -444,6 +561,11 @@
     "pt": "Com licença, onde fica a biblioteca?"
    },
    "lessons": [
+    "ca-l13",
+    "ca-l18",
+    "ca-l20",
+    "ca-l21",
+    "ca-l28",
     "ca-checkin",
     "ca-baggage",
     "ca-school-classroom",
@@ -462,6 +584,7 @@
     "pt": "Este é meu amigo Jake."
    },
    "lessons": [
+    "ca-l02",
     "ca-hello",
     "ca-city-help"
    ]
@@ -477,6 +600,12 @@
     "pt": "Bem-vindo ao Canadá!"
    },
    "lessons": [
+    "ca-l01",
+    "ca-l04",
+    "ca-l05",
+    "ca-l22",
+    "ca-l26",
+    "ca-l30",
     "ca-hello",
     "ca-spelling",
     "ca-immigration",
@@ -495,6 +624,9 @@
     "pt": "Meu nome é Bia."
    },
    "lessons": [
+    "ca-l02",
+    "ca-l10",
+    "ca-l26",
     "ca-hello"
    ]
   },
@@ -504,8 +636,14 @@
    "en": "I'm from Brazil.",
    "pt": "Eu sou do Brasil.",
    "emoji": "🇧🇷",
+   "example": {
+    "en": "I'm from Brazil.",
+    "pt": "Eu sou do Brasil."
+   },
    "note": "Para dizer de onde você é.",
    "lessons": [
+    "ca-l03",
+    "ca-l05",
     "ca-hello",
     "ca-videocall",
     "ca-immigration",
@@ -523,6 +661,8 @@
     "pt": "Oi! De onde você é?"
    },
    "lessons": [
+    "ca-l03",
+    "ca-l05",
     "ca-hello"
    ]
   },
@@ -550,6 +690,7 @@
     "pt": "Meu primeiro nome é Leo."
    },
    "lessons": [
+    "ca-l08",
     "ca-spelling"
    ]
   },
@@ -564,6 +705,7 @@
     "pt": "Qual é o seu sobrenome?"
    },
    "lessons": [
+    "ca-l08",
     "ca-spelling"
    ]
   },
@@ -577,8 +719,15 @@
     "en": "Oh, sorry!",
     "pt": "Ah, desculpe!"
    },
-   "note": "Os canadenses dizem \"sorry\" o tempo todo, até quando o erro nem foi seu.",
+   "note": "Use para pedir desculpas ou indicar que não ouviu algo. Hábitos variam conforme a pessoa e o contexto.",
    "lessons": [
+    "ca-l04",
+    "ca-l05",
+    "ca-l09",
+    "ca-l13",
+    "ca-l20",
+    "ca-l24",
+    "ca-l25",
     "ca-spelling",
     "ca-immigration",
     "ca-baggage",
@@ -596,6 +745,13 @@
     "pt": "Sim, por favor."
    },
    "lessons": [
+    "ca-l06",
+    "ca-l11",
+    "ca-l12",
+    "ca-l13",
+    "ca-l14",
+    "ca-l15",
+    "ca-l17",
     "ca-numbers",
     "ca-videocall",
     "ca-backpack",
@@ -619,6 +775,19 @@
     "pt": "Não, obrigado."
    },
    "lessons": [
+    "ca-l03",
+    "ca-l04",
+    "ca-l08",
+    "ca-l09",
+    "ca-l18",
+    "ca-l19",
+    "ca-l20",
+    "ca-l22",
+    "ca-l24",
+    "ca-l25",
+    "ca-l28",
+    "ca-l29",
+    "ca-l30",
     "ca-backpack",
     "ca-checkin",
     "ca-baggage",
@@ -642,6 +811,22 @@
     "pt": "Obrigado pela sua ajuda."
    },
    "lessons": [
+    "ca-l01",
+    "ca-l04",
+    "ca-l05",
+    "ca-l08",
+    "ca-l10",
+    "ca-l16",
+    "ca-l18",
+    "ca-l20",
+    "ca-l21",
+    "ca-l22",
+    "ca-l24",
+    "ca-l25",
+    "ca-l26",
+    "ca-l27",
+    "ca-l28",
+    "ca-l30",
     "ca-spelling",
     "ca-numbers",
     "ca-checkin",
@@ -654,19 +839,259 @@
    ]
   },
   {
+   "id": "hi",
+   "theme": "cumprimentos",
+   "en": "hi",
+   "pt": "oi",
+   "emoji": "👋",
+   "example": {
+    "en": "Hi! I'm Sam.",
+    "pt": "Oi! Eu sou a Sam."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l01",
+    "ca-l02",
+    "ca-l03",
+    "ca-l05",
+    "ca-l11",
+    "ca-l15",
+    "ca-l30",
+    "ca-hello",
+    "ca-videocall",
+    "ca-baggage",
+    "ca-host-arrival",
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "see-you-soon",
+   "theme": "cumprimentos",
+   "en": "see you soon",
+   "pt": "até breve",
+   "emoji": "🔜",
+   "example": {
+    "en": "Goodbye! See you soon.",
+    "pt": "Tchau! Até breve."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l01",
+    "ca-l05",
+    "ca-l11",
+    "ca-l15",
+    "ca-videocall"
+   ]
+  },
+  {
    "id": "name",
    "theme": "cumprimentos",
    "en": "name",
    "pt": "nome",
    "emoji": "📛",
    "example": {
-    "en": "Hi! I'm Sam. What's your name?",
-    "pt": "Oi! Eu sou a Sam. Qual é o seu nome?"
+    "en": "Hi! What's your name?",
+    "pt": "Oi! Qual é o seu nome?"
    },
    "auto": true,
    "lessons": [
+    "ca-l02",
+    "ca-l05",
+    "ca-l08",
+    "ca-l10",
+    "ca-l26",
     "ca-hello",
     "ca-spelling"
+   ]
+  },
+  {
+   "id": "my-name-is-2",
+   "theme": "cumprimentos",
+   "en": "my name is...",
+   "pt": "meu nome é...",
+   "emoji": "🗣️",
+   "auto": true,
+   "lessons": [
+    "ca-l02",
+    "ca-l10",
+    "ca-l26",
+    "ca-hello"
+   ]
+  },
+  {
+   "id": "whats-your-name",
+   "theme": "cumprimentos",
+   "en": "What's your name?",
+   "pt": "Qual é o seu nome?",
+   "emoji": "❓",
+   "example": {
+    "en": "Hi! What's your name?",
+    "pt": "Oi! Qual é o seu nome?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l02",
+    "ca-l05",
+    "ca-l10",
+    "ca-hello"
+   ]
+  },
+  {
+   "id": "nice-to-meet-you-2",
+   "theme": "cumprimentos",
+   "en": "nice to meet you",
+   "pt": "prazer em te conhecer",
+   "emoji": "🤝",
+   "example": {
+    "en": "Nice to meet you, Leo.",
+    "pt": "Prazer em te conhecer, Leo."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l01",
+    "ca-l02",
+    "ca-l05",
+    "ca-l11",
+    "ca-l26",
+    "ca-hello",
+    "ca-spelling",
+    "ca-videocall",
+    "ca-host-arrival",
+    "ca-school-first-day"
+   ]
+  },
+  {
+   "id": "from",
+   "theme": "cumprimentos",
+   "en": "from",
+   "pt": "de (origem)",
+   "emoji": "📍",
+   "example": {
+    "en": "Hi! I'm Maya. I'm from Canada.",
+    "pt": "Oi! Eu sou a Maya. Eu sou do Canadá."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l03",
+    "ca-l05",
+    "ca-hello",
+    "ca-videocall",
+    "ca-immigration",
+    "ca-school-friends"
+   ]
+  },
+  {
+   "id": "brazil",
+   "theme": "cumprimentos",
+   "en": "Brazil",
+   "pt": "Brasil",
+   "emoji": "🇧🇷",
+   "example": {
+    "en": "I'm from Brazil.",
+    "pt": "Eu sou do Brasil."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l03",
+    "ca-l05",
+    "ca-hello",
+    "ca-videocall",
+    "ca-immigration",
+    "ca-school-friends"
+   ]
+  },
+  {
+   "id": "canada",
+   "theme": "cumprimentos",
+   "en": "Canada",
+   "pt": "Canadá",
+   "emoji": "🇨🇦",
+   "example": {
+    "en": "Hi! I'm Maya. I'm from Canada.",
+    "pt": "Oi! Eu sou a Maya. Eu sou do Canadá."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l01",
+    "ca-l03",
+    "ca-l04",
+    "ca-l13",
+    "ca-l18",
+    "ca-l19",
+    "ca-l20",
+    "ca-hello",
+    "ca-checkin",
+    "ca-immigration",
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "can-you-repeat-please",
+   "theme": "cumprimentos",
+   "en": "Can you repeat, please?",
+   "pt": "Pode repetir, por favor?",
+   "emoji": "🔁",
+   "example": {
+    "en": "Sorry. Can you repeat, please?",
+    "pt": "Desculpa. Pode repetir, por favor?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l04",
+    "ca-l05",
+    "ca-l20"
+   ]
+  },
+  {
+   "id": "im",
+   "theme": "cumprimentos",
+   "en": "I'm...",
+   "pt": "eu sou...",
+   "emoji": "🙋",
+   "auto": true,
+   "lessons": [
+    "ca-l01",
+    "ca-l02",
+    "ca-l03",
+    "ca-l05",
+    "ca-l07",
+    "ca-l10",
+    "ca-l12",
+    "ca-l19",
+    "ca-l20",
+    "ca-l22",
+    "ca-l24",
+    "ca-l25",
+    "ca-l26",
+    "ca-l30",
+    "ca-hello",
+    "ca-numbers",
+    "ca-videocall",
+    "ca-backpack",
+    "ca-immigration",
+    "ca-baggage",
+    "ca-host-arrival",
+    "ca-host-dinner",
+    "ca-school-first-day",
+    "ca-school-friends",
+    "ca-city-help",
+    "ca-cold"
+   ]
+  },
+  {
+   "id": "im-from",
+   "theme": "cumprimentos",
+   "en": "I'm from...",
+   "pt": "eu sou de...",
+   "emoji": "📍",
+   "auto": true,
+   "lessons": [
+    "ca-l03",
+    "ca-l05",
+    "ca-hello",
+    "ca-videocall",
+    "ca-immigration",
+    "ca-school-friends"
    ]
   },
   {
@@ -676,11 +1101,14 @@
    "pt": "bom / bem",
    "emoji": "👍",
    "example": {
-    "en": "I'm good, thanks. And you?",
-    "pt": "Estou bem, obrigada. E você?"
+    "en": "Good! Documents in the backpack, not in the big bag.",
+    "pt": "Ótimo! Documentos na mochila, não na mala grande."
    },
    "auto": true,
    "lessons": [
+    "ca-l02",
+    "ca-l12",
+    "ca-l16",
     "ca-hello",
     "ca-videocall",
     "ca-backpack",
@@ -696,11 +1124,13 @@
    "pt": "soletrar",
    "emoji": "🔤",
    "example": {
-    "en": "Hello! Can you spell your last name, please?",
-    "pt": "Olá! Você pode soletrar o seu sobrenome, por favor?"
+    "en": "Can you spell that?",
+    "pt": "Pode soletrar?"
    },
    "auto": true,
    "lessons": [
+    "ca-l08",
+    "ca-l10",
     "ca-spelling"
    ]
   },
@@ -711,11 +1141,14 @@
    "pt": "repetir",
    "emoji": "🔁",
    "example": {
-    "en": "Sorry, can you repeat that?",
-    "pt": "Desculpe, você pode repetir?"
+    "en": "Can you repeat, please?",
+    "pt": "Pode repetir, por favor?"
    },
    "auto": true,
    "lessons": [
+    "ca-l04",
+    "ca-l05",
+    "ca-l20",
     "ca-spelling",
     "ca-immigration",
     "ca-school-classroom"
@@ -732,7 +1165,9 @@
     "pt": "É o número zero."
    },
    "note": "O número 0.",
-   "lessons": []
+   "lessons": [
+    "ca-l06"
+   ]
   },
   {
    "id": "one",
@@ -746,6 +1181,8 @@
    },
    "note": "O número 1.",
    "lessons": [
+    "ca-l06",
+    "ca-l09",
     "ca-numbers",
     "ca-city-help"
    ]
@@ -762,6 +1199,8 @@
    },
    "note": "O número 2.",
    "lessons": [
+    "ca-l06",
+    "ca-l09",
     "ca-numbers"
    ]
   },
@@ -777,6 +1216,7 @@
    },
    "note": "O número 3.",
    "lessons": [
+    "ca-l06",
     "ca-numbers"
    ]
   },
@@ -792,6 +1232,8 @@
    },
    "note": "O número 4.",
    "lessons": [
+    "ca-l06",
+    "ca-l09",
     "ca-numbers"
    ]
   },
@@ -807,6 +1249,8 @@
    },
    "note": "O número 5.",
    "lessons": [
+    "ca-l06",
+    "ca-l09",
     "ca-numbers",
     "ca-city-bus"
    ]
@@ -823,6 +1267,12 @@
    },
    "note": "O número 6.",
    "lessons": [
+    "ca-l06",
+    "ca-l09",
+    "ca-l19",
+    "ca-l20",
+    "ca-l23",
+    "ca-l25",
     "ca-numbers",
     "ca-immigration",
     "ca-host-rules"
@@ -840,6 +1290,9 @@
    },
    "note": "O número 7.",
    "lessons": [
+    "ca-l06",
+    "ca-l09",
+    "ca-l10",
     "ca-host-rules"
    ]
   },
@@ -855,6 +1308,8 @@
    },
    "note": "O número 8.",
    "lessons": [
+    "ca-l06",
+    "ca-l25",
     "ca-numbers",
     "ca-host-rules"
    ]
@@ -871,6 +1326,8 @@
    },
    "note": "O número 9.",
    "lessons": [
+    "ca-l06",
+    "ca-l23",
     "ca-numbers",
     "ca-host-rules",
     "ca-city-bus",
@@ -889,6 +1346,10 @@
    },
    "note": "O número 10.",
    "lessons": [
+    "ca-l06",
+    "ca-l17",
+    "ca-l20",
+    "ca-l23",
     "ca-checkin",
     "ca-host-rules",
     "ca-school-classroom"
@@ -906,6 +1367,7 @@
    },
    "note": "O número 11.",
    "lessons": [
+    "ca-l07",
     "ca-school-classroom"
    ]
   },
@@ -921,6 +1383,10 @@
    },
    "note": "O número 12.",
    "lessons": [
+    "ca-l07",
+    "ca-l16",
+    "ca-l28",
+    "ca-l30",
     "ca-checkin",
     "ca-school-first-day"
    ]
@@ -937,6 +1403,7 @@
    },
    "note": "O número 13.",
    "lessons": [
+    "ca-l07",
     "ca-numbers"
    ]
   },
@@ -952,6 +1419,7 @@
    },
    "note": "O número 14.",
    "lessons": [
+    "ca-l07",
     "ca-numbers"
    ]
   },
@@ -967,6 +1435,8 @@
    },
    "note": "O número 15.",
    "lessons": [
+    "ca-l07",
+    "ca-l10",
     "ca-numbers",
     "ca-videocall",
     "ca-host-arrival"
@@ -984,6 +1454,7 @@
    },
    "note": "O número 16.",
    "lessons": [
+    "ca-l07",
     "ca-numbers"
    ]
   },
@@ -999,6 +1470,7 @@
    },
    "note": "O número 17.",
    "lessons": [
+    "ca-l07",
     "ca-numbers"
    ]
   },
@@ -1013,7 +1485,9 @@
     "pt": "É o número dezoito."
    },
    "note": "O número 18.",
-   "lessons": []
+   "lessons": [
+    "ca-l07"
+   ]
   },
   {
    "id": "nineteen",
@@ -1026,7 +1500,9 @@
     "pt": "É o número dezenove."
    },
    "note": "O número 19.",
-   "lessons": []
+   "lessons": [
+    "ca-l07"
+   ]
   },
   {
    "id": "twenty",
@@ -1040,6 +1516,11 @@
    },
    "note": "O número 20.",
    "lessons": [
+    "ca-l07",
+    "ca-l14",
+    "ca-l17",
+    "ca-l18",
+    "ca-l20",
     "ca-checkin",
     "ca-cold"
    ]
@@ -1056,6 +1537,11 @@
    },
    "note": "O número 30.",
    "lessons": [
+    "ca-l09",
+    "ca-l10",
+    "ca-l17",
+    "ca-l20",
+    "ca-l25",
     "ca-checkin",
     "ca-host-rules"
    ]
@@ -1092,8 +1578,14 @@
    "en": "How old are you?",
    "pt": "Quantos anos você tem?",
    "emoji": "🎂",
+   "example": {
+    "en": "How old are you?",
+    "pt": "Quantos anos você tem?"
+   },
    "note": "A resposta é \"I'm fifteen years old.\" (troque o número).",
    "lessons": [
+    "ca-l07",
+    "ca-l10",
     "ca-numbers"
    ]
   },
@@ -1103,8 +1595,14 @@
    "en": "What's your phone number?",
    "pt": "Qual é o seu número de telefone?",
    "emoji": "📱",
+   "example": {
+    "en": "What's your phone number?",
+    "pt": "Qual é o seu número de telefone?"
+   },
    "note": "Diga os números um por um: \"five, five, five…\"",
-   "lessons": []
+   "lessons": [
+    "ca-l09"
+   ]
   },
   {
    "id": "month",
@@ -1121,6 +1619,185 @@
    ]
   },
   {
+   "id": "one-two-three",
+   "theme": "numeros",
+   "en": "one, two, three",
+   "pt": "um, dois, três",
+   "emoji": "1️⃣",
+   "example": {
+    "en": "Let's count the bags. One, two, three.",
+    "pt": "Vamos contar as malas. Um, dois, três."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l06",
+    "ca-numbers"
+   ]
+  },
+  {
+   "id": "four-five-six",
+   "theme": "numeros",
+   "en": "four, five, six",
+   "pt": "quatro, cinco, seis",
+   "emoji": "4️⃣",
+   "example": {
+    "en": "Four, five, six.",
+    "pt": "Quatro, cinco, seis."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l06"
+   ]
+  },
+  {
+   "id": "seven-eight-nine-ten",
+   "theme": "numeros",
+   "en": "seven, eight, nine, ten",
+   "pt": "sete, oito, nove, dez",
+   "emoji": "🔟",
+   "example": {
+    "en": "Seven, eight, nine, ten. Ten bags!",
+    "pt": "Sete, oito, nove, dez. Dez malas!"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l06"
+   ]
+  },
+  {
+   "id": "im-fifteen",
+   "theme": "numeros",
+   "en": "I'm fifteen.",
+   "pt": "Eu tenho quinze anos.",
+   "emoji": "1️⃣5️⃣",
+   "example": {
+    "en": "Me too! I'm fifteen. And Leo?",
+    "pt": "Eu também! Eu tenho quinze. E o Leo?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l07",
+    "ca-l10",
+    "ca-numbers",
+    "ca-videocall",
+    "ca-host-arrival"
+   ]
+  },
+  {
+   "id": "eleven-twelve-thirteen-fourteen",
+   "theme": "numeros",
+   "en": "eleven, twelve, thirteen, fourteen",
+   "pt": "onze, doze, treze, catorze",
+   "emoji": "🔢",
+   "auto": true,
+   "lessons": [
+    "ca-l07"
+   ]
+  },
+  {
+   "id": "sixteen-seventeen-eighteen-nineteen",
+   "theme": "numeros",
+   "en": "sixteen, seventeen, eighteen, nineteen",
+   "pt": "dezesseis, dezessete, dezoito, dezenove",
+   "emoji": "🔢",
+   "auto": true,
+   "lessons": [
+    "ca-l07"
+   ]
+  },
+  {
+   "id": "can-you-spell-that",
+   "theme": "numeros",
+   "en": "Can you spell that?",
+   "pt": "Pode soletrar?",
+   "emoji": "🔤",
+   "auto": true,
+   "lessons": [
+    "ca-l08",
+    "ca-l10"
+   ]
+  },
+  {
+   "id": "zed",
+   "theme": "numeros",
+   "en": "zed",
+   "pt": "a letra Z (no Canadá)",
+   "emoji": "🇿",
+   "example": {
+    "en": "Souza Lima. S, O, U, Z, A... Z is zed.",
+    "pt": "Souza Lima. S, O, U, Z, A... Z se diz zed."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l08"
+   ]
+  },
+  {
+   "id": "phone-number",
+   "theme": "numeros",
+   "en": "phone number",
+   "pt": "número de telefone",
+   "emoji": "📱",
+   "example": {
+    "en": "What's your phone number, Leo?",
+    "pt": "Qual é o seu telefone, Leo?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l09",
+    "ca-numbers"
+   ]
+  },
+  {
+   "id": "what-time",
+   "theme": "numeros",
+   "en": "What time?",
+   "pt": "Que horas?",
+   "emoji": "⏰",
+   "auto": true,
+   "lessons": [
+    "ca-l09",
+    "ca-l17",
+    "ca-l23",
+    "ca-l25",
+    "ca-checkin",
+    "ca-host-rules",
+    "ca-school-first-day"
+   ]
+  },
+  {
+   "id": "seven-thirty",
+   "theme": "numeros",
+   "en": "seven thirty",
+   "pt": "sete e meia",
+   "emoji": "🕢",
+   "example": {
+    "en": "Sorry, seven thirty. Seven thirty in the morning.",
+    "pt": "Desculpa, sete e meia. Sete e meia da manhã."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l09",
+    "ca-l10"
+   ]
+  },
+  {
+   "id": "meeting",
+   "theme": "numeros",
+   "en": "meeting",
+   "pt": "encontro / reunião",
+   "emoji": "🗓️",
+   "example": {
+    "en": "Thanks. The meeting is on Saturday.",
+    "pt": "Obrigada. O encontro é no sábado."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l09",
+    "ca-l10"
+   ]
+  },
+  {
    "id": "passport",
    "theme": "aeroporto",
    "en": "passport",
@@ -1131,6 +1808,11 @@
     "pt": "Aqui está o meu passaporte."
    },
    "lessons": [
+    "ca-l08",
+    "ca-l12",
+    "ca-l15",
+    "ca-l16",
+    "ca-l19",
     "ca-backpack",
     "ca-checkin",
     "ca-immigration"
@@ -1147,6 +1829,8 @@
     "pt": "Aqui está o meu cartão de embarque."
    },
    "lessons": [
+    "ca-l15",
+    "ca-l16",
     "ca-checkin"
    ]
   },
@@ -1161,6 +1845,7 @@
     "pt": "Meu voo é ao meio-dia."
    },
    "lessons": [
+    "ca-l18",
     "ca-checkin"
    ]
   },
@@ -1175,6 +1860,9 @@
     "pt": "Onde fica o portão doze?"
    },
    "lessons": [
+    "ca-l17",
+    "ca-l18",
+    "ca-l20",
     "ca-checkin"
    ]
   },
@@ -1189,6 +1877,7 @@
     "pt": "Meu assento é na janela."
    },
    "lessons": [
+    "ca-l16",
     "ca-checkin"
    ]
   },
@@ -1202,7 +1891,9 @@
     "en": "Can I have a window seat?",
     "pt": "Posso ficar na janela?"
    },
-   "lessons": []
+   "lessons": [
+    "ca-l16"
+   ]
   },
   {
    "id": "suitcase",
@@ -1232,12 +1923,13 @@
    "id": "baggage-claim",
    "theme": "aeroporto",
    "en": "baggage claim",
-   "pt": "esteira de bagagem",
+   "pt": "área de retirada de bagagem",
    "emoji": "🛄",
    "example": {
     "en": "The baggage claim is downstairs.",
     "pt": "A esteira de bagagem fica no andar de baixo."
    },
+   "note": "É a área onde você retira a bagagem; a esteira em si é baggage carousel.",
    "lessons": [
     "ca-baggage"
    ]
@@ -1273,10 +1965,13 @@
    "pt": "alfândega",
    "emoji": "📦",
    "example": {
-    "en": "I have nothing to declare.",
-    "pt": "Não tenho nada a declarar."
+    "en": "I need to declare this food.",
+    "pt": "Preciso declarar este alimento."
    },
-   "lessons": []
+   "note": "Ao entrar no Canadá, declare todos os alimentos conforme as instruções oficiais, mesmo quando lacrados. Consulte inspection.canada.ca.",
+   "lessons": [
+    "ca-l21"
+   ]
   },
   {
    "id": "immigration",
@@ -1300,7 +1995,9 @@
     "en": "The officer asks a few questions.",
     "pt": "O oficial faz algumas perguntas."
    },
-   "lessons": []
+   "lessons": [
+    "ca-l21"
+   ]
   },
   {
    "id": "study-permit",
@@ -1323,8 +2020,15 @@
    "pt": "Onde fica o portão …?",
    "emoji": "🗺️",
    "say": "Where is gate twelve?",
+   "example": {
+    "en": "Where is gate twelve?",
+    "pt": "Onde fica o portão doze?"
+   },
    "note": "Troque os pontinhos pelo número do portão.",
    "lessons": [
+    "ca-l17",
+    "ca-l18",
+    "ca-l20",
     "ca-checkin"
    ]
   },
@@ -1334,8 +2038,14 @@
    "en": "I'm here to study.",
    "pt": "Eu vim estudar.",
    "emoji": "🎓",
+   "example": {
+    "en": "I'm here to study.",
+    "pt": "Eu vim estudar."
+   },
    "note": "Resposta comum na imigração.",
    "lessons": [
+    "ca-l19",
+    "ca-l20",
     "ca-immigration"
    ]
   },
@@ -1345,6 +2055,10 @@
    "en": "I'm staying with a host family.",
    "pt": "Eu vou ficar com uma família anfitriã.",
    "emoji": "🏠",
+   "example": {
+    "en": "I'm staying with a host family.",
+    "pt": "Eu vou ficar com uma família anfitriã."
+   },
    "note": "Resposta comum na imigração.",
    "lessons": []
   },
@@ -1385,6 +2099,379 @@
    "lessons": []
   },
   {
+   "id": "can-you-hear-me",
+   "theme": "aeroporto",
+   "en": "Can you hear me?",
+   "pt": "Você está me ouvindo?",
+   "emoji": "👂",
+   "example": {
+    "en": "Hi, Bia! Can you hear me?",
+    "pt": "Oi, Bia! Você está me ouvindo?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l11",
+    "ca-l15",
+    "ca-videocall"
+   ]
+  },
+  {
+   "id": "yes-i-can",
+   "theme": "aeroporto",
+   "en": "Yes, I can.",
+   "pt": "Sim, estou (ouvindo).",
+   "emoji": "✅",
+   "example": {
+    "en": "Yes, I can. Hi, Linda!",
+    "pt": "Sim, estou. Oi, Linda!"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l11",
+    "ca-l15"
+   ]
+  },
+  {
+   "id": "daughter",
+   "theme": "aeroporto",
+   "en": "daughter",
+   "pt": "filha",
+   "emoji": "👧",
+   "example": {
+    "en": "This is Emma, my daughter.",
+    "pt": "Esta é a Emma, a minha filha."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l11"
+   ]
+  },
+  {
+   "id": "happy",
+   "theme": "aeroporto",
+   "en": "happy",
+   "pt": "feliz",
+   "emoji": "😊",
+   "example": {
+    "en": "We are very happy. See you soon!",
+    "pt": "Nós estamos muito felizes. Até breve!"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l11",
+    "ca-videocall"
+   ]
+  },
+  {
+   "id": "school-letter",
+   "theme": "aeroporto",
+   "en": "school letter",
+   "pt": "carta da escola",
+   "emoji": "✉️",
+   "example": {
+    "en": "And your school letter?",
+    "pt": "E a carta da escola?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l12",
+    "ca-backpack",
+    "ca-immigration"
+   ]
+  },
+  {
+   "id": "documents",
+   "theme": "aeroporto",
+   "en": "documents",
+   "pt": "documentos",
+   "emoji": "📄",
+   "example": {
+    "en": "Good! Documents in the backpack, not in the big bag.",
+    "pt": "Ótimo! Documentos na mochila, não na mala grande."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l12"
+   ]
+  },
+  {
+   "id": "group-leader",
+   "theme": "aeroporto",
+   "en": "group leader",
+   "pt": "monitor / líder do grupo",
+   "emoji": "🧑‍🏫",
+   "example": {
+    "en": "Excuse me, where is my group leader?",
+    "pt": "Com licença, onde está a monitora do meu grupo?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l13",
+    "ca-l18",
+    "ca-backpack"
+   ]
+  },
+  {
+   "id": "over-there",
+   "theme": "aeroporto",
+   "en": "over there",
+   "pt": "ali / lá",
+   "emoji": "👉",
+   "example": {
+    "en": "Over there, by the window.",
+    "pt": "Ali, perto da janela."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l13",
+    "ca-backpack"
+   ]
+  },
+  {
+   "id": "stay-with-your-group",
+   "theme": "aeroporto",
+   "en": "Stay with your group.",
+   "pt": "Fique com o seu grupo.",
+   "emoji": "👥",
+   "example": {
+    "en": "Remember: stay with your group.",
+    "pt": "Lembre-se: fique com o seu grupo."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l13",
+    "ca-l15",
+    "ca-backpack"
+   ]
+  },
+  {
+   "id": "warm",
+   "theme": "aeroporto",
+   "en": "warm",
+   "pt": "quente / agradável",
+   "emoji": "🌤️",
+   "example": {
+    "en": "Bring a jacket and warm clothes.",
+    "pt": "Traga um casaco e roupas quentes."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l14",
+    "ca-videocall"
+   ]
+  },
+  {
+   "id": "boots",
+   "theme": "aeroporto",
+   "en": "boots",
+   "pt": "botas",
+   "emoji": "🥾",
+   "example": {
+    "en": "And boots?",
+    "pt": "E botas?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l14",
+    "ca-cold"
+   ]
+  },
+  {
+   "id": "here-you-go",
+   "theme": "aeroporto",
+   "en": "Here you go.",
+   "pt": "Aqui está. (ao entregar algo)",
+   "emoji": "🤲",
+   "example": {
+    "en": "Here you go. Do you want more?",
+    "pt": "Aqui está. Você quer mais?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l16",
+    "ca-l19",
+    "ca-l24",
+    "ca-checkin",
+    "ca-immigration",
+    "ca-baggage",
+    "ca-host-dinner"
+   ]
+  },
+  {
+   "id": "window",
+   "theme": "aeroporto",
+   "en": "window",
+   "pt": "janela",
+   "emoji": "🪟",
+   "example": {
+    "en": "Over there, by the window.",
+    "pt": "Ali, perto da janela."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l13",
+    "ca-l16",
+    "ca-checkin"
+   ]
+  },
+  {
+   "id": "boarding",
+   "theme": "aeroporto",
+   "en": "boarding",
+   "pt": "embarque",
+   "emoji": "🛫",
+   "example": {
+    "en": "Thank you. Here is your boarding pass.",
+    "pt": "Obrigada. Aqui está o seu cartão de embarque."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l15",
+    "ca-l16",
+    "ca-l17",
+    "ca-l20",
+    "ca-checkin"
+   ]
+  },
+  {
+   "id": "board",
+   "theme": "aeroporto",
+   "en": "board",
+   "pt": "painel (de voos)",
+   "emoji": "🖥️",
+   "example": {
+    "en": "Look at the board. Our gate is twenty.",
+    "pt": "Olhem o painel. O nosso portão é o vinte."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l17"
+   ]
+  },
+  {
+   "id": "on-the-left",
+   "theme": "aeroporto",
+   "en": "on the left",
+   "pt": "à esquerda",
+   "emoji": "⬅️",
+   "example": {
+    "en": "Gate twenty is on the left.",
+    "pt": "O portão vinte fica à esquerda."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l17",
+    "ca-l18",
+    "ca-l20",
+    "ca-checkin"
+   ]
+  },
+  {
+   "id": "ten-thirty",
+   "theme": "aeroporto",
+   "en": "ten thirty",
+   "pt": "dez e meia",
+   "emoji": "🕥",
+   "example": {
+    "en": "Boarding is at ten thirty.",
+    "pt": "O embarque é às dez e meia."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l17",
+    "ca-l20",
+    "ca-checkin"
+   ]
+  },
+  {
+   "id": "can-you-help-me",
+   "theme": "aeroporto",
+   "en": "Can you help me?",
+   "pt": "Pode me ajudar?",
+   "emoji": "🙋",
+   "example": {
+    "en": "Excuse me. Can you help me?",
+    "pt": "Com licença. Pode me ajudar?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l18"
+   ]
+  },
+  {
+   "id": "problem",
+   "theme": "aeroporto",
+   "en": "problem",
+   "pt": "problema",
+   "emoji": "❗",
+   "example": {
+    "en": "No problem.",
+    "pt": "Sem problema."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l04",
+    "ca-l18",
+    "ca-l22",
+    "ca-l24",
+    "ca-host-rules",
+    "ca-host-dinner",
+    "ca-school-classroom"
+   ]
+  },
+  {
+   "id": "there",
+   "theme": "aeroporto",
+   "en": "there",
+   "pt": "lá / ali",
+   "emoji": "👉",
+   "example": {
+    "en": "Over there, by the window.",
+    "pt": "Ali, perto da janela."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l13",
+    "ca-l14",
+    "ca-l15",
+    "ca-l18",
+    "ca-l29",
+    "ca-videocall",
+    "ca-backpack",
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "months",
+   "theme": "aeroporto",
+   "en": "months",
+   "pt": "meses",
+   "emoji": "🗓️",
+   "example": {
+    "en": "Six months.",
+    "pt": "Seis meses."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l19",
+    "ca-l20",
+    "ca-immigration"
+   ]
+  },
+  {
+   "id": "how-long",
+   "theme": "aeroporto",
+   "en": "How long?",
+   "pt": "Quanto tempo?",
+   "emoji": "⏳",
+   "auto": true,
+   "lessons": [
+    "ca-l19",
+    "ca-l20",
+    "ca-immigration"
+   ]
+  },
+  {
    "id": "school",
    "theme": "escola",
    "en": "school",
@@ -1395,6 +2482,10 @@
     "pt": "Minha escola é perto de casa."
    },
    "lessons": [
+    "ca-l12",
+    "ca-l23",
+    "ca-l25",
+    "ca-l26",
     "ca-backpack",
     "ca-immigration",
     "ca-host-rules",
@@ -1424,6 +2515,8 @@
     "pt": "Minha primeira aula é matemática."
    },
    "lessons": [
+    "ca-l07",
+    "ca-l27",
     "ca-school-first-day",
     "ca-school-classroom"
    ]
@@ -1451,6 +2544,9 @@
     "pt": "Sou um aluno novo."
    },
    "lessons": [
+    "ca-l19",
+    "ca-l26",
+    "ca-l30",
     "ca-immigration",
     "ca-school-friends"
    ]
@@ -1492,6 +2588,7 @@
    "note": "No Canadá escreve-se \"counsellor\" (com dois L).",
    "variant": true,
    "lessons": [
+    "ca-l26",
     "ca-school-first-day"
    ]
   },
@@ -1506,6 +2603,7 @@
     "pt": "Meu armário é o número dez."
    },
    "lessons": [
+    "ca-l28",
     "ca-school-first-day"
    ]
   },
@@ -1534,6 +2632,8 @@
     "pt": "Este é o meu horário de aulas."
    },
    "lessons": [
+    "ca-l27",
+    "ca-l30",
     "ca-school-first-day"
    ]
   },
@@ -1560,6 +2660,8 @@
     "pt": "Tenho matemática hoje."
    },
    "lessons": [
+    "ca-l07",
+    "ca-l27",
     "ca-school-first-day"
    ]
   },
@@ -1665,7 +2767,10 @@
     "en": "Let's eat in the cafeteria.",
     "pt": "Vamos comer no refeitório."
    },
-   "lessons": []
+   "lessons": [
+    "ca-l29",
+    "ca-l30"
+   ]
   },
   {
    "id": "study",
@@ -1678,6 +2783,8 @@
     "pt": "Eu estudo depois do jantar."
    },
    "lessons": [
+    "ca-l19",
+    "ca-l20",
     "ca-immigration"
    ]
   },
@@ -1701,6 +2808,10 @@
    "en": "May I go to the washroom?",
    "pt": "Posso ir ao banheiro?",
    "emoji": "🚻",
+   "example": {
+    "en": "May I go to the washroom?",
+    "pt": "Posso ir ao banheiro?"
+   },
    "note": "Frase que se diz ao professor. No Canadá, \"washroom\" é o mais comum.",
    "variant": true,
    "lessons": [
@@ -1713,6 +2824,10 @@
    "en": "What page are we on?",
    "pt": "Em que página estamos?",
    "emoji": "🔖",
+   "example": {
+    "en": "What page are we on?",
+    "pt": "Em que página estamos?"
+   },
    "note": "Quando você se perdeu na aula.",
    "lessons": []
   },
@@ -1722,6 +2837,10 @@
    "en": "Can you explain that again?",
    "pt": "Pode explicar de novo?",
    "emoji": "🔁",
+   "example": {
+    "en": "Can you explain that again?",
+    "pt": "Pode explicar de novo?"
+   },
    "note": "Quando você não entendeu a explicação.",
    "lessons": []
   },
@@ -1736,7 +2855,117 @@
     "pt": "Minha mochila está pesada."
    },
    "lessons": [
+    "ca-l12",
+    "ca-l15",
     "ca-backpack"
+   ]
+  },
+  {
+   "id": "new-student",
+   "theme": "escola",
+   "en": "new student",
+   "pt": "aluno novo / aluna nova",
+   "emoji": "🆕",
+   "example": {
+    "en": "Hello. I'm a new student. My name is Leo.",
+    "pt": "Olá. Eu sou um aluno novo. Meu nome é Leo."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l26",
+    "ca-l30",
+    "ca-school-friends"
+   ]
+  },
+  {
+   "id": "school-office",
+   "theme": "escola",
+   "en": "school office",
+   "pt": "secretaria da escola",
+   "emoji": "🏢",
+   "example": {
+    "en": "Nice to meet you. Where is the school office?",
+    "pt": "Prazer. Onde fica a secretaria da escola?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l26"
+   ]
+  },
+  {
+   "id": "english",
+   "theme": "escola",
+   "en": "English",
+   "pt": "inglês",
+   "emoji": "🔤",
+   "example": {
+    "en": "Welcome to the Canada group, Leo! Today we practise English.",
+    "pt": "Bem-vindo ao grupo do Canadá, Leo! Hoje a gente pratica inglês."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l04",
+    "ca-l27"
+   ]
+  },
+  {
+   "id": "art",
+   "theme": "escola",
+   "en": "art",
+   "pt": "artes",
+   "emoji": "🎨",
+   "example": {
+    "en": "Then English, and after lunch, art.",
+    "pt": "Depois inglês, e depois do almoço, artes."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l27"
+   ]
+  },
+  {
+   "id": "second-floor",
+   "theme": "escola",
+   "en": "second floor",
+   "pt": "segundo andar",
+   "emoji": "2️⃣",
+   "example": {
+    "en": "Room twelve is on the second floor.",
+    "pt": "A sala doze fica no segundo andar."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l28",
+    "ca-l30",
+    "ca-school-first-day"
+   ]
+  },
+  {
+   "id": "floor",
+   "theme": "escola",
+   "en": "floor",
+   "pt": "andar",
+   "emoji": "🏢",
+   "example": {
+    "en": "Room twelve is on the second floor.",
+    "pt": "A sala doze fica no segundo andar."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l28",
+    "ca-l30",
+    "ca-school-first-day"
+   ]
+  },
+  {
+   "id": "where-can-i-eat",
+   "theme": "escola",
+   "en": "Where can I eat?",
+   "pt": "Onde eu posso comer?",
+   "emoji": "❓",
+   "auto": true,
+   "lessons": [
+    "ca-l29"
    ]
   },
   {
@@ -1746,11 +2975,12 @@
    "pt": "entender",
    "emoji": "💡",
    "example": {
-    "en": "Excuse me, Mr. Brown. I don't understand.",
-    "pt": "Com licença, professor. Eu não entendi."
+    "en": "Sorry. I don't understand.",
+    "pt": "Desculpa. Eu não entendi."
    },
    "auto": true,
    "lessons": [
+    "ca-l04",
     "ca-school-classroom"
    ]
   },
@@ -1826,6 +3056,9 @@
     "pt": "Minha família anfitriã é muito gentil."
    },
    "lessons": [
+    "ca-l11",
+    "ca-l19",
+    "ca-l20",
     "ca-immigration"
    ]
   },
@@ -1864,6 +3097,7 @@
     "pt": "Estou indo para casa."
    },
    "lessons": [
+    "ca-l23",
     "ca-host-arrival",
     "ca-host-rules",
     "ca-school-classroom"
@@ -1894,6 +3128,9 @@
     "pt": "Este é o seu quarto."
    },
    "lessons": [
+    "ca-l22",
+    "ca-l28",
+    "ca-l30",
     "ca-host-arrival",
     "ca-school-first-day"
    ]
@@ -1922,6 +3159,7 @@
    },
    "note": "No Canadá, em lugares públicos, também se diz \"washroom\".",
    "lessons": [
+    "ca-l22",
     "ca-host-arrival"
    ]
   },
@@ -2011,6 +3249,7 @@
     "pt": "O leite está na geladeira."
    },
    "lessons": [
+    "ca-l23",
     "ca-host-rules"
    ]
   },
@@ -2065,6 +3304,7 @@
     "pt": "Qual é a senha do Wi-Fi?"
    },
    "lessons": [
+    "ca-l23",
     "ca-host-rules"
    ]
   },
@@ -2112,8 +3352,15 @@
    "en": "What time is dinner?",
    "pt": "A que horas é o jantar?",
    "emoji": "🕕",
+   "example": {
+    "en": "What time is dinner?",
+    "pt": "A que horas é o jantar?"
+   },
    "note": "Para saber o horário das refeições.",
-   "lessons": []
+   "lessons": [
+    "ca-l23",
+    "ca-l25"
+   ]
   },
   {
    "id": "ill-be-home-at-six",
@@ -2121,6 +3368,10 @@
    "en": "I'll be home at six.",
    "pt": "Eu volto para casa às seis.",
    "emoji": "🕕",
+   "example": {
+    "en": "I'll be home at six.",
+    "pt": "Eu volto para casa às seis."
+   },
    "note": "Avise sempre a que horas você chega.",
    "lessons": []
   },
@@ -2131,22 +3382,188 @@
    "pt": "Tudo bem se eu …?",
    "emoji": "🙏",
    "say": "Is it OK if I use the kitchen?",
+   "example": {
+    "en": "Is it OK if I use the kitchen?",
+    "pt": "Tudo bem se eu usar a cozinha?"
+   },
    "note": "A forma educada de pedir permissão. Exemplo: \"Is it OK if I use the kitchen?\"",
    "lessons": []
   },
   {
-   "id": "happy",
+   "id": "my-bag-is-not-here",
    "theme": "casa",
-   "en": "happy",
-   "pt": "feliz",
-   "emoji": "😊",
+   "en": "My bag is not here.",
+   "pt": "A minha mala não está aqui.",
+   "emoji": "🧳",
    "example": {
-    "en": "Nice to meet you too! We are very happy.",
-    "pt": "Prazer! Nós estamos muito felizes."
+    "en": "Excuse me. My bag is not here.",
+    "pt": "Com licença. A minha mala não está aqui."
    },
    "auto": true,
    "lessons": [
-    "ca-videocall"
+    "ca-l21",
+    "ca-baggage"
+   ]
+  },
+  {
+   "id": "i-have-food-to-declare",
+   "theme": "casa",
+   "en": "I have food to declare.",
+   "pt": "Eu tenho comida para declarar.",
+   "emoji": "🍎",
+   "example": {
+    "en": "Okay. And I have food to declare.",
+    "pt": "Ok. E eu tenho comida para declarar."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l21"
+   ]
+  },
+  {
+   "id": "house",
+   "theme": "casa",
+   "en": "house",
+   "pt": "casa",
+   "emoji": "🏠",
+   "example": {
+    "en": "Welcome, Bia! This is our house.",
+    "pt": "Bem-vinda, Bia! Esta é a nossa casa."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l22"
+   ]
+  },
+  {
+   "id": "can-i",
+   "theme": "casa",
+   "en": "Can I...?",
+   "pt": "Posso...?",
+   "emoji": "🙋",
+   "auto": true,
+   "lessons": [
+    "ca-l22",
+    "ca-l23",
+    "ca-l24",
+    "ca-l29",
+    "ca-host-arrival",
+    "ca-host-rules",
+    "ca-host-dinner",
+    "ca-school-friends",
+    "ca-coffee"
+   ]
+  },
+  {
+   "id": "school-nights",
+   "theme": "casa",
+   "en": "school nights",
+   "pt": "noites antes de dia de aula",
+   "emoji": "🌙",
+   "example": {
+    "en": "On school nights, be home by nine, please.",
+    "pt": "Nas noites antes de aula, esteja em casa até as nove, por favor."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l23",
+    "ca-host-rules"
+   ]
+  },
+  {
+   "id": "be-home-by-nine",
+   "theme": "casa",
+   "en": "be home by nine",
+   "pt": "estar em casa até as nove",
+   "emoji": "🕘",
+   "example": {
+    "en": "On school nights, be home by nine, please.",
+    "pt": "Nas noites antes de aula, esteja em casa até as nove, por favor."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l23",
+    "ca-host-rules"
+   ]
+  },
+  {
+   "id": "im-full",
+   "theme": "casa",
+   "en": "I'm full.",
+   "pt": "Estou satisfeito / satisfeita.",
+   "emoji": "😌",
+   "example": {
+    "en": "No, thank you. I'm full.",
+    "pt": "Não, obrigada. Estou satisfeita."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l24",
+    "ca-l25",
+    "ca-host-dinner"
+   ]
+  },
+  {
+   "id": "delicious",
+   "theme": "casa",
+   "en": "delicious",
+   "pt": "delicioso",
+   "emoji": "😋",
+   "example": {
+    "en": "Thank you. It's delicious!",
+    "pt": "Obrigada. Está delicioso!"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l24",
+    "ca-host-dinner"
+   ]
+  },
+  {
+   "id": "tomorrow",
+   "theme": "casa",
+   "en": "tomorrow",
+   "pt": "amanhã",
+   "emoji": "📅",
+   "example": {
+    "en": "What time is dinner tomorrow?",
+    "pt": "Que horas é o jantar amanhã?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l25"
+   ]
+  },
+  {
+   "id": "school-starts",
+   "theme": "casa",
+   "en": "school starts",
+   "pt": "a escola começa",
+   "emoji": "🏫",
+   "example": {
+    "en": "At six. And school starts at eight thirty.",
+    "pt": "Às seis. E a escola começa às oito e meia."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l25",
+    "ca-host-rules"
+   ]
+  },
+  {
+   "id": "eight-thirty",
+   "theme": "casa",
+   "en": "eight thirty",
+   "pt": "oito e meia",
+   "emoji": "🕣",
+   "example": {
+    "en": "At six. And school starts at eight thirty.",
+    "pt": "Às seis. E a escola começa às oito e meia."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l25",
+    "ca-host-rules"
    ]
   },
   {
@@ -2172,6 +3589,9 @@
     "pt": "Eu almoço na escola."
    },
    "lessons": [
+    "ca-l24",
+    "ca-l27",
+    "ca-l29",
     "ca-host-dinner",
     "ca-school-first-day"
    ]
@@ -2187,6 +3607,9 @@
     "pt": "O jantar está pronto."
    },
    "lessons": [
+    "ca-l22",
+    "ca-l23",
+    "ca-l25",
     "ca-host-rules",
     "ca-host-dinner"
    ]
@@ -2202,6 +3625,7 @@
     "pt": "Estou com fome."
    },
    "lessons": [
+    "ca-l22",
     "ca-host-arrival",
     "ca-host-rules"
    ]
@@ -2217,6 +3641,8 @@
     "pt": "Não, obrigado. Estou satisfeito."
    },
    "lessons": [
+    "ca-l24",
+    "ca-l25",
     "ca-host-dinner"
    ]
   },
@@ -2231,6 +3657,7 @@
     "pt": "Posso tomar um pouco de água?"
    },
    "lessons": [
+    "ca-l29",
     "ca-host-dinner"
    ]
   },
@@ -2341,6 +3768,8 @@
     "pt": "Temos frango no jantar."
    },
    "lessons": [
+    "ca-l24",
+    "ca-l25",
     "ca-host-dinner"
    ]
   },
@@ -2355,6 +3784,8 @@
     "pt": "Eu não gosto de peixe."
    },
    "lessons": [
+    "ca-l24",
+    "ca-l25",
     "ca-host-dinner"
    ]
   },
@@ -2369,6 +3800,8 @@
     "pt": "Pode passar o sal?"
    },
    "lessons": [
+    "ca-l24",
+    "ca-l25",
     "ca-host-dinner"
    ]
   },
@@ -2445,6 +3878,10 @@
    "en": "I'm hungry.",
    "pt": "Estou com fome.",
    "emoji": "🍽️",
+   "example": {
+    "en": "I'm hungry.",
+    "pt": "Estou com fome."
+   },
    "note": "Sem vergonha: a família prefere que você peça.",
    "lessons": []
   },
@@ -2454,6 +3891,10 @@
    "en": "Can I have some more?",
    "pt": "Posso repetir?",
    "emoji": "🍽️",
+   "example": {
+    "en": "Can I have some more?",
+    "pt": "Posso repetir?"
+   },
    "note": "Para pedir mais comida na mesa, com educação.",
    "lessons": []
   },
@@ -2463,8 +3904,14 @@
    "en": "It's delicious!",
    "pt": "Está delicioso!",
    "emoji": "😋",
+   "example": {
+    "en": "It's delicious!",
+    "pt": "Está delicioso!"
+   },
    "note": "Elogiar a comida deixa a família anfitriã feliz.",
-   "lessons": []
+   "lessons": [
+    "ca-l24"
+   ]
   },
   {
    "id": "can-you-pass-the-please",
@@ -2473,8 +3920,14 @@
    "pt": "Pode passar o … , por favor?",
    "emoji": "🥄",
    "say": "Can you pass the salt, please?",
+   "example": {
+    "en": "Can you pass the salt, please?",
+    "pt": "Pode passar o sal, por favor?"
+   },
    "note": "Na mesa. Exemplo: \"Can you pass the salt, please?\"",
    "lessons": [
+    "ca-l24",
+    "ca-l25",
     "ca-host-dinner"
    ]
   },
@@ -2485,8 +3938,14 @@
    "pt": "Eu não como …",
    "emoji": "🚫",
    "say": "I don't eat pork.",
+   "example": {
+    "en": "I don't eat pork.",
+    "pt": "Eu não como carne de porco."
+   },
    "note": "Para avisar uma restrição. Exemplo: \"I don't eat pork.\"",
    "lessons": [
+    "ca-l24",
+    "ca-l25",
     "ca-host-dinner"
    ]
   },
@@ -2665,6 +4124,7 @@
     "pt": "Este é o meu endereço."
    },
    "lessons": [
+    "ca-l21",
     "ca-baggage"
    ]
   },
@@ -2679,6 +4139,9 @@
     "pt": "Vire à esquerda."
    },
    "lessons": [
+    "ca-l17",
+    "ca-l18",
+    "ca-l20",
     "ca-checkin",
     "ca-city-bus"
    ]
@@ -2733,6 +4196,10 @@
    "en": "Where is the bus stop?",
    "pt": "Onde fica o ponto de ônibus?",
    "emoji": "🚏",
+   "example": {
+    "en": "Where is the bus stop?",
+    "pt": "Onde fica o ponto de ônibus?"
+   },
    "note": "Uma das perguntas mais úteis na cidade.",
    "lessons": [
     "ca-city-bus"
@@ -2745,6 +4212,10 @@
    "pt": "Este ônibus vai para …?",
    "emoji": "🚌",
    "say": "Does this bus go to the airport?",
+   "example": {
+    "en": "Does this bus go to the airport?",
+    "pt": "Este ônibus vai para o aeroporto?"
+   },
    "note": "Pergunte ao motorista antes de subir.",
    "lessons": [
     "ca-city-bus"
@@ -2757,6 +4228,10 @@
    "pt": "Como eu chego em …?",
    "emoji": "🧭",
    "say": "How do I get to the library?",
+   "example": {
+    "en": "How do I get to the library?",
+    "pt": "Como eu chego à biblioteca?"
+   },
    "note": "Para pedir um caminho. Exemplo: \"How do I get to the library?\"",
    "lessons": [
     "ca-city-bus"
@@ -2768,6 +4243,10 @@
    "en": "Is it far from here?",
    "pt": "Fica longe daqui?",
    "emoji": "📏",
+   "example": {
+    "en": "Is it far from here?",
+    "pt": "Fica longe daqui?"
+   },
    "note": "Para saber se dá para ir a pé.",
    "lessons": []
   },
@@ -2809,23 +4288,6 @@
     "pt": "Você tem um mapa?"
    },
    "lessons": []
-  },
-  {
-   "id": "help",
-   "theme": "transporte",
-   "en": "help",
-   "pt": "ajuda / ajudar",
-   "emoji": "🆘",
-   "example": {
-    "en": "Lunch is at noon. If you need help, come to my office.",
-    "pt": "O almoço é ao meio-dia. Se precisar de ajuda, venha à minha sala."
-   },
-   "auto": true,
-   "lessons": [
-    "ca-host-dinner",
-    "ca-school-first-day",
-    "ca-city-help"
-   ]
   },
   {
    "id": "doctor",
@@ -2999,6 +4461,7 @@
     "pt": "Estou muito cansado."
    },
    "lessons": [
+    "ca-l22",
     "ca-host-arrival"
    ]
   },
@@ -3008,6 +4471,10 @@
    "en": "It hurts here.",
    "pt": "Dói aqui.",
    "emoji": "👆",
+   "example": {
+    "en": "It hurts here.",
+    "pt": "Dói aqui."
+   },
    "note": "Aponte para o lugar que dói.",
    "lessons": []
   },
@@ -3017,6 +4484,10 @@
    "en": "I need a doctor.",
    "pt": "Eu preciso de um médico.",
    "emoji": "🧑‍⚕️",
+   "example": {
+    "en": "I need a doctor.",
+    "pt": "Eu preciso de um médico."
+   },
    "note": "Diga isso à família anfitriã ou na escola.",
    "lessons": []
   },
@@ -3026,6 +4497,10 @@
    "en": "Call 911!",
    "pt": "Ligue para o 911!",
    "emoji": "📞",
+   "example": {
+    "en": "Call 911!",
+    "pt": "Ligue para o 911!"
+   },
    "note": "No Canadá, 911 é o número de emergência (polícia, bombeiros e ambulância). Para quando é urgente de verdade.",
    "variant": true,
    "lessons": []
@@ -3036,6 +4511,10 @@
    "en": "Can you call my host family?",
    "pt": "Pode ligar para a minha família anfitriã?",
    "emoji": "📱",
+   "example": {
+    "en": "Can you call my host family?",
+    "pt": "Pode ligar para a minha família anfitriã?"
+   },
    "note": "Em uma emergência, peça para avisarem a família.",
    "lessons": []
   },
@@ -3046,6 +4525,10 @@
    "pt": "Eu sou alérgico a …",
    "emoji": "⚠️",
    "say": "I'm allergic to peanuts.",
+   "example": {
+    "en": "I'm allergic to peanuts.",
+    "pt": "Sou alérgico(a) a amendoim."
+   },
    "note": "Exemplo: \"I'm allergic to peanuts.\" Avise sempre sobre alergias.",
    "lessons": []
   },
@@ -3055,6 +4538,10 @@
    "en": "Please help!",
    "pt": "Por favor, ajudem!",
    "emoji": "🆘",
+   "example": {
+    "en": "Please help!",
+    "pt": "Por favor, ajudem!"
+   },
    "note": "Em perigo, grite bem alto.",
    "lessons": []
   },
@@ -3082,6 +4569,27 @@
    },
    "note": "Número de emergência no Canadá e nos EUA: 911.",
    "lessons": []
+  },
+  {
+   "id": "help",
+   "theme": "saude",
+   "en": "help",
+   "pt": "ajuda / ajudar",
+   "emoji": "🆘",
+   "example": {
+    "en": "Excuse me. Can you help me?",
+    "pt": "Com licença. Pode me ajudar?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l18",
+    "ca-l24",
+    "ca-l26",
+    "ca-l30",
+    "ca-host-dinner",
+    "ca-school-first-day",
+    "ca-city-help"
+   ]
   },
   {
    "id": "cash",
@@ -3129,7 +4637,9 @@
     "en": "Here is your change.",
     "pt": "Aqui está o seu troco."
    },
-   "lessons": []
+   "lessons": [
+    "ca-l17"
+   ]
   },
   {
    "id": "tax",
@@ -3155,7 +4665,7 @@
     "en": "Do I leave a tip?",
     "pt": "Eu devo deixar gorjeta?"
    },
-   "note": "Em restaurantes do Canadá, a gorjeta é esperada.",
+   "note": "Em muitos restaurantes com serviço de mesa, é comum deixar gorjeta. Confira se já há cobrança de serviço e peça orientação à família anfitriã.",
    "variant": true,
    "lessons": []
   },
@@ -3182,6 +4692,9 @@
     "pt": "Você precisa de uma sacola?"
    },
    "lessons": [
+    "ca-l06",
+    "ca-l12",
+    "ca-l21",
     "ca-baggage"
    ]
   },
@@ -3195,7 +4708,7 @@
     "en": "I have a loonie.",
     "pt": "Eu tenho um loonie."
    },
-   "note": "Apelido da moeda canadense de um dólar, que tem um pássaro (loon).",
+   "note": "Apelido de uma moeda canadense com a imagem de uma ave chamada loon.",
    "variant": true,
    "lessons": []
   },
@@ -3205,6 +4718,10 @@
    "en": "How much is this?",
    "pt": "Quanto custa isto?",
    "emoji": "🏷️",
+   "example": {
+    "en": "How much is this?",
+    "pt": "Quanto custa isto?"
+   },
    "note": "A pergunta número um nas compras.",
    "lessons": []
   },
@@ -3214,6 +4731,10 @@
    "en": "Can I pay by card?",
    "pt": "Posso pagar com cartão?",
    "emoji": "💳",
+   "example": {
+    "en": "Can I pay by card?",
+    "pt": "Posso pagar com cartão?"
+   },
    "note": "Pergunte antes de pedir, se tiver dúvida.",
    "lessons": []
   },
@@ -3223,6 +4744,10 @@
    "en": "I'm just looking, thanks.",
    "pt": "Estou só olhando, obrigado.",
    "emoji": "👀",
+   "example": {
+    "en": "I'm just looking, thanks.",
+    "pt": "Estou só olhando, obrigado."
+   },
    "note": "Resposta para o vendedor que pergunta se você precisa de ajuda.",
    "lessons": []
   },
@@ -3232,6 +4757,10 @@
    "en": "Do you have this in a smaller size?",
    "pt": "Tem este em um tamanho menor?",
    "emoji": "👕",
+   "example": {
+    "en": "Do you have this in a smaller size?",
+    "pt": "Tem este em um tamanho menor?"
+   },
    "note": "Na loja de roupas.",
    "lessons": []
   },
@@ -3241,6 +4770,10 @@
    "en": "Where is the cash register?",
    "pt": "Onde fica o caixa?",
    "emoji": "🗺️",
+   "example": {
+    "en": "Where is the cash register?",
+    "pt": "Onde fica o caixa?"
+   },
    "note": "Para achar o lugar de pagar.",
    "lessons": []
   },
@@ -3327,6 +4860,8 @@
     "pt": "Preciso de uma jaqueta quente."
    },
    "lessons": [
+    "ca-l14",
+    "ca-l15",
     "ca-videocall"
    ]
   },
@@ -3341,6 +4876,8 @@
     "pt": "Está frio hoje."
    },
    "lessons": [
+    "ca-l14",
+    "ca-l15",
     "ca-videocall",
     "ca-city-help",
     "ca-cold"
@@ -3385,6 +4922,7 @@
     "pt": "Eu adoro a neve."
    },
    "lessons": [
+    "ca-l14",
     "ca-cold"
    ]
   },
@@ -3432,7 +4970,7 @@
    "id": "mittens",
    "theme": "clima",
    "en": "mittens",
-   "pt": "luvas (sem dedos)",
+   "pt": "luvas com os dedos juntos e o polegar separado",
    "emoji": "🧤",
    "example": {
     "en": "I need new mittens.",
@@ -3519,21 +5057,6 @@
    "lessons": []
   },
   {
-   "id": "boots",
-   "theme": "clima",
-   "en": "boots",
-   "pt": "botas",
-   "emoji": "🥾",
-   "example": {
-    "en": "It's minus twenty today. Wear your boots and mittens.",
-    "pt": "Está vinte graus negativos hoje. Use as suas botas e luvas."
-   },
-   "auto": true,
-   "lessons": [
-    "ca-cold"
-   ]
-  },
-  {
    "id": "double-double",
    "theme": "local",
    "en": "double-double",
@@ -3559,7 +5082,7 @@
     "en": "It's cold, eh?",
     "pt": "Está frio, né?"
    },
-   "note": "Muito comum no Canadá para pedir concordância. Você pode ouvir, mas não precisa usar.",
+   "note": "Você pode ouvir eh? no final de uma frase, parecido com né?. O uso varia; você não precisa usar.",
    "variant": true,
    "lessons": [
     "ca-cold"
@@ -3624,6 +5147,8 @@
    "note": "É a palavra mais comum no Canadá. Nos EUA se diz \"restroom\".",
    "variant": true,
    "lessons": [
+    "ca-l29",
+    "ca-l30",
     "ca-host-arrival",
     "ca-school-classroom"
    ]
@@ -3638,7 +5163,7 @@
     "en": "Do you want a pop?",
     "pt": "Quer um refrigerante?"
    },
-   "note": "No Canadá se diz \"pop\" (nos EUA, \"soda\").",
+   "note": "Pop é uma forma comum de dizer refrigerante em partes do Canadá. O vocabulário varia por região.",
    "variant": true,
    "lessons": []
   },
@@ -3648,7 +5173,11 @@
    "en": "Oh, sorry!",
    "pt": "Ah, desculpe!",
    "emoji": "😅",
-   "note": "Os canadenses pedem desculpa o tempo todo, até quando alguém esbarra neles.",
+   "example": {
+    "en": "Oh, sorry!",
+    "pt": "Ah, desculpe!"
+   },
+   "note": "Forma breve de pedir desculpas em um pequeno desencontro.",
    "variant": true,
    "lessons": [
     "ca-coffee"
@@ -3660,7 +5189,11 @@
    "en": "It's snowing!",
    "pt": "Está nevando!",
    "emoji": "🌨️",
-   "note": "Você vai dizer isso muitas vezes no inverno.",
+   "example": {
+    "en": "It's snowing!",
+    "pt": "Está nevando!"
+   },
+   "note": "Para comentar que está nevando. O clima varia bastante entre regiões e estações.",
    "variant": true,
    "lessons": [
     "ca-cold",

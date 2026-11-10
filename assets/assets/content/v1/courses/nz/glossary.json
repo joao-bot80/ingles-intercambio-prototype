@@ -1,0 +1,5752 @@
+{
+ "schemaVersion": 1,
+ "course": "nz",
+ "curation": "curated",
+ "themes": [
+  {
+   "id": "sobrevivencia",
+   "title": "Frases de sobrevivência",
+   "emoji": "🆘"
+  },
+  {
+   "id": "cumprimentos",
+   "title": "Cumprimentos",
+   "emoji": "👋"
+  },
+  {
+   "id": "numeros",
+   "title": "Números",
+   "emoji": "🔢"
+  },
+  {
+   "id": "aeroporto",
+   "title": "Aeroporto",
+   "emoji": "✈️"
+  },
+  {
+   "id": "escola",
+   "title": "Escola",
+   "emoji": "🏫"
+  },
+  {
+   "id": "casa",
+   "title": "Casa da família",
+   "emoji": "🏠"
+  },
+  {
+   "id": "comida",
+   "title": "Comida",
+   "emoji": "🍽️"
+  },
+  {
+   "id": "transporte",
+   "title": "Transporte",
+   "emoji": "🚌"
+  },
+  {
+   "id": "saude",
+   "title": "Saúde e emergência",
+   "emoji": "🩺"
+  },
+  {
+   "id": "dinheiro",
+   "title": "Dinheiro e compras",
+   "emoji": "🛍️"
+  },
+  {
+   "id": "clima",
+   "title": "Clima e roupas",
+   "emoji": "🧥"
+  },
+  {
+   "id": "local",
+   "title": "Do jeito kiwi",
+   "emoji": "🥝"
+  }
+ ],
+ "entries": [
+  {
+   "id": "can-you-repeat-that-please",
+   "theme": "sobrevivencia",
+   "en": "Can you repeat that, please?",
+   "pt": "Pode repetir, por favor?",
+   "emoji": "🔁",
+   "example": {
+    "en": "Can you repeat that, please?",
+    "pt": "Pode repetir, por favor?"
+   },
+   "note": "Quando você não entendeu ou a pessoa falou rápido demais.",
+   "lessons": [
+    "nz-l04",
+    "nz-spelling",
+    "nz-immigration"
+   ]
+  },
+  {
+   "id": "can-you-speak-slowly-please",
+   "theme": "sobrevivencia",
+   "en": "Can you speak slowly, please?",
+   "pt": "Pode falar devagar, por favor?",
+   "emoji": "🐢",
+   "example": {
+    "en": "Can you speak slowly, please?",
+    "pt": "Pode falar devagar, por favor?"
+   },
+   "note": "Pedir para a pessoa falar mais devagar.",
+   "lessons": []
+  },
+  {
+   "id": "i-dont-understand",
+   "theme": "sobrevivencia",
+   "en": "I don't understand.",
+   "pt": "Eu não entendi.",
+   "emoji": "🤷",
+   "example": {
+    "en": "I don't understand.",
+    "pt": "Eu não entendi."
+   },
+   "note": "Simples e educado. Depois peça: \"Can you repeat that, please?\"",
+   "lessons": [
+    "nz-l04",
+    "nz-school-classroom"
+   ]
+  },
+  {
+   "id": "i-need-help",
+   "theme": "sobrevivencia",
+   "en": "I need help.",
+   "pt": "Eu preciso de ajuda.",
+   "emoji": "🆘",
+   "example": {
+    "en": "I need help.",
+    "pt": "Eu preciso de ajuda."
+   },
+   "note": "Para qualquer situação em que você precisa de alguém. Se for urgente, diga \"Help!\" bem alto.",
+   "lessons": [
+    "nz-l26",
+    "nz-city-help"
+   ]
+  },
+  {
+   "id": "can-you-help-me-please",
+   "theme": "sobrevivencia",
+   "en": "Can you help me, please?",
+   "pt": "Pode me ajudar, por favor?",
+   "emoji": "🙋",
+   "example": {
+    "en": "Can you help me, please?",
+    "pt": "Pode me ajudar, por favor?"
+   },
+   "note": "A forma educada de pedir ajuda a um funcionário, professor ou desconhecido.",
+   "lessons": [
+    "nz-l20"
+   ]
+  },
+  {
+   "id": "im-lost",
+   "theme": "sobrevivencia",
+   "en": "I'm lost.",
+   "pt": "Eu estou perdido / perdida.",
+   "emoji": "🧭",
+   "example": {
+    "en": "I'm lost.",
+    "pt": "Eu estou perdido / perdida."
+   },
+   "note": "Quando você não sabe onde está. Continue com \"Where is the bus stop?\"",
+   "lessons": []
+  },
+  {
+   "id": "what-does-that-mean",
+   "theme": "sobrevivencia",
+   "en": "What does that mean?",
+   "pt": "O que isso significa?",
+   "emoji": "❓",
+   "example": {
+    "en": "What does that mean?",
+    "pt": "O que isso significa?"
+   },
+   "note": "Quando você ouve uma palavra nova.",
+   "lessons": []
+  },
+  {
+   "id": "how-do-you-say-that-in-english",
+   "theme": "sobrevivencia",
+   "en": "How do you say that in English?",
+   "pt": "Como se diz isso em inglês?",
+   "emoji": "💬",
+   "example": {
+    "en": "How do you say that in English?",
+    "pt": "Como se diz isso em inglês?"
+   },
+   "note": "Você sabe a palavra em português, mas não em inglês.",
+   "lessons": []
+  },
+  {
+   "id": "how-do-you-spell-that",
+   "theme": "sobrevivencia",
+   "en": "How do you spell that?",
+   "pt": "Como se soletra isso?",
+   "emoji": "🔤",
+   "example": {
+    "en": "How do you spell that?",
+    "pt": "Como se soletra isso?"
+   },
+   "note": "Pedir para soletrar um nome ou uma palavra.",
+   "lessons": []
+  },
+  {
+   "id": "can-you-write-it-down-please",
+   "theme": "sobrevivencia",
+   "en": "Can you write it down, please?",
+   "pt": "Pode escrever, por favor?",
+   "emoji": "✍️",
+   "example": {
+    "en": "Can you write it down, please?",
+    "pt": "Pode escrever, por favor?"
+   },
+   "note": "Ótimo para endereços, nomes e horários.",
+   "lessons": []
+  },
+  {
+   "id": "im-sorry-i-didnt-catch-that",
+   "theme": "sobrevivencia",
+   "en": "I'm sorry, I didn't catch that.",
+   "pt": "Desculpe, eu não captei o que você disse.",
+   "emoji": "👂",
+   "example": {
+    "en": "I'm sorry, I didn't catch that.",
+    "pt": "Desculpe, eu não captei o que você disse."
+   },
+   "note": "Quando você não ouviu direito.",
+   "lessons": []
+  },
+  {
+   "id": "my-english-is-not-very-good",
+   "theme": "sobrevivencia",
+   "en": "My English is not very good.",
+   "pt": "Meu inglês não é muito bom.",
+   "emoji": "🇧🇷",
+   "example": {
+    "en": "My English is not very good.",
+    "pt": "Meu inglês não é muito bom."
+   },
+   "note": "Avisar com simpatia. A maioria das pessoas fala mais devagar depois disso.",
+   "lessons": []
+  },
+  {
+   "id": "excuse-me-can-i-ask-a-question",
+   "theme": "sobrevivencia",
+   "en": "Excuse me, can I ask a question?",
+   "pt": "Com licença, posso fazer uma pergunta?",
+   "emoji": "🙋‍♀️",
+   "example": {
+    "en": "Excuse me, can I ask a question?",
+    "pt": "Com licença, posso fazer uma pergunta?"
+   },
+   "note": "Para chamar a atenção de alguém antes de perguntar.",
+   "lessons": []
+  },
+  {
+   "id": "i-feel-sick",
+   "theme": "sobrevivencia",
+   "en": "I feel sick.",
+   "pt": "Eu estou me sentindo mal.",
+   "emoji": "🤒",
+   "example": {
+    "en": "I feel sick.",
+    "pt": "Eu estou me sentindo mal."
+   },
+   "note": "Para avisar um professor ou a família anfitriã.",
+   "lessons": [
+    "nz-city-help"
+   ]
+  },
+  {
+   "id": "can-i-call-my-host-family",
+   "theme": "sobrevivencia",
+   "en": "Can I call my host family?",
+   "pt": "Posso ligar para a minha família anfitriã?",
+   "emoji": "📞",
+   "example": {
+    "en": "Can I call my host family?",
+    "pt": "Posso ligar para a minha família anfitriã?"
+   },
+   "note": "Quando você precisa falar com a sua família anfitriã.",
+   "lessons": []
+  },
+  {
+   "id": "thank-you-so-much",
+   "theme": "sobrevivencia",
+   "en": "Thank you so much!",
+   "pt": "Muito obrigado / obrigada!",
+   "emoji": "🙏",
+   "example": {
+    "en": "Thank you so much!",
+    "pt": "Muito obrigado / obrigada!"
+   },
+   "note": "Sempre cai bem.",
+   "lessons": [
+    "nz-l22",
+    "nz-host-arrival",
+    "nz-city-bus",
+    "nz-city-help"
+   ]
+  },
+  {
+   "id": "wi-fi",
+   "theme": "sobrevivencia",
+   "en": "Wi-Fi",
+   "pt": "Wi-Fi (internet sem fio)",
+   "emoji": "📶",
+   "example": {
+    "en": "What is the Wi-Fi password?",
+    "pt": "Qual é a senha do Wi-Fi?"
+   },
+   "lessons": [
+    "nz-host-rules"
+   ]
+  },
+  {
+   "id": "phone",
+   "theme": "sobrevivencia",
+   "en": "phone",
+   "pt": "telefone / celular",
+   "emoji": "📱",
+   "example": {
+    "en": "My phone is dead.",
+    "pt": "Meu celular está sem bateria."
+   },
+   "lessons": [
+    "nz-l09",
+    "nz-numbers"
+   ]
+  },
+  {
+   "id": "where-is-the-toilet",
+   "theme": "sobrevivencia",
+   "en": "Where is the toilet?",
+   "pt": "Onde fica o banheiro?",
+   "emoji": "🚻",
+   "example": {
+    "en": "Excuse me, where is the toilet?",
+    "pt": "Com licença, onde fica o banheiro?"
+   },
+   "note": "Toilet é comum na Nova Zelândia. Procure toilets nas placas.",
+   "variant": true,
+   "lessons": [
+    "nz-l22",
+    "nz-l29",
+    "nz-host-arrival"
+   ]
+  },
+  {
+   "id": "hello",
+   "theme": "cumprimentos",
+   "en": "hello",
+   "pt": "olá / oi",
+   "emoji": "👋",
+   "example": {
+    "en": "Hello! Nice to meet you.",
+    "pt": "Olá! Prazer em te conhecer."
+   },
+   "lessons": [
+    "nz-l01",
+    "nz-l05",
+    "nz-l10",
+    "nz-l16",
+    "nz-l26",
+    "nz-l30",
+    "nz-hello",
+    "nz-spelling",
+    "nz-immigration"
+   ]
+  },
+  {
+   "id": "good-morning",
+   "theme": "cumprimentos",
+   "en": "good morning",
+   "pt": "bom dia",
+   "emoji": "🌅",
+   "example": {
+    "en": "Good morning, Mr. Evans.",
+    "pt": "Bom dia, professor Evans."
+   },
+   "lessons": [
+    "nz-l19",
+    "nz-checkin",
+    "nz-school-first-day",
+    "nz-school-classroom"
+   ]
+  },
+  {
+   "id": "good-afternoon",
+   "theme": "cumprimentos",
+   "en": "good afternoon",
+   "pt": "boa tarde",
+   "emoji": "🌤️",
+   "example": {
+    "en": "Good afternoon, everyone.",
+    "pt": "Boa tarde, pessoal."
+   },
+   "lessons": []
+  },
+  {
+   "id": "good-night",
+   "theme": "cumprimentos",
+   "en": "good night",
+   "pt": "boa noite (ao dormir)",
+   "emoji": "🌙",
+   "example": {
+    "en": "Good night, see you tomorrow.",
+    "pt": "Boa noite, até amanhã."
+   },
+   "note": "Usado para se despedir antes de dormir.",
+   "lessons": []
+  },
+  {
+   "id": "goodbye",
+   "theme": "cumprimentos",
+   "en": "goodbye",
+   "pt": "tchau",
+   "emoji": "👋",
+   "example": {
+    "en": "Goodbye, Ruby!",
+    "pt": "Tchau, Ruby!"
+   },
+   "lessons": []
+  },
+  {
+   "id": "see-you-later",
+   "theme": "cumprimentos",
+   "en": "see you later",
+   "pt": "até mais tarde",
+   "emoji": "🕐",
+   "example": {
+    "en": "See you later, Ben!",
+    "pt": "Até mais tarde, Ben!"
+   },
+   "lessons": [
+    "nz-school-friends"
+   ]
+  },
+  {
+   "id": "nice-to-meet-you",
+   "theme": "cumprimentos",
+   "en": "Nice to meet you.",
+   "pt": "Prazer em te conhecer.",
+   "emoji": "🤝",
+   "example": {
+    "en": "Nice to meet you.",
+    "pt": "Prazer em te conhecer."
+   },
+   "note": "Ao conhecer alguém. A resposta é \"Nice to meet you too.\"",
+   "lessons": [
+    "nz-l01",
+    "nz-l02",
+    "nz-l11",
+    "nz-hello",
+    "nz-spelling",
+    "nz-videocall",
+    "nz-host-arrival",
+    "nz-school-first-day"
+   ]
+  },
+  {
+   "id": "how-are-you",
+   "theme": "cumprimentos",
+   "en": "How are you?",
+   "pt": "Como você está?",
+   "emoji": "😊",
+   "example": {
+    "en": "Hi, Bia! How are you?",
+    "pt": "Oi, Bia! Como você está?"
+   },
+   "note": "No dia a dia é só uma saudação. A resposta rápida é \"Good, thanks. And you?\"",
+   "lessons": [
+    "nz-l02",
+    "nz-l04",
+    "nz-hello"
+   ]
+  },
+  {
+   "id": "im-good-thanks",
+   "theme": "cumprimentos",
+   "en": "I'm good, thanks.",
+   "pt": "Estou bem, obrigado / obrigada.",
+   "emoji": "👍",
+   "example": {
+    "en": "I'm good, thanks.",
+    "pt": "Estou bem, obrigado / obrigada."
+   },
+   "note": "Resposta padrão para \"How are you?\"",
+   "lessons": [
+    "nz-hello"
+   ]
+  },
+  {
+   "id": "please",
+   "theme": "cumprimentos",
+   "en": "please",
+   "pt": "por favor",
+   "emoji": "🙏",
+   "example": {
+    "en": "Water, please.",
+    "pt": "Água, por favor."
+   },
+   "lessons": [
+    "nz-l04",
+    "nz-l05",
+    "nz-l08",
+    "nz-l10",
+    "nz-l11",
+    "nz-l15",
+    "nz-l16",
+    "nz-l20",
+    "nz-l24",
+    "nz-l25",
+    "nz-l28",
+    "nz-spelling",
+    "nz-checkin",
+    "nz-immigration",
+    "nz-host-rules",
+    "nz-host-dinner",
+    "nz-school-first-day",
+    "nz-school-classroom",
+    "nz-city-help"
+   ]
+  },
+  {
+   "id": "thanks",
+   "theme": "cumprimentos",
+   "en": "thanks",
+   "pt": "obrigado / obrigada",
+   "emoji": "🙏",
+   "example": {
+    "en": "Thanks for the ride.",
+    "pt": "Obrigado pela carona."
+   },
+   "lessons": [
+    "nz-l02",
+    "nz-l09",
+    "nz-l16",
+    "nz-l24",
+    "nz-l28",
+    "nz-l30",
+    "nz-hello",
+    "nz-school-friends"
+   ]
+  },
+  {
+   "id": "youre-welcome",
+   "theme": "cumprimentos",
+   "en": "You're welcome.",
+   "pt": "De nada.",
+   "emoji": "😌",
+   "example": {
+    "en": "You're welcome.",
+    "pt": "De nada."
+   },
+   "note": "Resposta a \"thank you\".",
+   "lessons": []
+  },
+  {
+   "id": "excuse-me",
+   "theme": "cumprimentos",
+   "en": "excuse me",
+   "pt": "com licença",
+   "emoji": "🙋",
+   "example": {
+    "en": "Excuse me, where is the library?",
+    "pt": "Com licença, onde fica a biblioteca?"
+   },
+   "lessons": [
+    "nz-l13",
+    "nz-l18",
+    "nz-l20",
+    "nz-l21",
+    "nz-checkin",
+    "nz-baggage",
+    "nz-school-classroom",
+    "nz-city-bus",
+    "nz-city-help"
+   ]
+  },
+  {
+   "id": "friend",
+   "theme": "cumprimentos",
+   "en": "friend",
+   "pt": "amigo / amiga",
+   "emoji": "🤝",
+   "example": {
+    "en": "This is my friend Ben.",
+    "pt": "Este é meu amigo Ben."
+   },
+   "lessons": [
+    "nz-hello",
+    "nz-city-help"
+   ]
+  },
+  {
+   "id": "welcome",
+   "theme": "cumprimentos",
+   "en": "Welcome!",
+   "pt": "Bem-vindo(a)!",
+   "emoji": "🎉",
+   "example": {
+    "en": "Welcome to New Zealand!",
+    "pt": "Bem-vindo(a) à Nova Zelândia!"
+   },
+   "lessons": [
+    "nz-l04",
+    "nz-l05",
+    "nz-l19",
+    "nz-l22",
+    "nz-l26",
+    "nz-l30",
+    "nz-hello",
+    "nz-spelling",
+    "nz-immigration",
+    "nz-host-arrival"
+   ]
+  },
+  {
+   "id": "my-name-is",
+   "theme": "cumprimentos",
+   "en": "My name is …",
+   "pt": "Meu nome é …",
+   "emoji": "📛",
+   "say": "My name is Bia.",
+   "example": {
+    "en": "My name is Bia.",
+    "pt": "Meu nome é Bia."
+   },
+   "lessons": [
+    "nz-l02",
+    "nz-l05",
+    "nz-l10",
+    "nz-hello"
+   ]
+  },
+  {
+   "id": "im-from-brazil",
+   "theme": "cumprimentos",
+   "en": "I'm from Brazil.",
+   "pt": "Eu sou do Brasil.",
+   "emoji": "🇧🇷",
+   "example": {
+    "en": "I'm from Brazil.",
+    "pt": "Eu sou do Brasil."
+   },
+   "note": "Para dizer de onde você é.",
+   "lessons": [
+    "nz-l03",
+    "nz-l05",
+    "nz-l11",
+    "nz-hello",
+    "nz-videocall",
+    "nz-immigration",
+    "nz-school-friends"
+   ]
+  },
+  {
+   "id": "where-are-you-from",
+   "theme": "cumprimentos",
+   "en": "Where are you from?",
+   "pt": "De onde você é?",
+   "emoji": "🌎",
+   "example": {
+    "en": "Hi! Where are you from?",
+    "pt": "Oi! De onde você é?"
+   },
+   "lessons": [
+    "nz-l03",
+    "nz-l05",
+    "nz-hello"
+   ]
+  },
+  {
+   "id": "have-a-nice-day",
+   "theme": "cumprimentos",
+   "en": "Have a nice day!",
+   "pt": "Tenha um bom dia!",
+   "emoji": "☀️",
+   "example": {
+    "en": "Thanks! You too!",
+    "pt": "Obrigado! Você também!"
+   },
+   "note": "Frase de despedida muito usada em lojas.",
+   "lessons": []
+  },
+  {
+   "id": "first-name",
+   "theme": "cumprimentos",
+   "en": "first name",
+   "pt": "primeiro nome",
+   "emoji": "📛",
+   "example": {
+    "en": "My first name is Leo.",
+    "pt": "Meu primeiro nome é Leo."
+   },
+   "lessons": [
+    "nz-l08",
+    "nz-spelling"
+   ]
+  },
+  {
+   "id": "last-name",
+   "theme": "cumprimentos",
+   "en": "last name",
+   "pt": "sobrenome",
+   "emoji": "📛",
+   "example": {
+    "en": "What is your last name?",
+    "pt": "Qual é o seu sobrenome?"
+   },
+   "lessons": [
+    "nz-l08",
+    "nz-spelling"
+   ]
+  },
+  {
+   "id": "sorry",
+   "theme": "cumprimentos",
+   "en": "sorry",
+   "pt": "desculpe",
+   "emoji": "😅",
+   "example": {
+    "en": "Oh, sorry!",
+    "pt": "Ah, desculpe!"
+   },
+   "note": "Use para pedir desculpas ou indicar que não ouviu algo. Hábitos não são regra para todas as pessoas.",
+   "lessons": [
+    "nz-l04",
+    "nz-l05",
+    "nz-l11",
+    "nz-l13",
+    "nz-l24",
+    "nz-spelling",
+    "nz-immigration",
+    "nz-baggage"
+   ]
+  },
+  {
+   "id": "yes",
+   "theme": "cumprimentos",
+   "en": "yes",
+   "pt": "sim",
+   "emoji": "✅",
+   "example": {
+    "en": "Yes, please.",
+    "pt": "Sim, por favor."
+   },
+   "lessons": [
+    "nz-l09",
+    "nz-l11",
+    "nz-l12",
+    "nz-l13",
+    "nz-l14",
+    "nz-l15",
+    "nz-l16",
+    "nz-l22",
+    "nz-l23",
+    "nz-l25",
+    "nz-l28",
+    "nz-numbers",
+    "nz-videocall",
+    "nz-backpack",
+    "nz-checkin",
+    "nz-immigration",
+    "nz-baggage",
+    "nz-host-arrival",
+    "nz-host-dinner",
+    "nz-school-classroom",
+    "nz-school-friends"
+   ]
+  },
+  {
+   "id": "no",
+   "theme": "cumprimentos",
+   "en": "no",
+   "pt": "não",
+   "emoji": "❌",
+   "example": {
+    "en": "No, thank you.",
+    "pt": "Não, obrigado."
+   },
+   "lessons": [
+    "nz-l03",
+    "nz-l09",
+    "nz-l11",
+    "nz-l12",
+    "nz-l14",
+    "nz-l17",
+    "nz-l18",
+    "nz-l19",
+    "nz-l24",
+    "nz-l25",
+    "nz-l26",
+    "nz-l27",
+    "nz-l29",
+    "nz-backpack",
+    "nz-checkin",
+    "nz-baggage",
+    "nz-host-arrival",
+    "nz-host-rules",
+    "nz-host-dinner",
+    "nz-school-classroom",
+    "nz-city-bus"
+   ]
+  },
+  {
+   "id": "thank-you",
+   "theme": "cumprimentos",
+   "en": "thank you",
+   "pt": "obrigado / obrigada",
+   "emoji": "🙏",
+   "example": {
+    "en": "Thank you for your help.",
+    "pt": "Obrigado pela sua ajuda."
+   },
+   "lessons": [
+    "nz-l04",
+    "nz-l05",
+    "nz-l07",
+    "nz-l08",
+    "nz-l10",
+    "nz-l16",
+    "nz-l18",
+    "nz-l22",
+    "nz-l25",
+    "nz-l26",
+    "nz-l30",
+    "nz-spelling",
+    "nz-numbers",
+    "nz-checkin",
+    "nz-host-arrival",
+    "nz-host-dinner",
+    "nz-school-first-day",
+    "nz-school-classroom",
+    "nz-city-bus",
+    "nz-city-help",
+    "nz-safety"
+   ]
+  },
+  {
+   "id": "name",
+   "theme": "cumprimentos",
+   "en": "name",
+   "pt": "nome",
+   "emoji": "📛",
+   "example": {
+    "en": "Hi! I'm Sam. What's your name?",
+    "pt": "Oi! Eu sou a Sam. Qual é o seu nome?"
+   },
+   "lessons": [
+    "nz-l02",
+    "nz-l05",
+    "nz-l08",
+    "nz-l10",
+    "nz-hello",
+    "nz-spelling"
+   ]
+  },
+  {
+   "id": "good",
+   "theme": "cumprimentos",
+   "en": "good",
+   "pt": "bom / bem",
+   "emoji": "👍",
+   "example": {
+    "en": "I'm good, thanks. And you?",
+    "pt": "Estou bem, obrigada. E você?"
+   },
+   "lessons": [
+    "nz-l02",
+    "nz-l04",
+    "nz-l09",
+    "nz-l12",
+    "nz-l17",
+    "nz-l19",
+    "nz-hello",
+    "nz-videocall",
+    "nz-backpack",
+    "nz-checkin",
+    "nz-school-first-day",
+    "nz-school-classroom",
+    "nz-kiwi"
+   ]
+  },
+  {
+   "id": "spell",
+   "theme": "cumprimentos",
+   "en": "spell",
+   "pt": "soletrar",
+   "emoji": "🔤",
+   "example": {
+    "en": "Hello! Can you spell your last name, please?",
+    "pt": "Olá! Você pode soletrar o seu sobrenome, por favor?"
+   },
+   "lessons": [
+    "nz-l08",
+    "nz-l10",
+    "nz-spelling"
+   ]
+  },
+  {
+   "id": "repeat",
+   "theme": "cumprimentos",
+   "en": "repeat",
+   "pt": "repetir",
+   "emoji": "🔁",
+   "example": {
+    "en": "Sorry, can you repeat that?",
+    "pt": "Desculpe, você pode repetir?"
+   },
+   "lessons": [
+    "nz-l04",
+    "nz-l05",
+    "nz-l11",
+    "nz-spelling",
+    "nz-immigration",
+    "nz-school-classroom"
+   ]
+  },
+  {
+   "id": "cool",
+   "theme": "cumprimentos",
+   "en": "cool",
+   "pt": "legal",
+   "emoji": "😎",
+   "example": {
+    "en": "Cool! I'm Ben. Do you want to sit with us?",
+    "pt": "Legal! Eu sou o Ben. Quer sentar com a gente?"
+   },
+   "lessons": [
+    "nz-l01",
+    "nz-school-friends"
+   ]
+  },
+  {
+   "id": "excited",
+   "theme": "cumprimentos",
+   "en": "excited",
+   "pt": "animado / animada",
+   "emoji": "🤩",
+   "example": {
+    "en": "Me too! I'm so excited.",
+    "pt": "Eu também! Estou muito animada."
+   },
+   "lessons": [
+    "nz-videocall"
+   ]
+  },
+  {
+   "id": "hi",
+   "theme": "cumprimentos",
+   "en": "hi",
+   "pt": "oi",
+   "emoji": "👋",
+   "example": {
+    "en": "Hi, Bia!",
+    "pt": "Oi, Bia!"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l01",
+    "nz-l02",
+    "nz-l03",
+    "nz-l05",
+    "nz-l11",
+    "nz-hello",
+    "nz-videocall",
+    "nz-baggage",
+    "nz-host-arrival"
+   ]
+  },
+  {
+   "id": "bye",
+   "theme": "cumprimentos",
+   "en": "bye",
+   "pt": "tchau",
+   "emoji": "🚶",
+   "example": {
+    "en": "Okay, bye for now!",
+    "pt": "Bom, tchau por enquanto!"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l01",
+    "nz-l05"
+   ]
+  },
+  {
+   "id": "whats-your-name",
+   "theme": "cumprimentos",
+   "en": "What's your name?",
+   "pt": "Qual é o seu nome?",
+   "emoji": "❓",
+   "example": {
+    "en": "Hi! I'm Ruby. What's your name?",
+    "pt": "Oi! Eu sou a Ruby. Qual é o seu nome?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l02",
+    "nz-l05",
+    "nz-l10",
+    "nz-hello"
+   ]
+  },
+  {
+   "id": "im",
+   "theme": "cumprimentos",
+   "en": "I'm...",
+   "pt": "eu sou...",
+   "emoji": "🙋",
+   "auto": true,
+   "lessons": [
+    "nz-l01",
+    "nz-l02",
+    "nz-l03",
+    "nz-l04",
+    "nz-l05",
+    "nz-l07",
+    "nz-l10",
+    "nz-l11",
+    "nz-l14",
+    "nz-l19",
+    "nz-l20",
+    "nz-l22",
+    "nz-l23",
+    "nz-l24",
+    "nz-l25",
+    "nz-l26",
+    "nz-l30",
+    "nz-hello",
+    "nz-numbers",
+    "nz-videocall",
+    "nz-backpack",
+    "nz-immigration",
+    "nz-baggage",
+    "nz-host-arrival",
+    "nz-host-dinner",
+    "nz-school-first-day",
+    "nz-school-friends",
+    "nz-city-help"
+   ]
+  },
+  {
+   "id": "my-name-is-2",
+   "theme": "cumprimentos",
+   "en": "my name is...",
+   "pt": "meu nome é...",
+   "emoji": "🗣️",
+   "auto": true,
+   "lessons": [
+    "nz-l02",
+    "nz-l05",
+    "nz-l10",
+    "nz-hello"
+   ]
+  },
+  {
+   "id": "nice-to-meet-you-2",
+   "theme": "cumprimentos",
+   "en": "nice to meet you",
+   "pt": "prazer em te conhecer",
+   "emoji": "🤝",
+   "example": {
+    "en": "Nice to meet you, Leo and Bia!",
+    "pt": "Prazer em conhecer vocês, Leo e Bia!"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l01",
+    "nz-l02",
+    "nz-l11",
+    "nz-hello",
+    "nz-spelling",
+    "nz-videocall",
+    "nz-host-arrival",
+    "nz-school-first-day"
+   ]
+  },
+  {
+   "id": "from",
+   "theme": "cumprimentos",
+   "en": "from",
+   "pt": "de (origem)",
+   "emoji": "📍",
+   "example": {
+    "en": "Hello! I'm Sam, from the New Zealand group.",
+    "pt": "Olá! Eu sou a Sam, do grupo da Nova Zelândia."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l01",
+    "nz-l03",
+    "nz-l05",
+    "nz-l11",
+    "nz-hello",
+    "nz-videocall",
+    "nz-immigration",
+    "nz-school-first-day",
+    "nz-school-friends"
+   ]
+  },
+  {
+   "id": "brazil",
+   "theme": "cumprimentos",
+   "en": "Brazil",
+   "pt": "Brasil",
+   "emoji": "🇧🇷",
+   "example": {
+    "en": "I'm from Brazil.",
+    "pt": "Eu sou do Brasil."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l03",
+    "nz-l05",
+    "nz-l11",
+    "nz-hello",
+    "nz-videocall",
+    "nz-immigration",
+    "nz-school-friends"
+   ]
+  },
+  {
+   "id": "new-zealand",
+   "theme": "cumprimentos",
+   "en": "New Zealand",
+   "pt": "Nova Zelândia",
+   "emoji": "🇳🇿",
+   "example": {
+    "en": "Hello! I'm Sam, from the New Zealand group.",
+    "pt": "Olá! Eu sou a Sam, do grupo da Nova Zelândia."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l01",
+    "nz-l03",
+    "nz-l05",
+    "nz-l09",
+    "nz-l13",
+    "nz-l14",
+    "nz-l18",
+    "nz-l19",
+    "nz-l20",
+    "nz-hello",
+    "nz-checkin",
+    "nz-immigration"
+   ]
+  },
+  {
+   "id": "can-you-repeat-please",
+   "theme": "cumprimentos",
+   "en": "Can you repeat, please?",
+   "pt": "Pode repetir, por favor?",
+   "emoji": "🔁",
+   "example": {
+    "en": "Sorry, can you repeat, please?",
+    "pt": "Desculpa, pode repetir, por favor?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l04",
+    "nz-l05",
+    "nz-l11"
+   ]
+  },
+  {
+   "id": "im-from",
+   "theme": "cumprimentos",
+   "en": "I'm from...",
+   "pt": "eu sou de...",
+   "emoji": "📍",
+   "auto": true,
+   "lessons": [
+    "nz-l03",
+    "nz-l05",
+    "nz-l11",
+    "nz-hello",
+    "nz-videocall",
+    "nz-immigration",
+    "nz-school-friends"
+   ]
+  },
+  {
+   "id": "zero",
+   "theme": "numeros",
+   "en": "zero",
+   "pt": "zero",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number zero.",
+    "pt": "É o número zero."
+   },
+   "note": "O número 0.",
+   "lessons": [
+    "nz-l06",
+    "nz-numbers"
+   ]
+  },
+  {
+   "id": "one",
+   "theme": "numeros",
+   "en": "one",
+   "pt": "um",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number one.",
+    "pt": "É o número um."
+   },
+   "note": "O número 1.",
+   "lessons": [
+    "nz-l06",
+    "nz-l07",
+    "nz-numbers"
+   ]
+  },
+  {
+   "id": "two",
+   "theme": "numeros",
+   "en": "two",
+   "pt": "dois",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number two.",
+    "pt": "É o número dois."
+   },
+   "note": "O número 2.",
+   "lessons": [
+    "nz-l06",
+    "nz-l08",
+    "nz-l16",
+    "nz-numbers"
+   ]
+  },
+  {
+   "id": "three",
+   "theme": "numeros",
+   "en": "three",
+   "pt": "três",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number three.",
+    "pt": "É o número três."
+   },
+   "note": "O número 3.",
+   "lessons": [
+    "nz-l06",
+    "nz-l09",
+    "nz-numbers"
+   ]
+  },
+  {
+   "id": "four",
+   "theme": "numeros",
+   "en": "four",
+   "pt": "quatro",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number four.",
+    "pt": "É o número quatro."
+   },
+   "note": "O número 4.",
+   "lessons": [
+    "nz-l06",
+    "nz-l09",
+    "nz-numbers"
+   ]
+  },
+  {
+   "id": "five",
+   "theme": "numeros",
+   "en": "five",
+   "pt": "cinco",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number five.",
+    "pt": "É o número cinco."
+   },
+   "note": "O número 5.",
+   "lessons": [
+    "nz-l06",
+    "nz-l07",
+    "nz-l09",
+    "nz-l13",
+    "nz-l19",
+    "nz-l25",
+    "nz-numbers",
+    "nz-city-bus"
+   ]
+  },
+  {
+   "id": "six",
+   "theme": "numeros",
+   "en": "six",
+   "pt": "seis",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number six.",
+    "pt": "É o número seis."
+   },
+   "note": "O número 6.",
+   "lessons": [
+    "nz-l06",
+    "nz-l09",
+    "nz-l19",
+    "nz-l23",
+    "nz-l25",
+    "nz-immigration",
+    "nz-host-rules"
+   ]
+  },
+  {
+   "id": "seven",
+   "theme": "numeros",
+   "en": "seven",
+   "pt": "sete",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number seven.",
+    "pt": "É o número sete."
+   },
+   "note": "O número 7.",
+   "lessons": [
+    "nz-l06",
+    "nz-l09",
+    "nz-l10",
+    "nz-host-rules"
+   ]
+  },
+  {
+   "id": "eight",
+   "theme": "numeros",
+   "en": "eight",
+   "pt": "oito",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number eight.",
+    "pt": "É o número oito."
+   },
+   "note": "O número 8.",
+   "lessons": [
+    "nz-l06",
+    "nz-l09",
+    "nz-l25",
+    "nz-host-rules"
+   ]
+  },
+  {
+   "id": "nine",
+   "theme": "numeros",
+   "en": "nine",
+   "pt": "nove",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number nine.",
+    "pt": "É o número nove."
+   },
+   "note": "O número 9.",
+   "lessons": [
+    "nz-l06",
+    "nz-l09",
+    "nz-l23",
+    "nz-l28",
+    "nz-l30",
+    "nz-host-rules",
+    "nz-city-bus"
+   ]
+  },
+  {
+   "id": "ten",
+   "theme": "numeros",
+   "en": "ten",
+   "pt": "dez",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number ten.",
+    "pt": "É o número dez."
+   },
+   "note": "O número 10.",
+   "lessons": [
+    "nz-l06",
+    "nz-l17",
+    "nz-l29",
+    "nz-l30",
+    "nz-checkin",
+    "nz-host-rules",
+    "nz-school-classroom"
+   ]
+  },
+  {
+   "id": "eleven",
+   "theme": "numeros",
+   "en": "eleven",
+   "pt": "onze",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number eleven.",
+    "pt": "É o número onze."
+   },
+   "note": "O número 11.",
+   "lessons": [
+    "nz-l07",
+    "nz-l17",
+    "nz-l27",
+    "nz-school-classroom"
+   ]
+  },
+  {
+   "id": "twelve",
+   "theme": "numeros",
+   "en": "twelve",
+   "pt": "doze",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number twelve.",
+    "pt": "É o número doze."
+   },
+   "note": "O número 12.",
+   "lessons": [
+    "nz-l07",
+    "nz-checkin",
+    "nz-school-first-day"
+   ]
+  },
+  {
+   "id": "thirteen",
+   "theme": "numeros",
+   "en": "thirteen",
+   "pt": "treze",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number thirteen.",
+    "pt": "É o número treze."
+   },
+   "note": "O número 13.",
+   "lessons": [
+    "nz-l07",
+    "nz-numbers"
+   ]
+  },
+  {
+   "id": "fourteen",
+   "theme": "numeros",
+   "en": "fourteen",
+   "pt": "catorze",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number fourteen.",
+    "pt": "É o número catorze."
+   },
+   "note": "O número 14.",
+   "lessons": [
+    "nz-l07",
+    "nz-numbers"
+   ]
+  },
+  {
+   "id": "fifteen",
+   "theme": "numeros",
+   "en": "fifteen",
+   "pt": "quinze",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number fifteen.",
+    "pt": "É o número quinze."
+   },
+   "note": "O número 15.",
+   "lessons": [
+    "nz-l07",
+    "nz-l10",
+    "nz-l11",
+    "nz-numbers",
+    "nz-videocall",
+    "nz-host-arrival"
+   ]
+  },
+  {
+   "id": "sixteen",
+   "theme": "numeros",
+   "en": "sixteen",
+   "pt": "dezesseis",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number sixteen.",
+    "pt": "É o número dezesseis."
+   },
+   "note": "O número 16.",
+   "lessons": [
+    "nz-l07",
+    "nz-numbers"
+   ]
+  },
+  {
+   "id": "seventeen",
+   "theme": "numeros",
+   "en": "seventeen",
+   "pt": "dezessete",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number seventeen.",
+    "pt": "É o número dezessete."
+   },
+   "note": "O número 17.",
+   "lessons": [
+    "nz-l07",
+    "nz-numbers"
+   ]
+  },
+  {
+   "id": "eighteen",
+   "theme": "numeros",
+   "en": "eighteen",
+   "pt": "dezoito",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number eighteen.",
+    "pt": "É o número dezoito."
+   },
+   "note": "O número 18.",
+   "lessons": [
+    "nz-l07"
+   ]
+  },
+  {
+   "id": "nineteen",
+   "theme": "numeros",
+   "en": "nineteen",
+   "pt": "dezenove",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number nineteen.",
+    "pt": "É o número dezenove."
+   },
+   "note": "O número 19.",
+   "lessons": [
+    "nz-l07"
+   ]
+  },
+  {
+   "id": "twenty",
+   "theme": "numeros",
+   "en": "twenty",
+   "pt": "vinte",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number twenty.",
+    "pt": "É o número vinte."
+   },
+   "note": "O número 20.",
+   "lessons": [
+    "nz-l07",
+    "nz-l17",
+    "nz-checkin"
+   ]
+  },
+  {
+   "id": "thirty",
+   "theme": "numeros",
+   "en": "thirty",
+   "pt": "trinta",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number thirty.",
+    "pt": "É o número trinta."
+   },
+   "note": "O número 30.",
+   "lessons": [
+    "nz-l09",
+    "nz-l10",
+    "nz-l16",
+    "nz-l17",
+    "nz-l18",
+    "nz-l25",
+    "nz-checkin",
+    "nz-host-rules",
+    "nz-school-first-day"
+   ]
+  },
+  {
+   "id": "fifty",
+   "theme": "numeros",
+   "en": "fifty",
+   "pt": "cinquenta",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number fifty.",
+    "pt": "É o número cinquenta."
+   },
+   "note": "O número 50.",
+   "lessons": [
+    "nz-l07"
+   ]
+  },
+  {
+   "id": "one-hundred",
+   "theme": "numeros",
+   "en": "one hundred",
+   "pt": "cem",
+   "emoji": "🔢",
+   "example": {
+    "en": "It's number one hundred.",
+    "pt": "É o número cem."
+   },
+   "note": "O número 100.",
+   "lessons": []
+  },
+  {
+   "id": "how-old-are-you",
+   "theme": "numeros",
+   "en": "How old are you?",
+   "pt": "Quantos anos você tem?",
+   "emoji": "🎂",
+   "example": {
+    "en": "How old are you?",
+    "pt": "Quantos anos você tem?"
+   },
+   "note": "A resposta é \"I'm fifteen years old.\" (troque o número).",
+   "lessons": [
+    "nz-l07",
+    "nz-l10",
+    "nz-numbers"
+   ]
+  },
+  {
+   "id": "whats-your-phone-number",
+   "theme": "numeros",
+   "en": "What's your phone number?",
+   "pt": "Qual é o seu número de telefone?",
+   "emoji": "📱",
+   "example": {
+    "en": "What's your phone number?",
+    "pt": "Qual é o seu número de telefone?"
+   },
+   "note": "Diga os números um por um: \"five, five, five…\"",
+   "lessons": [
+    "nz-l09"
+   ]
+  },
+  {
+   "id": "month",
+   "theme": "numeros",
+   "en": "month",
+   "pt": "mês",
+   "emoji": "🗓️",
+   "example": {
+    "en": "My birthday is next month.",
+    "pt": "Meu aniversário é no mês que vem."
+   },
+   "lessons": [
+    "nz-immigration"
+   ]
+  },
+  {
+   "id": "one-two-three-four-five",
+   "theme": "numeros",
+   "en": "one, two, three, four, five",
+   "pt": "um, dois, três, quatro, cinco",
+   "emoji": "5️⃣",
+   "example": {
+    "en": "One, two, three, four, five.",
+    "pt": "Um, dois, três, quatro, cinco."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l06",
+    "nz-numbers"
+   ]
+  },
+  {
+   "id": "six-seven-eight-nine-ten",
+   "theme": "numeros",
+   "en": "six, seven, eight, nine, ten",
+   "pt": "seis, sete, oito, nove, dez",
+   "emoji": "🔟",
+   "example": {
+    "en": "Six, seven, eight, nine, ten.",
+    "pt": "Seis, sete, oito, nove, dez."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l06"
+   ]
+  },
+  {
+   "id": "raincoat",
+   "theme": "numeros",
+   "en": "raincoat",
+   "pt": "capa de chuva",
+   "emoji": "🧥",
+   "example": {
+    "en": "Bring a jacket and a raincoat.",
+    "pt": "Traga um casaco e uma capa de chuva."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l06",
+    "nz-l14",
+    "nz-l15"
+   ]
+  },
+  {
+   "id": "eleven-twelve-thirteen-fourteen-fifteen",
+   "theme": "numeros",
+   "en": "eleven, twelve, thirteen, fourteen, fifteen",
+   "pt": "onze, doze, treze, catorze, quinze",
+   "emoji": "🔢",
+   "auto": true,
+   "lessons": [
+    "nz-l07"
+   ]
+  },
+  {
+   "id": "sixteen-seventeen-eighteen-nineteen-twenty",
+   "theme": "numeros",
+   "en": "sixteen, seventeen, eighteen, nineteen, twenty",
+   "pt": "dezesseis, dezessete, dezoito, dezenove, vinte",
+   "emoji": "🔢",
+   "auto": true,
+   "lessons": [
+    "nz-l07"
+   ]
+  },
+  {
+   "id": "can-you-spell-that",
+   "theme": "numeros",
+   "en": "Can you spell that?",
+   "pt": "Pode soletrar?",
+   "emoji": "🔤",
+   "auto": true,
+   "lessons": [
+    "nz-l08",
+    "nz-l10"
+   ]
+  },
+  {
+   "id": "zed",
+   "theme": "numeros",
+   "en": "zed",
+   "pt": "a letra Z (na NZ)",
+   "emoji": "🇿",
+   "example": {
+    "en": "S, O, U, Z, A. Z is zed. L, I, M, A.",
+    "pt": "S, O, U, Z, A. Z se diz zed. L, I, M, A."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l08",
+    "nz-l10"
+   ]
+  },
+  {
+   "id": "phone-number",
+   "theme": "numeros",
+   "en": "phone number",
+   "pt": "número de telefone",
+   "emoji": "📱",
+   "example": {
+    "en": "Bia, what's your phone number?",
+    "pt": "Bia, qual é o seu número de celular?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l09",
+    "nz-numbers"
+   ]
+  },
+  {
+   "id": "what-time",
+   "theme": "numeros",
+   "en": "What time?",
+   "pt": "Que horas?",
+   "emoji": "⏰",
+   "example": {
+    "en": "Yes! What time?",
+    "pt": "Sim! Que horas?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l09",
+    "nz-l23",
+    "nz-l25",
+    "nz-l29",
+    "nz-l30",
+    "nz-checkin",
+    "nz-host-rules",
+    "nz-school-first-day",
+    "nz-school-classroom"
+   ]
+  },
+  {
+   "id": "seven-thirty",
+   "theme": "numeros",
+   "en": "seven thirty",
+   "pt": "sete e meia",
+   "emoji": "🕢",
+   "example": {
+    "en": "Seven thirty, New Zealand time.",
+    "pt": "Sete e meia, no horário da Nova Zelândia."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l09",
+    "nz-l10"
+   ]
+  },
+  {
+   "id": "call",
+   "theme": "numeros",
+   "en": "call",
+   "pt": "ligar / ligação",
+   "emoji": "📞",
+   "example": {
+    "en": "Thanks! Call on Sunday?",
+    "pt": "Obrigada! Uma ligação no domingo?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l09",
+    "nz-l10",
+    "nz-spelling"
+   ]
+  },
+  {
+   "id": "time",
+   "theme": "numeros",
+   "en": "time",
+   "pt": "hora / horário",
+   "emoji": "🕐",
+   "example": {
+    "en": "Yes! What time?",
+    "pt": "Sim! Que horas?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l09",
+    "nz-l20",
+    "nz-l23",
+    "nz-l25",
+    "nz-l29",
+    "nz-l30",
+    "nz-videocall",
+    "nz-checkin",
+    "nz-immigration",
+    "nz-host-rules",
+    "nz-school-first-day",
+    "nz-school-classroom"
+   ]
+  },
+  {
+   "id": "passport",
+   "theme": "aeroporto",
+   "en": "passport",
+   "pt": "passaporte",
+   "emoji": "🛂",
+   "example": {
+    "en": "Here is my passport.",
+    "pt": "Aqui está o meu passaporte."
+   },
+   "lessons": [
+    "nz-l12",
+    "nz-l15",
+    "nz-l16",
+    "nz-backpack",
+    "nz-checkin",
+    "nz-immigration"
+   ]
+  },
+  {
+   "id": "boarding-pass",
+   "theme": "aeroporto",
+   "en": "boarding pass",
+   "pt": "cartão de embarque",
+   "emoji": "🎫",
+   "example": {
+    "en": "Here is my boarding pass.",
+    "pt": "Aqui está o meu cartão de embarque."
+   },
+   "lessons": [
+    "nz-l15",
+    "nz-l16",
+    "nz-checkin"
+   ]
+  },
+  {
+   "id": "flight",
+   "theme": "aeroporto",
+   "en": "flight",
+   "pt": "voo",
+   "emoji": "✈️",
+   "example": {
+    "en": "My flight is at noon.",
+    "pt": "Meu voo é ao meio-dia."
+   },
+   "lessons": [
+    "nz-l03",
+    "nz-l17",
+    "nz-l18",
+    "nz-checkin"
+   ]
+  },
+  {
+   "id": "gate",
+   "theme": "aeroporto",
+   "en": "gate",
+   "pt": "portão de embarque",
+   "emoji": "🚪",
+   "example": {
+    "en": "Where is gate twelve?",
+    "pt": "Onde fica o portão doze?"
+   },
+   "lessons": [
+    "nz-l13",
+    "nz-l17",
+    "nz-l18",
+    "nz-checkin"
+   ]
+  },
+  {
+   "id": "seat",
+   "theme": "aeroporto",
+   "en": "seat",
+   "pt": "assento",
+   "emoji": "💺",
+   "example": {
+    "en": "My seat is by the window.",
+    "pt": "Meu assento é na janela."
+   },
+   "lessons": [
+    "nz-l16",
+    "nz-checkin"
+   ]
+  },
+  {
+   "id": "window-seat",
+   "theme": "aeroporto",
+   "en": "window seat",
+   "pt": "assento na janela",
+   "emoji": "🪟",
+   "example": {
+    "en": "Can I have a window seat?",
+    "pt": "Posso ficar na janela?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "suitcase",
+   "theme": "aeroporto",
+   "en": "suitcase",
+   "pt": "mala grande",
+   "emoji": "🧳",
+   "example": {
+    "en": "My suitcase is blue.",
+    "pt": "Minha mala é azul."
+   },
+   "lessons": []
+  },
+  {
+   "id": "carry-on",
+   "theme": "aeroporto",
+   "en": "carry-on",
+   "pt": "bagagem de mão",
+   "emoji": "🎒",
+   "example": {
+    "en": "This is my carry-on.",
+    "pt": "Esta é a minha bagagem de mão."
+   },
+   "lessons": []
+  },
+  {
+   "id": "baggage-claim",
+   "theme": "aeroporto",
+   "en": "baggage claim",
+   "pt": "área de retirada de bagagem",
+   "emoji": "🛄",
+   "example": {
+    "en": "The baggage claim is downstairs.",
+    "pt": "A esteira de bagagem fica no andar de baixo."
+   },
+   "note": "É a área de retirada, não só a esteira. Também aparecem baggage reclaim ou baggage collection.",
+   "lessons": [
+    "nz-baggage"
+   ]
+  },
+  {
+   "id": "check-in",
+   "theme": "aeroporto",
+   "en": "check-in",
+   "pt": "check-in / registro",
+   "emoji": "🧾",
+   "example": {
+    "en": "Where is the check-in desk?",
+    "pt": "Onde fica o balcão de check-in?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "security",
+   "theme": "aeroporto",
+   "en": "security",
+   "pt": "segurança (revista)",
+   "emoji": "🛃",
+   "example": {
+    "en": "Security is this way.",
+    "pt": "A segurança é por aqui."
+   },
+   "lessons": []
+  },
+  {
+   "id": "customs",
+   "theme": "aeroporto",
+   "en": "customs",
+   "pt": "alfândega",
+   "emoji": "📦",
+   "example": {
+    "en": "I need to declare this food.",
+    "pt": "Preciso declarar este alimento."
+   },
+   "note": "Declare alimentos e itens sujeitos à biossegurança conforme as regras do MPI, mesmo lacrados. Na dúvida, declare.",
+   "lessons": []
+  },
+  {
+   "id": "immigration",
+   "theme": "aeroporto",
+   "en": "immigration",
+   "pt": "imigração",
+   "emoji": "🛬",
+   "example": {
+    "en": "Immigration is on the left.",
+    "pt": "A imigração é à esquerda."
+   },
+   "lessons": []
+  },
+  {
+   "id": "officer",
+   "theme": "aeroporto",
+   "en": "officer",
+   "pt": "oficial / agente",
+   "emoji": "👮",
+   "example": {
+    "en": "The officer asks a few questions.",
+    "pt": "O oficial faz algumas perguntas."
+   },
+   "lessons": []
+  },
+  {
+   "id": "where-is-gate",
+   "theme": "aeroporto",
+   "en": "Where is gate …?",
+   "pt": "Onde fica o portão …?",
+   "emoji": "🗺️",
+   "say": "Where is gate twelve?",
+   "example": {
+    "en": "Where is gate twelve?",
+    "pt": "Onde fica o portão doze?"
+   },
+   "note": "Troque os pontinhos pelo número do portão.",
+   "lessons": [
+    "nz-l17",
+    "nz-l18",
+    "nz-checkin"
+   ]
+  },
+  {
+   "id": "im-here-to-study",
+   "theme": "aeroporto",
+   "en": "I'm here to study.",
+   "pt": "Eu vim estudar.",
+   "emoji": "🎓",
+   "example": {
+    "en": "I'm here to study.",
+    "pt": "Eu vim estudar."
+   },
+   "note": "Resposta comum na imigração.",
+   "lessons": [
+    "nz-l19",
+    "nz-l20",
+    "nz-immigration"
+   ]
+  },
+  {
+   "id": "im-staying-with-a-host-family",
+   "theme": "aeroporto",
+   "en": "I'm staying with a host family.",
+   "pt": "Eu vou ficar com uma família anfitriã.",
+   "emoji": "🏠",
+   "example": {
+    "en": "I'm staying with a host family.",
+    "pt": "Eu vou ficar com uma família anfitriã."
+   },
+   "note": "Resposta comum na imigração.",
+   "lessons": []
+  },
+  {
+   "id": "airport",
+   "theme": "aeroporto",
+   "en": "airport",
+   "pt": "aeroporto",
+   "emoji": "🛫",
+   "example": {
+    "en": "The airport is very big.",
+    "pt": "O aeroporto é muito grande."
+   },
+   "lessons": []
+  },
+  {
+   "id": "plane",
+   "theme": "aeroporto",
+   "en": "plane",
+   "pt": "avião",
+   "emoji": "✈️",
+   "example": {
+    "en": "The plane is on time.",
+    "pt": "O avião está no horário."
+   },
+   "lessons": []
+  },
+  {
+   "id": "ticket",
+   "theme": "aeroporto",
+   "en": "ticket",
+   "pt": "passagem / bilhete",
+   "emoji": "🎟️",
+   "example": {
+    "en": "I have my ticket.",
+    "pt": "Eu estou com a minha passagem."
+   },
+   "lessons": []
+  },
+  {
+   "id": "student-visa",
+   "theme": "aeroporto",
+   "en": "student visa",
+   "pt": "visto de estudante",
+   "emoji": "📄",
+   "example": {
+    "en": "I have a student visa.",
+    "pt": "Eu tenho um visto de estudante."
+   },
+   "note": "Vocabulário, não indicação de visto. A autorização necessária depende do curso e da situação: consulte immigration.govt.nz.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "declare",
+   "theme": "aeroporto",
+   "en": "declare",
+   "pt": "declarar",
+   "emoji": "📖",
+   "example": {
+    "en": "I need to declare this food.",
+    "pt": "Preciso declarar este alimento."
+   },
+   "lessons": [
+    "nz-l20",
+    "nz-baggage"
+   ]
+  },
+  {
+   "id": "biosecurity",
+   "theme": "aeroporto",
+   "en": "biosecurity",
+   "pt": "biossegurança",
+   "emoji": "📖",
+   "example": {
+    "en": "Where is biosecurity?",
+    "pt": "Onde fica o controle de biossegurança?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "school-letter",
+   "theme": "aeroporto",
+   "en": "school letter",
+   "pt": "carta da escola",
+   "emoji": "📖",
+   "example": {
+    "en": "Do you have your school letter?",
+    "pt": "Você está com a carta da escola?"
+   },
+   "lessons": [
+    "nz-l12",
+    "nz-backpack",
+    "nz-immigration"
+   ]
+  },
+  {
+   "id": "group",
+   "theme": "aeroporto",
+   "en": "group",
+   "pt": "grupo",
+   "emoji": "👥",
+   "example": {
+    "en": "Good! Where is your group leader?",
+    "pt": "Ótimo! Onde está o monitor do seu grupo?"
+   },
+   "lessons": [
+    "nz-l01",
+    "nz-l05",
+    "nz-l13",
+    "nz-l15",
+    "nz-l18",
+    "nz-hello",
+    "nz-backpack"
+   ]
+  },
+  {
+   "id": "ready",
+   "theme": "aeroporto",
+   "en": "ready",
+   "pt": "pronto / pronta",
+   "emoji": "✅",
+   "example": {
+    "en": "Okay. I'm ready!",
+    "pt": "Ok. Estou pronto!"
+   },
+   "lessons": [
+    "nz-backpack",
+    "nz-host-dinner"
+   ]
+  },
+  {
+   "id": "letter",
+   "theme": "aeroporto",
+   "en": "letter",
+   "pt": "carta",
+   "emoji": "✉️",
+   "example": {
+    "en": "And your school letter?",
+    "pt": "E a carta da escola?"
+   },
+   "lessons": [
+    "nz-l12",
+    "nz-backpack",
+    "nz-immigration"
+   ]
+  },
+  {
+   "id": "blue",
+   "theme": "aeroporto",
+   "en": "blue",
+   "pt": "azul",
+   "emoji": "🔵",
+   "example": {
+    "en": "It's big and blue.",
+    "pt": "É grande e azul."
+   },
+   "lessons": [
+    "nz-l21",
+    "nz-baggage"
+   ]
+  },
+  {
+   "id": "big",
+   "theme": "aeroporto",
+   "en": "big",
+   "pt": "grande",
+   "emoji": "🐘",
+   "example": {
+    "en": "It's big and blue.",
+    "pt": "É grande e azul."
+   },
+   "lessons": [
+    "nz-l21",
+    "nz-baggage"
+   ]
+  },
+  {
+   "id": "can-you-hear-me",
+   "theme": "aeroporto",
+   "en": "Can you hear me?",
+   "pt": "Você está me ouvindo?",
+   "emoji": "👂",
+   "example": {
+    "en": "Kia ora, Bia! Can you hear me?",
+    "pt": "Kia ora, Bia! Você está me ouvindo?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l11",
+    "nz-l15",
+    "nz-videocall"
+   ]
+  },
+  {
+   "id": "yes-i-can",
+   "theme": "aeroporto",
+   "en": "Yes, I can.",
+   "pt": "Sim, estou (ouvindo).",
+   "emoji": "✅",
+   "auto": true,
+   "lessons": [
+    "nz-l11",
+    "nz-l15"
+   ]
+  },
+  {
+   "id": "see-you-soon",
+   "theme": "aeroporto",
+   "en": "see you soon",
+   "pt": "até breve",
+   "emoji": "🔜",
+   "example": {
+    "en": "New Zealand! See you soon!",
+    "pt": "Nova Zelândia! Até breve!"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l03",
+    "nz-l11",
+    "nz-l15",
+    "nz-videocall"
+   ]
+  },
+  {
+   "id": "documents",
+   "theme": "aeroporto",
+   "en": "documents",
+   "pt": "documentos",
+   "emoji": "📄",
+   "example": {
+    "en": "Good. Keep your documents in your backpack.",
+    "pt": "Ótimo. Guarde os seus documentos na mochila."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l12"
+   ]
+  },
+  {
+   "id": "group-leader",
+   "theme": "aeroporto",
+   "en": "group leader",
+   "pt": "monitor / líder do grupo",
+   "emoji": "🧑‍🏫",
+   "example": {
+    "en": "Excuse me. Where is my group leader?",
+    "pt": "Com licença. Onde está a monitora do meu grupo?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l13",
+    "nz-l15",
+    "nz-l18",
+    "nz-backpack"
+   ]
+  },
+  {
+   "id": "over-there",
+   "theme": "aeroporto",
+   "en": "over there",
+   "pt": "ali / lá",
+   "emoji": "👉",
+   "example": {
+    "en": "Over there, near gate five.",
+    "pt": "Ali, perto do portão cinco."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l13",
+    "nz-l17",
+    "nz-l18",
+    "nz-backpack"
+   ]
+  },
+  {
+   "id": "stay-with-your-group",
+   "theme": "aeroporto",
+   "en": "Stay with your group.",
+   "pt": "Fique com o seu grupo.",
+   "emoji": "👥",
+   "example": {
+    "en": "Remember: stay with your group.",
+    "pt": "Lembre-se: fique com o seu grupo."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l13",
+    "nz-backpack"
+   ]
+  },
+  {
+   "id": "near",
+   "theme": "aeroporto",
+   "en": "near",
+   "pt": "perto de",
+   "emoji": "📍",
+   "example": {
+    "en": "Over there, near gate five.",
+    "pt": "Ali, perto do portão cinco."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l13",
+    "nz-safety"
+   ]
+  },
+  {
+   "id": "warm-clothes",
+   "theme": "aeroporto",
+   "en": "warm clothes",
+   "pt": "roupas quentes",
+   "emoji": "🧣",
+   "example": {
+    "en": "And warm clothes?",
+    "pt": "E roupas quentes?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l14"
+   ]
+  },
+  {
+   "id": "here-you-go",
+   "theme": "aeroporto",
+   "en": "Here you go.",
+   "pt": "Aqui está. (ao entregar algo)",
+   "emoji": "🤲",
+   "example": {
+    "en": "Here you go. Do you want more?",
+    "pt": "Aqui está. Você quer mais?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l16",
+    "nz-l24",
+    "nz-l25",
+    "nz-checkin",
+    "nz-immigration",
+    "nz-baggage",
+    "nz-host-dinner"
+   ]
+  },
+  {
+   "id": "window",
+   "theme": "aeroporto",
+   "en": "window",
+   "pt": "janela",
+   "emoji": "🪟",
+   "example": {
+    "en": "Is my seat by the window?",
+    "pt": "O meu assento é na janela?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l16",
+    "nz-checkin"
+   ]
+  },
+  {
+   "id": "board",
+   "theme": "aeroporto",
+   "en": "board",
+   "pt": "painel (de voos)",
+   "emoji": "🖥️",
+   "example": {
+    "en": "First, look at the board.",
+    "pt": "Primeiro, olhem o painel."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l17"
+   ]
+  },
+  {
+   "id": "boarding",
+   "theme": "aeroporto",
+   "en": "boarding",
+   "pt": "embarque",
+   "emoji": "🛫",
+   "example": {
+    "en": "Thanks. This is your boarding pass.",
+    "pt": "Obrigada. Este é o seu cartão de embarque."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l15",
+    "nz-l16",
+    "nz-l17",
+    "nz-checkin"
+   ]
+  },
+  {
+   "id": "departure",
+   "theme": "aeroporto",
+   "en": "departure",
+   "pt": "partida / decolagem",
+   "emoji": "🛩️",
+   "example": {
+    "en": "Boarding is at ten thirty. Departure is at eleven.",
+    "pt": "O embarque é às dez e meia. A partida é às onze."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l17"
+   ]
+  },
+  {
+   "id": "ten-thirty",
+   "theme": "aeroporto",
+   "en": "ten thirty",
+   "pt": "dez e meia",
+   "emoji": "🕥",
+   "example": {
+    "en": "Boarding is at ten thirty. Departure is at eleven.",
+    "pt": "O embarque é às dez e meia. A partida é às onze."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l17",
+    "nz-checkin"
+   ]
+  },
+  {
+   "id": "can-you-help-me",
+   "theme": "aeroporto",
+   "en": "Can you help me?",
+   "pt": "Pode me ajudar?",
+   "emoji": "🙋",
+   "example": {
+    "en": "Oh no! Can you help me?",
+    "pt": "Ah, não! Pode me ajudar?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l18",
+    "nz-l20"
+   ]
+  },
+  {
+   "id": "on-the-right",
+   "theme": "aeroporto",
+   "en": "on the right",
+   "pt": "à direita",
+   "emoji": "➡️",
+   "example": {
+    "en": "Over there, on the right.",
+    "pt": "Ali, à direita."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l18",
+    "nz-baggage"
+   ]
+  },
+  {
+   "id": "oh-no",
+   "theme": "aeroporto",
+   "en": "Oh no!",
+   "pt": "Ah, não!",
+   "emoji": "😮",
+   "example": {
+    "en": "Oh no! Can you help me?",
+    "pt": "Ah, não! Pode me ajudar?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l18"
+   ]
+  },
+  {
+   "id": "months",
+   "theme": "aeroporto",
+   "en": "months",
+   "pt": "meses",
+   "emoji": "🗓️",
+   "example": {
+    "en": "Five months.",
+    "pt": "Cinco meses."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l19",
+    "nz-immigration"
+   ]
+  },
+  {
+   "id": "tourist",
+   "theme": "aeroporto",
+   "en": "tourist",
+   "pt": "turista",
+   "emoji": "📸",
+   "example": {
+    "en": "Good morning. Are you a tourist?",
+    "pt": "Bom dia. Você é turista?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l19"
+   ]
+  },
+  {
+   "id": "i-need-to-declare-this",
+   "theme": "aeroporto",
+   "en": "I need to declare this.",
+   "pt": "Preciso declarar isto.",
+   "emoji": "📝",
+   "example": {
+    "en": "Excuse me. I have food. I need to declare this.",
+    "pt": "Com licença. Eu tenho comida. Preciso declarar isto."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l20"
+   ]
+  },
+  {
+   "id": "declaration",
+   "theme": "aeroporto",
+   "en": "declaration",
+   "pt": "declaração",
+   "emoji": "📋",
+   "example": {
+    "en": "Okay. Put it on the declaration and show me.",
+    "pt": "Certo. Coloque na declaração e me mostre."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l20"
+   ]
+  },
+  {
+   "id": "food",
+   "theme": "aeroporto",
+   "en": "food",
+   "pt": "comida",
+   "emoji": "🍎",
+   "example": {
+    "en": "Excuse me. I have food. I need to declare this.",
+    "pt": "Com licença. Eu tenho comida. Preciso declarar isto."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l20"
+   ]
+  },
+  {
+   "id": "school",
+   "theme": "escola",
+   "en": "school",
+   "pt": "escola",
+   "emoji": "🏫",
+   "example": {
+    "en": "My school is near my house.",
+    "pt": "Minha escola é perto de casa."
+   },
+   "lessons": [
+    "nz-l07",
+    "nz-l10",
+    "nz-l12",
+    "nz-l23",
+    "nz-l25",
+    "nz-l26",
+    "nz-backpack",
+    "nz-immigration",
+    "nz-host-rules",
+    "nz-school-first-day"
+   ]
+  },
+  {
+   "id": "classroom",
+   "theme": "escola",
+   "en": "classroom",
+   "pt": "sala de aula",
+   "emoji": "🏫",
+   "example": {
+    "en": "The classroom is on the second floor.",
+    "pt": "A sala de aula fica no segundo andar."
+   },
+   "lessons": []
+  },
+  {
+   "id": "class",
+   "theme": "escola",
+   "en": "class",
+   "pt": "aula / turma",
+   "emoji": "📚",
+   "example": {
+    "en": "My first class is maths.",
+    "pt": "Minha primeira aula é matemática."
+   },
+   "lessons": [
+    "nz-l01",
+    "nz-l07",
+    "nz-l26",
+    "nz-l27",
+    "nz-l28",
+    "nz-l30",
+    "nz-school-first-day",
+    "nz-school-classroom",
+    "nz-safety"
+   ]
+  },
+  {
+   "id": "teacher",
+   "theme": "escola",
+   "en": "teacher",
+   "pt": "professor / professora",
+   "emoji": "🧑‍🏫",
+   "example": {
+    "en": "My teacher is very nice.",
+    "pt": "Meu professor é muito simpático."
+   },
+   "lessons": []
+  },
+  {
+   "id": "student",
+   "theme": "escola",
+   "en": "student",
+   "pt": "estudante",
+   "emoji": "🧑‍🎓",
+   "example": {
+    "en": "I'm a new student.",
+    "pt": "Sou um aluno novo."
+   },
+   "lessons": [
+    "nz-l19",
+    "nz-l26",
+    "nz-l30",
+    "nz-immigration",
+    "nz-school-friends"
+   ]
+  },
+  {
+   "id": "classmate",
+   "theme": "escola",
+   "en": "classmate",
+   "pt": "colega de classe",
+   "emoji": "🧑‍🤝‍🧑",
+   "example": {
+    "en": "Ben is my classmate.",
+    "pt": "O Ben é meu colega de classe."
+   },
+   "lessons": []
+  },
+  {
+   "id": "principal",
+   "theme": "escola",
+   "en": "principal",
+   "pt": "diretor(a) da escola",
+   "emoji": "🏛️",
+   "example": {
+    "en": "The principal is in the office.",
+    "pt": "O diretor está na secretaria."
+   },
+   "lessons": []
+  },
+  {
+   "id": "counsellor",
+   "theme": "escola",
+   "en": "counsellor",
+   "pt": "orientador(a) escolar",
+   "emoji": "💬",
+   "example": {
+    "en": "I have a meeting with my counsellor.",
+    "pt": "Tenho uma reunião com a minha orientadora."
+   },
+   "note": "Orientador(a) ou profissional de apoio. O dean também pode ajudar; confirme seu contato na escola.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "locker",
+   "theme": "escola",
+   "en": "locker",
+   "pt": "armário da escola",
+   "emoji": "🔐",
+   "example": {
+    "en": "My locker is number ten.",
+    "pt": "Meu armário é o número dez."
+   },
+   "lessons": [
+    "nz-school-first-day"
+   ]
+  },
+  {
+   "id": "homework",
+   "theme": "escola",
+   "en": "homework",
+   "pt": "lição de casa",
+   "emoji": "📝",
+   "example": {
+    "en": "I have a lot of homework.",
+    "pt": "Tenho muita lição de casa."
+   },
+   "lessons": [
+    "nz-school-classroom"
+   ]
+  },
+  {
+   "id": "subject",
+   "theme": "escola",
+   "en": "subject",
+   "pt": "matéria",
+   "emoji": "📖",
+   "example": {
+    "en": "My favourite subject is art.",
+    "pt": "Minha matéria favorita é artes."
+   },
+   "lessons": []
+  },
+  {
+   "id": "test",
+   "theme": "escola",
+   "en": "test",
+   "pt": "prova",
+   "emoji": "📝",
+   "example": {
+    "en": "We have a test on Friday.",
+    "pt": "Temos uma prova na sexta."
+   },
+   "lessons": []
+  },
+  {
+   "id": "notebook",
+   "theme": "escola",
+   "en": "notebook",
+   "pt": "caderno",
+   "emoji": "📓",
+   "example": {
+    "en": "I need a new notebook.",
+    "pt": "Preciso de um caderno novo."
+   },
+   "lessons": []
+  },
+  {
+   "id": "pencil",
+   "theme": "escola",
+   "en": "pencil",
+   "pt": "lápis",
+   "emoji": "✏️",
+   "example": {
+    "en": "Can I borrow a pencil?",
+    "pt": "Posso pegar um lápis emprestado?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "eraser",
+   "theme": "escola",
+   "en": "eraser",
+   "pt": "borracha",
+   "emoji": "🧽",
+   "example": {
+    "en": "Do you have an eraser?",
+    "pt": "Você tem uma borracha?"
+   },
+   "note": "Eraser e rubber podem significar borracha na Nova Zelândia.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "book",
+   "theme": "escola",
+   "en": "book",
+   "pt": "livro",
+   "emoji": "📕",
+   "example": {
+    "en": "Open your book to page ten.",
+    "pt": "Abra o livro na página dez."
+   },
+   "lessons": [
+    "nz-school-classroom"
+   ]
+  },
+  {
+   "id": "page",
+   "theme": "escola",
+   "en": "page",
+   "pt": "página",
+   "emoji": "📄",
+   "example": {
+    "en": "Turn to page five.",
+    "pt": "Vá para a página cinco."
+   },
+   "lessons": [
+    "nz-school-classroom"
+   ]
+  },
+  {
+   "id": "cafeteria",
+   "theme": "escola",
+   "en": "cafeteria",
+   "pt": "refeitório",
+   "emoji": "🍽️",
+   "example": {
+    "en": "Let's eat in the cafeteria.",
+    "pt": "Vamos comer no refeitório."
+   },
+   "note": "O nome e o funcionamento variam. Algumas escolas têm canteen ou tuck shop para comprar comida.",
+   "lessons": []
+  },
+  {
+   "id": "study",
+   "theme": "escola",
+   "en": "study",
+   "pt": "estudar",
+   "emoji": "📖",
+   "example": {
+    "en": "I study after dinner.",
+    "pt": "Eu estudo depois do jantar."
+   },
+   "lessons": [
+    "nz-l19",
+    "nz-l20",
+    "nz-immigration"
+   ]
+  },
+  {
+   "id": "question",
+   "theme": "escola",
+   "en": "question",
+   "pt": "pergunta",
+   "emoji": "❓",
+   "example": {
+    "en": "I have a question.",
+    "pt": "Tenho uma pergunta."
+   },
+   "lessons": [
+    "nz-videocall"
+   ]
+  },
+  {
+   "id": "what-page-are-we-on",
+   "theme": "escola",
+   "en": "What page are we on?",
+   "pt": "Em que página estamos?",
+   "emoji": "🔖",
+   "example": {
+    "en": "What page are we on?",
+    "pt": "Em que página estamos?"
+   },
+   "note": "Quando você se perdeu na aula.",
+   "lessons": []
+  },
+  {
+   "id": "can-you-explain-that-again",
+   "theme": "escola",
+   "en": "Can you explain that again?",
+   "pt": "Pode explicar de novo?",
+   "emoji": "🔁",
+   "example": {
+    "en": "Can you explain that again?",
+    "pt": "Pode explicar de novo?"
+   },
+   "note": "Quando você não entendeu a explicação.",
+   "lessons": []
+  },
+  {
+   "id": "backpack",
+   "theme": "escola",
+   "en": "backpack",
+   "pt": "mochila",
+   "emoji": "🎒",
+   "example": {
+    "en": "My backpack is heavy.",
+    "pt": "Minha mochila está pesada."
+   },
+   "lessons": [
+    "nz-l06",
+    "nz-l12",
+    "nz-l15",
+    "nz-backpack"
+   ]
+  },
+  {
+   "id": "understand",
+   "theme": "escola",
+   "en": "understand",
+   "pt": "entender",
+   "emoji": "💡",
+   "example": {
+    "en": "Excuse me, Mr. Evans. I don't understand.",
+    "pt": "Com licença, professor. Eu não entendi."
+   },
+   "lessons": [
+    "nz-l04",
+    "nz-school-classroom",
+    "nz-safety"
+   ]
+  },
+  {
+   "id": "slowly",
+   "theme": "escola",
+   "en": "slowly",
+   "pt": "devagar",
+   "emoji": "🐢",
+   "example": {
+    "en": "Can you speak more slowly, please?",
+    "pt": "Você pode falar mais devagar, por favor?"
+   },
+   "lessons": [
+    "nz-school-classroom"
+   ]
+  },
+  {
+   "id": "soccer",
+   "theme": "escola",
+   "en": "soccer",
+   "pt": "futebol",
+   "emoji": "⚽",
+   "example": {
+    "en": "Yes, I love soccer. And you?",
+    "pt": "Sim, eu amo futebol. E você?"
+   },
+   "lessons": [
+    "nz-school-friends"
+   ]
+  },
+  {
+   "id": "sports",
+   "theme": "escola",
+   "en": "sports",
+   "pt": "esportes",
+   "emoji": "🏅",
+   "example": {
+    "en": "Do you like sports?",
+    "pt": "Você gosta de esportes?"
+   },
+   "lessons": [
+    "nz-school-friends"
+   ]
+  },
+  {
+   "id": "play",
+   "theme": "escola",
+   "en": "play",
+   "pt": "jogar / brincar",
+   "emoji": "🎮",
+   "example": {
+    "en": "I play rugby and cricket.",
+    "pt": "Eu jogo rugby e críquete."
+   },
+   "lessons": [
+    "nz-school-friends"
+   ]
+  },
+  {
+   "id": "may-i-go-to-the-toilet",
+   "theme": "escola",
+   "en": "May I go to the toilet?",
+   "pt": "Posso ir ao banheiro?",
+   "emoji": "🚻",
+   "example": {
+    "en": "May I go to the toilet, please?",
+    "pt": "Posso ir ao banheiro, por favor?"
+   },
+   "note": "Na aula, peça licença ao professor.",
+   "variant": true,
+   "lessons": [
+    "nz-school-classroom"
+   ]
+  },
+  {
+   "id": "timetable",
+   "theme": "escola",
+   "en": "timetable",
+   "pt": "horário de aulas",
+   "emoji": "🗓️",
+   "example": {
+    "en": "Here is your timetable.",
+    "pt": "Aqui está o seu horário de aulas."
+   },
+   "note": "Termo usado nas escolas neozelandesas.",
+   "variant": true,
+   "lessons": [
+    "nz-l26",
+    "nz-l27",
+    "nz-l30",
+    "nz-school-first-day"
+   ]
+  },
+  {
+   "id": "maths",
+   "theme": "escola",
+   "en": "maths",
+   "pt": "matemática",
+   "emoji": "➗",
+   "example": {
+    "en": "Your first class is maths.",
+    "pt": "Sua primeira aula é matemática."
+   },
+   "note": "Na Nova Zelândia, é comum maths, com S.",
+   "variant": true,
+   "lessons": [
+    "nz-l07",
+    "nz-l27",
+    "nz-school-first-day"
+   ]
+  },
+  {
+   "id": "year",
+   "theme": "escola",
+   "en": "Year",
+   "pt": "ano escolar / série",
+   "emoji": "🔟",
+   "example": {
+    "en": "I am in Year ten.",
+    "pt": "Estou no Year 10."
+   },
+   "note": "As escolas usam Year. A escola confirma seu ano; não presuma equivalência direta com a série brasileira.",
+   "variant": true,
+   "lessons": [
+    "nz-l07",
+    "nz-l27"
+   ]
+  },
+  {
+   "id": "uniform",
+   "theme": "escola",
+   "en": "uniform",
+   "pt": "uniforme",
+   "emoji": "📖",
+   "example": {
+    "en": "Please wear your uniform tomorrow.",
+    "pt": "Por favor, venha de uniforme amanhã."
+   },
+   "lessons": [
+    "nz-l28",
+    "nz-school-first-day"
+   ]
+  },
+  {
+   "id": "interval",
+   "theme": "escola",
+   "en": "interval",
+   "pt": "intervalo",
+   "emoji": "📖",
+   "example": {
+    "en": "What time is interval?",
+    "pt": "A que horas é o intervalo?"
+   },
+   "lessons": [
+    "nz-l29",
+    "nz-l30",
+    "nz-school-classroom"
+   ]
+  },
+  {
+   "id": "dean",
+   "theme": "escola",
+   "en": "dean",
+   "pt": "responsável pelos alunos de um ano escolar",
+   "emoji": "📖",
+   "example": {
+    "en": "Where is the dean?",
+    "pt": "Onde está o responsável pelo meu ano escolar?"
+   },
+   "lessons": [
+    "nz-l26"
+   ]
+  },
+  {
+   "id": "form-class",
+   "theme": "escola",
+   "en": "form class",
+   "pt": "turma-base",
+   "emoji": "📖",
+   "example": {
+    "en": "Where is my form class?",
+    "pt": "Onde fica minha turma-base?"
+   },
+   "lessons": [
+    "nz-l26",
+    "nz-l28",
+    "nz-l30",
+    "nz-school-first-day"
+   ]
+  },
+  {
+   "id": "term",
+   "theme": "escola",
+   "en": "term",
+   "pt": "período letivo",
+   "emoji": "📖",
+   "example": {
+    "en": "When does the term start?",
+    "pt": "Quando começa o período letivo?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "football",
+   "theme": "escola",
+   "en": "football",
+   "pt": "futebol",
+   "emoji": "📖",
+   "example": {
+    "en": "I like football.",
+    "pt": "Eu gosto de futebol."
+   },
+   "lessons": []
+  },
+  {
+   "id": "new-student",
+   "theme": "escola",
+   "en": "new student",
+   "pt": "aluno novo / aluna nova",
+   "emoji": "🆕",
+   "example": {
+    "en": "Hello. I'm a new student. I'm Leo.",
+    "pt": "Olá. Eu sou um aluno novo. Sou o Leo."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l26",
+    "nz-l30",
+    "nz-school-friends"
+   ]
+  },
+  {
+   "id": "school-office",
+   "theme": "escola",
+   "en": "school office",
+   "pt": "secretaria da escola",
+   "emoji": "🏢",
+   "example": {
+    "en": "Kia ora, Leo! Welcome to the school office.",
+    "pt": "Kia ora, Leo! Bem-vindo à secretaria."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l26",
+    "nz-school-first-day"
+   ]
+  },
+  {
+   "id": "who-can-help-me",
+   "theme": "escola",
+   "en": "Who can help me?",
+   "pt": "Quem pode me ajudar?",
+   "emoji": "🙋",
+   "example": {
+    "en": "Thank you. Who can help me?",
+    "pt": "Obrigado. Quem pode me ajudar?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l26",
+    "nz-l30"
+   ]
+  },
+  {
+   "id": "english",
+   "theme": "escola",
+   "en": "English",
+   "pt": "inglês",
+   "emoji": "🔤",
+   "example": {
+    "en": "Your first class is maths. Then English.",
+    "pt": "A sua primeira aula é matemática. Depois inglês."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l27"
+   ]
+  },
+  {
+   "id": "first-class",
+   "theme": "escola",
+   "en": "first class",
+   "pt": "primeira aula",
+   "emoji": "1️⃣",
+   "example": {
+    "en": "Our first class is today.",
+    "pt": "A nossa primeira aula é hoje."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l01",
+    "nz-l07",
+    "nz-l27",
+    "nz-school-first-day"
+   ]
+  },
+  {
+   "id": "upstairs",
+   "theme": "escola",
+   "en": "upstairs",
+   "pt": "lá em cima / no andar de cima",
+   "emoji": "⬆️",
+   "example": {
+    "en": "Your form class is upstairs, room nine.",
+    "pt": "A sua turma-base fica lá em cima, sala nove."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l28",
+    "nz-l30",
+    "nz-school-first-day"
+   ]
+  },
+  {
+   "id": "lunch-box",
+   "theme": "escola",
+   "en": "lunch box",
+   "pt": "lancheira / lanche de casa",
+   "emoji": "🥪",
+   "example": {
+    "en": "Where can I eat my lunch box?",
+    "pt": "Onde eu posso comer a minha lancheira?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l24",
+    "nz-l29",
+    "nz-host-dinner"
+   ]
+  },
+  {
+   "id": "outside",
+   "theme": "escola",
+   "en": "outside",
+   "pt": "lá fora",
+   "emoji": "🌳",
+   "example": {
+    "en": "Outside, on the field, or in the hall.",
+    "pt": "Lá fora, no campo, ou no salão."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l29"
+   ]
+  },
+  {
+   "id": "host-family",
+   "theme": "casa",
+   "en": "host family",
+   "pt": "família anfitriã",
+   "emoji": "👨‍👩‍👧",
+   "example": {
+    "en": "My host family is very kind.",
+    "pt": "Minha família anfitriã é muito gentil."
+   },
+   "lessons": [
+    "nz-l19",
+    "nz-l20",
+    "nz-immigration"
+   ]
+  },
+  {
+   "id": "host-dad",
+   "theme": "casa",
+   "en": "host dad",
+   "pt": "pai anfitrião",
+   "emoji": "👨",
+   "example": {
+    "en": "My host dad drives me to school.",
+    "pt": "Meu pai anfitrião me leva à escola."
+   },
+   "lessons": []
+  },
+  {
+   "id": "home",
+   "theme": "casa",
+   "en": "home",
+   "pt": "casa / lar",
+   "emoji": "🏡",
+   "example": {
+    "en": "I'm going home.",
+    "pt": "Estou indo para casa."
+   },
+   "lessons": [
+    "nz-l22",
+    "nz-l23",
+    "nz-host-arrival",
+    "nz-host-rules",
+    "nz-school-classroom"
+   ]
+  },
+  {
+   "id": "apartment",
+   "theme": "casa",
+   "en": "apartment",
+   "pt": "apartamento",
+   "emoji": "🏢",
+   "example": {
+    "en": "We live in an apartment.",
+    "pt": "Nós moramos em um apartamento."
+   },
+   "note": "Apartment e flat aparecem na Nova Zelândia. O uso depende do contexto.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "room",
+   "theme": "casa",
+   "en": "room",
+   "pt": "quarto / cômodo",
+   "emoji": "🛏️",
+   "example": {
+    "en": "This is your room.",
+    "pt": "Este é o seu quarto."
+   },
+   "lessons": [
+    "nz-l22",
+    "nz-l28",
+    "nz-l30",
+    "nz-host-arrival",
+    "nz-school-first-day"
+   ]
+  },
+  {
+   "id": "bedroom",
+   "theme": "casa",
+   "en": "bedroom",
+   "pt": "quarto de dormir",
+   "emoji": "🛌",
+   "example": {
+    "en": "My bedroom is upstairs.",
+    "pt": "Meu quarto fica lá em cima."
+   },
+   "lessons": []
+  },
+  {
+   "id": "bathroom",
+   "theme": "casa",
+   "en": "bathroom",
+   "pt": "banheiro",
+   "emoji": "🛁",
+   "example": {
+    "en": "The bathroom is on the left.",
+    "pt": "O banheiro fica à esquerda."
+   },
+   "note": "Bathroom costuma indicar o cômodo do banho. Para perguntar pelo banheiro, toilet é uma opção comum.",
+   "lessons": [
+    "nz-l22"
+   ]
+  },
+  {
+   "id": "kitchen",
+   "theme": "casa",
+   "en": "kitchen",
+   "pt": "cozinha",
+   "emoji": "🍳",
+   "example": {
+    "en": "Dinner is in the kitchen.",
+    "pt": "O jantar é na cozinha."
+   },
+   "lessons": []
+  },
+  {
+   "id": "living-room",
+   "theme": "casa",
+   "en": "living room",
+   "pt": "sala de estar",
+   "emoji": "🛋️",
+   "example": {
+    "en": "We watch TV in the living room.",
+    "pt": "Assistimos TV na sala de estar."
+   },
+   "lessons": []
+  },
+  {
+   "id": "basement",
+   "theme": "casa",
+   "en": "basement",
+   "pt": "porão",
+   "emoji": "🪜",
+   "example": {
+    "en": "The laundry is in the basement.",
+    "pt": "A lavanderia fica no porão."
+   },
+   "note": "Porão ou pavimento abaixo do térreo; nem toda casa tem um.",
+   "lessons": []
+  },
+  {
+   "id": "shower",
+   "theme": "casa",
+   "en": "shower",
+   "pt": "banho (de chuveiro)",
+   "emoji": "🚿",
+   "example": {
+    "en": "I take a shower in the morning.",
+    "pt": "Eu tomo banho de manhã."
+   },
+   "lessons": [
+    "nz-host-rules"
+   ]
+  },
+  {
+   "id": "towel",
+   "theme": "casa",
+   "en": "towel",
+   "pt": "toalha",
+   "emoji": "🧺",
+   "example": {
+    "en": "Can I have a towel, please?",
+    "pt": "Posso pegar uma toalha, por favor?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "key",
+   "theme": "casa",
+   "en": "key",
+   "pt": "chave",
+   "emoji": "🔑",
+   "example": {
+    "en": "Here's your key.",
+    "pt": "Aqui está a sua chave."
+   },
+   "lessons": []
+  },
+  {
+   "id": "fridge",
+   "theme": "casa",
+   "en": "fridge",
+   "pt": "geladeira",
+   "emoji": "🧊",
+   "example": {
+    "en": "The milk is in the fridge.",
+    "pt": "O leite está na geladeira."
+   },
+   "lessons": [
+    "nz-host-rules"
+   ]
+  },
+  {
+   "id": "dishes",
+   "theme": "casa",
+   "en": "dishes",
+   "pt": "louça",
+   "emoji": "🍽️",
+   "example": {
+    "en": "I'll do the dishes.",
+    "pt": "Eu lavo a louça."
+   },
+   "lessons": []
+  },
+  {
+   "id": "password",
+   "theme": "casa",
+   "en": "password",
+   "pt": "senha",
+   "emoji": "🔑",
+   "example": {
+    "en": "What's the Wi-Fi password?",
+    "pt": "Qual é a senha do Wi-Fi?"
+   },
+   "lessons": [
+    "nz-host-rules"
+   ]
+  },
+  {
+   "id": "wake-up",
+   "theme": "casa",
+   "en": "wake up",
+   "pt": "acordar",
+   "emoji": "⏰",
+   "example": {
+    "en": "I wake up at seven.",
+    "pt": "Eu acordo às sete."
+   },
+   "lessons": [
+    "nz-host-rules"
+   ]
+  },
+  {
+   "id": "house-rules",
+   "theme": "casa",
+   "en": "house rules",
+   "pt": "regras da casa",
+   "emoji": "📋",
+   "example": {
+    "en": "What are the house rules?",
+    "pt": "Quais são as regras da casa?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "curfew",
+   "theme": "casa",
+   "en": "curfew",
+   "pt": "horário para chegar em casa",
+   "emoji": "🌃",
+   "example": {
+    "en": "My curfew is ten o'clock.",
+    "pt": "Meu horário para chegar em casa é dez horas."
+   },
+   "lessons": []
+  },
+  {
+   "id": "what-time-is-dinner",
+   "theme": "casa",
+   "en": "What time is dinner?",
+   "pt": "A que horas é o jantar?",
+   "emoji": "🕕",
+   "example": {
+    "en": "What time is dinner?",
+    "pt": "A que horas é o jantar?"
+   },
+   "note": "Para saber o horário das refeições.",
+   "lessons": [
+    "nz-l23",
+    "nz-l25"
+   ]
+  },
+  {
+   "id": "ill-be-home-at-six",
+   "theme": "casa",
+   "en": "I'll be home at six.",
+   "pt": "Eu volto para casa às seis.",
+   "emoji": "🕕",
+   "example": {
+    "en": "I'll be home at six.",
+    "pt": "Eu volto para casa às seis."
+   },
+   "note": "Avise sempre a que horas você chega.",
+   "lessons": []
+  },
+  {
+   "id": "is-it-ok-if-i",
+   "theme": "casa",
+   "en": "Is it OK if I …?",
+   "pt": "Tudo bem se eu …?",
+   "emoji": "🙏",
+   "say": "Is it OK if I use the kitchen?",
+   "example": {
+    "en": "Is it OK if I use the kitchen?",
+    "pt": "Tudo bem se eu usar a cozinha?"
+   },
+   "note": "A forma educada de pedir permissão. Exemplo: \"Is it OK if I use the kitchen?\"",
+   "lessons": []
+  },
+  {
+   "id": "happy",
+   "theme": "casa",
+   "en": "happy",
+   "pt": "feliz",
+   "emoji": "😊",
+   "example": {
+    "en": "Nice to meet you too! We are very happy.",
+    "pt": "Prazer! Nós estamos muito felizes."
+   },
+   "lessons": [
+    "nz-videocall"
+   ]
+  },
+  {
+   "id": "host-mum",
+   "theme": "casa",
+   "en": "host mum",
+   "pt": "mãe anfitriã",
+   "emoji": "👩",
+   "example": {
+    "en": "My host mum makes dinner.",
+    "pt": "Minha mãe anfitriã faz o jantar."
+   },
+   "note": "Mum é uma forma comum de dizer mãe.",
+   "variant": true,
+   "lessons": [
+    "nz-l04",
+    "nz-l11"
+   ]
+  },
+  {
+   "id": "rubbish",
+   "theme": "casa",
+   "en": "rubbish",
+   "pt": "lixo",
+   "emoji": "🗑️",
+   "example": {
+    "en": "Where is the rubbish bin?",
+    "pt": "Onde fica a lixeira?"
+   },
+   "note": "Rubbish e rubbish bin são termos comuns.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "lift",
+   "theme": "casa",
+   "en": "lift",
+   "pt": "elevador",
+   "emoji": "🛗",
+   "example": {
+    "en": "Where is the lift?",
+    "pt": "Onde fica o elevador?"
+   },
+   "note": "Você pode ver placas com lift.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "heater",
+   "theme": "casa",
+   "en": "heater",
+   "pt": "aquecedor",
+   "emoji": "📖",
+   "example": {
+    "en": "Can I use the heater?",
+    "pt": "Posso usar o aquecedor?"
+   },
+   "lessons": [
+    "nz-l23",
+    "nz-host-rules"
+   ]
+  },
+  {
+   "id": "flat",
+   "theme": "casa",
+   "en": "flat",
+   "pt": "apartamento / moradia compartilhada, conforme o contexto",
+   "emoji": "📖",
+   "example": {
+    "en": "We live in a flat.",
+    "pt": "Moramos em um apartamento."
+   },
+   "lessons": []
+  },
+  {
+   "id": "baggage-desk",
+   "theme": "casa",
+   "en": "baggage desk",
+   "pt": "balcão de bagagem",
+   "emoji": "🛄",
+   "example": {
+    "en": "Excuse me. Where is the baggage desk?",
+    "pt": "Com licença. Onde fica o balcão de bagagem?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l21"
+   ]
+  },
+  {
+   "id": "my-bag-is-not-here",
+   "theme": "casa",
+   "en": "My bag is not here.",
+   "pt": "A minha mala não está aqui.",
+   "emoji": "🧳",
+   "example": {
+    "en": "Hi. My bag is not here.",
+    "pt": "Oi. A minha mala não está aqui."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l21",
+    "nz-baggage"
+   ]
+  },
+  {
+   "id": "turn-it-off",
+   "theme": "casa",
+   "en": "turn it off",
+   "pt": "desligar",
+   "emoji": "📴",
+   "example": {
+    "en": "Yes, but turn it off at night.",
+    "pt": "Sim, mas desligue à noite."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l23"
+   ]
+  },
+  {
+   "id": "school-nights",
+   "theme": "casa",
+   "en": "school nights",
+   "pt": "noites antes de dia de aula",
+   "emoji": "🌙",
+   "example": {
+    "en": "On school nights, be home by nine.",
+    "pt": "Nas noites antes de aula, esteja em casa até as nove."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l23",
+    "nz-host-rules"
+   ]
+  },
+  {
+   "id": "be-home-by-nine",
+   "theme": "casa",
+   "en": "be home by nine",
+   "pt": "estar em casa até as nove",
+   "emoji": "🕘",
+   "example": {
+    "en": "On school nights, be home by nine.",
+    "pt": "Nas noites antes de aula, esteja em casa até as nove."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l23",
+    "nz-host-rules"
+   ]
+  },
+  {
+   "id": "lamb",
+   "theme": "casa",
+   "en": "lamb",
+   "pt": "cordeiro",
+   "emoji": "🍖",
+   "example": {
+    "en": "That's fine. We have lamb and vegetables.",
+    "pt": "Tudo bem. Temos cordeiro e legumes."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l24",
+    "nz-l25"
+   ]
+  },
+  {
+   "id": "vegetables",
+   "theme": "casa",
+   "en": "vegetables",
+   "pt": "legumes / verduras",
+   "emoji": "🥦",
+   "example": {
+    "en": "That's fine. We have lamb and vegetables.",
+    "pt": "Tudo bem. Temos cordeiro e legumes."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l24"
+   ]
+  },
+  {
+   "id": "im-full",
+   "theme": "casa",
+   "en": "I'm full.",
+   "pt": "Estou satisfeito / satisfeita.",
+   "emoji": "😌",
+   "example": {
+    "en": "No, thanks. I'm full.",
+    "pt": "Não, obrigada. Estou satisfeita."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l24",
+    "nz-l25",
+    "nz-host-dinner"
+   ]
+  },
+  {
+   "id": "tomorrow",
+   "theme": "casa",
+   "en": "tomorrow",
+   "pt": "amanhã",
+   "emoji": "📅",
+   "example": {
+    "en": "What time is dinner tomorrow?",
+    "pt": "Que horas é o jantar amanhã?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l25",
+    "nz-l28",
+    "nz-school-first-day"
+   ]
+  },
+  {
+   "id": "tonight",
+   "theme": "casa",
+   "en": "tonight",
+   "pt": "hoje à noite",
+   "emoji": "🌙",
+   "example": {
+    "en": "No fish tonight.",
+    "pt": "Sem peixe hoje."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l25"
+   ]
+  },
+  {
+   "id": "school-starts",
+   "theme": "casa",
+   "en": "school starts",
+   "pt": "a escola começa",
+   "emoji": "🏫",
+   "example": {
+    "en": "At six. School starts at eight forty-five.",
+    "pt": "Às seis. A escola começa às oito e quarenta e cinco."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l25",
+    "nz-host-rules"
+   ]
+  },
+  {
+   "id": "breakfast",
+   "theme": "comida",
+   "en": "breakfast",
+   "pt": "café da manhã",
+   "emoji": "🥞",
+   "example": {
+    "en": "Breakfast is at seven.",
+    "pt": "O café da manhã é às sete."
+   },
+   "lessons": []
+  },
+  {
+   "id": "lunch",
+   "theme": "comida",
+   "en": "lunch",
+   "pt": "almoço",
+   "emoji": "🥪",
+   "example": {
+    "en": "I eat lunch at school.",
+    "pt": "Eu almoço na escola."
+   },
+   "lessons": [
+    "nz-l24",
+    "nz-l29",
+    "nz-host-dinner",
+    "nz-school-first-day"
+   ]
+  },
+  {
+   "id": "dinner",
+   "theme": "comida",
+   "en": "dinner",
+   "pt": "jantar",
+   "emoji": "🍝",
+   "example": {
+    "en": "Dinner is ready.",
+    "pt": "O jantar está pronto."
+   },
+   "lessons": [
+    "nz-l23",
+    "nz-l25",
+    "nz-host-rules",
+    "nz-host-dinner"
+   ]
+  },
+  {
+   "id": "hungry",
+   "theme": "comida",
+   "en": "hungry",
+   "pt": "com fome",
+   "emoji": "🤤",
+   "example": {
+    "en": "I'm hungry.",
+    "pt": "Estou com fome."
+   },
+   "lessons": [
+    "nz-l22",
+    "nz-host-arrival",
+    "nz-host-rules"
+   ]
+  },
+  {
+   "id": "full",
+   "theme": "comida",
+   "en": "full",
+   "pt": "satisfeito / satisfeita",
+   "emoji": "😌",
+   "example": {
+    "en": "No, thanks. I'm full.",
+    "pt": "Não, obrigado. Estou satisfeito."
+   },
+   "lessons": [
+    "nz-l24",
+    "nz-l25",
+    "nz-host-dinner"
+   ]
+  },
+  {
+   "id": "water",
+   "theme": "comida",
+   "en": "water",
+   "pt": "água",
+   "emoji": "💧",
+   "example": {
+    "en": "Can I have some water?",
+    "pt": "Posso tomar um pouco de água?"
+   },
+   "lessons": [
+    "nz-l29",
+    "nz-host-dinner"
+   ]
+  },
+  {
+   "id": "milk",
+   "theme": "comida",
+   "en": "milk",
+   "pt": "leite",
+   "emoji": "🥛",
+   "example": {
+    "en": "Milk, please.",
+    "pt": "Leite, por favor."
+   },
+   "lessons": []
+  },
+  {
+   "id": "coffee",
+   "theme": "comida",
+   "en": "coffee",
+   "pt": "café",
+   "emoji": "☕",
+   "example": {
+    "en": "A coffee, please.",
+    "pt": "Um café, por favor."
+   },
+   "lessons": []
+  },
+  {
+   "id": "hot-chocolate",
+   "theme": "comida",
+   "en": "hot chocolate",
+   "pt": "chocolate quente",
+   "emoji": "🍫",
+   "example": {
+    "en": "A hot chocolate, please.",
+    "pt": "Um chocolate quente, por favor."
+   },
+   "lessons": []
+  },
+  {
+   "id": "muffin",
+   "theme": "comida",
+   "en": "muffin",
+   "pt": "muffin (bolinho)",
+   "emoji": "🧁",
+   "example": {
+    "en": "I want a blueberry muffin.",
+    "pt": "Quero um muffin de mirtilo."
+   },
+   "lessons": []
+  },
+  {
+   "id": "donut",
+   "theme": "comida",
+   "en": "donut",
+   "pt": "rosquinha (donut)",
+   "emoji": "🍩",
+   "example": {
+    "en": "One donut, please.",
+    "pt": "Uma rosquinha, por favor."
+   },
+   "lessons": []
+  },
+  {
+   "id": "bread",
+   "theme": "comida",
+   "en": "bread",
+   "pt": "pão",
+   "emoji": "🍞",
+   "example": {
+    "en": "More bread, please.",
+    "pt": "Mais pão, por favor."
+   },
+   "lessons": []
+  },
+  {
+   "id": "rice",
+   "theme": "comida",
+   "en": "rice",
+   "pt": "arroz",
+   "emoji": "🍚",
+   "example": {
+    "en": "I like rice and beans.",
+    "pt": "Eu gosto de arroz e feijão."
+   },
+   "lessons": []
+  },
+  {
+   "id": "chicken",
+   "theme": "comida",
+   "en": "chicken",
+   "pt": "frango",
+   "emoji": "🍗",
+   "example": {
+    "en": "We have chicken for dinner.",
+    "pt": "Temos frango no jantar."
+   },
+   "lessons": [
+    "nz-host-dinner"
+   ]
+  },
+  {
+   "id": "fish",
+   "theme": "comida",
+   "en": "fish",
+   "pt": "peixe",
+   "emoji": "🐟",
+   "example": {
+    "en": "I don't like fish.",
+    "pt": "Eu não gosto de peixe."
+   },
+   "lessons": [
+    "nz-l24",
+    "nz-l25",
+    "nz-host-dinner"
+   ]
+  },
+  {
+   "id": "salt",
+   "theme": "comida",
+   "en": "salt",
+   "pt": "sal",
+   "emoji": "🧂",
+   "example": {
+    "en": "Can you pass the salt?",
+    "pt": "Pode passar o sal?"
+   },
+   "lessons": [
+    "nz-l24",
+    "nz-l25",
+    "nz-host-dinner"
+   ]
+  },
+  {
+   "id": "vegetarian",
+   "theme": "comida",
+   "en": "vegetarian",
+   "pt": "vegetariano / vegetariana",
+   "emoji": "🥦",
+   "example": {
+    "en": "I'm vegetarian.",
+    "pt": "Eu sou vegetariano."
+   },
+   "lessons": []
+  },
+  {
+   "id": "allergic",
+   "theme": "comida",
+   "en": "allergic",
+   "pt": "alérgico / alérgica",
+   "emoji": "🤧",
+   "example": {
+    "en": "I'm allergic to peanuts.",
+    "pt": "Sou alérgico a amendoim."
+   },
+   "lessons": []
+  },
+  {
+   "id": "im-hungry",
+   "theme": "comida",
+   "en": "I'm hungry.",
+   "pt": "Estou com fome.",
+   "emoji": "🍽️",
+   "example": {
+    "en": "I'm hungry.",
+    "pt": "Estou com fome."
+   },
+   "note": "Sem vergonha: a família prefere que você peça.",
+   "lessons": []
+  },
+  {
+   "id": "can-i-have-some-more",
+   "theme": "comida",
+   "en": "Can I have some more?",
+   "pt": "Posso repetir?",
+   "emoji": "🍽️",
+   "example": {
+    "en": "Can I have some more?",
+    "pt": "Posso repetir?"
+   },
+   "note": "Para pedir mais comida na mesa, com educação.",
+   "lessons": []
+  },
+  {
+   "id": "its-delicious",
+   "theme": "comida",
+   "en": "It's delicious!",
+   "pt": "Está delicioso!",
+   "emoji": "😋",
+   "example": {
+    "en": "It's delicious!",
+    "pt": "Está delicioso!"
+   },
+   "note": "Elogiar a comida deixa a família anfitriã feliz.",
+   "lessons": []
+  },
+  {
+   "id": "can-you-pass-the-please",
+   "theme": "comida",
+   "en": "Can you pass the …, please?",
+   "pt": "Pode passar o … , por favor?",
+   "emoji": "🥄",
+   "say": "Can you pass the salt, please?",
+   "example": {
+    "en": "Can you pass the salt, please?",
+    "pt": "Pode passar o sal, por favor?"
+   },
+   "note": "Na mesa. Exemplo: \"Can you pass the salt, please?\"",
+   "lessons": [
+    "nz-l24",
+    "nz-l25",
+    "nz-host-dinner"
+   ]
+  },
+  {
+   "id": "i-dont-eat",
+   "theme": "comida",
+   "en": "I don't eat …",
+   "pt": "Eu não como …",
+   "emoji": "🚫",
+   "say": "I don't eat pork.",
+   "example": {
+    "en": "I don't eat pork.",
+    "pt": "Eu não como carne de porco."
+   },
+   "note": "Para avisar uma restrição. Exemplo: \"I don't eat pork.\"",
+   "lessons": [
+    "nz-l24",
+    "nz-l25",
+    "nz-host-dinner"
+   ]
+  },
+  {
+   "id": "size",
+   "theme": "comida",
+   "en": "size",
+   "pt": "tamanho",
+   "emoji": "📏",
+   "example": {
+    "en": "A medium coffee, please.",
+    "pt": "Um café médio, por favor."
+   },
+   "lessons": []
+  },
+  {
+   "id": "menu",
+   "theme": "comida",
+   "en": "menu",
+   "pt": "cardápio",
+   "emoji": "📋",
+   "example": {
+    "en": "Can I see the menu, please?",
+    "pt": "Posso ver o cardápio, por favor?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "bill",
+   "theme": "comida",
+   "en": "bill",
+   "pt": "conta (do restaurante)",
+   "emoji": "🧾",
+   "example": {
+    "en": "Can we have the bill, please?",
+    "pt": "Pode trazer a conta, por favor?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "lollies",
+   "theme": "comida",
+   "en": "lollies",
+   "pt": "balas / doces",
+   "emoji": "🍬",
+   "example": {
+    "en": "Do you want some lollies?",
+    "pt": "Você quer umas balas?"
+   },
+   "note": "Lollies é comum na Nova Zelândia e na Austrália.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "fish-and-chips",
+   "theme": "comida",
+   "en": "fish and chips",
+   "pt": "peixe frito com batatas fritas",
+   "emoji": "📖",
+   "example": {
+    "en": "Fish and chips, please.",
+    "pt": "Peixe com batatas fritas, por favor."
+   },
+   "lessons": [
+    "nz-host-dinner"
+   ]
+  },
+  {
+   "id": "ice-cream",
+   "theme": "comida",
+   "en": "ice cream",
+   "pt": "sorvete",
+   "emoji": "📖",
+   "example": {
+    "en": "We can get ice cream.",
+    "pt": "Podemos comprar sorvete."
+   },
+   "lessons": [
+    "nz-kiwi"
+   ]
+  },
+  {
+   "id": "bus",
+   "theme": "transporte",
+   "en": "bus",
+   "pt": "ônibus",
+   "emoji": "🚌",
+   "example": {
+    "en": "I take the bus to school.",
+    "pt": "Eu pego o ônibus para a escola."
+   },
+   "lessons": [
+    "nz-city-bus",
+    "nz-city-help"
+   ]
+  },
+  {
+   "id": "school-bus",
+   "theme": "transporte",
+   "en": "school bus",
+   "pt": "ônibus escolar",
+   "emoji": "🚍",
+   "example": {
+    "en": "I take the school bus.",
+    "pt": "Vou de ônibus escolar."
+   },
+   "note": "O transporte varia por escola e região. Confirme seu trajeto; não presuma que o ônibus será amarelo.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "bus-stop",
+   "theme": "transporte",
+   "en": "bus stop",
+   "pt": "ponto de ônibus",
+   "emoji": "🚏",
+   "example": {
+    "en": "The bus stop is on the corner.",
+    "pt": "O ponto de ônibus fica na esquina."
+   },
+   "lessons": [
+    "nz-city-bus",
+    "nz-city-help"
+   ]
+  },
+  {
+   "id": "bus-pass",
+   "theme": "transporte",
+   "en": "bus pass",
+   "pt": "passe de ônibus",
+   "emoji": "🎟️",
+   "example": {
+    "en": "I need a bus pass.",
+    "pt": "Preciso de um passe de ônibus."
+   },
+   "lessons": []
+  },
+  {
+   "id": "transfer",
+   "theme": "transporte",
+   "en": "transfer",
+   "pt": "baldeação / bilhete de integração",
+   "emoji": "🔄",
+   "example": {
+    "en": "I need a transfer, please.",
+    "pt": "Preciso de um bilhete de integração, por favor."
+   },
+   "lessons": []
+  },
+  {
+   "id": "next-stop",
+   "theme": "transporte",
+   "en": "next stop",
+   "pt": "próxima parada",
+   "emoji": "➡️",
+   "example": {
+    "en": "The next stop is mine.",
+    "pt": "A próxima parada é a minha."
+   },
+   "lessons": []
+  },
+  {
+   "id": "get-off",
+   "theme": "transporte",
+   "en": "get off",
+   "pt": "descer (do ônibus)",
+   "emoji": "⬇️",
+   "example": {
+    "en": "I get off at the next stop.",
+    "pt": "Eu desço na próxima parada."
+   },
+   "lessons": []
+  },
+  {
+   "id": "street",
+   "theme": "transporte",
+   "en": "street",
+   "pt": "rua",
+   "emoji": "🛣️",
+   "example": {
+    "en": "My street is quiet.",
+    "pt": "Minha rua é tranquila."
+   },
+   "lessons": []
+  },
+  {
+   "id": "address",
+   "theme": "transporte",
+   "en": "address",
+   "pt": "endereço",
+   "emoji": "📍",
+   "example": {
+    "en": "This is my address.",
+    "pt": "Este é o meu endereço."
+   },
+   "lessons": [
+    "nz-l21",
+    "nz-baggage"
+   ]
+  },
+  {
+   "id": "left",
+   "theme": "transporte",
+   "en": "left",
+   "pt": "esquerda",
+   "emoji": "⬅️",
+   "example": {
+    "en": "Turn left.",
+    "pt": "Vire à esquerda."
+   },
+   "lessons": [
+    "nz-checkin",
+    "nz-city-bus"
+   ]
+  },
+  {
+   "id": "right",
+   "theme": "transporte",
+   "en": "right",
+   "pt": "direita",
+   "emoji": "➡️",
+   "example": {
+    "en": "Turn right.",
+    "pt": "Vire à direita."
+   },
+   "lessons": [
+    "nz-l18",
+    "nz-baggage",
+    "nz-school-friends",
+    "nz-city-bus"
+   ]
+  },
+  {
+   "id": "straight",
+   "theme": "transporte",
+   "en": "straight",
+   "pt": "reto",
+   "emoji": "⬆️",
+   "example": {
+    "en": "Go straight.",
+    "pt": "Siga em frente."
+   },
+   "lessons": [
+    "nz-city-bus"
+   ]
+  },
+  {
+   "id": "later",
+   "theme": "transporte",
+   "en": "later",
+   "pt": "depois / mais tarde",
+   "emoji": "🕒",
+   "example": {
+    "en": "The next bus is later.",
+    "pt": "O próximo ônibus é mais tarde."
+   },
+   "lessons": [
+    "nz-school-friends"
+   ]
+  },
+  {
+   "id": "where-is-the-bus-stop",
+   "theme": "transporte",
+   "en": "Where is the bus stop?",
+   "pt": "Onde fica o ponto de ônibus?",
+   "emoji": "🚏",
+   "example": {
+    "en": "Where is the bus stop?",
+    "pt": "Onde fica o ponto de ônibus?"
+   },
+   "note": "Uma das perguntas mais úteis na cidade.",
+   "lessons": [
+    "nz-city-bus"
+   ]
+  },
+  {
+   "id": "does-this-bus-go-to",
+   "theme": "transporte",
+   "en": "Does this bus go to …?",
+   "pt": "Este ônibus vai para …?",
+   "emoji": "🚌",
+   "say": "Does this bus go to the airport?",
+   "example": {
+    "en": "Does this bus go to the airport?",
+    "pt": "Este ônibus vai para o aeroporto?"
+   },
+   "note": "Pergunte ao motorista antes de subir.",
+   "lessons": [
+    "nz-city-bus"
+   ]
+  },
+  {
+   "id": "how-do-i-get-to",
+   "theme": "transporte",
+   "en": "How do I get to …?",
+   "pt": "Como eu chego em …?",
+   "emoji": "🧭",
+   "say": "How do I get to the library?",
+   "example": {
+    "en": "How do I get to the library?",
+    "pt": "Como eu chego à biblioteca?"
+   },
+   "note": "Para pedir um caminho. Exemplo: \"How do I get to the library?\"",
+   "lessons": [
+    "nz-city-bus"
+   ]
+  },
+  {
+   "id": "is-it-far-from-here",
+   "theme": "transporte",
+   "en": "Is it far from here?",
+   "pt": "Fica longe daqui?",
+   "emoji": "📏",
+   "example": {
+    "en": "Is it far from here?",
+    "pt": "Fica longe daqui?"
+   },
+   "note": "Para saber se dá para ir a pé.",
+   "lessons": []
+  },
+  {
+   "id": "train",
+   "theme": "transporte",
+   "en": "train",
+   "pt": "trem",
+   "emoji": "🚆",
+   "example": {
+    "en": "The train is late.",
+    "pt": "O trem está atrasado."
+   },
+   "lessons": []
+  },
+  {
+   "id": "taxi",
+   "theme": "transporte",
+   "en": "taxi",
+   "pt": "táxi",
+   "emoji": "🚕",
+   "example": {
+    "en": "Can I get a taxi here?",
+    "pt": "Dá para pegar um táxi aqui?"
+   },
+   "lessons": [
+    "nz-checkin",
+    "nz-city-bus"
+   ]
+  },
+  {
+   "id": "map",
+   "theme": "transporte",
+   "en": "map",
+   "pt": "mapa",
+   "emoji": "🗺️",
+   "example": {
+    "en": "Do you have a map?",
+    "pt": "Você tem um mapa?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "help",
+   "theme": "transporte",
+   "en": "help",
+   "pt": "ajuda / ajudar",
+   "emoji": "🆘",
+   "example": {
+    "en": "Lunch is at noon. If you need help, come to my office.",
+    "pt": "O almoço é ao meio-dia. Se precisar de ajuda, venha à minha sala."
+   },
+   "lessons": [
+    "nz-l18",
+    "nz-l20",
+    "nz-l21",
+    "nz-l24",
+    "nz-l26",
+    "nz-l30",
+    "nz-host-dinner",
+    "nz-city-help"
+   ]
+  },
+  {
+   "id": "road",
+   "theme": "transporte",
+   "en": "road",
+   "pt": "rua / estrada",
+   "emoji": "📖",
+   "example": {
+    "en": "Across the road.",
+    "pt": "Do outro lado da rua."
+   },
+   "lessons": [
+    "nz-city-bus",
+    "nz-city-help"
+   ]
+  },
+  {
+   "id": "traffic-lights",
+   "theme": "transporte",
+   "en": "traffic lights",
+   "pt": "semáforo",
+   "emoji": "📖",
+   "example": {
+    "en": "Turn left at the traffic lights.",
+    "pt": "Vire à esquerda no semáforo."
+   },
+   "lessons": []
+  },
+  {
+   "id": "doctor",
+   "theme": "saude",
+   "en": "doctor",
+   "pt": "médico / médica",
+   "emoji": "🧑‍⚕️",
+   "example": {
+    "en": "I need to see a doctor.",
+    "pt": "Eu preciso ver um médico."
+   },
+   "lessons": [
+    "nz-city-help"
+   ]
+  },
+  {
+   "id": "nurse",
+   "theme": "saude",
+   "en": "nurse",
+   "pt": "enfermeiro / enfermeira",
+   "emoji": "🧑‍⚕️",
+   "example": {
+    "en": "Go to the school nurse.",
+    "pt": "Vá à enfermeira da escola."
+   },
+   "lessons": []
+  },
+  {
+   "id": "hospital",
+   "theme": "saude",
+   "en": "hospital",
+   "pt": "hospital",
+   "emoji": "🏥",
+   "example": {
+    "en": "The hospital is near here.",
+    "pt": "O hospital é perto daqui."
+   },
+   "lessons": [
+    "nz-school-classroom"
+   ]
+  },
+  {
+   "id": "pharmacy",
+   "theme": "saude",
+   "en": "pharmacy",
+   "pt": "farmácia",
+   "emoji": "💊",
+   "example": {
+    "en": "Is there a pharmacy nearby?",
+    "pt": "Tem uma farmácia por perto?"
+   },
+   "note": "Você também pode ouvir chemist para farmácia.",
+   "lessons": [
+    "nz-city-bus"
+   ]
+  },
+  {
+   "id": "medicine",
+   "theme": "saude",
+   "en": "medicine",
+   "pt": "remédio",
+   "emoji": "💊",
+   "example": {
+    "en": "I need my medicine.",
+    "pt": "Preciso do meu remédio."
+   },
+   "lessons": []
+  },
+  {
+   "id": "ambulance",
+   "theme": "saude",
+   "en": "ambulance",
+   "pt": "ambulância",
+   "emoji": "🚑",
+   "example": {
+    "en": "Call an ambulance!",
+    "pt": "Chame uma ambulância!"
+   },
+   "lessons": [
+    "nz-city-help"
+   ]
+  },
+  {
+   "id": "emergency",
+   "theme": "saude",
+   "en": "emergency",
+   "pt": "emergência",
+   "emoji": "🚨",
+   "example": {
+    "en": "It's an emergency!",
+    "pt": "É uma emergência!"
+   },
+   "lessons": [
+    "nz-city-help"
+   ]
+  },
+  {
+   "id": "sick",
+   "theme": "saude",
+   "en": "sick",
+   "pt": "doente / passando mal",
+   "emoji": "🤒",
+   "example": {
+    "en": "I'm sick today.",
+    "pt": "Estou doente hoje."
+   },
+   "lessons": [
+    "nz-city-help"
+   ]
+  },
+  {
+   "id": "hurt",
+   "theme": "saude",
+   "en": "hurt",
+   "pt": "machucado / machucada",
+   "emoji": "🤕",
+   "example": {
+    "en": "I'm hurt.",
+    "pt": "Eu estou machucado."
+   },
+   "lessons": [
+    "nz-city-help"
+   ]
+  },
+  {
+   "id": "headache",
+   "theme": "saude",
+   "en": "headache",
+   "pt": "dor de cabeça",
+   "emoji": "🤕",
+   "example": {
+    "en": "I have a headache.",
+    "pt": "Estou com dor de cabeça."
+   },
+   "lessons": [
+    "nz-city-help"
+   ]
+  },
+  {
+   "id": "fever",
+   "theme": "saude",
+   "en": "fever",
+   "pt": "febre",
+   "emoji": "🌡️",
+   "example": {
+    "en": "I have a fever.",
+    "pt": "Estou com febre."
+   },
+   "lessons": [
+    "nz-city-help"
+   ]
+  },
+  {
+   "id": "allergy",
+   "theme": "saude",
+   "en": "allergy",
+   "pt": "alergia",
+   "emoji": "🤧",
+   "example": {
+    "en": "I have an allergy.",
+    "pt": "Eu tenho uma alergia."
+   },
+   "lessons": []
+  },
+  {
+   "id": "tired",
+   "theme": "saude",
+   "en": "tired",
+   "pt": "cansado / cansada",
+   "emoji": "😴",
+   "example": {
+    "en": "I'm very tired.",
+    "pt": "Estou muito cansado."
+   },
+   "lessons": [
+    "nz-l22",
+    "nz-host-arrival"
+   ]
+  },
+  {
+   "id": "it-hurts-here",
+   "theme": "saude",
+   "en": "It hurts here.",
+   "pt": "Dói aqui.",
+   "emoji": "👆",
+   "example": {
+    "en": "It hurts here.",
+    "pt": "Dói aqui."
+   },
+   "note": "Aponte para o lugar que dói.",
+   "lessons": []
+  },
+  {
+   "id": "i-need-a-doctor",
+   "theme": "saude",
+   "en": "I need a doctor.",
+   "pt": "Eu preciso de um médico.",
+   "emoji": "🧑‍⚕️",
+   "example": {
+    "en": "I need a doctor.",
+    "pt": "Eu preciso de um médico."
+   },
+   "note": "Diga isso à família anfitriã ou na escola.",
+   "lessons": []
+  },
+  {
+   "id": "can-you-call-my-host-family",
+   "theme": "saude",
+   "en": "Can you call my host family?",
+   "pt": "Pode ligar para a minha família anfitriã?",
+   "emoji": "📱",
+   "example": {
+    "en": "Can you call my host family?",
+    "pt": "Pode ligar para a minha família anfitriã?"
+   },
+   "note": "Em uma emergência, peça para avisarem a família.",
+   "lessons": []
+  },
+  {
+   "id": "im-allergic-to",
+   "theme": "saude",
+   "en": "I'm allergic to …",
+   "pt": "Eu sou alérgico a …",
+   "emoji": "⚠️",
+   "say": "I'm allergic to peanuts.",
+   "example": {
+    "en": "I'm allergic to peanuts.",
+    "pt": "Sou alérgico(a) a amendoim."
+   },
+   "note": "Exemplo: \"I'm allergic to peanuts.\" Avise sempre sobre alergias.",
+   "lessons": []
+  },
+  {
+   "id": "please-help",
+   "theme": "saude",
+   "en": "Please help!",
+   "pt": "Por favor, ajudem!",
+   "emoji": "🆘",
+   "example": {
+    "en": "Please help!",
+    "pt": "Por favor, ajudem!"
+   },
+   "note": "Em perigo, grite bem alto.",
+   "lessons": []
+  },
+  {
+   "id": "pain",
+   "theme": "saude",
+   "en": "pain",
+   "pt": "dor",
+   "emoji": "😖",
+   "example": {
+    "en": "I have a pain here.",
+    "pt": "Estou com uma dor aqui."
+   },
+   "lessons": []
+  },
+  {
+   "id": "police",
+   "theme": "saude",
+   "en": "police",
+   "pt": "polícia",
+   "emoji": "👮",
+   "example": {
+    "en": "Call the police!",
+    "pt": "Chame a polícia!"
+   },
+   "note": "Na Nova Zelândia, ligue 111 em uma emergência. Peça police e diga onde você está.",
+   "lessons": []
+  },
+  {
+   "id": "call-111",
+   "theme": "saude",
+   "en": "Call 111!",
+   "pt": "Ligue para o 111!",
+   "emoji": "📞",
+   "say": "Call one one one!",
+   "example": {
+    "en": "Call one one one!",
+    "pt": "Ligue para o 111!"
+   },
+   "note": "111 é para emergências de polícia, bombeiros ou ambulância. Peça o serviço e diga onde você está.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "chemist",
+   "theme": "saude",
+   "en": "chemist",
+   "pt": "farmácia / farmacêutico(a)",
+   "emoji": "📖",
+   "example": {
+    "en": "Where is the chemist?",
+    "pt": "Onde fica a farmácia?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "gp",
+   "theme": "saude",
+   "en": "GP",
+   "pt": "clínico(a) geral / médico(a) de família",
+   "emoji": "📖",
+   "example": {
+    "en": "I need to see a GP.",
+    "pt": "Preciso consultar um clínico geral."
+   },
+   "lessons": []
+  },
+  {
+   "id": "sore-throat",
+   "theme": "saude",
+   "en": "sore throat",
+   "pt": "dor de garganta",
+   "emoji": "📖",
+   "example": {
+    "en": "I have a sore throat.",
+    "pt": "Estou com dor de garganta."
+   },
+   "lessons": [
+    "nz-city-help"
+   ]
+  },
+  {
+   "id": "earthquake",
+   "theme": "saude",
+   "en": "earthquake",
+   "pt": "terremoto",
+   "emoji": "📖",
+   "example": {
+    "en": "What do I do in an earthquake?",
+    "pt": "O que eu faço em um terremoto?"
+   },
+   "lessons": [
+    "nz-safety"
+   ]
+  },
+  {
+   "id": "drill",
+   "theme": "saude",
+   "en": "drill",
+   "pt": "simulado",
+   "emoji": "📖",
+   "example": {
+    "en": "We have an earthquake drill.",
+    "pt": "Temos um simulado de terremoto."
+   },
+   "note": "Aqui significa simulado. Em outros contextos pode ser furadeira ou exercício de treino.",
+   "lessons": [
+    "nz-safety"
+   ]
+  },
+  {
+   "id": "shaking",
+   "theme": "saude",
+   "en": "shaking",
+   "pt": "tremor",
+   "emoji": "📖",
+   "example": {
+    "en": "The shaking has stopped.",
+    "pt": "O tremor parou."
+   },
+   "lessons": [
+    "nz-safety"
+   ]
+  },
+  {
+   "id": "high-ground",
+   "theme": "saude",
+   "en": "high ground",
+   "pt": "terreno alto",
+   "emoji": "📖",
+   "example": {
+    "en": "Go to high ground.",
+    "pt": "Vá para um terreno alto."
+   },
+   "lessons": [
+    "nz-safety"
+   ]
+  },
+  {
+   "id": "warning",
+   "theme": "saude",
+   "en": "warning",
+   "pt": "alerta / aviso",
+   "emoji": "📖",
+   "example": {
+    "en": "Do not wait for a warning.",
+    "pt": "Não espere por um alerta."
+   },
+   "note": "Após tremor longo ou forte perto da costa: proteja-se durante o tremor e evacue assim que ele parar, sem esperar alerta oficial. Siga a orientação local.",
+   "lessons": [
+    "nz-safety"
+   ]
+  },
+  {
+   "id": "drop-cover-and-hold",
+   "theme": "saude",
+   "en": "Drop, cover and hold.",
+   "pt": "Abaixe-se, proteja-se e segure firme.",
+   "emoji": "📖",
+   "example": {
+    "en": "Drop, cover and hold.",
+    "pt": "Abaixe-se, proteja-se e segure firme."
+   },
+   "note": "Proteja a cabeça e o pescoço. Pratique a versão adequada ao seu corpo com a escola. Após o tremor, siga a orientação local.",
+   "lessons": [
+    "nz-safety"
+   ]
+  },
+  {
+   "id": "cash",
+   "theme": "dinheiro",
+   "en": "cash",
+   "pt": "dinheiro em espécie",
+   "emoji": "💵",
+   "example": {
+    "en": "Do you take cash?",
+    "pt": "Vocês aceitam dinheiro?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "credit-card",
+   "theme": "dinheiro",
+   "en": "credit card",
+   "pt": "cartão de crédito",
+   "emoji": "💳",
+   "example": {
+    "en": "Can I pay by credit card?",
+    "pt": "Posso pagar com cartão de crédito?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "receipt",
+   "theme": "dinheiro",
+   "en": "receipt",
+   "pt": "recibo",
+   "emoji": "🧾",
+   "example": {
+    "en": "Can I have a receipt, please?",
+    "pt": "Posso pegar o recibo, por favor?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "change",
+   "theme": "dinheiro",
+   "en": "change",
+   "pt": "troco",
+   "emoji": "🪙",
+   "example": {
+    "en": "Here is your change.",
+    "pt": "Aqui está o seu troco."
+   },
+   "lessons": []
+  },
+  {
+   "id": "tax",
+   "theme": "dinheiro",
+   "en": "tax",
+   "pt": "imposto",
+   "emoji": "🧮",
+   "example": {
+    "en": "Is GST included?",
+    "pt": "O GST está incluído?"
+   },
+   "note": "GST é um imposto sobre bens e serviços. Confira as condições da compra.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "tip",
+   "theme": "dinheiro",
+   "en": "tip",
+   "pt": "gorjeta",
+   "emoji": "🙂",
+   "example": {
+    "en": "Do I leave a tip?",
+    "pt": "Eu devo deixar gorjeta?"
+   },
+   "note": "Dar gorjeta não é uma obrigação geral na Nova Zelândia. Se tiver dúvida, pergunte à família anfitriã.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "store",
+   "theme": "dinheiro",
+   "en": "store",
+   "pt": "loja",
+   "emoji": "🏬",
+   "example": {
+    "en": "The store opens at nine.",
+    "pt": "A loja abre às nove."
+   },
+   "note": "Shop também é muito comum para loja.",
+   "lessons": []
+  },
+  {
+   "id": "bag",
+   "theme": "dinheiro",
+   "en": "bag",
+   "pt": "sacola / bolsa",
+   "emoji": "👜",
+   "example": {
+    "en": "Do you need a bag?",
+    "pt": "Você precisa de uma sacola?"
+   },
+   "lessons": [
+    "nz-l21",
+    "nz-baggage"
+   ]
+  },
+  {
+   "id": "how-much-is-this",
+   "theme": "dinheiro",
+   "en": "How much is this?",
+   "pt": "Quanto custa isto?",
+   "emoji": "🏷️",
+   "example": {
+    "en": "How much is this?",
+    "pt": "Quanto custa isto?"
+   },
+   "note": "A pergunta número um nas compras.",
+   "lessons": []
+  },
+  {
+   "id": "can-i-pay-by-card",
+   "theme": "dinheiro",
+   "en": "Can I pay by card?",
+   "pt": "Posso pagar com cartão?",
+   "emoji": "💳",
+   "example": {
+    "en": "Can I pay by card?",
+    "pt": "Posso pagar com cartão?"
+   },
+   "note": "Pergunte antes de pedir, se tiver dúvida.",
+   "lessons": []
+  },
+  {
+   "id": "im-just-looking-thanks",
+   "theme": "dinheiro",
+   "en": "I'm just looking, thanks.",
+   "pt": "Estou só olhando, obrigado.",
+   "emoji": "👀",
+   "example": {
+    "en": "I'm just looking, thanks.",
+    "pt": "Estou só olhando, obrigado."
+   },
+   "note": "Resposta para o vendedor que pergunta se você precisa de ajuda.",
+   "lessons": []
+  },
+  {
+   "id": "do-you-have-this-in-a-smaller-size",
+   "theme": "dinheiro",
+   "en": "Do you have this in a smaller size?",
+   "pt": "Tem este em um tamanho menor?",
+   "emoji": "👕",
+   "example": {
+    "en": "Do you have this in a smaller size?",
+    "pt": "Tem este em um tamanho menor?"
+   },
+   "note": "Na loja de roupas.",
+   "lessons": []
+  },
+  {
+   "id": "where-is-the-cash-register",
+   "theme": "dinheiro",
+   "en": "Where is the cash register?",
+   "pt": "Onde fica o caixa?",
+   "emoji": "🗺️",
+   "example": {
+    "en": "Where is the cash register?",
+    "pt": "Onde fica o caixa?"
+   },
+   "note": "Para achar o lugar de pagar.",
+   "lessons": []
+  },
+  {
+   "id": "price",
+   "theme": "dinheiro",
+   "en": "price",
+   "pt": "preço",
+   "emoji": "🏷️",
+   "example": {
+    "en": "What is the price?",
+    "pt": "Qual é o preço?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "cheap",
+   "theme": "dinheiro",
+   "en": "cheap",
+   "pt": "barato",
+   "emoji": "👍",
+   "example": {
+    "en": "This is cheap.",
+    "pt": "Isto é barato."
+   },
+   "lessons": []
+  },
+  {
+   "id": "expensive",
+   "theme": "dinheiro",
+   "en": "expensive",
+   "pt": "caro",
+   "emoji": "💎",
+   "example": {
+    "en": "It is too expensive.",
+    "pt": "É caro demais."
+   },
+   "lessons": []
+  },
+  {
+   "id": "sale",
+   "theme": "dinheiro",
+   "en": "sale",
+   "pt": "promoção",
+   "emoji": "🏷️",
+   "example": {
+    "en": "These shoes are on sale.",
+    "pt": "Estes sapatos estão em promoção."
+   },
+   "lessons": []
+  },
+  {
+   "id": "card",
+   "theme": "dinheiro",
+   "en": "card",
+   "pt": "cartão",
+   "emoji": "💳",
+   "example": {
+    "en": "Do you take card?",
+    "pt": "Vocês aceitam cartão?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "bank",
+   "theme": "dinheiro",
+   "en": "bank",
+   "pt": "banco",
+   "emoji": "🏦",
+   "example": {
+    "en": "The bank is on Main Street.",
+    "pt": "O banco fica na Main Street."
+   },
+   "lessons": []
+  },
+  {
+   "id": "gst",
+   "theme": "dinheiro",
+   "en": "GST",
+   "pt": "imposto sobre bens e serviços",
+   "emoji": "📖",
+   "example": {
+    "en": "Is GST included?",
+    "pt": "O GST está incluído?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "shop",
+   "theme": "dinheiro",
+   "en": "shop",
+   "pt": "loja",
+   "emoji": "📖",
+   "example": {
+    "en": "It's a small shop.",
+    "pt": "É uma lojinha."
+   },
+   "lessons": [
+    "nz-kiwi"
+   ]
+  },
+  {
+   "id": "eftpos",
+   "theme": "dinheiro",
+   "en": "EFTPOS",
+   "pt": "pagamento eletrônico com cartão / maquininha",
+   "emoji": "📖",
+   "example": {
+    "en": "Can I pay by EFTPOS?",
+    "pt": "Posso pagar por EFTPOS?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "jacket",
+   "theme": "clima",
+   "en": "jacket",
+   "pt": "casaco / jaqueta",
+   "emoji": "🧥",
+   "example": {
+    "en": "I need a warm jacket.",
+    "pt": "Preciso de uma jaqueta quente."
+   },
+   "lessons": [
+    "nz-l14",
+    "nz-videocall"
+   ]
+  },
+  {
+   "id": "cold",
+   "theme": "clima",
+   "en": "cold",
+   "pt": "frio",
+   "emoji": "🥶",
+   "example": {
+    "en": "It's cold today.",
+    "pt": "Está frio hoje."
+   },
+   "lessons": [
+    "nz-l14",
+    "nz-l15",
+    "nz-l23",
+    "nz-videocall",
+    "nz-city-help",
+    "nz-kiwi"
+   ]
+  },
+  {
+   "id": "freezing",
+   "theme": "clima",
+   "en": "freezing",
+   "pt": "congelando",
+   "emoji": "🧊",
+   "example": {
+    "en": "It's freezing outside!",
+    "pt": "Está congelando lá fora!"
+   },
+   "lessons": []
+  },
+  {
+   "id": "hot",
+   "theme": "clima",
+   "en": "hot",
+   "pt": "quente",
+   "emoji": "🥵",
+   "example": {
+    "en": "It's hot in summer.",
+    "pt": "Faz calor no verão."
+   },
+   "lessons": []
+  },
+  {
+   "id": "snow",
+   "theme": "clima",
+   "en": "snow",
+   "pt": "neve",
+   "emoji": "❄️",
+   "example": {
+    "en": "I love the snow.",
+    "pt": "Eu adoro a neve."
+   },
+   "lessons": []
+  },
+  {
+   "id": "rain",
+   "theme": "clima",
+   "en": "rain",
+   "pt": "chuva",
+   "emoji": "🌧️",
+   "example": {
+    "en": "It may rain today.",
+    "pt": "Pode chover hoje."
+   },
+   "lessons": [
+    "nz-l14"
+   ]
+  },
+  {
+   "id": "sunny",
+   "theme": "clima",
+   "en": "sunny",
+   "pt": "ensolarado",
+   "emoji": "☀️",
+   "example": {
+    "en": "It's sunny today.",
+    "pt": "Hoje está ensolarado."
+   },
+   "lessons": []
+  },
+  {
+   "id": "mittens",
+   "theme": "clima",
+   "en": "mittens",
+   "pt": "luvas com os dedos juntos e o polegar separado",
+   "emoji": "🧤",
+   "example": {
+    "en": "I need new mittens.",
+    "pt": "Preciso de luvas novas."
+   },
+   "lessons": []
+  },
+  {
+   "id": "parka",
+   "theme": "clima",
+   "en": "parka",
+   "pt": "casaco de inverno",
+   "emoji": "🧥",
+   "example": {
+    "en": "My parka is very warm.",
+    "pt": "Meu casaco de inverno é bem quente."
+   },
+   "lessons": []
+  },
+  {
+   "id": "sneakers",
+   "theme": "clima",
+   "en": "sneakers",
+   "pt": "tênis",
+   "emoji": "👟",
+   "example": {
+    "en": "I wear sneakers to class.",
+    "pt": "Eu uso tênis na aula."
+   },
+   "note": "Você também pode ouvir trainers ou sports shoes.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "umbrella",
+   "theme": "clima",
+   "en": "umbrella",
+   "pt": "guarda-chuva",
+   "emoji": "☂️",
+   "example": {
+    "en": "Take an umbrella.",
+    "pt": "Leve um guarda-chuva."
+   },
+   "lessons": []
+  },
+  {
+   "id": "weather",
+   "theme": "clima",
+   "en": "weather",
+   "pt": "clima / tempo",
+   "emoji": "🌦️",
+   "example": {
+    "en": "How is the weather today?",
+    "pt": "Como está o tempo hoje?"
+   },
+   "lessons": []
+  },
+  {
+   "id": "hat",
+   "theme": "clima",
+   "en": "hat",
+   "pt": "chapéu / gorro",
+   "emoji": "🧢",
+   "example": {
+    "en": "Wear a hat. It is cold.",
+    "pt": "Use um gorro. Está frio."
+   },
+   "lessons": []
+  },
+  {
+   "id": "gloves",
+   "theme": "clima",
+   "en": "gloves",
+   "pt": "luvas",
+   "emoji": "🧤",
+   "example": {
+    "en": "I need warm gloves.",
+    "pt": "Eu preciso de luvas quentes."
+   },
+   "lessons": []
+  },
+  {
+   "id": "boots",
+   "theme": "clima",
+   "en": "boots",
+   "pt": "botas",
+   "emoji": "🥾",
+   "example": {
+    "en": "Bring your boots.",
+    "pt": "Traga suas botas."
+   },
+   "lessons": []
+  },
+  {
+   "id": "beanie",
+   "theme": "clima",
+   "en": "beanie",
+   "pt": "gorro",
+   "emoji": "🧶",
+   "example": {
+    "en": "Take a beanie. It is cold.",
+    "pt": "Leve um gorro. Está frio."
+   },
+   "note": "Gorro de malha.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "sunscreen",
+   "theme": "clima",
+   "en": "sunscreen",
+   "pt": "protetor solar",
+   "emoji": "📖",
+   "example": {
+    "en": "I need sunscreen.",
+    "pt": "Preciso de protetor solar."
+   },
+   "lessons": []
+  },
+  {
+   "id": "toilet",
+   "theme": "local",
+   "en": "toilet",
+   "pt": "banheiro / vaso sanitário",
+   "emoji": "🚻",
+   "example": {
+    "en": "Where is the toilet?",
+    "pt": "Onde fica o banheiro?"
+   },
+   "note": "Também pode indicar o vaso sanitário; o contexto ajuda.",
+   "variant": true,
+   "lessons": [
+    "nz-l22",
+    "nz-l29",
+    "nz-host-arrival",
+    "nz-school-classroom"
+   ]
+  },
+  {
+   "id": "kia-ora",
+   "theme": "local",
+   "en": "kia ora",
+   "pt": "olá / oi (te reo Māori)",
+   "emoji": "👋",
+   "example": {
+    "en": "Kia ora, Bia!",
+    "pt": "Oi, Bia!"
+   },
+   "note": "Cumprimento em te reo Māori; validar pronúncia com falante competente.",
+   "variant": true,
+   "lessons": [
+    "nz-l01",
+    "nz-l11",
+    "nz-l26",
+    "nz-hello",
+    "nz-kiwi"
+   ]
+  },
+  {
+   "id": "dairy",
+   "theme": "local",
+   "en": "dairy",
+   "pt": "lojinha de conveniência / de esquina",
+   "emoji": "🏪",
+   "example": {
+    "en": "Do you want to go to the dairy?",
+    "pt": "Quer ir à lojinha de esquina?"
+   },
+   "note": "Na Nova Zelândia, dairy também pode ser uma lojinha. Em outros contextos, refere-se a laticínios.",
+   "variant": true,
+   "lessons": [
+    "nz-kiwi"
+   ]
+  },
+  {
+   "id": "jandals",
+   "theme": "local",
+   "en": "jandals",
+   "pt": "chinelos de dedo",
+   "emoji": "🩴",
+   "example": {
+    "en": "Jandals are flip-flops.",
+    "pt": "Jandals são chinelos de dedo."
+   },
+   "note": "Palavra local para flip-flops.",
+   "variant": true,
+   "lessons": [
+    "nz-kiwi"
+   ]
+  },
+  {
+   "id": "chilly-bin",
+   "theme": "local",
+   "en": "chilly bin",
+   "pt": "caixa térmica",
+   "emoji": "🧊",
+   "example": {
+    "en": "Don't forget the chilly bin!",
+    "pt": "Não esqueça a caixa térmica!"
+   },
+   "note": "Mantém alimentos e bebidas frios.",
+   "variant": true,
+   "lessons": [
+    "nz-kiwi"
+   ]
+  },
+  {
+   "id": "sweet-as",
+   "theme": "local",
+   "en": "sweet as",
+   "pt": "beleza / ótimo",
+   "emoji": "😎",
+   "example": {
+    "en": "Sweet as!",
+    "pt": "Beleza!"
+   },
+   "note": "Expressão informal. Não precisa completar depois de as.",
+   "variant": true,
+   "lessons": [
+    "nz-kiwi"
+   ]
+  },
+  {
+   "id": "yeah-nah",
+   "theme": "local",
+   "en": "yeah, nah",
+   "pt": "geralmente não / bem, não",
+   "emoji": "💬",
+   "example": {
+    "en": "Yeah, nah. No, thank you.",
+    "pt": "Bem, não. Não, obrigado(a)."
+   },
+   "note": "O sentido depende do contexto e da entonação. Confirme se não entender.",
+   "variant": true,
+   "lessons": [
+    "nz-kiwi"
+   ]
+  },
+  {
+   "id": "wh-nau",
+   "theme": "local",
+   "en": "whānau",
+   "pt": "família / família ampliada",
+   "emoji": "👨‍👩‍👧",
+   "example": {
+    "en": "Whānau means family.",
+    "pt": "Whānau significa família."
+   },
+   "note": "Te reo Māori: o conceito pode incluir família ampliada. Revisão cultural e de pronúncia pendente.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "kai",
+   "theme": "local",
+   "en": "kai",
+   "pt": "comida",
+   "emoji": "🍽️",
+   "example": {
+    "en": "Kai means food.",
+    "pt": "Kai significa comida."
+   },
+   "note": "Palavra em te reo Māori; validar pronúncia.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "kiwi",
+   "theme": "local",
+   "en": "kiwi",
+   "pt": "neozelandês / ave kiwi",
+   "emoji": "🥝",
+   "example": {
+    "en": "You sound like a kiwi!",
+    "pt": "Você fala como uma pessoa da Nova Zelândia!"
+   },
+   "note": "Pode indicar uma pessoa da Nova Zelândia ou a ave. A fruta normalmente é kiwifruit.",
+   "variant": true,
+   "lessons": [
+    "nz-kiwi"
+   ]
+  },
+  {
+   "id": "rugby",
+   "theme": "local",
+   "en": "rugby",
+   "pt": "rugby",
+   "emoji": "🏉",
+   "example": {
+    "en": "I play rugby.",
+    "pt": "Eu jogo rugby."
+   },
+   "note": "Esporte popular na Nova Zelândia.",
+   "variant": true,
+   "lessons": [
+    "nz-school-friends",
+    "nz-kiwi"
+   ]
+  },
+  {
+   "id": "cricket",
+   "theme": "local",
+   "en": "cricket",
+   "pt": "críquete",
+   "emoji": "🏏",
+   "example": {
+    "en": "I play cricket.",
+    "pt": "Eu jogo críquete."
+   },
+   "note": "Você pode encontrar nas escolas, especialmente no verão.",
+   "variant": true,
+   "lessons": [
+    "nz-school-friends"
+   ]
+  },
+  {
+   "id": "netball",
+   "theme": "local",
+   "en": "netball",
+   "pt": "netball",
+   "emoji": "🏐",
+   "example": {
+    "en": "Do you play netball?",
+    "pt": "Você joga netball?"
+   },
+   "note": "Esporte de equipe popular na Nova Zelândia.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "tramping",
+   "theme": "local",
+   "en": "tramping",
+   "pt": "caminhada em trilhas",
+   "emoji": "🥾",
+   "example": {
+    "en": "We are going tramping.",
+    "pt": "Vamos fazer uma caminhada em trilhas."
+   },
+   "note": "Confira previsão, condições e orientação local.",
+   "variant": true,
+   "lessons": []
+  },
+  {
+   "id": "new-zealand-flag",
+   "theme": "local",
+   "en": "New Zealand flag",
+   "pt": "bandeira da Nova Zelândia",
+   "emoji": "🇳🇿",
+   "example": {
+    "en": "This is the New Zealand flag.",
+    "pt": "Esta é a bandeira da Nova Zelândia."
+   },
+   "note": "Não confunda com a bandeira australiana.",
+   "variant": true,
+   "lessons": []
+  }
+ ]
+}

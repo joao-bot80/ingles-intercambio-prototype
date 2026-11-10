@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l07",
+  "title": "Minha idade, não minha série",
+  "scenario": "Bia responde a uma colega canadense quantos anos tem, sem confundir idade com a série (Grade).",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Minha idade, não minha série",
+      "lines": [
+        {
+          "speaker": "Maya",
+          "en": "How old are you, Bia?",
+          "pt": "Quantos anos você tem, Bia?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm fifteen.",
+          "pt": "Eu tenho quinze anos."
+        },
+        {
+          "speaker": "Maya",
+          "en": "Me too! I'm fifteen. And Leo?",
+          "pt": "Eu também! Eu tenho quinze. E o Leo?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "He's sixteen.",
+          "pt": "Ele tem dezesseis."
+        },
+        {
+          "speaker": "Maya",
+          "en": "My brother is twelve.",
+          "pt": "O meu irmão tem doze."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Eleven, twelve, thirteen... twenty!",
+          "pt": "Onze, doze, treze... vinte!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "How old are you?",
+          "pt": "Quantos anos você tem?",
+          "emoji": "🎂"
+        },
+        {
+          "en": "I'm fifteen.",
+          "pt": "Eu tenho quinze anos.",
+          "emoji": "1️⃣5️⃣"
+        },
+        {
+          "en": "eleven, twelve, thirteen, fourteen",
+          "pt": "onze, doze, treze, catorze",
+          "emoji": "🔢"
+        },
+        {
+          "en": "sixteen, seventeen, eighteen, nineteen",
+          "pt": "dezesseis, dezessete, dezoito, dezenove",
+          "emoji": "🔢"
+        },
+        {
+          "en": "twenty",
+          "pt": "vinte",
+          "emoji": "2️⃣0️⃣"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"How old are you, Bia?\"?",
+      "lang": "pt",
+      "options": [
+        "Quantos anos você tem, Bia?",
+        "Ele tem dezesseis.",
+        "O meu irmão tem doze."
+      ],
+      "correct": 0,
+      "explanation": "\"How old are you?\" = Quantos anos você tem? Literalmente: \"quão velho você é?\""
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"O meu irmão tem doze.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "My brother is twelve.",
+        "Me too! I'm fifteen. And Leo?",
+        "He's sixteen."
+      ],
+      "correct": 0,
+      "explanation": "Twelve = 12. Cuidado: twelve (12) e twenty (20) são diferentes."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Quantos anos você tem, Bia?",
+      "answer": [
+        "How",
+        "old",
+        "are",
+        "you,",
+        "Bia?"
+      ],
+      "distractors": [
+        "too",
+        "and"
+      ],
+      "explanation": "\"How old are you?\" = Quantos anos você tem? Literalmente: \"quão velho você é?\""
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "I'm fifteen.",
+      "lang": "pt",
+      "options": [
+        "Ele tem dezesseis.",
+        "Eu tenho quinze anos.",
+        "O meu irmão tem doze."
+      ],
+      "correct": 1,
+      "explanation": "Idade em inglês usa \"to be\": I'm fifteen. Nunca \"I have fifteen\"."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Maya",
+          "en": "Me too! I'm fifteen. And Leo?",
+          "pt": "Eu também! Eu tenho quinze. E o Leo?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Ele tem dezesseis.",
+      "options": [
+        "I'm fifteen.",
+        "My brother is twelve.",
+        "He's sixteen."
+      ],
+      "correct": 2,
+      "explanation": "\"He's sixteen\" = ele tem dezesseis. He's = he is."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Teen ou ty?",
+      "questions": [
+        {
+          "english": "How old are you, Bia?",
+          "options": [
+            "O meu irmão tem doze.",
+            "Onze, doze, treze... vinte!",
+            "Quantos anos você tem, Bia?"
+          ],
+          "correct": 2,
+          "joke": "\"How old are you?\" = Quantos anos você tem? Literalmente: \"quão velho você é?\""
+        },
+        {
+          "english": "I'm fifteen.",
+          "options": [
+            "Quantos anos você tem, Bia?",
+            "Eu tenho quinze anos.",
+            "Ele tem dezesseis."
+          ],
+          "correct": 1,
+          "joke": "Idade em inglês usa \"to be\": I'm fifteen. Nunca \"I have fifteen\"."
+        },
+        {
+          "english": "He's sixteen.",
+          "options": [
+            "Quantos anos você tem, Bia?",
+            "Eu tenho quinze anos.",
+            "Ele tem dezesseis."
+          ],
+          "correct": 2,
+          "joke": "\"He's sixteen\" = ele tem dezesseis. He's = he is."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Primeiros passos · Canadá",
+      "items": [
+        {
+          "emoji": "🎂",
+          "title": "Idade com \"to be\"",
+          "en": "I'm fifteen years old.",
+          "pt": "Para falar a idade, use \"I'm fifteen\" ou \"I'm fifteen years old\". As duas formas significam \"Eu tenho quinze anos\". Em inglês, a idade usa o verbo \"to be\", não \"have\"."
+        },
+        {
+          "emoji": "🏫",
+          "title": "High school canadense",
+          "en": "Your first class is math.",
+          "pt": "No Canadá, a high school vai em geral do Grade 9 ao Grade 12 (em Quebec é diferente). Alunos de 15 anos costumam estar no Grade 10. A escola diz em qual turma você vai ficar."
+        }
+      ]
+    }
+  ]
+}

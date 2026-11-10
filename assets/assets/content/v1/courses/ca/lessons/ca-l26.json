@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l26",
+  "title": "Na secretaria com Ms. Lee",
+  "scenario": "Leo chega à high school canadense e encontra Ms. Lee, a counsellor.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Na secretaria com Ms. Lee",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Hello. I'm a new student. My name is Leo.",
+          "pt": "Olá. Eu sou um aluno novo. Meu nome é Leo."
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "Welcome, Leo! I'm Ms. Lee, the school counsellor.",
+          "pt": "Bem-vindo, Leo! Eu sou a Ms. Lee, a counsellor da escola."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Nice to meet you. Where is the school office?",
+          "pt": "Prazer. Onde fica a secretaria da escola?"
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "This is the school office.",
+          "pt": "Esta é a secretaria da escola."
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "If you need help, come to my office.",
+          "pt": "Se você precisar de ajuda, venha à minha sala."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thank you. I need help with my classes.",
+          "pt": "Obrigado. Eu preciso de ajuda com as minhas aulas."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "new student",
+          "pt": "aluno novo / aluna nova",
+          "emoji": "🆕"
+        },
+        {
+          "en": "counsellor",
+          "pt": "orientador(a) escolar",
+          "emoji": "🧑‍💼"
+        },
+        {
+          "en": "school office",
+          "pt": "secretaria da escola",
+          "emoji": "🏢"
+        },
+        {
+          "en": "I need help.",
+          "pt": "Eu preciso de ajuda.",
+          "emoji": "🆘"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Hello. I'm a new student. My name is Leo.\"?",
+      "lang": "pt",
+      "options": [
+        "Esta é a secretaria da escola.",
+        "Olá. Eu sou um aluno novo. Meu nome é Leo.",
+        "Se você precisar de ajuda, venha à minha sala."
+      ],
+      "correct": 1,
+      "explanation": "\"I'm a new student\" = eu sou um aluno novo / uma aluna nova."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Prazer. Onde fica a secretaria da escola?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Nice to meet you. Where is the school office?",
+        "Hello. I'm a new student. My name is Leo.",
+        "Welcome, Leo! I'm Ms. Lee, the school counsellor."
+      ],
+      "correct": 0,
+      "explanation": "\"School office\" = secretaria."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Olá. Eu sou um aluno novo. Meu nome é Leo.",
+      "answer": [
+        "Hello.",
+        "I'm",
+        "a",
+        "new",
+        "student.",
+        "My",
+        "name",
+        "is",
+        "Leo."
+      ],
+      "distractors": [
+        "the",
+        "school"
+      ],
+      "explanation": "\"I'm a new student\" = eu sou um aluno novo / uma aluna nova."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "If you need help, come to my office.",
+      "lang": "pt",
+      "options": [
+        "Olá. Eu sou um aluno novo. Meu nome é Leo.",
+        "Bem-vindo, Leo! Eu sou a Ms. Lee, a counsellor da escola.",
+        "Se você precisar de ajuda, venha à minha sala."
+      ],
+      "correct": 2,
+      "explanation": "\"If you need help, come to my office\" = se precisar de ajuda, venha à minha sala."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ms. Lee",
+          "en": "If you need help, come to my office.",
+          "pt": "Se você precisar de ajuda, venha à minha sala."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Obrigado. Eu preciso de ajuda com as minhas aulas.",
+      "options": [
+        "This is the school office.",
+        "Hello. I'm a new student. My name is Leo.",
+        "Thank you. I need help with my classes."
+      ],
+      "correct": 2,
+      "explanation": "\"I need help with...\" = eu preciso de ajuda com..."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O primeiro dia",
+      "questions": [
+        {
+          "english": "Hello. I'm a new student. My name is Leo.",
+          "options": [
+            "Olá. Eu sou um aluno novo. Meu nome é Leo.",
+            "Se você precisar de ajuda, venha à minha sala.",
+            "Obrigado. Eu preciso de ajuda com as minhas aulas."
+          ],
+          "correct": 0,
+          "joke": "\"I'm a new student\" = eu sou um aluno novo / uma aluna nova."
+        },
+        {
+          "english": "If you need help, come to my office.",
+          "options": [
+            "Bem-vindo, Leo! Eu sou a Ms. Lee, a counsellor da escola.",
+            "Se você precisar de ajuda, venha à minha sala.",
+            "Prazer. Onde fica a secretaria da escola?"
+          ],
+          "correct": 1,
+          "joke": "\"If you need help, come to my office\" = se precisar de ajuda, venha à minha sala."
+        },
+        {
+          "english": "Thank you. I need help with my classes.",
+          "options": [
+            "Bem-vindo, Leo! Eu sou a Ms. Lee, a counsellor da escola.",
+            "Prazer. Onde fica a secretaria da escola?",
+            "Obrigado. Eu preciso de ajuda com as minhas aulas."
+          ],
+          "correct": 2,
+          "joke": "\"I need help with...\" = eu preciso de ajuda com..."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Canadá",
+      "items": [
+        {
+          "emoji": "🧑‍💼",
+          "title": "Counsellor",
+          "en": "If you need help, come to my office.",
+          "pt": "O counsellor é o seu ponto de apoio na escola: horário, troca de matéria, dificuldades e até saudade de casa. Procure sem vergonha."
+        }
+      ]
+    }
+  ]
+}

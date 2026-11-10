@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l12",
+  "title": "Documentos perto de mim",
+  "scenario": "Sam ajuda Leo a separar o passaporte e a carta da escola para o embarque.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Documentos perto de mim",
+      "lines": [
+        {
+          "speaker": "Sam",
+          "en": "Leo, do you have your passport?",
+          "pt": "Leo, você está com o seu passaporte?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes, I do. It's here.",
+          "pt": "Sim, estou. Está aqui."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Do you have your school letter?",
+          "pt": "Você está com a carta da escola?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "No... wait. Yes! It's in my backpack.",
+          "pt": "Não... espera. Sim! Está na minha mochila."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Good. Keep your documents in your backpack.",
+          "pt": "Ótimo. Guarde os seus documentos na mochila."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Okay, Sam.",
+          "pt": "Ok, Sam."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "passport",
+          "pt": "passaporte",
+          "emoji": "🛂"
+        },
+        {
+          "en": "school letter",
+          "pt": "carta da escola",
+          "emoji": "✉️"
+        },
+        {
+          "en": "backpack",
+          "pt": "mochila",
+          "emoji": "🎒"
+        },
+        {
+          "en": "documents",
+          "pt": "documentos",
+          "emoji": "📄"
+        },
+        {
+          "en": "here",
+          "pt": "aqui",
+          "emoji": "📍"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Leo, do you have your passport?\"?",
+      "lang": "pt",
+      "options": [
+        "Ótimo. Guarde os seus documentos na mochila.",
+        "Leo, você está com o seu passaporte?",
+        "Ok, Sam."
+      ],
+      "correct": 1,
+      "explanation": "\"Do you have your passport?\" = Você está com o seu passaporte?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Sim, estou. Está aqui.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Good. Keep your documents in your backpack.",
+        "Okay, Sam.",
+        "Yes, I do. It's here."
+      ],
+      "correct": 2,
+      "explanation": "\"Yes, I do\" = Sim, estou / tenho."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Não... espera. Sim! Está na minha mochila.",
+      "answer": [
+        "No...",
+        "wait.",
+        "Yes!",
+        "It's",
+        "in",
+        "my",
+        "backpack."
+      ],
+      "distractors": [
+        "your",
+        "passport"
+      ],
+      "explanation": "\"It's in my backpack\" = Está na minha mochila."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "No... wait. Yes! It's in my backpack.",
+      "lang": "pt",
+      "options": [
+        "Leo, você está com o seu passaporte?",
+        "Não... espera. Sim! Está na minha mochila.",
+        "Sim, estou. Está aqui."
+      ],
+      "correct": 1,
+      "explanation": "\"It's in my backpack\" = Está na minha mochila."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sam",
+          "en": "Leo, do you have your passport?",
+          "pt": "Leo, você está com o seu passaporte?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Sim, estou. Está aqui.",
+      "options": [
+        "Yes, I do. It's here.",
+        "Okay, Sam.",
+        "Do you have your school letter?"
+      ],
+      "correct": 0,
+      "explanation": "\"Yes, I do\" = Sim, estou / tenho."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A mochila do Leo",
+      "questions": [
+        {
+          "english": "Leo, do you have your passport?",
+          "options": [
+            "Não... espera. Sim! Está na minha mochila.",
+            "Leo, você está com o seu passaporte?",
+            "Ótimo. Guarde os seus documentos na mochila."
+          ],
+          "correct": 1,
+          "joke": "\"Do you have your passport?\" = Você está com o seu passaporte?"
+        },
+        {
+          "english": "No... wait. Yes! It's in my backpack.",
+          "options": [
+            "Não... espera. Sim! Está na minha mochila.",
+            "Ok, Sam.",
+            "Leo, você está com o seu passaporte?"
+          ],
+          "correct": 0,
+          "joke": "\"It's in my backpack\" = Está na minha mochila."
+        },
+        {
+          "english": "Good. Keep your documents in your backpack.",
+          "options": [
+            "Ótimo. Guarde os seus documentos na mochila.",
+            "Leo, você está com o seu passaporte?",
+            "Sim, estou. Está aqui."
+          ],
+          "correct": 0,
+          "joke": "\"Keep\" = guardar, manter."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Antes do embarque · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🛂",
+          "title": "Documentos para a Nova Zelândia",
+          "en": "Passport, school letter",
+          "pt": "Passaporte, carta da escola e os documentos de entrada SEMPRE na mochila, nunca na mala despachada. O que levar depende do seu visto: siga a orientação da sua agência e o site oficial do governo (immigration.govt.nz)."
+        }
+      ]
+    }
+  ]
+}

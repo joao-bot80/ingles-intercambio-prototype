@@ -14,7 +14,7 @@
   },
   "variant": "en-NZ",
   "accent": "nz",
-  "contentVersion": "2026.10.28-1",
+  "contentVersion": "2026.11.10-c60",
   "cast": {
     "Ms. Clarke": {
       "emoji": "👩🏽‍💼",
@@ -45,9 +45,134 @@
       "emoji": "🧑🏻",
       "gender": "M",
       "role": "classmate"
+    },
+    "Cashier": {
+      "emoji": "🧑🏽‍🍳",
+      "gender": "F",
+      "role": "other"
     }
   },
   "lessons": [
+    {
+      "id": "nz-l01",
+      "title": "Hello, Sam!"
+    },
+    {
+      "id": "nz-l02",
+      "title": "Eu sou Leo; esta é Bia"
+    },
+    {
+      "id": "nz-l03",
+      "title": "Do Brasil para a Nova Zelândia"
+    },
+    {
+      "id": "nz-l04",
+      "title": "Inglês devagar, por favor"
+    },
+    {
+      "id": "nz-l05",
+      "title": "Missão: conhecer o grupo"
+    },
+    {
+      "id": "nz-l06",
+      "title": "Contar a bagagem do grupo"
+    },
+    {
+      "id": "nz-l07",
+      "title": "Tenho quinze anos"
+    },
+    {
+      "id": "nz-l08",
+      "title": "Meu nome no passaporte"
+    },
+    {
+      "id": "nz-l09",
+      "title": "Celular e horário da chamada"
+    },
+    {
+      "id": "nz-l10",
+      "title": "Missão: os dados estão certos?"
+    },
+    {
+      "id": "nz-l11",
+      "title": "Jo, você está me ouvindo?"
+    },
+    {
+      "id": "nz-l12",
+      "title": "Documentos perto de mim"
+    },
+    {
+      "id": "nz-l13",
+      "title": "Qual é o nosso ponto de encontro?"
+    },
+    {
+      "id": "nz-l14",
+      "title": "O que vai na mala para Auckland?"
+    },
+    {
+      "id": "nz-l15",
+      "title": "Missão: chamada e mochila"
+    },
+    {
+      "id": "nz-l16",
+      "title": "Meu assento no voo"
+    },
+    {
+      "id": "nz-l17",
+      "title": "Conexão: painel primeiro"
+    },
+    {
+      "id": "nz-l18",
+      "title": "Este voo vai à Nova Zelândia?"
+    },
+    {
+      "id": "nz-l19",
+      "title": "Estudar e ficar com uma host family"
+    },
+    {
+      "id": "nz-l20",
+      "title": "Missão: chegada e declaração"
+    },
+    {
+      "id": "nz-l21",
+      "title": "Minha mala e o balcão certo"
+    },
+    {
+      "id": "nz-l22",
+      "title": "A casa de Jo, Mark e Ruby"
+    },
+    {
+      "id": "nz-l23",
+      "title": "Nossa rotina, nosso combinado"
+    },
+    {
+      "id": "nz-l24",
+      "title": "Um pedido à mesa de Jo e Mark"
+    },
+    {
+      "id": "nz-l25",
+      "title": "Missão: o primeiro jantar com Jo"
+    },
+    {
+      "id": "nz-l26",
+      "title": "Na school office com Ms. Clarke"
+    },
+    {
+      "id": "nz-l27",
+      "title": "Timetable, maths e Year"
+    },
+    {
+      "id": "nz-l28",
+      "title": "Uniforme e turma-base"
+    },
+    {
+      "id": "nz-l29",
+      "title": "Interval e minha lunch box"
+    },
+    {
+      "id": "nz-l30",
+      "title": "Missão: a primeira manhã kiwi"
+    },
     {
       "id": "nz-hello",
       "title": "Oi! Eu vou para a Nova Zelândia"
@@ -123,24 +248,42 @@
   ],
   "units": [
     {
-      "id": "nz-intro",
-      "title": "Primeiros passos",
-      "subtitle": "Apresentar-se, soletrar o nome, idade e telefone",
+      "id": "nz-u01",
+      "title": "1. Primeiras falas para a NZ",
+      "subtitle": "Cumprimentar, dizer nome e origem, pedir repetição",
       "emoji": "👋",
       "lessons": [
-        "nz-hello",
-        "nz-spelling",
-        "nz-numbers"
+        "nz-l01",
+        "nz-l02",
+        "nz-l03",
+        "nz-l04",
+        "nz-l05"
       ]
     },
     {
-      "id": "nz-before",
-      "title": "Antes do embarque",
-      "subtitle": "Família anfitriã, documentos e grupo",
+      "id": "nz-u02",
+      "title": "2. Nome, idade e horário da chamada",
+      "subtitle": "Números, idade, soletrar e telefone",
+      "emoji": "🔢",
+      "lessons": [
+        "nz-l06",
+        "nz-l07",
+        "nz-l08",
+        "nz-l09",
+        "nz-l10"
+      ]
+    },
+    {
+      "id": "nz-u03",
+      "title": "3. Preparar a viagem à Nova Zelândia",
+      "subtitle": "Chamada com Jo, documentos, grupo e chuva",
       "emoji": "🧳",
       "lessons": [
-        "nz-videocall",
-        "nz-backpack"
+        "nz-l11",
+        "nz-l12",
+        "nz-l13",
+        "nz-l14",
+        "nz-l15"
       ],
       "checklist": {
         "id": "nz-checklist",
@@ -163,8 +306,8 @@
           {
             "title": "🗣️ Inglês antes de embarcar",
             "items": [
-              "Concluir a unidade Primeiros passos",
-              "Concluir a unidade Aeroporto e imigração na Nova Zelândia",
+              "Concluir as unidades 1 e 2 (Primeiras falas; Nome, idade e horário)",
+              "Concluir a unidade 4 (Voo, chegada e declaração)",
               "Saber soletrar o nome do passaporte em inglês (Z se diz \"zed\")",
               "Treinar em voz alta as respostas da imigração"
             ]
@@ -193,57 +336,70 @@
       }
     },
     {
-      "id": "nz-airport",
-      "title": "Aeroporto e imigração na Nova Zelândia",
-      "subtitle": "Conexão, fronteira e bagagem",
+      "id": "nz-u04",
+      "title": "4. Voo, chegada e declaração",
+      "subtitle": "Conexão, estudo, hospedagem e declaração",
       "emoji": "✈️",
       "lessons": [
-        "nz-checkin",
-        "nz-immigration",
-        "nz-baggage"
+        "nz-l16",
+        "nz-l17",
+        "nz-l18",
+        "nz-l19",
+        "nz-l20"
       ]
     },
     {
-      "id": "nz-home",
-      "title": "Casa de família na Nova Zelândia",
-      "subtitle": "Chegada, regras da casa e jantar",
+      "id": "nz-u05",
+      "title": "5. Minha casa com Jo e Mark",
+      "subtitle": "Bagagem, toilet, rotina, aquecedor e jantar",
       "emoji": "🏠",
       "lessons": [
-        "nz-host-arrival",
-        "nz-host-rules",
-        "nz-host-dinner"
+        "nz-l21",
+        "nz-l22",
+        "nz-l23",
+        "nz-l24",
+        "nz-l25"
       ]
     },
     {
-      "id": "nz-school",
-      "title": "High school na Nova Zelândia",
-      "subtitle": "Uniforme, turma-base, sala de aula e amigos",
+      "id": "nz-u06",
+      "title": "6. Entrar na escola neozelandesa",
+      "subtitle": "School office, timetable, form class e interval",
       "emoji": "🏫",
       "lessons": [
+        "nz-l26",
+        "nz-l27",
+        "nz-l28",
+        "nz-l29",
+        "nz-l30"
+      ]
+    },
+    {
+      "id": "nz-legacy",
+      "title": "Versão anterior (em revisão)",
+      "subtitle": "As 18 lições antigas, até as novas unidades ficarem prontas",
+      "emoji": "🗂️",
+      "lessons": [
+        "nz-hello",
+        "nz-spelling",
+        "nz-numbers",
+        "nz-videocall",
+        "nz-backpack",
+        "nz-checkin",
+        "nz-immigration",
+        "nz-baggage",
+        "nz-host-arrival",
+        "nz-host-rules",
+        "nz-host-dinner",
         "nz-school-first-day",
         "nz-school-classroom",
-        "nz-school-friends"
-      ]
-    },
-    {
-      "id": "nz-city",
-      "title": "Cidade e emergência na Nova Zelândia",
-      "subtitle": "Ônibus, direções, farmácia e 111",
-      "emoji": "🚌",
-      "lessons": [
+        "nz-school-friends",
         "nz-city-bus",
-        "nz-city-help"
-      ]
-    },
-    {
-      "id": "nz-country",
-      "title": "Nova Zelândia: o dia a dia",
-      "subtitle": "Jeito kiwi, terremotos e natureza",
-      "emoji": "🥝",
-      "lessons": [
+        "nz-city-help",
         "nz-kiwi",
         "nz-safety"
       ]
     }
-  ]
+  ],
+  "curriculum": "c60"
 }

@@ -36,7 +36,7 @@
         {
           "speaker": "Jo",
           "en": "Please be home by nine on school nights.",
-          "pt": "Por favor, esteja em casa até as nove nos dias de aula."
+          "pt": "Por favor, esteja em casa até as nove nas noites em que há aula no dia seguinte."
         },
         {
           "speaker": "Bia",
@@ -133,7 +133,7 @@
         {
           "speaker": "Jo",
           "en": "Please be home by nine on school nights.",
-          "pt": "Por favor, esteja em casa até as nove nos dias de aula."
+          "pt": "Por favor, esteja em casa até as nove nas noites em que há aula no dia seguinte."
         }
       ],
       "speaker": "Bia",

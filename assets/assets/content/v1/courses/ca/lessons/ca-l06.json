@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l06",
+  "title": "Um, dois, três: contar sem correr",
+  "scenario": "Leo conta as mochilas e as fichas do grupo Canadá com Sam.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Um, dois, três: contar sem correr",
+      "lines": [
+        {
+          "speaker": "Sam",
+          "en": "Let's count the bags. One, two, three.",
+          "pt": "Vamos contar as malas. Um, dois, três."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Four, five, six.",
+          "pt": "Quatro, cinco, seis."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Seven, eight, nine, ten. Ten bags!",
+          "pt": "Sete, oito, nove, dez. Dez malas!"
+        },
+        {
+          "speaker": "Leo",
+          "en": "One bag is blue.",
+          "pt": "Uma mala é azul."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Yes. And two bags are red.",
+          "pt": "Sim. E duas malas são vermelhas."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Zero bags are green!",
+          "pt": "Nenhuma mala é verde!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "one, two, three",
+          "pt": "um, dois, três",
+          "emoji": "1️⃣"
+        },
+        {
+          "en": "four, five, six",
+          "pt": "quatro, cinco, seis",
+          "emoji": "4️⃣"
+        },
+        {
+          "en": "seven, eight, nine, ten",
+          "pt": "sete, oito, nove, dez",
+          "emoji": "🔟"
+        },
+        {
+          "en": "zero",
+          "pt": "zero",
+          "emoji": "0️⃣"
+        },
+        {
+          "en": "bag",
+          "pt": "mala / bolsa",
+          "emoji": "🧳"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"One bag is blue.\"?",
+      "lang": "pt",
+      "options": [
+        "Quatro, cinco, seis.",
+        "Sete, oito, nove, dez. Dez malas!",
+        "Uma mala é azul."
+      ],
+      "correct": 2,
+      "explanation": "\"One bag\" = uma mala. Com mais de uma: \"two bags\" (com s)."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Vamos contar as malas. Um, dois, três.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Zero bags are green!",
+        "Let's count the bags. One, two, three.",
+        "Four, five, six."
+      ],
+      "correct": 1,
+      "explanation": "\"Let's count\" = vamos contar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Uma mala é azul.",
+      "answer": [
+        "One",
+        "bag",
+        "is",
+        "blue."
+      ],
+      "distractors": [
+        "three",
+        "four"
+      ],
+      "explanation": "\"One bag\" = uma mala. Com mais de uma: \"two bags\" (com s)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Four, five, six.",
+      "lang": "pt",
+      "options": [
+        "Uma mala é azul.",
+        "Quatro, cinco, seis.",
+        "Sim. E duas malas são vermelhas."
+      ],
+      "correct": 1,
+      "explanation": "Four = 4, five = 5, six = 6."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sam",
+          "en": "Seven, eight, nine, ten. Ten bags!",
+          "pt": "Sete, oito, nove, dez. Dez malas!"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Uma mala é azul.",
+      "options": [
+        "Let's count the bags. One, two, three.",
+        "One bag is blue.",
+        "Four, five, six."
+      ],
+      "correct": 1,
+      "explanation": "\"One bag\" = uma mala. Com mais de uma: \"two bags\" (com s)."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A contagem das malas",
+      "questions": [
+        {
+          "english": "One bag is blue.",
+          "options": [
+            "Sim. E duas malas são vermelhas.",
+            "Uma mala é azul.",
+            "Nenhuma mala é verde!"
+          ],
+          "correct": 1,
+          "joke": "\"One bag\" = uma mala. Com mais de uma: \"two bags\" (com s)."
+        },
+        {
+          "english": "Four, five, six.",
+          "options": [
+            "Quatro, cinco, seis.",
+            "Vamos contar as malas. Um, dois, três.",
+            "Sete, oito, nove, dez. Dez malas!"
+          ],
+          "correct": 0,
+          "joke": "Four = 4, five = 5, six = 6."
+        },
+        {
+          "english": "Yes. And two bags are red.",
+          "options": [
+            "Quatro, cinco, seis.",
+            "Sete, oito, nove, dez. Dez malas!",
+            "Sim. E duas malas são vermelhas."
+          ],
+          "correct": 2,
+          "joke": "\"Two bags\" = duas malas: no plural, o -s no final."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Primeiros passos · Canadá",
+      "items": [
+        {
+          "emoji": "📱",
+          "title": "Telefone canadense",
+          "en": "Four, one, six...",
+          "pt": "No Canadá, o número de telefone tem 10 dígitos: os três primeiros são o código da região. Ao ditar, muita gente fala \"oh\" no lugar de zero. Celular é \"cell phone\" ou só \"cell\"."
+        }
+      ]
+    }
+  ]
+}

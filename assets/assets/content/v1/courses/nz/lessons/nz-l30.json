@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l30",
+  "title": "Missão: a primeira manhã kiwi",
+  "scenario": "Leo passa pela school office, consulta o timetable e encontra a form class e o intervalo.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: a primeira manhã kiwi",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Hello. I'm a new student.",
+          "pt": "Olá. Sou um aluno novo."
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Welcome! Here is your timetable.",
+          "pt": "Bem-vindo! Aqui está o seu horário."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thank you. Where is my form class?",
+          "pt": "Obrigado. Onde fica a minha turma-base?"
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Upstairs, room nine.",
+          "pt": "Lá em cima, sala nove."
+        },
+        {
+          "speaker": "Leo",
+          "en": "What time is interval?",
+          "pt": "Que horas é o intervalo?"
+        },
+        {
+          "speaker": "Ben",
+          "en": "At ten forty. Come with me!",
+          "pt": "Às dez e quarenta. Vem comigo!"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Sweet, thanks Ben!",
+          "pt": "Beleza, valeu Ben!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "timetable",
+          "pt": "horário (das aulas)",
+          "emoji": "🗓️"
+        },
+        {
+          "en": "form class",
+          "pt": "turma-base (do começo do dia)",
+          "emoji": "👥"
+        },
+        {
+          "en": "interval",
+          "pt": "intervalo (da manhã)",
+          "emoji": "🕐"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Hello. I'm a new student.\"?",
+      "lang": "pt",
+      "options": [
+        "Olá. Sou um aluno novo.",
+        "Lá em cima, sala nove.",
+        "Que horas é o intervalo?"
+      ],
+      "correct": 0,
+      "explanation": "\"I'm a new student\" = sou um aluno novo."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Lá em cima, sala nove.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Upstairs, room nine.",
+        "Sweet, thanks Ben!",
+        "Hello. I'm a new student."
+      ],
+      "correct": 0,
+      "explanation": "\"Upstairs\" = lá em cima."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Olá. Sou um aluno novo.",
+      "answer": [
+        "Hello.",
+        "I'm",
+        "a",
+        "new",
+        "student."
+      ],
+      "distractors": [
+        "what",
+        "time"
+      ],
+      "explanation": "\"I'm a new student\" = sou um aluno novo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Thank you. Where is my form class?",
+      "lang": "pt",
+      "options": [
+        "Às dez e quarenta. Vem comigo!",
+        "Obrigado. Onde fica a minha turma-base?",
+        "Beleza, valeu Ben!"
+      ],
+      "correct": 1,
+      "explanation": "\"Where is my form class?\" = Onde fica a minha turma-base?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Upstairs, room nine.",
+          "pt": "Lá em cima, sala nove."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Que horas é o intervalo?",
+      "options": [
+        "Thank you. Where is my form class?",
+        "At ten forty. Come with me!",
+        "What time is interval?"
+      ],
+      "correct": 2,
+      "explanation": "\"What time is interval?\" = Que horas é o intervalo?"
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "A manhã na escola",
+      "questions": [
+        {
+          "english": "Hello. I'm a new student.",
+          "options": [
+            "Beleza, valeu Ben!",
+            "Bem-vindo! Aqui está o seu horário.",
+            "Olá. Sou um aluno novo."
+          ],
+          "correct": 2,
+          "joke": "\"I'm a new student\" = sou um aluno novo."
+        },
+        {
+          "english": "Thank you. Where is my form class?",
+          "options": [
+            "Obrigado. Onde fica a minha turma-base?",
+            "Olá. Sou um aluno novo.",
+            "Bem-vindo! Aqui está o seu horário."
+          ],
+          "correct": 0,
+          "joke": "\"Where is my form class?\" = Onde fica a minha turma-base?"
+        },
+        {
+          "english": "What time is interval?",
+          "options": [
+            "Que horas é o intervalo?",
+            "Bem-vindo! Aqui está o seu horário.",
+            "Obrigado. Onde fica a minha turma-base?"
+          ],
+          "correct": 0,
+          "joke": "\"What time is interval?\" = Que horas é o intervalo?"
+        },
+        {
+          "english": "Upstairs, room nine.",
+          "options": [
+            "Às dez e quarenta. Vem comigo!",
+            "Lá em cima, sala nove.",
+            "Beleza, valeu Ben!"
+          ],
+          "correct": 1,
+          "joke": "\"Upstairs\" = lá em cima."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🧭",
+          "title": "Primeira manhã",
+          "en": "Who can help me?",
+          "pt": "No primeiro dia, pergunte sem medo: a school office, o dean e os colegas estão lá para ajudar. Termos e horários mudam de escola para escola."
+        }
+      ]
+    }
+  ]
+}

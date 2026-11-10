@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l03",
+  "title": "Sou do Brasil",
+  "scenario": "Bia se apresenta a Maya, uma futura colega da escola canadense, numa chamada do grupo.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Sou do Brasil",
+      "lines": [
+        {
+          "speaker": "Maya",
+          "en": "Hi! I'm Maya. I'm from Canada.",
+          "pt": "Oi! Eu sou a Maya. Eu sou do Canadá."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Hi, Maya! I'm Bia.",
+          "pt": "Oi, Maya! Eu sou a Bia."
+        },
+        {
+          "speaker": "Maya",
+          "en": "Where are you from?",
+          "pt": "De onde você é?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm from Brazil.",
+          "pt": "Eu sou do Brasil."
+        },
+        {
+          "speaker": "Maya",
+          "en": "Brazil! Cool!",
+          "pt": "Brasil! Legal!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "And you? Where are you from in Canada?",
+          "pt": "E você? De onde você é no Canadá?"
+        },
+        {
+          "speaker": "Maya",
+          "en": "I'm from Toronto.",
+          "pt": "Eu sou de Toronto."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "from",
+          "pt": "de (origem)",
+          "emoji": "📍"
+        },
+        {
+          "en": "Brazil",
+          "pt": "Brasil",
+          "emoji": "🇧🇷"
+        },
+        {
+          "en": "Canada",
+          "pt": "Canadá",
+          "emoji": "🇨🇦"
+        },
+        {
+          "en": "Where are you from?",
+          "pt": "De onde você é?",
+          "emoji": "🌎"
+        },
+        {
+          "en": "cool",
+          "pt": "legal",
+          "emoji": "😎"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Where are you from?\"?",
+      "lang": "pt",
+      "options": [
+        "De onde você é?",
+        "Brasil! Legal!",
+        "Eu sou de Toronto."
+      ],
+      "correct": 0,
+      "explanation": "\"Where are you from?\" = De onde você é? Responda: \"I'm from Brazil.\""
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"E você? De onde você é no Canadá?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Hi, Maya! I'm Bia.",
+        "I'm from Brazil.",
+        "And you? Where are you from in Canada?"
+      ],
+      "correct": 2,
+      "explanation": "\"And you?\" = E você? É o jeito fácil de devolver a pergunta."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu sou do Brasil.",
+      "answer": [
+        "I'm",
+        "from",
+        "Brazil."
+      ],
+      "distractors": [
+        "bia",
+        "where"
+      ],
+      "explanation": "\"I'm from Brazil\" = Eu sou do Brasil. Diga a sua cidade se quiser: \"I'm from Recife.\""
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "I'm from Brazil.",
+      "lang": "pt",
+      "options": [
+        "Eu sou do Brasil.",
+        "Oi, Maya! Eu sou a Bia.",
+        "De onde você é?"
+      ],
+      "correct": 0,
+      "explanation": "\"I'm from Brazil\" = Eu sou do Brasil. Diga a sua cidade se quiser: \"I'm from Recife.\""
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Maya",
+          "en": "Brazil! Cool!",
+          "pt": "Brasil! Legal!"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "E você? De onde você é no Canadá?",
+      "options": [
+        "Hi! I'm Maya. I'm from Canada.",
+        "And you? Where are you from in Canada?",
+        "Hi, Maya! I'm Bia."
+      ],
+      "correct": 1,
+      "explanation": "\"And you?\" = E você? É o jeito fácil de devolver a pergunta."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "De onde você é?",
+      "questions": [
+        {
+          "english": "Where are you from?",
+          "options": [
+            "De onde você é?",
+            "Oi! Eu sou a Maya. Eu sou do Canadá.",
+            "Oi, Maya! Eu sou a Bia."
+          ],
+          "correct": 0,
+          "joke": "\"Where are you from?\" = De onde você é? Responda: \"I'm from Brazil.\""
+        },
+        {
+          "english": "I'm from Brazil.",
+          "options": [
+            "Eu sou do Brasil.",
+            "De onde você é?",
+            "Brasil! Legal!"
+          ],
+          "correct": 0,
+          "joke": "\"I'm from Brazil\" = Eu sou do Brasil. Diga a sua cidade se quiser: \"I'm from Recife.\""
+        },
+        {
+          "english": "I'm from Toronto.",
+          "options": [
+            "Eu sou de Toronto.",
+            "Brasil! Legal!",
+            "E você? De onde você é no Canadá?"
+          ],
+          "correct": 0,
+          "joke": "Toronto é uma cidade do Canadá. \"I'm from...\" serve para país e cidade."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Primeiros passos · Canadá",
+      "items": [
+        {
+          "emoji": "🇨🇦",
+          "title": "Placas em inglês e francês",
+          "en": "Arrivals / Arrivées",
+          "pt": "Inglês e francês são as línguas oficiais do Canadá: nos aeroportos as placas vêm nas duas. Siga \"Arrivals\" e as placas da imigração junto com o seu grupo."
+        }
+      ]
+    }
+  ]
+}

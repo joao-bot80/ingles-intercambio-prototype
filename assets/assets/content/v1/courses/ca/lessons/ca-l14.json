@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l14",
+  "title": "Casaco para qual cidade?",
+  "scenario": "Linda explica a Bia o que trazer para a cidade e a estação do roteiro. Nem todo o Canadá tem neve o ano todo.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Casaco para qual cidade?",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Is it cold there?",
+          "pt": "Está frio aí?"
+        },
+        {
+          "speaker": "Linda",
+          "en": "In Toronto, in January, yes. It's very cold.",
+          "pt": "Em Toronto, em janeiro, sim. Faz muito frio."
+        },
+        {
+          "speaker": "Bia",
+          "en": "What do I bring?",
+          "pt": "O que eu levo?"
+        },
+        {
+          "speaker": "Linda",
+          "en": "Bring a jacket and warm clothes.",
+          "pt": "Traga um casaco e roupas quentes."
+        },
+        {
+          "speaker": "Bia",
+          "en": "And boots?",
+          "pt": "E botas?"
+        },
+        {
+          "speaker": "Linda",
+          "en": "Yes, boots for the snow. In July it's warm.",
+          "pt": "Sim, botas para a neve. Em julho faz calor."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "cold",
+          "pt": "frio",
+          "emoji": "🥶"
+        },
+        {
+          "en": "warm",
+          "pt": "quente / agradável",
+          "emoji": "🌤️"
+        },
+        {
+          "en": "jacket",
+          "pt": "casaco / jaqueta",
+          "emoji": "🧥"
+        },
+        {
+          "en": "boots",
+          "pt": "botas",
+          "emoji": "🥾"
+        },
+        {
+          "en": "snow",
+          "pt": "neve",
+          "emoji": "❄️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Is it cold there?\"?",
+      "lang": "pt",
+      "options": [
+        "Traga um casaco e roupas quentes.",
+        "E botas?",
+        "Está frio aí?"
+      ],
+      "correct": 2,
+      "explanation": "\"Is it cold there?\" = Está frio aí?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Sim, botas para a neve. Em julho faz calor.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "What do I bring?",
+        "Bring a jacket and warm clothes.",
+        "Yes, boots for the snow. In July it's warm."
+      ],
+      "correct": 2,
+      "explanation": "O clima muda muito por cidade e estação. Pergunte à família."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Está frio aí?",
+      "answer": [
+        "Is",
+        "it",
+        "cold",
+        "there?"
+      ],
+      "distractors": [
+        "july",
+        "toronto"
+      ],
+      "explanation": "\"Is it cold there?\" = Está frio aí?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Bring a jacket and warm clothes.",
+      "lang": "pt",
+      "options": [
+        "Em Toronto, em janeiro, sim. Faz muito frio.",
+        "O que eu levo?",
+        "Traga um casaco e roupas quentes."
+      ],
+      "correct": 2,
+      "explanation": "\"Bring a jacket\" = traga um casaco. Warm clothes = roupas quentes."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Linda",
+          "en": "In Toronto, in January, yes. It's very cold.",
+          "pt": "Em Toronto, em janeiro, sim. Faz muito frio."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "O que eu levo?",
+      "options": [
+        "Is it cold there?",
+        "What do I bring?",
+        "Bring a jacket and warm clothes."
+      ],
+      "correct": 1,
+      "explanation": "\"What do I bring?\" = O que eu levo?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A mala de inverno",
+      "questions": [
+        {
+          "english": "Is it cold there?",
+          "options": [
+            "O que eu levo?",
+            "Traga um casaco e roupas quentes.",
+            "Está frio aí?"
+          ],
+          "correct": 2,
+          "joke": "\"Is it cold there?\" = Está frio aí?"
+        },
+        {
+          "english": "Bring a jacket and warm clothes.",
+          "options": [
+            "E botas?",
+            "Traga um casaco e roupas quentes.",
+            "Sim, botas para a neve. Em julho faz calor."
+          ],
+          "correct": 1,
+          "joke": "\"Bring a jacket\" = traga um casaco. Warm clothes = roupas quentes."
+        },
+        {
+          "english": "What do I bring?",
+          "options": [
+            "E botas?",
+            "Sim, botas para a neve. Em julho faz calor.",
+            "O que eu levo?"
+          ],
+          "correct": 2,
+          "joke": "\"What do I bring?\" = O que eu levo?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Antes do embarque · Canadá",
+      "items": [
+        {
+          "emoji": "🌡️",
+          "title": "Graus Celsius",
+          "en": "It's minus twenty today.",
+          "pt": "O Canadá usa graus Celsius, como o Brasil. \"Minus twenty\" = -20 °C. Com vento, a sensação (wind chill) é ainda mais fria."
+        }
+      ]
+    }
+  ]
+}

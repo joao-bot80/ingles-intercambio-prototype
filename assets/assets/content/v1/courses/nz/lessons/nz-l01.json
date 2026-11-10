@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l01",
+  "title": "Hello, Sam!",
+  "scenario": "Ainda no Brasil, Leo conhece Sam, a monitora do grupo que vai para a Nova Zelândia.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Hello, Sam!",
+      "lines": [
+        {
+          "speaker": "Sam",
+          "en": "Hello! I'm Sam, from the New Zealand group.",
+          "pt": "Olá! Eu sou a Sam, do grupo da Nova Zelândia."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Hello, Sam!",
+          "pt": "Olá, Sam!"
+        },
+        {
+          "speaker": "Sam",
+          "en": "Hi, Bia!",
+          "pt": "Oi, Bia!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Hi!",
+          "pt": "Oi!"
+        },
+        {
+          "speaker": "Sam",
+          "en": "Our first class is today.",
+          "pt": "A nossa primeira aula é hoje."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Cool!",
+          "pt": "Legal!"
+        },
+        {
+          "speaker": "Sam",
+          "en": "Okay, bye for now!",
+          "pt": "Bom, tchau por enquanto!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Bye!",
+          "pt": "Tchau!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "hello",
+          "pt": "olá",
+          "emoji": "🙂"
+        },
+        {
+          "en": "hi",
+          "pt": "oi",
+          "emoji": "👋"
+        },
+        {
+          "en": "bye",
+          "pt": "tchau",
+          "emoji": "🚶"
+        },
+        {
+          "en": "class",
+          "pt": "aula / turma",
+          "emoji": "🧑‍🏫"
+        },
+        {
+          "en": "today",
+          "pt": "hoje",
+          "emoji": "📅"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Hello, Sam!\"?",
+      "lang": "pt",
+      "options": [
+        "Legal!",
+        "Olá, Sam!",
+        "Bom, tchau por enquanto!"
+      ],
+      "correct": 1,
+      "explanation": "\"Hello\" = olá. Serve para qualquer pessoa."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Tchau!\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Bye!",
+        "Hello, Sam!",
+        "Hi, Bia!"
+      ],
+      "correct": 0,
+      "explanation": "\"Bye!\" = Tchau!"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Bom, tchau por enquanto!",
+      "answer": [
+        "Okay,",
+        "bye",
+        "for",
+        "now!"
+      ],
+      "distractors": [
+        "our",
+        "first"
+      ],
+      "explanation": "\"Bye for now\" = tchau por enquanto. \"Bye\" = tchau."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Okay, bye for now!",
+      "lang": "pt",
+      "options": [
+        "Bom, tchau por enquanto!",
+        "Olá, Sam!",
+        "Oi, Bia!"
+      ],
+      "correct": 0,
+      "explanation": "\"Bye for now\" = tchau por enquanto. \"Bye\" = tchau."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sam",
+          "en": "Hi, Bia!",
+          "pt": "Oi, Bia!"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Oi!",
+      "options": [
+        "Okay, bye for now!",
+        "Bye!",
+        "Hi!"
+      ],
+      "correct": 2,
+      "explanation": "\"Hi\" = oi: curtinho e simpático."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O primeiro hello",
+      "questions": [
+        {
+          "english": "Hello, Sam!",
+          "options": [
+            "Olá, Sam!",
+            "Legal!",
+            "Bom, tchau por enquanto!"
+          ],
+          "correct": 0,
+          "joke": "\"Hello\" = olá. Serve para qualquer pessoa."
+        },
+        {
+          "english": "Okay, bye for now!",
+          "options": [
+            "Olá! Eu sou a Sam, do grupo da Nova Zelândia.",
+            "Bom, tchau por enquanto!",
+            "Olá, Sam!"
+          ],
+          "correct": 1,
+          "joke": "\"Bye for now\" = tchau por enquanto. \"Bye\" = tchau."
+        },
+        {
+          "english": "Hi!",
+          "options": [
+            "Bom, tchau por enquanto!",
+            "Tchau!",
+            "Oi!"
+          ],
+          "correct": 2,
+          "joke": "\"Hi\" = oi: curtinho e simpático."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Primeiros passos · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🤝",
+          "title": "Kia ora!",
+          "en": "Kia ora! Nice to meet you.",
+          "pt": "\"Kia ora\" é um cumprimento em te reo Māori, uma língua oficial da Nova Zelândia. Você pode ouvi-lo na escola e no dia a dia. \"Hi\" e \"Hello\" também são formas comuns de cumprimentar. Aprenda a pronúncia com uma fonte confiável ou um falante competente."
+        },
+        {
+          "emoji": "🌏",
+          "title": "Estações como no Brasil",
+          "en": "I'm going to New Zealand!",
+          "pt": "A Nova Zelândia fica no hemisfério sul: o verão vai de dezembro a fevereiro e o inverno, de junho a agosto. O tempo muda rápido: leve sempre uma camada a mais."
+        }
+      ]
+    }
+  ]
+}

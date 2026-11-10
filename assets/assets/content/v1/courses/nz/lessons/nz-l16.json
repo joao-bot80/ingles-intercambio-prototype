@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l16",
+  "title": "Meu assento no voo",
+  "scenario": "Leo recebe o boarding pass para a viagem do grupo à Nova Zelândia.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Meu assento no voo",
+      "lines": [
+        {
+          "speaker": "Agent",
+          "en": "Hello. Can I see your passport, please?",
+          "pt": "Olá. Posso ver o seu passaporte, por favor?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Here you go.",
+          "pt": "Aqui está."
+        },
+        {
+          "speaker": "Agent",
+          "en": "Thanks. This is your boarding pass.",
+          "pt": "Obrigada. Este é o seu cartão de embarque."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Is my seat by the window?",
+          "pt": "O meu assento é na janela?"
+        },
+        {
+          "speaker": "Agent",
+          "en": "Yes. Seat thirty-two K, by the window.",
+          "pt": "Sim. Assento trinta e dois K, na janela."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Great, thank you!",
+          "pt": "Ótimo, obrigado!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Here you go.",
+          "pt": "Aqui está. (ao entregar algo)",
+          "emoji": "🤲"
+        },
+        {
+          "en": "boarding pass",
+          "pt": "cartão de embarque",
+          "emoji": "🎫"
+        },
+        {
+          "en": "seat",
+          "pt": "assento",
+          "emoji": "💺"
+        },
+        {
+          "en": "window",
+          "pt": "janela",
+          "emoji": "🪟"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Here you go.\"?",
+      "lang": "pt",
+      "options": [
+        "Aqui está.",
+        "O meu assento é na janela?",
+        "Sim. Assento trinta e dois K, na janela."
+      ],
+      "correct": 0,
+      "explanation": "\"Here you go\" = aqui está, ao entregar algo."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Sim. Assento trinta e dois K, na janela.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Here you go.",
+        "Yes. Seat thirty-two K, by the window.",
+        "Thanks. This is your boarding pass."
+      ],
+      "correct": 1,
+      "explanation": "\"Thirty-two K\" = 32K."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Aqui está.",
+      "answer": [
+        "Here",
+        "you",
+        "go."
+      ],
+      "distractors": [
+        "hello",
+        "can"
+      ],
+      "explanation": "\"Here you go\" = aqui está, ao entregar algo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Is my seat by the window?",
+      "lang": "pt",
+      "options": [
+        "O meu assento é na janela?",
+        "Sim. Assento trinta e dois K, na janela.",
+        "Ótimo, obrigado!"
+      ],
+      "correct": 0,
+      "explanation": "\"Is my seat by the window?\" = O meu assento é na janela?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Agent",
+          "en": "Hello. Can I see your passport, please?",
+          "pt": "Olá. Posso ver o seu passaporte, por favor?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Aqui está.",
+      "options": [
+        "Great, thank you!",
+        "Here you go.",
+        "Thanks. This is your boarding pass."
+      ],
+      "correct": 1,
+      "explanation": "\"Here you go\" = aqui está, ao entregar algo."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O check-in",
+      "questions": [
+        {
+          "english": "Here you go.",
+          "options": [
+            "O meu assento é na janela?",
+            "Sim. Assento trinta e dois K, na janela.",
+            "Aqui está."
+          ],
+          "correct": 2,
+          "joke": "\"Here you go\" = aqui está, ao entregar algo."
+        },
+        {
+          "english": "Is my seat by the window?",
+          "options": [
+            "O meu assento é na janela?",
+            "Obrigada. Este é o seu cartão de embarque.",
+            "Sim. Assento trinta e dois K, na janela."
+          ],
+          "correct": 0,
+          "joke": "\"Is my seat by the window?\" = O meu assento é na janela?"
+        },
+        {
+          "english": "Thanks. This is your boarding pass.",
+          "options": [
+            "Obrigada. Este é o seu cartão de embarque.",
+            "Sim. Assento trinta e dois K, na janela.",
+            "Ótimo, obrigado!"
+          ],
+          "correct": 0,
+          "joke": "\"Boarding pass\" = cartão de embarque."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Aeroporto · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🎫",
+          "title": "Boarding pass",
+          "en": "Boarding pass, please.",
+          "pt": "Guarde o cartão de embarque (no papel ou no celular) até sair do avião. Na conexão, confira o portão nos painéis: ele pode mudar!"
+        }
+      ]
+    }
+  ]
+}

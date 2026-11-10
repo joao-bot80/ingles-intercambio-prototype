@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l05",
+  "title": "Missão: conhecer o grupo",
+  "scenario": "Bia conhece Leo e Sam antes do embarque para a Nova Zelândia: saudação, nome, origem e pedido de repetição.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: conhecer o grupo",
+      "lines": [
+        {
+          "speaker": "Sam",
+          "en": "Hello! What's your name?",
+          "pt": "Olá! Qual é o seu nome?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Hi! My name is Bia.",
+          "pt": "Oi! Meu nome é Bia."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Hi, Bia! I'm Leo. Where are you from?",
+          "pt": "Oi, Bia! Eu sou o Leo. De onde você é?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Sorry, can you repeat, please?",
+          "pt": "Desculpa, pode repetir, por favor?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Where are you from?",
+          "pt": "De onde você é?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm from Brazil. I'm from Recife.",
+          "pt": "Eu sou do Brasil. Sou de Recife."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Welcome to the New Zealand group!",
+          "pt": "Bem-vindos ao grupo da Nova Zelândia!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thank you! Bye for now!",
+          "pt": "Obrigada! Tchau por enquanto!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "hi",
+          "pt": "oi",
+          "emoji": "👋"
+        },
+        {
+          "en": "my name is...",
+          "pt": "meu nome é...",
+          "emoji": "🗣️"
+        },
+        {
+          "en": "I'm from...",
+          "pt": "eu sou de...",
+          "emoji": "📍"
+        },
+        {
+          "en": "Can you repeat, please?",
+          "pt": "Pode repetir, por favor?",
+          "emoji": "🔁"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Sorry, can you repeat, please?\"?",
+      "lang": "pt",
+      "options": [
+        "Olá! Qual é o seu nome?",
+        "Desculpa, pode repetir, por favor?",
+        "Oi! Meu nome é Bia."
+      ],
+      "correct": 1,
+      "explanation": "Pedir para repetir é sempre educado."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Obrigada! Tchau por enquanto!\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Thank you! Bye for now!",
+        "Sorry, can you repeat, please?",
+        "Where are you from?"
+      ],
+      "correct": 0,
+      "explanation": "\"Thank you\" = obrigada."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Desculpa, pode repetir, por favor?",
+      "answer": [
+        "Sorry,",
+        "can",
+        "you",
+        "repeat,",
+        "please?"
+      ],
+      "distractors": [
+        "for",
+        "now"
+      ],
+      "explanation": "Pedir para repetir é sempre educado."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "I'm from Brazil. I'm from Recife.",
+      "lang": "pt",
+      "options": [
+        "Eu sou do Brasil. Sou de Recife.",
+        "Obrigada! Tchau por enquanto!",
+        "Olá! Qual é o seu nome?"
+      ],
+      "correct": 0,
+      "explanation": "\"I'm from...\" serve para país e cidade."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sam",
+          "en": "Hello! What's your name?",
+          "pt": "Olá! Qual é o seu nome?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Oi! Meu nome é Bia.",
+      "options": [
+        "Hi! My name is Bia.",
+        "Hi, Bia! I'm Leo. Where are you from?",
+        "Sorry, can you repeat, please?"
+      ],
+      "correct": 0,
+      "explanation": "\"My name is Bia\" = Meu nome é Bia."
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "Ensaio com o grupo",
+      "questions": [
+        {
+          "english": "Sorry, can you repeat, please?",
+          "options": [
+            "Oi! Meu nome é Bia.",
+            "Oi, Bia! Eu sou o Leo. De onde você é?",
+            "Desculpa, pode repetir, por favor?"
+          ],
+          "correct": 2,
+          "joke": "Pedir para repetir é sempre educado."
+        },
+        {
+          "english": "I'm from Brazil. I'm from Recife.",
+          "options": [
+            "Bem-vindos ao grupo da Nova Zelândia!",
+            "Obrigada! Tchau por enquanto!",
+            "Eu sou do Brasil. Sou de Recife."
+          ],
+          "correct": 2,
+          "joke": "\"I'm from...\" serve para país e cidade."
+        },
+        {
+          "english": "Hi! My name is Bia.",
+          "options": [
+            "Oi! Meu nome é Bia.",
+            "Desculpa, pode repetir, por favor?",
+            "De onde você é?"
+          ],
+          "correct": 0,
+          "joke": "\"My name is Bia\" = Meu nome é Bia."
+        },
+        {
+          "english": "Thank you! Bye for now!",
+          "options": [
+            "Oi, Bia! Eu sou o Leo. De onde você é?",
+            "Obrigada! Tchau por enquanto!",
+            "Desculpa, pode repetir, por favor?"
+          ],
+          "correct": 1,
+          "joke": "\"Thank you\" = obrigada."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Primeiros passos · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🎯",
+          "title": "Missão cumprida",
+          "en": "Hi! My name is Bia. I'm from Brazil.",
+          "pt": "Você já consegue cumprimentar, dizer o seu nome e de onde vem, e pedir para repetir. Treine em voz alta!"
+        }
+      ]
+    }
+  ]
+}

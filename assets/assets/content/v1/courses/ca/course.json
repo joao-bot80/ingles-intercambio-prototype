@@ -8,7 +8,7 @@
     "emoji": "🍁"
   },
   "variant": "en-CA",
-  "contentVersion": "2026.10.28-1",
+  "contentVersion": "2026.11.10-c60",
   "cast": {
     "Ms. Lee": {
       "emoji": "👩🏻‍💼",
@@ -44,9 +44,134 @@
       "emoji": "🧑🏽‍🍳",
       "gender": "F",
       "role": "other"
+    },
+    "Maya": {
+      "emoji": "👧🏽",
+      "gender": "F",
+      "role": "classmate"
     }
   },
   "lessons": [
+    {
+      "id": "ca-l01",
+      "title": "Oi, Sam!"
+    },
+    {
+      "id": "ca-l02",
+      "title": "Meu nome é Bia"
+    },
+    {
+      "id": "ca-l03",
+      "title": "Sou do Brasil"
+    },
+    {
+      "id": "ca-l04",
+      "title": "Não entendi: posso perguntar?"
+    },
+    {
+      "id": "ca-l05",
+      "title": "Missão: minha primeira conversa"
+    },
+    {
+      "id": "ca-l06",
+      "title": "Um, dois, três: contar sem correr"
+    },
+    {
+      "id": "ca-l07",
+      "title": "Minha idade, não minha série"
+    },
+    {
+      "id": "ca-l08",
+      "title": "Soletrando todos os sobrenomes"
+    },
+    {
+      "id": "ca-l09",
+      "title": "Telefone e hora do encontro"
+    },
+    {
+      "id": "ca-l10",
+      "title": "Missão: minha ficha de viagem"
+    },
+    {
+      "id": "ca-l11",
+      "title": "Videochamada com Linda"
+    },
+    {
+      "id": "ca-l12",
+      "title": "Passaporte na mochila"
+    },
+    {
+      "id": "ca-l13",
+      "title": "Meu grupo está ali"
+    },
+    {
+      "id": "ca-l14",
+      "title": "Casaco para qual cidade?"
+    },
+    {
+      "id": "ca-l15",
+      "title": "Missão: pronta para viajar"
+    },
+    {
+      "id": "ca-l16",
+      "title": "Meu cartão de embarque"
+    },
+    {
+      "id": "ca-l17",
+      "title": "O portão pode mudar"
+    },
+    {
+      "id": "ca-l18",
+      "title": "Conexão sem se separar"
+    },
+    {
+      "id": "ca-l19",
+      "title": "Na fronteira: só a verdade"
+    },
+    {
+      "id": "ca-l20",
+      "title": "Missão: do painel à fronteira"
+    },
+    {
+      "id": "ca-l21",
+      "title": "Minha mala azul não chegou"
+    },
+    {
+      "id": "ca-l22",
+      "title": "Bem-vinda à casa de Linda"
+    },
+    {
+      "id": "ca-l23",
+      "title": "Horários e permissão em casa"
+    },
+    {
+      "id": "ca-l24",
+      "title": "À mesa com Linda e Dave"
+    },
+    {
+      "id": "ca-l25",
+      "title": "Missão: jantar e primeiro combinado"
+    },
+    {
+      "id": "ca-l26",
+      "title": "Na secretaria com Ms. Lee"
+    },
+    {
+      "id": "ca-l27",
+      "title": "Meu schedule e minhas matérias"
+    },
+    {
+      "id": "ca-l28",
+      "title": "Sala, andar e locker"
+    },
+    {
+      "id": "ca-l29",
+      "title": "Almoço levado de casa"
+    },
+    {
+      "id": "ca-l30",
+      "title": "Missão: uma manhã na escola"
+    },
     {
       "id": "ca-hello",
       "title": "Oi! Eu vou para o Canadá"
@@ -122,24 +247,42 @@
   ],
   "units": [
     {
-      "id": "ca-intro",
-      "title": "Primeiros passos",
-      "subtitle": "Apresentar-se, soletrar o nome, idade e telefone",
+      "id": "ca-u01",
+      "title": "1. Começar do zero",
+      "subtitle": "Cumprimentar, dizer nome e origem, pedir repetição",
       "emoji": "👋",
       "lessons": [
-        "ca-hello",
-        "ca-spelling",
-        "ca-numbers"
+        "ca-l01",
+        "ca-l02",
+        "ca-l03",
+        "ca-l04",
+        "ca-l05"
       ]
     },
     {
-      "id": "ca-before",
-      "title": "Antes do embarque",
-      "subtitle": "Família anfitriã, documentos e grupo",
+      "id": "ca-u02",
+      "title": "2. Meus dados e meus horários",
+      "subtitle": "Números, idade, soletrar e telefone",
+      "emoji": "🔢",
+      "lessons": [
+        "ca-l06",
+        "ca-l07",
+        "ca-l08",
+        "ca-l09",
+        "ca-l10"
+      ]
+    },
+    {
+      "id": "ca-u03",
+      "title": "3. Preparar a viagem ao Canadá",
+      "subtitle": "Chamada com Linda, mochila, grupo e roupa",
       "emoji": "🧳",
       "lessons": [
-        "ca-videocall",
-        "ca-backpack"
+        "ca-l11",
+        "ca-l12",
+        "ca-l13",
+        "ca-l14",
+        "ca-l15"
       ],
       "checklist": {
         "id": "ca-checklist",
@@ -162,8 +305,8 @@
           {
             "title": "🗣️ Inglês antes de embarcar",
             "items": [
-              "Concluir a unidade Primeiros passos",
-              "Concluir a unidade Aeroporto e imigração no Canadá",
+              "Concluir as unidades 1 e 2 (Começar do zero; Meus dados e meus horários)",
+              "Concluir a unidade 4 (Aeroporto e fronteira canadense)",
               "Saber soletrar o nome do passaporte em inglês",
               "Treinar em voz alta as respostas da imigração"
             ]
@@ -190,54 +333,66 @@
       }
     },
     {
-      "id": "ca-airport",
-      "title": "Aeroporto e imigração no Canadá",
-      "subtitle": "Conexão, fronteira e bagagem",
+      "id": "ca-u04",
+      "title": "4. Aeroporto e fronteira canadense",
+      "subtitle": "Assento, portão, conexão e fronteira",
       "emoji": "✈️",
       "lessons": [
-        "ca-checkin",
-        "ca-immigration",
-        "ca-baggage"
+        "ca-l16",
+        "ca-l17",
+        "ca-l18",
+        "ca-l19",
+        "ca-l20"
       ]
     },
     {
-      "id": "ca-home",
-      "title": "Casa de família no Canadá",
-      "subtitle": "Chegada, regras da casa e jantar",
+      "id": "ca-u05",
+      "title": "5. Chegar e combinar a casa",
+      "subtitle": "Bagagem, casa de Linda, rotina e jantar",
       "emoji": "🏠",
       "lessons": [
-        "ca-host-arrival",
-        "ca-host-rules",
-        "ca-host-dinner"
+        "ca-l21",
+        "ca-l22",
+        "ca-l23",
+        "ca-l24",
+        "ca-l25"
       ]
     },
     {
-      "id": "ca-school",
-      "title": "High school no Canadá",
-      "subtitle": "Primeiro dia, sala de aula e amigos",
+      "id": "ca-u06",
+      "title": "6. Encontrar meu lugar na high school",
+      "subtitle": "Counsellor, schedule, sala, locker e almoço",
       "emoji": "🏫",
       "lessons": [
+        "ca-l26",
+        "ca-l27",
+        "ca-l28",
+        "ca-l29",
+        "ca-l30"
+      ]
+    },
+    {
+      "id": "ca-legacy",
+      "title": "Versão anterior (em revisão)",
+      "subtitle": "As 18 lições antigas, até as novas unidades ficarem prontas",
+      "emoji": "🗂️",
+      "lessons": [
+        "ca-hello",
+        "ca-spelling",
+        "ca-numbers",
+        "ca-videocall",
+        "ca-backpack",
+        "ca-checkin",
+        "ca-immigration",
+        "ca-baggage",
+        "ca-host-arrival",
+        "ca-host-rules",
+        "ca-host-dinner",
         "ca-school-first-day",
         "ca-school-classroom",
-        "ca-school-friends"
-      ]
-    },
-    {
-      "id": "ca-city",
-      "title": "Cidade e emergência no Canadá",
-      "subtitle": "Ônibus, direções, farmácia e 911",
-      "emoji": "🚌",
-      "lessons": [
+        "ca-school-friends",
         "ca-city-bus",
-        "ca-city-help"
-      ]
-    },
-    {
-      "id": "ca-country",
-      "title": "Canadá: o dia a dia",
-      "subtitle": "Frio, neve, Tim Hortons e o jeito canadense",
-      "emoji": "🍁",
-      "lessons": [
+        "ca-city-help",
         "ca-cold",
         "ca-coffee"
       ]
@@ -248,5 +403,6 @@
     "name": "Canadá",
     "flag": "🇨🇦"
   },
-  "accent": "ca"
+  "accent": "ca",
+  "curriculum": "c60"
 }

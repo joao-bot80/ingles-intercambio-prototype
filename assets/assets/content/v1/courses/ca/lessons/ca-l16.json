@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l16",
+  "title": "Meu cartão de embarque",
+  "scenario": "Leo recebe orientações no balcão do voo que leva o grupo para o Canadá.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Meu cartão de embarque",
+      "lines": [
+        {
+          "speaker": "Agent",
+          "en": "Good morning. Passport, please.",
+          "pt": "Bom dia. Passaporte, por favor."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Here you go.",
+          "pt": "Aqui está."
+        },
+        {
+          "speaker": "Agent",
+          "en": "Thank you. Here is your boarding pass.",
+          "pt": "Obrigada. Aqui está o seu cartão de embarque."
+        },
+        {
+          "speaker": "Leo",
+          "en": "What's my seat?",
+          "pt": "Qual é o meu assento?"
+        },
+        {
+          "speaker": "Agent",
+          "en": "Your seat is twelve A. It's a window seat.",
+          "pt": "O seu assento é o doze A. É na janela."
+        },
+        {
+          "speaker": "Leo",
+          "en": "A window! Thank you!",
+          "pt": "Janela! Obrigado!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Here you go.",
+          "pt": "Aqui está. (ao entregar algo)",
+          "emoji": "🤲"
+        },
+        {
+          "en": "boarding pass",
+          "pt": "cartão de embarque",
+          "emoji": "🎫"
+        },
+        {
+          "en": "seat",
+          "pt": "assento",
+          "emoji": "💺"
+        },
+        {
+          "en": "window",
+          "pt": "janela",
+          "emoji": "🪟"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Here you go.\"?",
+      "lang": "pt",
+      "options": [
+        "Bom dia. Passaporte, por favor.",
+        "Aqui está.",
+        "Obrigada. Aqui está o seu cartão de embarque."
+      ],
+      "correct": 1,
+      "explanation": "\"Here you go\" = aqui está, quando você entrega alguma coisa."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Obrigada. Aqui está o seu cartão de embarque.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Thank you. Here is your boarding pass.",
+        "Your seat is twelve A. It's a window seat.",
+        "A window! Thank you!"
+      ],
+      "correct": 0,
+      "explanation": "\"Boarding pass\" = cartão de embarque."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Aqui está.",
+      "answer": [
+        "Here",
+        "you",
+        "go."
+      ],
+      "distractors": [
+        "please",
+        "thank"
+      ],
+      "explanation": "\"Here you go\" = aqui está, quando você entrega alguma coisa."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Your seat is twelve A. It's a window seat.",
+      "lang": "pt",
+      "options": [
+        "O seu assento é o doze A. É na janela.",
+        "Obrigada. Aqui está o seu cartão de embarque.",
+        "Qual é o meu assento?"
+      ],
+      "correct": 0,
+      "explanation": "\"Twelve A\" = 12A. \"Window seat\" = assento na janela."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Agent",
+          "en": "Thank you. Here is your boarding pass.",
+          "pt": "Obrigada. Aqui está o seu cartão de embarque."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Qual é o meu assento?",
+      "options": [
+        "Here you go.",
+        "What's my seat?",
+        "Your seat is twelve A. It's a window seat."
+      ],
+      "correct": 1,
+      "explanation": "\"What's my seat?\" = Qual é o meu assento?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O balcão do check-in",
+      "questions": [
+        {
+          "english": "Here you go.",
+          "options": [
+            "Aqui está.",
+            "Janela! Obrigado!",
+            "Bom dia. Passaporte, por favor."
+          ],
+          "correct": 0,
+          "joke": "\"Here you go\" = aqui está, quando você entrega alguma coisa."
+        },
+        {
+          "english": "Your seat is twelve A. It's a window seat.",
+          "options": [
+            "O seu assento é o doze A. É na janela.",
+            "Obrigada. Aqui está o seu cartão de embarque.",
+            "Qual é o meu assento?"
+          ],
+          "correct": 0,
+          "joke": "\"Twelve A\" = 12A. \"Window seat\" = assento na janela."
+        },
+        {
+          "english": "What's my seat?",
+          "options": [
+            "Obrigada. Aqui está o seu cartão de embarque.",
+            "Qual é o meu assento?",
+            "O seu assento é o doze A. É na janela."
+          ],
+          "correct": 1,
+          "joke": "\"What's my seat?\" = Qual é o meu assento?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Aeroporto · Canadá",
+      "items": [
+        {
+          "emoji": "🎫",
+          "title": "Boarding pass",
+          "en": "Boarding pass, please.",
+          "pt": "Guarde o cartão de embarque (no papel ou no celular) até sair do avião. Na conexão, confira o portão nos painéis: ele pode mudar!"
+        }
+      ]
+    }
+  ]
+}

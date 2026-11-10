@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l09",
+  "title": "Celular e horário da chamada",
+  "scenario": "Bia combina uma chamada com Jo, a mãe anfitriã. O número é fictício e o fuso horário se confere, não se decora.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Celular e horário da chamada",
+      "lines": [
+        {
+          "speaker": "Jo",
+          "en": "Bia, what's your phone number?",
+          "pt": "Bia, qual é o seu número de celular?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "It's nine, eight, seven... six, five, four, three.",
+          "pt": "É nove, oito, sete... seis, cinco, quatro, três."
+        },
+        {
+          "speaker": "Jo",
+          "en": "Thanks! Call on Sunday?",
+          "pt": "Obrigada! Uma ligação no domingo?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes! What time?",
+          "pt": "Sim! Que horas?"
+        },
+        {
+          "speaker": "Jo",
+          "en": "Seven thirty, New Zealand time.",
+          "pt": "Sete e meia, no horário da Nova Zelândia."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Seven thirty. Okay!",
+          "pt": "Sete e meia. Combinado!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "phone number",
+          "pt": "número de telefone",
+          "emoji": "📱"
+        },
+        {
+          "en": "What time?",
+          "pt": "Que horas?",
+          "emoji": "⏰"
+        },
+        {
+          "en": "seven thirty",
+          "pt": "sete e meia",
+          "emoji": "🕢"
+        },
+        {
+          "en": "call",
+          "pt": "ligar / ligação",
+          "emoji": "📞"
+        },
+        {
+          "en": "time",
+          "pt": "hora / horário",
+          "emoji": "🕐"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Bia, what's your phone number?\"?",
+      "lang": "pt",
+      "options": [
+        "É nove, oito, sete... seis, cinco, quatro, três.",
+        "Obrigada! Uma ligação no domingo?",
+        "Bia, qual é o seu número de celular?"
+      ],
+      "correct": 2,
+      "explanation": "\"What's your phone number?\" = Qual é o seu número de telefone?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Obrigada! Uma ligação no domingo?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Yes! What time?",
+        "Thanks! Call on Sunday?",
+        "Seven thirty, New Zealand time."
+      ],
+      "correct": 1,
+      "explanation": "\"Call\" = ligar / ligação."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Sim! Que horas?",
+      "answer": [
+        "Yes!",
+        "What",
+        "time?"
+      ],
+      "distractors": [
+        "sunday",
+        "thirty"
+      ],
+      "explanation": "\"What time?\" = Que horas?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Yes! What time?",
+      "lang": "pt",
+      "options": [
+        "Bia, qual é o seu número de celular?",
+        "É nove, oito, sete... seis, cinco, quatro, três.",
+        "Sim! Que horas?"
+      ],
+      "correct": 2,
+      "explanation": "\"What time?\" = Que horas?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Jo",
+          "en": "Thanks! Call on Sunday?",
+          "pt": "Obrigada! Uma ligação no domingo?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Sim! Que horas?",
+      "options": [
+        "Seven thirty, New Zealand time.",
+        "Yes! What time?",
+        "Seven thirty. Okay!"
+      ],
+      "correct": 1,
+      "explanation": "\"What time?\" = Que horas?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A chamada de domingo",
+      "questions": [
+        {
+          "english": "Bia, what's your phone number?",
+          "options": [
+            "Bia, qual é o seu número de celular?",
+            "Obrigada! Uma ligação no domingo?",
+            "Sim! Que horas?"
+          ],
+          "correct": 0,
+          "joke": "\"What's your phone number?\" = Qual é o seu número de telefone?"
+        },
+        {
+          "english": "Yes! What time?",
+          "options": [
+            "Bia, qual é o seu número de celular?",
+            "É nove, oito, sete... seis, cinco, quatro, três.",
+            "Sim! Que horas?"
+          ],
+          "correct": 2,
+          "joke": "\"What time?\" = Que horas?"
+        },
+        {
+          "english": "Seven thirty, New Zealand time.",
+          "options": [
+            "Sete e meia, no horário da Nova Zelândia.",
+            "É nove, oito, sete... seis, cinco, quatro, três.",
+            "Obrigada! Uma ligação no domingo?"
+          ],
+          "correct": 0,
+          "joke": "\"Seven thirty\" = sete e meia. \"New Zealand time\" = horário da Nova Zelândia."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Primeiros passos · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🕐",
+          "title": "Fuso horário",
+          "en": "Is it a good time?",
+          "pt": "A Nova Zelândia fica bem à frente do Brasil e muda o relógio no horário de verão, por isso a diferença muda ao longo do ano. Confira o fuso antes de marcar a chamada."
+        }
+      ]
+    }
+  ]
+}

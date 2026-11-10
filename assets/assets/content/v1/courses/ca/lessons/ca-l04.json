@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l04",
+  "title": "Não entendi: posso perguntar?",
+  "scenario": "Leo pratica com Sam como pedir ajuda quando ouve inglês rápido.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Não entendi: posso perguntar?",
+      "lines": [
+        {
+          "speaker": "Sam",
+          "en": "Welcome to the Canada group, Leo! Today we practise English.",
+          "pt": "Bem-vindo ao grupo do Canadá, Leo! Hoje a gente pratica inglês."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Sorry. I don't understand.",
+          "pt": "Desculpa. Eu não entendi."
+        },
+        {
+          "speaker": "Sam",
+          "en": "No problem.",
+          "pt": "Sem problema."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Can you repeat, please?",
+          "pt": "Pode repetir, por favor?"
+        },
+        {
+          "speaker": "Sam",
+          "en": "Sure. Welcome to the group!",
+          "pt": "Claro. Bem-vindo ao grupo!"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thank you!",
+          "pt": "Obrigado!"
+        },
+        {
+          "speaker": "Sam",
+          "en": "You're welcome.",
+          "pt": "De nada."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "please",
+          "pt": "por favor",
+          "emoji": "🙏"
+        },
+        {
+          "en": "thank you",
+          "pt": "obrigado / obrigada",
+          "emoji": "💛"
+        },
+        {
+          "en": "sorry",
+          "pt": "desculpa",
+          "emoji": "😅"
+        },
+        {
+          "en": "I don't understand.",
+          "pt": "Eu não entendi.",
+          "emoji": "🤷"
+        },
+        {
+          "en": "Can you repeat, please?",
+          "pt": "Pode repetir, por favor?",
+          "emoji": "🔁"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Sorry. I don't understand.\"?",
+      "lang": "pt",
+      "options": [
+        "Bem-vindo ao grupo do Canadá, Leo! Hoje a gente pratica inglês.",
+        "Desculpa. Eu não entendi.",
+        "Sem problema."
+      ],
+      "correct": 1,
+      "explanation": "\"I don't understand\" = eu não entendi. Não é vergonha: é a frase mais útil do intercâmbio!"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"De nada.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "You're welcome.",
+        "Can you repeat, please?",
+        "Sure. Welcome to the group!"
+      ],
+      "correct": 0,
+      "explanation": "\"You're welcome\" = de nada. É a resposta para \"thank you\"."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Desculpa. Eu não entendi.",
+      "answer": [
+        "Sorry.",
+        "I",
+        "don't",
+        "understand."
+      ],
+      "distractors": [
+        "canada",
+        "group"
+      ],
+      "explanation": "\"I don't understand\" = eu não entendi. Não é vergonha: é a frase mais útil do intercâmbio!"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Can you repeat, please?",
+      "lang": "pt",
+      "options": [
+        "Desculpa. Eu não entendi.",
+        "Sem problema.",
+        "Pode repetir, por favor?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can you repeat, please?\" = Pode repetir, por favor?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sam",
+          "en": "Sure. Welcome to the group!",
+          "pt": "Claro. Bem-vindo ao grupo!"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Obrigado!",
+      "options": [
+        "Thank you!",
+        "Welcome to the Canada group, Leo! Today we practise English.",
+        "Sorry. I don't understand."
+      ],
+      "correct": 0,
+      "explanation": "\"Thank you\" = obrigado / obrigada."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Inglês rápido demais",
+      "questions": [
+        {
+          "english": "Sorry. I don't understand.",
+          "options": [
+            "Desculpa. Eu não entendi.",
+            "Obrigado!",
+            "De nada."
+          ],
+          "correct": 0,
+          "joke": "\"I don't understand\" = eu não entendi. Não é vergonha: é a frase mais útil do intercâmbio!"
+        },
+        {
+          "english": "Can you repeat, please?",
+          "options": [
+            "Obrigado!",
+            "Pode repetir, por favor?",
+            "De nada."
+          ],
+          "correct": 1,
+          "joke": "\"Can you repeat, please?\" = Pode repetir, por favor?"
+        },
+        {
+          "english": "Thank you!",
+          "options": [
+            "Obrigado!",
+            "Bem-vindo ao grupo do Canadá, Leo! Hoje a gente pratica inglês.",
+            "Desculpa. Eu não entendi."
+          ],
+          "correct": 0,
+          "joke": "\"Thank you\" = obrigado / obrigada."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Primeiros passos · Canadá",
+      "items": [
+        {
+          "emoji": "🔁",
+          "title": "Não entendeu?",
+          "en": "Sorry, can you repeat that, please?",
+          "pt": "Pedir para repetir é normal e educado. É melhor perguntar do que responder errado. Se travar, mostre a carta da escola e chame o monitor do grupo, se houver."
+        }
+      ]
+    }
+  ]
+}

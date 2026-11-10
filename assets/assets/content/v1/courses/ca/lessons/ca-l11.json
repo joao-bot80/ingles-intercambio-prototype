@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l11",
+  "title": "Videochamada com Linda",
+  "scenario": "Bia conhece Linda e Emma, a família anfitriã canadense do roteiro, numa chamada.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Videochamada com Linda",
+      "lines": [
+        {
+          "speaker": "Linda",
+          "en": "Hi, Bia! Can you hear me?",
+          "pt": "Oi, Bia! Você está me ouvindo?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes, I can. Hi, Linda!",
+          "pt": "Sim, estou. Oi, Linda!"
+        },
+        {
+          "speaker": "Linda",
+          "en": "This is Emma, my daughter.",
+          "pt": "Esta é a Emma, a minha filha."
+        },
+        {
+          "speaker": "Emma",
+          "en": "Hi, Bia! Nice to meet you.",
+          "pt": "Oi, Bia! Prazer em te conhecer."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Nice to meet you too, Emma.",
+          "pt": "Prazer em te conhecer também, Emma."
+        },
+        {
+          "speaker": "Linda",
+          "en": "We are very happy. See you soon!",
+          "pt": "Nós estamos muito felizes. Até breve!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "See you soon!",
+          "pt": "Até breve!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Can you hear me?",
+          "pt": "Você está me ouvindo?",
+          "emoji": "👂"
+        },
+        {
+          "en": "Yes, I can.",
+          "pt": "Sim, estou (ouvindo).",
+          "emoji": "✅"
+        },
+        {
+          "en": "host family",
+          "pt": "família anfitriã",
+          "emoji": "🏡"
+        },
+        {
+          "en": "daughter",
+          "pt": "filha",
+          "emoji": "👧"
+        },
+        {
+          "en": "happy",
+          "pt": "feliz",
+          "emoji": "😊"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Hi, Bia! Can you hear me?\"?",
+      "lang": "pt",
+      "options": [
+        "Sim, estou. Oi, Linda!",
+        "Esta é a Emma, a minha filha.",
+        "Oi, Bia! Você está me ouvindo?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can you hear me?\" = Você está me ouvindo? Ótimo para começar uma chamada."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Nós estamos muito felizes. Até breve!\" em inglês?",
+      "lang": "en",
+      "options": [
+        "We are very happy. See you soon!",
+        "Hi, Bia! Can you hear me?",
+        "Yes, I can. Hi, Linda!"
+      ],
+      "correct": 0,
+      "explanation": "Happy = feliz."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Sim, estou. Oi, Linda!",
+      "answer": [
+        "Yes,",
+        "I",
+        "can.",
+        "Hi,",
+        "Linda!"
+      ],
+      "distractors": [
+        "this",
+        "emma"
+      ],
+      "explanation": "\"Yes, I can\" = Sim, estou (ouvindo). Se não ouvir: \"No, I can't.\""
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Yes, I can. Hi, Linda!",
+      "lang": "pt",
+      "options": [
+        "Sim, estou. Oi, Linda!",
+        "Nós estamos muito felizes. Até breve!",
+        "Até breve!"
+      ],
+      "correct": 0,
+      "explanation": "\"Yes, I can\" = Sim, estou (ouvindo). Se não ouvir: \"No, I can't.\""
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Linda",
+          "en": "Hi, Bia! Can you hear me?",
+          "pt": "Oi, Bia! Você está me ouvindo?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Sim, estou. Oi, Linda!",
+      "options": [
+        "Yes, I can. Hi, Linda!",
+        "We are very happy. See you soon!",
+        "See you soon!"
+      ],
+      "correct": 0,
+      "explanation": "\"Yes, I can\" = Sim, estou (ouvindo). Se não ouvir: \"No, I can't.\""
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A primeira chamada",
+      "questions": [
+        {
+          "english": "Hi, Bia! Can you hear me?",
+          "options": [
+            "Oi, Bia! Você está me ouvindo?",
+            "Esta é a Emma, a minha filha.",
+            "Oi, Bia! Prazer em te conhecer."
+          ],
+          "correct": 0,
+          "joke": "\"Can you hear me?\" = Você está me ouvindo? Ótimo para começar uma chamada."
+        },
+        {
+          "english": "Yes, I can. Hi, Linda!",
+          "options": [
+            "Até breve!",
+            "Sim, estou. Oi, Linda!",
+            "Oi, Bia! Você está me ouvindo?"
+          ],
+          "correct": 1,
+          "joke": "\"Yes, I can\" = Sim, estou (ouvindo). Se não ouvir: \"No, I can't.\""
+        },
+        {
+          "english": "This is Emma, my daughter.",
+          "options": [
+            "Prazer em te conhecer também, Emma.",
+            "Nós estamos muito felizes. Até breve!",
+            "Esta é a Emma, a minha filha."
+          ],
+          "correct": 2,
+          "joke": "\"This is...\" = Este / esta é... Para apresentar alguém."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Antes do embarque · Canadá",
+      "items": [
+        {
+          "emoji": "💻",
+          "title": "Primeira chamada",
+          "en": "Hi! Can you hear me?",
+          "pt": "A agência passa o contato da família quando a hospedagem é confirmada. Combine o horário (cuidado com o fuso) e teste câmera e microfone antes."
+        }
+      ]
+    }
+  ]
+}

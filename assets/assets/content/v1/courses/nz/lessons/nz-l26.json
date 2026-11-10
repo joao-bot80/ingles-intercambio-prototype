@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l26",
+  "title": "Na school office com Ms. Clarke",
+  "scenario": "Leo chega à secondary school neozelandesa do roteiro.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Na school office com Ms. Clarke",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Hello. I'm a new student. I'm Leo.",
+          "pt": "Olá. Eu sou um aluno novo. Sou o Leo."
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Kia ora, Leo! Welcome to the school office.",
+          "pt": "Kia ora, Leo! Bem-vindo à secretaria."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thank you. Who can help me?",
+          "pt": "Obrigado. Quem pode me ajudar?"
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "I can help you. And your dean can help too.",
+          "pt": "Eu posso te ajudar. E o seu dean também."
+        },
+        {
+          "speaker": "Leo",
+          "en": "I need help with my timetable.",
+          "pt": "Eu preciso de ajuda com o meu horário."
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "No problem. Here it is.",
+          "pt": "Sem problema. Aqui está."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "new student",
+          "pt": "aluno novo / aluna nova",
+          "emoji": "🆕"
+        },
+        {
+          "en": "school office",
+          "pt": "secretaria da escola",
+          "emoji": "🏢"
+        },
+        {
+          "en": "Who can help me?",
+          "pt": "Quem pode me ajudar?",
+          "emoji": "🙋"
+        },
+        {
+          "en": "dean",
+          "pt": "coordenador(a) do ano",
+          "emoji": "🧑‍💼"
+        },
+        {
+          "en": "I need help.",
+          "pt": "Eu preciso de ajuda.",
+          "emoji": "🆘"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Hello. I'm a new student. I'm Leo.\"?",
+      "lang": "pt",
+      "options": [
+        "Olá. Eu sou um aluno novo. Sou o Leo.",
+        "Sem problema. Aqui está.",
+        "Kia ora, Leo! Bem-vindo à secretaria."
+      ],
+      "correct": 0,
+      "explanation": "\"I'm a new student\" = sou um aluno novo."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Eu posso te ajudar. E o seu dean também.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Hello. I'm a new student. I'm Leo.",
+        "I can help you. And your dean can help too.",
+        "Kia ora, Leo! Welcome to the school office."
+      ],
+      "correct": 1,
+      "explanation": "O dean cuida dos alunos de um ano. O nome do cargo pode mudar em cada escola."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Olá. Eu sou um aluno novo. Sou o Leo.",
+      "answer": [
+        "Hello.",
+        "I'm",
+        "a",
+        "new",
+        "student.",
+        "I'm",
+        "Leo."
+      ],
+      "distractors": [
+        "need",
+        "with"
+      ],
+      "explanation": "\"I'm a new student\" = sou um aluno novo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Thank you. Who can help me?",
+      "lang": "pt",
+      "options": [
+        "Obrigado. Quem pode me ajudar?",
+        "Eu preciso de ajuda com o meu horário.",
+        "Sem problema. Aqui está."
+      ],
+      "correct": 0,
+      "explanation": "\"Who can help me?\" = Quem pode me ajudar?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ms. Clarke",
+          "en": "I can help you. And your dean can help too.",
+          "pt": "Eu posso te ajudar. E o seu dean também."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Eu preciso de ajuda com o meu horário.",
+      "options": [
+        "Hello. I'm a new student. I'm Leo.",
+        "I need help with my timetable.",
+        "Kia ora, Leo! Welcome to the school office."
+      ],
+      "correct": 1,
+      "explanation": "\"I need help with...\" = preciso de ajuda com..."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O primeiro dia",
+      "questions": [
+        {
+          "english": "Hello. I'm a new student. I'm Leo.",
+          "options": [
+            "Olá. Eu sou um aluno novo. Sou o Leo.",
+            "Kia ora, Leo! Bem-vindo à secretaria.",
+            "Obrigado. Quem pode me ajudar?"
+          ],
+          "correct": 0,
+          "joke": "\"I'm a new student\" = sou um aluno novo."
+        },
+        {
+          "english": "Thank you. Who can help me?",
+          "options": [
+            "Eu posso te ajudar. E o seu dean também.",
+            "Obrigado. Quem pode me ajudar?",
+            "Eu preciso de ajuda com o meu horário."
+          ],
+          "correct": 1,
+          "joke": "\"Who can help me?\" = Quem pode me ajudar?"
+        },
+        {
+          "english": "I need help with my timetable.",
+          "options": [
+            "Sem problema. Aqui está.",
+            "Eu preciso de ajuda com o meu horário.",
+            "Olá. Eu sou um aluno novo. Sou o Leo."
+          ],
+          "correct": 1,
+          "joke": "\"I need help with...\" = preciso de ajuda com..."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🗓️",
+          "title": "Turma-base e dean",
+          "en": "Where is my form class?",
+          "pt": "No começo do dia você costuma ir a uma turma-base (\"form class\", \"whānau class\" ou \"tutor group\": o nome muda de escola). Um \"dean\" cuida dos alunos de cada ano."
+        }
+      ]
+    }
+  ]
+}

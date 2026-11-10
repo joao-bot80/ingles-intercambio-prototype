@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l19",
+  "title": "Estudar e ficar com uma host family",
+  "scenario": "Bia responde no controle de passaportes com as informações fictícias do roteiro.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Estudar e ficar com uma host family",
+      "lines": [
+        {
+          "speaker": "Officer",
+          "en": "Good morning. Are you a tourist?",
+          "pt": "Bom dia. Você é turista?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "No. I'm a student. I'm here to study.",
+          "pt": "Não. Eu sou estudante. Estou aqui para estudar."
+        },
+        {
+          "speaker": "Officer",
+          "en": "How long will you stay?",
+          "pt": "Quanto tempo você vai ficar?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Five months.",
+          "pt": "Cinco meses."
+        },
+        {
+          "speaker": "Officer",
+          "en": "Where will you stay?",
+          "pt": "Onde você vai ficar?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "With a host family, in Auckland.",
+          "pt": "Com uma família anfitriã, em Auckland."
+        },
+        {
+          "speaker": "Officer",
+          "en": "Okay. Welcome to New Zealand.",
+          "pt": "Certo. Bem-vinda à Nova Zelândia."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "student",
+          "pt": "estudante",
+          "emoji": "🎒"
+        },
+        {
+          "en": "I'm here to study.",
+          "pt": "Estou aqui para estudar.",
+          "emoji": "📚"
+        },
+        {
+          "en": "months",
+          "pt": "meses",
+          "emoji": "🗓️"
+        },
+        {
+          "en": "host family",
+          "pt": "família anfitriã",
+          "emoji": "🏡"
+        },
+        {
+          "en": "tourist",
+          "pt": "turista",
+          "emoji": "📸"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"No. I'm a student. I'm here to study.\"?",
+      "lang": "pt",
+      "options": [
+        "Com uma família anfitriã, em Auckland.",
+        "Não. Eu sou estudante. Estou aqui para estudar.",
+        "Certo. Bem-vinda à Nova Zelândia."
+      ],
+      "correct": 1,
+      "explanation": "\"I'm here to study\" = estou aqui para estudar. Responda só a verdade."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Cinco meses.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "No. I'm a student. I'm here to study.",
+        "How long will you stay?",
+        "Five months."
+      ],
+      "correct": 2,
+      "explanation": "\"Five months\" = cinco meses. Diga a duração real da sua viagem."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Com uma família anfitriã, em Auckland.",
+      "answer": [
+        "With",
+        "a",
+        "host",
+        "family,",
+        "in",
+        "Auckland."
+      ],
+      "distractors": [
+        "zealand",
+        "good"
+      ],
+      "explanation": "\"With a host family\" = com uma família anfitriã."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "How long will you stay?",
+      "lang": "pt",
+      "options": [
+        "Quanto tempo você vai ficar?",
+        "Cinco meses.",
+        "Com uma família anfitriã, em Auckland."
+      ],
+      "correct": 0,
+      "explanation": "\"How long will you stay?\" = Quanto tempo você vai ficar?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Officer",
+          "en": "Where will you stay?",
+          "pt": "Onde você vai ficar?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Com uma família anfitriã, em Auckland.",
+      "options": [
+        "Five months.",
+        "With a host family, in Auckland.",
+        "Okay. Welcome to New Zealand."
+      ],
+      "correct": 1,
+      "explanation": "\"With a host family\" = com uma família anfitriã."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O controle de passaportes",
+      "questions": [
+        {
+          "english": "No. I'm a student. I'm here to study.",
+          "options": [
+            "Não. Eu sou estudante. Estou aqui para estudar.",
+            "Cinco meses.",
+            "Onde você vai ficar?"
+          ],
+          "correct": 0,
+          "joke": "\"I'm here to study\" = estou aqui para estudar. Responda só a verdade."
+        },
+        {
+          "english": "How long will you stay?",
+          "options": [
+            "Cinco meses.",
+            "Quanto tempo você vai ficar?",
+            "Com uma família anfitriã, em Auckland."
+          ],
+          "correct": 1,
+          "joke": "\"How long will you stay?\" = Quanto tempo você vai ficar?"
+        },
+        {
+          "english": "With a host family, in Auckland.",
+          "options": [
+            "Com uma família anfitriã, em Auckland.",
+            "Bom dia. Você é turista?",
+            "Não. Eu sou estudante. Estou aqui para estudar."
+          ],
+          "correct": 0,
+          "joke": "\"With a host family\" = com uma família anfitriã."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Aeroporto · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🛂",
+          "title": "Respostas curtas e verdadeiras",
+          "en": "I'm a student. Six months.",
+          "pt": "Na chegada você passa pelo controle de passaportes. Responda curto, com calma e só a verdade. Tenha em mãos a carta da escola e os documentos que a sua agência indicar. As regras de entrada mudam: confira sempre no site oficial (immigration.govt.nz)."
+        }
+      ]
+    }
+  ]
+}

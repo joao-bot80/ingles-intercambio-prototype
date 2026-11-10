@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l09",
+  "title": "Telefone e hora do encontro",
+  "scenario": "O grupo Canadá combina um encontro. O número é fictício, só para treinar.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Telefone e hora do encontro",
+      "lines": [
+        {
+          "speaker": "Sam",
+          "en": "What's your phone number, Leo?",
+          "pt": "Qual é o seu telefone, Leo?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "It's five, five, five... two, one, four, seven.",
+          "pt": "É cinco, cinco, cinco... dois, um, quatro, sete."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Thanks. The meeting is on Saturday.",
+          "pt": "Obrigada. O encontro é no sábado."
+        },
+        {
+          "speaker": "Leo",
+          "en": "What time?",
+          "pt": "Que horas?"
+        },
+        {
+          "speaker": "Sam",
+          "en": "At seven.",
+          "pt": "Às sete."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Seven?",
+          "pt": "Sete?"
+        },
+        {
+          "speaker": "Sam",
+          "en": "Sorry, seven thirty. Seven thirty in the morning.",
+          "pt": "Desculpa, sete e meia. Sete e meia da manhã."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "phone number",
+          "pt": "número de telefone",
+          "emoji": "📱"
+        },
+        {
+          "en": "What time?",
+          "pt": "Que horas?",
+          "emoji": "⏰"
+        },
+        {
+          "en": "seven",
+          "pt": "sete",
+          "emoji": "7️⃣"
+        },
+        {
+          "en": "seven thirty",
+          "pt": "sete e meia",
+          "emoji": "🕢"
+        },
+        {
+          "en": "thirty",
+          "pt": "trinta",
+          "emoji": "3️⃣0️⃣"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"What's your phone number, Leo?\"?",
+      "lang": "pt",
+      "options": [
+        "É cinco, cinco, cinco... dois, um, quatro, sete.",
+        "Obrigada. O encontro é no sábado.",
+        "Qual é o seu telefone, Leo?"
+      ],
+      "correct": 2,
+      "explanation": "\"What's your phone number?\" = Qual é o seu telefone? Dite um número de cada vez."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Às sete.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "What's your phone number, Leo?",
+        "At seven.",
+        "It's five, five, five... two, one, four, seven."
+      ],
+      "correct": 1,
+      "explanation": "\"At seven\" = às sete."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Qual é o seu telefone, Leo?",
+      "answer": [
+        "What's",
+        "your",
+        "phone",
+        "number,",
+        "Leo?"
+      ],
+      "distractors": [
+        "what",
+        "time"
+      ],
+      "explanation": "\"What's your phone number?\" = Qual é o seu telefone? Dite um número de cada vez."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "What time?",
+      "lang": "pt",
+      "options": [
+        "É cinco, cinco, cinco... dois, um, quatro, sete.",
+        "Obrigada. O encontro é no sábado.",
+        "Que horas?"
+      ],
+      "correct": 2,
+      "explanation": "\"What time?\" = Que horas?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sam",
+          "en": "Thanks. The meeting is on Saturday.",
+          "pt": "Obrigada. O encontro é no sábado."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Que horas?",
+      "options": [
+        "Seven?",
+        "Sorry, seven thirty. Seven thirty in the morning.",
+        "What time?"
+      ],
+      "correct": 2,
+      "explanation": "\"What time?\" = Que horas?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O encontro do grupo",
+      "questions": [
+        {
+          "english": "What's your phone number, Leo?",
+          "options": [
+            "Qual é o seu telefone, Leo?",
+            "Sete?",
+            "Desculpa, sete e meia. Sete e meia da manhã."
+          ],
+          "correct": 0,
+          "joke": "\"What's your phone number?\" = Qual é o seu telefone? Dite um número de cada vez."
+        },
+        {
+          "english": "What time?",
+          "options": [
+            "Sete?",
+            "Desculpa, sete e meia. Sete e meia da manhã.",
+            "Que horas?"
+          ],
+          "correct": 2,
+          "joke": "\"What time?\" = Que horas?"
+        },
+        {
+          "english": "Sorry, seven thirty. Seven thirty in the morning.",
+          "options": [
+            "Desculpa, sete e meia. Sete e meia da manhã.",
+            "Sete?",
+            "Qual é o seu telefone, Leo?"
+          ],
+          "correct": 0,
+          "joke": "\"Seven thirty\" = sete e meia (7h30). Thirty = trinta."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Primeiros passos · Canadá",
+      "items": [
+        {
+          "emoji": "📱",
+          "title": "Telefone canadense",
+          "en": "Four, one, six...",
+          "pt": "No Canadá, o número de telefone tem 10 dígitos: os três primeiros são o código da região. Ao ditar, muita gente fala \"oh\" no lugar de zero. Celular é \"cell phone\" ou só \"cell\"."
+        }
+      ]
+    }
+  ]
+}

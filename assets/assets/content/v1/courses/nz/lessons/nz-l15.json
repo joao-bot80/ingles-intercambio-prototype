@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l15",
+  "title": "Missão: chamada e mochila",
+  "scenario": "Bia confirma que ouve Jo e pergunta sobre o tempo; Leo confere documentos e o líder do grupo.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: chamada e mochila",
+      "lines": [
+        {
+          "speaker": "Jo",
+          "en": "Can you hear me, Bia?",
+          "pt": "Você está me ouvindo, Bia?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes, I can! Is it cold there?",
+          "pt": "Sim! Está frio aí?"
+        },
+        {
+          "speaker": "Jo",
+          "en": "A little. Bring a raincoat.",
+          "pt": "Um pouco. Traga uma capa de chuva."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Okay! See you soon, Jo!",
+          "pt": "Ok! Até breve, Jo!"
+        },
+        {
+          "speaker": "Sam",
+          "en": "Leo, do you have your passport?",
+          "pt": "Leo, você está com o seu passaporte?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes, I do. It's in my backpack.",
+          "pt": "Sim, estou. Está na minha mochila."
+        },
+        {
+          "speaker": "Sam",
+          "en": "Great! Where is your group leader?",
+          "pt": "Ótimo! Onde está o líder do seu grupo?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Here! You are my group leader!",
+          "pt": "Aqui! Você é a líder do meu grupo!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Can you hear me?",
+          "pt": "Você está me ouvindo?",
+          "emoji": "👂"
+        },
+        {
+          "en": "raincoat",
+          "pt": "capa de chuva",
+          "emoji": "🧥"
+        },
+        {
+          "en": "passport",
+          "pt": "passaporte",
+          "emoji": "🛂"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Can you hear me, Bia?\"?",
+      "lang": "pt",
+      "options": [
+        "Ok! Até breve, Jo!",
+        "Você está me ouvindo, Bia?",
+        "Leo, você está com o seu passaporte?"
+      ],
+      "correct": 1,
+      "explanation": "Comece a chamada com \"Can you hear me?\""
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Ótimo! Onde está o líder do seu grupo?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Great! Where is your group leader?",
+        "Leo, do you have your passport?",
+        "Yes, I do. It's in my backpack."
+      ],
+      "correct": 0,
+      "explanation": "\"Where is your group leader?\" = Onde está o líder do seu grupo?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Sim, estou. Está na minha mochila.",
+      "answer": [
+        "Yes,",
+        "I",
+        "do.",
+        "It's",
+        "in",
+        "my",
+        "backpack."
+      ],
+      "distractors": [
+        "see",
+        "soon"
+      ],
+      "explanation": "Documentos sempre na mochila."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "A little. Bring a raincoat.",
+      "lang": "pt",
+      "options": [
+        "Um pouco. Traga uma capa de chuva.",
+        "Aqui! Você é a líder do meu grupo!",
+        "Você está me ouvindo, Bia?"
+      ],
+      "correct": 0,
+      "explanation": "\"Bring a raincoat\" = traga uma capa de chuva."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Sam",
+          "en": "Leo, do you have your passport?",
+          "pt": "Leo, você está com o seu passaporte?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Sim, estou. Está na minha mochila.",
+      "options": [
+        "Here! You are my group leader!",
+        "Yes, I do. It's in my backpack.",
+        "Can you hear me, Bia?"
+      ],
+      "correct": 1,
+      "explanation": "Documentos sempre na mochila."
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "Pronto para embarcar",
+      "questions": [
+        {
+          "english": "Can you hear me, Bia?",
+          "options": [
+            "Sim! Está frio aí?",
+            "Um pouco. Traga uma capa de chuva.",
+            "Você está me ouvindo, Bia?"
+          ],
+          "correct": 2,
+          "joke": "Comece a chamada com \"Can you hear me?\""
+        },
+        {
+          "english": "A little. Bring a raincoat.",
+          "options": [
+            "Ótimo! Onde está o líder do seu grupo?",
+            "Um pouco. Traga uma capa de chuva.",
+            "Aqui! Você é a líder do meu grupo!"
+          ],
+          "correct": 1,
+          "joke": "\"Bring a raincoat\" = traga uma capa de chuva."
+        },
+        {
+          "english": "Yes, I do. It's in my backpack.",
+          "options": [
+            "Sim! Está frio aí?",
+            "Um pouco. Traga uma capa de chuva.",
+            "Sim, estou. Está na minha mochila."
+          ],
+          "correct": 2,
+          "joke": "Documentos sempre na mochila."
+        },
+        {
+          "english": "Great! Where is your group leader?",
+          "options": [
+            "Leo, você está com o seu passaporte?",
+            "Ótimo! Onde está o líder do seu grupo?",
+            "Sim, estou. Está na minha mochila."
+          ],
+          "correct": 1,
+          "joke": "\"Where is your group leader?\" = Onde está o líder do seu grupo?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Antes do embarque · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🎫",
+          "title": "Boarding pass",
+          "en": "Boarding pass, please.",
+          "pt": "Guarde o cartão de embarque (no papel ou no celular) até sair do avião. Na conexão, confira o portão nos painéis: ele pode mudar!"
+        }
+      ]
+    }
+  ]
+}
