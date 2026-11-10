@@ -302,7 +302,7 @@
   "units": [
     {
       "id": "nz-u01",
-      "title": "1. Primeiras falas para a NZ",
+      "title": "Primeiras falas para a NZ",
       "subtitle": "Cumprimentar, dizer nome e origem, pedir repetição",
       "emoji": "👋",
       "lessons": [
@@ -315,7 +315,7 @@
     },
     {
       "id": "nz-u02",
-      "title": "2. Nome, idade e horário da chamada",
+      "title": "Nome, idade e horário da chamada",
       "subtitle": "Números, idade, soletrar e telefone",
       "emoji": "🔢",
       "lessons": [
@@ -328,7 +328,7 @@
     },
     {
       "id": "nz-u03",
-      "title": "3. Preparar a viagem à Nova Zelândia",
+      "title": "Preparar a viagem à Nova Zelândia",
       "subtitle": "Chamada com Jo, documentos, grupo e chuva",
       "emoji": "🧳",
       "lessons": [
@@ -390,7 +390,7 @@
     },
     {
       "id": "nz-u04",
-      "title": "4. Voo, chegada e declaração",
+      "title": "Voo, chegada e declaração",
       "subtitle": "Conexão, estudo, hospedagem e declaração",
       "emoji": "✈️",
       "lessons": [
@@ -403,7 +403,7 @@
     },
     {
       "id": "nz-u05",
-      "title": "5. Minha casa com Jo e Mark",
+      "title": "Minha casa com Jo e Mark",
       "subtitle": "Bagagem, toilet, rotina, aquecedor e jantar",
       "emoji": "🏠",
       "lessons": [
@@ -416,7 +416,7 @@
     },
     {
       "id": "nz-u06",
-      "title": "6. Entrar na escola neozelandesa",
+      "title": "Entrar na escola neozelandesa",
       "subtitle": "School office, timetable, form class e interval",
       "emoji": "🏫",
       "lessons": [
@@ -429,7 +429,7 @@
     },
     {
       "id": "nz-u07",
-      "title": "7. Entender e buscar apoio",
+      "title": "Entender e buscar apoio",
       "subtitle": "Comandos, perguntas, tarefa e dean",
       "emoji": "📚",
       "lessons": [
@@ -442,7 +442,7 @@
     },
     {
       "id": "nz-u08",
-      "title": "8. Amizades, convites e consentimento",
+      "title": "Amizades, convites e consentimento",
       "subtitle": "Ben e Ruby, esportes, recusa e fotos",
       "emoji": "🤝",
       "lessons": [
@@ -455,7 +455,7 @@
     },
     {
       "id": "nz-u09",
-      "title": "9. Ônibus, rua e retorno",
+      "title": "Ônibus, rua e retorno",
       "subtitle": "Cartão, across the road, direções e contato",
       "emoji": "🚌",
       "lessons": [
@@ -468,7 +468,7 @@
     },
     {
       "id": "nz-u10",
-      "title": "10. Comer, sair e comprar na NZ",
+      "title": "Comer, sair e comprar na NZ",
       "subtitle": "Restrições, chuva, passeio, shop e EFTPOS",
       "emoji": "🛍️",
       "lessons": [
@@ -481,7 +481,7 @@
     },
     {
       "id": "nz-u11",
-      "title": "11. Saúde e segurança neozelandesa",
+      "title": "Saúde e segurança neozelandesa",
       "subtitle": "GP, chemist, 111, terremoto e tsunami",
       "emoji": "🩺",
       "lessons": [
@@ -494,7 +494,7 @@
     },
     {
       "id": "nz-u12",
-      "title": "12. Vida kiwi com respeito",
+      "title": "Vida kiwi com respeito",
       "subtitle": "Dairy, jandals, te reo Māori e missões finais",
       "emoji": "🥝",
       "lessons": [

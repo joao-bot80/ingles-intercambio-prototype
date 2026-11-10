@@ -296,7 +296,7 @@
   "units": [
     {
       "id": "ca-u01",
-      "title": "1. Começar do zero",
+      "title": "Começar do zero",
       "subtitle": "Cumprimentar, dizer nome e origem, pedir repetição",
       "emoji": "👋",
       "lessons": [
@@ -309,7 +309,7 @@
     },
     {
       "id": "ca-u02",
-      "title": "2. Meus dados e meus horários",
+      "title": "Meus dados e meus horários",
       "subtitle": "Números, idade, soletrar e telefone",
       "emoji": "🔢",
       "lessons": [
@@ -322,7 +322,7 @@
     },
     {
       "id": "ca-u03",
-      "title": "3. Preparar a viagem ao Canadá",
+      "title": "Preparar a viagem ao Canadá",
       "subtitle": "Chamada com Linda, mochila, grupo e roupa",
       "emoji": "🧳",
       "lessons": [
@@ -382,7 +382,7 @@
     },
     {
       "id": "ca-u04",
-      "title": "4. Aeroporto e fronteira canadense",
+      "title": "Aeroporto e fronteira canadense",
       "subtitle": "Assento, portão, conexão e fronteira",
       "emoji": "✈️",
       "lessons": [
@@ -395,7 +395,7 @@
     },
     {
       "id": "ca-u05",
-      "title": "5. Chegar e combinar a casa",
+      "title": "Chegar e combinar a casa",
       "subtitle": "Bagagem, casa de Linda, rotina e jantar",
       "emoji": "🏠",
       "lessons": [
@@ -408,7 +408,7 @@
     },
     {
       "id": "ca-u06",
-      "title": "6. Encontrar meu lugar na high school",
+      "title": "Encontrar meu lugar na high school",
       "subtitle": "Counsellor, schedule, sala, locker e almoço",
       "emoji": "🏫",
       "lessons": [
@@ -421,7 +421,7 @@
     },
     {
       "id": "ca-u07",
-      "title": "7. Aprender a acompanhar a aula",
+      "title": "Aprender a acompanhar a aula",
       "subtitle": "Comandos, esclarecimento, tarefa e apoio",
       "emoji": "📚",
       "lessons": [
@@ -434,7 +434,7 @@
     },
     {
       "id": "ca-u08",
-      "title": "8. Fazer amigos e colocar limites",
+      "title": "Fazer amigos e colocar limites",
       "subtitle": "Convites, interesses, recusa e fotos",
       "emoji": "🤝",
       "lessons": [
@@ -447,7 +447,7 @@
     },
     {
       "id": "ca-u09",
-      "title": "9. Circular e voltar em segurança",
+      "title": "Circular e voltar em segurança",
       "subtitle": "Ônibus, cartão, direções e contato",
       "emoji": "🚌",
       "lessons": [
@@ -460,7 +460,7 @@
     },
     {
       "id": "ca-u10",
-      "title": "10. Comer, vestir e comprar",
+      "title": "Comer, vestir e comprar",
       "subtitle": "Alergias, frio, chuva, mittens e loja",
       "emoji": "🧤",
       "lessons": [
@@ -473,7 +473,7 @@
     },
     {
       "id": "ca-u11",
-      "title": "11. Saúde, proteção e ajuda",
+      "title": "Saúde, proteção e ajuda",
       "subtitle": "Sintomas, farmácia, 911 e adulto de confiança",
       "emoji": "🩺",
       "lessons": [
@@ -486,7 +486,7 @@
     },
     {
       "id": "ca-u12",
-      "title": "12. Participar do cotidiano canadense",
+      "title": "Participar do cotidiano canadense",
       "subtitle": "Café, poutine, diversidade e missões finais",
       "emoji": "🍁",
       "lessons": [
