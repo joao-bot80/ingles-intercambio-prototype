@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l34",
+  "title": "Não consegui entregar",
+  "scenario": "Bia conta à counsellor que não entendeu uma atividade. Pedir apoio é normal.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Não consegui entregar",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Ms. Lee, I need help with this.",
+          "pt": "Ms. Lee, eu preciso de ajuda com isto."
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "Of course, Bia. What is the problem?",
+          "pt": "Claro, Bia. Qual é o problema?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I don't understand the task.",
+          "pt": "Eu não entendo a tarefa."
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "That's okay. It's a new school.",
+          "pt": "Tudo bem. É uma escola nova."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Can you show me?",
+          "pt": "Pode me mostrar?"
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "Yes. Look, first read, then write three lines.",
+          "pt": "Sim. Olha, primeiro leia, depois escreva três linhas."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Okay. Now I understand. Thank you!",
+          "pt": "Ok. Agora eu entendi. Obrigada!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "I need help with this.",
+          "pt": "Eu preciso de ajuda com isto.",
+          "emoji": "🆘"
+        },
+        {
+          "en": "task",
+          "pt": "tarefa / atividade",
+          "emoji": "📋"
+        },
+        {
+          "en": "Can you show me?",
+          "pt": "Pode me mostrar?",
+          "emoji": "👉"
+        },
+        {
+          "en": "first ... then...",
+          "pt": "primeiro ... depois...",
+          "emoji": "1️⃣"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Ms. Lee, I need help with this.\"?",
+      "lang": "pt",
+      "options": [
+        "Ok. Agora eu entendi. Obrigada!",
+        "Ms. Lee, eu preciso de ajuda com isto.",
+        "Claro, Bia. Qual é o problema?"
+      ],
+      "correct": 1,
+      "explanation": "\"I need help with this\" = preciso de ajuda com isto."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Ok. Agora eu entendi. Obrigada!\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Can you show me?",
+        "Yes. Look, first read, then write three lines.",
+        "Okay. Now I understand. Thank you!"
+      ],
+      "correct": 2,
+      "explanation": "\"Now I understand\" = agora eu entendi."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Ms. Lee, eu preciso de ajuda com isto.",
+      "answer": [
+        "Ms.",
+        "Lee,",
+        "I",
+        "need",
+        "help",
+        "with",
+        "this."
+      ],
+      "distractors": [
+        "that's",
+        "okay"
+      ],
+      "explanation": "\"I need help with this\" = preciso de ajuda com isto."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "I don't understand the task.",
+      "lang": "pt",
+      "options": [
+        "Ms. Lee, eu preciso de ajuda com isto.",
+        "Claro, Bia. Qual é o problema?",
+        "Eu não entendo a tarefa."
+      ],
+      "correct": 2,
+      "explanation": "\"I don't understand the task\" = não entendo a tarefa."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ms. Lee",
+          "en": "That's okay. It's a new school.",
+          "pt": "Tudo bem. É uma escola nova."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Pode me mostrar?",
+      "options": [
+        "I don't understand the task.",
+        "Can you show me?",
+        "Yes. Look, first read, then write three lines."
+      ],
+      "correct": 1,
+      "explanation": "\"Can you show me?\" = Pode me mostrar?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A tarefa difícil",
+      "questions": [
+        {
+          "english": "Ms. Lee, I need help with this.",
+          "options": [
+            "Pode me mostrar?",
+            "Ms. Lee, eu preciso de ajuda com isto.",
+            "Sim. Olha, primeiro leia, depois escreva três linhas."
+          ],
+          "correct": 1,
+          "joke": "\"I need help with this\" = preciso de ajuda com isto."
+        },
+        {
+          "english": "I don't understand the task.",
+          "options": [
+            "Eu não entendo a tarefa.",
+            "Tudo bem. É uma escola nova.",
+            "Pode me mostrar?"
+          ],
+          "correct": 0,
+          "joke": "\"I don't understand the task\" = não entendo a tarefa."
+        },
+        {
+          "english": "Can you show me?",
+          "options": [
+            "Claro, Bia. Qual é o problema?",
+            "Eu não entendo a tarefa.",
+            "Pode me mostrar?"
+          ],
+          "correct": 2,
+          "joke": "\"Can you show me?\" = Pode me mostrar?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Canadá",
+      "items": [
+        {
+          "emoji": "🧑‍💼",
+          "title": "Counsellor",
+          "en": "If you need help, come to my office.",
+          "pt": "O counsellor é o seu ponto de apoio na escola: horário, troca de matéria, dificuldades e até saudade de casa. Procure sem vergonha."
+        }
+      ]
+    }
+  ]
+}

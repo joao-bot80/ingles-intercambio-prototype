@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l41",
+  "title": "Este ônibus passa na biblioteca?",
+  "scenario": "Jo ensaia com Bia um trajeto de ônibus em Auckland. Linha e cartão são só exemplos.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Este ônibus passa na biblioteca?",
+      "lines": [
+        {
+          "speaker": "Jo",
+          "en": "Let's practise. I'm the bus driver.",
+          "pt": "Vamos praticar. Eu sou a motorista."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Excuse me. Does this bus go to the library?",
+          "pt": "Com licença. Este ônibus vai para a biblioteca?"
+        },
+        {
+          "speaker": "Jo",
+          "en": "No, sorry. Take the number nine.",
+          "pt": "Não, desculpa. Pegue o número nove."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Where is the bus stop for the number nine?",
+          "pt": "Onde fica o ponto do número nove?"
+        },
+        {
+          "speaker": "Jo",
+          "en": "It's over there, next to the dairy.",
+          "pt": "Fica ali, ao lado da lojinha."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thank you!",
+          "pt": "Obrigada!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "bus",
+          "pt": "ônibus",
+          "emoji": "🚌"
+        },
+        {
+          "en": "library",
+          "pt": "biblioteca",
+          "emoji": "📚"
+        },
+        {
+          "en": "bus stop",
+          "pt": "ponto de ônibus",
+          "emoji": "🚏"
+        },
+        {
+          "en": "Take the number nine.",
+          "pt": "Pegue o número nove.",
+          "emoji": "9️⃣"
+        },
+        {
+          "en": "bus driver",
+          "pt": "motorista de ônibus",
+          "emoji": "🧑‍✈️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me. Does this bus go to the library?\"?",
+      "lang": "pt",
+      "options": [
+        "Fica ali, ao lado da lojinha.",
+        "Obrigada!",
+        "Com licença. Este ônibus vai para a biblioteca?"
+      ],
+      "correct": 2,
+      "explanation": "\"Does this bus go to the library?\" = Este ônibus vai para a biblioteca?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Fica ali, ao lado da lojinha.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Excuse me. Does this bus go to the library?",
+        "It's over there, next to the dairy.",
+        "No, sorry. Take the number nine."
+      ],
+      "correct": 1,
+      "explanation": "\"Dairy\" = lojinha de esquina na NZ."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Não, desculpa. Pegue o número nove.",
+      "answer": [
+        "No,",
+        "sorry.",
+        "Take",
+        "the",
+        "number",
+        "nine."
+      ],
+      "distractors": [
+        "dairy",
+        "thank"
+      ],
+      "explanation": "\"Take the number nine\" = pegue o número nove."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "No, sorry. Take the number nine.",
+      "lang": "pt",
+      "options": [
+        "Não, desculpa. Pegue o número nove.",
+        "Obrigada!",
+        "Vamos praticar. Eu sou a motorista."
+      ],
+      "correct": 0,
+      "explanation": "\"Take the number nine\" = pegue o número nove."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Jo",
+          "en": "No, sorry. Take the number nine.",
+          "pt": "Não, desculpa. Pegue o número nove."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Onde fica o ponto do número nove?",
+      "options": [
+        "Where is the bus stop for the number nine?",
+        "Excuse me. Does this bus go to the library?",
+        "It's over there, next to the dairy."
+      ],
+      "correct": 0,
+      "explanation": "\"Where is the bus stop?\" = Onde fica o ponto de ônibus?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O ônibus certo",
+      "questions": [
+        {
+          "english": "Excuse me. Does this bus go to the library?",
+          "options": [
+            "Com licença. Este ônibus vai para a biblioteca?",
+            "Vamos praticar. Eu sou a motorista.",
+            "Não, desculpa. Pegue o número nove."
+          ],
+          "correct": 0,
+          "joke": "\"Does this bus go to the library?\" = Este ônibus vai para a biblioteca?"
+        },
+        {
+          "english": "No, sorry. Take the number nine.",
+          "options": [
+            "Onde fica o ponto do número nove?",
+            "Fica ali, ao lado da lojinha.",
+            "Não, desculpa. Pegue o número nove."
+          ],
+          "correct": 2,
+          "joke": "\"Take the number nine\" = pegue o número nove."
+        },
+        {
+          "english": "Where is the bus stop for the number nine?",
+          "options": [
+            "Não, desculpa. Pegue o número nove.",
+            "Onde fica o ponto do número nove?",
+            "Fica ali, ao lado da lojinha."
+          ],
+          "correct": 1,
+          "joke": "\"Where is the bus stop?\" = Onde fica o ponto de ônibus?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Cidade · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🙏",
+          "title": "Agradeça ao motorista",
+          "en": "Thank you!",
+          "pt": "É comum agradecer ao motorista ao descer do ônibus: \"Thank you!\"."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l31",
+  "title": "Abra na página dez",
+  "scenario": "Mr. Brown orienta Bia numa aula da escola canadense.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Abra na página dez",
+      "lines": [
+        {
+          "speaker": "Mr. Brown",
+          "en": "Good morning, class. Open your book, please.",
+          "pt": "Bom dia, turma. Abram o livro, por favor."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Which page?",
+          "pt": "Qual página?"
+        },
+        {
+          "speaker": "Mr. Brown",
+          "en": "Page ten. Listen, please.",
+          "pt": "Página dez. Escutem, por favor."
+        },
+        {
+          "speaker": "Mr. Brown",
+          "en": "Now read the first line.",
+          "pt": "Agora leiam a primeira linha."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Okay. Read the first line.",
+          "pt": "Ok. Ler a primeira linha."
+        },
+        {
+          "speaker": "Mr. Brown",
+          "en": "Very good, Bia!",
+          "pt": "Muito bem, Bia!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Open your book.",
+          "pt": "Abra o seu livro.",
+          "emoji": "📖"
+        },
+        {
+          "en": "page",
+          "pt": "página",
+          "emoji": "📄"
+        },
+        {
+          "en": "Listen.",
+          "pt": "Escute.",
+          "emoji": "👂"
+        },
+        {
+          "en": "Read.",
+          "pt": "Leia.",
+          "emoji": "👀"
+        },
+        {
+          "en": "line",
+          "pt": "linha",
+          "emoji": "➖"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Good morning, class. Open your book, please.\"?",
+      "lang": "pt",
+      "options": [
+        "Muito bem, Bia!",
+        "Bom dia, turma. Abram o livro, por favor.",
+        "Qual página?"
+      ],
+      "correct": 1,
+      "explanation": "\"Open your book\" = abra o seu livro."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Qual página?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Very good, Bia!",
+        "Which page?",
+        "Good morning, class. Open your book, please."
+      ],
+      "correct": 1,
+      "explanation": "\"Which page?\" = Qual página?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Bom dia, turma. Abram o livro, por favor.",
+      "answer": [
+        "Good",
+        "morning,",
+        "class.",
+        "Open",
+        "your",
+        "book,",
+        "please."
+      ],
+      "distractors": [
+        "first",
+        "line"
+      ],
+      "explanation": "\"Open your book\" = abra o seu livro."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Page ten. Listen, please.",
+      "lang": "pt",
+      "options": [
+        "Página dez. Escutem, por favor.",
+        "Agora leiam a primeira linha.",
+        "Ok. Ler a primeira linha."
+      ],
+      "correct": 0,
+      "explanation": "\"Page ten\" = página dez. \"Listen\" = escute."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Mr. Brown",
+          "en": "Good morning, class. Open your book, please.",
+          "pt": "Bom dia, turma. Abram o livro, por favor."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Qual página?",
+      "options": [
+        "Okay. Read the first line.",
+        "Very good, Bia!",
+        "Which page?"
+      ],
+      "correct": 2,
+      "explanation": "\"Which page?\" = Qual página?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A primeira aula",
+      "questions": [
+        {
+          "english": "Good morning, class. Open your book, please.",
+          "options": [
+            "Qual página?",
+            "Bom dia, turma. Abram o livro, por favor.",
+            "Página dez. Escutem, por favor."
+          ],
+          "correct": 1,
+          "joke": "\"Open your book\" = abra o seu livro."
+        },
+        {
+          "english": "Page ten. Listen, please.",
+          "options": [
+            "Muito bem, Bia!",
+            "Página dez. Escutem, por favor.",
+            "Bom dia, turma. Abram o livro, por favor."
+          ],
+          "correct": 1,
+          "joke": "\"Page ten\" = página dez. \"Listen\" = escute."
+        },
+        {
+          "english": "Now read the first line.",
+          "options": [
+            "Página dez. Escutem, por favor.",
+            "Ok. Ler a primeira linha.",
+            "Agora leiam a primeira linha."
+          ],
+          "correct": 2,
+          "joke": "\"Read\" = leia. \"The first line\" = a primeira linha."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Canadá",
+      "items": [
+        {
+          "emoji": "✋",
+          "title": "Perguntar é normal",
+          "en": "What does this mean?",
+          "pt": "Nas escolas norte-americanas, perguntar é visto como interesse. Levante a mão e use: \"What does ___ mean?\""
+        }
+      ]
+    }
+  ]
+}

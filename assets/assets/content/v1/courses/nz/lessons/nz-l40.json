@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l40",
+  "title": "Missão: amizade com respeito",
+  "scenario": "Leo entra numa conversa com Ben, Bia decide sobre um passeio e os dois escolhem sobre fotos.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: amizade com respeito",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Can I sit here?",
+          "pt": "Posso sentar aqui?"
+        },
+        {
+          "speaker": "Ben",
+          "en": "Sure! Do you want to go to the beach on Saturday?",
+          "pt": "Claro! Quer ir à praia no sábado?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I need to ask my host family.",
+          "pt": "Preciso perguntar à minha família anfitriã."
+        },
+        {
+          "speaker": "Ruby",
+          "en": "Bia, do you want to come?",
+          "pt": "Bia, você quer vir?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "No, thanks. Maybe tomorrow.",
+          "pt": "Não, obrigada. Talvez amanhã."
+        },
+        {
+          "speaker": "Ben",
+          "en": "Can I take a photo?",
+          "pt": "Posso tirar uma foto?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes, but please don't post it.",
+          "pt": "Pode, mas por favor não poste."
+        },
+        {
+          "speaker": "Ben",
+          "en": "Okay, no worries.",
+          "pt": "Ok, sem problemas."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Can I sit here?",
+          "pt": "Posso sentar aqui?",
+          "emoji": "🙋"
+        },
+        {
+          "en": "I need to ask my host family.",
+          "pt": "Preciso perguntar à minha família anfitriã.",
+          "emoji": "🏠"
+        },
+        {
+          "en": "Please don't post it.",
+          "pt": "Por favor, não poste.",
+          "emoji": "🚫"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Can I sit here?\"?",
+      "lang": "pt",
+      "options": [
+        "Ok, sem problemas.",
+        "Posso sentar aqui?",
+        "Claro! Quer ir à praia no sábado?"
+      ],
+      "correct": 1,
+      "explanation": "\"Can I sit here?\" = Posso sentar aqui?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Pode, mas por favor não poste.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "No, thanks. Maybe tomorrow.",
+        "Can I take a photo?",
+        "Yes, but please don't post it."
+      ],
+      "correct": 2,
+      "explanation": "\"Please don't post it\" = por favor, não poste."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Posso sentar aqui?",
+      "answer": [
+        "Can",
+        "I",
+        "sit",
+        "here?"
+      ],
+      "distractors": [
+        "worries",
+        "sure"
+      ],
+      "explanation": "\"Can I sit here?\" = Posso sentar aqui?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "I need to ask my host family.",
+      "lang": "pt",
+      "options": [
+        "Preciso perguntar à minha família anfitriã.",
+        "Posso tirar uma foto?",
+        "Pode, mas por favor não poste."
+      ],
+      "correct": 0,
+      "explanation": "\"I need to ask my host family\" = preciso perguntar à minha família anfitriã."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ruby",
+          "en": "Bia, do you want to come?",
+          "pt": "Bia, você quer vir?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Não, obrigada. Talvez amanhã.",
+      "options": [
+        "No, thanks. Maybe tomorrow.",
+        "Yes, but please don't post it.",
+        "Okay, no worries."
+      ],
+      "correct": 0,
+      "explanation": "\"No, thanks. Maybe tomorrow\" = não, obrigada. Talvez amanhã."
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "Um sábado com amigos",
+      "questions": [
+        {
+          "english": "Can I sit here?",
+          "options": [
+            "Claro! Quer ir à praia no sábado?",
+            "Preciso perguntar à minha família anfitriã.",
+            "Posso sentar aqui?"
+          ],
+          "correct": 2,
+          "joke": "\"Can I sit here?\" = Posso sentar aqui?"
+        },
+        {
+          "english": "I need to ask my host family.",
+          "options": [
+            "Posso tirar uma foto?",
+            "Preciso perguntar à minha família anfitriã.",
+            "Pode, mas por favor não poste."
+          ],
+          "correct": 1,
+          "joke": "\"I need to ask my host family\" = preciso perguntar à minha família anfitriã."
+        },
+        {
+          "english": "No, thanks. Maybe tomorrow.",
+          "options": [
+            "Claro! Quer ir à praia no sábado?",
+            "Preciso perguntar à minha família anfitriã.",
+            "Não, obrigada. Talvez amanhã."
+          ],
+          "correct": 2,
+          "joke": "\"No, thanks. Maybe tomorrow\" = não, obrigada. Talvez amanhã."
+        },
+        {
+          "english": "Yes, but please don't post it.",
+          "options": [
+            "Ok, sem problemas.",
+            "Pode, mas por favor não poste.",
+            "Posso sentar aqui?"
+          ],
+          "correct": 1,
+          "joke": "\"Please don't post it\" = por favor, não poste."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🤝",
+          "title": "Amizade com respeito",
+          "en": "No, thanks. Maybe tomorrow.",
+          "pt": "Bons amigos respeitam um \"não\". Combine sempre com a família anfitriã antes de sair, e respeite também as escolhas dos colegas."
+        }
+      ]
+    }
+  ]
+}

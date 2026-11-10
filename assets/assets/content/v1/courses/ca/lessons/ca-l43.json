@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l43",
+  "title": "Do ponto à biblioteca",
+  "scenario": "Bia segue instruções curtas numa rua canadense fictícia.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Do ponto à biblioteca",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Excuse me. How do I get to the library?",
+          "pt": "Com licença. Como eu chego à biblioteca?"
+        },
+        {
+          "speaker": "Passerby",
+          "en": "Go straight.",
+          "pt": "Siga reto."
+        },
+        {
+          "speaker": "Passerby",
+          "en": "At the traffic light, turn left.",
+          "pt": "No semáforo, vire à esquerda."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Turn left at the traffic light?",
+          "pt": "Virar à esquerda no semáforo?"
+        },
+        {
+          "speaker": "Passerby",
+          "en": "Yes. The library is on the right.",
+          "pt": "Isso. A biblioteca fica à direita."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Is it far?",
+          "pt": "É longe?"
+        },
+        {
+          "speaker": "Passerby",
+          "en": "No, it's five minutes.",
+          "pt": "Não, são cinco minutos."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "How do I get to...?",
+          "pt": "Como eu chego a...?",
+          "emoji": "🗺️"
+        },
+        {
+          "en": "Go straight.",
+          "pt": "Siga reto.",
+          "emoji": "⬆️"
+        },
+        {
+          "en": "Turn left.",
+          "pt": "Vire à esquerda.",
+          "emoji": "⬅️"
+        },
+        {
+          "en": "traffic light",
+          "pt": "semáforo",
+          "emoji": "🚦"
+        },
+        {
+          "en": "far",
+          "pt": "longe",
+          "emoji": "📏"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me. How do I get to the library?\"?",
+      "lang": "pt",
+      "options": [
+        "Isso. A biblioteca fica à direita.",
+        "É longe?",
+        "Com licença. Como eu chego à biblioteca?"
+      ],
+      "correct": 2,
+      "explanation": "\"How do I get to the library?\" = Como eu chego à biblioteca?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Siga reto.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Excuse me. How do I get to the library?",
+        "Go straight.",
+        "At the traffic light, turn left."
+      ],
+      "correct": 1,
+      "explanation": "\"Go straight\" = siga reto."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "No semáforo, vire à esquerda.",
+      "answer": [
+        "At",
+        "the",
+        "traffic",
+        "light,",
+        "turn",
+        "left."
+      ],
+      "distractors": [
+        "excuse",
+        "how"
+      ],
+      "explanation": "\"Turn left\" = vire à esquerda. \"Traffic light\" = semáforo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "At the traffic light, turn left.",
+      "lang": "pt",
+      "options": [
+        "Com licença. Como eu chego à biblioteca?",
+        "Siga reto.",
+        "No semáforo, vire à esquerda."
+      ],
+      "correct": 2,
+      "explanation": "\"Turn left\" = vire à esquerda. \"Traffic light\" = semáforo."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Passerby",
+          "en": "Go straight.",
+          "pt": "Siga reto."
+        }
+      ],
+      "speaker": "Passerby",
+      "pt": "No semáforo, vire à esquerda.",
+      "options": [
+        "Yes. The library is on the right.",
+        "At the traffic light, turn left.",
+        "Is it far?"
+      ],
+      "correct": 1,
+      "explanation": "\"Turn left\" = vire à esquerda. \"Traffic light\" = semáforo."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O caminho",
+      "questions": [
+        {
+          "english": "Excuse me. How do I get to the library?",
+          "options": [
+            "Siga reto.",
+            "No semáforo, vire à esquerda.",
+            "Com licença. Como eu chego à biblioteca?"
+          ],
+          "correct": 2,
+          "joke": "\"How do I get to the library?\" = Como eu chego à biblioteca?"
+        },
+        {
+          "english": "At the traffic light, turn left.",
+          "options": [
+            "No semáforo, vire à esquerda.",
+            "Com licença. Como eu chego à biblioteca?",
+            "Siga reto."
+          ],
+          "correct": 0,
+          "joke": "\"Turn left\" = vire à esquerda. \"Traffic light\" = semáforo."
+        },
+        {
+          "english": "Yes. The library is on the right.",
+          "options": [
+            "Não, são cinco minutos.",
+            "Isso. A biblioteca fica à direita.",
+            "Com licença. Como eu chego à biblioteca?"
+          ],
+          "correct": 1,
+          "joke": "\"On the right\" = à direita."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Cidade · Canadá",
+      "items": [
+        {
+          "emoji": "📍",
+          "title": "Endereço sempre com você",
+          "en": "Is it far?",
+          "pt": "Tenha o endereço da família anfitriã salvo no celular E no papel. Se se perder, pergunte a um adulto ou entre numa loja."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l39",
+  "title": "Minha foto, minha escolha",
+  "scenario": "Jake pede uma foto para o grupo da escola; Leo diz o que aceita.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Minha foto, minha escolha",
+      "lines": [
+        {
+          "speaker": "Jake",
+          "en": "Can I take a photo?",
+          "pt": "Posso tirar uma foto?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Okay, one photo.",
+          "pt": "Ok, uma foto."
+        },
+        {
+          "speaker": "Jake",
+          "en": "Can I post it?",
+          "pt": "Posso postar?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Please don't post it.",
+          "pt": "Por favor, não poste."
+        },
+        {
+          "speaker": "Jake",
+          "en": "Okay, no problem.",
+          "pt": "Ok, sem problema."
+        },
+        {
+          "speaker": "Maya",
+          "en": "And me? Can I take a photo of you?",
+          "pt": "E eu? Posso tirar uma foto sua?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "No, sorry. I'm not comfortable.",
+          "pt": "Não, desculpa. Não me sinto à vontade."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "photo",
+          "pt": "foto",
+          "emoji": "📷"
+        },
+        {
+          "en": "Can I take a photo?",
+          "pt": "Posso tirar uma foto?",
+          "emoji": "📸"
+        },
+        {
+          "en": "post",
+          "pt": "postar",
+          "emoji": "📲"
+        },
+        {
+          "en": "Please don't post it.",
+          "pt": "Por favor, não poste.",
+          "emoji": "🚫"
+        },
+        {
+          "en": "I'm not comfortable.",
+          "pt": "Não me sinto à vontade.",
+          "emoji": "🙅"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Can I take a photo?\"?",
+      "lang": "pt",
+      "options": [
+        "Ok, uma foto.",
+        "Posso tirar uma foto?",
+        "Posso postar?"
+      ],
+      "correct": 1,
+      "explanation": "\"Can I take a photo?\" = Posso tirar uma foto?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Posso postar?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Okay, no problem.",
+        "And me? Can I take a photo of you?",
+        "Can I post it?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can I post it?\" = Posso postar?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Por favor, não poste.",
+      "answer": [
+        "Please",
+        "don't",
+        "post",
+        "it."
+      ],
+      "distractors": [
+        "one",
+        "problem"
+      ],
+      "explanation": "\"Please don't post it\" = por favor, não poste."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Please don't post it.",
+      "lang": "pt",
+      "options": [
+        "Posso postar?",
+        "Por favor, não poste.",
+        "Ok, sem problema."
+      ],
+      "correct": 1,
+      "explanation": "\"Please don't post it\" = por favor, não poste."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Maya",
+          "en": "And me? Can I take a photo of you?",
+          "pt": "E eu? Posso tirar uma foto sua?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Não, desculpa. Não me sinto à vontade.",
+      "options": [
+        "Please don't post it.",
+        "No, sorry. I'm not comfortable.",
+        "Okay, no problem."
+      ],
+      "correct": 1,
+      "explanation": "\"I'm not comfortable\" = não me sinto à vontade."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A foto do grupo",
+      "questions": [
+        {
+          "english": "Can I take a photo?",
+          "options": [
+            "Não, desculpa. Não me sinto à vontade.",
+            "Ok, uma foto.",
+            "Posso tirar uma foto?"
+          ],
+          "correct": 2,
+          "joke": "\"Can I take a photo?\" = Posso tirar uma foto?"
+        },
+        {
+          "english": "Please don't post it.",
+          "options": [
+            "Ok, sem problema.",
+            "E eu? Posso tirar uma foto sua?",
+            "Por favor, não poste."
+          ],
+          "correct": 2,
+          "joke": "\"Please don't post it\" = por favor, não poste."
+        },
+        {
+          "english": "No, sorry. I'm not comfortable.",
+          "options": [
+            "Ok, uma foto.",
+            "Não, desculpa. Não me sinto à vontade.",
+            "Posso postar?"
+          ],
+          "correct": 1,
+          "joke": "\"I'm not comfortable\" = não me sinto à vontade."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Canadá",
+      "items": [
+        {
+          "emoji": "📵",
+          "title": "Sua imagem, sua decisão",
+          "en": "Please don't post it.",
+          "pt": "Você pode dizer não a fotos e a postagens. Peça permissão antes de postar fotos de outras pessoas também. Se alguém insistir ou postar sem permissão, fale com um adulto da escola ou da família."
+        }
+      ]
+    }
+  ]
+}

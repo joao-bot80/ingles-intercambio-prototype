@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l42",
+  "title": "Meu cartão e minha parada",
+  "scenario": "Linda ensaia com Bia um trajeto canadense; o cartão de transporte depende da cidade.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Meu cartão e minha parada",
+      "lines": [
+        {
+          "speaker": "Linda",
+          "en": "In our city, you pay with a transit card.",
+          "pt": "Na nossa cidade, você paga com um cartão de transporte."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Can I use this card?",
+          "pt": "Posso usar este cartão?"
+        },
+        {
+          "speaker": "Driver",
+          "en": "Yes, you can.",
+          "pt": "Sim, pode."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Is the library the next stop?",
+          "pt": "A biblioteca é a próxima parada?"
+        },
+        {
+          "speaker": "Driver",
+          "en": "Yes, next stop.",
+          "pt": "Sim, próxima parada."
+        },
+        {
+          "speaker": "Bia",
+          "en": "I get off here. Thank you!",
+          "pt": "Eu desço aqui. Obrigada!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "transit card",
+          "pt": "cartão de transporte",
+          "emoji": "💳"
+        },
+        {
+          "en": "next stop",
+          "pt": "próxima parada",
+          "emoji": "⏭️"
+        },
+        {
+          "en": "I get off here.",
+          "pt": "Eu desço aqui.",
+          "emoji": "🚶"
+        },
+        {
+          "en": "pay",
+          "pt": "pagar",
+          "emoji": "💰"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Can I use this card?\"?",
+      "lang": "pt",
+      "options": [
+        "A biblioteca é a próxima parada?",
+        "Posso usar este cartão?",
+        "Sim, próxima parada."
+      ],
+      "correct": 1,
+      "explanation": "\"Can I use this card?\" = Posso usar este cartão?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Na nossa cidade, você paga com um cartão de transporte.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "In our city, you pay with a transit card.",
+        "Yes, next stop.",
+        "I get off here. Thank you!"
+      ],
+      "correct": 0,
+      "explanation": "\"Transit card\" = cartão de transporte. Cada cidade tem o seu."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Posso usar este cartão?",
+      "answer": [
+        "Can",
+        "I",
+        "use",
+        "this",
+        "card?"
+      ],
+      "distractors": [
+        "with",
+        "transit"
+      ],
+      "explanation": "\"Can I use this card?\" = Posso usar este cartão?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Is the library the next stop?",
+      "lang": "pt",
+      "options": [
+        "Sim, próxima parada.",
+        "A biblioteca é a próxima parada?",
+        "Eu desço aqui. Obrigada!"
+      ],
+      "correct": 1,
+      "explanation": "\"Next stop\" = próxima parada."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Driver",
+          "en": "Yes, next stop.",
+          "pt": "Sim, próxima parada."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Eu desço aqui. Obrigada!",
+      "options": [
+        "I get off here. Thank you!",
+        "In our city, you pay with a transit card.",
+        "Can I use this card?"
+      ],
+      "correct": 0,
+      "explanation": "\"I get off here\" = eu desço aqui. E agradeça ao motorista!"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "No ônibus",
+      "questions": [
+        {
+          "english": "Can I use this card?",
+          "options": [
+            "Eu desço aqui. Obrigada!",
+            "Na nossa cidade, você paga com um cartão de transporte.",
+            "Posso usar este cartão?"
+          ],
+          "correct": 2,
+          "joke": "\"Can I use this card?\" = Posso usar este cartão?"
+        },
+        {
+          "english": "Is the library the next stop?",
+          "options": [
+            "Posso usar este cartão?",
+            "A biblioteca é a próxima parada?",
+            "Sim, pode."
+          ],
+          "correct": 1,
+          "joke": "\"Next stop\" = próxima parada."
+        },
+        {
+          "english": "I get off here. Thank you!",
+          "options": [
+            "Posso usar este cartão?",
+            "Sim, pode.",
+            "Eu desço aqui. Obrigada!"
+          ],
+          "correct": 2,
+          "joke": "\"I get off here\" = eu desço aqui. E agradeça ao motorista!"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Cidade · Canadá",
+      "items": [
+        {
+          "emoji": "🎫",
+          "title": "Cartão de transporte",
+          "en": "Does this bus go to the mall?",
+          "pt": "Cada cidade canadense tem o seu sistema de transporte e o seu cartão (em Toronto, por exemplo, o PRESTO). A família ou a escola mostra qual usar. Tarifas mudam: confira no site oficial da cidade."
+        }
+      ]
+    }
+  ]
+}

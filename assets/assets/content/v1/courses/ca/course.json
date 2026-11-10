@@ -173,6 +173,66 @@
       "title": "Missão: uma manhã na escola"
     },
     {
+      "id": "ca-l31",
+      "title": "Abra na página dez"
+    },
+    {
+      "id": "ca-l32",
+      "title": "Pode falar mais devagar?"
+    },
+    {
+      "id": "ca-l33",
+      "title": "O dever é para quando?"
+    },
+    {
+      "id": "ca-l34",
+      "title": "Não consegui entregar"
+    },
+    {
+      "id": "ca-l35",
+      "title": "Missão: aprender a pedir ajuda"
+    },
+    {
+      "id": "ca-l36",
+      "title": "Posso sentar com vocês?"
+    },
+    {
+      "id": "ca-l37",
+      "title": "Futebol, hóquei e meu interesse"
+    },
+    {
+      "id": "ca-l38",
+      "title": "Hoje não, obrigado"
+    },
+    {
+      "id": "ca-l39",
+      "title": "Minha foto, minha escolha"
+    },
+    {
+      "id": "ca-l40",
+      "title": "Missão: convite com limites"
+    },
+    {
+      "id": "ca-l41",
+      "title": "Qual ônibus vai à biblioteca?"
+    },
+    {
+      "id": "ca-l42",
+      "title": "Meu cartão e minha parada"
+    },
+    {
+      "id": "ca-l43",
+      "title": "Do ponto à biblioteca"
+    },
+    {
+      "id": "ca-l44",
+      "title": "Estou perdida e sem bateria"
+    },
+    {
+      "id": "ca-l45",
+      "title": "Missão: sair e voltar com segurança"
+    },
+    {
       "id": "ca-hello",
       "title": "Oi! Eu vou para o Canadá"
     },
@@ -369,6 +429,45 @@
         "ca-l28",
         "ca-l29",
         "ca-l30"
+      ]
+    },
+    {
+      "id": "ca-u07",
+      "title": "7. Aprender a acompanhar a aula",
+      "subtitle": "Comandos, esclarecimento, tarefa e apoio",
+      "emoji": "📚",
+      "lessons": [
+        "ca-l31",
+        "ca-l32",
+        "ca-l33",
+        "ca-l34",
+        "ca-l35"
+      ]
+    },
+    {
+      "id": "ca-u08",
+      "title": "8. Fazer amigos e colocar limites",
+      "subtitle": "Convites, interesses, recusa e fotos",
+      "emoji": "🤝",
+      "lessons": [
+        "ca-l36",
+        "ca-l37",
+        "ca-l38",
+        "ca-l39",
+        "ca-l40"
+      ]
+    },
+    {
+      "id": "ca-u09",
+      "title": "9. Circular e voltar em segurança",
+      "subtitle": "Ônibus, cartão, direções e contato",
+      "emoji": "🚌",
+      "lessons": [
+        "ca-l41",
+        "ca-l42",
+        "ca-l43",
+        "ca-l44",
+        "ca-l45"
       ]
     },
     {

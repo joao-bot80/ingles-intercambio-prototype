@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l40",
+  "title": "Missão: convite com limites",
+  "scenario": "Leo responde a um convite e decide sobre uma foto; depois combina a volta com Linda.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: convite com limites",
+      "lines": [
+        {
+          "speaker": "Jake",
+          "en": "Leo, do you want to sit with us?",
+          "pt": "Leo, quer sentar com a gente?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Sure! Can I sit here?",
+          "pt": "Claro! Posso sentar aqui?"
+        },
+        {
+          "speaker": "Jake",
+          "en": "Yes! Do you want to go to the mall after school?",
+          "pt": "Pode! Quer ir ao shopping depois da aula?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Not today. I need to go home.",
+          "pt": "Hoje não. Preciso ir para casa."
+        },
+        {
+          "speaker": "Maya",
+          "en": "Can I take a photo?",
+          "pt": "Posso tirar uma foto?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes, but please don't post it.",
+          "pt": "Pode, mas por favor não poste."
+        },
+        {
+          "speaker": "Linda",
+          "en": "Hi, Leo! Be home by six, okay?",
+          "pt": "Oi, Leo! Esteja em casa até as seis, ok?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Okay, Linda. Home by six.",
+          "pt": "Ok, Linda. Em casa até as seis."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Can I sit here?",
+          "pt": "Posso sentar aqui?",
+          "emoji": "🙋"
+        },
+        {
+          "en": "Not today.",
+          "pt": "Hoje não.",
+          "emoji": "📅"
+        },
+        {
+          "en": "Please don't post it.",
+          "pt": "Por favor, não poste.",
+          "emoji": "🚫"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Sure! Can I sit here?\"?",
+      "lang": "pt",
+      "options": [
+        "Claro! Posso sentar aqui?",
+        "Ok, Linda. Em casa até as seis.",
+        "Leo, quer sentar com a gente?"
+      ],
+      "correct": 0,
+      "explanation": "\"Can I sit here?\" = Posso sentar aqui?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Ok, Linda. Em casa até as seis.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Hi, Leo! Be home by six, okay?",
+        "Okay, Linda. Home by six.",
+        "Leo, do you want to sit with us?"
+      ],
+      "correct": 1,
+      "explanation": "\"Home by six\" = em casa até as seis."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Claro! Posso sentar aqui?",
+      "answer": [
+        "Sure!",
+        "Can",
+        "I",
+        "sit",
+        "here?"
+      ],
+      "distractors": [
+        "need",
+        "home"
+      ],
+      "explanation": "\"Can I sit here?\" = Posso sentar aqui?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Not today. I need to go home.",
+      "lang": "pt",
+      "options": [
+        "Hoje não. Preciso ir para casa.",
+        "Pode! Quer ir ao shopping depois da aula?",
+        "Posso tirar uma foto?"
+      ],
+      "correct": 0,
+      "explanation": "\"Not today\" = hoje não."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Maya",
+          "en": "Can I take a photo?",
+          "pt": "Posso tirar uma foto?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Pode, mas por favor não poste.",
+      "options": [
+        "Okay, Linda. Home by six.",
+        "Leo, do you want to sit with us?",
+        "Yes, but please don't post it."
+      ],
+      "correct": 2,
+      "explanation": "\"Please don't post it\" = por favor, não poste."
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "Um dia com amigos",
+      "questions": [
+        {
+          "english": "Sure! Can I sit here?",
+          "options": [
+            "Posso tirar uma foto?",
+            "Pode, mas por favor não poste.",
+            "Claro! Posso sentar aqui?"
+          ],
+          "correct": 2,
+          "joke": "\"Can I sit here?\" = Posso sentar aqui?"
+        },
+        {
+          "english": "Not today. I need to go home.",
+          "options": [
+            "Oi, Leo! Esteja em casa até as seis, ok?",
+            "Hoje não. Preciso ir para casa.",
+            "Ok, Linda. Em casa até as seis."
+          ],
+          "correct": 1,
+          "joke": "\"Not today\" = hoje não."
+        },
+        {
+          "english": "Yes, but please don't post it.",
+          "options": [
+            "Leo, quer sentar com a gente?",
+            "Pode, mas por favor não poste.",
+            "Claro! Posso sentar aqui?"
+          ],
+          "correct": 1,
+          "joke": "\"Please don't post it\" = por favor, não poste."
+        },
+        {
+          "english": "Okay, Linda. Home by six.",
+          "options": [
+            "Pode! Quer ir ao shopping depois da aula?",
+            "Ok, Linda. Em casa até as seis.",
+            "Hoje não. Preciso ir para casa."
+          ],
+          "correct": 1,
+          "joke": "\"Home by six\" = em casa até as seis."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Canadá",
+      "items": [
+        {
+          "emoji": "🤝",
+          "title": "Amizade com respeito",
+          "en": "Not today.",
+          "pt": "Fazer amigos não significa aceitar tudo. Diga sim ao que te faz bem, não ao que te deixa desconfortável, e combine sempre a volta com a família anfitriã."
+        }
+      ]
+    }
+  ]
+}

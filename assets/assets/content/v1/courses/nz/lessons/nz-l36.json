@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l36",
+  "title": "Ben, posso sentar aqui?",
+  "scenario": "Ben convida Leo para o almoço na escola neozelandesa.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Ben, posso sentar aqui?",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Hi, Ben. Can I sit here?",
+          "pt": "Oi, Ben. Posso sentar aqui?"
+        },
+        {
+          "speaker": "Ben",
+          "en": "Sure! Do you want to sit with us?",
+          "pt": "Claro! Quer sentar com a gente?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes, please. Thanks!",
+          "pt": "Quero, por favor. Valeu!"
+        },
+        {
+          "speaker": "Ben",
+          "en": "This is Aroha. She is in my form class.",
+          "pt": "Esta é a Aroha. Ela está na minha turma-base."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Nice to meet you, Aroha.",
+          "pt": "Prazer, Aroha."
+        },
+        {
+          "speaker": "Aroha",
+          "en": "Kia ora, Leo! Nice to meet you too.",
+          "pt": "Kia ora, Leo! Prazer também."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Can I sit here?",
+          "pt": "Posso sentar aqui?",
+          "emoji": "🙋"
+        },
+        {
+          "en": "Do you want to sit with us?",
+          "pt": "Quer sentar com a gente?",
+          "emoji": "🪑"
+        },
+        {
+          "en": "Sure, thanks!",
+          "pt": "Claro, valeu!",
+          "emoji": "👍"
+        },
+        {
+          "en": "us",
+          "pt": "a gente / nós",
+          "emoji": "👥"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Hi, Ben. Can I sit here?\"?",
+      "lang": "pt",
+      "options": [
+        "Kia ora, Leo! Prazer também.",
+        "Oi, Ben. Posso sentar aqui?",
+        "Claro! Quer sentar com a gente?"
+      ],
+      "correct": 1,
+      "explanation": "\"Can I sit here?\" = Posso sentar aqui?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Esta é a Aroha. Ela está na minha turma-base.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Nice to meet you, Aroha.",
+        "Kia ora, Leo! Nice to meet you too.",
+        "This is Aroha. She is in my form class."
+      ],
+      "correct": 2,
+      "explanation": "\"She is in my form class\" = ela está na minha turma-base."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Oi, Ben. Posso sentar aqui?",
+      "answer": [
+        "Hi,",
+        "Ben.",
+        "Can",
+        "I",
+        "sit",
+        "here?"
+      ],
+      "distractors": [
+        "aroha",
+        "she"
+      ],
+      "explanation": "\"Can I sit here?\" = Posso sentar aqui?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Sure! Do you want to sit with us?",
+      "lang": "pt",
+      "options": [
+        "Claro! Quer sentar com a gente?",
+        "Oi, Ben. Posso sentar aqui?",
+        "Quero, por favor. Valeu!"
+      ],
+      "correct": 0,
+      "explanation": "\"Do you want to sit with us?\" = Quer sentar com a gente?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ben",
+          "en": "This is Aroha. She is in my form class.",
+          "pt": "Esta é a Aroha. Ela está na minha turma-base."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Prazer, Aroha.",
+      "options": [
+        "Nice to meet you, Aroha.",
+        "Yes, please. Thanks!",
+        "Hi, Ben. Can I sit here?"
+      ],
+      "correct": 0,
+      "explanation": "\"Nice to meet you\" = prazer."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O almoço",
+      "questions": [
+        {
+          "english": "Hi, Ben. Can I sit here?",
+          "options": [
+            "Esta é a Aroha. Ela está na minha turma-base.",
+            "Oi, Ben. Posso sentar aqui?",
+            "Prazer, Aroha."
+          ],
+          "correct": 1,
+          "joke": "\"Can I sit here?\" = Posso sentar aqui?"
+        },
+        {
+          "english": "Sure! Do you want to sit with us?",
+          "options": [
+            "Claro! Quer sentar com a gente?",
+            "Esta é a Aroha. Ela está na minha turma-base.",
+            "Prazer, Aroha."
+          ],
+          "correct": 0,
+          "joke": "\"Do you want to sit with us?\" = Quer sentar com a gente?"
+        },
+        {
+          "english": "Nice to meet you, Aroha.",
+          "options": [
+            "Esta é a Aroha. Ela está na minha turma-base.",
+            "Prazer, Aroha.",
+            "Oi, Ben. Posso sentar aqui?"
+          ],
+          "correct": 1,
+          "joke": "\"Nice to meet you\" = prazer."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🏉",
+          "title": "Rugby",
+          "en": "I play rugby.",
+          "pt": "O rugby é o esporte mais querido do país (a seleção se chama All Blacks) e muitas escolas têm time. O netball também é muito popular. Entrar em um time é o jeito mais rápido de fazer amigos."
+        }
+      ]
+    }
+  ]
+}

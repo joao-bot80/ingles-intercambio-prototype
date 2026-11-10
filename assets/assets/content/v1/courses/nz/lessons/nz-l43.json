@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l43",
+  "title": "Across the road, com cuidado",
+  "scenario": "Bia procura a biblioteca numa rua neozelandesa fictícia. Na NZ, o trânsito vem pela esquerda.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Across the road, com cuidado",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Excuse me. How do I get to the library?",
+          "pt": "Com licença. Como eu chego à biblioteca?"
+        },
+        {
+          "speaker": "Passerby",
+          "en": "It's across the road.",
+          "pt": "Fica do outro lado da rua."
+        },
+        {
+          "speaker": "Passerby",
+          "en": "Cross at the traffic lights, then turn left.",
+          "pt": "Atravesse no semáforo, depois vire à esquerda."
+        },
+        {
+          "speaker": "Bia",
+          "en": "At the traffic lights, then left?",
+          "pt": "No semáforo, depois à esquerda?"
+        },
+        {
+          "speaker": "Passerby",
+          "en": "That's right. Look both ways!",
+          "pt": "Isso. Olhe para os dois lados!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thank you!",
+          "pt": "Obrigada!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "How do I get to...?",
+          "pt": "Como eu chego a...?",
+          "emoji": "🗺️"
+        },
+        {
+          "en": "across the road",
+          "pt": "do outro lado da rua",
+          "emoji": "↔️"
+        },
+        {
+          "en": "traffic lights",
+          "pt": "semáforo",
+          "emoji": "🚦"
+        },
+        {
+          "en": "Turn left.",
+          "pt": "Vire à esquerda.",
+          "emoji": "⬅️"
+        },
+        {
+          "en": "Look both ways.",
+          "pt": "Olhe para os dois lados.",
+          "emoji": "👀"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me. How do I get to the library?\"?",
+      "lang": "pt",
+      "options": [
+        "Com licença. Como eu chego à biblioteca?",
+        "Fica do outro lado da rua.",
+        "Atravesse no semáforo, depois vire à esquerda."
+      ],
+      "correct": 0,
+      "explanation": "\"How do I get to the library?\" = Como eu chego à biblioteca?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Isso. Olhe para os dois lados!\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Cross at the traffic lights, then turn left.",
+        "That's right. Look both ways!",
+        "At the traffic lights, then left?"
+      ],
+      "correct": 1,
+      "explanation": "\"Look both ways\" = olhe para os dois lados."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Fica do outro lado da rua.",
+      "answer": [
+        "It's",
+        "across",
+        "the",
+        "road."
+      ],
+      "distractors": [
+        "traffic",
+        "lights"
+      ],
+      "explanation": "\"Across the road\" = do outro lado da rua."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "It's across the road.",
+      "lang": "pt",
+      "options": [
+        "Fica do outro lado da rua.",
+        "Isso. Olhe para os dois lados!",
+        "Obrigada!"
+      ],
+      "correct": 0,
+      "explanation": "\"Across the road\" = do outro lado da rua."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Bia",
+          "en": "Excuse me. How do I get to the library?",
+          "pt": "Com licença. Como eu chego à biblioteca?"
+        }
+      ],
+      "speaker": "Passerby",
+      "pt": "Fica do outro lado da rua.",
+      "options": [
+        "Thank you!",
+        "It's across the road.",
+        "Cross at the traffic lights, then turn left."
+      ],
+      "correct": 1,
+      "explanation": "\"Across the road\" = do outro lado da rua."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Atravessar a rua",
+      "questions": [
+        {
+          "english": "Excuse me. How do I get to the library?",
+          "options": [
+            "Com licença. Como eu chego à biblioteca?",
+            "Isso. Olhe para os dois lados!",
+            "Obrigada!"
+          ],
+          "correct": 0,
+          "joke": "\"How do I get to the library?\" = Como eu chego à biblioteca?"
+        },
+        {
+          "english": "It's across the road.",
+          "options": [
+            "Fica do outro lado da rua.",
+            "Obrigada!",
+            "Com licença. Como eu chego à biblioteca?"
+          ],
+          "correct": 0,
+          "joke": "\"Across the road\" = do outro lado da rua."
+        },
+        {
+          "english": "Cross at the traffic lights, then turn left.",
+          "options": [
+            "Com licença. Como eu chego à biblioteca?",
+            "Fica do outro lado da rua.",
+            "Atravesse no semáforo, depois vire à esquerda."
+          ],
+          "correct": 2,
+          "joke": "\"Cross at the traffic lights\" = atravesse no semáforo."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Cidade · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🚗",
+          "title": "Mão inglesa",
+          "en": "Look right, then left.",
+          "pt": "Na Nova Zelândia se dirige pela esquerda. Ao atravessar, use as faixas e os semáforos e olhe para os dois lados com atenção: o trânsito pode vir de onde você não espera."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l45",
+  "title": "Missão: sair e voltar com segurança",
+  "scenario": "Bia vai à biblioteca do roteiro e pede ajuda quando erra o ponto.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: sair e voltar com segurança",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Does this bus go to the library?",
+          "pt": "Este ônibus vai para a biblioteca?"
+        },
+        {
+          "speaker": "Driver",
+          "en": "Yes. Three stops.",
+          "pt": "Vai. Três paradas."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Can I use this card?",
+          "pt": "Posso usar este cartão?"
+        },
+        {
+          "speaker": "Driver",
+          "en": "Yes.",
+          "pt": "Pode."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Oh no, I'm lost. Is this the library?",
+          "pt": "Ah, não, estou perdida. Aqui é a biblioteca?"
+        },
+        {
+          "speaker": "Passerby",
+          "en": "No. Go straight and turn left.",
+          "pt": "Não. Siga reto e vire à esquerda."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thank you. Can I call my host family?",
+          "pt": "Obrigada. Posso ligar para a minha família anfitriã?"
+        },
+        {
+          "speaker": "Linda",
+          "en": "Hi, Bia! See you at six.",
+          "pt": "Oi, Bia! Te vejo às seis."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "bus",
+          "pt": "ônibus",
+          "emoji": "🚌"
+        },
+        {
+          "en": "I'm lost.",
+          "pt": "Estou perdido / perdida.",
+          "emoji": "🧭"
+        },
+        {
+          "en": "Turn left.",
+          "pt": "Vire à esquerda.",
+          "emoji": "⬅️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Does this bus go to the library?\"?",
+      "lang": "pt",
+      "options": [
+        "Ah, não, estou perdida. Aqui é a biblioteca?",
+        "Este ônibus vai para a biblioteca?",
+        "Não. Siga reto e vire à esquerda."
+      ],
+      "correct": 1,
+      "explanation": "\"Does this bus go to the library?\" = Este ônibus vai para a biblioteca?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Obrigada. Posso ligar para a minha família anfitriã?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Can I use this card?",
+        "Yes.",
+        "Thank you. Can I call my host family?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can I call my host family?\" = Posso ligar para a minha família anfitriã?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Este ônibus vai para a biblioteca?",
+      "answer": [
+        "Does",
+        "this",
+        "bus",
+        "go",
+        "to",
+        "the",
+        "library?"
+      ],
+      "distractors": [
+        "you",
+        "call"
+      ],
+      "explanation": "\"Does this bus go to the library?\" = Este ônibus vai para a biblioteca?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Oh no, I'm lost. Is this the library?",
+      "lang": "pt",
+      "options": [
+        "Pode.",
+        "Ah, não, estou perdida. Aqui é a biblioteca?",
+        "Não. Siga reto e vire à esquerda."
+      ],
+      "correct": 1,
+      "explanation": "\"I'm lost\" = estou perdida."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Passerby",
+          "en": "No. Go straight and turn left.",
+          "pt": "Não. Siga reto e vire à esquerda."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Obrigada. Posso ligar para a minha família anfitriã?",
+      "options": [
+        "Oh no, I'm lost. Is this the library?",
+        "Thank you. Can I call my host family?",
+        "Hi, Bia! See you at six."
+      ],
+      "correct": 1,
+      "explanation": "\"Can I call my host family?\" = Posso ligar para a minha família anfitriã?"
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "Ida e volta",
+      "questions": [
+        {
+          "english": "Does this bus go to the library?",
+          "options": [
+            "Este ônibus vai para a biblioteca?",
+            "Posso usar este cartão?",
+            "Pode."
+          ],
+          "correct": 0,
+          "joke": "\"Does this bus go to the library?\" = Este ônibus vai para a biblioteca?"
+        },
+        {
+          "english": "Oh no, I'm lost. Is this the library?",
+          "options": [
+            "Obrigada. Posso ligar para a minha família anfitriã?",
+            "Oi, Bia! Te vejo às seis.",
+            "Ah, não, estou perdida. Aqui é a biblioteca?"
+          ],
+          "correct": 2,
+          "joke": "\"I'm lost\" = estou perdida."
+        },
+        {
+          "english": "No. Go straight and turn left.",
+          "options": [
+            "Pode.",
+            "Ah, não, estou perdida. Aqui é a biblioteca?",
+            "Não. Siga reto e vire à esquerda."
+          ],
+          "correct": 2,
+          "joke": "\"Go straight and turn left\" = siga reto e vire à esquerda."
+        },
+        {
+          "english": "Thank you. Can I call my host family?",
+          "options": [
+            "Oi, Bia! Te vejo às seis.",
+            "Obrigada. Posso ligar para a minha família anfitriã?",
+            "Este ônibus vai para a biblioteca?"
+          ],
+          "correct": 1,
+          "joke": "\"Can I call my host family?\" = Posso ligar para a minha família anfitriã?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Cidade · Canadá",
+      "items": [
+        {
+          "emoji": "🧭",
+          "title": "Plano de volta",
+          "en": "Can I call my host family?",
+          "pt": "Antes de sair: endereço no papel, celular carregado, horário combinado com a família. Se se perder, entre numa loja ou fale com um funcionário. Em emergência no Canadá: 911."
+        }
+      ]
+    }
+  ]
+}

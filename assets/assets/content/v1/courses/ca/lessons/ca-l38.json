@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l38",
+  "title": "Hoje não, obrigado",
+  "scenario": "Emma convida Bia para sair depois da aula; Bia prefere voltar para casa. Recusar é permitido.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Hoje não, obrigado",
+      "lines": [
+        {
+          "speaker": "Emma",
+          "en": "Bia, do you want to go to the mall after school?",
+          "pt": "Bia, você quer ir ao shopping depois da aula?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "No, thanks. Not today.",
+          "pt": "Não, obrigada. Hoje não."
+        },
+        {
+          "speaker": "Emma",
+          "en": "Okay! Why not?",
+          "pt": "Tudo bem! Por que não?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm tired. I need to go home.",
+          "pt": "Estou cansada. Eu preciso ir para casa."
+        },
+        {
+          "speaker": "Emma",
+          "en": "No problem.",
+          "pt": "Sem problema."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Maybe tomorrow?",
+          "pt": "Talvez amanhã?"
+        },
+        {
+          "speaker": "Emma",
+          "en": "Sure, maybe tomorrow!",
+          "pt": "Claro, talvez amanhã!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "No, thanks.",
+          "pt": "Não, obrigado / obrigada.",
+          "emoji": "🙅"
+        },
+        {
+          "en": "Not today.",
+          "pt": "Hoje não.",
+          "emoji": "📅"
+        },
+        {
+          "en": "Maybe tomorrow.",
+          "pt": "Talvez amanhã.",
+          "emoji": "🤔"
+        },
+        {
+          "en": "I need to go home.",
+          "pt": "Eu preciso ir para casa.",
+          "emoji": "🏠"
+        },
+        {
+          "en": "mall",
+          "pt": "shopping",
+          "emoji": "🛍️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"No, thanks. Not today.\"?",
+      "lang": "pt",
+      "options": [
+        "Talvez amanhã?",
+        "Não, obrigada. Hoje não.",
+        "Claro, talvez amanhã!"
+      ],
+      "correct": 1,
+      "explanation": "\"No, thanks. Not today\" = não, obrigada. Hoje não."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Sem problema.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Maybe tomorrow?",
+        "Sure, maybe tomorrow!",
+        "No problem."
+      ],
+      "correct": 2,
+      "explanation": "\"No problem\" = sem problema."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Não, obrigada. Hoje não.",
+      "answer": [
+        "No,",
+        "thanks.",
+        "Not",
+        "today."
+      ],
+      "distractors": [
+        "sure",
+        "bia"
+      ],
+      "explanation": "\"No, thanks. Not today\" = não, obrigada. Hoje não."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "I'm tired. I need to go home.",
+      "lang": "pt",
+      "options": [
+        "Estou cansada. Eu preciso ir para casa.",
+        "Bia, você quer ir ao shopping depois da aula?",
+        "Não, obrigada. Hoje não."
+      ],
+      "correct": 0,
+      "explanation": "\"I need to go home\" = preciso ir para casa."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Emma",
+          "en": "No problem.",
+          "pt": "Sem problema."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Talvez amanhã?",
+      "options": [
+        "Maybe tomorrow?",
+        "Bia, do you want to go to the mall after school?",
+        "No, thanks. Not today."
+      ],
+      "correct": 0,
+      "explanation": "\"Maybe tomorrow\" = talvez amanhã."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O convite",
+      "questions": [
+        {
+          "english": "No, thanks. Not today.",
+          "options": [
+            "Estou cansada. Eu preciso ir para casa.",
+            "Não, obrigada. Hoje não.",
+            "Sem problema."
+          ],
+          "correct": 1,
+          "joke": "\"No, thanks. Not today\" = não, obrigada. Hoje não."
+        },
+        {
+          "english": "I'm tired. I need to go home.",
+          "options": [
+            "Talvez amanhã?",
+            "Claro, talvez amanhã!",
+            "Estou cansada. Eu preciso ir para casa."
+          ],
+          "correct": 2,
+          "joke": "\"I need to go home\" = preciso ir para casa."
+        },
+        {
+          "english": "Maybe tomorrow?",
+          "options": [
+            "Tudo bem! Por que não?",
+            "Estou cansada. Eu preciso ir para casa.",
+            "Talvez amanhã?"
+          ],
+          "correct": 2,
+          "joke": "\"Maybe tomorrow\" = talvez amanhã."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Canadá",
+      "items": [
+        {
+          "emoji": "🙂",
+          "title": "Dizer não é normal",
+          "en": "No, thanks. Not today.",
+          "pt": "Você não precisa aceitar todo convite nem dar muitas explicações. Um \"No, thanks\" educado basta. Avise sempre a família anfitriã quando for sair."
+        }
+      ]
+    }
+  ]
+}

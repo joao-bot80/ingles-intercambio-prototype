@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l37",
+  "title": "Rugby, cricket ou outra coisa?",
+  "scenario": "Leo conversa com Ben sobre atividades. Nem todo mundo gosta dos mesmos esportes.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Rugby, cricket ou outra coisa?",
+      "lines": [
+        {
+          "speaker": "Ben",
+          "en": "Do you play rugby?",
+          "pt": "Você joga rúgbi?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "No, I don't. I like soccer.",
+          "pt": "Não. Eu gosto de futebol."
+        },
+        {
+          "speaker": "Ben",
+          "en": "Cool. I play cricket in summer.",
+          "pt": "Legal. Eu jogo críquete no verão."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Cricket? What is cricket?",
+          "pt": "Críquete? O que é críquete?"
+        },
+        {
+          "speaker": "Ben",
+          "en": "It's a sport with a bat and a ball.",
+          "pt": "É um esporte com taco e bola."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Can I join the soccer club?",
+          "pt": "Posso entrar no clube de futebol?"
+        },
+        {
+          "speaker": "Ben",
+          "en": "Yes! Ask Mr. Evans.",
+          "pt": "Pode! Pergunte ao Mr. Evans."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "rugby",
+          "pt": "rúgbi",
+          "emoji": "🏉"
+        },
+        {
+          "en": "cricket",
+          "pt": "críquete",
+          "emoji": "🏏"
+        },
+        {
+          "en": "soccer",
+          "pt": "futebol",
+          "emoji": "⚽"
+        },
+        {
+          "en": "Can I join...?",
+          "pt": "Posso entrar / participar...?",
+          "emoji": "🙋"
+        },
+        {
+          "en": "summer",
+          "pt": "verão",
+          "emoji": "☀️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Do you play rugby?\"?",
+      "lang": "pt",
+      "options": [
+        "Você joga rúgbi?",
+        "Posso entrar no clube de futebol?",
+        "Pode! Pergunte ao Mr. Evans."
+      ],
+      "correct": 0,
+      "explanation": "\"Do you play rugby?\" = Você joga rúgbi?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Críquete? O que é críquete?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Cricket? What is cricket?",
+        "No, I don't. I like soccer.",
+        "Cool. I play cricket in summer."
+      ],
+      "correct": 0,
+      "explanation": "\"What is...?\" = O que é...?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Não. Eu gosto de futebol.",
+      "answer": [
+        "No,",
+        "I",
+        "don't.",
+        "I",
+        "like",
+        "soccer."
+      ],
+      "distractors": [
+        "summer",
+        "what"
+      ],
+      "explanation": "\"I like soccer\" = eu gosto de futebol."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "No, I don't. I like soccer.",
+      "lang": "pt",
+      "options": [
+        "Legal. Eu jogo críquete no verão.",
+        "Críquete? O que é críquete?",
+        "Não. Eu gosto de futebol."
+      ],
+      "correct": 2,
+      "explanation": "\"I like soccer\" = eu gosto de futebol."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ben",
+          "en": "It's a sport with a bat and a ball.",
+          "pt": "É um esporte com taco e bola."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Posso entrar no clube de futebol?",
+      "options": [
+        "Yes! Ask Mr. Evans.",
+        "Do you play rugby?",
+        "Can I join the soccer club?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can I join the soccer club?\" = Posso entrar no clube de futebol?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Os esportes",
+      "questions": [
+        {
+          "english": "Do you play rugby?",
+          "options": [
+            "Não. Eu gosto de futebol.",
+            "Você joga rúgbi?",
+            "Legal. Eu jogo críquete no verão."
+          ],
+          "correct": 1,
+          "joke": "\"Do you play rugby?\" = Você joga rúgbi?"
+        },
+        {
+          "english": "No, I don't. I like soccer.",
+          "options": [
+            "Você joga rúgbi?",
+            "Legal. Eu jogo críquete no verão.",
+            "Não. Eu gosto de futebol."
+          ],
+          "correct": 2,
+          "joke": "\"I like soccer\" = eu gosto de futebol."
+        },
+        {
+          "english": "Can I join the soccer club?",
+          "options": [
+            "É um esporte com taco e bola.",
+            "Posso entrar no clube de futebol?",
+            "Pode! Pergunte ao Mr. Evans."
+          ],
+          "correct": 1,
+          "joke": "\"Can I join the soccer club?\" = Posso entrar no clube de futebol?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "⚽",
+          "title": "Soccer e football",
+          "en": "I love soccer.",
+          "pt": "Para falar do futebol que a gente conhece, \"soccer\" evita confusão. Também se usa \"football\"."
+        },
+        {
+          "emoji": "🏏",
+          "title": "Críquete",
+          "en": "I play cricket.",
+          "pt": "O críquete é jogado no verão e aparece nas aulas de educação física de muitas escolas."
+        }
+      ]
+    }
+  ]
+}

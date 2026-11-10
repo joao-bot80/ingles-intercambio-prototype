@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l36",
+  "title": "Posso sentar com vocês?",
+  "scenario": "Jake convida Leo para a mesa do almoço.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Posso sentar com vocês?",
+      "lines": [
+        {
+          "speaker": "Jake",
+          "en": "Hey, Leo! Do you want to sit with us?",
+          "pt": "Ei, Leo! Quer sentar com a gente?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Sure, thanks!",
+          "pt": "Claro, valeu!"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Hi, everyone. Can I sit here?",
+          "pt": "Oi, pessoal. Posso sentar aqui?"
+        },
+        {
+          "speaker": "Maya",
+          "en": "Yes, of course!",
+          "pt": "Sim, claro!"
+        },
+        {
+          "speaker": "Jake",
+          "en": "This is Maya. She is in my math class.",
+          "pt": "Esta é a Maya. Ela está na minha aula de matemática."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Nice to meet you, Maya.",
+          "pt": "Prazer, Maya."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Do you want to sit with us?",
+          "pt": "Quer sentar com a gente?",
+          "emoji": "🪑"
+        },
+        {
+          "en": "Can I sit here?",
+          "pt": "Posso sentar aqui?",
+          "emoji": "🙋"
+        },
+        {
+          "en": "Sure, thanks!",
+          "pt": "Claro, valeu!",
+          "emoji": "👍"
+        },
+        {
+          "en": "everyone",
+          "pt": "pessoal / todo mundo",
+          "emoji": "👥"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Hey, Leo! Do you want to sit with us?\"?",
+      "lang": "pt",
+      "options": [
+        "Claro, valeu!",
+        "Oi, pessoal. Posso sentar aqui?",
+        "Ei, Leo! Quer sentar com a gente?"
+      ],
+      "correct": 2,
+      "explanation": "\"Do you want to sit with us?\" = Quer sentar com a gente?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Esta é a Maya. Ela está na minha aula de matemática.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Hi, everyone. Can I sit here?",
+        "This is Maya. She is in my math class.",
+        "Yes, of course!"
+      ],
+      "correct": 1,
+      "explanation": "\"She is in my math class\" = ela está na minha aula de matemática."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Oi, pessoal. Posso sentar aqui?",
+      "answer": [
+        "Hi,",
+        "everyone.",
+        "Can",
+        "I",
+        "sit",
+        "here?"
+      ],
+      "distractors": [
+        "nice",
+        "meet"
+      ],
+      "explanation": "\"Can I sit here?\" = Posso sentar aqui?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Hi, everyone. Can I sit here?",
+      "lang": "pt",
+      "options": [
+        "Esta é a Maya. Ela está na minha aula de matemática.",
+        "Oi, pessoal. Posso sentar aqui?",
+        "Prazer, Maya."
+      ],
+      "correct": 1,
+      "explanation": "\"Can I sit here?\" = Posso sentar aqui?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Jake",
+          "en": "Hey, Leo! Do you want to sit with us?",
+          "pt": "Ei, Leo! Quer sentar com a gente?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Claro, valeu!",
+      "options": [
+        "Sure, thanks!",
+        "Hi, everyone. Can I sit here?",
+        "This is Maya. She is in my math class."
+      ],
+      "correct": 0,
+      "explanation": "\"Sure, thanks!\" = Claro, valeu!"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A mesa do almoço",
+      "questions": [
+        {
+          "english": "Hey, Leo! Do you want to sit with us?",
+          "options": [
+            "Ei, Leo! Quer sentar com a gente?",
+            "Oi, pessoal. Posso sentar aqui?",
+            "Sim, claro!"
+          ],
+          "correct": 0,
+          "joke": "\"Do you want to sit with us?\" = Quer sentar com a gente?"
+        },
+        {
+          "english": "Hi, everyone. Can I sit here?",
+          "options": [
+            "Esta é a Maya. Ela está na minha aula de matemática.",
+            "Prazer, Maya.",
+            "Oi, pessoal. Posso sentar aqui?"
+          ],
+          "correct": 2,
+          "joke": "\"Can I sit here?\" = Posso sentar aqui?"
+        },
+        {
+          "english": "Sure, thanks!",
+          "options": [
+            "Claro, valeu!",
+            "Oi, pessoal. Posso sentar aqui?",
+            "Esta é a Maya. Ela está na minha aula de matemática."
+          ],
+          "correct": 0,
+          "joke": "\"Sure, thanks!\" = Claro, valeu!"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Canadá",
+      "items": [
+        {
+          "emoji": "🧑‍🤝‍🧑",
+          "title": "Clubes e times",
+          "en": "Can I join the team?",
+          "pt": "Entrar em um clube ou time da escola é o jeito mais rápido de fazer amigos. Pergunte: \"Can I join the team?\""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l37",
+  "title": "Futebol, hóquei e meu interesse",
+  "scenario": "Leo e Jake conversam sobre atividades da escola. Soccer é o nosso futebol.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Futebol, hóquei e meu interesse",
+      "lines": [
+        {
+          "speaker": "Jake",
+          "en": "Do you like hockey?",
+          "pt": "Você gosta de hóquei?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I don't know! I like soccer.",
+          "pt": "Não sei! Eu gosto de futebol."
+        },
+        {
+          "speaker": "Jake",
+          "en": "Cool! The school has a soccer club.",
+          "pt": "Legal! A escola tem um clube de futebol."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Can I join the club?",
+          "pt": "Posso entrar no clube?"
+        },
+        {
+          "speaker": "Jake",
+          "en": "Yes! Talk to Mr. Brown.",
+          "pt": "Pode! Fale com o Mr. Brown."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Great. And I want to try hockey too.",
+          "pt": "Ótimo. E eu quero experimentar hóquei também."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "I like...",
+          "pt": "eu gosto de...",
+          "emoji": "❤️"
+        },
+        {
+          "en": "soccer",
+          "pt": "futebol",
+          "emoji": "⚽"
+        },
+        {
+          "en": "hockey",
+          "pt": "hóquei",
+          "emoji": "🏒"
+        },
+        {
+          "en": "club",
+          "pt": "clube",
+          "emoji": "🏅"
+        },
+        {
+          "en": "Can I join...?",
+          "pt": "Posso entrar / participar...?",
+          "emoji": "🙋"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Do you like hockey?\"?",
+      "lang": "pt",
+      "options": [
+        "Você gosta de hóquei?",
+        "Pode! Fale com o Mr. Brown.",
+        "Ótimo. E eu quero experimentar hóquei também."
+      ],
+      "correct": 0,
+      "explanation": "\"Do you like hockey?\" = Você gosta de hóquei?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Ótimo. E eu quero experimentar hóquei também.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Cool! The school has a soccer club.",
+        "Can I join the club?",
+        "Great. And I want to try hockey too."
+      ],
+      "correct": 2,
+      "explanation": "\"I want to try\" = eu quero experimentar."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Não sei! Eu gosto de futebol.",
+      "answer": [
+        "I",
+        "don't",
+        "know!",
+        "I",
+        "like",
+        "soccer."
+      ],
+      "distractors": [
+        "hockey",
+        "cool"
+      ],
+      "explanation": "\"I like soccer\" = eu gosto de futebol. No Canadá, futebol é \"soccer\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "I don't know! I like soccer.",
+      "lang": "pt",
+      "options": [
+        "Pode! Fale com o Mr. Brown.",
+        "Não sei! Eu gosto de futebol.",
+        "Ótimo. E eu quero experimentar hóquei também."
+      ],
+      "correct": 1,
+      "explanation": "\"I like soccer\" = eu gosto de futebol. No Canadá, futebol é \"soccer\"."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Jake",
+          "en": "Cool! The school has a soccer club.",
+          "pt": "Legal! A escola tem um clube de futebol."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Posso entrar no clube?",
+      "options": [
+        "I don't know! I like soccer.",
+        "Yes! Talk to Mr. Brown.",
+        "Can I join the club?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can I join the club?\" = Posso entrar no clube?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O clube da escola",
+      "questions": [
+        {
+          "english": "Do you like hockey?",
+          "options": [
+            "Pode! Fale com o Mr. Brown.",
+            "Você gosta de hóquei?",
+            "Ótimo. E eu quero experimentar hóquei também."
+          ],
+          "correct": 1,
+          "joke": "\"Do you like hockey?\" = Você gosta de hóquei?"
+        },
+        {
+          "english": "I don't know! I like soccer.",
+          "options": [
+            "Pode! Fale com o Mr. Brown.",
+            "Ótimo. E eu quero experimentar hóquei também.",
+            "Não sei! Eu gosto de futebol."
+          ],
+          "correct": 2,
+          "joke": "\"I like soccer\" = eu gosto de futebol. No Canadá, futebol é \"soccer\"."
+        },
+        {
+          "english": "Can I join the club?",
+          "options": [
+            "Posso entrar no clube?",
+            "Pode! Fale com o Mr. Brown.",
+            "Ótimo. E eu quero experimentar hóquei também."
+          ],
+          "correct": 0,
+          "joke": "\"Can I join the club?\" = Posso entrar no clube?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Canadá",
+      "items": [
+        {
+          "emoji": "⚽",
+          "title": "Soccer x football",
+          "en": "I love soccer.",
+          "pt": "No Canadá, \"soccer\" é uma forma comum de falar do futebol que conhecemos no Brasil. \"Football\" pode se referir ao futebol canadense ou ao americano, conforme o contexto."
+        },
+        {
+          "emoji": "🏒",
+          "title": "Hóquei no gelo",
+          "en": "Do you play hockey?",
+          "pt": "O hóquei no gelo é muito popular no Canadá. Você pode assistir a jogos em arenas e conhecer pistas preparadas para patinação. Nunca entre em um lago congelado sem orientação e confirmação local de segurança. Perguntar \"Do you play hockey?\" pode ajudar a puxar assunto.",
+          "image": "assets/images/ca/ca-coffee/photo-hockey.jpg",
+          "alt": "Crianças jogando hóquei em um lago congelado",
+          "credit": {
+            "author": "Laslovarga",
+            "license": "CC BY-SA 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:2021_Pond_Hockey_Waterdown_Laslovarga_(5).jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

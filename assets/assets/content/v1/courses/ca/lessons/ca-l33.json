@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l33",
+  "title": "O dever é para quando?",
+  "scenario": "Leo confere a tarefa e pede um lápis emprestado a Jake.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "O dever é para quando?",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Jake, when is the homework due?",
+          "pt": "Jake, o dever é para quando?"
+        },
+        {
+          "speaker": "Jake",
+          "en": "It's due on Friday.",
+          "pt": "É para sexta-feira."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Friday. Thanks. Can I borrow a pencil?",
+          "pt": "Sexta. Valeu. Posso pegar um lápis emprestado?"
+        },
+        {
+          "speaker": "Jake",
+          "en": "Sure. Here you go.",
+          "pt": "Claro. Aqui está."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thanks! I need a pencil and a notebook.",
+          "pt": "Valeu! Eu preciso de um lápis e de um caderno."
+        },
+        {
+          "speaker": "Jake",
+          "en": "The school store has notebooks.",
+          "pt": "A loja da escola tem cadernos."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "When is it due?",
+          "pt": "É para quando? (prazo)",
+          "emoji": "📅"
+        },
+        {
+          "en": "Friday",
+          "pt": "sexta-feira",
+          "emoji": "5️⃣"
+        },
+        {
+          "en": "Can I borrow...?",
+          "pt": "Posso pegar ... emprestado?",
+          "emoji": "🤝"
+        },
+        {
+          "en": "pencil",
+          "pt": "lápis",
+          "emoji": "✏️"
+        },
+        {
+          "en": "notebook",
+          "pt": "caderno",
+          "emoji": "📓"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Jake, when is the homework due?\"?",
+      "lang": "pt",
+      "options": [
+        "Valeu! Eu preciso de um lápis e de um caderno.",
+        "A loja da escola tem cadernos.",
+        "Jake, o dever é para quando?"
+      ],
+      "correct": 2,
+      "explanation": "\"When is it due?\" = É para quando? \"Due\" = prazo de entrega."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Valeu! Eu preciso de um lápis e de um caderno.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Jake, when is the homework due?",
+        "It's due on Friday.",
+        "Thanks! I need a pencil and a notebook."
+      ],
+      "correct": 2,
+      "explanation": "\"I need...\" = eu preciso de..."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Jake, o dever é para quando?",
+      "answer": [
+        "Jake,",
+        "when",
+        "is",
+        "the",
+        "homework",
+        "due?"
+      ],
+      "distractors": [
+        "notebook",
+        "school"
+      ],
+      "explanation": "\"When is it due?\" = É para quando? \"Due\" = prazo de entrega."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Friday. Thanks. Can I borrow a pencil?",
+      "lang": "pt",
+      "options": [
+        "Jake, o dever é para quando?",
+        "Sexta. Valeu. Posso pegar um lápis emprestado?",
+        "É para sexta-feira."
+      ],
+      "correct": 1,
+      "explanation": "\"Can I borrow a pencil?\" = Posso pegar um lápis emprestado?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Jake",
+          "en": "Sure. Here you go.",
+          "pt": "Claro. Aqui está."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Valeu! Eu preciso de um lápis e de um caderno.",
+      "options": [
+        "The school store has notebooks.",
+        "Thanks! I need a pencil and a notebook.",
+        "Jake, when is the homework due?"
+      ],
+      "correct": 1,
+      "explanation": "\"I need...\" = eu preciso de..."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O prazo de sexta",
+      "questions": [
+        {
+          "english": "Jake, when is the homework due?",
+          "options": [
+            "Jake, o dever é para quando?",
+            "Sexta. Valeu. Posso pegar um lápis emprestado?",
+            "Claro. Aqui está."
+          ],
+          "correct": 0,
+          "joke": "\"When is it due?\" = É para quando? \"Due\" = prazo de entrega."
+        },
+        {
+          "english": "Friday. Thanks. Can I borrow a pencil?",
+          "options": [
+            "Valeu! Eu preciso de um lápis e de um caderno.",
+            "Sexta. Valeu. Posso pegar um lápis emprestado?",
+            "A loja da escola tem cadernos."
+          ],
+          "correct": 1,
+          "joke": "\"Can I borrow a pencil?\" = Posso pegar um lápis emprestado?"
+        },
+        {
+          "english": "It's due on Friday.",
+          "options": [
+            "A loja da escola tem cadernos.",
+            "É para sexta-feira.",
+            "Jake, o dever é para quando?"
+          ],
+          "correct": 1,
+          "joke": "\"On Friday\" = na sexta-feira."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Canadá",
+      "items": [
+        {
+          "emoji": "📅",
+          "title": "Prazos são sérios",
+          "en": "When is it due?",
+          "pt": "Na escola canadense, o prazo (\"due date\") costuma ser levado a sério. Anote no celular e, se não entender a tarefa, pergunte ao professor antes do dia."
+        }
+      ]
+    }
+  ]
+}

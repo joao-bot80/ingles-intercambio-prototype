@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l38",
+  "title": "Posso dizer não",
+  "scenario": "Ruby convida Bia para um passeio e Bia precisa falar com Jo antes. Num outro momento, Bia conta a um adulto que não se sente segura.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Posso dizer não",
+      "lines": [
+        {
+          "speaker": "Ruby",
+          "en": "Bia, do you want to go to the beach with my friends?",
+          "pt": "Bia, quer ir à praia com os meus amigos?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "No, thanks. I need to ask my host family.",
+          "pt": "Não, obrigada. Preciso perguntar à minha família anfitriã."
+        },
+        {
+          "speaker": "Ruby",
+          "en": "Okay! Maybe tomorrow?",
+          "pt": "Ok! Talvez amanhã?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Maybe tomorrow.",
+          "pt": "Talvez amanhã."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Ms. Clarke, a boy is following me. I don't feel safe.",
+          "pt": "Ms. Clarke, um menino está me seguindo. Eu não me sinto segura."
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Thank you for telling me. You are safe here.",
+          "pt": "Obrigada por me contar. Você está segura aqui."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "No, thanks.",
+          "pt": "Não, obrigado / obrigada.",
+          "emoji": "🙅"
+        },
+        {
+          "en": "I need to ask my host family.",
+          "pt": "Preciso perguntar à minha família anfitriã.",
+          "emoji": "🏠"
+        },
+        {
+          "en": "Maybe tomorrow.",
+          "pt": "Talvez amanhã.",
+          "emoji": "🤔"
+        },
+        {
+          "en": "I don't feel safe.",
+          "pt": "Eu não me sinto seguro / segura.",
+          "emoji": "⚠️"
+        },
+        {
+          "en": "beach",
+          "pt": "praia",
+          "emoji": "🏖️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"No, thanks. I need to ask my host family.\"?",
+      "lang": "pt",
+      "options": [
+        "Ok! Talvez amanhã?",
+        "Não, obrigada. Preciso perguntar à minha família anfitriã.",
+        "Talvez amanhã."
+      ],
+      "correct": 1,
+      "explanation": "\"I need to ask my host family\" = preciso perguntar à minha família anfitriã."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Obrigada por me contar. Você está segura aqui.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Thank you for telling me. You are safe here.",
+        "No, thanks. I need to ask my host family.",
+        "Okay! Maybe tomorrow?"
+      ],
+      "correct": 0,
+      "explanation": "\"You are safe here\" = você está segura aqui."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Talvez amanhã.",
+      "answer": [
+        "Maybe",
+        "tomorrow."
+      ],
+      "distractors": [
+        "with",
+        "friends"
+      ],
+      "explanation": "\"Maybe tomorrow\" = talvez amanhã."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Ms. Clarke, a boy is following me. I don't feel safe.",
+      "lang": "pt",
+      "options": [
+        "Ok! Talvez amanhã?",
+        "Ms. Clarke, um menino está me seguindo. Eu não me sinto segura.",
+        "Talvez amanhã."
+      ],
+      "correct": 1,
+      "explanation": "\"I don't feel safe\" = eu não me sinto segura. Conte a um adulto."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ruby",
+          "en": "Okay! Maybe tomorrow?",
+          "pt": "Ok! Talvez amanhã?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Talvez amanhã.",
+      "options": [
+        "No, thanks. I need to ask my host family.",
+        "Ms. Clarke, a boy is following me. I don't feel safe.",
+        "Maybe tomorrow."
+      ],
+      "correct": 2,
+      "explanation": "\"Maybe tomorrow\" = talvez amanhã."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O convite",
+      "questions": [
+        {
+          "english": "No, thanks. I need to ask my host family.",
+          "options": [
+            "Obrigada por me contar. Você está segura aqui.",
+            "Bia, quer ir à praia com os meus amigos?",
+            "Não, obrigada. Preciso perguntar à minha família anfitriã."
+          ],
+          "correct": 2,
+          "joke": "\"I need to ask my host family\" = preciso perguntar à minha família anfitriã."
+        },
+        {
+          "english": "Ms. Clarke, a boy is following me. I don't feel safe.",
+          "options": [
+            "Obrigada por me contar. Você está segura aqui.",
+            "Ms. Clarke, um menino está me seguindo. Eu não me sinto segura.",
+            "Bia, quer ir à praia com os meus amigos?"
+          ],
+          "correct": 1,
+          "joke": "\"I don't feel safe\" = eu não me sinto segura. Conte a um adulto."
+        },
+        {
+          "english": "Maybe tomorrow.",
+          "options": [
+            "Bia, quer ir à praia com os meus amigos?",
+            "Não, obrigada. Preciso perguntar à minha família anfitriã.",
+            "Talvez amanhã."
+          ],
+          "correct": 2,
+          "joke": "\"Maybe tomorrow\" = talvez amanhã."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🛡️",
+          "title": "Seu limite vale",
+          "en": "I don't feel safe.",
+          "pt": "Você pode recusar convites e pedir para pensar. Se alguém te deixar com medo ou desconfortável, conte a um adulto de confiança da escola, à família anfitriã ou à agência."
+        }
+      ]
+    }
+  ]
+}

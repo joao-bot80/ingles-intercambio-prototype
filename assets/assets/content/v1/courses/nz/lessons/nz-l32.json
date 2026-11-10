@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l32",
+  "title": "Não entendi homework",
+  "scenario": "Mr. Evans explica uma palavra a Bia e diminui o ritmo quando ela pede.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Não entendi homework",
+      "lines": [
+        {
+          "speaker": "Mr. Evans",
+          "en": "Your homework is to finish the text and bring it on Monday.",
+          "pt": "O dever de vocês é terminar o texto e trazer na segunda."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Sorry, sir. What does homework mean?",
+          "pt": "Desculpe, professor. O que significa homework?"
+        },
+        {
+          "speaker": "Mr. Evans",
+          "en": "Homework is school work you do at home.",
+          "pt": "Homework é trabalho da escola que você faz em casa."
+        },
+        {
+          "speaker": "Bia",
+          "en": "I don't understand. Can you speak more slowly?",
+          "pt": "Eu não entendi. Pode falar mais devagar?"
+        },
+        {
+          "speaker": "Mr. Evans",
+          "en": "Sure. Finish the text. At home. Bring it on Monday.",
+          "pt": "Claro. Termine o texto. Em casa. Traga na segunda."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thank you, sir!",
+          "pt": "Obrigada, professor!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "homework",
+          "pt": "dever de casa",
+          "emoji": "📝"
+        },
+        {
+          "en": "What does ... mean?",
+          "pt": "O que significa...?",
+          "emoji": "❓"
+        },
+        {
+          "en": "Can you speak more slowly?",
+          "pt": "Pode falar mais devagar?",
+          "emoji": "🐢"
+        },
+        {
+          "en": "Monday",
+          "pt": "segunda-feira",
+          "emoji": "1️⃣"
+        },
+        {
+          "en": "finish",
+          "pt": "terminar",
+          "emoji": "🏁"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Sorry, sir. What does homework mean?\"?",
+      "lang": "pt",
+      "options": [
+        "Desculpe, professor. O que significa homework?",
+        "Claro. Termine o texto. Em casa. Traga na segunda.",
+        "Obrigada, professor!"
+      ],
+      "correct": 0,
+      "explanation": "\"What does homework mean?\" = O que significa homework?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Homework é trabalho da escola que você faz em casa.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Homework is school work you do at home.",
+        "Thank you, sir!",
+        "Your homework is to finish the text and bring it on Monday."
+      ],
+      "correct": 0,
+      "explanation": "\"At home\" = em casa."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Desculpe, professor. O que significa homework?",
+      "answer": [
+        "Sorry,",
+        "sir.",
+        "What",
+        "does",
+        "homework",
+        "mean?"
+      ],
+      "distractors": [
+        "finish",
+        "the"
+      ],
+      "explanation": "\"What does homework mean?\" = O que significa homework?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "I don't understand. Can you speak more slowly?",
+      "lang": "pt",
+      "options": [
+        "Obrigada, professor!",
+        "Eu não entendi. Pode falar mais devagar?",
+        "O dever de vocês é terminar o texto e trazer na segunda."
+      ],
+      "correct": 1,
+      "explanation": "\"Can you speak more slowly?\" = Pode falar mais devagar?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Mr. Evans",
+          "en": "Your homework is to finish the text and bring it on Monday.",
+          "pt": "O dever de vocês é terminar o texto e trazer na segunda."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Desculpe, professor. O que significa homework?",
+      "options": [
+        "Sorry, sir. What does homework mean?",
+        "Thank you, sir!",
+        "Homework is school work you do at home."
+      ],
+      "correct": 0,
+      "explanation": "\"What does homework mean?\" = O que significa homework?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A palavra nova",
+      "questions": [
+        {
+          "english": "Sorry, sir. What does homework mean?",
+          "options": [
+            "Desculpe, professor. O que significa homework?",
+            "Claro. Termine o texto. Em casa. Traga na segunda.",
+            "Obrigada, professor!"
+          ],
+          "correct": 0,
+          "joke": "\"What does homework mean?\" = O que significa homework?"
+        },
+        {
+          "english": "I don't understand. Can you speak more slowly?",
+          "options": [
+            "Eu não entendi. Pode falar mais devagar?",
+            "Desculpe, professor. O que significa homework?",
+            "Homework é trabalho da escola que você faz em casa."
+          ],
+          "correct": 0,
+          "joke": "\"Can you speak more slowly?\" = Pode falar mais devagar?"
+        },
+        {
+          "english": "Sure. Finish the text. At home. Bring it on Monday.",
+          "options": [
+            "Claro. Termine o texto. Em casa. Traga na segunda.",
+            "Obrigada, professor!",
+            "O dever de vocês é terminar o texto e trazer na segunda."
+          ],
+          "correct": 0,
+          "joke": "\"Bring it on Monday\" = traga na segunda."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🚻",
+          "title": "Pedir licença",
+          "en": "May I go to the toilet?",
+          "pt": "Muitas escolas pedem que você peça licença para sair da sala. \"Toilet\" é a palavra comum na escola."
+        }
+      ]
+    }
+  ]
+}

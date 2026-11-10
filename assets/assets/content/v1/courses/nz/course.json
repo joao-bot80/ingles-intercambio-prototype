@@ -50,6 +50,11 @@
       "emoji": "🧑🏽‍🍳",
       "gender": "F",
       "role": "other"
+    },
+    "Aroha": {
+      "emoji": "👧🏾",
+      "gender": "F",
+      "role": "classmate"
     }
   },
   "lessons": [
@@ -172,6 +177,66 @@
     {
       "id": "nz-l30",
       "title": "Missão: a primeira manhã kiwi"
+    },
+    {
+      "id": "nz-l31",
+      "title": "Mr. Evans e a página dez"
+    },
+    {
+      "id": "nz-l32",
+      "title": "Não entendi homework"
+    },
+    {
+      "id": "nz-l33",
+      "title": "Pedir material e confirmar o prazo"
+    },
+    {
+      "id": "nz-l34",
+      "title": "Procurar o dean sem medo"
+    },
+    {
+      "id": "nz-l35",
+      "title": "Missão: voltar a acompanhar a aula"
+    },
+    {
+      "id": "nz-l36",
+      "title": "Ben, posso sentar aqui?"
+    },
+    {
+      "id": "nz-l37",
+      "title": "Rugby, cricket ou outra coisa?"
+    },
+    {
+      "id": "nz-l38",
+      "title": "Posso dizer não"
+    },
+    {
+      "id": "nz-l39",
+      "title": "Antes de postar minha foto"
+    },
+    {
+      "id": "nz-l40",
+      "title": "Missão: amizade com respeito"
+    },
+    {
+      "id": "nz-l41",
+      "title": "Este ônibus passa na biblioteca?"
+    },
+    {
+      "id": "nz-l42",
+      "title": "Cartão, parada e agradecimento"
+    },
+    {
+      "id": "nz-l43",
+      "title": "Across the road, com cuidado"
+    },
+    {
+      "id": "nz-l44",
+      "title": "Sem bateria e fora do caminho"
+    },
+    {
+      "id": "nz-l45",
+      "title": "Missão: biblioteca e retorno"
     },
     {
       "id": "nz-hello",
@@ -372,6 +437,45 @@
         "nz-l28",
         "nz-l29",
         "nz-l30"
+      ]
+    },
+    {
+      "id": "nz-u07",
+      "title": "7. Entender e buscar apoio",
+      "subtitle": "Comandos, perguntas, tarefa e dean",
+      "emoji": "📚",
+      "lessons": [
+        "nz-l31",
+        "nz-l32",
+        "nz-l33",
+        "nz-l34",
+        "nz-l35"
+      ]
+    },
+    {
+      "id": "nz-u08",
+      "title": "8. Amizades, convites e consentimento",
+      "subtitle": "Ben e Ruby, esportes, recusa e fotos",
+      "emoji": "🤝",
+      "lessons": [
+        "nz-l36",
+        "nz-l37",
+        "nz-l38",
+        "nz-l39",
+        "nz-l40"
+      ]
+    },
+    {
+      "id": "nz-u09",
+      "title": "9. Ônibus, rua e retorno",
+      "subtitle": "Cartão, across the road, direções e contato",
+      "emoji": "🚌",
+      "lessons": [
+        "nz-l41",
+        "nz-l42",
+        "nz-l43",
+        "nz-l44",
+        "nz-l45"
       ]
     },
     {

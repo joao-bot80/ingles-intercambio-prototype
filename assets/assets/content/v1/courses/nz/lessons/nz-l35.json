@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l35",
+  "title": "Missão: voltar a acompanhar a aula",
+  "scenario": "Bia pede explicação a Mr. Evans e Leo confirma a tarefa com Ben.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: voltar a acompanhar a aula",
+      "lines": [
+        {
+          "speaker": "Mr. Evans",
+          "en": "Open your book on page twenty. Write a short text about your family.",
+          "pt": "Abram o livro na página vinte. Escrevam um texto curto sobre a sua família."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Sorry, sir. Can you speak more slowly?",
+          "pt": "Desculpe, professor. Pode falar mais devagar?"
+        },
+        {
+          "speaker": "Mr. Evans",
+          "en": "Page twenty. Write about your family.",
+          "pt": "Página vinte. Escreva sobre a sua família."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Can you show me?",
+          "pt": "Pode me mostrar?"
+        },
+        {
+          "speaker": "Mr. Evans",
+          "en": "Sure. Here.",
+          "pt": "Claro. Aqui."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Ben, when is it due?",
+          "pt": "Ben, é para quando?"
+        },
+        {
+          "speaker": "Ben",
+          "en": "On Friday.",
+          "pt": "Na sexta."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thanks, Ben!",
+          "pt": "Valeu, Ben!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Can you speak more slowly?",
+          "pt": "Pode falar mais devagar?",
+          "emoji": "🐢"
+        },
+        {
+          "en": "Can you show me?",
+          "pt": "Pode me mostrar?",
+          "emoji": "👉"
+        },
+        {
+          "en": "family",
+          "pt": "família",
+          "emoji": "👨‍👩‍👧"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Sorry, sir. Can you speak more slowly?\"?",
+      "lang": "pt",
+      "options": [
+        "Desculpe, professor. Pode falar mais devagar?",
+        "Ben, é para quando?",
+        "Na sexta."
+      ],
+      "correct": 0,
+      "explanation": "\"Can you speak more slowly?\" = Pode falar mais devagar?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Página vinte. Escreva sobre a sua família.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Page twenty. Write about your family.",
+        "Can you show me?",
+        "Sure. Here."
+      ],
+      "correct": 0,
+      "explanation": "\"Write about your family\" = escreva sobre a sua família."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Desculpe, professor. Pode falar mais devagar?",
+      "answer": [
+        "Sorry,",
+        "sir.",
+        "Can",
+        "you",
+        "speak",
+        "more",
+        "slowly?"
+      ],
+      "distractors": [
+        "about",
+        "family"
+      ],
+      "explanation": "\"Can you speak more slowly?\" = Pode falar mais devagar?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Can you show me?",
+      "lang": "pt",
+      "options": [
+        "Valeu, Ben!",
+        "Abram o livro na página vinte. Escrevam um texto curto sobre a sua família.",
+        "Pode me mostrar?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can you show me?\" = Pode me mostrar?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Mr. Evans",
+          "en": "Sure. Here.",
+          "pt": "Claro. Aqui."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Ben, é para quando?",
+      "options": [
+        "Open your book on page twenty. Write a short text about your family.",
+        "Sorry, sir. Can you speak more slowly?",
+        "Ben, when is it due?"
+      ],
+      "correct": 2,
+      "explanation": "\"When is it due?\" = É para quando?"
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "A aula do Mr. Evans",
+      "questions": [
+        {
+          "english": "Sorry, sir. Can you speak more slowly?",
+          "options": [
+            "Valeu, Ben!",
+            "Abram o livro na página vinte. Escrevam um texto curto sobre a sua família.",
+            "Desculpe, professor. Pode falar mais devagar?"
+          ],
+          "correct": 2,
+          "joke": "\"Can you speak more slowly?\" = Pode falar mais devagar?"
+        },
+        {
+          "english": "Can you show me?",
+          "options": [
+            "Pode me mostrar?",
+            "Na sexta.",
+            "Valeu, Ben!"
+          ],
+          "correct": 0,
+          "joke": "\"Can you show me?\" = Pode me mostrar?"
+        },
+        {
+          "english": "Ben, when is it due?",
+          "options": [
+            "Ben, é para quando?",
+            "Claro. Aqui.",
+            "Na sexta."
+          ],
+          "correct": 0,
+          "joke": "\"When is it due?\" = É para quando?"
+        },
+        {
+          "english": "Page twenty. Write about your family.",
+          "options": [
+            "Pode me mostrar?",
+            "Claro. Aqui.",
+            "Página vinte. Escreva sobre a sua família."
+          ],
+          "correct": 2,
+          "joke": "\"Write about your family\" = escreva sobre a sua família."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "💪",
+          "title": "Perguntar é aprender",
+          "en": "Can you show me?",
+          "pt": "Ninguém espera que você entenda tudo de primeira. Pedir para falar devagar, mostrar ou explicar é o jeito mais rápido de aprender."
+        }
+      ]
+    }
+  ]
+}

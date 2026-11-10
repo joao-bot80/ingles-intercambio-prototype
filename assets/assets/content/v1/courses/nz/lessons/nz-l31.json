@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l31",
+  "title": "Mr. Evans e a página dez",
+  "scenario": "Bia acompanha os primeiros comandos de aula na escola neozelandesa.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Mr. Evans e a página dez",
+      "lines": [
+        {
+          "speaker": "Mr. Evans",
+          "en": "Morning, everyone. Open your book, please.",
+          "pt": "Bom dia, pessoal. Abram o livro, por favor."
+        },
+        {
+          "speaker": "Bia",
+          "en": "What page, sir?",
+          "pt": "Que página, professor?"
+        },
+        {
+          "speaker": "Mr. Evans",
+          "en": "Page ten. First, listen.",
+          "pt": "Página dez. Primeiro, escutem."
+        },
+        {
+          "speaker": "Mr. Evans",
+          "en": "Now read the text with a partner.",
+          "pt": "Agora leiam o texto com um colega."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Read with a partner. Okay.",
+          "pt": "Ler com um colega. Ok."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Open your book.",
+          "pt": "Abra o seu livro.",
+          "emoji": "📖"
+        },
+        {
+          "en": "page",
+          "pt": "página",
+          "emoji": "📄"
+        },
+        {
+          "en": "Listen.",
+          "pt": "Escute.",
+          "emoji": "👂"
+        },
+        {
+          "en": "Read.",
+          "pt": "Leia.",
+          "emoji": "👀"
+        },
+        {
+          "en": "partner",
+          "pt": "colega / dupla",
+          "emoji": "🧑‍🤝‍🧑"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Morning, everyone. Open your book, please.\"?",
+      "lang": "pt",
+      "options": [
+        "Que página, professor?",
+        "Bom dia, pessoal. Abram o livro, por favor.",
+        "Página dez. Primeiro, escutem."
+      ],
+      "correct": 1,
+      "explanation": "\"Open your book\" = abra o seu livro."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Que página, professor?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Page ten. First, listen.",
+        "Now read the text with a partner.",
+        "What page, sir?"
+      ],
+      "correct": 2,
+      "explanation": "\"Sir\" = senhor; muitos alunos chamam o professor assim."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Que página, professor?",
+      "answer": [
+        "What",
+        "page,",
+        "sir?"
+      ],
+      "distractors": [
+        "text",
+        "with"
+      ],
+      "explanation": "\"Sir\" = senhor; muitos alunos chamam o professor assim."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Page ten. First, listen.",
+      "lang": "pt",
+      "options": [
+        "Agora leiam o texto com um colega.",
+        "Ler com um colega. Ok.",
+        "Página dez. Primeiro, escutem."
+      ],
+      "correct": 2,
+      "explanation": "\"Page ten\" = página dez. \"Listen\" = escute."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Mr. Evans",
+          "en": "Morning, everyone. Open your book, please.",
+          "pt": "Bom dia, pessoal. Abram o livro, por favor."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Que página, professor?",
+      "options": [
+        "Read with a partner. Okay.",
+        "What page, sir?",
+        "Page ten. First, listen."
+      ],
+      "correct": 1,
+      "explanation": "\"Sir\" = senhor; muitos alunos chamam o professor assim."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A primeira aula",
+      "questions": [
+        {
+          "english": "Morning, everyone. Open your book, please.",
+          "options": [
+            "Bom dia, pessoal. Abram o livro, por favor.",
+            "Que página, professor?",
+            "Página dez. Primeiro, escutem."
+          ],
+          "correct": 0,
+          "joke": "\"Open your book\" = abra o seu livro."
+        },
+        {
+          "english": "Page ten. First, listen.",
+          "options": [
+            "Agora leiam o texto com um colega.",
+            "Ler com um colega. Ok.",
+            "Página dez. Primeiro, escutem."
+          ],
+          "correct": 2,
+          "joke": "\"Page ten\" = página dez. \"Listen\" = escute."
+        },
+        {
+          "english": "Now read the text with a partner.",
+          "options": [
+            "Ler com um colega. Ok.",
+            "Bom dia, pessoal. Abram o livro, por favor.",
+            "Agora leiam o texto com um colega."
+          ],
+          "correct": 2,
+          "joke": "\"Read with a partner\" = leia com um colega."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "✋",
+          "title": "Perguntar é normal",
+          "en": "What does this mean?",
+          "pt": "Levante a mão e use: \"What does ___ mean?\". Professores gostam de quem pergunta."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l44",
+  "title": "Sem bateria e fora do caminho",
+  "scenario": "Bia entra numa loja para pedir ajuda e falar com Jo.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Sem bateria e fora do caminho",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Excuse me. I'm lost.",
+          "pt": "Com licença. Estou perdida."
+        },
+        {
+          "speaker": "Cashier",
+          "en": "Oh, okay. Can I help?",
+          "pt": "Ah, certo. Posso ajudar?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "My phone is dead. Can I call my host family?",
+          "pt": "O meu celular está sem bateria. Posso ligar para a minha família anfitriã?"
+        },
+        {
+          "speaker": "Cashier",
+          "en": "Sure. Here is the phone. Do you know the number?",
+          "pt": "Claro. Aqui está o telefone. Você sabe o número?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes, it's on paper in my bag.",
+          "pt": "Sim, está num papel na minha bolsa."
+        },
+        {
+          "speaker": "Jo",
+          "en": "Bia? Stay there. I'm coming.",
+          "pt": "Bia? Fique aí. Estou indo."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "I'm lost.",
+          "pt": "Estou perdido / perdida.",
+          "emoji": "🧭"
+        },
+        {
+          "en": "My phone is dead.",
+          "pt": "O meu celular está sem bateria.",
+          "emoji": "🪫"
+        },
+        {
+          "en": "Can I call my host family?",
+          "pt": "Posso ligar para a minha família anfitriã?",
+          "emoji": "📞"
+        },
+        {
+          "en": "Stay there.",
+          "pt": "Fique aí.",
+          "emoji": "📍"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me. I'm lost.\"?",
+      "lang": "pt",
+      "options": [
+        "Bia? Fique aí. Estou indo.",
+        "Ah, certo. Posso ajudar?",
+        "Com licença. Estou perdida."
+      ],
+      "correct": 2,
+      "explanation": "\"I'm lost\" = estou perdida. Peça ajuda num lugar seguro, como uma loja."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Sim, está num papel na minha bolsa.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Bia? Stay there. I'm coming.",
+        "Excuse me. I'm lost.",
+        "Yes, it's on paper in my bag."
+      ],
+      "correct": 2,
+      "explanation": "Tenha o número da família no papel."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Com licença. Estou perdida.",
+      "answer": [
+        "Excuse",
+        "me.",
+        "I'm",
+        "lost."
+      ],
+      "distractors": [
+        "yes",
+        "it's"
+      ],
+      "explanation": "\"I'm lost\" = estou perdida. Peça ajuda num lugar seguro, como uma loja."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "My phone is dead. Can I call my host family?",
+      "lang": "pt",
+      "options": [
+        "O meu celular está sem bateria. Posso ligar para a minha família anfitriã?",
+        "Ah, certo. Posso ajudar?",
+        "Claro. Aqui está o telefone. Você sabe o número?"
+      ],
+      "correct": 0,
+      "explanation": "\"Can I call my host family?\" = Posso ligar para a minha família anfitriã?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Cashier",
+          "en": "Sure. Here is the phone. Do you know the number?",
+          "pt": "Claro. Aqui está o telefone. Você sabe o número?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Sim, está num papel na minha bolsa.",
+      "options": [
+        "Yes, it's on paper in my bag.",
+        "Oh, okay. Can I help?",
+        "My phone is dead. Can I call my host family?"
+      ],
+      "correct": 0,
+      "explanation": "Tenha o número da família no papel."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Perdida na cidade",
+      "questions": [
+        {
+          "english": "Excuse me. I'm lost.",
+          "options": [
+            "O meu celular está sem bateria. Posso ligar para a minha família anfitriã?",
+            "Com licença. Estou perdida.",
+            "Claro. Aqui está o telefone. Você sabe o número?"
+          ],
+          "correct": 1,
+          "joke": "\"I'm lost\" = estou perdida. Peça ajuda num lugar seguro, como uma loja."
+        },
+        {
+          "english": "My phone is dead. Can I call my host family?",
+          "options": [
+            "O meu celular está sem bateria. Posso ligar para a minha família anfitriã?",
+            "Ah, certo. Posso ajudar?",
+            "Claro. Aqui está o telefone. Você sabe o número?"
+          ],
+          "correct": 0,
+          "joke": "\"Can I call my host family?\" = Posso ligar para a minha família anfitriã?"
+        },
+        {
+          "english": "Bia? Stay there. I'm coming.",
+          "options": [
+            "O meu celular está sem bateria. Posso ligar para a minha família anfitriã?",
+            "Bia? Fique aí. Estou indo.",
+            "Claro. Aqui está o telefone. Você sabe o número?"
+          ],
+          "correct": 1,
+          "joke": "\"Stay there\" = fique aí."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Cidade · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "📞",
+          "title": "Contatos de emergência",
+          "en": "My emergency contact",
+          "pt": "Salve no celular: a família anfitriã, a escola, o seguro-saúde e o contato de emergência da sua agência."
+        }
+      ]
+    }
+  ]
+}

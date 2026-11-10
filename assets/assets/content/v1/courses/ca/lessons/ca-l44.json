@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l44",
+  "title": "Estou perdida e sem bateria",
+  "scenario": "Bia entra numa loja para pedir ajuda e falar com Linda. Procure um lugar seguro, não siga desconhecidos.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Estou perdida e sem bateria",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Excuse me. Can you help me? I'm lost.",
+          "pt": "Com licença. Pode me ajudar? Estou perdida."
+        },
+        {
+          "speaker": "Cashier",
+          "en": "Sure. Where do you live?",
+          "pt": "Claro. Onde você mora?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "With my host family. My phone is dead.",
+          "pt": "Com a minha família anfitriã. O meu celular está sem bateria."
+        },
+        {
+          "speaker": "Cashier",
+          "en": "Do you have the address?",
+          "pt": "Você tem o endereço?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Yes, on paper. Can I call my host family?",
+          "pt": "Sim, no papel. Posso ligar para a minha família anfitriã?"
+        },
+        {
+          "speaker": "Cashier",
+          "en": "Of course. Use the store phone.",
+          "pt": "Claro. Use o telefone da loja."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "I'm lost.",
+          "pt": "Estou perdido / perdida.",
+          "emoji": "🧭"
+        },
+        {
+          "en": "My phone is dead.",
+          "pt": "O meu celular está sem bateria.",
+          "emoji": "🪫"
+        },
+        {
+          "en": "Can I call my host family?",
+          "pt": "Posso ligar para a minha família anfitriã?",
+          "emoji": "📞"
+        },
+        {
+          "en": "address",
+          "pt": "endereço",
+          "emoji": "🏠"
+        },
+        {
+          "en": "paper",
+          "pt": "papel",
+          "emoji": "📄"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me. Can you help me? I'm lost.\"?",
+      "lang": "pt",
+      "options": [
+        "Com a minha família anfitriã. O meu celular está sem bateria.",
+        "Você tem o endereço?",
+        "Com licença. Pode me ajudar? Estou perdida."
+      ],
+      "correct": 2,
+      "explanation": "\"I'm lost\" = estou perdida. Peça ajuda dentro de uma loja ou a um funcionário."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Você tem o endereço?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Sure. Where do you live?",
+        "With my host family. My phone is dead.",
+        "Do you have the address?"
+      ],
+      "correct": 2,
+      "explanation": "Tenha o endereço também no papel."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Você tem o endereço?",
+      "answer": [
+        "Do",
+        "you",
+        "have",
+        "the",
+        "address?"
+      ],
+      "distractors": [
+        "dead",
+        "yes"
+      ],
+      "explanation": "Tenha o endereço também no papel."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "With my host family. My phone is dead.",
+      "lang": "pt",
+      "options": [
+        "Claro. Use o telefone da loja.",
+        "Com licença. Pode me ajudar? Estou perdida.",
+        "Com a minha família anfitriã. O meu celular está sem bateria."
+      ],
+      "correct": 2,
+      "explanation": "\"My phone is dead\" = o meu celular está sem bateria."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Cashier",
+          "en": "Do you have the address?",
+          "pt": "Você tem o endereço?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Sim, no papel. Posso ligar para a minha família anfitriã?",
+      "options": [
+        "Sure. Where do you live?",
+        "Yes, on paper. Can I call my host family?",
+        "With my host family. My phone is dead."
+      ],
+      "correct": 1,
+      "explanation": "\"Can I call my host family?\" = Posso ligar para a minha família anfitriã?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Perdida na cidade",
+      "questions": [
+        {
+          "english": "Excuse me. Can you help me? I'm lost.",
+          "options": [
+            "Com a minha família anfitriã. O meu celular está sem bateria.",
+            "Você tem o endereço?",
+            "Com licença. Pode me ajudar? Estou perdida."
+          ],
+          "correct": 2,
+          "joke": "\"I'm lost\" = estou perdida. Peça ajuda dentro de uma loja ou a um funcionário."
+        },
+        {
+          "english": "With my host family. My phone is dead.",
+          "options": [
+            "Você tem o endereço?",
+            "Com a minha família anfitriã. O meu celular está sem bateria.",
+            "Sim, no papel. Posso ligar para a minha família anfitriã?"
+          ],
+          "correct": 1,
+          "joke": "\"My phone is dead\" = o meu celular está sem bateria."
+        },
+        {
+          "english": "Yes, on paper. Can I call my host family?",
+          "options": [
+            "Claro. Use o telefone da loja.",
+            "Sim, no papel. Posso ligar para a minha família anfitriã?",
+            "Com licença. Pode me ajudar? Estou perdida."
+          ],
+          "correct": 1,
+          "joke": "\"Can I call my host family?\" = Posso ligar para a minha família anfitriã?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Cidade · Canadá",
+      "items": [
+        {
+          "emoji": "📍",
+          "title": "Endereço sempre com você",
+          "en": "Is it far?",
+          "pt": "Tenha o endereço da família anfitriã salvo no celular E no papel. Se se perder, pergunte a um adulto ou entre numa loja."
+        },
+        {
+          "emoji": "📞",
+          "title": "Contatos de emergência",
+          "en": "My emergency contact",
+          "pt": "Salve no celular: a família anfitriã, a escola, o seguro-saúde e o contato de emergência da sua agência. Se estiver passando mal, avise alguém."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l42",
+  "title": "Cartão, parada e agradecimento",
+  "scenario": "Bia pergunta a um motorista sobre o cartão de transporte da cidade do roteiro.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Cartão, parada e agradecimento",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Hi. Can I use this card?",
+          "pt": "Oi. Posso usar este cartão?"
+        },
+        {
+          "speaker": "Driver",
+          "en": "Yes. Tag on here.",
+          "pt": "Pode. Encoste aqui."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Is the library the next stop?",
+          "pt": "A biblioteca é a próxima parada?"
+        },
+        {
+          "speaker": "Driver",
+          "en": "No, the stop after that.",
+          "pt": "Não, a parada depois dessa."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Okay. I get off here. Thank you!",
+          "pt": "Ok. Eu desço aqui. Obrigada!"
+        },
+        {
+          "speaker": "Driver",
+          "en": "Cheers!",
+          "pt": "Valeu!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "card",
+          "pt": "cartão",
+          "emoji": "💳"
+        },
+        {
+          "en": "tag on",
+          "pt": "encostar o cartão (ao entrar)",
+          "emoji": "📶"
+        },
+        {
+          "en": "next stop",
+          "pt": "próxima parada",
+          "emoji": "⏭️"
+        },
+        {
+          "en": "I get off here.",
+          "pt": "Eu desço aqui.",
+          "emoji": "🚶"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Hi. Can I use this card?\"?",
+      "lang": "pt",
+      "options": [
+        "A biblioteca é a próxima parada?",
+        "Oi. Posso usar este cartão?",
+        "Não, a parada depois dessa."
+      ],
+      "correct": 1,
+      "explanation": "\"Can I use this card?\" = Posso usar este cartão?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Não, a parada depois dessa.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Cheers!",
+        "No, the stop after that.",
+        "Hi. Can I use this card?"
+      ],
+      "correct": 1,
+      "explanation": "\"The stop after that\" = a parada depois dessa."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Oi. Posso usar este cartão?",
+      "answer": [
+        "Hi.",
+        "Can",
+        "I",
+        "use",
+        "this",
+        "card?"
+      ],
+      "distractors": [
+        "stop",
+        "after"
+      ],
+      "explanation": "\"Can I use this card?\" = Posso usar este cartão?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Is the library the next stop?",
+      "lang": "pt",
+      "options": [
+        "Não, a parada depois dessa.",
+        "Ok. Eu desço aqui. Obrigada!",
+        "A biblioteca é a próxima parada?"
+      ],
+      "correct": 2,
+      "explanation": "\"Next stop\" = próxima parada."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Driver",
+          "en": "No, the stop after that.",
+          "pt": "Não, a parada depois dessa."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Ok. Eu desço aqui. Obrigada!",
+      "options": [
+        "Hi. Can I use this card?",
+        "Okay. I get off here. Thank you!",
+        "Yes. Tag on here."
+      ],
+      "correct": 1,
+      "explanation": "\"I get off here\" = eu desço aqui. Agradeça ao motorista!"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "No ônibus",
+      "questions": [
+        {
+          "english": "Hi. Can I use this card?",
+          "options": [
+            "Não, a parada depois dessa.",
+            "Oi. Posso usar este cartão?",
+            "Ok. Eu desço aqui. Obrigada!"
+          ],
+          "correct": 1,
+          "joke": "\"Can I use this card?\" = Posso usar este cartão?"
+        },
+        {
+          "english": "Is the library the next stop?",
+          "options": [
+            "Não, a parada depois dessa.",
+            "A biblioteca é a próxima parada?",
+            "Ok. Eu desço aqui. Obrigada!"
+          ],
+          "correct": 1,
+          "joke": "\"Next stop\" = próxima parada."
+        },
+        {
+          "english": "Okay. I get off here. Thank you!",
+          "options": [
+            "Não, a parada depois dessa.",
+            "Valeu!",
+            "Ok. Eu desço aqui. Obrigada!"
+          ],
+          "correct": 2,
+          "joke": "\"I get off here\" = eu desço aqui. Agradeça ao motorista!"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Cidade · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🎫",
+          "title": "Cartão de transporte",
+          "en": "Does this bus go to the mall?",
+          "pt": "Cada cidade tem o seu cartão e o seu sistema (em Auckland, por exemplo, o AT HOP). A família ou a escola mostra qual usar. Tarifas mudam: confira no site oficial."
+        }
+      ]
+    }
+  ]
+}

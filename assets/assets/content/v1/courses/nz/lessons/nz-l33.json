@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l33",
+  "title": "Pedir material e confirmar o prazo",
+  "scenario": "Leo confere uma tarefa com Ben e pede um lápis emprestado.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Pedir material e confirmar o prazo",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Ben, can I borrow a pencil?",
+          "pt": "Ben, posso pegar um lápis emprestado?"
+        },
+        {
+          "speaker": "Ben",
+          "en": "Yeah, here you go.",
+          "pt": "Claro, aqui está."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thanks. When is the homework due?",
+          "pt": "Valeu. O dever é para quando?"
+        },
+        {
+          "speaker": "Ben",
+          "en": "It's due on Friday.",
+          "pt": "É para sexta-feira."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Friday. And where is the homework?",
+          "pt": "Sexta. E onde está o dever?"
+        },
+        {
+          "speaker": "Ben",
+          "en": "On page twelve.",
+          "pt": "Na página doze."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Can I borrow...?",
+          "pt": "Posso pegar ... emprestado?",
+          "emoji": "🤝"
+        },
+        {
+          "en": "pencil",
+          "pt": "lápis",
+          "emoji": "✏️"
+        },
+        {
+          "en": "When is it due?",
+          "pt": "É para quando? (prazo)",
+          "emoji": "📅"
+        },
+        {
+          "en": "Friday",
+          "pt": "sexta-feira",
+          "emoji": "5️⃣"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Ben, can I borrow a pencil?\"?",
+      "lang": "pt",
+      "options": [
+        "Ben, posso pegar um lápis emprestado?",
+        "É para sexta-feira.",
+        "Sexta. E onde está o dever?"
+      ],
+      "correct": 0,
+      "explanation": "\"Can I borrow a pencil?\" = Posso pegar um lápis emprestado?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Na página doze.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Thanks. When is the homework due?",
+        "On page twelve.",
+        "It's due on Friday."
+      ],
+      "correct": 1,
+      "explanation": "\"On page twelve\" = na página doze."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Ben, posso pegar um lápis emprestado?",
+      "answer": [
+        "Ben,",
+        "can",
+        "I",
+        "borrow",
+        "a",
+        "pencil?"
+      ],
+      "distractors": [
+        "page",
+        "twelve"
+      ],
+      "explanation": "\"Can I borrow a pencil?\" = Posso pegar um lápis emprestado?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Thanks. When is the homework due?",
+      "lang": "pt",
+      "options": [
+        "Valeu. O dever é para quando?",
+        "Na página doze.",
+        "Ben, posso pegar um lápis emprestado?"
+      ],
+      "correct": 0,
+      "explanation": "\"When is the homework due?\" = O dever é para quando?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ben",
+          "en": "Yeah, here you go.",
+          "pt": "Claro, aqui está."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Valeu. O dever é para quando?",
+      "options": [
+        "Ben, can I borrow a pencil?",
+        "Thanks. When is the homework due?",
+        "It's due on Friday."
+      ],
+      "correct": 1,
+      "explanation": "\"When is the homework due?\" = O dever é para quando?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O prazo",
+      "questions": [
+        {
+          "english": "Ben, can I borrow a pencil?",
+          "options": [
+            "Claro, aqui está.",
+            "Valeu. O dever é para quando?",
+            "Ben, posso pegar um lápis emprestado?"
+          ],
+          "correct": 2,
+          "joke": "\"Can I borrow a pencil?\" = Posso pegar um lápis emprestado?"
+        },
+        {
+          "english": "Thanks. When is the homework due?",
+          "options": [
+            "Claro, aqui está.",
+            "Valeu. O dever é para quando?",
+            "É para sexta-feira."
+          ],
+          "correct": 1,
+          "joke": "\"When is the homework due?\" = O dever é para quando?"
+        },
+        {
+          "english": "It's due on Friday.",
+          "options": [
+            "Valeu. O dever é para quando?",
+            "Sexta. E onde está o dever?",
+            "É para sexta-feira."
+          ],
+          "correct": 2,
+          "joke": "\"It's due on Friday\" = é para sexta."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "📅",
+          "title": "Prazo é prazo",
+          "en": "When is it due?",
+          "pt": "Muitas escolas usam um site ou app para tarefas e prazos. Anote a data e, se não entender, pergunte antes do dia de entregar."
+        }
+      ]
+    }
+  ]
+}

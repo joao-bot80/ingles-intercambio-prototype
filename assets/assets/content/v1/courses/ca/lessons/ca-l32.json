@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l32",
+  "title": "Pode falar mais devagar?",
+  "scenario": "Bia interrompe Mr. Brown com educação quando a explicação fica rápida.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Pode falar mais devagar?",
+      "lines": [
+        {
+          "speaker": "Mr. Brown",
+          "en": "For homework, read pages ten to twelve and write a short text.",
+          "pt": "De dever de casa, leiam as páginas dez a doze e escrevam um texto curto."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Sorry, I don't understand. Can you speak more slowly?",
+          "pt": "Desculpe, eu não entendi. Pode falar mais devagar?"
+        },
+        {
+          "speaker": "Mr. Brown",
+          "en": "Of course. Homework: read pages ten to twelve.",
+          "pt": "Claro. Dever de casa: ler as páginas dez a doze."
+        },
+        {
+          "speaker": "Bia",
+          "en": "What does homework mean?",
+          "pt": "O que significa homework?"
+        },
+        {
+          "speaker": "Mr. Brown",
+          "en": "Homework is work for home, after school.",
+          "pt": "Homework é trabalho para casa, depois da aula."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thank you, Mr. Brown.",
+          "pt": "Obrigada, Mr. Brown."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Can you speak more slowly?",
+          "pt": "Pode falar mais devagar?",
+          "emoji": "🐢"
+        },
+        {
+          "en": "What does ... mean?",
+          "pt": "O que significa...?",
+          "emoji": "❓"
+        },
+        {
+          "en": "homework",
+          "pt": "dever de casa",
+          "emoji": "📝"
+        },
+        {
+          "en": "write",
+          "pt": "escrever",
+          "emoji": "✍️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Sorry, I don't understand. Can you speak more slowly?\"?",
+      "lang": "pt",
+      "options": [
+        "De dever de casa, leiam as páginas dez a doze e escrevam um texto curto.",
+        "Claro. Dever de casa: ler as páginas dez a doze.",
+        "Desculpe, eu não entendi. Pode falar mais devagar?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can you speak more slowly?\" = Pode falar mais devagar? Professores gostam quando você pergunta."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Claro. Dever de casa: ler as páginas dez a doze.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Sorry, I don't understand. Can you speak more slowly?",
+        "Of course. Homework: read pages ten to twelve.",
+        "What does homework mean?"
+      ],
+      "correct": 1,
+      "explanation": "\"Of course\" = claro."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "O que significa homework?",
+      "answer": [
+        "What",
+        "does",
+        "homework",
+        "mean?"
+      ],
+      "distractors": [
+        "after",
+        "school"
+      ],
+      "explanation": "\"What does homework mean?\" = O que significa homework?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "What does homework mean?",
+      "lang": "pt",
+      "options": [
+        "Desculpe, eu não entendi. Pode falar mais devagar?",
+        "O que significa homework?",
+        "Claro. Dever de casa: ler as páginas dez a doze."
+      ],
+      "correct": 1,
+      "explanation": "\"What does homework mean?\" = O que significa homework?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Mr. Brown",
+          "en": "For homework, read pages ten to twelve and write a short text.",
+          "pt": "De dever de casa, leiam as páginas dez a doze e escrevam um texto curto."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Desculpe, eu não entendi. Pode falar mais devagar?",
+      "options": [
+        "Sorry, I don't understand. Can you speak more slowly?",
+        "Homework is work for home, after school.",
+        "Thank you, Mr. Brown."
+      ],
+      "correct": 0,
+      "explanation": "\"Can you speak more slowly?\" = Pode falar mais devagar? Professores gostam quando você pergunta."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A explicação rápida",
+      "questions": [
+        {
+          "english": "Sorry, I don't understand. Can you speak more slowly?",
+          "options": [
+            "Desculpe, eu não entendi. Pode falar mais devagar?",
+            "Homework é trabalho para casa, depois da aula.",
+            "Obrigada, Mr. Brown."
+          ],
+          "correct": 0,
+          "joke": "\"Can you speak more slowly?\" = Pode falar mais devagar? Professores gostam quando você pergunta."
+        },
+        {
+          "english": "What does homework mean?",
+          "options": [
+            "Claro. Dever de casa: ler as páginas dez a doze.",
+            "Homework é trabalho para casa, depois da aula.",
+            "O que significa homework?"
+          ],
+          "correct": 2,
+          "joke": "\"What does homework mean?\" = O que significa homework?"
+        },
+        {
+          "english": "Homework is work for home, after school.",
+          "options": [
+            "Homework é trabalho para casa, depois da aula.",
+            "O que significa homework?",
+            "Obrigada, Mr. Brown."
+          ],
+          "correct": 0,
+          "joke": "\"Homework\" = dever de casa."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Canadá",
+      "items": [
+        {
+          "emoji": "🚻",
+          "title": "Washroom",
+          "en": "May I go to the washroom?",
+          "pt": "Muitas escolas pedem que você peça para sair da sala. No Canadá, banheiro público é \"washroom\"."
+        }
+      ]
+    }
+  ]
+}

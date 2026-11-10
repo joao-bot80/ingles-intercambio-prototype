@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l41",
+  "title": "Qual ônibus vai à biblioteca?",
+  "scenario": "Bia pergunta ao motorista num cenário urbano canadense. Linhas e tarifas são só exemplos.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Qual ônibus vai à biblioteca?",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Excuse me. Does this bus go to the library?",
+          "pt": "Com licença. Este ônibus vai para a biblioteca?"
+        },
+        {
+          "speaker": "Driver",
+          "en": "No, it doesn't.",
+          "pt": "Não, não vai."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Oh. Which bus goes to the library?",
+          "pt": "Ah. Qual ônibus vai para a biblioteca?"
+        },
+        {
+          "speaker": "Driver",
+          "en": "Take the number nine.",
+          "pt": "Pegue o número nove."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Where is the bus stop?",
+          "pt": "Onde fica o ponto de ônibus?"
+        },
+        {
+          "speaker": "Driver",
+          "en": "Across the street.",
+          "pt": "Do outro lado da rua."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "bus",
+          "pt": "ônibus",
+          "emoji": "🚌"
+        },
+        {
+          "en": "library",
+          "pt": "biblioteca",
+          "emoji": "📚"
+        },
+        {
+          "en": "bus stop",
+          "pt": "ponto de ônibus",
+          "emoji": "🚏"
+        },
+        {
+          "en": "Take the number nine.",
+          "pt": "Pegue o número nove.",
+          "emoji": "9️⃣"
+        },
+        {
+          "en": "across the street",
+          "pt": "do outro lado da rua",
+          "emoji": "↔️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me. Does this bus go to the library?\"?",
+      "lang": "pt",
+      "options": [
+        "Onde fica o ponto de ônibus?",
+        "Do outro lado da rua.",
+        "Com licença. Este ônibus vai para a biblioteca?"
+      ],
+      "correct": 2,
+      "explanation": "\"Does this bus go to...?\" = Este ônibus vai para...?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Não, não vai.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Take the number nine.",
+        "No, it doesn't.",
+        "Where is the bus stop?"
+      ],
+      "correct": 1,
+      "explanation": "\"No, it doesn't\" = não, não vai."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Onde fica o ponto de ônibus?",
+      "answer": [
+        "Where",
+        "is",
+        "the",
+        "bus",
+        "stop?"
+      ],
+      "distractors": [
+        "this",
+        "library"
+      ],
+      "explanation": "\"Where is the bus stop?\" = Onde fica o ponto de ônibus?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Take the number nine.",
+      "lang": "pt",
+      "options": [
+        "Com licença. Este ônibus vai para a biblioteca?",
+        "Pegue o número nove.",
+        "Não, não vai."
+      ],
+      "correct": 1,
+      "explanation": "\"Take the number nine\" = pegue o (ônibus) número nove."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Driver",
+          "en": "Take the number nine.",
+          "pt": "Pegue o número nove."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Onde fica o ponto de ônibus?",
+      "options": [
+        "Oh. Which bus goes to the library?",
+        "Across the street.",
+        "Where is the bus stop?"
+      ],
+      "correct": 2,
+      "explanation": "\"Where is the bus stop?\" = Onde fica o ponto de ônibus?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O ônibus certo",
+      "questions": [
+        {
+          "english": "Excuse me. Does this bus go to the library?",
+          "options": [
+            "Com licença. Este ônibus vai para a biblioteca?",
+            "Não, não vai.",
+            "Ah. Qual ônibus vai para a biblioteca?"
+          ],
+          "correct": 0,
+          "joke": "\"Does this bus go to...?\" = Este ônibus vai para...?"
+        },
+        {
+          "english": "Take the number nine.",
+          "options": [
+            "Ah. Qual ônibus vai para a biblioteca?",
+            "Onde fica o ponto de ônibus?",
+            "Pegue o número nove."
+          ],
+          "correct": 2,
+          "joke": "\"Take the number nine\" = pegue o (ônibus) número nove."
+        },
+        {
+          "english": "Where is the bus stop?",
+          "options": [
+            "Pegue o número nove.",
+            "Do outro lado da rua.",
+            "Onde fica o ponto de ônibus?"
+          ],
+          "correct": 2,
+          "joke": "\"Where is the bus stop?\" = Onde fica o ponto de ônibus?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Cidade · Canadá",
+      "items": [
+        {
+          "emoji": "🙏",
+          "title": "Agradeça ao motorista",
+          "en": "Thank you!",
+          "pt": "No Canadá é comum agradecer ao motorista ao descer do ônibus: \"Thank you!\""
+        }
+      ]
+    }
+  ]
+}

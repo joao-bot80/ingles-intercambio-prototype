@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l34",
+  "title": "Procurar o dean sem medo",
+  "scenario": "Bia procura uma pessoa de apoio na escola. O nome e o papel do dean mudam de escola para escola.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Procurar o dean sem medo",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Excuse me. Where is the dean?",
+          "pt": "Com licença. Onde está o dean?"
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Mrs. Hall is your dean. Her office is upstairs.",
+          "pt": "A Mrs. Hall é a sua dean. A sala dela fica lá em cima."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thank you. I need help with this.",
+          "pt": "Obrigada. Eu preciso de ajuda com isto."
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "What is it?",
+          "pt": "O que é?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I don't understand my homework. Can you show me?",
+          "pt": "Eu não entendo o meu dever. Pode me mostrar?"
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Yes. Come with me.",
+          "pt": "Sim. Venha comigo."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Where is the dean?",
+          "pt": "Onde está o dean?",
+          "emoji": "🧑‍💼"
+        },
+        {
+          "en": "I need help with this.",
+          "pt": "Eu preciso de ajuda com isto.",
+          "emoji": "🆘"
+        },
+        {
+          "en": "Can you show me?",
+          "pt": "Pode me mostrar?",
+          "emoji": "👉"
+        },
+        {
+          "en": "office",
+          "pt": "sala / escritório",
+          "emoji": "🏢"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me. Where is the dean?\"?",
+      "lang": "pt",
+      "options": [
+        "Eu não entendo o meu dever. Pode me mostrar?",
+        "Com licença. Onde está o dean?",
+        "Sim. Venha comigo."
+      ],
+      "correct": 1,
+      "explanation": "\"Where is the dean?\" = Onde está o dean?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Sim. Venha comigo.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Yes. Come with me.",
+        "I don't understand my homework. Can you show me?",
+        "Excuse me. Where is the dean?"
+      ],
+      "correct": 0,
+      "explanation": "\"Come with me\" = venha comigo."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Com licença. Onde está o dean?",
+      "answer": [
+        "Excuse",
+        "me.",
+        "Where",
+        "is",
+        "the",
+        "dean?"
+      ],
+      "distractors": [
+        "need",
+        "help"
+      ],
+      "explanation": "\"Where is the dean?\" = Onde está o dean?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Thank you. I need help with this.",
+      "lang": "pt",
+      "options": [
+        "Obrigada. Eu preciso de ajuda com isto.",
+        "O que é?",
+        "Eu não entendo o meu dever. Pode me mostrar?"
+      ],
+      "correct": 0,
+      "explanation": "\"I need help with this\" = preciso de ajuda com isto."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ms. Clarke",
+          "en": "What is it?",
+          "pt": "O que é?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Eu não entendo o meu dever. Pode me mostrar?",
+      "options": [
+        "Mrs. Hall is your dean. Her office is upstairs.",
+        "Thank you. I need help with this.",
+        "I don't understand my homework. Can you show me?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can you show me?\" = Pode me mostrar?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Pedir apoio",
+      "questions": [
+        {
+          "english": "Excuse me. Where is the dean?",
+          "options": [
+            "Obrigada. Eu preciso de ajuda com isto.",
+            "Com licença. Onde está o dean?",
+            "O que é?"
+          ],
+          "correct": 1,
+          "joke": "\"Where is the dean?\" = Onde está o dean?"
+        },
+        {
+          "english": "Thank you. I need help with this.",
+          "options": [
+            "Obrigada. Eu preciso de ajuda com isto.",
+            "Eu não entendo o meu dever. Pode me mostrar?",
+            "Sim. Venha comigo."
+          ],
+          "correct": 0,
+          "joke": "\"I need help with this\" = preciso de ajuda com isto."
+        },
+        {
+          "english": "I don't understand my homework. Can you show me?",
+          "options": [
+            "Sim. Venha comigo.",
+            "Eu não entendo o meu dever. Pode me mostrar?",
+            "Com licença. Onde está o dean?"
+          ],
+          "correct": 1,
+          "joke": "\"Can you show me?\" = Pode me mostrar?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🗓️",
+          "title": "Turma-base e dean",
+          "en": "Where is my form class?",
+          "pt": "No começo do dia você costuma ir a uma turma-base (\"form class\", \"whānau class\" ou \"tutor group\": o nome muda de escola). Um \"dean\" cuida dos alunos de cada ano."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l45",
+  "title": "Missão: biblioteca e retorno",
+  "scenario": "Bia combina o horário com Jo, usa o ônibus e pede ajuda quando erra o caminho.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: biblioteca e retorno",
+      "lines": [
+        {
+          "speaker": "Jo",
+          "en": "Be home by five, okay?",
+          "pt": "Esteja em casa até as cinco, ok?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Okay. Home by five.",
+          "pt": "Ok. Em casa até as cinco."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Does this bus go to the library?",
+          "pt": "Este ônibus vai para a biblioteca?"
+        },
+        {
+          "speaker": "Driver",
+          "en": "Yes. Next stop.",
+          "pt": "Vai. Próxima parada."
+        },
+        {
+          "speaker": "Bia",
+          "en": "I get off here. Thank you!",
+          "pt": "Eu desço aqui. Obrigada!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Oh no. I'm lost. How do I get to the library?",
+          "pt": "Ah, não. Estou perdida. Como eu chego à biblioteca?"
+        },
+        {
+          "speaker": "Passerby",
+          "en": "Across the road, at the traffic lights.",
+          "pt": "Do outro lado da rua, no semáforo."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thanks! I can call my host family later.",
+          "pt": "Valeu! Posso ligar para a minha família anfitriã depois."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "home by five",
+          "pt": "em casa até as cinco",
+          "emoji": "🕔"
+        },
+        {
+          "en": "next stop",
+          "pt": "próxima parada",
+          "emoji": "⏭️"
+        },
+        {
+          "en": "across the road",
+          "pt": "do outro lado da rua",
+          "emoji": "↔️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Does this bus go to the library?\"?",
+      "lang": "pt",
+      "options": [
+        "Vai. Próxima parada.",
+        "Eu desço aqui. Obrigada!",
+        "Este ônibus vai para a biblioteca?"
+      ],
+      "correct": 2,
+      "explanation": "\"Does this bus go to the library?\" = Este ônibus vai para a biblioteca?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Do outro lado da rua, no semáforo.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Oh no. I'm lost. How do I get to the library?",
+        "Across the road, at the traffic lights.",
+        "Thanks! I can call my host family later."
+      ],
+      "correct": 1,
+      "explanation": "\"Across the road\" = do outro lado da rua."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Este ônibus vai para a biblioteca?",
+      "answer": [
+        "Does",
+        "this",
+        "bus",
+        "go",
+        "to",
+        "the",
+        "library?"
+      ],
+      "distractors": [
+        "i'm",
+        "lost"
+      ],
+      "explanation": "\"Does this bus go to the library?\" = Este ônibus vai para a biblioteca?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Oh no. I'm lost. How do I get to the library?",
+      "lang": "pt",
+      "options": [
+        "Vai. Próxima parada.",
+        "Ah, não. Estou perdida. Como eu chego à biblioteca?",
+        "Eu desço aqui. Obrigada!"
+      ],
+      "correct": 1,
+      "explanation": "\"I'm lost\" = estou perdida."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Driver",
+          "en": "Yes. Next stop.",
+          "pt": "Vai. Próxima parada."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Eu desço aqui. Obrigada!",
+      "options": [
+        "I get off here. Thank you!",
+        "Thanks! I can call my host family later.",
+        "Be home by five, okay?"
+      ],
+      "correct": 0,
+      "explanation": "\"I get off here\" = eu desço aqui."
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "Ida e volta",
+      "questions": [
+        {
+          "english": "Does this bus go to the library?",
+          "options": [
+            "Ah, não. Estou perdida. Como eu chego à biblioteca?",
+            "Do outro lado da rua, no semáforo.",
+            "Este ônibus vai para a biblioteca?"
+          ],
+          "correct": 2,
+          "joke": "\"Does this bus go to the library?\" = Este ônibus vai para a biblioteca?"
+        },
+        {
+          "english": "Oh no. I'm lost. How do I get to the library?",
+          "options": [
+            "Este ônibus vai para a biblioteca?",
+            "Ah, não. Estou perdida. Como eu chego à biblioteca?",
+            "Vai. Próxima parada."
+          ],
+          "correct": 1,
+          "joke": "\"I'm lost\" = estou perdida."
+        },
+        {
+          "english": "I get off here. Thank you!",
+          "options": [
+            "Eu desço aqui. Obrigada!",
+            "Valeu! Posso ligar para a minha família anfitriã depois.",
+            "Esteja em casa até as cinco, ok?"
+          ],
+          "correct": 0,
+          "joke": "\"I get off here\" = eu desço aqui."
+        },
+        {
+          "english": "Across the road, at the traffic lights.",
+          "options": [
+            "Do outro lado da rua, no semáforo.",
+            "Vai. Próxima parada.",
+            "Eu desço aqui. Obrigada!"
+          ],
+          "correct": 0,
+          "joke": "\"Across the road\" = do outro lado da rua."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Cidade · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🧭",
+          "title": "Plano de volta",
+          "en": "I get off here.",
+          "pt": "Antes de sair: endereço no papel, celular carregado e horário combinado. Se se perder, peça ajuda numa loja. Em emergência na NZ: 111."
+        }
+      ]
+    }
+  ]
+}

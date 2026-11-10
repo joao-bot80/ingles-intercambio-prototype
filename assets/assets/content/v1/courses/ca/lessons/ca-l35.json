@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l35",
+  "title": "Missão: aprender a pedir ajuda",
+  "scenario": "Bia acompanha uma instrução de Mr. Brown, pede para ele falar devagar e confirma a tarefa.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: aprender a pedir ajuda",
+      "lines": [
+        {
+          "speaker": "Mr. Brown",
+          "en": "Open your book on page twenty and write five lines.",
+          "pt": "Abram o livro na página vinte e escrevam cinco linhas."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Sorry, can you speak more slowly?",
+          "pt": "Desculpe, pode falar mais devagar?"
+        },
+        {
+          "speaker": "Mr. Brown",
+          "en": "Sure. Page twenty. Write five lines.",
+          "pt": "Claro. Página vinte. Escrevam cinco linhas."
+        },
+        {
+          "speaker": "Bia",
+          "en": "When is it due?",
+          "pt": "É para quando?"
+        },
+        {
+          "speaker": "Mr. Brown",
+          "en": "It's due on Friday.",
+          "pt": "É para sexta-feira."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Can you show me?",
+          "pt": "Pode me mostrar?"
+        },
+        {
+          "speaker": "Mr. Brown",
+          "en": "Yes, look. Here.",
+          "pt": "Sim, olha. Aqui."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thank you! Now I understand.",
+          "pt": "Obrigada! Agora eu entendi."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Can you speak more slowly?",
+          "pt": "Pode falar mais devagar?",
+          "emoji": "🐢"
+        },
+        {
+          "en": "When is it due?",
+          "pt": "É para quando? (prazo)",
+          "emoji": "📅"
+        },
+        {
+          "en": "Can you show me?",
+          "pt": "Pode me mostrar?",
+          "emoji": "👉"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Sorry, can you speak more slowly?\"?",
+      "lang": "pt",
+      "options": [
+        "Desculpe, pode falar mais devagar?",
+        "Abram o livro na página vinte e escrevam cinco linhas.",
+        "Claro. Página vinte. Escrevam cinco linhas."
+      ],
+      "correct": 0,
+      "explanation": "\"Can you speak more slowly?\" = Pode falar mais devagar?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"É para sexta-feira.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Open your book on page twenty and write five lines.",
+        "Sorry, can you speak more slowly?",
+        "It's due on Friday."
+      ],
+      "correct": 2,
+      "explanation": "\"On Friday\" = na sexta."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Desculpe, pode falar mais devagar?",
+      "answer": [
+        "Sorry,",
+        "can",
+        "you",
+        "speak",
+        "more",
+        "slowly?"
+      ],
+      "distractors": [
+        "here",
+        "thank"
+      ],
+      "explanation": "\"Can you speak more slowly?\" = Pode falar mais devagar?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "When is it due?",
+      "lang": "pt",
+      "options": [
+        "Abram o livro na página vinte e escrevam cinco linhas.",
+        "É para quando?",
+        "Desculpe, pode falar mais devagar?"
+      ],
+      "correct": 1,
+      "explanation": "\"When is it due?\" = É para quando?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Mr. Brown",
+          "en": "It's due on Friday.",
+          "pt": "É para sexta-feira."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Pode me mostrar?",
+      "options": [
+        "Yes, look. Here.",
+        "Thank you! Now I understand.",
+        "Can you show me?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can you show me?\" = Pode me mostrar?"
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "A aula do Mr. Brown",
+      "questions": [
+        {
+          "english": "Sorry, can you speak more slowly?",
+          "options": [
+            "É para sexta-feira.",
+            "Desculpe, pode falar mais devagar?",
+            "Pode me mostrar?"
+          ],
+          "correct": 1,
+          "joke": "\"Can you speak more slowly?\" = Pode falar mais devagar?"
+        },
+        {
+          "english": "When is it due?",
+          "options": [
+            "Abram o livro na página vinte e escrevam cinco linhas.",
+            "Desculpe, pode falar mais devagar?",
+            "É para quando?"
+          ],
+          "correct": 2,
+          "joke": "\"When is it due?\" = É para quando?"
+        },
+        {
+          "english": "Can you show me?",
+          "options": [
+            "Abram o livro na página vinte e escrevam cinco linhas.",
+            "Pode me mostrar?",
+            "Desculpe, pode falar mais devagar?"
+          ],
+          "correct": 1,
+          "joke": "\"Can you show me?\" = Pode me mostrar?"
+        },
+        {
+          "english": "It's due on Friday.",
+          "options": [
+            "Abram o livro na página vinte e escrevam cinco linhas.",
+            "É para sexta-feira.",
+            "Desculpe, pode falar mais devagar?"
+          ],
+          "correct": 1,
+          "joke": "\"On Friday\" = na sexta."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Escola · Canadá",
+      "items": [
+        {
+          "emoji": "💪",
+          "title": "Perguntar é aprender",
+          "en": "Can you speak more slowly?",
+          "pt": "Quem pergunta aprende mais rápido. Use as frases desta unidade sempre que precisar: nenhum professor espera que você entenda tudo de primeira."
+        }
+      ]
+    }
+  ]
+}
