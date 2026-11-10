@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l51",
+  "title": "Jo, estou passando mal",
+  "scenario": "Leo pede ajuda à família anfitriã e descreve sintomas básicos.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Jo, estou passando mal",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Jo, I feel sick.",
+          "pt": "Jo, estou me sentindo mal."
+        },
+        {
+          "speaker": "Jo",
+          "en": "Oh no. What's wrong?",
+          "pt": "Ah, não. O que você tem?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I have a headache and a sore throat.",
+          "pt": "Estou com dor de cabeça e dor de garganta."
+        },
+        {
+          "speaker": "Jo",
+          "en": "Do you have a fever?",
+          "pt": "Você está com febre?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Maybe. I need a doctor.",
+          "pt": "Talvez. Eu preciso de um médico."
+        },
+        {
+          "speaker": "Jo",
+          "en": "Okay. I can call the GP.",
+          "pt": "Tudo bem. Eu posso ligar para o clínico."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "I feel sick.",
+          "pt": "Estou me sentindo mal.",
+          "emoji": "🤒"
+        },
+        {
+          "en": "headache",
+          "pt": "dor de cabeça",
+          "emoji": "🤕"
+        },
+        {
+          "en": "sore throat",
+          "pt": "dor de garganta",
+          "emoji": "😷"
+        },
+        {
+          "en": "fever",
+          "pt": "febre",
+          "emoji": "🌡️"
+        },
+        {
+          "en": "GP",
+          "pt": "médico de família / clínico geral",
+          "emoji": "🩺"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Jo, I feel sick.\"?",
+      "lang": "pt",
+      "options": [
+        "Jo, estou me sentindo mal.",
+        "Tudo bem. Eu posso ligar para o clínico.",
+        "Ah, não. O que você tem?"
+      ],
+      "correct": 0,
+      "explanation": "\"I feel sick\" = estou me sentindo mal."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Ah, não. O que você tem?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "I have a headache and a sore throat.",
+        "Oh no. What's wrong?",
+        "Do you have a fever?"
+      ],
+      "correct": 1,
+      "explanation": "\"What's wrong?\" = O que você tem?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Jo, estou me sentindo mal.",
+      "answer": [
+        "Jo,",
+        "I",
+        "feel",
+        "sick."
+      ],
+      "distractors": [
+        "you",
+        "fever"
+      ],
+      "explanation": "\"I feel sick\" = estou me sentindo mal."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "I have a headache and a sore throat.",
+      "lang": "pt",
+      "options": [
+        "Tudo bem. Eu posso ligar para o clínico.",
+        "Estou com dor de cabeça e dor de garganta.",
+        "Jo, estou me sentindo mal."
+      ],
+      "correct": 1,
+      "explanation": "\"Headache\" = dor de cabeça. \"Sore throat\" = dor de garganta."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Jo",
+          "en": "Do you have a fever?",
+          "pt": "Você está com febre?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Talvez. Eu preciso de um médico.",
+      "options": [
+        "Okay. I can call the GP.",
+        "Jo, I feel sick.",
+        "Maybe. I need a doctor."
+      ],
+      "correct": 2,
+      "explanation": "\"I need a doctor\" = preciso de um médico."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Um dia doente",
+      "questions": [
+        {
+          "english": "Jo, I feel sick.",
+          "options": [
+            "Jo, estou me sentindo mal.",
+            "Tudo bem. Eu posso ligar para o clínico.",
+            "Ah, não. O que você tem?"
+          ],
+          "correct": 0,
+          "joke": "\"I feel sick\" = estou me sentindo mal."
+        },
+        {
+          "english": "I have a headache and a sore throat.",
+          "options": [
+            "Jo, estou me sentindo mal.",
+            "Ah, não. O que você tem?",
+            "Estou com dor de cabeça e dor de garganta."
+          ],
+          "correct": 2,
+          "joke": "\"Headache\" = dor de cabeça. \"Sore throat\" = dor de garganta."
+        },
+        {
+          "english": "Maybe. I need a doctor.",
+          "options": [
+            "Tudo bem. Eu posso ligar para o clínico.",
+            "Talvez. Eu preciso de um médico.",
+            "Jo, estou me sentindo mal."
+          ],
+          "correct": 1,
+          "joke": "\"I need a doctor\" = preciso de um médico."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Saúde e segurança · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "💊",
+          "title": "Chemist e GP",
+          "en": "Please see a doctor today.",
+          "pt": "Farmácia também se diz \"chemist\" ou \"pharmacy\". O médico de família é o \"GP\" e a maioria das clínicas pede hora marcada. Ligue para o seguro-saúde do intercâmbio e avise a família anfitriã."
+        }
+      ]
+    }
+  ]
+}

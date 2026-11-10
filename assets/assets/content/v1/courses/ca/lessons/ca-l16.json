@@ -72,9 +72,9 @@
       "prompt": "O que significa \"Here you go.\"?",
       "lang": "pt",
       "options": [
-        "Bom dia. Passaporte, por favor.",
+        "O seu assento é o doze A. É na janela.",
         "Aqui está.",
-        "Obrigada. Aqui está o seu cartão de embarque."
+        "Janela! Obrigado!"
       ],
       "correct": 1,
       "explanation": "\"Here you go\" = aqui está, quando você entrega alguma coisa."
@@ -86,8 +86,8 @@
       "lang": "en",
       "options": [
         "Thank you. Here is your boarding pass.",
-        "Your seat is twelve A. It's a window seat.",
-        "A window! Thank you!"
+        "A window! Thank you!",
+        "Good morning. Passport, please."
       ],
       "correct": 0,
       "explanation": "\"Boarding pass\" = cartão de embarque."

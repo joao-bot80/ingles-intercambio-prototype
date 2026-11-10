@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l49",
+  "title": "Na shop: tamanho e EFTPOS",
+  "scenario": "Leo procura uma roupa numa loja neozelandesa. Sem preços: eles mudam.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Na shop: tamanho e EFTPOS",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Excuse me. Do you have a smaller size?",
+          "pt": "Com licença. Você tem um tamanho menor?"
+        },
+        {
+          "speaker": "Cashier",
+          "en": "Yes, here you go.",
+          "pt": "Tenho, aqui está."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thanks. Can I pay by card?",
+          "pt": "Valeu. Posso pagar com cartão?"
+        },
+        {
+          "speaker": "Cashier",
+          "en": "Sure. EFTPOS or credit?",
+          "pt": "Claro. EFTPOS ou crédito?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "EFTPOS, please. Can I have a receipt?",
+          "pt": "EFTPOS, por favor. Pode me dar o recibo?"
+        },
+        {
+          "speaker": "Cashier",
+          "en": "Of course. Here it is.",
+          "pt": "Claro. Aqui está."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "smaller size",
+          "pt": "tamanho menor",
+          "emoji": "🔽"
+        },
+        {
+          "en": "Can I pay by card?",
+          "pt": "Posso pagar com cartão?",
+          "emoji": "💳"
+        },
+        {
+          "en": "EFTPOS",
+          "pt": "cartão de débito (na NZ)",
+          "emoji": "🏧"
+        },
+        {
+          "en": "receipt",
+          "pt": "recibo / nota",
+          "emoji": "🧾"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me. Do you have a smaller size?\"?",
+      "lang": "pt",
+      "options": [
+        "Com licença. Você tem um tamanho menor?",
+        "Tenho, aqui está.",
+        "Valeu. Posso pagar com cartão?"
+      ],
+      "correct": 0,
+      "explanation": "\"Do you have a smaller size?\" = Você tem um tamanho menor?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Claro. EFTPOS ou crédito?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Sure. EFTPOS or credit?",
+        "Excuse me. Do you have a smaller size?",
+        "Yes, here you go."
+      ],
+      "correct": 0,
+      "explanation": "EFTPOS = débito na maquininha."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Valeu. Posso pagar com cartão?",
+      "answer": [
+        "Thanks.",
+        "Can",
+        "I",
+        "pay",
+        "by",
+        "card?"
+      ],
+      "distractors": [
+        "smaller",
+        "size"
+      ],
+      "explanation": "\"Can I pay by card?\" = Posso pagar com cartão?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Thanks. Can I pay by card?",
+      "lang": "pt",
+      "options": [
+        "Valeu. Posso pagar com cartão?",
+        "Claro. Aqui está.",
+        "Com licença. Você tem um tamanho menor?"
+      ],
+      "correct": 0,
+      "explanation": "\"Can I pay by card?\" = Posso pagar com cartão?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Cashier",
+          "en": "Sure. EFTPOS or credit?",
+          "pt": "Claro. EFTPOS ou crédito?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "EFTPOS, por favor. Pode me dar o recibo?",
+      "options": [
+        "EFTPOS, please. Can I have a receipt?",
+        "Excuse me. Do you have a smaller size?",
+        "Yes, here you go."
+      ],
+      "correct": 0,
+      "explanation": "\"Can I have a receipt?\" = Pode me dar o recibo?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A compra",
+      "questions": [
+        {
+          "english": "Excuse me. Do you have a smaller size?",
+          "options": [
+            "Claro. EFTPOS ou crédito?",
+            "Com licença. Você tem um tamanho menor?",
+            "EFTPOS, por favor. Pode me dar o recibo?"
+          ],
+          "correct": 1,
+          "joke": "\"Do you have a smaller size?\" = Você tem um tamanho menor?"
+        },
+        {
+          "english": "Thanks. Can I pay by card?",
+          "options": [
+            "Claro. EFTPOS ou crédito?",
+            "Valeu. Posso pagar com cartão?",
+            "EFTPOS, por favor. Pode me dar o recibo?"
+          ],
+          "correct": 1,
+          "joke": "\"Can I pay by card?\" = Posso pagar com cartão?"
+        },
+        {
+          "english": "EFTPOS, please. Can I have a receipt?",
+          "options": [
+            "EFTPOS, por favor. Pode me dar o recibo?",
+            "Com licença. Você tem um tamanho menor?",
+            "Tenho, aqui está."
+          ],
+          "correct": 0,
+          "joke": "\"Can I have a receipt?\" = Pode me dar o recibo?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Dia a dia · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "💳",
+          "title": "EFTPOS",
+          "en": "EFTPOS, please.",
+          "pt": "Na Nova Zelândia, EFTPOS é o nome comum do pagamento com cartão de débito na maquininha. Pergunte à família ou à agência qual cartão usar no intercâmbio e guarde sempre o recibo."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l57",
+  "title": "Poutine, convite e curiosidade",
+  "scenario": "Emma mostra a Bia um cardápio com poutine e pergunta se ela quer provar. Ninguém é obrigado a comer nada.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Poutine, convite e curiosidade",
+      "lines": [
+        {
+          "speaker": "Emma",
+          "en": "Do you want to try poutine?",
+          "pt": "Você quer provar poutine?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "What is poutine?",
+          "pt": "O que é poutine?"
+        },
+        {
+          "speaker": "Emma",
+          "en": "It's fries with cheese curds and gravy.",
+          "pt": "É batata frita com queijo coalhado e molho."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Does this have peanuts?",
+          "pt": "Isto tem amendoim?"
+        },
+        {
+          "speaker": "Emma",
+          "en": "No, it doesn't.",
+          "pt": "Não, não tem."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Okay, I want to try a little.",
+          "pt": "Tá bom, quero provar um pouco."
+        },
+        {
+          "speaker": "Emma",
+          "en": "And dessert?",
+          "pt": "E sobremesa?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "No, thanks. I'm full.",
+          "pt": "Não, obrigada. Estou satisfeita."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "fries",
+          "pt": "batata frita",
+          "emoji": "🍟"
+        },
+        {
+          "en": "cheese",
+          "pt": "queijo",
+          "emoji": "🧀"
+        },
+        {
+          "en": "gravy",
+          "pt": "molho (de carne)",
+          "emoji": "🥣"
+        },
+        {
+          "en": "try",
+          "pt": "provar / experimentar",
+          "emoji": "😋"
+        },
+        {
+          "en": "dessert",
+          "pt": "sobremesa",
+          "emoji": "🍰"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"What is poutine?\"?",
+      "lang": "pt",
+      "options": [
+        "Não, não tem.",
+        "O que é poutine?",
+        "Tá bom, quero provar um pouco."
+      ],
+      "correct": 1,
+      "explanation": "\"What is poutine?\" = O que é poutine?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Não, obrigada. Estou satisfeita.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "What is poutine?",
+        "No, thanks. I'm full.",
+        "It's fries with cheese curds and gravy."
+      ],
+      "correct": 1,
+      "explanation": "\"No, thanks. I'm full\" = não, obrigada, estou satisfeita."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "O que é poutine?",
+      "answer": [
+        "What",
+        "is",
+        "poutine?"
+      ],
+      "distractors": [
+        "with",
+        "cheese"
+      ],
+      "explanation": "\"What is poutine?\" = O que é poutine?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Do you want to try poutine?",
+      "lang": "pt",
+      "options": [
+        "Você quer provar poutine?",
+        "Não, não tem.",
+        "Tá bom, quero provar um pouco."
+      ],
+      "correct": 0,
+      "explanation": "\"Do you want to try...?\" = Você quer provar...?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Emma",
+          "en": "It's fries with cheese curds and gravy.",
+          "pt": "É batata frita com queijo coalhado e molho."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Isto tem amendoim?",
+      "options": [
+        "No, it doesn't.",
+        "Okay, I want to try a little.",
+        "Does this have peanuts?"
+      ],
+      "correct": 2,
+      "explanation": "\"Does this have peanuts?\" = Isto tem amendoim?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O cardápio",
+      "questions": [
+        {
+          "english": "What is poutine?",
+          "options": [
+            "É batata frita com queijo coalhado e molho.",
+            "O que é poutine?",
+            "Isto tem amendoim?"
+          ],
+          "correct": 1,
+          "joke": "\"What is poutine?\" = O que é poutine?"
+        },
+        {
+          "english": "Do you want to try poutine?",
+          "options": [
+            "Você quer provar poutine?",
+            "Não, obrigada. Estou satisfeita.",
+            "O que é poutine?"
+          ],
+          "correct": 0,
+          "joke": "\"Do you want to try...?\" = Você quer provar...?"
+        },
+        {
+          "english": "Does this have peanuts?",
+          "options": [
+            "Isto tem amendoim?",
+            "Não, não tem.",
+            "Tá bom, quero provar um pouco."
+          ],
+          "correct": 0,
+          "joke": "\"Does this have peanuts?\" = Isto tem amendoim?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Canadá · Canadá",
+      "items": [
+        {
+          "emoji": "🍟",
+          "title": "Poutine",
+          "en": "I'd like some poutine, please.",
+          "pt": "Poutine é batata frita com queijo coalhado e molho quente (gravy). Nasceu em Quebec e hoje é comida típica do país inteiro.",
+          "image": "assets/images/ca/ca-coffee/photo-poutine.jpg",
+          "alt": "Um prato de poutine: batata frita com queijo e molho",
+          "credit": {
+            "author": "Antonydstevens",
+            "license": "CC0",
+            "url": "https://commons.wikimedia.org/wiki/File:Poutine_from_Windsor,_ON.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

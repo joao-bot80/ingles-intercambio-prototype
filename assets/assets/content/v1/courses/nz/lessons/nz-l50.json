@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l50",
+  "title": "Missão: almoço e passeio combinado",
+  "scenario": "Bia confirma ingredientes e Jo revisa roupa e água; Leo conclui uma compra.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: almoço e passeio combinado",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Does this have peanuts?",
+          "pt": "Isto tem amendoim?"
+        },
+        {
+          "speaker": "Jo",
+          "en": "No, it doesn't. Take a raincoat today.",
+          "pt": "Não, não tem. Leve uma capa de chuva hoje."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Okay. And I need water for the walk.",
+          "pt": "Ok. E eu preciso de água para a caminhada."
+        },
+        {
+          "speaker": "Jo",
+          "en": "Good idea. And sunscreen!",
+          "pt": "Boa ideia. E protetor solar!"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Can I pay by card?",
+          "pt": "Posso pagar com cartão?"
+        },
+        {
+          "speaker": "Cashier",
+          "en": "Sure. EFTPOS?",
+          "pt": "Claro. EFTPOS?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes, please. Can I have a receipt?",
+          "pt": "Sim, por favor. Pode me dar o recibo?"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "peanuts",
+          "pt": "amendoim",
+          "emoji": "🥜"
+        },
+        {
+          "en": "raincoat",
+          "pt": "capa de chuva",
+          "emoji": "🧥"
+        },
+        {
+          "en": "sunscreen",
+          "pt": "protetor solar",
+          "emoji": "🧴"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Does this have peanuts?\"?",
+      "lang": "pt",
+      "options": [
+        "Ok. E eu preciso de água para a caminhada.",
+        "Isto tem amendoim?",
+        "Boa ideia. E protetor solar!"
+      ],
+      "correct": 1,
+      "explanation": "\"Does this have peanuts?\" = Isto tem amendoim?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Sim, por favor. Pode me dar o recibo?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Does this have peanuts?",
+        "Yes, please. Can I have a receipt?",
+        "No, it doesn't. Take a raincoat today."
+      ],
+      "correct": 1,
+      "explanation": "\"Can I have a receipt?\" = Pode me dar o recibo?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Isto tem amendoim?",
+      "answer": [
+        "Does",
+        "this",
+        "have",
+        "peanuts?"
+      ],
+      "distractors": [
+        "can",
+        "pay"
+      ],
+      "explanation": "\"Does this have peanuts?\" = Isto tem amendoim?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Okay. And I need water for the walk.",
+      "lang": "pt",
+      "options": [
+        "Claro. EFTPOS?",
+        "Ok. E eu preciso de água para a caminhada.",
+        "Sim, por favor. Pode me dar o recibo?"
+      ],
+      "correct": 1,
+      "explanation": "\"I need water\" = preciso de água."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Jo",
+          "en": "Good idea. And sunscreen!",
+          "pt": "Boa ideia. E protetor solar!"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Posso pagar com cartão?",
+      "options": [
+        "No, it doesn't. Take a raincoat today.",
+        "Okay. And I need water for the walk.",
+        "Can I pay by card?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can I pay by card?\" = Posso pagar com cartão?"
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "Um sábado kiwi",
+      "questions": [
+        {
+          "english": "Does this have peanuts?",
+          "options": [
+            "Sim, por favor. Pode me dar o recibo?",
+            "Isto tem amendoim?",
+            "Não, não tem. Leve uma capa de chuva hoje."
+          ],
+          "correct": 1,
+          "joke": "\"Does this have peanuts?\" = Isto tem amendoim?"
+        },
+        {
+          "english": "Okay. And I need water for the walk.",
+          "options": [
+            "Posso pagar com cartão?",
+            "Ok. E eu preciso de água para a caminhada.",
+            "Claro. EFTPOS?"
+          ],
+          "correct": 1,
+          "joke": "\"I need water\" = preciso de água."
+        },
+        {
+          "english": "Can I pay by card?",
+          "options": [
+            "Claro. EFTPOS?",
+            "Posso pagar com cartão?",
+            "Sim, por favor. Pode me dar o recibo?"
+          ],
+          "correct": 1,
+          "joke": "\"Can I pay by card?\" = Posso pagar com cartão?"
+        },
+        {
+          "english": "Yes, please. Can I have a receipt?",
+          "options": [
+            "Não, não tem. Leve uma capa de chuva hoje.",
+            "Sim, por favor. Pode me dar o recibo?",
+            "Ok. E eu preciso de água para a caminhada."
+          ],
+          "correct": 1,
+          "joke": "\"Can I have a receipt?\" = Pode me dar o recibo?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Dia a dia · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🎯",
+          "title": "Dia completo",
+          "en": "I need water for the walk.",
+          "pt": "Comer com segurança, se preparar para o tempo e pagar sem susto: com estas frases você resolve um dia inteiro."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l58",
+  "title": "Kia ora: respeito antes de imitar",
+  "scenario": "Numa atividade da escola, Leo encontra te reo Māori e pede orientação. Pronúncia se aprende com quem conhece.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Kia ora: respeito antes de imitar",
+      "lines": [
+        {
+          "speaker": "Aroha",
+          "en": "Kia ora, Leo!",
+          "pt": "Kia ora, Leo!"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Kia ora! How do you say this name?",
+          "pt": "Kia ora! Como se fala este nome?"
+        },
+        {
+          "speaker": "Aroha",
+          "en": "It's a Māori name. Let's ask our te reo teacher.",
+          "pt": "É um nome māori. Vamos perguntar à nossa professora de te reo."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Sorry, can you say it again, please?",
+          "pt": "Desculpa, pode falar de novo, por favor?"
+        },
+        {
+          "speaker": "Aroha",
+          "en": "Let's ask our te reo teacher. She can help you.",
+          "pt": "Vamos perguntar à professora de te reo. Ela pode te ajudar."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thank you. I want to learn.",
+          "pt": "Obrigado. Eu quero aprender."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Kia ora.",
+          "pt": "Oi / olá (em te reo Māori).",
+          "emoji": "👋"
+        },
+        {
+          "en": "How do you say...?",
+          "pt": "Como se fala / se diz...?",
+          "emoji": "🗣️"
+        },
+        {
+          "en": "Can you say it again?",
+          "pt": "Pode falar de novo?",
+          "emoji": "🔁"
+        },
+        {
+          "en": "learn",
+          "pt": "aprender",
+          "emoji": "📘"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Kia ora, Leo!\"?",
+      "lang": "pt",
+      "options": [
+        "Kia ora! Como se fala este nome?",
+        "Kia ora, Leo!",
+        "É um nome māori. Vamos perguntar à nossa professora de te reo."
+      ],
+      "correct": 1,
+      "explanation": "\"Kia ora\" é um cumprimento em te reo Māori, uma língua oficial da NZ."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Obrigado. Eu quero aprender.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "It's a Māori name. Let's ask our te reo teacher.",
+        "Thank you. I want to learn.",
+        "Sorry, can you say it again, please?"
+      ],
+      "correct": 1,
+      "explanation": "\"I want to learn\" = eu quero aprender. A pronúncia certa vem de quem conhece a língua, não de imitação."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Desculpa, pode falar de novo, por favor?",
+      "answer": [
+        "Sorry,",
+        "can",
+        "you",
+        "say",
+        "it",
+        "again,",
+        "please?"
+      ],
+      "distractors": [
+        "reo",
+        "teacher"
+      ],
+      "explanation": "\"Can you say it again, please?\" = Pode falar de novo, por favor?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Kia ora! How do you say this name?",
+      "lang": "pt",
+      "options": [
+        "É um nome māori. Vamos perguntar à nossa professora de te reo.",
+        "Kia ora! Como se fala este nome?",
+        "Desculpa, pode falar de novo, por favor?"
+      ],
+      "correct": 1,
+      "explanation": "\"How do you say this name?\" = Como se fala este nome?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Aroha",
+          "en": "It's a Māori name. Let's ask our te reo teacher.",
+          "pt": "É um nome māori. Vamos perguntar à nossa professora de te reo."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Desculpa, pode falar de novo, por favor?",
+      "options": [
+        "Thank you. I want to learn.",
+        "Kia ora, Leo!",
+        "Sorry, can you say it again, please?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can you say it again, please?\" = Pode falar de novo, por favor?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Te reo Māori",
+      "questions": [
+        {
+          "english": "Kia ora, Leo!",
+          "options": [
+            "Desculpa, pode falar de novo, por favor?",
+            "Kia ora, Leo!",
+            "Vamos perguntar à professora de te reo. Ela pode te ajudar."
+          ],
+          "correct": 1,
+          "joke": "\"Kia ora\" é um cumprimento em te reo Māori, uma língua oficial da NZ."
+        },
+        {
+          "english": "Kia ora! How do you say this name?",
+          "options": [
+            "Vamos perguntar à professora de te reo. Ela pode te ajudar.",
+            "Obrigado. Eu quero aprender.",
+            "Kia ora! Como se fala este nome?"
+          ],
+          "correct": 2,
+          "joke": "\"How do you say this name?\" = Como se fala este nome?"
+        },
+        {
+          "english": "Sorry, can you say it again, please?",
+          "options": [
+            "Obrigado. Eu quero aprender.",
+            "Desculpa, pode falar de novo, por favor?",
+            "Kia ora, Leo!"
+          ],
+          "correct": 1,
+          "joke": "\"Can you say it again, please?\" = Pode falar de novo, por favor?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Nova Zelândia · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🤝",
+          "title": "Kia ora!",
+          "en": "Kia ora! Nice to meet you.",
+          "pt": "\"Kia ora\" é um cumprimento em te reo Māori, uma língua oficial da Nova Zelândia. Você pode ouvi-lo na escola e no dia a dia. \"Hi\" e \"Hello\" também são formas comuns de cumprimentar. Aprenda a pronúncia com uma fonte confiável ou um falante competente."
+        },
+        {
+          "emoji": "🗣️",
+          "title": "Kia ora e te reo",
+          "en": "Kia ora!",
+          "pt": "Palavras māori fazem parte do dia a dia: \"kia ora\" (oi), \"whānau\" (família), \"kai\" (comida). Se quiser pronunciar, pergunte como se fala: as pessoas costumam gostar de ensinar."
+        }
+      ]
+    }
+  ]
+}

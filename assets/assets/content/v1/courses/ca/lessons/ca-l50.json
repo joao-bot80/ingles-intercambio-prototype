@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l50",
+  "title": "Missão: almoço, clima e uma compra",
+  "scenario": "Bia confirma um ingrediente e se prepara para a chuva; Leo escolhe uma roupa e paga.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: almoço, clima e uma compra",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Does this have peanuts?",
+          "pt": "Isto tem amendoim?"
+        },
+        {
+          "speaker": "Linda",
+          "en": "No, it doesn't.",
+          "pt": "Não, não tem."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Great. Oh, it's raining!",
+          "pt": "Ótimo. Ah, está chovendo!"
+        },
+        {
+          "speaker": "Linda",
+          "en": "Take an umbrella.",
+          "pt": "Leve um guarda-chuva."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Do you have a smaller size?",
+          "pt": "Você tem um tamanho menor?"
+        },
+        {
+          "speaker": "Cashier",
+          "en": "Yes. Here you go.",
+          "pt": "Tenho. Aqui está."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Can I pay by card?",
+          "pt": "Posso pagar com cartão?"
+        },
+        {
+          "speaker": "Cashier",
+          "en": "Sure. Here is your receipt.",
+          "pt": "Claro. Aqui está o seu recibo."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "peanuts",
+          "pt": "amendoim",
+          "emoji": "🥜"
+        },
+        {
+          "en": "umbrella",
+          "pt": "guarda-chuva",
+          "emoji": "☂️"
+        },
+        {
+          "en": "receipt",
+          "pt": "recibo / nota",
+          "emoji": "🧾"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Does this have peanuts?\"?",
+      "lang": "pt",
+      "options": [
+        "Claro. Aqui está o seu recibo.",
+        "Isto tem amendoim?",
+        "Não, não tem."
+      ],
+      "correct": 1,
+      "explanation": "\"Does this have peanuts?\" = Isto tem amendoim?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Você tem um tamanho menor?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Do you have a smaller size?",
+        "Great. Oh, it's raining!",
+        "Take an umbrella."
+      ],
+      "correct": 0,
+      "explanation": "\"Do you have a smaller size?\" = Tem um tamanho menor?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Isto tem amendoim?",
+      "answer": [
+        "Does",
+        "this",
+        "have",
+        "peanuts?"
+      ],
+      "distractors": [
+        "can",
+        "pay"
+      ],
+      "explanation": "\"Does this have peanuts?\" = Isto tem amendoim?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Take an umbrella.",
+      "lang": "pt",
+      "options": [
+        "Isto tem amendoim?",
+        "Leve um guarda-chuva.",
+        "Não, não tem."
+      ],
+      "correct": 1,
+      "explanation": "\"Take an umbrella\" = leve um guarda-chuva."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Cashier",
+          "en": "Yes. Here you go.",
+          "pt": "Tenho. Aqui está."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Posso pagar com cartão?",
+      "options": [
+        "No, it doesn't.",
+        "Great. Oh, it's raining!",
+        "Can I pay by card?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can I pay by card?\" = Posso pagar com cartão?"
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "Um sábado na cidade",
+      "questions": [
+        {
+          "english": "Does this have peanuts?",
+          "options": [
+            "Isto tem amendoim?",
+            "Leve um guarda-chuva.",
+            "Você tem um tamanho menor?"
+          ],
+          "correct": 0,
+          "joke": "\"Does this have peanuts?\" = Isto tem amendoim?"
+        },
+        {
+          "english": "Take an umbrella.",
+          "options": [
+            "Isto tem amendoim?",
+            "Leve um guarda-chuva.",
+            "Não, não tem."
+          ],
+          "correct": 1,
+          "joke": "\"Take an umbrella\" = leve um guarda-chuva."
+        },
+        {
+          "english": "Can I pay by card?",
+          "options": [
+            "Claro. Aqui está o seu recibo.",
+            "Isto tem amendoim?",
+            "Posso pagar com cartão?"
+          ],
+          "correct": 2,
+          "joke": "\"Can I pay by card?\" = Posso pagar com cartão?"
+        },
+        {
+          "english": "Do you have a smaller size?",
+          "options": [
+            "Posso pagar com cartão?",
+            "Claro. Aqui está o seu recibo.",
+            "Você tem um tamanho menor?"
+          ],
+          "correct": 2,
+          "joke": "\"Do you have a smaller size?\" = Tem um tamanho menor?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Dia a dia · Canadá",
+      "items": [
+        {
+          "emoji": "🎯",
+          "title": "Dia completo",
+          "en": "Does this have peanuts?",
+          "pt": "Comer com segurança, se vestir para o tempo e pagar sem susto: com estas frases você resolve um dia inteiro na cidade."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l55",
+  "title": "Missão: pedir ajuda à pessoa certa",
+  "scenario": "No cenário canadense, Leo diferencia mal-estar, risco imediato e dificuldade na escola. É só um treino.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: pedir ajuda à pessoa certa",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Linda, I feel sick.",
+          "pt": "Linda, estou me sentindo mal."
+        },
+        {
+          "speaker": "Linda",
+          "en": "Do you need a doctor?",
+          "pt": "Você precisa de um médico?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes, I think so.",
+          "pt": "Sim, acho que sim."
+        },
+        {
+          "speaker": "Operator",
+          "en": "Nine-one-one, what's your emergency?",
+          "pt": "Nove-um-um, qual é a sua emergência?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "My friend is hurt. I'm at the bus stop.",
+          "pt": "O meu amigo está machucado. Estou no ponto de ônibus."
+        },
+        {
+          "speaker": "Operator",
+          "en": "Help is coming.",
+          "pt": "A ajuda está a caminho."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Ms. Lee, I don't feel safe.",
+          "pt": "Ms. Lee, eu não me sinto segura."
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "Thank you for telling me. I can help.",
+          "pt": "Obrigada por me contar. Eu posso ajudar."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "I feel sick.",
+          "pt": "Estou me sentindo mal.",
+          "emoji": "🤒"
+        },
+        {
+          "en": "My friend is hurt.",
+          "pt": "O meu amigo está machucado.",
+          "emoji": "🤕"
+        },
+        {
+          "en": "I don't feel safe.",
+          "pt": "Eu não me sinto seguro / segura.",
+          "emoji": "⚠️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Linda, I feel sick.\"?",
+      "lang": "pt",
+      "options": [
+        "Sim, acho que sim.",
+        "Nove-um-um, qual é a sua emergência?",
+        "Linda, estou me sentindo mal."
+      ],
+      "correct": 2,
+      "explanation": "\"I feel sick\" = estou me sentindo mal."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Você precisa de um médico?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Do you need a doctor?",
+        "Nine-one-one, what's your emergency?",
+        "My friend is hurt. I'm at the bus stop."
+      ],
+      "correct": 0,
+      "explanation": "\"Do you need a doctor?\" = Você precisa de um médico?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Linda, estou me sentindo mal.",
+      "answer": [
+        "Linda,",
+        "I",
+        "feel",
+        "sick."
+      ],
+      "distractors": [
+        "hurt",
+        "i'm"
+      ],
+      "explanation": "\"I feel sick\" = estou me sentindo mal."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "My friend is hurt. I'm at the bus stop.",
+      "lang": "pt",
+      "options": [
+        "Você precisa de um médico?",
+        "Sim, acho que sim.",
+        "O meu amigo está machucado. Estou no ponto de ônibus."
+      ],
+      "correct": 2,
+      "explanation": "Na emergência: o que aconteceu e ONDE você está."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Operator",
+          "en": "Help is coming.",
+          "pt": "A ajuda está a caminho."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Ms. Lee, eu não me sinto segura.",
+      "options": [
+        "Yes, I think so.",
+        "Ms. Lee, I don't feel safe.",
+        "Nine-one-one, what's your emergency?"
+      ],
+      "correct": 1,
+      "explanation": "\"I don't feel safe\" = não me sinto segura."
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "A pessoa certa",
+      "questions": [
+        {
+          "english": "Linda, I feel sick.",
+          "options": [
+            "Obrigada por me contar. Eu posso ajudar.",
+            "Você precisa de um médico?",
+            "Linda, estou me sentindo mal."
+          ],
+          "correct": 2,
+          "joke": "\"I feel sick\" = estou me sentindo mal."
+        },
+        {
+          "english": "My friend is hurt. I'm at the bus stop.",
+          "options": [
+            "Nove-um-um, qual é a sua emergência?",
+            "A ajuda está a caminho.",
+            "O meu amigo está machucado. Estou no ponto de ônibus."
+          ],
+          "correct": 2,
+          "joke": "Na emergência: o que aconteceu e ONDE você está."
+        },
+        {
+          "english": "Ms. Lee, I don't feel safe.",
+          "options": [
+            "Obrigada por me contar. Eu posso ajudar.",
+            "Linda, estou me sentindo mal.",
+            "Ms. Lee, eu não me sinto segura."
+          ],
+          "correct": 2,
+          "joke": "\"I don't feel safe\" = não me sinto segura."
+        },
+        {
+          "english": "Do you need a doctor?",
+          "options": [
+            "Linda, estou me sentindo mal.",
+            "Você precisa de um médico?",
+            "Sim, acho que sim."
+          ],
+          "correct": 1,
+          "joke": "\"Do you need a doctor?\" = Você precisa de um médico?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Saúde e segurança · Canadá",
+      "items": [
+        {
+          "emoji": "📞",
+          "title": "Quem chamar",
+          "en": "Help is coming.",
+          "pt": "Mal-estar: família anfitriã e seguro. Perigo imediato: 911. Problema na escola: counsellor. Salve todos esses contatos e o da sua agência antes de viajar."
+        }
+      ]
+    }
+  ]
+}

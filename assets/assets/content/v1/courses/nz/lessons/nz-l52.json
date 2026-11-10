@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l52",
+  "title": "Chemist, pharmacy e consulta",
+  "scenario": "Jo acompanha Leo à farmácia. GP e seguro são vocabulário, não garantia de atendimento.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Chemist, pharmacy e consulta",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Excuse me. Can I speak to the pharmacist?",
+          "pt": "Com licença. Posso falar com o farmacêutico?"
+        },
+        {
+          "speaker": "Pharmacist",
+          "en": "Yes, I'm the pharmacist. How can I help?",
+          "pt": "Sim, eu sou a farmacêutica. Como posso ajudar?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I need my medicine. I have a prescription.",
+          "pt": "Eu preciso do meu remédio. Eu tenho receita."
+        },
+        {
+          "speaker": "Pharmacist",
+          "en": "Okay. This prescription is from Brazil. Please see a GP.",
+          "pt": "Certo. Esta receita é do Brasil. Por favor, vá a um clínico."
+        },
+        {
+          "speaker": "Leo",
+          "en": "I have insurance.",
+          "pt": "Eu tenho seguro."
+        },
+        {
+          "speaker": "Jo",
+          "en": "Good. Let's call your insurance.",
+          "pt": "Ótimo. Vamos ligar para o seu seguro."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "chemist",
+          "pt": "farmácia (na NZ)",
+          "emoji": "💊"
+        },
+        {
+          "en": "pharmacist",
+          "pt": "farmacêutico / farmacêutica",
+          "emoji": "👩‍⚕️"
+        },
+        {
+          "en": "medicine",
+          "pt": "remédio",
+          "emoji": "💊"
+        },
+        {
+          "en": "prescription",
+          "pt": "receita médica",
+          "emoji": "📄"
+        },
+        {
+          "en": "insurance",
+          "pt": "seguro (saúde)",
+          "emoji": "🛡️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me. Can I speak to the pharmacist?\"?",
+      "lang": "pt",
+      "options": [
+        "Sim, eu sou a farmacêutica. Como posso ajudar?",
+        "Com licença. Posso falar com o farmacêutico?",
+        "Eu preciso do meu remédio. Eu tenho receita."
+      ],
+      "correct": 1,
+      "explanation": "\"Can I speak to the pharmacist?\" = Posso falar com o farmacêutico?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Certo. Esta receita é do Brasil. Por favor, vá a um clínico.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Yes, I'm the pharmacist. How can I help?",
+        "Okay. This prescription is from Brazil. Please see a GP.",
+        "I need my medicine. I have a prescription."
+      ],
+      "correct": 1,
+      "explanation": "\"Please see a GP\" = por favor, vá a um clínico geral."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu tenho seguro.",
+      "answer": [
+        "I",
+        "have",
+        "insurance."
+      ],
+      "distractors": [
+        "brazil",
+        "please"
+      ],
+      "explanation": "\"I have insurance\" = tenho seguro. Ligue para o seguro do intercâmbio."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "I need my medicine. I have a prescription.",
+      "lang": "pt",
+      "options": [
+        "Sim, eu sou a farmacêutica. Como posso ajudar?",
+        "Eu preciso do meu remédio. Eu tenho receita.",
+        "Certo. Esta receita é do Brasil. Por favor, vá a um clínico."
+      ],
+      "correct": 1,
+      "explanation": "\"I need my medicine\" = preciso do meu remédio."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Pharmacist",
+          "en": "Okay. This prescription is from Brazil. Please see a GP.",
+          "pt": "Certo. Esta receita é do Brasil. Por favor, vá a um clínico."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Eu tenho seguro.",
+      "options": [
+        "I have insurance.",
+        "I need my medicine. I have a prescription.",
+        "Good. Let's call your insurance."
+      ],
+      "correct": 0,
+      "explanation": "\"I have insurance\" = tenho seguro. Ligue para o seguro do intercâmbio."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A farmácia",
+      "questions": [
+        {
+          "english": "Excuse me. Can I speak to the pharmacist?",
+          "options": [
+            "Eu preciso do meu remédio. Eu tenho receita.",
+            "Com licença. Posso falar com o farmacêutico?",
+            "Certo. Esta receita é do Brasil. Por favor, vá a um clínico."
+          ],
+          "correct": 1,
+          "joke": "\"Can I speak to the pharmacist?\" = Posso falar com o farmacêutico?"
+        },
+        {
+          "english": "I need my medicine. I have a prescription.",
+          "options": [
+            "Eu preciso do meu remédio. Eu tenho receita.",
+            "Sim, eu sou a farmacêutica. Como posso ajudar?",
+            "Certo. Esta receita é do Brasil. Por favor, vá a um clínico."
+          ],
+          "correct": 0,
+          "joke": "\"I need my medicine\" = preciso do meu remédio."
+        },
+        {
+          "english": "I have insurance.",
+          "options": [
+            "Com licença. Posso falar com o farmacêutico?",
+            "Eu tenho seguro.",
+            "Sim, eu sou a farmacêutica. Como posso ajudar?"
+          ],
+          "correct": 1,
+          "joke": "\"I have insurance\" = tenho seguro. Ligue para o seguro do intercâmbio."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Saúde e segurança · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "📞",
+          "title": "Contatos de emergência",
+          "en": "My emergency contact",
+          "pt": "Salve no celular: a família anfitriã, a escola, o seguro-saúde e o contato de emergência da sua agência."
+        }
+      ]
+    }
+  ]
+}

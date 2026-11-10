@@ -239,76 +239,64 @@
       "title": "Missão: biblioteca e retorno"
     },
     {
-      "id": "nz-hello",
-      "title": "Oi! Eu vou para a Nova Zelândia"
+      "id": "nz-l46",
+      "title": "Fish and chips e minhas restrições"
     },
     {
-      "id": "nz-spelling",
-      "title": "Soletrando o nome"
+      "id": "nz-l47",
+      "title": "Tempo mudando, roupa em camadas"
     },
     {
-      "id": "nz-numbers",
-      "title": "Números e idade"
+      "id": "nz-l48",
+      "title": "Um passeio ao ar livre, não sozinha"
     },
     {
-      "id": "nz-videocall",
-      "title": "Videochamada com a família"
+      "id": "nz-l49",
+      "title": "Na shop: tamanho e EFTPOS"
     },
     {
-      "id": "nz-backpack",
-      "title": "Mochila pronta, grupo junto"
+      "id": "nz-l50",
+      "title": "Missão: almoço e passeio combinado"
     },
     {
-      "id": "nz-checkin",
-      "title": "Check-in e embarque"
+      "id": "nz-l51",
+      "title": "Jo, estou passando mal"
     },
     {
-      "id": "nz-immigration",
-      "title": "Na imigração"
+      "id": "nz-l52",
+      "title": "Chemist, pharmacy e consulta"
     },
     {
-      "id": "nz-baggage",
-      "title": "Bagagem e saída"
+      "id": "nz-l53",
+      "title": "111: qual serviço e onde?"
     },
     {
-      "id": "nz-host-arrival",
-      "title": "Chegando em casa"
+      "id": "nz-l54",
+      "title": "Terremoto primeiro, tsunami depois"
     },
     {
-      "id": "nz-host-rules",
-      "title": "Regras e rotina"
+      "id": "nz-l55",
+      "title": "Missão: pedir proteção e ajuda"
     },
     {
-      "id": "nz-host-dinner",
-      "title": "Na hora do jantar"
+      "id": "nz-l56",
+      "title": "Dairy não é só laticínio"
     },
     {
-      "id": "nz-school-first-day",
-      "title": "Primeiro dia de aula"
+      "id": "nz-l57",
+      "title": "Jandals, chilly bin, sweet as"
     },
     {
-      "id": "nz-school-classroom",
-      "title": "Na sala de aula"
+      "id": "nz-l58",
+      "title": "Kia ora: respeito antes de imitar"
     },
     {
-      "id": "nz-school-friends",
-      "title": "Fazendo amigos"
+      "id": "nz-l59",
+      "title": "Missão: meu sábado com Ruby"
     },
     {
-      "id": "nz-city-bus",
-      "title": "Ônibus e direções"
-    },
-    {
-      "id": "nz-city-help",
-      "title": "Pedindo ajuda"
-    },
-    {
-      "id": "nz-kiwi",
-      "title": "O jeito kiwi"
-    },
-    {
-      "id": "nz-safety",
-      "title": "Terremoto e segurança"
+      "id": "nz-l60",
+      "title": "Missão final: minha semana na Nova Zelândia"
     }
   ],
   "units": [
@@ -479,29 +467,42 @@
       ]
     },
     {
-      "id": "nz-legacy",
-      "title": "Versão anterior (em revisão)",
-      "subtitle": "As 18 lições antigas, até as novas unidades ficarem prontas",
-      "emoji": "🗂️",
+      "id": "nz-u10",
+      "title": "10. Comer, sair e comprar na NZ",
+      "subtitle": "Restrições, chuva, passeio, shop e EFTPOS",
+      "emoji": "🛍️",
       "lessons": [
-        "nz-hello",
-        "nz-spelling",
-        "nz-numbers",
-        "nz-videocall",
-        "nz-backpack",
-        "nz-checkin",
-        "nz-immigration",
-        "nz-baggage",
-        "nz-host-arrival",
-        "nz-host-rules",
-        "nz-host-dinner",
-        "nz-school-first-day",
-        "nz-school-classroom",
-        "nz-school-friends",
-        "nz-city-bus",
-        "nz-city-help",
-        "nz-kiwi",
-        "nz-safety"
+        "nz-l46",
+        "nz-l47",
+        "nz-l48",
+        "nz-l49",
+        "nz-l50"
+      ]
+    },
+    {
+      "id": "nz-u11",
+      "title": "11. Saúde e segurança neozelandesa",
+      "subtitle": "GP, chemist, 111, terremoto e tsunami",
+      "emoji": "🩺",
+      "lessons": [
+        "nz-l51",
+        "nz-l52",
+        "nz-l53",
+        "nz-l54",
+        "nz-l55"
+      ]
+    },
+    {
+      "id": "nz-u12",
+      "title": "12. Vida kiwi com respeito",
+      "subtitle": "Dairy, jandals, te reo Māori e missões finais",
+      "emoji": "🥝",
+      "lessons": [
+        "nz-l56",
+        "nz-l57",
+        "nz-l58",
+        "nz-l59",
+        "nz-l60"
       ]
     }
   ],

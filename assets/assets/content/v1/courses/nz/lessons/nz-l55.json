@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l55",
+  "title": "Missão: pedir proteção e ajuda",
+  "scenario": "Bia procura o contato da escola quando não se sente segura; Leo pratica a chamada de emergência e revisa o simulado.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: pedir proteção e ajuda",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Ms. Clarke, I don't feel safe.",
+          "pt": "Ms. Clarke, eu não me sinto segura."
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Thank you for telling me. I can help.",
+          "pt": "Obrigada por me contar. Eu posso ajudar."
+        },
+        {
+          "speaker": "Operator",
+          "en": "Emergency. Which service do you need?",
+          "pt": "Emergência. Qual serviço você precisa?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Ambulance, please. My friend is hurt.",
+          "pt": "Ambulância, por favor. O meu amigo está machucado."
+        },
+        {
+          "speaker": "Operator",
+          "en": "Where are you?",
+          "pt": "Onde você está?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "At the school gate.",
+          "pt": "No portão da escola."
+        },
+        {
+          "speaker": "Mr. Evans",
+          "en": "Shaking! Drop, cover and hold.",
+          "pt": "Tremor! Abaixem-se, protejam-se e segurem."
+        },
+        {
+          "speaker": "Bia",
+          "en": "I need help!",
+          "pt": "Eu preciso de ajuda!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "I need help.",
+          "pt": "Eu preciso de ajuda.",
+          "emoji": "🆘"
+        },
+        {
+          "en": "Ambulance, please.",
+          "pt": "Ambulância, por favor.",
+          "emoji": "🚑"
+        },
+        {
+          "en": "Drop, cover and hold.",
+          "pt": "Abaixe-se, proteja-se e segure.",
+          "emoji": "🛡️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Ms. Clarke, I don't feel safe.\"?",
+      "lang": "pt",
+      "options": [
+        "Obrigada por me contar. Eu posso ajudar.",
+        "Emergência. Qual serviço você precisa?",
+        "Ms. Clarke, eu não me sinto segura."
+      ],
+      "correct": 2,
+      "explanation": "\"I don't feel safe\" = não me sinto segura."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"No portão da escola.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "At the school gate.",
+        "Shaking! Drop, cover and hold.",
+        "I need help!"
+      ],
+      "correct": 0,
+      "explanation": "Diga onde você está."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Ms. Clarke, eu não me sinto segura.",
+      "answer": [
+        "Ms.",
+        "Clarke,",
+        "I",
+        "don't",
+        "feel",
+        "safe."
+      ],
+      "distractors": [
+        "school",
+        "gate"
+      ],
+      "explanation": "\"I don't feel safe\" = não me sinto segura."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Ambulance, please. My friend is hurt.",
+      "lang": "pt",
+      "options": [
+        "Onde você está?",
+        "Ambulância, por favor. O meu amigo está machucado.",
+        "No portão da escola."
+      ],
+      "correct": 1,
+      "explanation": "Serviço + o que aconteceu."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Operator",
+          "en": "Where are you?",
+          "pt": "Onde você está?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "No portão da escola.",
+      "options": [
+        "At the school gate.",
+        "I need help!",
+        "Ms. Clarke, I don't feel safe."
+      ],
+      "correct": 0,
+      "explanation": "Diga onde você está."
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "A pessoa certa",
+      "questions": [
+        {
+          "english": "Ms. Clarke, I don't feel safe.",
+          "options": [
+            "Eu preciso de ajuda!",
+            "Ms. Clarke, eu não me sinto segura.",
+            "Obrigada por me contar. Eu posso ajudar."
+          ],
+          "correct": 1,
+          "joke": "\"I don't feel safe\" = não me sinto segura."
+        },
+        {
+          "english": "Ambulance, please. My friend is hurt.",
+          "options": [
+            "Eu preciso de ajuda!",
+            "Ambulância, por favor. O meu amigo está machucado.",
+            "Ms. Clarke, eu não me sinto segura."
+          ],
+          "correct": 1,
+          "joke": "Serviço + o que aconteceu."
+        },
+        {
+          "english": "Shaking! Drop, cover and hold.",
+          "options": [
+            "Emergência. Qual serviço você precisa?",
+            "Tremor! Abaixem-se, protejam-se e segurem.",
+            "Ambulância, por favor. O meu amigo está machucado."
+          ],
+          "correct": 1,
+          "joke": "\"Drop, cover and hold\" durante o tremor."
+        },
+        {
+          "english": "At the school gate.",
+          "options": [
+            "No portão da escola.",
+            "Emergência. Qual serviço você precisa?",
+            "Ambulância, por favor. O meu amigo está machucado."
+          ],
+          "correct": 0,
+          "joke": "Diga onde você está."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Saúde e segurança · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "📞",
+          "title": "Quem chamar",
+          "en": "I need help!",
+          "pt": "Problema na escola: dean ou school office. Perigo imediato: 111. Mal-estar: família anfitriã e seguro. Tremor: drop, cover and hold. Salve esses contatos antes de viajar. Rotas de evacuação: confira com a escola e a família."
+        }
+      ]
+    }
+  ]
+}

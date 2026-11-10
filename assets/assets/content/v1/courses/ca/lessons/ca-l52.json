@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l52",
+  "title": "Na pharmacy, sem automedicar",
+  "scenario": "Linda acompanha Leo à pharmacy. O farmacêutico orienta; remédio não se toma por conta própria.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Na pharmacy, sem automedicar",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Excuse me. Can I speak to the pharmacist?",
+          "pt": "Com licença. Posso falar com o farmacêutico?"
+        },
+        {
+          "speaker": "Pharmacist",
+          "en": "I'm the pharmacist. How can I help?",
+          "pt": "Eu sou a farmacêutica. Como posso ajudar?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I have a sore throat. I need my medicine.",
+          "pt": "Estou com dor de garganta. Preciso do meu remédio."
+        },
+        {
+          "speaker": "Pharmacist",
+          "en": "Do you have a prescription?",
+          "pt": "Você tem receita?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "No. I have insurance.",
+          "pt": "Não. Eu tenho seguro."
+        },
+        {
+          "speaker": "Pharmacist",
+          "en": "Then please see a doctor today.",
+          "pt": "Então, por favor, vá a um médico hoje."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "pharmacy",
+          "pt": "farmácia",
+          "emoji": "💊"
+        },
+        {
+          "en": "pharmacist",
+          "pt": "farmacêutico / farmacêutica",
+          "emoji": "👩‍⚕️"
+        },
+        {
+          "en": "medicine",
+          "pt": "remédio",
+          "emoji": "💊"
+        },
+        {
+          "en": "prescription",
+          "pt": "receita médica",
+          "emoji": "📄"
+        },
+        {
+          "en": "insurance",
+          "pt": "seguro (saúde)",
+          "emoji": "🛡️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me. Can I speak to the pharmacist?\"?",
+      "lang": "pt",
+      "options": [
+        "Então, por favor, vá a um médico hoje.",
+        "Eu sou a farmacêutica. Como posso ajudar?",
+        "Com licença. Posso falar com o farmacêutico?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can I speak to the pharmacist?\" = Posso falar com o farmacêutico?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Então, por favor, vá a um médico hoje.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Excuse me. Can I speak to the pharmacist?",
+        "I'm the pharmacist. How can I help?",
+        "Then please see a doctor today."
+      ],
+      "correct": 2,
+      "explanation": "\"Please see a doctor today\" = por favor, vá a um médico hoje."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Não. Eu tenho seguro.",
+      "answer": [
+        "No.",
+        "I",
+        "have",
+        "insurance."
+      ],
+      "distractors": [
+        "can",
+        "speak"
+      ],
+      "explanation": "\"I have insurance\" = eu tenho seguro. Ligue para o seguro do intercâmbio e avise a família."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "I have a sore throat. I need my medicine.",
+      "lang": "pt",
+      "options": [
+        "Não. Eu tenho seguro.",
+        "Estou com dor de garganta. Preciso do meu remédio.",
+        "Então, por favor, vá a um médico hoje."
+      ],
+      "correct": 1,
+      "explanation": "\"I need my medicine\" = preciso do meu remédio."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Pharmacist",
+          "en": "Do you have a prescription?",
+          "pt": "Você tem receita?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Não. Eu tenho seguro.",
+      "options": [
+        "I'm the pharmacist. How can I help?",
+        "No. I have insurance.",
+        "I have a sore throat. I need my medicine."
+      ],
+      "correct": 1,
+      "explanation": "\"I have insurance\" = eu tenho seguro. Ligue para o seguro do intercâmbio e avise a família."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A farmácia",
+      "questions": [
+        {
+          "english": "Excuse me. Can I speak to the pharmacist?",
+          "options": [
+            "Não. Eu tenho seguro.",
+            "Com licença. Posso falar com o farmacêutico?",
+            "Então, por favor, vá a um médico hoje."
+          ],
+          "correct": 1,
+          "joke": "\"Can I speak to the pharmacist?\" = Posso falar com o farmacêutico?"
+        },
+        {
+          "english": "I have a sore throat. I need my medicine.",
+          "options": [
+            "Não. Eu tenho seguro.",
+            "Estou com dor de garganta. Preciso do meu remédio.",
+            "Então, por favor, vá a um médico hoje."
+          ],
+          "correct": 1,
+          "joke": "\"I need my medicine\" = preciso do meu remédio."
+        },
+        {
+          "english": "No. I have insurance.",
+          "options": [
+            "Com licença. Posso falar com o farmacêutico?",
+            "Eu sou a farmacêutica. Como posso ajudar?",
+            "Não. Eu tenho seguro."
+          ],
+          "correct": 2,
+          "joke": "\"I have insurance\" = eu tenho seguro. Ligue para o seguro do intercâmbio e avise a família."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Saúde e segurança · Canadá",
+      "items": [
+        {
+          "emoji": "💊",
+          "title": "Pharmacy e walk-in clinic",
+          "en": "Please see a doctor today.",
+          "pt": "No Canadá, a farmácia (pharmacy ou drugstore) ajuda com coisas simples. Para ver um médico sem hora marcada, existe a walk-in clinic. Avise sempre a família anfitriã e o contato de emergência da sua agência."
+        },
+        {
+          "emoji": "📞",
+          "title": "Contatos de emergência",
+          "en": "My emergency contact",
+          "pt": "Salve no celular: a família anfitriã, a escola, o seguro-saúde e o contato de emergência da sua agência. Se estiver passando mal, avise alguém."
+        }
+      ]
+    }
+  ]
+}

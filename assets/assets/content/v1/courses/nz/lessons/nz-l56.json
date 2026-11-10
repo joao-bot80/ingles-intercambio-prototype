@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l56",
+  "title": "Dairy não é só laticínio",
+  "scenario": "Ruby leva Bia a uma dairy e explica os itens, sem falar em preços.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Dairy não é só laticínio",
+      "lines": [
+        {
+          "speaker": "Ruby",
+          "en": "Let's go to the dairy.",
+          "pt": "Vamos à dairy."
+        },
+        {
+          "speaker": "Bia",
+          "en": "What's a dairy?",
+          "pt": "O que é uma dairy?"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "It's a small shop. They sell bread, milk and ice cream.",
+          "pt": "É uma lojinha. Eles vendem pão, leite e sorvete."
+        },
+        {
+          "speaker": "Bia",
+          "en": "And what are lollies?",
+          "pt": "E o que são lollies?"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "Lollies are sweets. Do you want some?",
+          "pt": "Lollies são balas e doces. Quer um pouco?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "No, thanks. An ice cream, please!",
+          "pt": "Não, obrigada. Um sorvete, por favor!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "dairy",
+          "pt": "lojinha de esquina (na NZ) / laticínios",
+          "emoji": "🏪"
+        },
+        {
+          "en": "It's a small shop.",
+          "pt": "É uma lojinha.",
+          "emoji": "🛒"
+        },
+        {
+          "en": "ice cream",
+          "pt": "sorvete",
+          "emoji": "🍦"
+        },
+        {
+          "en": "lollies",
+          "pt": "balas e doces (na NZ)",
+          "emoji": "🍬"
+        },
+        {
+          "en": "milk",
+          "pt": "leite",
+          "emoji": "🥛"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"What's a dairy?\"?",
+      "lang": "pt",
+      "options": [
+        "É uma lojinha. Eles vendem pão, leite e sorvete.",
+        "O que é uma dairy?",
+        "E o que são lollies?"
+      ],
+      "correct": 1,
+      "explanation": "\"What's a dairy?\" = O que é uma dairy?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Não, obrigada. Um sorvete, por favor!\" em inglês?",
+      "lang": "en",
+      "options": [
+        "And what are lollies?",
+        "Lollies are sweets. Do you want some?",
+        "No, thanks. An ice cream, please!"
+      ],
+      "correct": 2,
+      "explanation": "\"An ice cream, please\" = um sorvete, por favor."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "O que é uma dairy?",
+      "answer": [
+        "What's",
+        "a",
+        "dairy?"
+      ],
+      "distractors": [
+        "some",
+        "thanks"
+      ],
+      "explanation": "\"What's a dairy?\" = O que é uma dairy?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "It's a small shop. They sell bread, milk and ice cream.",
+      "lang": "pt",
+      "options": [
+        "É uma lojinha. Eles vendem pão, leite e sorvete.",
+        "E o que são lollies?",
+        "Lollies são balas e doces. Quer um pouco?"
+      ],
+      "correct": 0,
+      "explanation": "\"It's a small shop\" = é uma lojinha."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ruby",
+          "en": "It's a small shop. They sell bread, milk and ice cream.",
+          "pt": "É uma lojinha. Eles vendem pão, leite e sorvete."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "E o que são lollies?",
+      "options": [
+        "Lollies are sweets. Do you want some?",
+        "No, thanks. An ice cream, please!",
+        "And what are lollies?"
+      ],
+      "correct": 2,
+      "explanation": "\"Lollies\" = balas e doces."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A dairy",
+      "questions": [
+        {
+          "english": "What's a dairy?",
+          "options": [
+            "É uma lojinha. Eles vendem pão, leite e sorvete.",
+            "E o que são lollies?",
+            "O que é uma dairy?"
+          ],
+          "correct": 2,
+          "joke": "\"What's a dairy?\" = O que é uma dairy?"
+        },
+        {
+          "english": "It's a small shop. They sell bread, milk and ice cream.",
+          "options": [
+            "O que é uma dairy?",
+            "E o que são lollies?",
+            "É uma lojinha. Eles vendem pão, leite e sorvete."
+          ],
+          "correct": 2,
+          "joke": "\"It's a small shop\" = é uma lojinha."
+        },
+        {
+          "english": "And what are lollies?",
+          "options": [
+            "É uma lojinha. Eles vendem pão, leite e sorvete.",
+            "E o que são lollies?",
+            "Lollies são balas e doces. Quer um pouco?"
+          ],
+          "correct": 1,
+          "joke": "\"Lollies\" = balas e doces."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Nova Zelândia · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🏪",
+          "title": "Dairy",
+          "en": "What's a dairy?",
+          "pt": "Na Nova Zelândia, \"dairy\" também pode ser uma lojinha de esquina. Em outros contextos, a palavra se refere a leite e laticínios."
+        },
+        {
+          "emoji": "🩴",
+          "title": "Palavras da vida kiwi",
+          "en": "Jandals, dairy, chilly bin",
+          "pt": "Jandals (chinelos), dairy (lojinha de esquina), chilly bin (caixa térmica). Gíria muda de região para região: peça explicação sempre."
+        }
+      ]
+    }
+  ]
+}

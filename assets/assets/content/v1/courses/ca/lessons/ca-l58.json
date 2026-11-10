@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l58",
+  "title": "Um país, muitas comunidades",
+  "scenario": "Na biblioteca, Leo encontra materiais de comunidades indígenas e placas em inglês e francês. Pergunte com respeito.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Um país, muitas comunidades",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Excuse me. How do you say this name?",
+          "pt": "Com licença. Como se fala este nome?"
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "It's a First Nations name. Let's ask the librarian.",
+          "pt": "É um nome das Primeiras Nações. Vamos perguntar à bibliotecária."
+        },
+        {
+          "speaker": "Leo",
+          "en": "And this sign is in French. What does this mean?",
+          "pt": "E esta placa está em francês. O que isto significa?"
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "It means exit. Canada has two official languages.",
+          "pt": "Significa saída. O Canadá tem duas línguas oficiais."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Sorry, can you repeat, please?",
+          "pt": "Desculpe, pode repetir, por favor?"
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "Canada has two official languages: English and French.",
+          "pt": "O Canadá tem duas línguas oficiais: inglês e francês."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "How do you say...?",
+          "pt": "Como se fala / se diz...?",
+          "emoji": "🗣️"
+        },
+        {
+          "en": "What does this mean?",
+          "pt": "O que isto significa?",
+          "emoji": "❓"
+        },
+        {
+          "en": "sign",
+          "pt": "placa / aviso",
+          "emoji": "🪧"
+        },
+        {
+          "en": "French",
+          "pt": "francês",
+          "emoji": "🇫🇷"
+        },
+        {
+          "en": "languages",
+          "pt": "línguas / idiomas",
+          "emoji": "🌐"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me. How do you say this name?\"?",
+      "lang": "pt",
+      "options": [
+        "Com licença. Como se fala este nome?",
+        "Significa saída. O Canadá tem duas línguas oficiais.",
+        "Desculpe, pode repetir, por favor?"
+      ],
+      "correct": 0,
+      "explanation": "\"How do you say this name?\" = Como se fala este nome?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Desculpe, pode repetir, por favor?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "It's a First Nations name. Let's ask the librarian.",
+        "Sorry, can you repeat, please?",
+        "And this sign is in French. What does this mean?"
+      ],
+      "correct": 1,
+      "explanation": "\"Can you repeat, please?\" = Pode repetir, por favor?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Desculpe, pode repetir, por favor?",
+      "answer": [
+        "Sorry,",
+        "can",
+        "you",
+        "repeat,",
+        "please?"
+      ],
+      "distractors": [
+        "what",
+        "does"
+      ],
+      "explanation": "\"Can you repeat, please?\" = Pode repetir, por favor?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "And this sign is in French. What does this mean?",
+      "lang": "pt",
+      "options": [
+        "O Canadá tem duas línguas oficiais: inglês e francês.",
+        "E esta placa está em francês. O que isto significa?",
+        "Com licença. Como se fala este nome?"
+      ],
+      "correct": 1,
+      "explanation": "\"What does this mean?\" = O que isto significa?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ms. Lee",
+          "en": "It means exit. Canada has two official languages.",
+          "pt": "Significa saída. O Canadá tem duas línguas oficiais."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Desculpe, pode repetir, por favor?",
+      "options": [
+        "Sorry, can you repeat, please?",
+        "Canada has two official languages: English and French.",
+        "Excuse me. How do you say this name?"
+      ],
+      "correct": 0,
+      "explanation": "\"Can you repeat, please?\" = Pode repetir, por favor?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A biblioteca",
+      "questions": [
+        {
+          "english": "Excuse me. How do you say this name?",
+          "options": [
+            "Significa saída. O Canadá tem duas línguas oficiais.",
+            "Desculpe, pode repetir, por favor?",
+            "Com licença. Como se fala este nome?"
+          ],
+          "correct": 2,
+          "joke": "\"How do you say this name?\" = Como se fala este nome?"
+        },
+        {
+          "english": "And this sign is in French. What does this mean?",
+          "options": [
+            "O Canadá tem duas línguas oficiais: inglês e francês.",
+            "E esta placa está em francês. O que isto significa?",
+            "Com licença. Como se fala este nome?"
+          ],
+          "correct": 1,
+          "joke": "\"What does this mean?\" = O que isto significa?"
+        },
+        {
+          "english": "Canada has two official languages: English and French.",
+          "options": [
+            "O Canadá tem duas línguas oficiais: inglês e francês.",
+            "Desculpe, pode repetir, por favor?",
+            "Com licença. Como se fala este nome?"
+          ],
+          "correct": 0,
+          "joke": "\"Two official languages\" = duas línguas oficiais."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Canadá · Canadá",
+      "items": [
+        {
+          "emoji": "🇨🇦",
+          "title": "Placas em inglês e francês",
+          "en": "Arrivals / Arrivées",
+          "pt": "Inglês e francês são as línguas oficiais do Canadá: nos aeroportos as placas vêm nas duas. Siga \"Arrivals\" e as placas da imigração junto com o seu grupo."
+        },
+        {
+          "emoji": "🪶",
+          "title": "Muitos povos, muitas histórias",
+          "en": "How do you say this name?",
+          "pt": "O Canadá tem muitos povos indígenas (Primeiras Nações, Inuit e Métis), cada um com a sua língua e cultura. Pergunte com respeito, aprenda com fontes da própria comunidade e evite tratar culturas diferentes como se fossem uma só."
+        }
+      ]
+    }
+  ]
+}

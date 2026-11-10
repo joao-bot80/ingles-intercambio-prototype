@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l60",
+  "title": "Missão final: minha semana na Nova Zelândia",
+  "scenario": "Bia e Leo combinam chegada, casa de Jo, escola com Ms. Clarke e pedido de ajuda em situações novas.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão final: minha semana na Nova Zelândia",
+      "lines": [
+        {
+          "speaker": "Officer",
+          "en": "Why are you in New Zealand?",
+          "pt": "Por que você está na Nova Zelândia?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm here to study.",
+          "pt": "Estou aqui para estudar."
+        },
+        {
+          "speaker": "Jo",
+          "en": "Welcome home! This is your room.",
+          "pt": "Bem-vinda! Este é o seu quarto."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thank you! I'm allergic to peanuts.",
+          "pt": "Obrigada! Sou alérgica a amendoim."
+        },
+        {
+          "speaker": "Mr. Evans",
+          "en": "Open your book on page thirty.",
+          "pt": "Abram o livro na página trinta."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Can you speak more slowly, please?",
+          "pt": "Pode falar mais devagar, por favor?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Ms. Clarke, I need help.",
+          "pt": "Ms. Clarke, eu preciso de ajuda."
+        },
+        {
+          "speaker": "Ms. Clarke",
+          "en": "Of course. You are not alone.",
+          "pt": "Claro. Você não está sozinho."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Kia ora and thank you, New Zealand!",
+          "pt": "Kia ora e obrigada, Nova Zelândia!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "alone",
+          "pt": "sozinho / sozinha",
+          "emoji": "🧍"
+        },
+        {
+          "en": "week",
+          "pt": "semana",
+          "emoji": "🗓️"
+        },
+        {
+          "en": "I need help.",
+          "pt": "Eu preciso de ajuda.",
+          "emoji": "🆘"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"I'm here to study.\"?",
+      "lang": "pt",
+      "options": [
+        "Estou aqui para estudar.",
+        "Kia ora e obrigada, Nova Zelândia!",
+        "Por que você está na Nova Zelândia?"
+      ],
+      "correct": 0,
+      "explanation": "\"I'm here to study\" = estou aqui para estudar."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Ms. Clarke, eu preciso de ajuda.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Ms. Clarke, I need help.",
+        "Can you speak more slowly, please?",
+        "Of course. You are not alone."
+      ],
+      "correct": 0,
+      "explanation": "\"I need help\" = preciso de ajuda."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Estou aqui para estudar.",
+      "answer": [
+        "I'm",
+        "here",
+        "to",
+        "study."
+      ],
+      "distractors": [
+        "thank",
+        "allergic"
+      ],
+      "explanation": "\"I'm here to study\" = estou aqui para estudar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Thank you! I'm allergic to peanuts.",
+      "lang": "pt",
+      "options": [
+        "Obrigada! Sou alérgica a amendoim.",
+        "Abram o livro na página trinta.",
+        "Pode falar mais devagar, por favor?"
+      ],
+      "correct": 0,
+      "explanation": "\"I'm allergic to peanuts\" = sou alérgica a amendoim."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Mr. Evans",
+          "en": "Open your book on page thirty.",
+          "pt": "Abram o livro na página trinta."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Pode falar mais devagar, por favor?",
+      "options": [
+        "Can you speak more slowly, please?",
+        "Ms. Clarke, I need help.",
+        "Of course. You are not alone."
+      ],
+      "correct": 0,
+      "explanation": "\"Can you speak more slowly, please?\" = Pode falar mais devagar?"
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "A semana na NZ",
+      "questions": [
+        {
+          "english": "I'm here to study.",
+          "options": [
+            "Pode falar mais devagar, por favor?",
+            "Ms. Clarke, eu preciso de ajuda.",
+            "Estou aqui para estudar."
+          ],
+          "correct": 2,
+          "joke": "\"I'm here to study\" = estou aqui para estudar."
+        },
+        {
+          "english": "Thank you! I'm allergic to peanuts.",
+          "options": [
+            "Obrigada! Sou alérgica a amendoim.",
+            "Kia ora e obrigada, Nova Zelândia!",
+            "Por que você está na Nova Zelândia?"
+          ],
+          "correct": 0,
+          "joke": "\"I'm allergic to peanuts\" = sou alérgica a amendoim."
+        },
+        {
+          "english": "Can you speak more slowly, please?",
+          "options": [
+            "Abram o livro na página trinta.",
+            "Pode falar mais devagar, por favor?",
+            "Ms. Clarke, eu preciso de ajuda."
+          ],
+          "correct": 1,
+          "joke": "\"Can you speak more slowly, please?\" = Pode falar mais devagar?"
+        },
+        {
+          "english": "Ms. Clarke, I need help.",
+          "options": [
+            "Ms. Clarke, eu preciso de ajuda.",
+            "Abram o livro na página trinta.",
+            "Pode falar mais devagar, por favor?"
+          ],
+          "correct": 0,
+          "joke": "\"I need help\" = preciso de ajuda."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Nova Zelândia · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🏁",
+          "title": "Você chegou ao fim do curso!",
+          "en": "I'm here to study.",
+          "pt": "Você aprendeu a se apresentar, viajar, viver com a família, estudar, fazer amigos, circular pela cidade, se proteger e pedir ajuda. Revise as missões e use o Vocabulário sempre que precisar. Bom intercâmbio!"
+        }
+      ]
+    }
+  ]
+}

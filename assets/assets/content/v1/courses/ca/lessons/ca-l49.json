@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l49",
+  "title": "Na loja: tamanho e cartão",
+  "scenario": "Leo procura uma blusa numa loja canadense e pergunta sobre o pagamento. Sem preços: eles mudam.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Na loja: tamanho e cartão",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Excuse me. Do you have a smaller size?",
+          "pt": "Com licença. Você tem um tamanho menor?"
+        },
+        {
+          "speaker": "Cashier",
+          "en": "Yes. Here is a small.",
+          "pt": "Tenho. Aqui está um P."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thanks. Can I pay by card?",
+          "pt": "Valeu. Posso pagar com cartão?"
+        },
+        {
+          "speaker": "Cashier",
+          "en": "Sure.",
+          "pt": "Claro."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Is tax included?",
+          "pt": "O imposto está incluído?"
+        },
+        {
+          "speaker": "Cashier",
+          "en": "No, tax is added at the cash register. Here is your receipt.",
+          "pt": "Não, o imposto é somado no caixa. Aqui está o seu recibo."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Thank you!",
+          "pt": "Obrigado!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "size",
+          "pt": "tamanho",
+          "emoji": "📏"
+        },
+        {
+          "en": "smaller",
+          "pt": "menor",
+          "emoji": "🔽"
+        },
+        {
+          "en": "Can I pay by card?",
+          "pt": "Posso pagar com cartão?",
+          "emoji": "💳"
+        },
+        {
+          "en": "receipt",
+          "pt": "recibo / nota",
+          "emoji": "🧾"
+        },
+        {
+          "en": "tax",
+          "pt": "imposto",
+          "emoji": "➕"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Excuse me. Do you have a smaller size?\"?",
+      "lang": "pt",
+      "options": [
+        "Com licença. Você tem um tamanho menor?",
+        "Obrigado!",
+        "Tenho. Aqui está um P."
+      ],
+      "correct": 0,
+      "explanation": "\"Do you have a smaller size?\" = Você tem um tamanho menor?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Não, o imposto é somado no caixa. Aqui está o seu recibo.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "No, tax is added at the cash register. Here is your receipt.",
+        "Yes. Here is a small.",
+        "Thanks. Can I pay by card?"
+      ],
+      "correct": 0,
+      "explanation": "\"Receipt\" = recibo."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Valeu. Posso pagar com cartão?",
+      "answer": [
+        "Thanks.",
+        "Can",
+        "I",
+        "pay",
+        "by",
+        "card?"
+      ],
+      "distractors": [
+        "receipt",
+        "thank"
+      ],
+      "explanation": "\"Can I pay by card?\" = Posso pagar com cartão?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Thanks. Can I pay by card?",
+      "lang": "pt",
+      "options": [
+        "Não, o imposto é somado no caixa. Aqui está o seu recibo.",
+        "Obrigado!",
+        "Valeu. Posso pagar com cartão?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can I pay by card?\" = Posso pagar com cartão?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Cashier",
+          "en": "Sure.",
+          "pt": "Claro."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "O imposto está incluído?",
+      "options": [
+        "Is tax included?",
+        "Excuse me. Do you have a smaller size?",
+        "Yes. Here is a small."
+      ],
+      "correct": 0,
+      "explanation": "\"Is tax included?\" = O imposto está incluído?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "A compra",
+      "questions": [
+        {
+          "english": "Excuse me. Do you have a smaller size?",
+          "options": [
+            "Com licença. Você tem um tamanho menor?",
+            "Tenho. Aqui está um P.",
+            "Valeu. Posso pagar com cartão?"
+          ],
+          "correct": 0,
+          "joke": "\"Do you have a smaller size?\" = Você tem um tamanho menor?"
+        },
+        {
+          "english": "Thanks. Can I pay by card?",
+          "options": [
+            "Valeu. Posso pagar com cartão?",
+            "Claro.",
+            "O imposto está incluído?"
+          ],
+          "correct": 0,
+          "joke": "\"Can I pay by card?\" = Posso pagar com cartão?"
+        },
+        {
+          "english": "Is tax included?",
+          "options": [
+            "Com licença. Você tem um tamanho menor?",
+            "O imposto está incluído?",
+            "Tenho. Aqui está um P."
+          ],
+          "correct": 1,
+          "joke": "\"Is tax included?\" = O imposto está incluído?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Dia a dia · Canadá",
+      "items": [
+        {
+          "emoji": "🧾",
+          "title": "Imposto à parte",
+          "en": "Is tax included?",
+          "pt": "Em muitas lojas do Canadá, o imposto é somado no caixa, então o valor final pode ser maior que o da etiqueta. Guarde o recibo para trocas. As regras e taxas mudam de província para província."
+        }
+      ]
+    }
+  ]
+}

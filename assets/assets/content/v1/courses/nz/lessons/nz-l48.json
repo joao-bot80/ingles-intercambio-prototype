@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l48",
+  "title": "Um passeio ao ar livre, não sozinha",
+  "scenario": "Mark combina um passeio supervisionado com Bia. Trilhas e sol pedem orientação local.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Um passeio ao ar livre, não sozinha",
+      "lines": [
+        {
+          "speaker": "Mark",
+          "en": "Let's go for a walk on Saturday.",
+          "pt": "Vamos fazer uma caminhada no sábado."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Where are we going?",
+          "pt": "Aonde a gente vai?"
+        },
+        {
+          "speaker": "Mark",
+          "en": "To the beach, with the family.",
+          "pt": "À praia, com a família."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Is it safe?",
+          "pt": "É seguro?"
+        },
+        {
+          "speaker": "Mark",
+          "en": "Yes, with us. Bring water and sunscreen. The sun is strong.",
+          "pt": "Sim, com a gente. Traga água e protetor solar. O sol é forte."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Okay. I need water and a hat.",
+          "pt": "Ok. Eu preciso de água e de um chapéu."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Where are we going?",
+          "pt": "Aonde a gente vai?",
+          "emoji": "🗺️"
+        },
+        {
+          "en": "Is it safe?",
+          "pt": "É seguro?",
+          "emoji": "❓"
+        },
+        {
+          "en": "water",
+          "pt": "água",
+          "emoji": "💧"
+        },
+        {
+          "en": "sunscreen",
+          "pt": "protetor solar",
+          "emoji": "🧴"
+        },
+        {
+          "en": "hat",
+          "pt": "chapéu / boné",
+          "emoji": "👒"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Where are we going?\"?",
+      "lang": "pt",
+      "options": [
+        "Aonde a gente vai?",
+        "À praia, com a família.",
+        "É seguro?"
+      ],
+      "correct": 0,
+      "explanation": "\"Where are we going?\" = Aonde a gente vai?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Ok. Eu preciso de água e de um chapéu.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "To the beach, with the family.",
+        "Okay. I need water and a hat.",
+        "Is it safe?"
+      ],
+      "correct": 1,
+      "explanation": "\"I need water\" = preciso de água."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Aonde a gente vai?",
+      "answer": [
+        "Where",
+        "are",
+        "we",
+        "going?"
+      ],
+      "distractors": [
+        "family",
+        "safe"
+      ],
+      "explanation": "\"Where are we going?\" = Aonde a gente vai?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Is it safe?",
+      "lang": "pt",
+      "options": [
+        "É seguro?",
+        "À praia, com a família.",
+        "Sim, com a gente. Traga água e protetor solar. O sol é forte."
+      ],
+      "correct": 0,
+      "explanation": "\"Is it safe?\" = É seguro?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Mark",
+          "en": "Yes, with us. Bring water and sunscreen. The sun is strong.",
+          "pt": "Sim, com a gente. Traga água e protetor solar. O sol é forte."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Ok. Eu preciso de água e de um chapéu.",
+      "options": [
+        "To the beach, with the family.",
+        "Okay. I need water and a hat.",
+        "Is it safe?"
+      ],
+      "correct": 1,
+      "explanation": "\"I need water\" = preciso de água."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O passeio",
+      "questions": [
+        {
+          "english": "Where are we going?",
+          "options": [
+            "Aonde a gente vai?",
+            "À praia, com a família.",
+            "É seguro?"
+          ],
+          "correct": 0,
+          "joke": "\"Where are we going?\" = Aonde a gente vai?"
+        },
+        {
+          "english": "Is it safe?",
+          "options": [
+            "Ok. Eu preciso de água e de um chapéu.",
+            "Vamos fazer uma caminhada no sábado.",
+            "É seguro?"
+          ],
+          "correct": 2,
+          "joke": "\"Is it safe?\" = É seguro?"
+        },
+        {
+          "english": "Yes, with us. Bring water and sunscreen. The sun is strong.",
+          "options": [
+            "Vamos fazer uma caminhada no sábado.",
+            "Sim, com a gente. Traga água e protetor solar. O sol é forte.",
+            "Aonde a gente vai?"
+          ],
+          "correct": 1,
+          "joke": "\"Bring water and sunscreen\" = traga água e protetor solar. O sol (UV) da NZ é forte."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Dia a dia · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🥾",
+          "title": "Natureza e sol forte",
+          "en": "Tell someone where you are going.",
+          "pt": "O tempo muda rápido e o sol (raios UV) é forte, mesmo com nuvens. Em trilhas (\"tramping\"), avise alguém sobre o seu roteiro, leve agasalho e água e confira os alertas locais."
+        }
+      ]
+    }
+  ]
+}

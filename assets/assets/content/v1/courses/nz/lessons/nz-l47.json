@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l47",
+  "title": "Tempo mudando, roupa em camadas",
+  "scenario": "Ruby e Bia escolhem roupa para o dia. Brasil e Nova Zelândia ficam no hemisfério sul: as estações são nos mesmos meses.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Tempo mudando, roupa em camadas",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "It's cold this morning.",
+          "pt": "Está frio esta manhã."
+        },
+        {
+          "speaker": "Ruby",
+          "en": "Yes, and look, it's raining.",
+          "pt": "É, e olha, está chovendo."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Take a raincoat?",
+          "pt": "Levo uma capa de chuva?"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "Yes, take a raincoat and a warm jacket.",
+          "pt": "Sim, leve uma capa de chuva e um casaco quente."
+        },
+        {
+          "speaker": "Bia",
+          "en": "And in the afternoon?",
+          "pt": "E à tarde?"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "Maybe sunny! The weather changes fast here.",
+          "pt": "Talvez sol! O tempo muda rápido aqui."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "It's raining.",
+          "pt": "Está chovendo.",
+          "emoji": "🌧️"
+        },
+        {
+          "en": "It's cold.",
+          "pt": "Está frio.",
+          "emoji": "🥶"
+        },
+        {
+          "en": "Take a raincoat.",
+          "pt": "Leve uma capa de chuva.",
+          "emoji": "🧥"
+        },
+        {
+          "en": "warm jacket",
+          "pt": "casaco quente",
+          "emoji": "🧥"
+        },
+        {
+          "en": "sunny",
+          "pt": "ensolarado",
+          "emoji": "☀️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Yes, and look, it's raining.\"?",
+      "lang": "pt",
+      "options": [
+        "É, e olha, está chovendo.",
+        "Talvez sol! O tempo muda rápido aqui.",
+        "Está frio esta manhã."
+      ],
+      "correct": 0,
+      "explanation": "\"It's raining\" = está chovendo."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Está frio esta manhã.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Take a raincoat?",
+        "Yes, take a raincoat and a warm jacket.",
+        "It's cold this morning."
+      ],
+      "correct": 2,
+      "explanation": "\"It's cold\" = está frio."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Está frio esta manhã.",
+      "answer": [
+        "It's",
+        "cold",
+        "this",
+        "morning."
+      ],
+      "distractors": [
+        "here",
+        "yes"
+      ],
+      "explanation": "\"It's cold\" = está frio."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Yes, take a raincoat and a warm jacket.",
+      "lang": "pt",
+      "options": [
+        "E à tarde?",
+        "Sim, leve uma capa de chuva e um casaco quente.",
+        "Talvez sol! O tempo muda rápido aqui."
+      ],
+      "correct": 1,
+      "explanation": "\"Take a raincoat and a warm jacket\" = leve uma capa de chuva e um casaco quente."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Bia",
+          "en": "It's cold this morning.",
+          "pt": "Está frio esta manhã."
+        }
+      ],
+      "speaker": "Ruby",
+      "pt": "É, e olha, está chovendo.",
+      "options": [
+        "Take a raincoat?",
+        "Yes, and look, it's raining.",
+        "Yes, take a raincoat and a warm jacket."
+      ],
+      "correct": 1,
+      "explanation": "\"It's raining\" = está chovendo."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O tempo maluco",
+      "questions": [
+        {
+          "english": "Yes, and look, it's raining.",
+          "options": [
+            "É, e olha, está chovendo.",
+            "Sim, leve uma capa de chuva e um casaco quente.",
+            "E à tarde?"
+          ],
+          "correct": 0,
+          "joke": "\"It's raining\" = está chovendo."
+        },
+        {
+          "english": "Yes, take a raincoat and a warm jacket.",
+          "options": [
+            "É, e olha, está chovendo.",
+            "Sim, leve uma capa de chuva e um casaco quente.",
+            "Levo uma capa de chuva?"
+          ],
+          "correct": 1,
+          "joke": "\"Take a raincoat and a warm jacket\" = leve uma capa de chuva e um casaco quente."
+        },
+        {
+          "english": "Maybe sunny! The weather changes fast here.",
+          "options": [
+            "É, e olha, está chovendo.",
+            "Levo uma capa de chuva?",
+            "Talvez sol! O tempo muda rápido aqui."
+          ],
+          "correct": 2,
+          "joke": "\"The weather changes fast\" = o tempo muda rápido."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Dia a dia · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🌏",
+          "title": "Estações como no Brasil",
+          "en": "I'm going to New Zealand!",
+          "pt": "A Nova Zelândia fica no hemisfério sul: o verão vai de dezembro a fevereiro e o inverno, de junho a agosto. O tempo muda rápido: leve sempre uma camada a mais."
+        }
+      ]
+    }
+  ]
+}

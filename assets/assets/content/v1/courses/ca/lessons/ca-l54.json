@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l54",
+  "title": "Não me sinto seguro",
+  "scenario": "Bia fala com Ms. Lee sobre bullying; depois Dave explica que não se entra em lago congelado sem orientação local.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Não me sinto seguro",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Ms. Lee, I don't feel safe at school.",
+          "pt": "Ms. Lee, eu não me sinto segura na escola."
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "Thank you for telling me. What happened?",
+          "pt": "Obrigada por me contar. O que aconteceu?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Someone is hurting me. I need help.",
+          "pt": "Alguém está me machucando. Eu preciso de ajuda."
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "You did the right thing. We can help you.",
+          "pt": "Você fez a coisa certa. Nós podemos te ajudar."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Dave, the lake is frozen. Is it safe?",
+          "pt": "Dave, o lago está congelado. É seguro?"
+        },
+        {
+          "speaker": "Dave",
+          "en": "No. Never go on a frozen lake alone. Use the ice rink.",
+          "pt": "Não. Nunca entre num lago congelado sozinha. Use a pista de patinação."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "I don't feel safe.",
+          "pt": "Eu não me sinto seguro / segura.",
+          "emoji": "⚠️"
+        },
+        {
+          "en": "Someone is hurting me.",
+          "pt": "Alguém está me machucando.",
+          "emoji": "🛑"
+        },
+        {
+          "en": "Is it safe?",
+          "pt": "É seguro?",
+          "emoji": "❓"
+        },
+        {
+          "en": "frozen lake",
+          "pt": "lago congelado",
+          "emoji": "🧊"
+        },
+        {
+          "en": "ice rink",
+          "pt": "pista de patinação",
+          "emoji": "⛸️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Ms. Lee, I don't feel safe at school.\"?",
+      "lang": "pt",
+      "options": [
+        "Alguém está me machucando. Eu preciso de ajuda.",
+        "Você fez a coisa certa. Nós podemos te ajudar.",
+        "Ms. Lee, eu não me sinto segura na escola."
+      ],
+      "correct": 2,
+      "explanation": "\"I don't feel safe\" = não me sinto segura."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Não. Nunca entre num lago congelado sozinha. Use a pista de patinação.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Dave, the lake is frozen. Is it safe?",
+        "Ms. Lee, I don't feel safe at school.",
+        "No. Never go on a frozen lake alone. Use the ice rink."
+      ],
+      "correct": 2,
+      "explanation": "Nunca entre num lago congelado sem orientação local. Use pistas preparadas."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Alguém está me machucando. Eu preciso de ajuda.",
+      "answer": [
+        "Someone",
+        "is",
+        "hurting",
+        "me.",
+        "I",
+        "need",
+        "help."
+      ],
+      "distractors": [
+        "thank",
+        "you"
+      ],
+      "explanation": "\"Someone is hurting me\" = alguém está me machucando. Conte a um adulto."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Someone is hurting me. I need help.",
+      "lang": "pt",
+      "options": [
+        "Alguém está me machucando. Eu preciso de ajuda.",
+        "Você fez a coisa certa. Nós podemos te ajudar.",
+        "Dave, o lago está congelado. É seguro?"
+      ],
+      "correct": 0,
+      "explanation": "\"Someone is hurting me\" = alguém está me machucando. Conte a um adulto."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ms. Lee",
+          "en": "You did the right thing. We can help you.",
+          "pt": "Você fez a coisa certa. Nós podemos te ajudar."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Dave, o lago está congelado. É seguro?",
+      "options": [
+        "Dave, the lake is frozen. Is it safe?",
+        "No. Never go on a frozen lake alone. Use the ice rink.",
+        "Ms. Lee, I don't feel safe at school."
+      ],
+      "correct": 0,
+      "explanation": "\"Is it safe?\" = É seguro?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Pedir proteção",
+      "questions": [
+        {
+          "english": "Ms. Lee, I don't feel safe at school.",
+          "options": [
+            "Você fez a coisa certa. Nós podemos te ajudar.",
+            "Dave, o lago está congelado. É seguro?",
+            "Ms. Lee, eu não me sinto segura na escola."
+          ],
+          "correct": 2,
+          "joke": "\"I don't feel safe\" = não me sinto segura."
+        },
+        {
+          "english": "Someone is hurting me. I need help.",
+          "options": [
+            "Ms. Lee, eu não me sinto segura na escola.",
+            "Obrigada por me contar. O que aconteceu?",
+            "Alguém está me machucando. Eu preciso de ajuda."
+          ],
+          "correct": 2,
+          "joke": "\"Someone is hurting me\" = alguém está me machucando. Conte a um adulto."
+        },
+        {
+          "english": "Dave, the lake is frozen. Is it safe?",
+          "options": [
+            "Dave, o lago está congelado. É seguro?",
+            "Você fez a coisa certa. Nós podemos te ajudar.",
+            "Não. Nunca entre num lago congelado sozinha. Use a pista de patinação."
+          ],
+          "correct": 0,
+          "joke": "\"Is it safe?\" = É seguro?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Saúde e segurança · Canadá",
+      "items": [
+        {
+          "emoji": "🏒",
+          "title": "Hóquei no gelo",
+          "en": "Do you play hockey?",
+          "pt": "O hóquei no gelo é muito popular no Canadá. Você pode assistir a jogos em arenas e conhecer pistas preparadas para patinação. Nunca entre em um lago congelado sem orientação e confirmação local de segurança. Perguntar \"Do you play hockey?\" pode ajudar a puxar assunto.",
+          "image": "assets/images/ca/ca-coffee/photo-hockey.jpg",
+          "alt": "Crianças jogando hóquei em um lago congelado",
+          "credit": {
+            "author": "Laslovarga",
+            "license": "CC BY-SA 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:2021_Pond_Hockey_Waterdown_Laslovarga_(5).jpg"
+          }
+        },
+        {
+          "emoji": "🛡️",
+          "title": "Você não está sozinha",
+          "en": "I don't feel safe.",
+          "pt": "Bullying, ameaças ou qualquer pessoa que te machuque: conte à counsellor, à família anfitriã e à agência. Em perigo imediato, ligue 911. Pedir ajuda não é exagero."
+        }
+      ]
+    }
+  ]
+}

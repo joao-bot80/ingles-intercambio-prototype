@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l60",
+  "title": "Missão final: minha semana no Canadá",
+  "scenario": "Bia e Leo percorrem chegada, casa, escola e pedido de ajuda em situações novas, usando o que aprenderam.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão final: minha semana no Canadá",
+      "lines": [
+        {
+          "speaker": "Officer",
+          "en": "Why are you in Canada?",
+          "pt": "Por que você está no Canadá?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm here to study.",
+          "pt": "Estou aqui para estudar."
+        },
+        {
+          "speaker": "Linda",
+          "en": "Welcome! This is your room.",
+          "pt": "Bem-vinda! Este é o seu quarto."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thank you so much! I'm allergic to peanuts.",
+          "pt": "Muito obrigada! Sou alérgica a amendoim."
+        },
+        {
+          "speaker": "Mr. Brown",
+          "en": "Open your book on page thirty.",
+          "pt": "Abram o livro na página trinta."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Can you speak more slowly, please?",
+          "pt": "Pode falar mais devagar, por favor?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Ms. Lee, I need help.",
+          "pt": "Ms. Lee, eu preciso de ajuda."
+        },
+        {
+          "speaker": "Ms. Lee",
+          "en": "Of course. You are not alone.",
+          "pt": "Claro. Você não está sozinho."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Thank you! See you soon, Canada!",
+          "pt": "Obrigada! Até breve, Canadá!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "alone",
+          "pt": "sozinho / sozinha",
+          "emoji": "🧍"
+        },
+        {
+          "en": "week",
+          "pt": "semana",
+          "emoji": "🗓️"
+        },
+        {
+          "en": "I need help.",
+          "pt": "Eu preciso de ajuda.",
+          "emoji": "🆘"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"I'm here to study.\"?",
+      "lang": "pt",
+      "options": [
+        "Estou aqui para estudar.",
+        "Bem-vinda! Este é o seu quarto.",
+        "Muito obrigada! Sou alérgica a amendoim."
+      ],
+      "correct": 0,
+      "explanation": "\"I'm here to study\" = estou aqui para estudar."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Ms. Lee, eu preciso de ajuda.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Ms. Lee, I need help.",
+        "Of course. You are not alone.",
+        "Thank you! See you soon, Canada!"
+      ],
+      "correct": 0,
+      "explanation": "\"I need help\" = eu preciso de ajuda."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Estou aqui para estudar.",
+      "answer": [
+        "I'm",
+        "here",
+        "to",
+        "study."
+      ],
+      "distractors": [
+        "thank",
+        "much"
+      ],
+      "explanation": "\"I'm here to study\" = estou aqui para estudar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Thank you so much! I'm allergic to peanuts.",
+      "lang": "pt",
+      "options": [
+        "Muito obrigada! Sou alérgica a amendoim.",
+        "Claro. Você não está sozinho.",
+        "Obrigada! Até breve, Canadá!"
+      ],
+      "correct": 0,
+      "explanation": "\"I'm allergic to peanuts\" = sou alérgica a amendoim."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Mr. Brown",
+          "en": "Open your book on page thirty.",
+          "pt": "Abram o livro na página trinta."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Pode falar mais devagar, por favor?",
+      "options": [
+        "Thank you! See you soon, Canada!",
+        "Why are you in Canada?",
+        "Can you speak more slowly, please?"
+      ],
+      "correct": 2,
+      "explanation": "\"Can you speak more slowly, please?\" = Pode falar mais devagar, por favor?"
+    },
+    {
+      "type": "boss",
+      "title": "Missão",
+      "bossName": "A semana no Canadá",
+      "questions": [
+        {
+          "english": "I'm here to study.",
+          "options": [
+            "Estou aqui para estudar.",
+            "Ms. Lee, eu preciso de ajuda.",
+            "Claro. Você não está sozinho."
+          ],
+          "correct": 0,
+          "joke": "\"I'm here to study\" = estou aqui para estudar."
+        },
+        {
+          "english": "Thank you so much! I'm allergic to peanuts.",
+          "options": [
+            "Obrigada! Até breve, Canadá!",
+            "Por que você está no Canadá?",
+            "Muito obrigada! Sou alérgica a amendoim."
+          ],
+          "correct": 2,
+          "joke": "\"I'm allergic to peanuts\" = sou alérgica a amendoim."
+        },
+        {
+          "english": "Can you speak more slowly, please?",
+          "options": [
+            "Bem-vinda! Este é o seu quarto.",
+            "Pode falar mais devagar, por favor?",
+            "Muito obrigada! Sou alérgica a amendoim."
+          ],
+          "correct": 1,
+          "joke": "\"Can you speak more slowly, please?\" = Pode falar mais devagar, por favor?"
+        },
+        {
+          "english": "Ms. Lee, I need help.",
+          "options": [
+            "Abram o livro na página trinta.",
+            "Ms. Lee, eu preciso de ajuda.",
+            "Pode falar mais devagar, por favor?"
+          ],
+          "correct": 1,
+          "joke": "\"I need help\" = eu preciso de ajuda."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Canadá · Canadá",
+      "items": [
+        {
+          "emoji": "🏁",
+          "title": "Você chegou ao fim do curso!",
+          "en": "I'm here to study.",
+          "pt": "Você aprendeu a se apresentar, viajar, viver com a família, estudar, fazer amigos, circular pela cidade e pedir ajuda. Revise as missões e use o Vocabulário sempre que precisar. Bom intercâmbio!"
+        },
+        {
+          "emoji": "🌈",
+          "title": "Cataratas do Niágara",
+          "en": "Wow, look at the waterfall!",
+          "pt": "As cataratas do Niágara ficam na fronteira entre Ontário e os Estados Unidos. É um dos passeios mais famosos do Canadá.",
+          "image": "assets/images/ca/ca-coffee/photo-niagara.jpg",
+          "alt": "Cataratas do Niágara com um arco-íris",
+          "credit": {
+            "author": "Maksim Sokolov (maxergon.com)",
+            "license": "CC BY-SA 4.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Rainbow_Above_Horseshoe_Falls_(Niagara_Falls).jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

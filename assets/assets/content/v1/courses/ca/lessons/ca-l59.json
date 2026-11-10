@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l59",
+  "title": "Missão: um sábado canadense",
+  "scenario": "Bia combina a volta com Linda, pega o ônibus, faz um pedido e decide sobre uma foto com Emma.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: um sábado canadense",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Linda, what time is dinner?",
+          "pt": "Linda, que horas é o jantar?"
+        },
+        {
+          "speaker": "Linda",
+          "en": "At six. Have fun!",
+          "pt": "Às seis. Divirta-se!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Does this bus go to the library?",
+          "pt": "Este ônibus vai para a biblioteca?"
+        },
+        {
+          "speaker": "Driver",
+          "en": "Yes, it does.",
+          "pt": "Vai, sim."
+        },
+        {
+          "speaker": "Cashier",
+          "en": "Do you want a donut?",
+          "pt": "Você quer um donut?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "No, thanks. A hot chocolate, please.",
+          "pt": "Não, obrigada. Um chocolate quente, por favor."
+        },
+        {
+          "speaker": "Emma",
+          "en": "Can I take a photo?",
+          "pt": "Posso tirar uma foto?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Sure, but please don't post it.",
+          "pt": "Claro, mas por favor não poste."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Have fun!",
+          "pt": "Divirta-se!",
+          "emoji": "🎉"
+        },
+        {
+          "en": "donut",
+          "pt": "rosquinha (donut)",
+          "emoji": "🍩"
+        },
+        {
+          "en": "hot chocolate",
+          "pt": "chocolate quente",
+          "emoji": "🍫"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Linda, what time is dinner?\"?",
+      "lang": "pt",
+      "options": [
+        "Linda, que horas é o jantar?",
+        "Vai, sim.",
+        "Você quer um donut?"
+      ],
+      "correct": 0,
+      "explanation": "\"What time is dinner?\" = Que horas é o jantar?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Claro, mas por favor não poste.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Do you want a donut?",
+        "Sure, but please don't post it.",
+        "No, thanks. A hot chocolate, please."
+      ],
+      "correct": 1,
+      "explanation": "\"Please don't post it\" = por favor, não poste."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Linda, que horas é o jantar?",
+      "answer": [
+        "Linda,",
+        "what",
+        "time",
+        "is",
+        "dinner?"
+      ],
+      "distractors": [
+        "fun",
+        "does"
+      ],
+      "explanation": "\"What time is dinner?\" = Que horas é o jantar?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Does this bus go to the library?",
+      "lang": "pt",
+      "options": [
+        "Às seis. Divirta-se!",
+        "Este ônibus vai para a biblioteca?",
+        "Vai, sim."
+      ],
+      "correct": 1,
+      "explanation": "\"Does this bus go to...?\" = Este ônibus vai para...?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Cashier",
+          "en": "Do you want a donut?",
+          "pt": "Você quer um donut?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Não, obrigada. Um chocolate quente, por favor.",
+      "options": [
+        "At six. Have fun!",
+        "Does this bus go to the library?",
+        "No, thanks. A hot chocolate, please."
+      ],
+      "correct": 2,
+      "explanation": "\"No, thanks\" + o que você quer."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Um sábado no Canadá",
+      "questions": [
+        {
+          "english": "Linda, what time is dinner?",
+          "options": [
+            "Não, obrigada. Um chocolate quente, por favor.",
+            "Linda, que horas é o jantar?",
+            "Posso tirar uma foto?"
+          ],
+          "correct": 1,
+          "joke": "\"What time is dinner?\" = Que horas é o jantar?"
+        },
+        {
+          "english": "Does this bus go to the library?",
+          "options": [
+            "Este ônibus vai para a biblioteca?",
+            "Vai, sim.",
+            "Você quer um donut?"
+          ],
+          "correct": 0,
+          "joke": "\"Does this bus go to...?\" = Este ônibus vai para...?"
+        },
+        {
+          "english": "No, thanks. A hot chocolate, please.",
+          "options": [
+            "Linda, que horas é o jantar?",
+            "Às seis. Divirta-se!",
+            "Não, obrigada. Um chocolate quente, por favor."
+          ],
+          "correct": 2,
+          "joke": "\"No, thanks\" + o que você quer."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Canadá · Canadá",
+      "items": [
+        {
+          "emoji": "🍁",
+          "title": "A folha de bordo",
+          "en": "This is the Canadian flag.",
+          "pt": "A bandeira do Canadá tem uma folha de bordo (maple leaf) vermelha. A folha é o símbolo do país e aparece em todo lugar.",
+          "image": "assets/images/ca/ca-coffee/photo-flag.jpg",
+          "alt": "Bandeira do Canadá tremulando",
+          "credit": {
+            "author": "Robert Ashworth",
+            "license": "CC BY 2.0",
+            "url": "https://commons.wikimedia.org/wiki/File:Canada%27s_maple_leaf_flag_flying_from_Tsawwassen_Ferry_(29093000523).jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

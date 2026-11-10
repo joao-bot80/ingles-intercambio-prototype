@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l54",
+  "title": "Terremoto primeiro, tsunami depois",
+  "scenario": "Mr. Evans conduz um simulado na escola, seguindo a orientação oficial da Nova Zelândia.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Terremoto primeiro, tsunami depois",
+      "lines": [
+        {
+          "speaker": "Mr. Evans",
+          "en": "This is a drill. If you feel shaking, drop, cover and hold.",
+          "pt": "Isto é um simulado. Se sentir tremor, abaixe-se, proteja-se e segure."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Drop, cover and hold. Under the desk?",
+          "pt": "Abaixar, proteger e segurar. Debaixo da mesa?"
+        },
+        {
+          "speaker": "Mr. Evans",
+          "en": "Yes. Stay there until the shaking stops.",
+          "pt": "Sim. Fique lá até o tremor parar."
+        },
+        {
+          "speaker": "Bia",
+          "en": "And near the beach?",
+          "pt": "E perto da praia?"
+        },
+        {
+          "speaker": "Mr. Evans",
+          "en": "If the shaking is long or strong, go to high ground when it stops.",
+          "pt": "Se o tremor for longo ou forte, vá para um lugar alto quando ele parar."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Do we wait for a warning?",
+          "pt": "A gente espera um alerta?"
+        },
+        {
+          "speaker": "Mr. Evans",
+          "en": "No. Do not wait for a warning. Long or strong, get gone.",
+          "pt": "Não. Não espere um alerta. Longo ou forte, saia de lá."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Drop, cover and hold.",
+          "pt": "Abaixe-se, proteja-se e segure.",
+          "emoji": "🛡️"
+        },
+        {
+          "en": "shaking",
+          "pt": "tremor",
+          "emoji": "〰️"
+        },
+        {
+          "en": "high ground",
+          "pt": "lugar alto",
+          "emoji": "⛰️"
+        },
+        {
+          "en": "warning",
+          "pt": "alerta / aviso",
+          "emoji": "📢"
+        },
+        {
+          "en": "drill",
+          "pt": "simulado",
+          "emoji": "📣"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"This is a drill. If you feel shaking, drop, cover and hold.\"?",
+      "lang": "pt",
+      "options": [
+        "Isto é um simulado. Se sentir tremor, abaixe-se, proteja-se e segure.",
+        "Sim. Fique lá até o tremor parar.",
+        "E perto da praia?"
+      ],
+      "correct": 0,
+      "explanation": "Durante o tremor: \"Drop, cover and hold\" (abaixe-se, proteja cabeça e pescoço, segure firme)."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Não. Não espere um alerta. Longo ou forte, saia de lá.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "No. Do not wait for a warning. Long or strong, get gone.",
+        "Yes. Stay there until the shaking stops.",
+        "And near the beach?"
+      ],
+      "correct": 0,
+      "explanation": "\"Do not wait for a warning\" = não espere o alerta oficial."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Sim. Fique lá até o tremor parar.",
+      "answer": [
+        "Yes.",
+        "Stay",
+        "there",
+        "until",
+        "the",
+        "shaking",
+        "stops."
+      ],
+      "distractors": [
+        "drop",
+        "cover"
+      ],
+      "explanation": "\"Until the shaking stops\" = até o tremor parar."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Yes. Stay there until the shaking stops.",
+      "lang": "pt",
+      "options": [
+        "Abaixar, proteger e segurar. Debaixo da mesa?",
+        "Sim. Fique lá até o tremor parar.",
+        "E perto da praia?"
+      ],
+      "correct": 1,
+      "explanation": "\"Until the shaking stops\" = até o tremor parar."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Bia",
+          "en": "Drop, cover and hold. Under the desk?",
+          "pt": "Abaixar, proteger e segurar. Debaixo da mesa?"
+        }
+      ],
+      "speaker": "Mr. Evans",
+      "pt": "Sim. Fique lá até o tremor parar.",
+      "options": [
+        "Yes. Stay there until the shaking stops.",
+        "If the shaking is long or strong, go to high ground when it stops.",
+        "Do we wait for a warning?"
+      ],
+      "correct": 0,
+      "explanation": "\"Until the shaking stops\" = até o tremor parar."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O simulado",
+      "questions": [
+        {
+          "english": "This is a drill. If you feel shaking, drop, cover and hold.",
+          "options": [
+            "Abaixar, proteger e segurar. Debaixo da mesa?",
+            "Sim. Fique lá até o tremor parar.",
+            "Isto é um simulado. Se sentir tremor, abaixe-se, proteja-se e segure."
+          ],
+          "correct": 2,
+          "joke": "Durante o tremor: \"Drop, cover and hold\" (abaixe-se, proteja cabeça e pescoço, segure firme)."
+        },
+        {
+          "english": "Yes. Stay there until the shaking stops.",
+          "options": [
+            "Sim. Fique lá até o tremor parar.",
+            "Abaixar, proteger e segurar. Debaixo da mesa?",
+            "E perto da praia?"
+          ],
+          "correct": 0,
+          "joke": "\"Until the shaking stops\" = até o tremor parar."
+        },
+        {
+          "english": "If the shaking is long or strong, go to high ground when it stops.",
+          "options": [
+            "Se o tremor for longo ou forte, vá para um lugar alto quando ele parar.",
+            "E perto da praia?",
+            "A gente espera um alerta?"
+          ],
+          "correct": 0,
+          "joke": "Perto da costa, tremor longo ou forte: assim que parar, vá para um lugar alto ou para o interior."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Saúde e segurança · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🌋",
+          "title": "Terremoto",
+          "en": "Drop, cover and hold.",
+          "pt": "A Nova Zelândia tem muitos terremotos. Se sentir um tremor: abaixe-se, proteja a cabeça e o pescoço (debaixo de uma mesa, se houver) e segure firme até parar. Escolas e prédios fazem simulados. Informação oficial: civildefence.govt.nz."
+        },
+        {
+          "emoji": "🌊",
+          "title": "Tsunami",
+          "en": "Long or strong, get gone.",
+          "pt": "Se estiver perto da costa e sentir um tremor LONGO (mais de um minuto) ou FORTE (difícil ficar de pé), primeiro abaixe-se, proteja a cabeça e o pescoço e segure firme durante o tremor. Assim que ele parar, vá imediatamente para o terreno alto mais próximo ou o mais para o interior que conseguir, saindo da zona de evacuação. Não espere por um alerta oficial. Conheça antes a rota de evacuação da escola e da hospedagem. Fonte: getready.govt.nz/emergency/tsunami."
+        }
+      ]
+    }
+  ]
+}

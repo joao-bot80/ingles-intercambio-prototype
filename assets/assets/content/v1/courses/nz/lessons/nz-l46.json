@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l46",
+  "title": "Fish and chips e minhas restrições",
+  "scenario": "Jo ajuda Bia a ler opções de comida. Nenhuma comida é obrigação, e alergia se avisa sempre.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Fish and chips e minhas restrições",
+      "lines": [
+        {
+          "speaker": "Jo",
+          "en": "Let's get fish and chips tonight!",
+          "pt": "Vamos comer fish and chips hoje à noite!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Sorry, I don't eat fish.",
+          "pt": "Desculpa, eu não como peixe."
+        },
+        {
+          "speaker": "Jo",
+          "en": "No worries. They have chicken too.",
+          "pt": "Sem problemas. Eles têm frango também."
+        },
+        {
+          "speaker": "Bia",
+          "en": "And I'm allergic to peanuts.",
+          "pt": "E eu sou alérgica a amendoim."
+        },
+        {
+          "speaker": "Jo",
+          "en": "Thanks for telling me. Let's ask.",
+          "pt": "Obrigada por me contar. Vamos perguntar."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Excuse me. Does this have peanuts?",
+          "pt": "Com licença. Isto tem amendoim?"
+        },
+        {
+          "speaker": "Cashier",
+          "en": "No, it doesn't.",
+          "pt": "Não, não tem."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "I'm allergic to...",
+          "pt": "Eu sou alérgico / alérgica a...",
+          "emoji": "⚠️"
+        },
+        {
+          "en": "peanuts",
+          "pt": "amendoim",
+          "emoji": "🥜"
+        },
+        {
+          "en": "Does this have...?",
+          "pt": "Isto tem...?",
+          "emoji": "❓"
+        },
+        {
+          "en": "fish and chips",
+          "pt": "peixe com batata frita",
+          "emoji": "🐟"
+        },
+        {
+          "en": "No worries.",
+          "pt": "Sem problemas.",
+          "emoji": "👌"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"And I'm allergic to peanuts.\"?",
+      "lang": "pt",
+      "options": [
+        "Vamos comer fish and chips hoje à noite!",
+        "E eu sou alérgica a amendoim.",
+        "Desculpa, eu não como peixe."
+      ],
+      "correct": 1,
+      "explanation": "\"I'm allergic to peanuts\" = sou alérgica a amendoim."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Não, não tem.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Excuse me. Does this have peanuts?",
+        "Let's get fish and chips tonight!",
+        "No, it doesn't."
+      ],
+      "correct": 2,
+      "explanation": "\"No, it doesn't\" = não, não tem."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "E eu sou alérgica a amendoim.",
+      "answer": [
+        "And",
+        "I'm",
+        "allergic",
+        "to",
+        "peanuts."
+      ],
+      "distractors": [
+        "this",
+        "doesn't"
+      ],
+      "explanation": "\"I'm allergic to peanuts\" = sou alérgica a amendoim."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Excuse me. Does this have peanuts?",
+      "lang": "pt",
+      "options": [
+        "E eu sou alérgica a amendoim.",
+        "Obrigada por me contar. Vamos perguntar.",
+        "Com licença. Isto tem amendoim?"
+      ],
+      "correct": 2,
+      "explanation": "\"Does this have peanuts?\" = Isto tem amendoim?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Jo",
+          "en": "Let's get fish and chips tonight!",
+          "pt": "Vamos comer fish and chips hoje à noite!"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Desculpa, eu não como peixe.",
+      "options": [
+        "Sorry, I don't eat fish.",
+        "Excuse me. Does this have peanuts?",
+        "No, it doesn't."
+      ],
+      "correct": 0,
+      "explanation": "\"I don't eat fish\" = eu não como peixe."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O jantar de sexta",
+      "questions": [
+        {
+          "english": "And I'm allergic to peanuts.",
+          "options": [
+            "Sem problemas. Eles têm frango também.",
+            "Obrigada por me contar. Vamos perguntar.",
+            "E eu sou alérgica a amendoim."
+          ],
+          "correct": 2,
+          "joke": "\"I'm allergic to peanuts\" = sou alérgica a amendoim."
+        },
+        {
+          "english": "Excuse me. Does this have peanuts?",
+          "options": [
+            "Com licença. Isto tem amendoim?",
+            "Desculpa, eu não como peixe.",
+            "Sem problemas. Eles têm frango também."
+          ],
+          "correct": 0,
+          "joke": "\"Does this have peanuts?\" = Isto tem amendoim?"
+        },
+        {
+          "english": "Sorry, I don't eat fish.",
+          "options": [
+            "Desculpa, eu não como peixe.",
+            "Com licença. Isto tem amendoim?",
+            "Não, não tem."
+          ],
+          "correct": 0,
+          "joke": "\"I don't eat fish\" = eu não como peixe."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Dia a dia · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🐟",
+          "title": "Fish and chips",
+          "en": "Fish and chips, please.",
+          "pt": "Fish and chips é peixe frito com batatas fritas. Em algumas ocasiões você pode conhecer o hāngī, uma forma tradicional māori de cozinhar com pedras aquecidas em um forno na terra, e também o nome da refeição preparada assim. Se for convidado(a), pergunte sobre os costumes e avise sobre alergias ou restrições alimentares."
+        },
+        {
+          "emoji": "🥜",
+          "title": "Alergia é coisa séria",
+          "en": "I'm allergic to peanuts.",
+          "pt": "Não gostar, não comer e ser alérgico são coisas diferentes. Se você tem alergia, avise a família, a escola e a agência antes de viajar. Na dúvida, não coma e pergunte."
+        }
+      ]
+    }
+  ]
+}

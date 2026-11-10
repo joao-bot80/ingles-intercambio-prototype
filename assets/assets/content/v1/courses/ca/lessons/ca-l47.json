@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l47",
+  "title": "Frio: camadas e mittens",
+  "scenario": "Emma ajuda Bia a se vestir para um dia frio. A orientação certa vem da família e da cidade.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Frio: camadas e mittens",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "It's cold! I'm freezing.",
+          "pt": "Está frio! Estou congelando."
+        },
+        {
+          "speaker": "Emma",
+          "en": "Wear a toque.",
+          "pt": "Use um gorro."
+        },
+        {
+          "speaker": "Bia",
+          "en": "A toque?",
+          "pt": "Um toque?"
+        },
+        {
+          "speaker": "Emma",
+          "en": "A toque is a warm hat. And wear mittens.",
+          "pt": "Toque é um gorro quente. E use mittens."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Mittens?",
+          "pt": "Mittens?"
+        },
+        {
+          "speaker": "Emma",
+          "en": "Mittens keep your fingers together, so your hands stay warm.",
+          "pt": "As mittens deixam os dedos juntos, assim as mãos ficam quentes."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Great. A toque, mittens and a warm jacket.",
+          "pt": "Ótimo. Um gorro, mittens e um casaco quente."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "It's cold.",
+          "pt": "Está frio.",
+          "emoji": "🥶"
+        },
+        {
+          "en": "I'm freezing.",
+          "pt": "Estou congelando.",
+          "emoji": "🧊"
+        },
+        {
+          "en": "toque",
+          "pt": "gorro (no Canadá)",
+          "emoji": "🧢"
+        },
+        {
+          "en": "mittens",
+          "pt": "luvas com os dedos juntos e o polegar separado",
+          "emoji": "🧤"
+        },
+        {
+          "en": "fingers",
+          "pt": "dedos (da mão)",
+          "emoji": "🖐️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"It's cold! I'm freezing.\"?",
+      "lang": "pt",
+      "options": [
+        "Está frio! Estou congelando.",
+        "Um toque?",
+        "Toque é um gorro quente. E use mittens."
+      ],
+      "correct": 0,
+      "explanation": "\"I'm freezing\" = estou congelando (muito frio)."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Use um gorro.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "A toque is a warm hat. And wear mittens.",
+        "Mittens?",
+        "Wear a toque."
+      ],
+      "correct": 2,
+      "explanation": "\"Wear\" = usar (roupa)."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Está frio! Estou congelando.",
+      "answer": [
+        "It's",
+        "cold!",
+        "I'm",
+        "freezing."
+      ],
+      "distractors": [
+        "hat",
+        "and"
+      ],
+      "explanation": "\"I'm freezing\" = estou congelando (muito frio)."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "A toque is a warm hat. And wear mittens.",
+      "lang": "pt",
+      "options": [
+        "Toque é um gorro quente. E use mittens.",
+        "Está frio! Estou congelando.",
+        "Use um gorro."
+      ],
+      "correct": 0,
+      "explanation": "\"Toque\" = gorro, palavra bem canadense."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Bia",
+          "en": "A toque?",
+          "pt": "Um toque?"
+        }
+      ],
+      "speaker": "Emma",
+      "pt": "Toque é um gorro quente. E use mittens.",
+      "options": [
+        "A toque is a warm hat. And wear mittens.",
+        "Great. A toque, mittens and a warm jacket.",
+        "It's cold! I'm freezing."
+      ],
+      "correct": 0,
+      "explanation": "\"Toque\" = gorro, palavra bem canadense."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O dia gelado",
+      "questions": [
+        {
+          "english": "It's cold! I'm freezing.",
+          "options": [
+            "Mittens?",
+            "Está frio! Estou congelando.",
+            "As mittens deixam os dedos juntos, assim as mãos ficam quentes."
+          ],
+          "correct": 1,
+          "joke": "\"I'm freezing\" = estou congelando (muito frio)."
+        },
+        {
+          "english": "A toque is a warm hat. And wear mittens.",
+          "options": [
+            "Está frio! Estou congelando.",
+            "Toque é um gorro quente. E use mittens.",
+            "Use um gorro."
+          ],
+          "correct": 1,
+          "joke": "\"Toque\" = gorro, palavra bem canadense."
+        },
+        {
+          "english": "Mittens keep your fingers together, so your hands stay warm.",
+          "options": [
+            "Use um gorro.",
+            "Um toque?",
+            "As mittens deixam os dedos juntos, assim as mãos ficam quentes."
+          ],
+          "correct": 2,
+          "joke": "Mittens = luvas com os dedos juntos e o polegar separado. Esquentam mais do que luvas comuns."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Dia a dia · Canadá",
+      "items": [
+        {
+          "emoji": "🌡️",
+          "title": "Graus Celsius",
+          "en": "It's minus twenty today.",
+          "pt": "O Canadá usa graus Celsius, como o Brasil. \"Minus twenty\" = -20 °C. Com vento, a sensação (wind chill) é ainda mais fria."
+        },
+        {
+          "emoji": "🇨🇦",
+          "title": "O famoso \"eh\"",
+          "en": "You get used to it, eh?",
+          "pt": "Muitos canadenses terminam frases com \"eh?\", parecido com o nosso \"né?\"."
+        }
+      ]
+    }
+  ]
+}

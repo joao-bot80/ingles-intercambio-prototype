@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l46",
+  "title": "Alergia não é preferência",
+  "scenario": "Bia lê opções de almoço com Linda e avisa sobre uma alergia (fictícia, do roteiro).",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Alergia não é preferência",
+      "lines": [
+        {
+          "speaker": "Linda",
+          "en": "For lunch we have sandwiches and cookies.",
+          "pt": "Para o almoço temos sanduíches e biscoitos."
+        },
+        {
+          "speaker": "Bia",
+          "en": "I'm allergic to peanuts.",
+          "pt": "Eu sou alérgica a amendoim."
+        },
+        {
+          "speaker": "Linda",
+          "en": "Oh! Thank you for telling me.",
+          "pt": "Ah! Obrigada por me avisar."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Does this have peanuts?",
+          "pt": "Isto tem amendoim?"
+        },
+        {
+          "speaker": "Linda",
+          "en": "The sandwich, no. The cookies, yes.",
+          "pt": "O sanduíche, não. Os biscoitos, sim."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Okay. No cookies for me. I don't eat fish too.",
+          "pt": "Ok. Sem biscoitos para mim. E eu também não como peixe."
+        },
+        {
+          "speaker": "Linda",
+          "en": "No problem. I can read the labels with you.",
+          "pt": "Sem problema. Posso ler os rótulos com você."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "I'm allergic to...",
+          "pt": "Eu sou alérgico / alérgica a...",
+          "emoji": "⚠️"
+        },
+        {
+          "en": "peanuts",
+          "pt": "amendoim",
+          "emoji": "🥜"
+        },
+        {
+          "en": "Does this have...?",
+          "pt": "Isto tem...?",
+          "emoji": "❓"
+        },
+        {
+          "en": "sandwich",
+          "pt": "sanduíche",
+          "emoji": "🥪"
+        },
+        {
+          "en": "label",
+          "pt": "rótulo",
+          "emoji": "🏷️"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"I'm allergic to peanuts.\"?",
+      "lang": "pt",
+      "options": [
+        "Sem problema. Posso ler os rótulos com você.",
+        "Eu sou alérgica a amendoim.",
+        "Para o almoço temos sanduíches e biscoitos."
+      ],
+      "correct": 1,
+      "explanation": "\"I'm allergic to peanuts\" = sou alérgica a amendoim."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Sem problema. Posso ler os rótulos com você.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "No problem. I can read the labels with you.",
+        "The sandwich, no. The cookies, yes.",
+        "Okay. No cookies for me. I don't eat fish too."
+      ],
+      "correct": 0,
+      "explanation": "\"Labels\" = rótulos."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Eu sou alérgica a amendoim.",
+      "answer": [
+        "I'm",
+        "allergic",
+        "to",
+        "peanuts."
+      ],
+      "distractors": [
+        "and",
+        "cookies"
+      ],
+      "explanation": "\"I'm allergic to peanuts\" = sou alérgica a amendoim."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Does this have peanuts?",
+      "lang": "pt",
+      "options": [
+        "Ok. Sem biscoitos para mim. E eu também não como peixe.",
+        "Isto tem amendoim?",
+        "Sem problema. Posso ler os rótulos com você."
+      ],
+      "correct": 1,
+      "explanation": "\"Does this have peanuts?\" = Isto tem amendoim?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Linda",
+          "en": "For lunch we have sandwiches and cookies.",
+          "pt": "Para o almoço temos sanduíches e biscoitos."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Eu sou alérgica a amendoim.",
+      "options": [
+        "Does this have peanuts?",
+        "The sandwich, no. The cookies, yes.",
+        "I'm allergic to peanuts."
+      ],
+      "correct": 2,
+      "explanation": "\"I'm allergic to peanuts\" = sou alérgica a amendoim."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O almoço seguro",
+      "questions": [
+        {
+          "english": "I'm allergic to peanuts.",
+          "options": [
+            "Sem problema. Posso ler os rótulos com você.",
+            "Eu sou alérgica a amendoim.",
+            "Para o almoço temos sanduíches e biscoitos."
+          ],
+          "correct": 1,
+          "joke": "\"I'm allergic to peanuts\" = sou alérgica a amendoim."
+        },
+        {
+          "english": "Does this have peanuts?",
+          "options": [
+            "Para o almoço temos sanduíches e biscoitos.",
+            "Eu sou alérgica a amendoim.",
+            "Isto tem amendoim?"
+          ],
+          "correct": 2,
+          "joke": "\"Does this have peanuts?\" = Isto tem amendoim?"
+        },
+        {
+          "english": "The sandwich, no. The cookies, yes.",
+          "options": [
+            "O sanduíche, não. Os biscoitos, sim.",
+            "Ah! Obrigada por me avisar.",
+            "Isto tem amendoim?"
+          ],
+          "correct": 0,
+          "joke": "Ouça com atenção: \"The cookies, yes\" = os biscoitos, sim (têm)."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Dia a dia · Canadá",
+      "items": [
+        {
+          "emoji": "🥜",
+          "title": "Alergia é coisa séria",
+          "en": "I'm allergic to peanuts.",
+          "pt": "Não gostar, não comer e ser alérgico são coisas diferentes. Se você tem alergia, avise a família, a escola e a agência antes de viajar e leve a orientação do seu médico. Na dúvida, não coma e pergunte."
+        }
+      ]
+    }
+  ]
+}

@@ -77,9 +77,7 @@
    },
    "note": "Quando você não entendeu ou a pessoa falou rápido demais.",
    "lessons": [
-    "nz-l04",
-    "nz-spelling",
-    "nz-immigration"
+    "nz-l04"
    ]
   },
   {
@@ -109,8 +107,7 @@
    "lessons": [
     "nz-l04",
     "nz-l32",
-    "nz-l34",
-    "nz-school-classroom"
+    "nz-l34"
    ]
   },
   {
@@ -127,7 +124,8 @@
    "lessons": [
     "nz-l26",
     "nz-l34",
-    "nz-city-help"
+    "nz-l55",
+    "nz-l60"
    ]
   },
   {
@@ -172,7 +170,10 @@
     "pt": "O que isso significa?"
    },
    "note": "Quando você ouve uma palavra nova.",
-   "lessons": []
+   "lessons": [
+    "nz-l57",
+    "nz-l59"
+   ]
   },
   {
    "id": "how-do-you-say-that-in-english",
@@ -264,7 +265,7 @@
    },
    "note": "Para avisar um professor ou a família anfitriã.",
    "lessons": [
-    "nz-city-help"
+    "nz-l51"
    ]
   },
   {
@@ -294,10 +295,7 @@
    },
    "note": "Sempre cai bem.",
    "lessons": [
-    "nz-l22",
-    "nz-host-arrival",
-    "nz-city-bus",
-    "nz-city-help"
+    "nz-l22"
    ]
   },
   {
@@ -310,9 +308,7 @@
     "en": "What is the Wi-Fi password?",
     "pt": "Qual é a senha do Wi-Fi?"
    },
-   "lessons": [
-    "nz-host-rules"
-   ]
+   "lessons": []
   },
   {
    "id": "phone",
@@ -326,8 +322,7 @@
    },
    "lessons": [
     "nz-l09",
-    "nz-l44",
-    "nz-numbers"
+    "nz-l44"
    ]
   },
   {
@@ -344,8 +339,7 @@
    "variant": true,
    "lessons": [
     "nz-l22",
-    "nz-l29",
-    "nz-host-arrival"
+    "nz-l29"
    ]
   },
   {
@@ -364,10 +358,7 @@
     "nz-l10",
     "nz-l16",
     "nz-l26",
-    "nz-l30",
-    "nz-hello",
-    "nz-spelling",
-    "nz-immigration"
+    "nz-l30"
    ]
   },
   {
@@ -381,10 +372,7 @@
     "pt": "Bom dia, professor Evans."
    },
    "lessons": [
-    "nz-l19",
-    "nz-checkin",
-    "nz-school-first-day",
-    "nz-school-classroom"
+    "nz-l19"
    ]
   },
   {
@@ -434,9 +422,7 @@
     "en": "See you later, Ben!",
     "pt": "Até mais tarde, Ben!"
    },
-   "lessons": [
-    "nz-school-friends"
-   ]
+   "lessons": []
   },
   {
    "id": "nice-to-meet-you",
@@ -454,11 +440,7 @@
     "nz-l02",
     "nz-l11",
     "nz-l36",
-    "nz-hello",
-    "nz-spelling",
-    "nz-videocall",
-    "nz-host-arrival",
-    "nz-school-first-day"
+    "nz-l58"
    ]
   },
   {
@@ -474,8 +456,7 @@
    "note": "No dia a dia é só uma saudação. A resposta rápida é \"Good, thanks. And you?\"",
    "lessons": [
     "nz-l02",
-    "nz-l04",
-    "nz-hello"
+    "nz-l04"
    ]
   },
   {
@@ -489,9 +470,7 @@
     "pt": "Estou bem, obrigado / obrigada."
    },
    "note": "Resposta padrão para \"How are you?\"",
-   "lessons": [
-    "nz-hello"
-   ]
+   "lessons": []
   },
   {
    "id": "please",
@@ -519,14 +498,17 @@
     "nz-l36",
     "nz-l39",
     "nz-l40",
-    "nz-spelling",
-    "nz-checkin",
-    "nz-immigration",
-    "nz-host-rules",
-    "nz-host-dinner",
-    "nz-school-first-day",
-    "nz-school-classroom",
-    "nz-city-help"
+    "nz-l46",
+    "nz-l49",
+    "nz-l50",
+    "nz-l51",
+    "nz-l52",
+    "nz-l53",
+    "nz-l55",
+    "nz-l56",
+    "nz-l58",
+    "nz-l59",
+    "nz-l60"
    ]
   },
   {
@@ -552,8 +534,10 @@
     "nz-l38",
     "nz-l40",
     "nz-l45",
-    "nz-hello",
-    "nz-school-friends"
+    "nz-l46",
+    "nz-l49",
+    "nz-l56",
+    "nz-l59"
    ]
   },
   {
@@ -588,11 +572,9 @@
     "nz-l41",
     "nz-l43",
     "nz-l44",
-    "nz-checkin",
-    "nz-baggage",
-    "nz-school-classroom",
-    "nz-city-bus",
-    "nz-city-help"
+    "nz-l46",
+    "nz-l49",
+    "nz-l52"
    ]
   },
   {
@@ -606,8 +588,8 @@
     "pt": "Este é meu amigo Ben."
    },
    "lessons": [
-    "nz-hello",
-    "nz-city-help"
+    "nz-l53",
+    "nz-l55"
    ]
   },
   {
@@ -627,10 +609,7 @@
     "nz-l22",
     "nz-l26",
     "nz-l30",
-    "nz-hello",
-    "nz-spelling",
-    "nz-immigration",
-    "nz-host-arrival"
+    "nz-l60"
    ]
   },
   {
@@ -647,8 +626,7 @@
    "lessons": [
     "nz-l02",
     "nz-l05",
-    "nz-l10",
-    "nz-hello"
+    "nz-l10"
    ]
   },
   {
@@ -665,11 +643,7 @@
    "lessons": [
     "nz-l03",
     "nz-l05",
-    "nz-l11",
-    "nz-hello",
-    "nz-videocall",
-    "nz-immigration",
-    "nz-school-friends"
+    "nz-l11"
    ]
   },
   {
@@ -684,8 +658,7 @@
    },
    "lessons": [
     "nz-l03",
-    "nz-l05",
-    "nz-hello"
+    "nz-l05"
    ]
   },
   {
@@ -712,8 +685,7 @@
     "pt": "Meu primeiro nome é Leo."
    },
    "lessons": [
-    "nz-l08",
-    "nz-spelling"
+    "nz-l08"
    ]
   },
   {
@@ -727,8 +699,7 @@
     "pt": "Qual é o seu sobrenome?"
    },
    "lessons": [
-    "nz-l08",
-    "nz-spelling"
+    "nz-l08"
    ]
   },
   {
@@ -751,9 +722,9 @@
     "nz-l32",
     "nz-l35",
     "nz-l41",
-    "nz-spelling",
-    "nz-immigration",
-    "nz-baggage"
+    "nz-l46",
+    "nz-l57",
+    "nz-l58"
    ]
   },
   {
@@ -785,16 +756,12 @@
     "nz-l42",
     "nz-l44",
     "nz-l45",
-    "nz-numbers",
-    "nz-videocall",
-    "nz-backpack",
-    "nz-checkin",
-    "nz-immigration",
-    "nz-baggage",
-    "nz-host-arrival",
-    "nz-host-dinner",
-    "nz-school-classroom",
-    "nz-school-friends"
+    "nz-l47",
+    "nz-l48",
+    "nz-l49",
+    "nz-l50",
+    "nz-l52",
+    "nz-l54"
    ]
   },
   {
@@ -829,14 +796,15 @@
     "nz-l42",
     "nz-l43",
     "nz-l45",
-    "nz-backpack",
-    "nz-checkin",
-    "nz-baggage",
-    "nz-host-arrival",
-    "nz-host-rules",
-    "nz-host-dinner",
-    "nz-school-classroom",
-    "nz-city-bus"
+    "nz-l46",
+    "nz-l48",
+    "nz-l50",
+    "nz-l51",
+    "nz-l53",
+    "nz-l54",
+    "nz-l55",
+    "nz-l56",
+    "nz-l59"
    ]
   },
   {
@@ -868,16 +836,10 @@
     "nz-l42",
     "nz-l43",
     "nz-l45",
-    "nz-spelling",
-    "nz-numbers",
-    "nz-checkin",
-    "nz-host-arrival",
-    "nz-host-dinner",
-    "nz-school-first-day",
-    "nz-school-classroom",
-    "nz-city-bus",
-    "nz-city-help",
-    "nz-safety"
+    "nz-l55",
+    "nz-l58",
+    "nz-l59",
+    "nz-l60"
    ]
   },
   {
@@ -895,8 +857,7 @@
     "nz-l05",
     "nz-l08",
     "nz-l10",
-    "nz-hello",
-    "nz-spelling"
+    "nz-l58"
    ]
   },
   {
@@ -916,13 +877,8 @@
     "nz-l12",
     "nz-l17",
     "nz-l19",
-    "nz-hello",
-    "nz-videocall",
-    "nz-backpack",
-    "nz-checkin",
-    "nz-school-first-day",
-    "nz-school-classroom",
-    "nz-kiwi"
+    "nz-l50",
+    "nz-l52"
    ]
   },
   {
@@ -937,8 +893,7 @@
    },
    "lessons": [
     "nz-l08",
-    "nz-l10",
-    "nz-spelling"
+    "nz-l10"
    ]
   },
   {
@@ -954,10 +909,7 @@
    "lessons": [
     "nz-l04",
     "nz-l05",
-    "nz-l11",
-    "nz-spelling",
-    "nz-immigration",
-    "nz-school-classroom"
+    "nz-l11"
    ]
   },
   {
@@ -973,7 +925,7 @@
    "lessons": [
     "nz-l01",
     "nz-l37",
-    "nz-school-friends"
+    "nz-l57"
    ]
   },
   {
@@ -986,9 +938,7 @@
     "en": "Me too! I'm so excited.",
     "pt": "Eu também! Estou muito animada."
    },
-   "lessons": [
-    "nz-videocall"
-   ]
+   "lessons": []
   },
   {
    "id": "hi",
@@ -1008,11 +958,7 @@
     "nz-l05",
     "nz-l11",
     "nz-l36",
-    "nz-l42",
-    "nz-hello",
-    "nz-videocall",
-    "nz-baggage",
-    "nz-host-arrival"
+    "nz-l42"
    ]
   },
   {
@@ -1045,8 +991,7 @@
    "lessons": [
     "nz-l02",
     "nz-l05",
-    "nz-l10",
-    "nz-hello"
+    "nz-l10"
    ]
   },
   {
@@ -1078,17 +1023,11 @@
     "nz-l41",
     "nz-l44",
     "nz-l45",
-    "nz-hello",
-    "nz-numbers",
-    "nz-videocall",
-    "nz-backpack",
-    "nz-immigration",
-    "nz-baggage",
-    "nz-host-arrival",
-    "nz-host-dinner",
-    "nz-school-first-day",
-    "nz-school-friends",
-    "nz-city-help"
+    "nz-l46",
+    "nz-l47",
+    "nz-l52",
+    "nz-l53",
+    "nz-l60"
    ]
   },
   {
@@ -1101,8 +1040,7 @@
    "lessons": [
     "nz-l02",
     "nz-l05",
-    "nz-l10",
-    "nz-hello"
+    "nz-l10"
    ]
   },
   {
@@ -1121,11 +1059,7 @@
     "nz-l02",
     "nz-l11",
     "nz-l36",
-    "nz-hello",
-    "nz-spelling",
-    "nz-videocall",
-    "nz-host-arrival",
-    "nz-school-first-day"
+    "nz-l58"
    ]
   },
   {
@@ -1144,11 +1078,7 @@
     "nz-l03",
     "nz-l05",
     "nz-l11",
-    "nz-hello",
-    "nz-videocall",
-    "nz-immigration",
-    "nz-school-first-day",
-    "nz-school-friends"
+    "nz-l52"
    ]
   },
   {
@@ -1166,10 +1096,7 @@
     "nz-l03",
     "nz-l05",
     "nz-l11",
-    "nz-hello",
-    "nz-videocall",
-    "nz-immigration",
-    "nz-school-friends"
+    "nz-l52"
    ]
   },
   {
@@ -1193,9 +1120,8 @@
     "nz-l18",
     "nz-l19",
     "nz-l20",
-    "nz-hello",
-    "nz-checkin",
-    "nz-immigration"
+    "nz-l47",
+    "nz-l60"
    ]
   },
   {
@@ -1225,11 +1151,7 @@
    "lessons": [
     "nz-l03",
     "nz-l05",
-    "nz-l11",
-    "nz-hello",
-    "nz-videocall",
-    "nz-immigration",
-    "nz-school-friends"
+    "nz-l11"
    ]
   },
   {
@@ -1244,8 +1166,7 @@
    },
    "note": "O número 0.",
    "lessons": [
-    "nz-l06",
-    "nz-numbers"
+    "nz-l06"
    ]
   },
   {
@@ -1262,7 +1183,7 @@
    "lessons": [
     "nz-l06",
     "nz-l07",
-    "nz-numbers"
+    "nz-l53"
    ]
   },
   {
@@ -1279,8 +1200,7 @@
    "lessons": [
     "nz-l06",
     "nz-l08",
-    "nz-l16",
-    "nz-numbers"
+    "nz-l16"
    ]
   },
   {
@@ -1296,8 +1216,7 @@
    "note": "O número 3.",
    "lessons": [
     "nz-l06",
-    "nz-l09",
-    "nz-numbers"
+    "nz-l09"
    ]
   },
   {
@@ -1313,8 +1232,7 @@
    "note": "O número 4.",
    "lessons": [
     "nz-l06",
-    "nz-l09",
-    "nz-numbers"
+    "nz-l09"
    ]
   },
   {
@@ -1335,9 +1253,7 @@
     "nz-l13",
     "nz-l19",
     "nz-l25",
-    "nz-l45",
-    "nz-numbers",
-    "nz-city-bus"
+    "nz-l45"
    ]
   },
   {
@@ -1357,8 +1273,7 @@
     "nz-l19",
     "nz-l23",
     "nz-l25",
-    "nz-immigration",
-    "nz-host-rules"
+    "nz-l59"
    ]
   },
   {
@@ -1375,8 +1290,7 @@
    "lessons": [
     "nz-l06",
     "nz-l09",
-    "nz-l10",
-    "nz-host-rules"
+    "nz-l10"
    ]
   },
   {
@@ -1393,8 +1307,7 @@
    "lessons": [
     "nz-l06",
     "nz-l09",
-    "nz-l25",
-    "nz-host-rules"
+    "nz-l25"
    ]
   },
   {
@@ -1414,9 +1327,7 @@
     "nz-l23",
     "nz-l28",
     "nz-l30",
-    "nz-l41",
-    "nz-host-rules",
-    "nz-city-bus"
+    "nz-l41"
    ]
   },
   {
@@ -1435,10 +1346,7 @@
     "nz-l17",
     "nz-l29",
     "nz-l30",
-    "nz-l31",
-    "nz-checkin",
-    "nz-host-rules",
-    "nz-school-classroom"
+    "nz-l31"
    ]
   },
   {
@@ -1455,8 +1363,7 @@
    "lessons": [
     "nz-l07",
     "nz-l17",
-    "nz-l27",
-    "nz-school-classroom"
+    "nz-l27"
    ]
   },
   {
@@ -1472,9 +1379,7 @@
    "note": "O número 12.",
    "lessons": [
     "nz-l07",
-    "nz-l33",
-    "nz-checkin",
-    "nz-school-first-day"
+    "nz-l33"
    ]
   },
   {
@@ -1489,8 +1394,7 @@
    },
    "note": "O número 13.",
    "lessons": [
-    "nz-l07",
-    "nz-numbers"
+    "nz-l07"
    ]
   },
   {
@@ -1505,8 +1409,7 @@
    },
    "note": "O número 14.",
    "lessons": [
-    "nz-l07",
-    "nz-numbers"
+    "nz-l07"
    ]
   },
   {
@@ -1523,10 +1426,7 @@
    "lessons": [
     "nz-l07",
     "nz-l10",
-    "nz-l11",
-    "nz-numbers",
-    "nz-videocall",
-    "nz-host-arrival"
+    "nz-l11"
    ]
   },
   {
@@ -1541,8 +1441,7 @@
    },
    "note": "O número 16.",
    "lessons": [
-    "nz-l07",
-    "nz-numbers"
+    "nz-l07"
    ]
   },
   {
@@ -1557,8 +1456,7 @@
    },
    "note": "O número 17.",
    "lessons": [
-    "nz-l07",
-    "nz-numbers"
+    "nz-l07"
    ]
   },
   {
@@ -1605,8 +1503,7 @@
    "lessons": [
     "nz-l07",
     "nz-l17",
-    "nz-l35",
-    "nz-checkin"
+    "nz-l35"
    ]
   },
   {
@@ -1627,9 +1524,7 @@
     "nz-l17",
     "nz-l18",
     "nz-l25",
-    "nz-checkin",
-    "nz-host-rules",
-    "nz-school-first-day"
+    "nz-l60"
    ]
   },
   {
@@ -1673,8 +1568,7 @@
    "note": "A resposta é \"I'm fifteen years old.\" (troque o número).",
    "lessons": [
     "nz-l07",
-    "nz-l10",
-    "nz-numbers"
+    "nz-l10"
    ]
   },
   {
@@ -1702,9 +1596,7 @@
     "en": "My birthday is next month.",
     "pt": "Meu aniversário é no mês que vem."
    },
-   "lessons": [
-    "nz-immigration"
-   ]
+   "lessons": []
   },
   {
    "id": "one-two-three-four-five",
@@ -1718,8 +1610,7 @@
    },
    "auto": true,
    "lessons": [
-    "nz-l06",
-    "nz-numbers"
+    "nz-l06"
    ]
   },
   {
@@ -1751,7 +1642,9 @@
    "lessons": [
     "nz-l06",
     "nz-l14",
-    "nz-l15"
+    "nz-l15",
+    "nz-l47",
+    "nz-l50"
    ]
   },
   {
@@ -1816,8 +1709,7 @@
    },
    "auto": true,
    "lessons": [
-    "nz-l09",
-    "nz-numbers"
+    "nz-l09"
    ]
   },
   {
@@ -1837,10 +1729,7 @@
     "nz-l25",
     "nz-l29",
     "nz-l30",
-    "nz-checkin",
-    "nz-host-rules",
-    "nz-school-first-day",
-    "nz-school-classroom"
+    "nz-l59"
    ]
   },
   {
@@ -1875,7 +1764,9 @@
     "nz-l10",
     "nz-l44",
     "nz-l45",
-    "nz-spelling"
+    "nz-l51",
+    "nz-l52",
+    "nz-l53"
    ]
   },
   {
@@ -1896,12 +1787,7 @@
     "nz-l25",
     "nz-l29",
     "nz-l30",
-    "nz-videocall",
-    "nz-checkin",
-    "nz-immigration",
-    "nz-host-rules",
-    "nz-school-first-day",
-    "nz-school-classroom"
+    "nz-l59"
    ]
   },
   {
@@ -1917,10 +1803,7 @@
    "lessons": [
     "nz-l12",
     "nz-l15",
-    "nz-l16",
-    "nz-backpack",
-    "nz-checkin",
-    "nz-immigration"
+    "nz-l16"
    ]
   },
   {
@@ -1935,8 +1818,7 @@
    },
    "lessons": [
     "nz-l15",
-    "nz-l16",
-    "nz-checkin"
+    "nz-l16"
    ]
   },
   {
@@ -1952,8 +1834,7 @@
    "lessons": [
     "nz-l03",
     "nz-l17",
-    "nz-l18",
-    "nz-checkin"
+    "nz-l18"
    ]
   },
   {
@@ -1970,7 +1851,7 @@
     "nz-l13",
     "nz-l17",
     "nz-l18",
-    "nz-checkin"
+    "nz-l55"
    ]
   },
   {
@@ -1984,8 +1865,7 @@
     "pt": "Meu assento é na janela."
    },
    "lessons": [
-    "nz-l16",
-    "nz-checkin"
+    "nz-l16"
    ]
   },
   {
@@ -2035,9 +1915,7 @@
     "pt": "A esteira de bagagem fica no andar de baixo."
    },
    "note": "É a área de retirada, não só a esteira. Também aparecem baggage reclaim ou baggage collection.",
-   "lessons": [
-    "nz-baggage"
-   ]
+   "lessons": []
   },
   {
    "id": "check-in",
@@ -2114,8 +1992,7 @@
    "note": "Troque os pontinhos pelo número do portão.",
    "lessons": [
     "nz-l17",
-    "nz-l18",
-    "nz-checkin"
+    "nz-l18"
    ]
   },
   {
@@ -2132,7 +2009,7 @@
    "lessons": [
     "nz-l19",
     "nz-l20",
-    "nz-immigration"
+    "nz-l60"
    ]
   },
   {
@@ -2209,8 +2086,7 @@
     "pt": "Preciso declarar este alimento."
    },
    "lessons": [
-    "nz-l20",
-    "nz-baggage"
+    "nz-l20"
    ]
   },
   {
@@ -2236,9 +2112,7 @@
     "pt": "Você está com a carta da escola?"
    },
    "lessons": [
-    "nz-l12",
-    "nz-backpack",
-    "nz-immigration"
+    "nz-l12"
    ]
   },
   {
@@ -2256,9 +2130,7 @@
     "nz-l05",
     "nz-l13",
     "nz-l15",
-    "nz-l18",
-    "nz-hello",
-    "nz-backpack"
+    "nz-l18"
    ]
   },
   {
@@ -2271,10 +2143,7 @@
     "en": "Okay. I'm ready!",
     "pt": "Ok. Estou pronto!"
    },
-   "lessons": [
-    "nz-backpack",
-    "nz-host-dinner"
-   ]
+   "lessons": []
   },
   {
    "id": "letter",
@@ -2287,9 +2156,7 @@
     "pt": "E a carta da escola?"
    },
    "lessons": [
-    "nz-l12",
-    "nz-backpack",
-    "nz-immigration"
+    "nz-l12"
    ]
   },
   {
@@ -2303,8 +2170,7 @@
     "pt": "É grande e azul."
    },
    "lessons": [
-    "nz-l21",
-    "nz-baggage"
+    "nz-l21"
    ]
   },
   {
@@ -2318,8 +2184,7 @@
     "pt": "É grande e azul."
    },
    "lessons": [
-    "nz-l21",
-    "nz-baggage"
+    "nz-l21"
    ]
   },
   {
@@ -2335,8 +2200,7 @@
    "auto": true,
    "lessons": [
     "nz-l11",
-    "nz-l15",
-    "nz-videocall"
+    "nz-l15"
    ]
   },
   {
@@ -2365,8 +2229,7 @@
    "lessons": [
     "nz-l03",
     "nz-l11",
-    "nz-l15",
-    "nz-videocall"
+    "nz-l15"
    ]
   },
   {
@@ -2398,8 +2261,7 @@
    "lessons": [
     "nz-l13",
     "nz-l15",
-    "nz-l18",
-    "nz-backpack"
+    "nz-l18"
    ]
   },
   {
@@ -2417,8 +2279,7 @@
     "nz-l13",
     "nz-l17",
     "nz-l18",
-    "nz-l41",
-    "nz-backpack"
+    "nz-l41"
    ]
   },
   {
@@ -2427,14 +2288,9 @@
    "en": "Stay with your group.",
    "pt": "Fique com o seu grupo.",
    "emoji": "👥",
-   "example": {
-    "en": "Remember: stay with your group.",
-    "pt": "Lembre-se: fique com o seu grupo."
-   },
    "auto": true,
    "lessons": [
-    "nz-l13",
-    "nz-backpack"
+    "nz-l13"
    ]
   },
   {
@@ -2450,7 +2306,7 @@
    "auto": true,
    "lessons": [
     "nz-l13",
-    "nz-safety"
+    "nz-l54"
    ]
   },
   {
@@ -2484,10 +2340,7 @@
     "nz-l24",
     "nz-l25",
     "nz-l33",
-    "nz-checkin",
-    "nz-immigration",
-    "nz-baggage",
-    "nz-host-dinner"
+    "nz-l49"
    ]
   },
   {
@@ -2502,8 +2355,7 @@
    },
    "auto": true,
    "lessons": [
-    "nz-l16",
-    "nz-checkin"
+    "nz-l16"
    ]
   },
   {
@@ -2535,8 +2387,7 @@
    "lessons": [
     "nz-l15",
     "nz-l16",
-    "nz-l17",
-    "nz-checkin"
+    "nz-l17"
    ]
   },
   {
@@ -2566,8 +2417,7 @@
    },
    "auto": true,
    "lessons": [
-    "nz-l17",
-    "nz-checkin"
+    "nz-l17"
    ]
   },
   {
@@ -2598,8 +2448,7 @@
    },
    "auto": true,
    "lessons": [
-    "nz-l18",
-    "nz-baggage"
+    "nz-l18"
    ]
   },
   {
@@ -2615,7 +2464,8 @@
    "auto": true,
    "lessons": [
     "nz-l18",
-    "nz-l45"
+    "nz-l45",
+    "nz-l51"
    ]
   },
   {
@@ -2630,8 +2480,7 @@
    },
    "auto": true,
    "lessons": [
-    "nz-l19",
-    "nz-immigration"
+    "nz-l19"
    ]
   },
   {
@@ -2691,7 +2540,8 @@
    },
    "auto": true,
    "lessons": [
-    "nz-l20"
+    "nz-l20",
+    "nz-l57"
    ]
   },
   {
@@ -2712,10 +2562,7 @@
     "nz-l25",
     "nz-l26",
     "nz-l32",
-    "nz-backpack",
-    "nz-immigration",
-    "nz-host-rules",
-    "nz-school-first-day"
+    "nz-l55"
    ]
   },
   {
@@ -2748,10 +2595,7 @@
     "nz-l28",
     "nz-l30",
     "nz-l34",
-    "nz-l36",
-    "nz-school-first-day",
-    "nz-school-classroom",
-    "nz-safety"
+    "nz-l36"
    ]
   },
   {
@@ -2764,7 +2608,9 @@
     "en": "My teacher is very nice.",
     "pt": "Meu professor é muito simpático."
    },
-   "lessons": []
+   "lessons": [
+    "nz-l58"
+   ]
   },
   {
    "id": "student",
@@ -2779,9 +2625,7 @@
    "lessons": [
     "nz-l19",
     "nz-l26",
-    "nz-l30",
-    "nz-immigration",
-    "nz-school-friends"
+    "nz-l30"
    ]
   },
   {
@@ -2832,9 +2676,7 @@
     "en": "My locker is number ten.",
     "pt": "Meu armário é o número dez."
    },
-   "lessons": [
-    "nz-school-first-day"
-   ]
+   "lessons": []
   },
   {
    "id": "homework",
@@ -2849,8 +2691,7 @@
    "lessons": [
     "nz-l32",
     "nz-l33",
-    "nz-l34",
-    "nz-school-classroom"
+    "nz-l34"
    ]
   },
   {
@@ -2930,7 +2771,7 @@
    "lessons": [
     "nz-l31",
     "nz-l35",
-    "nz-school-classroom"
+    "nz-l60"
    ]
   },
   {
@@ -2947,7 +2788,7 @@
     "nz-l31",
     "nz-l33",
     "nz-l35",
-    "nz-school-classroom"
+    "nz-l60"
    ]
   },
   {
@@ -2976,7 +2817,7 @@
    "lessons": [
     "nz-l19",
     "nz-l20",
-    "nz-immigration"
+    "nz-l60"
    ]
   },
   {
@@ -2989,9 +2830,7 @@
     "en": "I have a question.",
     "pt": "Tenho uma pergunta."
    },
-   "lessons": [
-    "nz-videocall"
-   ]
+   "lessons": []
   },
   {
    "id": "what-page-are-we-on",
@@ -3032,8 +2871,7 @@
    "lessons": [
     "nz-l06",
     "nz-l12",
-    "nz-l15",
-    "nz-backpack"
+    "nz-l15"
    ]
   },
   {
@@ -3049,9 +2887,7 @@
    "lessons": [
     "nz-l04",
     "nz-l32",
-    "nz-l34",
-    "nz-school-classroom",
-    "nz-safety"
+    "nz-l34"
    ]
   },
   {
@@ -3067,7 +2903,7 @@
    "lessons": [
     "nz-l32",
     "nz-l35",
-    "nz-school-classroom"
+    "nz-l60"
    ]
   },
   {
@@ -3081,8 +2917,7 @@
     "pt": "Sim, eu amo futebol. E você?"
    },
    "lessons": [
-    "nz-l37",
-    "nz-school-friends"
+    "nz-l37"
    ]
   },
   {
@@ -3095,9 +2930,7 @@
     "en": "Do you like sports?",
     "pt": "Você gosta de esportes?"
    },
-   "lessons": [
-    "nz-school-friends"
-   ]
+   "lessons": []
   },
   {
    "id": "play",
@@ -3111,8 +2944,7 @@
    },
    "lessons": [
     "nz-l36",
-    "nz-l37",
-    "nz-school-friends"
+    "nz-l37"
    ]
   },
   {
@@ -3128,8 +2960,7 @@
    "note": "Na aula, peça licença ao professor.",
    "variant": true,
    "lessons": [
-    "nz-l32",
-    "nz-school-classroom"
+    "nz-l32"
    ]
   },
   {
@@ -3147,8 +2978,7 @@
    "lessons": [
     "nz-l26",
     "nz-l27",
-    "nz-l30",
-    "nz-school-first-day"
+    "nz-l30"
    ]
   },
   {
@@ -3165,8 +2995,7 @@
    "variant": true,
    "lessons": [
     "nz-l07",
-    "nz-l27",
-    "nz-school-first-day"
+    "nz-l27"
    ]
   },
   {
@@ -3197,8 +3026,7 @@
     "pt": "Por favor, venha de uniforme amanhã."
    },
    "lessons": [
-    "nz-l28",
-    "nz-school-first-day"
+    "nz-l28"
    ]
   },
   {
@@ -3213,8 +3041,7 @@
    },
    "lessons": [
     "nz-l29",
-    "nz-l30",
-    "nz-school-classroom"
+    "nz-l30"
    ]
   },
   {
@@ -3247,8 +3074,7 @@
     "nz-l28",
     "nz-l30",
     "nz-l34",
-    "nz-l36",
-    "nz-school-first-day"
+    "nz-l36"
    ]
   },
   {
@@ -3288,8 +3114,7 @@
    "auto": true,
    "lessons": [
     "nz-l26",
-    "nz-l30",
-    "nz-school-friends"
+    "nz-l30"
    ]
   },
   {
@@ -3304,8 +3129,7 @@
    },
    "auto": true,
    "lessons": [
-    "nz-l26",
-    "nz-school-first-day"
+    "nz-l26"
    ]
   },
   {
@@ -3353,8 +3177,7 @@
    "lessons": [
     "nz-l01",
     "nz-l07",
-    "nz-l27",
-    "nz-school-first-day"
+    "nz-l27"
    ]
   },
   {
@@ -3371,8 +3194,7 @@
    "lessons": [
     "nz-l28",
     "nz-l30",
-    "nz-l34",
-    "nz-school-first-day"
+    "nz-l34"
    ]
   },
   {
@@ -3388,8 +3210,7 @@
    "auto": true,
    "lessons": [
     "nz-l24",
-    "nz-l29",
-    "nz-host-dinner"
+    "nz-l29"
    ]
   },
   {
@@ -3417,7 +3238,7 @@
    "lessons": [
     "nz-l31",
     "nz-l35",
-    "nz-school-classroom"
+    "nz-l60"
    ]
   },
   {
@@ -3486,7 +3307,7 @@
    "lessons": [
     "nz-l32",
     "nz-l35",
-    "nz-school-classroom"
+    "nz-l60"
    ]
   },
   {
@@ -3605,8 +3426,7 @@
    "auto": true,
    "lessons": [
     "nz-l34",
-    "nz-l35",
-    "nz-school-friends"
+    "nz-l35"
    ]
   },
   {
@@ -3622,8 +3442,7 @@
    "auto": true,
    "lessons": [
     "nz-l26",
-    "nz-l34",
-    "nz-school-first-day"
+    "nz-l34"
    ]
   },
   {
@@ -3645,8 +3464,7 @@
     "nz-l40",
     "nz-l44",
     "nz-l45",
-    "nz-immigration",
-    "nz-host-arrival"
+    "nz-l48"
    ]
   },
   {
@@ -3677,8 +3495,7 @@
    },
    "auto": true,
    "lessons": [
-    "nz-l36",
-    "nz-school-friends"
+    "nz-l36"
    ]
   },
   {
@@ -3689,8 +3506,7 @@
    "emoji": "👍",
    "auto": true,
    "lessons": [
-    "nz-l36",
-    "nz-school-friends"
+    "nz-l36"
    ]
   },
   {
@@ -3707,7 +3523,7 @@
    "lessons": [
     "nz-l36",
     "nz-l39",
-    "nz-school-friends"
+    "nz-l48"
    ]
   },
   {
@@ -3750,7 +3566,9 @@
    "lessons": [
     "nz-l24",
     "nz-l38",
-    "nz-l40"
+    "nz-l40",
+    "nz-l56",
+    "nz-l59"
    ]
   },
   {
@@ -3797,7 +3615,8 @@
    },
    "auto": true,
    "lessons": [
-    "nz-l38"
+    "nz-l38",
+    "nz-l55"
    ]
   },
   {
@@ -3813,7 +3632,10 @@
    "auto": true,
    "lessons": [
     "nz-l38",
-    "nz-l40"
+    "nz-l40",
+    "nz-l48",
+    "nz-l54",
+    "nz-l57"
    ]
   },
   {
@@ -3829,7 +3651,8 @@
    "auto": true,
    "lessons": [
     "nz-l39",
-    "nz-l40"
+    "nz-l40",
+    "nz-l59"
    ]
   },
   {
@@ -3838,10 +3661,15 @@
    "en": "Can I take a photo?",
    "pt": "Posso tirar uma foto?",
    "emoji": "📸",
+   "example": {
+    "en": "It means great! Can I take a photo?",
+    "pt": "Significa ótimo! Posso tirar uma foto?"
+   },
    "auto": true,
    "lessons": [
     "nz-l39",
-    "nz-l40"
+    "nz-l40",
+    "nz-l59"
    ]
   },
   {
@@ -3857,7 +3685,8 @@
    "auto": true,
    "lessons": [
     "nz-l39",
-    "nz-l40"
+    "nz-l40",
+    "nz-l59"
    ]
   },
   {
@@ -3873,7 +3702,8 @@
    "auto": true,
    "lessons": [
     "nz-l39",
-    "nz-l40"
+    "nz-l40",
+    "nz-l59"
    ]
   },
   {
@@ -3903,8 +3733,7 @@
     "nz-l38",
     "nz-l40",
     "nz-l44",
-    "nz-l45",
-    "nz-immigration"
+    "nz-l45"
    ]
   },
   {
@@ -3934,9 +3763,7 @@
     "nz-l23",
     "nz-l32",
     "nz-l45",
-    "nz-host-arrival",
-    "nz-host-rules",
-    "nz-school-classroom"
+    "nz-l60"
    ]
   },
   {
@@ -3967,8 +3794,7 @@
     "nz-l22",
     "nz-l28",
     "nz-l30",
-    "nz-host-arrival",
-    "nz-school-first-day"
+    "nz-l60"
    ]
   },
   {
@@ -4045,9 +3871,7 @@
     "en": "I take a shower in the morning.",
     "pt": "Eu tomo banho de manhã."
    },
-   "lessons": [
-    "nz-host-rules"
-   ]
+   "lessons": []
   },
   {
    "id": "towel",
@@ -4083,9 +3907,7 @@
     "en": "The milk is in the fridge.",
     "pt": "O leite está na geladeira."
    },
-   "lessons": [
-    "nz-host-rules"
-   ]
+   "lessons": []
   },
   {
    "id": "dishes",
@@ -4109,9 +3931,7 @@
     "en": "What's the Wi-Fi password?",
     "pt": "Qual é a senha do Wi-Fi?"
    },
-   "lessons": [
-    "nz-host-rules"
-   ]
+   "lessons": []
   },
   {
    "id": "wake-up",
@@ -4123,9 +3943,7 @@
     "en": "I wake up at seven.",
     "pt": "Eu acordo às sete."
    },
-   "lessons": [
-    "nz-host-rules"
-   ]
+   "lessons": []
   },
   {
    "id": "house-rules",
@@ -4164,7 +3982,8 @@
    "note": "Para saber o horário das refeições.",
    "lessons": [
     "nz-l23",
-    "nz-l25"
+    "nz-l25",
+    "nz-l59"
    ]
   },
   {
@@ -4204,9 +4023,7 @@
     "en": "Nice to meet you too! We are very happy.",
     "pt": "Prazer! Nós estamos muito felizes."
    },
-   "lessons": [
-    "nz-videocall"
-   ]
+   "lessons": []
   },
   {
    "id": "host-mum",
@@ -4264,8 +4081,7 @@
     "pt": "Posso usar o aquecedor?"
    },
    "lessons": [
-    "nz-l23",
-    "nz-host-rules"
+    "nz-l23"
    ]
   },
   {
@@ -4301,14 +4117,9 @@
    "en": "My bag is not here.",
    "pt": "A minha mala não está aqui.",
    "emoji": "🧳",
-   "example": {
-    "en": "Hi. My bag is not here.",
-    "pt": "Oi. A minha mala não está aqui."
-   },
    "auto": true,
    "lessons": [
-    "nz-l21",
-    "nz-baggage"
+    "nz-l21"
    ]
   },
   {
@@ -4338,8 +4149,7 @@
    },
    "auto": true,
    "lessons": [
-    "nz-l23",
-    "nz-host-rules"
+    "nz-l23"
    ]
   },
   {
@@ -4354,8 +4164,7 @@
    },
    "auto": true,
    "lessons": [
-    "nz-l23",
-    "nz-host-rules"
+    "nz-l23"
    ]
   },
   {
@@ -4402,8 +4211,7 @@
    "auto": true,
    "lessons": [
     "nz-l24",
-    "nz-l25",
-    "nz-host-dinner"
+    "nz-l25"
    ]
   },
   {
@@ -4421,8 +4229,7 @@
     "nz-l25",
     "nz-l28",
     "nz-l38",
-    "nz-l40",
-    "nz-school-first-day"
+    "nz-l40"
    ]
   },
   {
@@ -4437,7 +4244,8 @@
    },
    "auto": true,
    "lessons": [
-    "nz-l25"
+    "nz-l25",
+    "nz-l46"
    ]
   },
   {
@@ -4452,8 +4260,7 @@
    },
    "auto": true,
    "lessons": [
-    "nz-l25",
-    "nz-host-rules"
+    "nz-l25"
    ]
   },
   {
@@ -4480,9 +4287,7 @@
    },
    "lessons": [
     "nz-l24",
-    "nz-l29",
-    "nz-host-dinner",
-    "nz-school-first-day"
+    "nz-l29"
    ]
   },
   {
@@ -4498,8 +4303,7 @@
    "lessons": [
     "nz-l23",
     "nz-l25",
-    "nz-host-rules",
-    "nz-host-dinner"
+    "nz-l59"
    ]
   },
   {
@@ -4513,9 +4317,7 @@
     "pt": "Estou com fome."
    },
    "lessons": [
-    "nz-l22",
-    "nz-host-arrival",
-    "nz-host-rules"
+    "nz-l22"
    ]
   },
   {
@@ -4530,8 +4332,7 @@
    },
    "lessons": [
     "nz-l24",
-    "nz-l25",
-    "nz-host-dinner"
+    "nz-l25"
    ]
   },
   {
@@ -4546,7 +4347,8 @@
    },
    "lessons": [
     "nz-l29",
-    "nz-host-dinner"
+    "nz-l48",
+    "nz-l50"
    ]
   },
   {
@@ -4559,7 +4361,9 @@
     "en": "Milk, please.",
     "pt": "Leite, por favor."
    },
-   "lessons": []
+   "lessons": [
+    "nz-l56"
+   ]
   },
   {
    "id": "coffee",
@@ -4619,7 +4423,9 @@
     "en": "More bread, please.",
     "pt": "Mais pão, por favor."
    },
-   "lessons": []
+   "lessons": [
+    "nz-l56"
+   ]
   },
   {
    "id": "rice",
@@ -4644,7 +4450,7 @@
     "pt": "Temos frango no jantar."
    },
    "lessons": [
-    "nz-host-dinner"
+    "nz-l46"
    ]
   },
   {
@@ -4660,7 +4466,7 @@
    "lessons": [
     "nz-l24",
     "nz-l25",
-    "nz-host-dinner"
+    "nz-l46"
    ]
   },
   {
@@ -4675,8 +4481,7 @@
    },
    "lessons": [
     "nz-l24",
-    "nz-l25",
-    "nz-host-dinner"
+    "nz-l25"
    ]
   },
   {
@@ -4701,7 +4506,10 @@
     "en": "I'm allergic to peanuts.",
     "pt": "Sou alérgico a amendoim."
    },
-   "lessons": []
+   "lessons": [
+    "nz-l46",
+    "nz-l60"
+   ]
   },
   {
    "id": "im-hungry",
@@ -4756,8 +4564,7 @@
    "note": "Na mesa. Exemplo: \"Can you pass the salt, please?\"",
    "lessons": [
     "nz-l24",
-    "nz-l25",
-    "nz-host-dinner"
+    "nz-l25"
    ]
   },
   {
@@ -4775,7 +4582,7 @@
    "lessons": [
     "nz-l24",
     "nz-l25",
-    "nz-host-dinner"
+    "nz-l46"
    ]
   },
   {
@@ -4788,7 +4595,9 @@
     "en": "A medium coffee, please.",
     "pt": "Um café médio, por favor."
    },
-   "lessons": []
+   "lessons": [
+    "nz-l49"
+   ]
   },
   {
    "id": "menu",
@@ -4826,7 +4635,10 @@
    },
    "note": "Lollies é comum na Nova Zelândia e na Austrália.",
    "variant": true,
-   "lessons": []
+   "lessons": [
+    "nz-l56",
+    "nz-l59"
+   ]
   },
   {
    "id": "fish-and-chips",
@@ -4839,7 +4651,7 @@
     "pt": "Peixe com batatas fritas, por favor."
    },
    "lessons": [
-    "nz-host-dinner"
+    "nz-l46"
    ]
   },
   {
@@ -4853,7 +4665,155 @@
     "pt": "Podemos comprar sorvete."
    },
    "lessons": [
-    "nz-kiwi"
+    "nz-l56"
+   ]
+  },
+  {
+   "id": "im-allergic-to-2",
+   "theme": "comida",
+   "en": "I'm allergic to...",
+   "pt": "Eu sou alérgico / alérgica a...",
+   "emoji": "⚠️",
+   "auto": true,
+   "lessons": [
+    "nz-l46",
+    "nz-l60"
+   ]
+  },
+  {
+   "id": "peanuts",
+   "theme": "comida",
+   "en": "peanuts",
+   "pt": "amendoim",
+   "emoji": "🥜",
+   "example": {
+    "en": "And I'm allergic to peanuts.",
+    "pt": "E eu sou alérgica a amendoim."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l46",
+    "nz-l50",
+    "nz-l60"
+   ]
+  },
+  {
+   "id": "does-this-have",
+   "theme": "comida",
+   "en": "Does this have...?",
+   "pt": "Isto tem...?",
+   "emoji": "❓",
+   "auto": true,
+   "lessons": [
+    "nz-l46",
+    "nz-l50"
+   ]
+  },
+  {
+   "id": "no-worries",
+   "theme": "comida",
+   "en": "No worries.",
+   "pt": "Sem problemas.",
+   "emoji": "👌",
+   "example": {
+    "en": "Okay, no worries.",
+    "pt": "Ok, sem problemas."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l39",
+    "nz-l40",
+    "nz-l46"
+   ]
+  },
+  {
+   "id": "its-raining",
+   "theme": "comida",
+   "en": "It's raining.",
+   "pt": "Está chovendo.",
+   "emoji": "🌧️",
+   "example": {
+    "en": "Yes, and look, it's raining.",
+    "pt": "É, e olha, está chovendo."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l47"
+   ]
+  },
+  {
+   "id": "its-cold",
+   "theme": "comida",
+   "en": "It's cold.",
+   "pt": "Está frio.",
+   "emoji": "🥶",
+   "auto": true,
+   "lessons": [
+    "nz-l47"
+   ]
+  },
+  {
+   "id": "take-a-raincoat",
+   "theme": "comida",
+   "en": "Take a raincoat.",
+   "pt": "Leve uma capa de chuva.",
+   "emoji": "🧥",
+   "auto": true,
+   "lessons": [
+    "nz-l47",
+    "nz-l50"
+   ]
+  },
+  {
+   "id": "warm-jacket",
+   "theme": "comida",
+   "en": "warm jacket",
+   "pt": "casaco quente",
+   "emoji": "🧥",
+   "example": {
+    "en": "Yes, take a raincoat and a warm jacket.",
+    "pt": "Sim, leve uma capa de chuva e um casaco quente."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l47"
+   ]
+  },
+  {
+   "id": "where-are-we-going",
+   "theme": "comida",
+   "en": "Where are we going?",
+   "pt": "Aonde a gente vai?",
+   "emoji": "🗺️",
+   "auto": true,
+   "lessons": [
+    "nz-l48"
+   ]
+  },
+  {
+   "id": "is-it-safe",
+   "theme": "comida",
+   "en": "Is it safe?",
+   "pt": "É seguro?",
+   "emoji": "❓",
+   "auto": true,
+   "lessons": [
+    "nz-l48"
+   ]
+  },
+  {
+   "id": "smaller-size",
+   "theme": "comida",
+   "en": "smaller size",
+   "pt": "tamanho menor",
+   "emoji": "🔽",
+   "example": {
+    "en": "Excuse me. Do you have a smaller size?",
+    "pt": "Com licença. Você tem um tamanho menor?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l49"
    ]
   },
   {
@@ -4870,8 +4830,7 @@
     "nz-l41",
     "nz-l42",
     "nz-l45",
-    "nz-city-bus",
-    "nz-city-help"
+    "nz-l53"
    ]
   },
   {
@@ -4900,8 +4859,7 @@
    },
    "lessons": [
     "nz-l41",
-    "nz-city-bus",
-    "nz-city-help"
+    "nz-l53"
    ]
   },
   {
@@ -4968,7 +4926,9 @@
     "en": "My street is quiet.",
     "pt": "Minha rua é tranquila."
    },
-   "lessons": []
+   "lessons": [
+    "nz-l53"
+   ]
   },
   {
    "id": "address",
@@ -4981,8 +4941,7 @@
     "pt": "Este é o meu endereço."
    },
    "lessons": [
-    "nz-l21",
-    "nz-baggage"
+    "nz-l21"
    ]
   },
   {
@@ -4996,9 +4955,7 @@
     "pt": "Vire à esquerda."
    },
    "lessons": [
-    "nz-l43",
-    "nz-checkin",
-    "nz-city-bus"
+    "nz-l43"
    ]
   },
   {
@@ -5013,10 +4970,7 @@
    },
    "lessons": [
     "nz-l18",
-    "nz-l43",
-    "nz-baggage",
-    "nz-school-friends",
-    "nz-city-bus"
+    "nz-l43"
    ]
   },
   {
@@ -5029,9 +4983,7 @@
     "en": "Go straight.",
     "pt": "Siga em frente."
    },
-   "lessons": [
-    "nz-city-bus"
-   ]
+   "lessons": []
   },
   {
    "id": "later",
@@ -5044,8 +4996,7 @@
     "pt": "O próximo ônibus é mais tarde."
    },
    "lessons": [
-    "nz-l45",
-    "nz-school-friends"
+    "nz-l45"
    ]
   },
   {
@@ -5060,8 +5011,7 @@
    },
    "note": "Uma das perguntas mais úteis na cidade.",
    "lessons": [
-    "nz-l41",
-    "nz-city-bus"
+    "nz-l41"
    ]
   },
   {
@@ -5079,8 +5029,7 @@
    "lessons": [
     "nz-l41",
     "nz-l42",
-    "nz-l45",
-    "nz-city-bus"
+    "nz-l45"
    ]
   },
   {
@@ -5097,8 +5046,7 @@
    "note": "Para pedir um caminho. Exemplo: \"How do I get to the library?\"",
    "lessons": [
     "nz-l43",
-    "nz-l45",
-    "nz-city-bus"
+    "nz-l45"
    ]
   },
   {
@@ -5136,10 +5084,7 @@
     "en": "Can I get a taxi here?",
     "pt": "Dá para pegar um táxi aqui?"
    },
-   "lessons": [
-    "nz-checkin",
-    "nz-city-bus"
-   ]
+   "lessons": []
   },
   {
    "id": "map",
@@ -5172,8 +5117,11 @@
     "nz-l30",
     "nz-l34",
     "nz-l44",
-    "nz-host-dinner",
-    "nz-city-help"
+    "nz-l52",
+    "nz-l53",
+    "nz-l55",
+    "nz-l58",
+    "nz-l60"
    ]
   },
   {
@@ -5188,9 +5136,7 @@
    },
    "lessons": [
     "nz-l43",
-    "nz-l45",
-    "nz-city-bus",
-    "nz-city-help"
+    "nz-l45"
    ]
   },
   {
@@ -5223,9 +5169,7 @@
     "nz-l41",
     "nz-l42",
     "nz-l43",
-    "nz-l45",
-    "nz-school-classroom",
-    "nz-city-bus"
+    "nz-l45"
    ]
   },
   {
@@ -5240,8 +5184,7 @@
    },
    "auto": true,
    "lessons": [
-    "nz-l41",
-    "nz-city-bus"
+    "nz-l41"
    ]
   },
   {
@@ -5299,8 +5242,7 @@
    "auto": true,
    "lessons": [
     "nz-l43",
-    "nz-l45",
-    "nz-city-bus"
+    "nz-l45"
    ]
   },
   {
@@ -5316,8 +5258,7 @@
    "auto": true,
    "lessons": [
     "nz-l43",
-    "nz-l45",
-    "nz-city-bus"
+    "nz-l45"
    ]
   },
   {
@@ -5332,8 +5273,7 @@
    },
    "auto": true,
    "lessons": [
-    "nz-l43",
-    "nz-city-bus"
+    "nz-l43"
    ]
   },
   {
@@ -5374,7 +5314,8 @@
    },
    "auto": true,
    "lessons": [
-    "nz-l44"
+    "nz-l44",
+    "nz-l54"
    ]
   },
   {
@@ -5403,7 +5344,7 @@
     "pt": "Eu preciso ver um médico."
    },
    "lessons": [
-    "nz-city-help"
+    "nz-l51"
    ]
   },
   {
@@ -5428,9 +5369,7 @@
     "en": "The hospital is near here.",
     "pt": "O hospital é perto daqui."
    },
-   "lessons": [
-    "nz-school-classroom"
-   ]
+   "lessons": []
   },
   {
    "id": "pharmacy",
@@ -5443,9 +5382,7 @@
     "pt": "Tem uma farmácia por perto?"
    },
    "note": "Você também pode ouvir chemist para farmácia.",
-   "lessons": [
-    "nz-city-bus"
-   ]
+   "lessons": []
   },
   {
    "id": "medicine",
@@ -5457,7 +5394,9 @@
     "en": "I need my medicine.",
     "pt": "Preciso do meu remédio."
    },
-   "lessons": []
+   "lessons": [
+    "nz-l52"
+   ]
   },
   {
    "id": "ambulance",
@@ -5470,7 +5409,8 @@
     "pt": "Chame uma ambulância!"
    },
    "lessons": [
-    "nz-city-help"
+    "nz-l53",
+    "nz-l55"
    ]
   },
   {
@@ -5485,7 +5425,9 @@
    },
    "lessons": [
     "nz-l44",
-    "nz-city-help"
+    "nz-l52",
+    "nz-l53",
+    "nz-l55"
    ]
   },
   {
@@ -5499,7 +5441,7 @@
     "pt": "Estou doente hoje."
    },
    "lessons": [
-    "nz-city-help"
+    "nz-l51"
    ]
   },
   {
@@ -5513,7 +5455,8 @@
     "pt": "Eu estou machucado."
    },
    "lessons": [
-    "nz-city-help"
+    "nz-l53",
+    "nz-l55"
    ]
   },
   {
@@ -5527,7 +5470,7 @@
     "pt": "Estou com dor de cabeça."
    },
    "lessons": [
-    "nz-city-help"
+    "nz-l51"
    ]
   },
   {
@@ -5541,7 +5484,7 @@
     "pt": "Estou com febre."
    },
    "lessons": [
-    "nz-city-help"
+    "nz-l51"
    ]
   },
   {
@@ -5567,8 +5510,7 @@
     "pt": "Estou muito cansado."
    },
    "lessons": [
-    "nz-l22",
-    "nz-host-arrival"
+    "nz-l22"
    ]
   },
   {
@@ -5595,7 +5537,9 @@
     "pt": "Eu preciso de um médico."
    },
    "note": "Diga isso à família anfitriã ou na escola.",
-   "lessons": []
+   "lessons": [
+    "nz-l51"
+   ]
   },
   {
    "id": "can-you-call-my-host-family",
@@ -5622,7 +5566,10 @@
     "pt": "Sou alérgico(a) a amendoim."
    },
    "note": "Exemplo: \"I'm allergic to peanuts.\" Avise sempre sobre alergias.",
-   "lessons": []
+   "lessons": [
+    "nz-l46",
+    "nz-l60"
+   ]
   },
   {
    "id": "please-help",
@@ -5687,7 +5634,9 @@
     "en": "Where is the chemist?",
     "pt": "Onde fica a farmácia?"
    },
-   "lessons": []
+   "lessons": [
+    "nz-l52"
+   ]
   },
   {
    "id": "gp",
@@ -5699,7 +5648,10 @@
     "en": "I need to see a GP.",
     "pt": "Preciso consultar um clínico geral."
    },
-   "lessons": []
+   "lessons": [
+    "nz-l51",
+    "nz-l52"
+   ]
   },
   {
    "id": "sore-throat",
@@ -5712,7 +5664,7 @@
     "pt": "Estou com dor de garganta."
    },
    "lessons": [
-    "nz-city-help"
+    "nz-l51"
    ]
   },
   {
@@ -5725,9 +5677,7 @@
     "en": "What do I do in an earthquake?",
     "pt": "O que eu faço em um terremoto?"
    },
-   "lessons": [
-    "nz-safety"
-   ]
+   "lessons": []
   },
   {
    "id": "drill",
@@ -5741,7 +5691,7 @@
    },
    "note": "Aqui significa simulado. Em outros contextos pode ser furadeira ou exercício de treino.",
    "lessons": [
-    "nz-safety"
+    "nz-l54"
    ]
   },
   {
@@ -5755,7 +5705,8 @@
     "pt": "O tremor parou."
    },
    "lessons": [
-    "nz-safety"
+    "nz-l54",
+    "nz-l55"
    ]
   },
   {
@@ -5769,7 +5720,7 @@
     "pt": "Vá para um terreno alto."
    },
    "lessons": [
-    "nz-safety"
+    "nz-l54"
    ]
   },
   {
@@ -5784,7 +5735,7 @@
    },
    "note": "Após tremor longo ou forte perto da costa: proteja-se durante o tremor e evacue assim que ele parar, sem esperar alerta oficial. Siga a orientação local.",
    "lessons": [
-    "nz-safety"
+    "nz-l54"
    ]
   },
   {
@@ -5799,7 +5750,122 @@
    },
    "note": "Proteja a cabeça e o pescoço. Pratique a versão adequada ao seu corpo com a escola. Após o tremor, siga a orientação local.",
    "lessons": [
-    "nz-safety"
+    "nz-l54",
+    "nz-l55"
+   ]
+  },
+  {
+   "id": "pharmacist",
+   "theme": "saude",
+   "en": "pharmacist",
+   "pt": "farmacêutico / farmacêutica",
+   "emoji": "👩‍⚕️",
+   "example": {
+    "en": "Excuse me. Can I speak to the pharmacist?",
+    "pt": "Com licença. Posso falar com o farmacêutico?"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l52"
+   ]
+  },
+  {
+   "id": "prescription",
+   "theme": "saude",
+   "en": "prescription",
+   "pt": "receita médica",
+   "emoji": "📄",
+   "example": {
+    "en": "I need my medicine. I have a prescription.",
+    "pt": "Eu preciso do meu remédio. Eu tenho receita."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l52"
+   ]
+  },
+  {
+   "id": "insurance",
+   "theme": "saude",
+   "en": "insurance",
+   "pt": "seguro (saúde)",
+   "emoji": "🛡️",
+   "example": {
+    "en": "I have insurance.",
+    "pt": "Eu tenho seguro."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l52"
+   ]
+  },
+  {
+   "id": "call-one-one-one",
+   "theme": "saude",
+   "en": "Call one one one.",
+   "pt": "Ligue para o 111.",
+   "emoji": "🚨",
+   "auto": true,
+   "lessons": [
+    "nz-l53"
+   ]
+  },
+  {
+   "id": "ambulance-please",
+   "theme": "saude",
+   "en": "Ambulance, please.",
+   "pt": "Ambulância, por favor.",
+   "emoji": "🚑",
+   "example": {
+    "en": "Ambulance, please. My friend is hurt.",
+    "pt": "Ambulância, por favor. O meu amigo está machucado."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l53",
+    "nz-l55"
+   ]
+  },
+  {
+   "id": "my-friend-is-hurt",
+   "theme": "saude",
+   "en": "My friend is hurt.",
+   "pt": "O meu amigo está machucado.",
+   "emoji": "🤕",
+   "example": {
+    "en": "Ambulance, please. My friend is hurt.",
+    "pt": "Ambulância, por favor. O meu amigo está machucado."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l53",
+    "nz-l55"
+   ]
+  },
+  {
+   "id": "where-are-you",
+   "theme": "saude",
+   "en": "Where are you?",
+   "pt": "Onde você está?",
+   "emoji": "📍",
+   "auto": true,
+   "lessons": [
+    "nz-l03",
+    "nz-l05",
+    "nz-l53",
+    "nz-l55"
+   ]
+  },
+  {
+   "id": "which-service",
+   "theme": "saude",
+   "en": "Which service?",
+   "pt": "Qual serviço?",
+   "emoji": "❓",
+   "auto": true,
+   "lessons": [
+    "nz-l53",
+    "nz-l55"
    ]
   },
   {
@@ -5836,7 +5902,10 @@
     "en": "Can I have a receipt, please?",
     "pt": "Posso pegar o recibo, por favor?"
    },
-   "lessons": []
+   "lessons": [
+    "nz-l49",
+    "nz-l50"
+   ]
   },
   {
    "id": "change",
@@ -5903,8 +5972,7 @@
    },
    "lessons": [
     "nz-l21",
-    "nz-l44",
-    "nz-baggage"
+    "nz-l44"
    ]
   },
   {
@@ -5931,7 +5999,10 @@
     "pt": "Posso pagar com cartão?"
    },
    "note": "Pergunte antes de pedir, se tiver dúvida.",
-   "lessons": []
+   "lessons": [
+    "nz-l49",
+    "nz-l50"
+   ]
   },
   {
    "id": "im-just-looking-thanks",
@@ -6031,7 +6102,9 @@
     "pt": "Vocês aceitam cartão?"
    },
    "lessons": [
-    "nz-l42"
+    "nz-l42",
+    "nz-l49",
+    "nz-l50"
    ]
   },
   {
@@ -6069,7 +6142,8 @@
     "pt": "É uma lojinha."
    },
    "lessons": [
-    "nz-kiwi"
+    "nz-l56",
+    "nz-l59"
    ]
   },
   {
@@ -6082,7 +6156,10 @@
     "en": "Can I pay by EFTPOS?",
     "pt": "Posso pagar por EFTPOS?"
    },
-   "lessons": []
+   "lessons": [
+    "nz-l49",
+    "nz-l50"
+   ]
   },
   {
    "id": "jacket",
@@ -6096,7 +6173,7 @@
    },
    "lessons": [
     "nz-l14",
-    "nz-videocall"
+    "nz-l47"
    ]
   },
   {
@@ -6113,9 +6190,7 @@
     "nz-l14",
     "nz-l15",
     "nz-l23",
-    "nz-videocall",
-    "nz-city-help",
-    "nz-kiwi"
+    "nz-l47"
    ]
   },
   {
@@ -6178,7 +6253,9 @@
     "en": "It's sunny today.",
     "pt": "Hoje está ensolarado."
    },
-   "lessons": []
+   "lessons": [
+    "nz-l47"
+   ]
   },
   {
    "id": "mittens",
@@ -6240,7 +6317,9 @@
     "en": "How is the weather today?",
     "pt": "Como está o tempo hoje?"
    },
-   "lessons": []
+   "lessons": [
+    "nz-l47"
+   ]
   },
   {
    "id": "hat",
@@ -6252,7 +6331,9 @@
     "en": "Wear a hat. It is cold.",
     "pt": "Use um gorro. Está frio."
    },
-   "lessons": []
+   "lessons": [
+    "nz-l48"
+   ]
   },
   {
    "id": "gloves",
@@ -6302,7 +6383,10 @@
     "en": "I need sunscreen.",
     "pt": "Preciso de protetor solar."
    },
-   "lessons": []
+   "lessons": [
+    "nz-l48",
+    "nz-l50"
+   ]
   },
   {
    "id": "toilet",
@@ -6319,9 +6403,7 @@
    "lessons": [
     "nz-l22",
     "nz-l29",
-    "nz-l32",
-    "nz-host-arrival",
-    "nz-school-classroom"
+    "nz-l32"
    ]
   },
   {
@@ -6341,8 +6423,8 @@
     "nz-l11",
     "nz-l26",
     "nz-l36",
-    "nz-hello",
-    "nz-kiwi"
+    "nz-l58",
+    "nz-l60"
    ]
   },
   {
@@ -6359,7 +6441,9 @@
    "variant": true,
    "lessons": [
     "nz-l41",
-    "nz-kiwi"
+    "nz-l56",
+    "nz-l57",
+    "nz-l59"
    ]
   },
   {
@@ -6375,7 +6459,8 @@
    "note": "Palavra local para flip-flops.",
    "variant": true,
    "lessons": [
-    "nz-kiwi"
+    "nz-l56",
+    "nz-l57"
    ]
   },
   {
@@ -6391,7 +6476,8 @@
    "note": "Mantém alimentos e bebidas frios.",
    "variant": true,
    "lessons": [
-    "nz-kiwi"
+    "nz-l56",
+    "nz-l57"
    ]
   },
   {
@@ -6407,7 +6493,8 @@
    "note": "Expressão informal. Não precisa completar depois de as.",
    "variant": true,
    "lessons": [
-    "nz-kiwi"
+    "nz-l57",
+    "nz-l59"
    ]
   },
   {
@@ -6423,7 +6510,7 @@
    "note": "O sentido depende do contexto e da entonação. Confirme se não entender.",
    "variant": true,
    "lessons": [
-    "nz-kiwi"
+    "nz-l57"
    ]
   },
   {
@@ -6466,9 +6553,7 @@
    },
    "note": "Pode indicar uma pessoa da Nova Zelândia ou a ave. A fruta normalmente é kiwifruit.",
    "variant": true,
-   "lessons": [
-    "nz-kiwi"
-   ]
+   "lessons": []
   },
   {
    "id": "rugby",
@@ -6484,9 +6569,7 @@
    "variant": true,
    "lessons": [
     "nz-l36",
-    "nz-l37",
-    "nz-school-friends",
-    "nz-kiwi"
+    "nz-l37"
    ]
   },
   {
@@ -6502,8 +6585,7 @@
    "note": "Você pode encontrar nas escolas, especialmente no verão.",
    "variant": true,
    "lessons": [
-    "nz-l37",
-    "nz-school-friends"
+    "nz-l37"
    ]
   },
   {
@@ -6547,6 +6629,150 @@
    "note": "Não confunda com a bandeira australiana.",
    "variant": true,
    "lessons": []
+  },
+  {
+   "id": "its-a-small-shop",
+   "theme": "local",
+   "en": "It's a small shop.",
+   "pt": "É uma lojinha.",
+   "emoji": "🛒",
+   "example": {
+    "en": "It's a small shop. They sell bread, milk and ice cream.",
+    "pt": "É uma lojinha. Eles vendem pão, leite e sorvete."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l56",
+    "nz-l59"
+   ]
+  },
+  {
+   "id": "sweet-as-2",
+   "theme": "local",
+   "en": "Sweet as!",
+   "pt": "Beleza! / Ótimo!",
+   "emoji": "😎",
+   "example": {
+    "en": "Okay. Sweet as!",
+    "pt": "Beleza. Sweet as!"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l57",
+    "nz-l59"
+   ]
+  },
+  {
+   "id": "kia-ora-2",
+   "theme": "local",
+   "en": "Kia ora.",
+   "pt": "Oi / olá (em te reo Māori).",
+   "emoji": "👋",
+   "auto": true,
+   "lessons": [
+    "nz-l01",
+    "nz-l11",
+    "nz-l26",
+    "nz-l36",
+    "nz-l58",
+    "nz-l60"
+   ]
+  },
+  {
+   "id": "how-do-you-say",
+   "theme": "local",
+   "en": "How do you say...?",
+   "pt": "Como se fala / se diz...?",
+   "emoji": "🗣️",
+   "auto": true,
+   "lessons": [
+    "nz-l58"
+   ]
+  },
+  {
+   "id": "can-you-say-it-again",
+   "theme": "local",
+   "en": "Can you say it again?",
+   "pt": "Pode falar de novo?",
+   "emoji": "🔁",
+   "auto": true,
+   "lessons": [
+    "nz-l58"
+   ]
+  },
+  {
+   "id": "learn",
+   "theme": "local",
+   "en": "learn",
+   "pt": "aprender",
+   "emoji": "📘",
+   "example": {
+    "en": "Thank you. I want to learn.",
+    "pt": "Obrigado. Eu quero aprender."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l58"
+   ]
+  },
+  {
+   "id": "have-fun",
+   "theme": "local",
+   "en": "Have fun!",
+   "pt": "Divirta-se!",
+   "emoji": "🎉",
+   "example": {
+    "en": "At six. Have fun!",
+    "pt": "Às seis. Divirta-se!"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l59"
+   ]
+  },
+  {
+   "id": "great",
+   "theme": "local",
+   "en": "great",
+   "pt": "ótimo",
+   "emoji": "🌟",
+   "example": {
+    "en": "Great job!",
+    "pt": "Muito bem!"
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l04",
+    "nz-l15",
+    "nz-l16",
+    "nz-l59"
+   ]
+  },
+  {
+   "id": "alone",
+   "theme": "local",
+   "en": "alone",
+   "pt": "sozinho / sozinha",
+   "emoji": "🧍",
+   "example": {
+    "en": "Of course. You are not alone.",
+    "pt": "Claro. Você não está sozinho."
+   },
+   "auto": true,
+   "lessons": [
+    "nz-l60"
+   ]
+  },
+  {
+   "id": "week",
+   "theme": "local",
+   "en": "week",
+   "pt": "semana",
+   "emoji": "🗓️",
+   "auto": true,
+   "lessons": [
+    "nz-l60"
+   ]
   }
  ]
 }

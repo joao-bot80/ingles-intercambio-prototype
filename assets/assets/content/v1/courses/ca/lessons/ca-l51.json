@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l51",
+  "title": "Não estou me sentindo bem",
+  "scenario": "Leo avisa a família anfitriã e descreve sintomas simples.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Não estou me sentindo bem",
+      "lines": [
+        {
+          "speaker": "Leo",
+          "en": "Linda, I feel sick.",
+          "pt": "Linda, eu estou me sentindo mal."
+        },
+        {
+          "speaker": "Linda",
+          "en": "Oh no. What's wrong?",
+          "pt": "Ah, não. O que você tem?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I have a headache and a sore throat.",
+          "pt": "Estou com dor de cabeça e dor de garganta."
+        },
+        {
+          "speaker": "Linda",
+          "en": "Do you have a fever?",
+          "pt": "Você está com febre?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I don't know. I need a doctor.",
+          "pt": "Não sei. Eu preciso de um médico."
+        },
+        {
+          "speaker": "Linda",
+          "en": "Okay. I can call the clinic.",
+          "pt": "Tudo bem. Eu posso ligar para a clínica."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "I feel sick.",
+          "pt": "Estou me sentindo mal.",
+          "emoji": "🤒"
+        },
+        {
+          "en": "headache",
+          "pt": "dor de cabeça",
+          "emoji": "🤕"
+        },
+        {
+          "en": "sore throat",
+          "pt": "dor de garganta",
+          "emoji": "😷"
+        },
+        {
+          "en": "fever",
+          "pt": "febre",
+          "emoji": "🌡️"
+        },
+        {
+          "en": "doctor",
+          "pt": "médico / médica",
+          "emoji": "🩺"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Linda, I feel sick.\"?",
+      "lang": "pt",
+      "options": [
+        "Não sei. Eu preciso de um médico.",
+        "Tudo bem. Eu posso ligar para a clínica.",
+        "Linda, eu estou me sentindo mal."
+      ],
+      "correct": 2,
+      "explanation": "\"I feel sick\" = estou me sentindo mal."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Ah, não. O que você tem?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Do you have a fever?",
+        "Oh no. What's wrong?",
+        "I don't know. I need a doctor."
+      ],
+      "correct": 1,
+      "explanation": "\"What's wrong?\" = O que você tem?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Linda, eu estou me sentindo mal.",
+      "answer": [
+        "Linda,",
+        "I",
+        "feel",
+        "sick."
+      ],
+      "distractors": [
+        "call",
+        "the"
+      ],
+      "explanation": "\"I feel sick\" = estou me sentindo mal."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "I have a headache and a sore throat.",
+      "lang": "pt",
+      "options": [
+        "Estou com dor de cabeça e dor de garganta.",
+        "Tudo bem. Eu posso ligar para a clínica.",
+        "Linda, eu estou me sentindo mal."
+      ],
+      "correct": 0,
+      "explanation": "\"I have a headache\" = estou com dor de cabeça. \"Sore throat\" = dor de garganta."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Linda",
+          "en": "Do you have a fever?",
+          "pt": "Você está com febre?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Não sei. Eu preciso de um médico.",
+      "options": [
+        "I don't know. I need a doctor.",
+        "Oh no. What's wrong?",
+        "I have a headache and a sore throat."
+      ],
+      "correct": 0,
+      "explanation": "\"I need a doctor\" = preciso de um médico."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Um dia doente",
+      "questions": [
+        {
+          "english": "Linda, I feel sick.",
+          "options": [
+            "Ah, não. O que você tem?",
+            "Linda, eu estou me sentindo mal.",
+            "Estou com dor de cabeça e dor de garganta."
+          ],
+          "correct": 1,
+          "joke": "\"I feel sick\" = estou me sentindo mal."
+        },
+        {
+          "english": "I have a headache and a sore throat.",
+          "options": [
+            "Você está com febre?",
+            "Não sei. Eu preciso de um médico.",
+            "Estou com dor de cabeça e dor de garganta."
+          ],
+          "correct": 2,
+          "joke": "\"I have a headache\" = estou com dor de cabeça. \"Sore throat\" = dor de garganta."
+        },
+        {
+          "english": "I don't know. I need a doctor.",
+          "options": [
+            "Você está com febre?",
+            "Tudo bem. Eu posso ligar para a clínica.",
+            "Não sei. Eu preciso de um médico."
+          ],
+          "correct": 2,
+          "joke": "\"I need a doctor\" = preciso de um médico."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Saúde e segurança · Canadá",
+      "items": [
+        {
+          "emoji": "💊",
+          "title": "Pharmacy e walk-in clinic",
+          "en": "Please see a doctor today.",
+          "pt": "No Canadá, a farmácia (pharmacy ou drugstore) ajuda com coisas simples. Para ver um médico sem hora marcada, existe a walk-in clinic. Avise sempre a família anfitriã e o contato de emergência da sua agência."
+        }
+      ]
+    }
+  ]
+}

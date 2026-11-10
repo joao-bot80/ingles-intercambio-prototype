@@ -233,76 +233,64 @@
       "title": "Missão: sair e voltar com segurança"
     },
     {
-      "id": "ca-hello",
-      "title": "Oi! Eu vou para o Canadá"
+      "id": "ca-l46",
+      "title": "Alergia não é preferência"
     },
     {
-      "id": "ca-spelling",
-      "title": "Soletrando o nome"
+      "id": "ca-l47",
+      "title": "Frio: camadas e mittens"
     },
     {
-      "id": "ca-numbers",
-      "title": "Números e idade"
+      "id": "ca-l48",
+      "title": "Chuva também é Canadá"
     },
     {
-      "id": "ca-videocall",
-      "title": "Videochamada com a família"
+      "id": "ca-l49",
+      "title": "Na loja: tamanho e cartão"
     },
     {
-      "id": "ca-backpack",
-      "title": "Mochila pronta, grupo junto"
+      "id": "ca-l50",
+      "title": "Missão: almoço, clima e uma compra"
     },
     {
-      "id": "ca-checkin",
-      "title": "Check-in e embarque"
+      "id": "ca-l51",
+      "title": "Não estou me sentindo bem"
     },
     {
-      "id": "ca-immigration",
-      "title": "Na imigração"
+      "id": "ca-l52",
+      "title": "Na pharmacy, sem automedicar"
     },
     {
-      "id": "ca-baggage",
-      "title": "Bagagem e saída"
+      "id": "ca-l53",
+      "title": "Ligar para o 911"
     },
     {
-      "id": "ca-host-arrival",
-      "title": "Chegando em casa"
+      "id": "ca-l54",
+      "title": "Não me sinto seguro"
     },
     {
-      "id": "ca-host-rules",
-      "title": "Regras e rotina"
-    },
-    {
-      "id": "ca-host-dinner",
-      "title": "Na hora do jantar"
-    },
-    {
-      "id": "ca-school-first-day",
-      "title": "Primeiro dia de aula"
-    },
-    {
-      "id": "ca-school-classroom",
-      "title": "Na sala de aula"
-    },
-    {
-      "id": "ca-school-friends",
-      "title": "Fazendo amigos"
-    },
-    {
-      "id": "ca-city-bus",
-      "title": "Ônibus e direções"
-    },
-    {
-      "id": "ca-city-help",
-      "title": "Pedindo ajuda"
-    },
-    {
-      "id": "ca-cold",
-      "title": "Frio de verdade"
+      "id": "ca-l55",
+      "title": "Missão: pedir ajuda à pessoa certa"
     },
     {
       "id": "ca-coffee",
       "title": "Tim Hortons e o jeito canadense"
+    },
+    {
+      "id": "ca-l57",
+      "title": "Poutine, convite e curiosidade"
+    },
+    {
+      "id": "ca-l58",
+      "title": "Um país, muitas comunidades"
+    },
+    {
+      "id": "ca-l59",
+      "title": "Missão: um sábado canadense"
+    },
+    {
+      "id": "ca-l60",
+      "title": "Missão final: minha semana no Canadá"
     }
   ],
   "units": [
@@ -471,29 +459,42 @@
       ]
     },
     {
-      "id": "ca-legacy",
-      "title": "Versão anterior (em revisão)",
-      "subtitle": "As 18 lições antigas, até as novas unidades ficarem prontas",
-      "emoji": "🗂️",
+      "id": "ca-u10",
+      "title": "10. Comer, vestir e comprar",
+      "subtitle": "Alergias, frio, chuva, mittens e loja",
+      "emoji": "🧤",
       "lessons": [
-        "ca-hello",
-        "ca-spelling",
-        "ca-numbers",
-        "ca-videocall",
-        "ca-backpack",
-        "ca-checkin",
-        "ca-immigration",
-        "ca-baggage",
-        "ca-host-arrival",
-        "ca-host-rules",
-        "ca-host-dinner",
-        "ca-school-first-day",
-        "ca-school-classroom",
-        "ca-school-friends",
-        "ca-city-bus",
-        "ca-city-help",
-        "ca-cold",
-        "ca-coffee"
+        "ca-l46",
+        "ca-l47",
+        "ca-l48",
+        "ca-l49",
+        "ca-l50"
+      ]
+    },
+    {
+      "id": "ca-u11",
+      "title": "11. Saúde, proteção e ajuda",
+      "subtitle": "Sintomas, farmácia, 911 e adulto de confiança",
+      "emoji": "🩺",
+      "lessons": [
+        "ca-l51",
+        "ca-l52",
+        "ca-l53",
+        "ca-l54",
+        "ca-l55"
+      ]
+    },
+    {
+      "id": "ca-u12",
+      "title": "12. Participar do cotidiano canadense",
+      "subtitle": "Café, poutine, diversidade e missões finais",
+      "emoji": "🍁",
+      "lessons": [
+        "ca-coffee",
+        "ca-l57",
+        "ca-l58",
+        "ca-l59",
+        "ca-l60"
       ]
     }
   ],

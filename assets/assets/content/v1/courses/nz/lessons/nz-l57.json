@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l57",
+  "title": "Jandals, chilly bin, sweet as",
+  "scenario": "Mark e Ruby preparam um encontro de família. Gíria se aprende perguntando, não é obrigação.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Jandals, chilly bin, sweet as",
+      "lines": [
+        {
+          "speaker": "Mark",
+          "en": "Bring your jandals to the beach.",
+          "pt": "Leve os seus jandals para a praia."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Sorry, what does that mean?",
+          "pt": "Desculpa, o que isso significa?"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "Jandals are flip-flops.",
+          "pt": "Jandals são chinelos."
+        },
+        {
+          "speaker": "Mark",
+          "en": "And put the drinks in the chilly bin.",
+          "pt": "E coloque as bebidas no chilly bin."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Chilly bin?",
+          "pt": "Chilly bin?"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "A chilly bin is a cool box for food and drinks.",
+          "pt": "Chilly bin é uma caixa térmica para comida e bebida."
+        },
+        {
+          "speaker": "Bia",
+          "en": "Okay. Sweet as!",
+          "pt": "Beleza. Sweet as!"
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "jandals",
+          "pt": "chinelos (na NZ)",
+          "emoji": "🩴"
+        },
+        {
+          "en": "chilly bin",
+          "pt": "caixa térmica (na NZ)",
+          "emoji": "🧊"
+        },
+        {
+          "en": "Sweet as!",
+          "pt": "Beleza! / Ótimo!",
+          "emoji": "😎"
+        },
+        {
+          "en": "What does that mean?",
+          "pt": "O que isso significa?",
+          "emoji": "❓"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Sorry, what does that mean?\"?",
+      "lang": "pt",
+      "options": [
+        "Desculpa, o que isso significa?",
+        "Leve os seus jandals para a praia.",
+        "Jandals são chinelos."
+      ],
+      "correct": 0,
+      "explanation": "\"What does that mean?\" = O que isso significa? Use sempre que ouvir uma gíria."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Beleza. Sweet as!\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Okay. Sweet as!",
+        "Bring your jandals to the beach.",
+        "Sorry, what does that mean?"
+      ],
+      "correct": 0,
+      "explanation": "\"Sweet as!\" = beleza! ótimo!"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Desculpa, o que isso significa?",
+      "answer": [
+        "Sorry,",
+        "what",
+        "does",
+        "that",
+        "mean?"
+      ],
+      "distractors": [
+        "the",
+        "beach"
+      ],
+      "explanation": "\"What does that mean?\" = O que isso significa? Use sempre que ouvir uma gíria."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Jandals are flip-flops.",
+      "lang": "pt",
+      "options": [
+        "Jandals são chinelos.",
+        "Chilly bin é uma caixa térmica para comida e bebida.",
+        "Beleza. Sweet as!"
+      ],
+      "correct": 0,
+      "explanation": "\"Jandals are flip-flops\" = jandals são chinelos."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ruby",
+          "en": "A chilly bin is a cool box for food and drinks.",
+          "pt": "Chilly bin é uma caixa térmica para comida e bebida."
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Beleza. Sweet as!",
+      "options": [
+        "Okay. Sweet as!",
+        "Bring your jandals to the beach.",
+        "Sorry, what does that mean?"
+      ],
+      "correct": 0,
+      "explanation": "\"Sweet as!\" = beleza! ótimo!"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "As gírias kiwi",
+      "questions": [
+        {
+          "english": "Sorry, what does that mean?",
+          "options": [
+            "Leve os seus jandals para a praia.",
+            "Jandals são chinelos.",
+            "Desculpa, o que isso significa?"
+          ],
+          "correct": 2,
+          "joke": "\"What does that mean?\" = O que isso significa? Use sempre que ouvir uma gíria."
+        },
+        {
+          "english": "Jandals are flip-flops.",
+          "options": [
+            "Jandals são chinelos.",
+            "Chilly bin é uma caixa térmica para comida e bebida.",
+            "Beleza. Sweet as!"
+          ],
+          "correct": 0,
+          "joke": "\"Jandals are flip-flops\" = jandals são chinelos."
+        },
+        {
+          "english": "A chilly bin is a cool box for food and drinks.",
+          "options": [
+            "Beleza. Sweet as!",
+            "Chilly bin é uma caixa térmica para comida e bebida.",
+            "Leve os seus jandals para a praia."
+          ],
+          "correct": 1,
+          "joke": "\"Chilly bin\" = caixa térmica."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Nova Zelândia · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "😎",
+          "title": "Sweet as e yeah nah",
+          "en": "Yeah nah.",
+          "pt": "\"Sweet as\" quer dizer \"beleza\" ou \"ótimo\". \"Yeah, nah\" costuma ser um \"não\" educado e \"nah, yeah\" costuma ser \"sim\". Pode confundir no começo: se tiver dúvida, pergunte \"Do you mean yes or no?\"."
+        },
+        {
+          "emoji": "🩴",
+          "title": "Palavras da vida kiwi",
+          "en": "Jandals, dairy, chilly bin",
+          "pt": "Jandals (chinelos), dairy (lojinha de esquina), chilly bin (caixa térmica). Gíria muda de região para região: peça explicação sempre."
+        }
+      ]
+    }
+  ]
+}

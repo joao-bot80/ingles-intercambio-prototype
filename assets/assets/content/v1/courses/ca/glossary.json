@@ -77,9 +77,7 @@
    },
    "note": "Quando você não entendeu ou a pessoa falou rápido demais.",
    "lessons": [
-    "ca-l04",
-    "ca-spelling",
-    "ca-immigration"
+    "ca-l04"
    ]
   },
   {
@@ -109,8 +107,7 @@
    "lessons": [
     "ca-l04",
     "ca-l32",
-    "ca-l34",
-    "ca-school-classroom"
+    "ca-l34"
    ]
   },
   {
@@ -128,7 +125,8 @@
     "ca-l26",
     "ca-l30",
     "ca-l34",
-    "ca-city-help"
+    "ca-l54",
+    "ca-l60"
    ]
   },
   {
@@ -265,8 +263,7 @@
    "variant": true,
    "lessons": [
     "ca-l29",
-    "ca-l30",
-    "ca-host-arrival"
+    "ca-l30"
    ]
   },
   {
@@ -281,7 +278,8 @@
    },
    "note": "Para avisar um professor ou a família anfitriã.",
    "lessons": [
-    "ca-city-help"
+    "ca-l51",
+    "ca-l55"
    ]
   },
   {
@@ -313,9 +311,7 @@
    "note": "Sempre cai bem.",
    "lessons": [
     "ca-l22",
-    "ca-host-arrival",
-    "ca-city-bus",
-    "ca-city-help"
+    "ca-l60"
    ]
   },
   {
@@ -329,8 +325,7 @@
     "pt": "Qual é a senha do Wi-Fi?"
    },
    "lessons": [
-    "ca-l23",
-    "ca-host-rules"
+    "ca-l23"
    ]
   },
   {
@@ -345,8 +340,7 @@
    },
    "lessons": [
     "ca-l09",
-    "ca-l44",
-    "ca-numbers"
+    "ca-l44"
    ]
   },
   {
@@ -362,10 +356,7 @@
    "lessons": [
     "ca-l01",
     "ca-l19",
-    "ca-l26",
-    "ca-hello",
-    "ca-spelling",
-    "ca-immigration"
+    "ca-l26"
    ]
   },
   {
@@ -380,10 +371,7 @@
    },
    "lessons": [
     "ca-l16",
-    "ca-l31",
-    "ca-checkin",
-    "ca-school-first-day",
-    "ca-school-classroom"
+    "ca-l31"
    ]
   },
   {
@@ -435,9 +423,7 @@
     "en": "See you later, Jake!",
     "pt": "Até mais tarde, Jake!"
    },
-   "lessons": [
-    "ca-school-friends"
-   ]
+   "lessons": []
   },
   {
    "id": "nice-to-meet-you",
@@ -456,12 +442,7 @@
     "ca-l05",
     "ca-l11",
     "ca-l26",
-    "ca-l36",
-    "ca-hello",
-    "ca-spelling",
-    "ca-videocall",
-    "ca-host-arrival",
-    "ca-school-first-day"
+    "ca-l36"
    ]
   },
   {
@@ -475,9 +456,7 @@
     "pt": "Oi, Bia! Como você está?"
    },
    "note": "No dia a dia é só uma saudação. A resposta rápida é \"Good, thanks. And you?\"",
-   "lessons": [
-    "ca-hello"
-   ]
+   "lessons": []
   },
   {
    "id": "im-good-thanks",
@@ -490,9 +469,7 @@
     "pt": "Estou bem, obrigado / obrigada."
    },
    "note": "Resposta padrão para \"How are you?\"",
-   "lessons": [
-    "ca-hello"
-   ]
+   "lessons": []
   },
   {
    "id": "please",
@@ -519,14 +496,14 @@
     "ca-l31",
     "ca-l39",
     "ca-l40",
-    "ca-spelling",
-    "ca-checkin",
-    "ca-immigration",
-    "ca-host-rules",
-    "ca-host-dinner",
-    "ca-school-classroom",
-    "ca-city-help",
-    "ca-coffee"
+    "ca-l51",
+    "ca-l52",
+    "ca-l53",
+    "ca-coffee",
+    "ca-l57",
+    "ca-l58",
+    "ca-l59",
+    "ca-l60"
    ]
   },
   {
@@ -547,10 +524,10 @@
     "ca-l33",
     "ca-l36",
     "ca-l38",
-    "ca-hello",
-    "ca-school-friends",
-    "ca-cold",
-    "ca-coffee"
+    "ca-l49",
+    "ca-coffee",
+    "ca-l57",
+    "ca-l59"
    ]
   },
   {
@@ -587,11 +564,9 @@
     "ca-l41",
     "ca-l43",
     "ca-l44",
-    "ca-checkin",
-    "ca-baggage",
-    "ca-school-classroom",
-    "ca-city-bus",
-    "ca-city-help"
+    "ca-l49",
+    "ca-l52",
+    "ca-l58"
    ]
   },
   {
@@ -606,8 +581,8 @@
    },
    "lessons": [
     "ca-l02",
-    "ca-hello",
-    "ca-city-help"
+    "ca-l53",
+    "ca-l55"
    ]
   },
   {
@@ -627,10 +602,7 @@
     "ca-l22",
     "ca-l26",
     "ca-l30",
-    "ca-hello",
-    "ca-spelling",
-    "ca-immigration",
-    "ca-host-arrival"
+    "ca-l60"
    ]
   },
   {
@@ -647,8 +619,7 @@
    "lessons": [
     "ca-l02",
     "ca-l10",
-    "ca-l26",
-    "ca-hello"
+    "ca-l26"
    ]
   },
   {
@@ -664,11 +635,7 @@
    "note": "Para dizer de onde você é.",
    "lessons": [
     "ca-l03",
-    "ca-l05",
-    "ca-hello",
-    "ca-videocall",
-    "ca-immigration",
-    "ca-school-friends"
+    "ca-l05"
    ]
   },
   {
@@ -683,8 +650,7 @@
    },
    "lessons": [
     "ca-l03",
-    "ca-l05",
-    "ca-hello"
+    "ca-l05"
    ]
   },
   {
@@ -711,8 +677,7 @@
     "pt": "Meu primeiro nome é Leo."
    },
    "lessons": [
-    "ca-l08",
-    "ca-spelling"
+    "ca-l08"
    ]
   },
   {
@@ -726,8 +691,7 @@
     "pt": "Qual é o seu sobrenome?"
    },
    "lessons": [
-    "ca-l08",
-    "ca-spelling"
+    "ca-l08"
    ]
   },
   {
@@ -752,10 +716,9 @@
     "ca-l32",
     "ca-l35",
     "ca-l39",
-    "ca-spelling",
-    "ca-immigration",
-    "ca-baggage",
-    "ca-coffee"
+    "ca-l53",
+    "ca-coffee",
+    "ca-l58"
    ]
   },
   {
@@ -785,16 +748,12 @@
     "ca-l43",
     "ca-l44",
     "ca-l45",
-    "ca-numbers",
-    "ca-videocall",
-    "ca-backpack",
-    "ca-checkin",
-    "ca-immigration",
-    "ca-baggage",
-    "ca-host-arrival",
-    "ca-host-dinner",
-    "ca-school-classroom",
-    "ca-school-friends"
+    "ca-l46",
+    "ca-l49",
+    "ca-l50",
+    "ca-l53",
+    "ca-l55",
+    "ca-l59"
    ]
   },
   {
@@ -828,16 +787,18 @@
     "ca-l43",
     "ca-l44",
     "ca-l45",
-    "ca-backpack",
-    "ca-checkin",
-    "ca-baggage",
-    "ca-host-arrival",
-    "ca-host-rules",
-    "ca-host-dinner",
-    "ca-school-classroom",
-    "ca-city-bus",
-    "ca-cold",
-    "ca-coffee"
+    "ca-l46",
+    "ca-l49",
+    "ca-l50",
+    "ca-l51",
+    "ca-l52",
+    "ca-l53",
+    "ca-l54",
+    "ca-l55",
+    "ca-coffee",
+    "ca-l57",
+    "ca-l59",
+    "ca-l60"
    ]
   },
   {
@@ -873,15 +834,11 @@
     "ca-l41",
     "ca-l42",
     "ca-l45",
-    "ca-spelling",
-    "ca-numbers",
-    "ca-checkin",
-    "ca-host-arrival",
-    "ca-host-dinner",
-    "ca-school-first-day",
-    "ca-school-classroom",
-    "ca-city-bus",
-    "ca-city-help"
+    "ca-l46",
+    "ca-l49",
+    "ca-l54",
+    "ca-l55",
+    "ca-l60"
    ]
   },
   {
@@ -906,10 +863,6 @@
     "ca-l36",
     "ca-l40",
     "ca-l45",
-    "ca-hello",
-    "ca-videocall",
-    "ca-baggage",
-    "ca-host-arrival",
     "ca-coffee"
    ]
   },
@@ -929,7 +882,7 @@
     "ca-l05",
     "ca-l11",
     "ca-l15",
-    "ca-videocall"
+    "ca-l60"
    ]
   },
   {
@@ -949,8 +902,7 @@
     "ca-l08",
     "ca-l10",
     "ca-l26",
-    "ca-hello",
-    "ca-spelling"
+    "ca-l58"
    ]
   },
   {
@@ -963,8 +915,7 @@
    "lessons": [
     "ca-l02",
     "ca-l10",
-    "ca-l26",
-    "ca-hello"
+    "ca-l26"
    ]
   },
   {
@@ -981,8 +932,7 @@
    "lessons": [
     "ca-l02",
     "ca-l05",
-    "ca-l10",
-    "ca-hello"
+    "ca-l10"
    ]
   },
   {
@@ -1002,12 +952,7 @@
     "ca-l05",
     "ca-l11",
     "ca-l26",
-    "ca-l36",
-    "ca-hello",
-    "ca-spelling",
-    "ca-videocall",
-    "ca-host-arrival",
-    "ca-school-first-day"
+    "ca-l36"
    ]
   },
   {
@@ -1023,11 +968,7 @@
    "auto": true,
    "lessons": [
     "ca-l03",
-    "ca-l05",
-    "ca-hello",
-    "ca-videocall",
-    "ca-immigration",
-    "ca-school-friends"
+    "ca-l05"
    ]
   },
   {
@@ -1043,11 +984,7 @@
    "auto": true,
    "lessons": [
     "ca-l03",
-    "ca-l05",
-    "ca-hello",
-    "ca-videocall",
-    "ca-immigration",
-    "ca-school-friends"
+    "ca-l05"
    ]
   },
   {
@@ -1069,10 +1006,9 @@
     "ca-l18",
     "ca-l19",
     "ca-l20",
-    "ca-hello",
-    "ca-checkin",
-    "ca-immigration",
-    "ca-coffee"
+    "ca-coffee",
+    "ca-l58",
+    "ca-l60"
    ]
   },
   {
@@ -1089,7 +1025,8 @@
    "lessons": [
     "ca-l04",
     "ca-l05",
-    "ca-l20"
+    "ca-l20",
+    "ca-l58"
    ]
   },
   {
@@ -1118,18 +1055,13 @@
     "ca-l39",
     "ca-l44",
     "ca-l45",
-    "ca-hello",
-    "ca-numbers",
-    "ca-videocall",
-    "ca-backpack",
-    "ca-immigration",
-    "ca-baggage",
-    "ca-host-arrival",
-    "ca-host-dinner",
-    "ca-school-first-day",
-    "ca-school-friends",
-    "ca-city-help",
-    "ca-cold"
+    "ca-l46",
+    "ca-l47",
+    "ca-l52",
+    "ca-l53",
+    "ca-l55",
+    "ca-l57",
+    "ca-l60"
    ]
   },
   {
@@ -1141,72 +1073,7 @@
    "auto": true,
    "lessons": [
     "ca-l03",
-    "ca-l05",
-    "ca-hello",
-    "ca-videocall",
-    "ca-immigration",
-    "ca-school-friends"
-   ]
-  },
-  {
-   "id": "good",
-   "theme": "cumprimentos",
-   "en": "good",
-   "pt": "bom / bem",
-   "emoji": "👍",
-   "example": {
-    "en": "Good! Documents in the backpack, not in the big bag.",
-    "pt": "Ótimo! Documentos na mochila, não na mala grande."
-   },
-   "auto": true,
-   "lessons": [
-    "ca-l02",
-    "ca-l12",
-    "ca-l16",
-    "ca-l31",
-    "ca-hello",
-    "ca-videocall",
-    "ca-backpack",
-    "ca-checkin",
-    "ca-school-first-day",
-    "ca-school-classroom"
-   ]
-  },
-  {
-   "id": "spell",
-   "theme": "cumprimentos",
-   "en": "spell",
-   "pt": "soletrar",
-   "emoji": "🔤",
-   "example": {
-    "en": "Can you spell that?",
-    "pt": "Pode soletrar?"
-   },
-   "auto": true,
-   "lessons": [
-    "ca-l08",
-    "ca-l10",
-    "ca-spelling"
-   ]
-  },
-  {
-   "id": "repeat",
-   "theme": "cumprimentos",
-   "en": "repeat",
-   "pt": "repetir",
-   "emoji": "🔁",
-   "example": {
-    "en": "Can you repeat, please?",
-    "pt": "Pode repetir, por favor?"
-   },
-   "auto": true,
-   "lessons": [
-    "ca-l04",
-    "ca-l05",
-    "ca-l20",
-    "ca-spelling",
-    "ca-immigration",
-    "ca-school-classroom"
+    "ca-l05"
    ]
   },
   {
@@ -1239,8 +1106,8 @@
     "ca-l06",
     "ca-l09",
     "ca-l39",
-    "ca-numbers",
-    "ca-city-help"
+    "ca-l53",
+    "ca-l55"
    ]
   },
   {
@@ -1257,7 +1124,7 @@
    "lessons": [
     "ca-l06",
     "ca-l09",
-    "ca-numbers"
+    "ca-l58"
    ]
   },
   {
@@ -1274,8 +1141,7 @@
    "lessons": [
     "ca-l06",
     "ca-l34",
-    "ca-l45",
-    "ca-numbers"
+    "ca-l45"
    ]
   },
   {
@@ -1291,8 +1157,7 @@
    "note": "O número 4.",
    "lessons": [
     "ca-l06",
-    "ca-l09",
-    "ca-numbers"
+    "ca-l09"
    ]
   },
   {
@@ -1310,9 +1175,7 @@
     "ca-l06",
     "ca-l09",
     "ca-l35",
-    "ca-l43",
-    "ca-numbers",
-    "ca-city-bus"
+    "ca-l43"
    ]
   },
   {
@@ -1335,9 +1198,7 @@
     "ca-l25",
     "ca-l40",
     "ca-l45",
-    "ca-numbers",
-    "ca-immigration",
-    "ca-host-rules"
+    "ca-l59"
    ]
   },
   {
@@ -1354,8 +1215,7 @@
    "lessons": [
     "ca-l06",
     "ca-l09",
-    "ca-l10",
-    "ca-host-rules"
+    "ca-l10"
    ]
   },
   {
@@ -1371,9 +1231,7 @@
    "note": "O número 8.",
    "lessons": [
     "ca-l06",
-    "ca-l25",
-    "ca-numbers",
-    "ca-host-rules"
+    "ca-l25"
    ]
   },
   {
@@ -1391,10 +1249,8 @@
     "ca-l06",
     "ca-l23",
     "ca-l41",
-    "ca-numbers",
-    "ca-host-rules",
-    "ca-city-bus",
-    "ca-city-help"
+    "ca-l53",
+    "ca-l55"
    ]
   },
   {
@@ -1414,10 +1270,7 @@
     "ca-l20",
     "ca-l23",
     "ca-l31",
-    "ca-l32",
-    "ca-checkin",
-    "ca-host-rules",
-    "ca-school-classroom"
+    "ca-l32"
    ]
   },
   {
@@ -1432,8 +1285,7 @@
    },
    "note": "O número 11.",
    "lessons": [
-    "ca-l07",
-    "ca-school-classroom"
+    "ca-l07"
    ]
   },
   {
@@ -1452,9 +1304,7 @@
     "ca-l16",
     "ca-l28",
     "ca-l30",
-    "ca-l32",
-    "ca-checkin",
-    "ca-school-first-day"
+    "ca-l32"
    ]
   },
   {
@@ -1469,8 +1319,7 @@
    },
    "note": "O número 13.",
    "lessons": [
-    "ca-l07",
-    "ca-numbers"
+    "ca-l07"
    ]
   },
   {
@@ -1485,8 +1334,7 @@
    },
    "note": "O número 14.",
    "lessons": [
-    "ca-l07",
-    "ca-numbers"
+    "ca-l07"
    ]
   },
   {
@@ -1502,10 +1350,7 @@
    "note": "O número 15.",
    "lessons": [
     "ca-l07",
-    "ca-l10",
-    "ca-numbers",
-    "ca-videocall",
-    "ca-host-arrival"
+    "ca-l10"
    ]
   },
   {
@@ -1520,8 +1365,7 @@
    },
    "note": "O número 16.",
    "lessons": [
-    "ca-l07",
-    "ca-numbers"
+    "ca-l07"
    ]
   },
   {
@@ -1536,8 +1380,7 @@
    },
    "note": "O número 17.",
    "lessons": [
-    "ca-l07",
-    "ca-numbers"
+    "ca-l07"
    ]
   },
   {
@@ -1588,8 +1431,8 @@
     "ca-l18",
     "ca-l20",
     "ca-l35",
-    "ca-checkin",
-    "ca-cold"
+    "ca-l47",
+    "ca-l48"
    ]
   },
   {
@@ -1609,8 +1452,7 @@
     "ca-l17",
     "ca-l20",
     "ca-l25",
-    "ca-checkin",
-    "ca-host-rules"
+    "ca-l60"
    ]
   },
   {
@@ -1652,8 +1494,7 @@
    "note": "A resposta é \"I'm fifteen years old.\" (troque o número).",
    "lessons": [
     "ca-l07",
-    "ca-l10",
-    "ca-numbers"
+    "ca-l10"
    ]
   },
   {
@@ -1681,9 +1522,7 @@
     "en": "My birthday is next month.",
     "pt": "Meu aniversário é no mês que vem."
    },
-   "lessons": [
-    "ca-immigration"
-   ]
+   "lessons": []
   },
   {
    "id": "one-two-three",
@@ -1697,8 +1536,7 @@
    },
    "auto": true,
    "lessons": [
-    "ca-l06",
-    "ca-numbers"
+    "ca-l06"
    ]
   },
   {
@@ -1744,10 +1582,7 @@
    "auto": true,
    "lessons": [
     "ca-l07",
-    "ca-l10",
-    "ca-numbers",
-    "ca-videocall",
-    "ca-host-arrival"
+    "ca-l10"
    ]
   },
   {
@@ -1811,8 +1646,7 @@
    },
    "auto": true,
    "lessons": [
-    "ca-l09",
-    "ca-numbers"
+    "ca-l09"
    ]
   },
   {
@@ -1827,9 +1661,7 @@
     "ca-l17",
     "ca-l23",
     "ca-l25",
-    "ca-checkin",
-    "ca-host-rules",
-    "ca-school-first-day"
+    "ca-l59"
    ]
   },
   {
@@ -1879,10 +1711,7 @@
     "ca-l12",
     "ca-l15",
     "ca-l16",
-    "ca-l19",
-    "ca-backpack",
-    "ca-checkin",
-    "ca-immigration"
+    "ca-l19"
    ]
   },
   {
@@ -1897,8 +1726,7 @@
    },
    "lessons": [
     "ca-l15",
-    "ca-l16",
-    "ca-checkin"
+    "ca-l16"
    ]
   },
   {
@@ -1912,8 +1740,7 @@
     "pt": "Meu voo é ao meio-dia."
    },
    "lessons": [
-    "ca-l18",
-    "ca-checkin"
+    "ca-l18"
    ]
   },
   {
@@ -1929,8 +1756,7 @@
    "lessons": [
     "ca-l17",
     "ca-l18",
-    "ca-l20",
-    "ca-checkin"
+    "ca-l20"
    ]
   },
   {
@@ -1944,8 +1770,7 @@
     "pt": "Meu assento é na janela."
    },
    "lessons": [
-    "ca-l16",
-    "ca-checkin"
+    "ca-l16"
    ]
   },
   {
@@ -1997,9 +1822,7 @@
     "pt": "A esteira de bagagem fica no andar de baixo."
    },
    "note": "É a área onde você retira a bagagem; a esteira em si é baggage carousel.",
-   "lessons": [
-    "ca-baggage"
-   ]
+   "lessons": []
   },
   {
    "id": "check-in",
@@ -2095,8 +1918,7 @@
    "lessons": [
     "ca-l17",
     "ca-l18",
-    "ca-l20",
-    "ca-checkin"
+    "ca-l20"
    ]
   },
   {
@@ -2113,7 +1935,7 @@
    "lessons": [
     "ca-l19",
     "ca-l20",
-    "ca-immigration"
+    "ca-l60"
    ]
   },
   {
@@ -2178,8 +2000,7 @@
    "auto": true,
    "lessons": [
     "ca-l11",
-    "ca-l15",
-    "ca-videocall"
+    "ca-l15"
    ]
   },
   {
@@ -2225,8 +2046,7 @@
    },
    "auto": true,
    "lessons": [
-    "ca-l11",
-    "ca-videocall"
+    "ca-l11"
    ]
   },
   {
@@ -2241,9 +2061,7 @@
    },
    "auto": true,
    "lessons": [
-    "ca-l12",
-    "ca-backpack",
-    "ca-immigration"
+    "ca-l12"
    ]
   },
   {
@@ -2274,8 +2092,7 @@
    "auto": true,
    "lessons": [
     "ca-l13",
-    "ca-l18",
-    "ca-backpack"
+    "ca-l18"
    ]
   },
   {
@@ -2290,8 +2107,7 @@
    },
    "auto": true,
    "lessons": [
-    "ca-l13",
-    "ca-backpack"
+    "ca-l13"
    ]
   },
   {
@@ -2300,15 +2116,10 @@
    "en": "Stay with your group.",
    "pt": "Fique com o seu grupo.",
    "emoji": "👥",
-   "example": {
-    "en": "Remember: stay with your group.",
-    "pt": "Lembre-se: fique com o seu grupo."
-   },
    "auto": true,
    "lessons": [
     "ca-l13",
-    "ca-l15",
-    "ca-backpack"
+    "ca-l15"
    ]
   },
   {
@@ -2324,7 +2135,7 @@
    "auto": true,
    "lessons": [
     "ca-l14",
-    "ca-videocall"
+    "ca-l47"
    ]
   },
   {
@@ -2340,7 +2151,7 @@
    "auto": true,
    "lessons": [
     "ca-l14",
-    "ca-cold"
+    "ca-l48"
    ]
   },
   {
@@ -2359,10 +2170,7 @@
     "ca-l19",
     "ca-l24",
     "ca-l33",
-    "ca-checkin",
-    "ca-immigration",
-    "ca-baggage",
-    "ca-host-dinner"
+    "ca-l50"
    ]
   },
   {
@@ -2378,8 +2186,7 @@
    "auto": true,
    "lessons": [
     "ca-l13",
-    "ca-l16",
-    "ca-checkin"
+    "ca-l16"
    ]
   },
   {
@@ -2397,8 +2204,7 @@
     "ca-l15",
     "ca-l16",
     "ca-l17",
-    "ca-l20",
-    "ca-checkin"
+    "ca-l20"
    ]
   },
   {
@@ -2430,8 +2236,7 @@
    "lessons": [
     "ca-l17",
     "ca-l18",
-    "ca-l20",
-    "ca-checkin"
+    "ca-l20"
    ]
   },
   {
@@ -2447,8 +2252,7 @@
    "auto": true,
    "lessons": [
     "ca-l17",
-    "ca-l20",
-    "ca-checkin"
+    "ca-l20"
    ]
   },
   {
@@ -2486,9 +2290,7 @@
     "ca-l34",
     "ca-l38",
     "ca-l39",
-    "ca-host-rules",
-    "ca-host-dinner",
-    "ca-school-classroom"
+    "ca-l46"
    ]
   },
   {
@@ -2508,8 +2310,6 @@
     "ca-l15",
     "ca-l18",
     "ca-l29",
-    "ca-videocall",
-    "ca-backpack",
     "ca-coffee"
    ]
   },
@@ -2526,8 +2326,7 @@
    "auto": true,
    "lessons": [
     "ca-l19",
-    "ca-l20",
-    "ca-immigration"
+    "ca-l20"
    ]
   },
   {
@@ -2539,8 +2338,7 @@
    "auto": true,
    "lessons": [
     "ca-l19",
-    "ca-l20",
-    "ca-immigration"
+    "ca-l20"
    ]
   },
   {
@@ -2564,9 +2362,7 @@
     "ca-l37",
     "ca-l38",
     "ca-l40",
-    "ca-backpack",
-    "ca-immigration",
-    "ca-host-rules",
+    "ca-l54",
     "ca-coffee"
    ]
   },
@@ -2596,9 +2392,7 @@
     "ca-l07",
     "ca-l27",
     "ca-l31",
-    "ca-l36",
-    "ca-school-first-day",
-    "ca-school-classroom"
+    "ca-l36"
    ]
   },
   {
@@ -2626,9 +2420,7 @@
    "lessons": [
     "ca-l19",
     "ca-l26",
-    "ca-l30",
-    "ca-immigration",
-    "ca-school-friends"
+    "ca-l30"
    ]
   },
   {
@@ -2668,8 +2460,7 @@
    "note": "No Canadá escreve-se \"counsellor\" (com dois L).",
    "variant": true,
    "lessons": [
-    "ca-l26",
-    "ca-school-first-day"
+    "ca-l26"
    ]
   },
   {
@@ -2683,8 +2474,7 @@
     "pt": "Meu armário é o número dez."
    },
    "lessons": [
-    "ca-l28",
-    "ca-school-first-day"
+    "ca-l28"
    ]
   },
   {
@@ -2699,8 +2489,7 @@
    },
    "lessons": [
     "ca-l32",
-    "ca-l33",
-    "ca-school-classroom"
+    "ca-l33"
    ]
   },
   {
@@ -2715,8 +2504,7 @@
    },
    "lessons": [
     "ca-l27",
-    "ca-l30",
-    "ca-school-first-day"
+    "ca-l30"
    ]
   },
   {
@@ -2744,8 +2532,7 @@
    "lessons": [
     "ca-l07",
     "ca-l27",
-    "ca-l36",
-    "ca-school-first-day"
+    "ca-l36"
    ]
   },
   {
@@ -2829,7 +2616,7 @@
    "lessons": [
     "ca-l31",
     "ca-l35",
-    "ca-school-classroom"
+    "ca-l60"
    ]
   },
   {
@@ -2845,7 +2632,7 @@
    "lessons": [
     "ca-l31",
     "ca-l35",
-    "ca-school-classroom"
+    "ca-l60"
    ]
   },
   {
@@ -2876,7 +2663,7 @@
    "lessons": [
     "ca-l19",
     "ca-l20",
-    "ca-immigration"
+    "ca-l60"
    ]
   },
   {
@@ -2889,9 +2676,7 @@
     "en": "I have a question.",
     "pt": "Tenho uma pergunta."
    },
-   "lessons": [
-    "ca-videocall"
-   ]
+   "lessons": []
   },
   {
    "id": "may-i-go-to-the-washroom",
@@ -2906,8 +2691,7 @@
    "note": "Frase que se diz ao professor. No Canadá, \"washroom\" é o mais comum.",
    "variant": true,
    "lessons": [
-    "ca-l32",
-    "ca-school-classroom"
+    "ca-l32"
    ]
   },
   {
@@ -2948,8 +2732,7 @@
    },
    "lessons": [
     "ca-l12",
-    "ca-l15",
-    "ca-backpack"
+    "ca-l15"
    ]
   },
   {
@@ -2965,8 +2748,7 @@
    "auto": true,
    "lessons": [
     "ca-l26",
-    "ca-l30",
-    "ca-school-friends"
+    "ca-l30"
    ]
   },
   {
@@ -2997,7 +2779,8 @@
    "auto": true,
    "lessons": [
     "ca-l04",
-    "ca-l27"
+    "ca-l27",
+    "ca-l58"
    ]
   },
   {
@@ -3028,8 +2811,7 @@
    "auto": true,
    "lessons": [
     "ca-l28",
-    "ca-l30",
-    "ca-school-first-day"
+    "ca-l30"
    ]
   },
   {
@@ -3045,8 +2827,7 @@
    "auto": true,
    "lessons": [
     "ca-l28",
-    "ca-l30",
-    "ca-school-first-day"
+    "ca-l30"
    ]
   },
   {
@@ -3070,7 +2851,7 @@
    "lessons": [
     "ca-l31",
     "ca-l35",
-    "ca-school-classroom"
+    "ca-l60"
    ]
   },
   {
@@ -3096,6 +2877,7 @@
     "ca-l31",
     "ca-l32",
     "ca-l34",
+    "ca-l46",
     "ca-coffee"
    ]
   },
@@ -3128,7 +2910,7 @@
    "lessons": [
     "ca-l32",
     "ca-l35",
-    "ca-school-classroom"
+    "ca-l60"
    ]
   },
   {
@@ -3157,8 +2939,7 @@
     "ca-l21",
     "ca-l32",
     "ca-l34",
-    "ca-l35",
-    "ca-baggage"
+    "ca-l35"
    ]
   },
   {
@@ -3239,8 +3020,7 @@
    "auto": true,
    "lessons": [
     "ca-l34",
-    "ca-l35",
-    "ca-school-friends"
+    "ca-l35"
    ]
   },
   {
@@ -3267,8 +3047,7 @@
    "auto": true,
    "lessons": [
     "ca-l36",
-    "ca-l40",
-    "ca-school-friends"
+    "ca-l40"
    ]
   },
   {
@@ -3295,8 +3074,7 @@
    "emoji": "👍",
    "auto": true,
    "lessons": [
-    "ca-l36",
-    "ca-school-friends"
+    "ca-l36"
    ]
   },
   {
@@ -3339,8 +3117,7 @@
    },
    "auto": true,
    "lessons": [
-    "ca-l37",
-    "ca-school-friends"
+    "ca-l37"
    ]
   },
   {
@@ -3367,8 +3144,7 @@
    "auto": true,
    "lessons": [
     "ca-l36",
-    "ca-l37",
-    "ca-school-friends"
+    "ca-l37"
    ]
   },
   {
@@ -3383,7 +3159,9 @@
    },
    "auto": true,
    "lessons": [
-    "ca-l38"
+    "ca-l38",
+    "ca-l57",
+    "ca-l59"
    ]
   },
   {
@@ -3408,9 +3186,14 @@
    "en": "Maybe tomorrow.",
    "pt": "Talvez amanhã.",
    "emoji": "🤔",
+   "example": {
+    "en": "Good idea. Maybe tomorrow.",
+    "pt": "Boa ideia. Talvez amanhã."
+   },
    "auto": true,
    "lessons": [
-    "ca-l38"
+    "ca-l38",
+    "ca-l48"
    ]
   },
   {
@@ -3443,8 +3226,7 @@
    "lessons": [
     "ca-l38",
     "ca-l40",
-    "ca-l42",
-    "ca-city-bus"
+    "ca-l42"
    ]
   },
   {
@@ -3460,7 +3242,8 @@
    "auto": true,
    "lessons": [
     "ca-l39",
-    "ca-l40"
+    "ca-l40",
+    "ca-l59"
    ]
   },
   {
@@ -3472,7 +3255,8 @@
    "auto": true,
    "lessons": [
     "ca-l39",
-    "ca-l40"
+    "ca-l40",
+    "ca-l59"
    ]
   },
   {
@@ -3488,7 +3272,8 @@
    "auto": true,
    "lessons": [
     "ca-l39",
-    "ca-l40"
+    "ca-l40",
+    "ca-l59"
    ]
   },
   {
@@ -3504,7 +3289,8 @@
    "auto": true,
    "lessons": [
     "ca-l39",
-    "ca-l40"
+    "ca-l40",
+    "ca-l59"
    ]
   },
   {
@@ -3523,74 +3309,6 @@
    ]
   },
   {
-   "id": "understand",
-   "theme": "escola",
-   "en": "understand",
-   "pt": "entender",
-   "emoji": "💡",
-   "example": {
-    "en": "Sorry. I don't understand.",
-    "pt": "Desculpa. Eu não entendi."
-   },
-   "auto": true,
-   "lessons": [
-    "ca-l04",
-    "ca-l32",
-    "ca-l34",
-    "ca-l35",
-    "ca-school-classroom"
-   ]
-  },
-  {
-   "id": "slowly",
-   "theme": "escola",
-   "en": "slowly",
-   "pt": "devagar",
-   "emoji": "🐢",
-   "example": {
-    "en": "Sorry, I don't understand. Can you speak more slowly?",
-    "pt": "Desculpe, eu não entendi. Pode falar mais devagar?"
-   },
-   "auto": true,
-   "lessons": [
-    "ca-l32",
-    "ca-l35",
-    "ca-school-classroom"
-   ]
-  },
-  {
-   "id": "sports",
-   "theme": "escola",
-   "en": "sports",
-   "pt": "esportes",
-   "emoji": "🏅",
-   "example": {
-    "en": "Do you like sports?",
-    "pt": "Você gosta de esportes?"
-   },
-   "auto": true,
-   "lessons": [
-    "ca-school-friends"
-   ]
-  },
-  {
-   "id": "play",
-   "theme": "escola",
-   "en": "play",
-   "pt": "jogar / brincar",
-   "emoji": "🎮",
-   "example": {
-    "en": "I play hockey and basketball.",
-    "pt": "Eu jogo hóquei e basquete."
-   },
-   "auto": true,
-   "lessons": [
-    "ca-l37",
-    "ca-school-friends",
-    "ca-coffee"
-   ]
-  },
-  {
    "id": "host-family",
    "theme": "casa",
    "en": "host family",
@@ -3605,8 +3323,7 @@
     "ca-l19",
     "ca-l20",
     "ca-l44",
-    "ca-l45",
-    "ca-immigration"
+    "ca-l45"
    ]
   },
   {
@@ -3647,10 +3364,7 @@
     "ca-l23",
     "ca-l32",
     "ca-l38",
-    "ca-l40",
-    "ca-host-arrival",
-    "ca-host-rules",
-    "ca-school-classroom"
+    "ca-l40"
    ]
   },
   {
@@ -3681,8 +3395,7 @@
     "ca-l22",
     "ca-l28",
     "ca-l30",
-    "ca-host-arrival",
-    "ca-school-first-day"
+    "ca-l60"
    ]
   },
   {
@@ -3709,8 +3422,7 @@
    },
    "note": "No Canadá, em lugares públicos, também se diz \"washroom\".",
    "lessons": [
-    "ca-l22",
-    "ca-host-arrival"
+    "ca-l22"
    ]
   },
   {
@@ -3760,9 +3472,7 @@
     "en": "I take a shower in the morning.",
     "pt": "Eu tomo banho de manhã."
    },
-   "lessons": [
-    "ca-host-rules"
-   ]
+   "lessons": []
   },
   {
    "id": "towel",
@@ -3799,8 +3509,7 @@
     "pt": "O leite está na geladeira."
    },
    "lessons": [
-    "ca-l23",
-    "ca-host-rules"
+    "ca-l23"
    ]
   },
   {
@@ -3854,8 +3563,7 @@
     "pt": "Qual é a senha do Wi-Fi?"
    },
    "lessons": [
-    "ca-l23",
-    "ca-host-rules"
+    "ca-l23"
    ]
   },
   {
@@ -3868,9 +3576,7 @@
     "en": "I wake up at seven.",
     "pt": "Eu acordo às sete."
    },
-   "lessons": [
-    "ca-host-rules"
-   ]
+   "lessons": []
   },
   {
    "id": "house-rules",
@@ -3909,7 +3615,8 @@
    "note": "Para saber o horário das refeições.",
    "lessons": [
     "ca-l23",
-    "ca-l25"
+    "ca-l25",
+    "ca-l59"
    ]
   },
   {
@@ -3951,8 +3658,7 @@
    },
    "auto": true,
    "lessons": [
-    "ca-l21",
-    "ca-baggage"
+    "ca-l21"
    ]
   },
   {
@@ -4005,11 +3711,11 @@
     "ca-l42",
     "ca-l44",
     "ca-l45",
-    "ca-host-arrival",
-    "ca-host-rules",
-    "ca-host-dinner",
-    "ca-school-friends",
-    "ca-coffee"
+    "ca-l49",
+    "ca-l50",
+    "ca-l52",
+    "ca-coffee",
+    "ca-l59"
    ]
   },
   {
@@ -4024,8 +3730,7 @@
    },
    "auto": true,
    "lessons": [
-    "ca-l23",
-    "ca-host-rules"
+    "ca-l23"
    ]
   },
   {
@@ -4040,8 +3745,7 @@
    },
    "auto": true,
    "lessons": [
-    "ca-l23",
-    "ca-host-rules"
+    "ca-l23"
    ]
   },
   {
@@ -4058,7 +3762,7 @@
    "lessons": [
     "ca-l24",
     "ca-l25",
-    "ca-host-dinner"
+    "ca-l57"
    ]
   },
   {
@@ -4073,8 +3777,7 @@
    },
    "auto": true,
    "lessons": [
-    "ca-l24",
-    "ca-host-dinner"
+    "ca-l24"
    ]
   },
   {
@@ -4090,7 +3793,8 @@
    "auto": true,
    "lessons": [
     "ca-l25",
-    "ca-l38"
+    "ca-l38",
+    "ca-l48"
    ]
   },
   {
@@ -4105,8 +3809,7 @@
    },
    "auto": true,
    "lessons": [
-    "ca-l25",
-    "ca-host-rules"
+    "ca-l25"
    ]
   },
   {
@@ -4121,8 +3824,7 @@
    },
    "auto": true,
    "lessons": [
-    "ca-l25",
-    "ca-host-rules"
+    "ca-l25"
    ]
   },
   {
@@ -4151,8 +3853,7 @@
     "ca-l24",
     "ca-l27",
     "ca-l29",
-    "ca-host-dinner",
-    "ca-school-first-day"
+    "ca-l46"
    ]
   },
   {
@@ -4169,8 +3870,7 @@
     "ca-l22",
     "ca-l23",
     "ca-l25",
-    "ca-host-rules",
-    "ca-host-dinner"
+    "ca-l59"
    ]
   },
   {
@@ -4184,9 +3884,7 @@
     "pt": "Estou com fome."
    },
    "lessons": [
-    "ca-l22",
-    "ca-host-arrival",
-    "ca-host-rules"
+    "ca-l22"
    ]
   },
   {
@@ -4202,7 +3900,7 @@
    "lessons": [
     "ca-l24",
     "ca-l25",
-    "ca-host-dinner"
+    "ca-l57"
    ]
   },
   {
@@ -4216,8 +3914,7 @@
     "pt": "Posso tomar um pouco de água?"
    },
    "lessons": [
-    "ca-l29",
-    "ca-host-dinner"
+    "ca-l29"
    ]
   },
   {
@@ -4259,7 +3956,8 @@
     "pt": "Um chocolate quente, por favor."
    },
    "lessons": [
-    "ca-coffee"
+    "ca-coffee",
+    "ca-l59"
    ]
   },
   {
@@ -4289,7 +3987,8 @@
     "pt": "Uma rosquinha, por favor."
    },
    "lessons": [
-    "ca-coffee"
+    "ca-coffee",
+    "ca-l59"
    ]
   },
   {
@@ -4328,8 +4027,7 @@
    },
    "lessons": [
     "ca-l24",
-    "ca-l25",
-    "ca-host-dinner"
+    "ca-l25"
    ]
   },
   {
@@ -4345,7 +4043,7 @@
    "lessons": [
     "ca-l24",
     "ca-l25",
-    "ca-host-dinner"
+    "ca-l46"
    ]
   },
   {
@@ -4360,8 +4058,7 @@
    },
    "lessons": [
     "ca-l24",
-    "ca-l25",
-    "ca-host-dinner"
+    "ca-l25"
    ]
   },
   {
@@ -4377,7 +4074,8 @@
    "note": "Prato típico do Canadá: batata frita, queijo em pedaços e molho.",
    "variant": true,
    "lessons": [
-    "ca-coffee"
+    "ca-coffee",
+    "ca-l57"
    ]
   },
   {
@@ -4429,7 +4127,10 @@
     "en": "I'm allergic to peanuts.",
     "pt": "Sou alérgico a amendoim."
    },
-   "lessons": []
+   "lessons": [
+    "ca-l46",
+    "ca-l60"
+   ]
   },
   {
    "id": "im-hungry",
@@ -4486,8 +4187,7 @@
    "note": "Na mesa. Exemplo: \"Can you pass the salt, please?\"",
    "lessons": [
     "ca-l24",
-    "ca-l25",
-    "ca-host-dinner"
+    "ca-l25"
    ]
   },
   {
@@ -4505,7 +4205,7 @@
    "lessons": [
     "ca-l24",
     "ca-l25",
-    "ca-host-dinner"
+    "ca-l46"
    ]
   },
   {
@@ -4520,6 +4220,8 @@
     "pt": "Um café médio, por favor."
    },
    "lessons": [
+    "ca-l49",
+    "ca-l50",
     "ca-coffee"
    ]
   },
@@ -4549,6 +4251,183 @@
    "lessons": []
   },
   {
+   "id": "im-allergic-to-2",
+   "theme": "comida",
+   "en": "I'm allergic to...",
+   "pt": "Eu sou alérgico / alérgica a...",
+   "emoji": "⚠️",
+   "auto": true,
+   "lessons": [
+    "ca-l46",
+    "ca-l60"
+   ]
+  },
+  {
+   "id": "peanuts",
+   "theme": "comida",
+   "en": "peanuts",
+   "pt": "amendoim",
+   "emoji": "🥜",
+   "example": {
+    "en": "I'm allergic to peanuts.",
+    "pt": "Eu sou alérgica a amendoim."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l46",
+    "ca-l50",
+    "ca-l57",
+    "ca-l60"
+   ]
+  },
+  {
+   "id": "does-this-have",
+   "theme": "comida",
+   "en": "Does this have...?",
+   "pt": "Isto tem...?",
+   "emoji": "❓",
+   "auto": true,
+   "lessons": [
+    "ca-l46",
+    "ca-l50",
+    "ca-l57"
+   ]
+  },
+  {
+   "id": "sandwich",
+   "theme": "comida",
+   "en": "sandwich",
+   "pt": "sanduíche",
+   "emoji": "🥪",
+   "example": {
+    "en": "The sandwich, no. The cookies, yes.",
+    "pt": "O sanduíche, não. Os biscoitos, sim."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l46"
+   ]
+  },
+  {
+   "id": "label",
+   "theme": "comida",
+   "en": "label",
+   "pt": "rótulo",
+   "emoji": "🏷️",
+   "auto": true,
+   "lessons": [
+    "ca-l46"
+   ]
+  },
+  {
+   "id": "its-cold",
+   "theme": "comida",
+   "en": "It's cold.",
+   "pt": "Está frio.",
+   "emoji": "🥶",
+   "example": {
+    "en": "Yes, it's cold. Bring a jacket.",
+    "pt": "Sim, está frio. Traga um casaco."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l15",
+    "ca-l47"
+   ]
+  },
+  {
+   "id": "im-freezing",
+   "theme": "comida",
+   "en": "I'm freezing.",
+   "pt": "Estou congelando.",
+   "emoji": "🧊",
+   "example": {
+    "en": "It's cold! I'm freezing.",
+    "pt": "Está frio! Estou congelando."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l47"
+   ]
+  },
+  {
+   "id": "fingers",
+   "theme": "comida",
+   "en": "fingers",
+   "pt": "dedos (da mão)",
+   "emoji": "🖐️",
+   "example": {
+    "en": "Mittens keep your fingers together, so your hands stay warm.",
+    "pt": "As mittens deixam os dedos juntos, assim as mãos ficam quentes."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l47"
+   ]
+  },
+  {
+   "id": "its-raining",
+   "theme": "comida",
+   "en": "It's raining.",
+   "pt": "Está chovendo.",
+   "emoji": "🌧️",
+   "example": {
+    "en": "Look! It's raining.",
+    "pt": "Olha! Está chovendo."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l48",
+    "ca-l50"
+   ]
+  },
+  {
+   "id": "lets-stay-inside",
+   "theme": "comida",
+   "en": "Let's stay inside.",
+   "pt": "Vamos ficar em casa / dentro.",
+   "emoji": "🏠",
+   "example": {
+    "en": "Okay. Let's stay inside.",
+    "pt": "Tudo bem. Vamos ficar em casa."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l48"
+   ]
+  },
+  {
+   "id": "park",
+   "theme": "comida",
+   "en": "park",
+   "pt": "parque",
+   "emoji": "🌳",
+   "example": {
+    "en": "Let's go to the park today.",
+    "pt": "Vamos ao parque hoje."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l48"
+   ]
+  },
+  {
+   "id": "smaller",
+   "theme": "comida",
+   "en": "smaller",
+   "pt": "menor",
+   "emoji": "🔽",
+   "example": {
+    "en": "Excuse me. Do you have a smaller size?",
+    "pt": "Com licença. Você tem um tamanho menor?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l49",
+    "ca-l50"
+   ]
+  },
+  {
    "id": "bus",
    "theme": "transporte",
    "en": "bus",
@@ -4562,9 +4441,10 @@
     "ca-l41",
     "ca-l42",
     "ca-l45",
-    "ca-city-bus",
-    "ca-city-help",
-    "ca-coffee"
+    "ca-l53",
+    "ca-l55",
+    "ca-coffee",
+    "ca-l59"
    ]
   },
   {
@@ -4595,8 +4475,8 @@
    },
    "lessons": [
     "ca-l41",
-    "ca-city-bus",
-    "ca-city-help"
+    "ca-l53",
+    "ca-l55"
    ]
   },
   {
@@ -4677,8 +4557,7 @@
    },
    "lessons": [
     "ca-l41",
-    "ca-city-bus",
-    "ca-city-help"
+    "ca-l53"
    ]
   },
   {
@@ -4693,8 +4572,7 @@
    },
    "lessons": [
     "ca-l21",
-    "ca-l44",
-    "ca-baggage"
+    "ca-l44"
    ]
   },
   {
@@ -4712,9 +4590,7 @@
     "ca-l18",
     "ca-l20",
     "ca-l43",
-    "ca-l45",
-    "ca-checkin",
-    "ca-city-bus"
+    "ca-l45"
    ]
   },
   {
@@ -4729,9 +4605,7 @@
    },
    "lessons": [
     "ca-l43",
-    "ca-baggage",
-    "ca-school-friends",
-    "ca-city-bus"
+    "ca-l54"
    ]
   },
   {
@@ -4746,8 +4620,7 @@
    },
    "lessons": [
     "ca-l43",
-    "ca-l45",
-    "ca-city-bus"
+    "ca-l45"
    ]
   },
   {
@@ -4760,9 +4633,7 @@
     "en": "The next bus is later.",
     "pt": "O próximo ônibus é mais tarde."
    },
-   "lessons": [
-    "ca-school-friends"
-   ]
+   "lessons": []
   },
   {
    "id": "where-is-the-bus-stop",
@@ -4776,8 +4647,7 @@
    },
    "note": "Uma das perguntas mais úteis na cidade.",
    "lessons": [
-    "ca-l41",
-    "ca-city-bus"
+    "ca-l41"
    ]
   },
   {
@@ -4796,7 +4666,7 @@
     "ca-l41",
     "ca-l42",
     "ca-l45",
-    "ca-city-bus"
+    "ca-l59"
    ]
   },
   {
@@ -4812,8 +4682,7 @@
    },
    "note": "Para pedir um caminho. Exemplo: \"How do I get to the library?\"",
    "lessons": [
-    "ca-l43",
-    "ca-city-bus"
+    "ca-l43"
    ]
   },
   {
@@ -4851,10 +4720,7 @@
     "en": "Can I get a taxi here?",
     "pt": "Dá para pegar um táxi aqui?"
    },
-   "lessons": [
-    "ca-checkin",
-    "ca-city-bus"
-   ]
+   "lessons": []
   },
   {
    "id": "map",
@@ -4884,8 +4750,7 @@
     "ca-l42",
     "ca-l43",
     "ca-l45",
-    "ca-school-classroom",
-    "ca-city-bus"
+    "ca-l59"
    ]
   },
   {
@@ -4894,14 +4759,9 @@
    "en": "Take the number nine.",
    "pt": "Pegue o número nove.",
    "emoji": "9️⃣",
-   "example": {
-    "en": "No, take the number nine.",
-    "pt": "Não, pegue o número nove."
-   },
    "auto": true,
    "lessons": [
-    "ca-l41",
-    "ca-city-bus"
+    "ca-l41"
    ]
   },
   {
@@ -4916,8 +4776,7 @@
    },
    "auto": true,
    "lessons": [
-    "ca-l41",
-    "ca-city-bus"
+    "ca-l41"
    ]
   },
   {
@@ -4962,7 +4821,9 @@
    },
    "auto": true,
    "lessons": [
-    "ca-l42"
+    "ca-l42",
+    "ca-l49",
+    "ca-l50"
    ]
   },
   {
@@ -4973,8 +4834,7 @@
    "emoji": "🗺️",
    "auto": true,
    "lessons": [
-    "ca-l43",
-    "ca-city-bus"
+    "ca-l43"
    ]
   },
   {
@@ -4986,8 +4846,7 @@
    "auto": true,
    "lessons": [
     "ca-l43",
-    "ca-l45",
-    "ca-city-bus"
+    "ca-l45"
    ]
   },
   {
@@ -5003,8 +4862,7 @@
    "auto": true,
    "lessons": [
     "ca-l43",
-    "ca-l45",
-    "ca-city-bus"
+    "ca-l45"
    ]
   },
   {
@@ -5035,8 +4893,7 @@
    "auto": true,
    "lessons": [
     "ca-l43",
-    "ca-l44",
-    "ca-city-bus"
+    "ca-l44"
    ]
   },
   {
@@ -5080,7 +4937,9 @@
     "pt": "Eu preciso ver um médico."
    },
    "lessons": [
-    "ca-city-help"
+    "ca-l51",
+    "ca-l52",
+    "ca-l55"
    ]
   },
   {
@@ -5105,9 +4964,7 @@
     "en": "The hospital is near here.",
     "pt": "O hospital é perto daqui."
    },
-   "lessons": [
-    "ca-school-classroom"
-   ]
+   "lessons": []
   },
   {
    "id": "pharmacy",
@@ -5121,7 +4978,7 @@
    },
    "note": "Também se diz \"drugstore\".",
    "lessons": [
-    "ca-city-bus"
+    "ca-l52"
    ]
   },
   {
@@ -5134,7 +4991,9 @@
     "en": "I need my medicine.",
     "pt": "Preciso do meu remédio."
    },
-   "lessons": []
+   "lessons": [
+    "ca-l52"
+   ]
   },
   {
    "id": "ambulance",
@@ -5146,7 +5005,9 @@
     "en": "Call an ambulance!",
     "pt": "Chame uma ambulância!"
    },
-   "lessons": []
+   "lessons": [
+    "ca-l53"
+   ]
   },
   {
    "id": "emergency",
@@ -5160,7 +5021,9 @@
    },
    "lessons": [
     "ca-l44",
-    "ca-city-help"
+    "ca-l52",
+    "ca-l53",
+    "ca-l55"
    ]
   },
   {
@@ -5174,7 +5037,8 @@
     "pt": "Estou doente hoje."
    },
    "lessons": [
-    "ca-city-help"
+    "ca-l51",
+    "ca-l55"
    ]
   },
   {
@@ -5188,7 +5052,8 @@
     "pt": "Eu estou machucado."
    },
    "lessons": [
-    "ca-city-help"
+    "ca-l53",
+    "ca-l55"
    ]
   },
   {
@@ -5202,7 +5067,7 @@
     "pt": "Estou com dor de cabeça."
    },
    "lessons": [
-    "ca-city-help"
+    "ca-l51"
    ]
   },
   {
@@ -5216,7 +5081,7 @@
     "pt": "Estou com febre."
    },
    "lessons": [
-    "ca-city-help"
+    "ca-l51"
    ]
   },
   {
@@ -5243,8 +5108,7 @@
    },
    "lessons": [
     "ca-l22",
-    "ca-l38",
-    "ca-host-arrival"
+    "ca-l38"
    ]
   },
   {
@@ -5271,7 +5135,9 @@
     "pt": "Eu preciso de um médico."
    },
    "note": "Diga isso à família anfitriã ou na escola.",
-   "lessons": []
+   "lessons": [
+    "ca-l51"
+   ]
   },
   {
    "id": "call-911",
@@ -5312,7 +5178,10 @@
     "pt": "Sou alérgico(a) a amendoim."
    },
    "note": "Exemplo: \"I'm allergic to peanuts.\" Avise sempre sobre alergias.",
-   "lessons": []
+   "lessons": [
+    "ca-l46",
+    "ca-l60"
+   ]
   },
   {
    "id": "please-help",
@@ -5353,26 +5222,195 @@
    "lessons": []
   },
   {
-   "id": "help",
+   "id": "sore-throat",
    "theme": "saude",
-   "en": "help",
-   "pt": "ajuda / ajudar",
-   "emoji": "🆘",
+   "en": "sore throat",
+   "pt": "dor de garganta",
+   "emoji": "😷",
    "example": {
-    "en": "Excuse me. Can you help me?",
-    "pt": "Com licença. Pode me ajudar?"
+    "en": "I have a headache and a sore throat.",
+    "pt": "Estou com dor de cabeça e dor de garganta."
    },
    "auto": true,
    "lessons": [
-    "ca-l18",
-    "ca-l24",
-    "ca-l26",
-    "ca-l30",
-    "ca-l34",
-    "ca-l44",
-    "ca-host-dinner",
-    "ca-school-first-day",
-    "ca-city-help"
+    "ca-l51",
+    "ca-l52"
+   ]
+  },
+  {
+   "id": "pharmacist",
+   "theme": "saude",
+   "en": "pharmacist",
+   "pt": "farmacêutico / farmacêutica",
+   "emoji": "👩‍⚕️",
+   "example": {
+    "en": "Excuse me. Can I speak to the pharmacist?",
+    "pt": "Com licença. Posso falar com o farmacêutico?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l52"
+   ]
+  },
+  {
+   "id": "prescription",
+   "theme": "saude",
+   "en": "prescription",
+   "pt": "receita médica",
+   "emoji": "📄",
+   "example": {
+    "en": "Do you have a prescription?",
+    "pt": "Você tem receita?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l52"
+   ]
+  },
+  {
+   "id": "insurance",
+   "theme": "saude",
+   "en": "insurance",
+   "pt": "seguro (saúde)",
+   "emoji": "🛡️",
+   "example": {
+    "en": "No. I have insurance.",
+    "pt": "Não. Eu tenho seguro."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l52"
+   ]
+  },
+  {
+   "id": "call-nine-one-one",
+   "theme": "saude",
+   "en": "Call nine one one.",
+   "pt": "Ligue para o 911.",
+   "emoji": "🚨",
+   "auto": true,
+   "lessons": [
+    "ca-l53"
+   ]
+  },
+  {
+   "id": "my-friend-is-hurt",
+   "theme": "saude",
+   "en": "My friend is hurt.",
+   "pt": "O meu amigo está machucado.",
+   "emoji": "🤕",
+   "example": {
+    "en": "My friend is hurt. We need an ambulance.",
+    "pt": "O meu amigo está machucado. Precisamos de uma ambulância."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l53",
+    "ca-l55"
+   ]
+  },
+  {
+   "id": "where-are-you",
+   "theme": "saude",
+   "en": "Where are you?",
+   "pt": "Onde você está?",
+   "emoji": "📍",
+   "auto": true,
+   "lessons": [
+    "ca-l03",
+    "ca-l05",
+    "ca-l53"
+   ]
+  },
+  {
+   "id": "please-repeat",
+   "theme": "saude",
+   "en": "Please repeat.",
+   "pt": "Repita, por favor.",
+   "emoji": "🔁",
+   "example": {
+    "en": "Sorry, please repeat.",
+    "pt": "Desculpe, repita, por favor."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l53"
+   ]
+  },
+  {
+   "id": "i-dont-feel-safe",
+   "theme": "saude",
+   "en": "I don't feel safe.",
+   "pt": "Eu não me sinto seguro / segura.",
+   "emoji": "⚠️",
+   "example": {
+    "en": "Ms. Lee, I don't feel safe.",
+    "pt": "Ms. Lee, eu não me sinto segura."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l54",
+    "ca-l55"
+   ]
+  },
+  {
+   "id": "someone-is-hurting-me",
+   "theme": "saude",
+   "en": "Someone is hurting me.",
+   "pt": "Alguém está me machucando.",
+   "emoji": "🛑",
+   "example": {
+    "en": "Someone is hurting me. I need help.",
+    "pt": "Alguém está me machucando. Eu preciso de ajuda."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l54"
+   ]
+  },
+  {
+   "id": "is-it-safe",
+   "theme": "saude",
+   "en": "Is it safe?",
+   "pt": "É seguro?",
+   "emoji": "❓",
+   "example": {
+    "en": "Dave, the lake is frozen. Is it safe?",
+    "pt": "Dave, o lago está congelado. É seguro?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l54"
+   ]
+  },
+  {
+   "id": "frozen-lake",
+   "theme": "saude",
+   "en": "frozen lake",
+   "pt": "lago congelado",
+   "emoji": "🧊",
+   "example": {
+    "en": "No. Never go on a frozen lake alone. Use the ice rink.",
+    "pt": "Não. Nunca entre num lago congelado sozinha. Use a pista de patinação."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l54"
+   ]
+  },
+  {
+   "id": "ice-rink",
+   "theme": "saude",
+   "en": "ice rink",
+   "pt": "pista de patinação",
+   "emoji": "⛸️",
+   "example": {
+    "en": "No. Never go on a frozen lake alone. Use the ice rink.",
+    "pt": "Não. Nunca entre num lago congelado sozinha. Use a pista de patinação."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l54"
    ]
   },
   {
@@ -5385,7 +5423,9 @@
     "en": "Do you take cash?",
     "pt": "Vocês aceitam dinheiro?"
    },
-   "lessons": []
+   "lessons": [
+    "ca-l49"
+   ]
   },
   {
    "id": "credit-card",
@@ -5409,7 +5449,10 @@
     "en": "Can I have a receipt, please?",
     "pt": "Posso pegar o recibo, por favor?"
    },
-   "lessons": []
+   "lessons": [
+    "ca-l49",
+    "ca-l50"
+   ]
   },
   {
    "id": "change",
@@ -5437,7 +5480,9 @@
    },
    "note": "No Canadá, o imposto costuma ser somado no caixa, depois do preço da etiqueta.",
    "variant": true,
-   "lessons": []
+   "lessons": [
+    "ca-l49"
+   ]
   },
   {
    "id": "tip",
@@ -5481,8 +5526,7 @@
    "lessons": [
     "ca-l06",
     "ca-l12",
-    "ca-l21",
-    "ca-baggage"
+    "ca-l21"
    ]
   },
   {
@@ -5523,7 +5567,10 @@
     "pt": "Posso pagar com cartão?"
    },
    "note": "Pergunte antes de pedir, se tiver dúvida.",
-   "lessons": []
+   "lessons": [
+    "ca-l49",
+    "ca-l50"
+   ]
   },
   {
    "id": "im-just-looking-thanks",
@@ -5624,7 +5671,9 @@
    },
    "lessons": [
     "ca-l42",
-    "ca-l45"
+    "ca-l45",
+    "ca-l49",
+    "ca-l50"
    ]
   },
   {
@@ -5652,7 +5701,7 @@
    "lessons": [
     "ca-l14",
     "ca-l15",
-    "ca-videocall"
+    "ca-l47"
    ]
   },
   {
@@ -5668,9 +5717,7 @@
    "lessons": [
     "ca-l14",
     "ca-l15",
-    "ca-videocall",
-    "ca-city-help",
-    "ca-cold"
+    "ca-l47"
    ]
   },
   {
@@ -5684,7 +5731,7 @@
     "pt": "Está congelando lá fora!"
    },
    "lessons": [
-    "ca-cold"
+    "ca-l47"
    ]
   },
   {
@@ -5698,7 +5745,8 @@
     "pt": "Faz calor no verão."
    },
    "lessons": [
-    "ca-coffee"
+    "ca-coffee",
+    "ca-l59"
    ]
   },
   {
@@ -5712,8 +5760,7 @@
     "pt": "Eu adoro a neve."
    },
    "lessons": [
-    "ca-l14",
-    "ca-cold"
+    "ca-l14"
    ]
   },
   {
@@ -5753,7 +5800,7 @@
    "note": "Palavra canadense: \"toque\" se pronuncia \"tuque\". Nos EUA se diz \"beanie\".",
    "variant": true,
    "lessons": [
-    "ca-cold"
+    "ca-l47"
    ]
   },
   {
@@ -5767,7 +5814,7 @@
     "pt": "Preciso de luvas novas."
    },
    "lessons": [
-    "ca-cold"
+    "ca-l47"
    ]
   },
   {
@@ -5806,7 +5853,10 @@
     "en": "Take an umbrella.",
     "pt": "Leve um guarda-chuva."
    },
-   "lessons": []
+   "lessons": [
+    "ca-l48",
+    "ca-l50"
+   ]
   },
   {
    "id": "weather",
@@ -5831,7 +5881,7 @@
     "pt": "Use um gorro. Está frio."
    },
    "lessons": [
-    "ca-cold"
+    "ca-l47"
    ]
   },
   {
@@ -5875,7 +5925,7 @@
    "note": "Você pode ouvir eh? no final de uma frase, parecido com né?. O uso varia; você não precisa usar.",
    "variant": true,
    "lessons": [
-    "ca-cold"
+    "ca-l47"
    ]
   },
   {
@@ -5892,8 +5942,7 @@
    "variant": true,
    "lessons": [
     "ca-l37",
-    "ca-school-friends",
-    "ca-cold",
+    "ca-l54",
     "ca-coffee"
    ]
   },
@@ -5922,7 +5971,8 @@
    },
    "variant": true,
    "lessons": [
-    "ca-coffee"
+    "ca-coffee",
+    "ca-l59"
    ]
   },
   {
@@ -5940,9 +5990,7 @@
    "lessons": [
     "ca-l29",
     "ca-l30",
-    "ca-l32",
-    "ca-host-arrival",
-    "ca-school-classroom"
+    "ca-l32"
    ]
   },
   {
@@ -5988,8 +6036,197 @@
    "note": "Para comentar que está nevando. O clima varia bastante entre regiões e estações.",
    "variant": true,
    "lessons": [
-    "ca-cold",
     "ca-coffee"
+   ]
+  },
+  {
+   "id": "fries",
+   "theme": "local",
+   "en": "fries",
+   "pt": "batata frita",
+   "emoji": "🍟",
+   "example": {
+    "en": "It's fries with cheese curds and gravy.",
+    "pt": "É batata frita com queijo coalhado e molho."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l57"
+   ]
+  },
+  {
+   "id": "cheese",
+   "theme": "local",
+   "en": "cheese",
+   "pt": "queijo",
+   "emoji": "🧀",
+   "example": {
+    "en": "It's fries with cheese curds and gravy.",
+    "pt": "É batata frita com queijo coalhado e molho."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l57"
+   ]
+  },
+  {
+   "id": "gravy",
+   "theme": "local",
+   "en": "gravy",
+   "pt": "molho (de carne)",
+   "emoji": "🥣",
+   "example": {
+    "en": "It's fries with cheese curds and gravy.",
+    "pt": "É batata frita com queijo coalhado e molho."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l57"
+   ]
+  },
+  {
+   "id": "try",
+   "theme": "local",
+   "en": "try",
+   "pt": "provar / experimentar",
+   "emoji": "😋",
+   "example": {
+    "en": "Great. And I want to try hockey too.",
+    "pt": "Ótimo. E eu quero experimentar hóquei também."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l37",
+    "ca-l57"
+   ]
+  },
+  {
+   "id": "dessert",
+   "theme": "local",
+   "en": "dessert",
+   "pt": "sobremesa",
+   "emoji": "🍰",
+   "example": {
+    "en": "And dessert?",
+    "pt": "E sobremesa?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l57"
+   ]
+  },
+  {
+   "id": "how-do-you-say",
+   "theme": "local",
+   "en": "How do you say...?",
+   "pt": "Como se fala / se diz...?",
+   "emoji": "🗣️",
+   "auto": true,
+   "lessons": [
+    "ca-l58"
+   ]
+  },
+  {
+   "id": "what-does-this-mean",
+   "theme": "local",
+   "en": "What does this mean?",
+   "pt": "O que isto significa?",
+   "emoji": "❓",
+   "example": {
+    "en": "And this sign is in French. What does this mean?",
+    "pt": "E esta placa está em francês. O que isto significa?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l31",
+    "ca-l58"
+   ]
+  },
+  {
+   "id": "sign",
+   "theme": "local",
+   "en": "sign",
+   "pt": "placa / aviso",
+   "emoji": "🪧",
+   "example": {
+    "en": "And this sign is in French. What does this mean?",
+    "pt": "E esta placa está em francês. O que isto significa?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l58"
+   ]
+  },
+  {
+   "id": "french",
+   "theme": "local",
+   "en": "French",
+   "pt": "francês",
+   "emoji": "🇫🇷",
+   "example": {
+    "en": "And this sign is in French. What does this mean?",
+    "pt": "E esta placa está em francês. O que isto significa?"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l58"
+   ]
+  },
+  {
+   "id": "languages",
+   "theme": "local",
+   "en": "languages",
+   "pt": "línguas / idiomas",
+   "emoji": "🌐",
+   "example": {
+    "en": "It means exit. Canada has two official languages.",
+    "pt": "Significa saída. O Canadá tem duas línguas oficiais."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l58"
+   ]
+  },
+  {
+   "id": "have-fun",
+   "theme": "local",
+   "en": "Have fun!",
+   "pt": "Divirta-se!",
+   "emoji": "🎉",
+   "example": {
+    "en": "At six. Have fun!",
+    "pt": "Às seis. Divirta-se!"
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l59"
+   ]
+  },
+  {
+   "id": "alone",
+   "theme": "local",
+   "en": "alone",
+   "pt": "sozinho / sozinha",
+   "emoji": "🧍",
+   "example": {
+    "en": "No. Never go on a frozen lake alone. Use the ice rink.",
+    "pt": "Não. Nunca entre num lago congelado sozinha. Use a pista de patinação."
+   },
+   "auto": true,
+   "lessons": [
+    "ca-l54",
+    "ca-l60"
+   ]
+  },
+  {
+   "id": "week",
+   "theme": "local",
+   "en": "week",
+   "pt": "semana",
+   "emoji": "🗓️",
+   "auto": true,
+   "lessons": [
+    "ca-l60"
    ]
   }
  ]

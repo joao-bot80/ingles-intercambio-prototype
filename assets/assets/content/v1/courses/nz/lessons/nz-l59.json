@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l59",
+  "title": "Missão: meu sábado com Ruby",
+  "scenario": "Bia combina a volta com Jo, pede explicação na dairy e decide sobre comida e foto.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Missão: meu sábado com Ruby",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "en": "Jo, what time is dinner?",
+          "pt": "Jo, que horas é o jantar?"
+        },
+        {
+          "speaker": "Jo",
+          "en": "At six. Have fun!",
+          "pt": "Às seis. Divirta-se!"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Ruby, what's a dairy?",
+          "pt": "Ruby, o que é uma dairy?"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "It's a small shop. Do you want lollies?",
+          "pt": "É uma lojinha. Quer lollies?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "No, thanks. What does that mean, sweet as?",
+          "pt": "Não, obrigada. O que significa sweet as?"
+        },
+        {
+          "speaker": "Ruby",
+          "en": "It means great! Can I take a photo?",
+          "pt": "Significa ótimo! Posso tirar uma foto?"
+        },
+        {
+          "speaker": "Bia",
+          "en": "Sure, but please don't post it.",
+          "pt": "Claro, mas por favor não poste."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Have fun!",
+          "pt": "Divirta-se!",
+          "emoji": "🎉"
+        },
+        {
+          "en": "lollies",
+          "pt": "balas e doces (na NZ)",
+          "emoji": "🍬"
+        },
+        {
+          "en": "great",
+          "pt": "ótimo",
+          "emoji": "🌟"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Jo, what time is dinner?\"?",
+      "lang": "pt",
+      "options": [
+        "Claro, mas por favor não poste.",
+        "Às seis. Divirta-se!",
+        "Jo, que horas é o jantar?"
+      ],
+      "correct": 2,
+      "explanation": "\"What time is dinner?\" = Que horas é o jantar?"
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Claro, mas por favor não poste.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "No, thanks. What does that mean, sweet as?",
+        "It means great! Can I take a photo?",
+        "Sure, but please don't post it."
+      ],
+      "correct": 2,
+      "explanation": "\"Please don't post it\" = por favor, não poste."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Jo, que horas é o jantar?",
+      "answer": [
+        "Jo,",
+        "what",
+        "time",
+        "is",
+        "dinner?"
+      ],
+      "distractors": [
+        "please",
+        "don't"
+      ],
+      "explanation": "\"What time is dinner?\" = Que horas é o jantar?"
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Ruby, what's a dairy?",
+      "lang": "pt",
+      "options": [
+        "Claro, mas por favor não poste.",
+        "Ruby, o que é uma dairy?",
+        "Jo, que horas é o jantar?"
+      ],
+      "correct": 1,
+      "explanation": "\"What's a dairy?\" = O que é uma dairy?"
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Ruby",
+          "en": "It's a small shop. Do you want lollies?",
+          "pt": "É uma lojinha. Quer lollies?"
+        }
+      ],
+      "speaker": "Bia",
+      "pt": "Não, obrigada. O que significa sweet as?",
+      "options": [
+        "Jo, what time is dinner?",
+        "At six. Have fun!",
+        "No, thanks. What does that mean, sweet as?"
+      ],
+      "correct": 2,
+      "explanation": "\"What does that mean?\" = O que isso significa?"
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Um sábado com a Ruby",
+      "questions": [
+        {
+          "english": "Jo, what time is dinner?",
+          "options": [
+            "Claro, mas por favor não poste.",
+            "Às seis. Divirta-se!",
+            "Jo, que horas é o jantar?"
+          ],
+          "correct": 2,
+          "joke": "\"What time is dinner?\" = Que horas é o jantar?"
+        },
+        {
+          "english": "Ruby, what's a dairy?",
+          "options": [
+            "Ruby, o que é uma dairy?",
+            "Significa ótimo! Posso tirar uma foto?",
+            "Claro, mas por favor não poste."
+          ],
+          "correct": 0,
+          "joke": "\"What's a dairy?\" = O que é uma dairy?"
+        },
+        {
+          "english": "No, thanks. What does that mean, sweet as?",
+          "options": [
+            "Significa ótimo! Posso tirar uma foto?",
+            "Claro, mas por favor não poste.",
+            "Não, obrigada. O que significa sweet as?"
+          ],
+          "correct": 2,
+          "joke": "\"What does that mean?\" = O que isso significa?"
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Nova Zelândia · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🙏",
+          "title": "Agradeça ao motorista",
+          "en": "Thank you!",
+          "pt": "É comum agradecer ao motorista ao descer do ônibus: \"Thank you!\"."
+        }
+      ]
+    }
+  ]
+}

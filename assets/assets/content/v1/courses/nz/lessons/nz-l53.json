@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "nz-l53",
+  "title": "111: qual serviço e onde?",
+  "scenario": "Simulação claramente fictícia: Leo pede uma ambulância na Nova Zelândia. Não ligue de verdade para treinar.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "111: qual serviço e onde?",
+      "lines": [
+        {
+          "speaker": "Operator",
+          "en": "Emergency. Which service do you need?",
+          "pt": "Emergência. Qual serviço você precisa?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Ambulance, please.",
+          "pt": "Ambulância, por favor."
+        },
+        {
+          "speaker": "Operator",
+          "en": "What happened?",
+          "pt": "O que aconteceu?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "My friend is hurt.",
+          "pt": "O meu amigo está machucado."
+        },
+        {
+          "speaker": "Operator",
+          "en": "Where are you?",
+          "pt": "Onde você está?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I'm at the bus stop on Queen Street.",
+          "pt": "Estou no ponto de ônibus da Queen Street."
+        },
+        {
+          "speaker": "Operator",
+          "en": "Okay. Stay with your friend. Help is coming.",
+          "pt": "Certo. Fique com o seu amigo. A ajuda está a caminho."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Call one one one.",
+          "pt": "Ligue para o 111.",
+          "emoji": "🚨"
+        },
+        {
+          "en": "Ambulance, please.",
+          "pt": "Ambulância, por favor.",
+          "emoji": "🚑"
+        },
+        {
+          "en": "My friend is hurt.",
+          "pt": "O meu amigo está machucado.",
+          "emoji": "🤕"
+        },
+        {
+          "en": "Where are you?",
+          "pt": "Onde você está?",
+          "emoji": "📍"
+        },
+        {
+          "en": "Which service?",
+          "pt": "Qual serviço?",
+          "emoji": "❓"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Ambulance, please.\"?",
+      "lang": "pt",
+      "options": [
+        "O meu amigo está machucado.",
+        "Ambulância, por favor.",
+        "Onde você está?"
+      ],
+      "correct": 1,
+      "explanation": "Primeiro diga o serviço: \"Ambulance, please\" (ou police / fire)."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Emergência. Qual serviço você precisa?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Where are you?",
+        "Emergency. Which service do you need?",
+        "I'm at the bus stop on Queen Street."
+      ],
+      "correct": 1,
+      "explanation": "\"Which service do you need?\" = Qual serviço você precisa?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "O meu amigo está machucado.",
+      "answer": [
+        "My",
+        "friend",
+        "is",
+        "hurt."
+      ],
+      "distractors": [
+        "okay",
+        "stay"
+      ],
+      "explanation": "\"My friend is hurt\" = o meu amigo está machucado."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "My friend is hurt.",
+      "lang": "pt",
+      "options": [
+        "Certo. Fique com o seu amigo. A ajuda está a caminho.",
+        "O meu amigo está machucado.",
+        "Emergência. Qual serviço você precisa?"
+      ],
+      "correct": 1,
+      "explanation": "\"My friend is hurt\" = o meu amigo está machucado."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Operator",
+          "en": "Where are you?",
+          "pt": "Onde você está?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Estou no ponto de ônibus da Queen Street.",
+      "options": [
+        "I'm at the bus stop on Queen Street.",
+        "Emergency. Which service do you need?",
+        "Ambulance, please."
+      ],
+      "correct": 0,
+      "explanation": "Diga ONDE você está."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Simulação do 111",
+      "questions": [
+        {
+          "english": "Ambulance, please.",
+          "options": [
+            "O meu amigo está machucado.",
+            "Ambulância, por favor.",
+            "Onde você está?"
+          ],
+          "correct": 1,
+          "joke": "Primeiro diga o serviço: \"Ambulance, please\" (ou police / fire)."
+        },
+        {
+          "english": "My friend is hurt.",
+          "options": [
+            "Estou no ponto de ônibus da Queen Street.",
+            "Certo. Fique com o seu amigo. A ajuda está a caminho.",
+            "O meu amigo está machucado."
+          ],
+          "correct": 2,
+          "joke": "\"My friend is hurt\" = o meu amigo está machucado."
+        },
+        {
+          "english": "I'm at the bus stop on Queen Street.",
+          "options": [
+            "Estou no ponto de ônibus da Queen Street.",
+            "Onde você está?",
+            "Certo. Fique com o seu amigo. A ajuda está a caminho."
+          ],
+          "correct": 0,
+          "joke": "Diga ONDE você está."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Saúde e segurança · Nova Zelândia",
+      "items": [
+        {
+          "emoji": "🚨",
+          "title": "Número 111",
+          "en": "Emergency. Which service do you need?",
+          "pt": "O número de emergência da Nova Zelândia é 111 (polícia, bombeiros e ambulância). Diga qual serviço precisa e ONDE você está."
+        }
+      ]
+    }
+  ]
+}

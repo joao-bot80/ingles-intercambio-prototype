@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l53",
+  "title": "Ligar para o 911",
+  "scenario": "Simulação claramente fictícia: Leo pede socorro de emergência no Canadá. Não ligue de verdade para treinar.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Ligar para o 911",
+      "lines": [
+        {
+          "speaker": "Operator",
+          "en": "Nine-one-one, what's your emergency?",
+          "pt": "Nove-um-um, qual é a sua emergência?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "My friend is hurt. We need an ambulance.",
+          "pt": "O meu amigo está machucado. Precisamos de uma ambulância."
+        },
+        {
+          "speaker": "Operator",
+          "en": "Where are you?",
+          "pt": "Onde vocês estão?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "I'm at the bus stop on King Street.",
+          "pt": "Estou no ponto de ônibus da King Street."
+        },
+        {
+          "speaker": "Operator",
+          "en": "Okay. Is your friend awake?",
+          "pt": "Certo. O seu amigo está acordado?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Sorry, please repeat.",
+          "pt": "Desculpe, repita, por favor."
+        },
+        {
+          "speaker": "Operator",
+          "en": "Is your friend awake? Can he talk?",
+          "pt": "O seu amigo está acordado? Ele consegue falar?"
+        },
+        {
+          "speaker": "Leo",
+          "en": "Yes. He can talk.",
+          "pt": "Sim. Ele consegue falar."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "Call nine one one.",
+          "pt": "Ligue para o 911.",
+          "emoji": "🚨"
+        },
+        {
+          "en": "My friend is hurt.",
+          "pt": "O meu amigo está machucado.",
+          "emoji": "🤕"
+        },
+        {
+          "en": "ambulance",
+          "pt": "ambulância",
+          "emoji": "🚑"
+        },
+        {
+          "en": "Where are you?",
+          "pt": "Onde você está?",
+          "emoji": "📍"
+        },
+        {
+          "en": "Please repeat.",
+          "pt": "Repita, por favor.",
+          "emoji": "🔁"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"My friend is hurt. We need an ambulance.\"?",
+      "lang": "pt",
+      "options": [
+        "Nove-um-um, qual é a sua emergência?",
+        "Onde vocês estão?",
+        "O meu amigo está machucado. Precisamos de uma ambulância."
+      ],
+      "correct": 2,
+      "explanation": "\"My friend is hurt\" = o meu amigo está machucado."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Onde vocês estão?\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Where are you?",
+        "I'm at the bus stop on King Street.",
+        "Okay. Is your friend awake?"
+      ],
+      "correct": 0,
+      "explanation": "\"Where are you?\" = Onde você está?"
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Desculpe, repita, por favor.",
+      "answer": [
+        "Sorry,",
+        "please",
+        "repeat."
+      ],
+      "distractors": [
+        "king",
+        "street"
+      ],
+      "explanation": "Se não entender, peça: \"Please repeat\". Você também pode pedir um intérprete: \"Portuguese, please\"."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "I'm at the bus stop on King Street.",
+      "lang": "pt",
+      "options": [
+        "Sim. Ele consegue falar.",
+        "Nove-um-um, qual é a sua emergência?",
+        "Estou no ponto de ônibus da King Street."
+      ],
+      "correct": 2,
+      "explanation": "Diga ONDE você está: \"I'm at the bus stop on...\""
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Operator",
+          "en": "Okay. Is your friend awake?",
+          "pt": "Certo. O seu amigo está acordado?"
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Desculpe, repita, por favor.",
+      "options": [
+        "My friend is hurt. We need an ambulance.",
+        "Sorry, please repeat.",
+        "Where are you?"
+      ],
+      "correct": 1,
+      "explanation": "Se não entender, peça: \"Please repeat\". Você também pode pedir um intérprete: \"Portuguese, please\"."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "Simulação do 911",
+      "questions": [
+        {
+          "english": "My friend is hurt. We need an ambulance.",
+          "options": [
+            "Estou no ponto de ônibus da King Street.",
+            "Certo. O seu amigo está acordado?",
+            "O meu amigo está machucado. Precisamos de uma ambulância."
+          ],
+          "correct": 2,
+          "joke": "\"My friend is hurt\" = o meu amigo está machucado."
+        },
+        {
+          "english": "I'm at the bus stop on King Street.",
+          "options": [
+            "Estou no ponto de ônibus da King Street.",
+            "Nove-um-um, qual é a sua emergência?",
+            "O meu amigo está machucado. Precisamos de uma ambulância."
+          ],
+          "correct": 0,
+          "joke": "Diga ONDE você está: \"I'm at the bus stop on...\""
+        },
+        {
+          "english": "Sorry, please repeat.",
+          "options": [
+            "Desculpe, repita, por favor.",
+            "Nove-um-um, qual é a sua emergência?",
+            "O meu amigo está machucado. Precisamos de uma ambulância."
+          ],
+          "correct": 0,
+          "joke": "Se não entender, peça: \"Please repeat\". Você também pode pedir um intérprete: \"Portuguese, please\"."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Saúde e segurança · Canadá",
+      "items": [
+        {
+          "emoji": "🚨",
+          "title": "911",
+          "en": "Nine-one-one, what's your emergency?",
+          "pt": "911 é o número de emergência no Canadá (polícia, bombeiros e ambulância). Diga primeiro ONDE você está. Se não conseguir falar inglês, peça um intérprete: \"Portuguese, please\"."
+        }
+      ]
+    }
+  ]
+}

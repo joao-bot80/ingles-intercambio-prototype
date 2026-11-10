@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "ca-l48",
+  "title": "Chuva também é Canadá",
+  "scenario": "Dave combina um passeio com Leo; nem todo dia de frio é de neve.",
+  "exercises": [
+    {
+      "type": "dialogue",
+      "title": "Chuva também é Canadá",
+      "lines": [
+        {
+          "speaker": "Dave",
+          "en": "Let's go to the park today.",
+          "pt": "Vamos ao parque hoje."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Look! It's raining.",
+          "pt": "Olha! Está chovendo."
+        },
+        {
+          "speaker": "Dave",
+          "en": "Take an umbrella and wear your boots.",
+          "pt": "Leve um guarda-chuva e use as suas botas."
+        },
+        {
+          "speaker": "Leo",
+          "en": "It's raining a lot now.",
+          "pt": "Está chovendo muito agora."
+        },
+        {
+          "speaker": "Dave",
+          "en": "Okay. Let's stay inside.",
+          "pt": "Tudo bem. Vamos ficar em casa."
+        },
+        {
+          "speaker": "Leo",
+          "en": "Good idea. Maybe tomorrow.",
+          "pt": "Boa ideia. Talvez amanhã."
+        }
+      ]
+    },
+    {
+      "type": "vocab",
+      "title": "Palavras novas",
+      "words": [
+        {
+          "en": "It's raining.",
+          "pt": "Está chovendo.",
+          "emoji": "🌧️"
+        },
+        {
+          "en": "umbrella",
+          "pt": "guarda-chuva",
+          "emoji": "☂️"
+        },
+        {
+          "en": "Let's stay inside.",
+          "pt": "Vamos ficar em casa / dentro.",
+          "emoji": "🏠"
+        },
+        {
+          "en": "park",
+          "pt": "parque",
+          "emoji": "🌳"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "title": "Escolha a resposta",
+      "prompt": "O que significa \"Look! It's raining.\"?",
+      "lang": "pt",
+      "options": [
+        "Vamos ao parque hoje.",
+        "Leve um guarda-chuva e use as suas botas.",
+        "Olha! Está chovendo."
+      ],
+      "correct": 2,
+      "explanation": "\"It's raining\" = está chovendo."
+    },
+    {
+      "type": "choice",
+      "title": "Como se diz?",
+      "prompt": "Como dizer \"Boa ideia. Talvez amanhã.\" em inglês?",
+      "lang": "en",
+      "options": [
+        "Good idea. Maybe tomorrow.",
+        "It's raining a lot now.",
+        "Okay. Let's stay inside."
+      ],
+      "correct": 0,
+      "explanation": "\"Good idea\" = boa ideia."
+    },
+    {
+      "type": "build",
+      "title": "Monte a frase",
+      "portuguese": "Olha! Está chovendo.",
+      "answer": [
+        "Look!",
+        "It's",
+        "raining."
+      ],
+      "distractors": [
+        "idea",
+        "maybe"
+      ],
+      "explanation": "\"It's raining\" = está chovendo."
+    },
+    {
+      "type": "listening",
+      "title": "Ouça e escolha",
+      "prompt": "O que você ouviu?",
+      "english": "Take an umbrella and wear your boots.",
+      "lang": "pt",
+      "options": [
+        "Boa ideia. Talvez amanhã.",
+        "Vamos ao parque hoje.",
+        "Leve um guarda-chuva e use as suas botas."
+      ],
+      "correct": 2,
+      "explanation": "\"Take an umbrella\" = leve um guarda-chuva."
+    },
+    {
+      "type": "complete",
+      "title": "Complete o diálogo",
+      "context": [
+        {
+          "speaker": "Dave",
+          "en": "Okay. Let's stay inside.",
+          "pt": "Tudo bem. Vamos ficar em casa."
+        }
+      ],
+      "speaker": "Leo",
+      "pt": "Boa ideia. Talvez amanhã.",
+      "options": [
+        "Take an umbrella and wear your boots.",
+        "It's raining a lot now.",
+        "Good idea. Maybe tomorrow."
+      ],
+      "correct": 2,
+      "explanation": "\"Good idea\" = boa ideia."
+    },
+    {
+      "type": "boss",
+      "title": "Desafio final",
+      "bossName": "O passeio com chuva",
+      "questions": [
+        {
+          "english": "Look! It's raining.",
+          "options": [
+            "Leve um guarda-chuva e use as suas botas.",
+            "Tudo bem. Vamos ficar em casa.",
+            "Olha! Está chovendo."
+          ],
+          "correct": 2,
+          "joke": "\"It's raining\" = está chovendo."
+        },
+        {
+          "english": "Take an umbrella and wear your boots.",
+          "options": [
+            "Leve um guarda-chuva e use as suas botas.",
+            "Olha! Está chovendo.",
+            "Está chovendo muito agora."
+          ],
+          "correct": 0,
+          "joke": "\"Take an umbrella\" = leve um guarda-chuva."
+        },
+        {
+          "english": "Okay. Let's stay inside.",
+          "options": [
+            "Tudo bem. Vamos ficar em casa.",
+            "Está chovendo muito agora.",
+            "Boa ideia. Talvez amanhã."
+          ],
+          "correct": 0,
+          "joke": "\"Let's stay inside\" = vamos ficar dentro / em casa."
+        }
+      ]
+    },
+    {
+      "type": "culture",
+      "title": "Dica cultural",
+      "region": "Dia a dia · Canadá",
+      "items": [
+        {
+          "emoji": "🌡️",
+          "title": "Graus Celsius",
+          "en": "It's minus twenty today.",
+          "pt": "O Canadá usa graus Celsius, como o Brasil. \"Minus twenty\" = -20 °C. Com vento, a sensação (wind chill) é ainda mais fria."
+        }
+      ]
+    }
+  ]
+}

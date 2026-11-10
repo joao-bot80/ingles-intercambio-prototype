@@ -242,14 +242,14 @@
           "joke": "Lembra do \"Anything to declare?\" do aeroporto? Mesma ideia."
         },
         {
-          "english": "Everyone says sorry.",
+          "english": "Can I have a hot chocolate, please?",
           "options": [
-            "Todo mundo pede desculpa.",
-            "Ninguém pede desculpa.",
-            "Todo mundo diz obrigado."
+            "Pode me ver um chocolate quente, por favor?",
+            "Você tem chocolate quente?",
+            "Eu não gosto de chocolate quente."
           ],
           "correct": 0,
-          "joke": "Sorry = desculpa."
+          "joke": "\"Can I have...?\" = Pode me ver...? Serve em qualquer café."
         }
       ]
     },
