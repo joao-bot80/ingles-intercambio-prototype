@@ -25,7 +25,7 @@
         },
         {
           "speaker": "Agent",
-          "en": "I'm sorry. What color is your bag?",
+          "en": "I'm sorry. What colour is your bag?",
           "pt": "Sinto muito. De que cor é a sua mala?"
         },
         {
@@ -155,14 +155,14 @@
       "bossName": "O balcão de bagagem",
       "questions": [
         {
-          "english": "What color is your bag?",
+          "english": "What colour is your bag?",
           "options": [
             "De que cor é a sua mala?",
             "Qual é o tamanho da sua mala?",
             "Onde está a sua mala?"
           ],
           "correct": 0,
-          "joke": "Color = cor."
+          "joke": "Colour = cor."
         },
         {
           "english": "Can you write your address here?",
